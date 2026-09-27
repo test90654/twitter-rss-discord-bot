@@ -19,10 +19,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install requests beautifulsoup4
 
       - name: Run script
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          python check_bookoff.py  # ← ここを新しいファイル名に変更
+          python check_bookoff.py
