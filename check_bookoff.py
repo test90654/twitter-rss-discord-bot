@@ -1,10 +1,10 @@
 import os
 import requests
-from bs4 import BeautifulSoup
 
-# Yahoo!リアルタイム検索で検索するキーワード
 QUERY = "bookoffnishigu1 買取"
-URL = f"https://search.yahoo.co.jp/realtime/search?p={requests.utils.quote(QUERY)}"
+# Yahoo!リアルタイム検索のURLをJina Reader経由で取得（JSがレンダリングされる）
+SEARCH_URL = f"https://search.yahoo.co.jp/realtime/search?p={requests.utils.quote(QUERY)}"
+API_URL = f"https://r.jina.ai/{SEARCH_URL}"
 
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
@@ -13,42 +13,35 @@ def check_and_notify():
         print("Error: DISCORD_WEBHOOK_URL is not set.")
         return
 
-    print(f"Fetching Yahoo! Realtime Search for: {QUERY}")
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
+    print(f"Fetching rendered search results for: {QUERY}")
+    headers = {"Accept": "text/plain"}
 
     try:
-        response = requests.get(URL, headers=headers, timeout=10)
+        response = requests.get(API_URL, headers=headers, timeout=15)
         if response.status_code != 200:
-            print(f"Failed to fetch Yahoo search: {response.status_code}")
+            print(f"Failed to fetch data: {response.status_code}, {response.text}")
             return
 
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        found_texts = []
-        for el in soup.find_all(['p', 'div', 'span']):
-            text = el.get_text()
-            if "買取" in text and len(text) > 10 and len(text) < 300:
-                if text not in found_texts:
-                    found_texts.append(text)
+        page_text = response.text
+        print("Successfully fetched page content. Checking for keywords...")
 
-        if found_texts:
-            latest_text = found_texts[0]
-            print(f"Found match: {latest_text[:30]}...")
-
-            message = {
-                "content": f"📢 **Yahoo!リアルタイム検索経由で「買取」の告知を検知しました！**\n\n> {latest_text}\n\n🔗 検索結果URL:\n{URL}"
-            }
+        if "買取" in page_text:
+            lines = page_text.split("\n")
+            matched_lines = [line for line in lines if "買取" in line]
             
-            response = requests.post(WEBHOOK_URL, json=message)
-            if response.status_code == 204:
-                print("Successfully sent notification to Discord!")
-            else:
-                print(f"Failed to send Discord notification: {response.status_code}")
+            if matched_lines:
+                combined_text = "\n".join(matched_lines[:3])
+                message = {
+                    "content": f"📢 **Yahoo!リアルタイム検索経由で「買取」の告知を検知しました！**\n\n> {combined_text}\n\n🔗 検索結果URL:\n{SEARCH_URL}"
+                }
+                
+                res = requests.post(WEBHOOK_URL, json=message)
+                if res.status_code == 204:
+                    print("Successfully sent notification to Discord!")
+                else:
+                    print(f"Failed to send Discord notification: {res.status_code}")
         else:
-            print("No matching posts found on Yahoo Realtime.")
+            print("No matching keywords found in the search results.")
 
     except Exception as e:
         print(f"An error occurred: {e}")
