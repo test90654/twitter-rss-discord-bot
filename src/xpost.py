@@ -72,9 +72,9 @@ def should_exclude(text: str) -> bool:
     return False
 
 def send_to_discord(webhook_url, tweet_text, tweet_url):
-    """DiscordのWebhookへ通知を送信（プレビュー二重化防止版）"""
+    """DiscordのWebhookへ通知を送信（プレビュー完全非表示版）"""
     payload = {
-        "content": f"🚨 **【ブックオフプラス新宿駅西口店 買取情報】** 🚨\n\n{tweet_text}\n\n👉 [このツイートをXで見る]({tweet_url})"
+        "content": f"🚨 **【ブックオフプラス新宿駅西口店 買取情報】** 🚨\n\n{tweet_text}\n\n👉 元ツイート: <{tweet_url}>"
     }
     response = requests.post(webhook_url, json=payload)
     if response.status_code == 204:
