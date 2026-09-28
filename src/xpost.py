@@ -34,12 +34,11 @@ def save_last_tweet_id(tweet_id):
         print(f"Failed to save state: {e}")
 
 def fetch_tweets():
-    """twitter-cliを使って最新のポストを多めに（例: 20件）取得する"""
+    """twitter-cliを使って最新のポストを多め（20件）に取得する"""
     print(f"Fetching tweets for @{TARGET_USER}...")
     
     env = os.environ.copy()
     
-    # 取得件数を多め（20件）に指定
     result = subprocess.run(
         ["python", "-m", "twitter_cli.cli", "user-posts", TARGET_USER, "--max", "20", "--json"],
         capture_output=True,
@@ -73,9 +72,9 @@ def should_exclude(text: str) -> bool:
     return False
 
 def send_to_discord(webhook_url, tweet_text, tweet_url):
-    """DiscordのWebhookへ通知を送信"""
+    """DiscordのWebhookへ通知を送信（プレビュー二重化防止版）"""
     payload = {
-        "content": f"🚨 **【ブックオフプラス新宿駅西口店 買取情報】** 🚨\n\n{tweet_text}\n\n🔗 {tweet_url}"
+        "content": f"🚨 **【ブックオフプラス新宿駅西口店 買取情報】** 🚨\n\n{tweet_text}\n\n👉 [このツイートをXで見る]({tweet_url})"
     }
     response = requests.post(webhook_url, json=payload)
     if response.status_code == 204:
@@ -106,8 +105,6 @@ def main():
     valid_tweets_to_send = []
     newest_fetched_id = None
 
-    # twitter-cliの出力は通常「新しい順」になっているため、
-    # 過去に通知したID（last_sent_id）にぶつかるまでの未通知ツイートをすべて集める
     for i, tweet in enumerate(tweets):
         if isinstance(tweet, dict):
             text = tweet.get("text", tweet.get("full_text", ""))
@@ -118,16 +115,13 @@ def main():
         if not tweet_id or not text:
             continue
 
-        # 一番最初に登場した（最も新しい）ツイートIDを記録しておく
         if i == 0:
             newest_fetched_id = tweet_id
 
-        # すでに通知済みのIDに到達したらそれ以上古いものは集めない
         if tweet_id == last_sent_id:
             print("Reached already notified tweet. Stopping collection.")
             break
 
-        # 除外キーワードが含まれていればスキップ
         if should_exclude(text):
             print(f"Skipping (excluded keyword): {text[:30]}...")
             continue
@@ -135,7 +129,6 @@ def main():
         tweet_url = f"https://x.com/{TARGET_USER}/status/{tweet_id}"
         valid_tweets_to_send.append({"id": tweet_id, "text": text, "url": tweet_url})
 
-    # 取得した新着ツイートを「古い順（タイムラインの自然な流れ）」に並べ替えてから通知する
     if valid_tweets_to_send:
         valid_tweets_to_send.reverse()
         print(f"Found {len(valid_tweets_to_send)} new valid tweet(s) to send.")
@@ -144,7 +137,6 @@ def main():
             print(f"Sending: {vt['text'][:30]}...")
             send_to_discord(webhook_url, vt["text"], vt["url"])
         
-        # 今回処理できた中で最も新しいIDをステートとして保存
         if newest_fetched_id:
             save_last_tweet_id(newest_fetched_id)
     else:
