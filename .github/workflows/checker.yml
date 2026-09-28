@@ -2,9 +2,12 @@ name: Twitter Buyback Monitor
 
 on:
   schedule:
-    # 1時間ごとに実行（必要に応じてCron式を変更してください）
+    # 1時間ごとに実行
     - cron: '0 * * * *'
-  workflow_dispatch: # 手動実行も可能にす​​る
+  workflow_dispatch: # 手動実行も可能にする
+
+permissions:
+  contents: write
 
 jobs:
   check-tweets:
@@ -32,9 +35,8 @@ jobs:
         run: |
           python src/xpost.py
 
-      # （オプション）実行ごとに最新の通知済みIDをコミットして保存する場合
       - name: Commit state
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update last sent tweet state"
+          commit_message: "Update last sent tweet state [skip ci]"
           file_pattern: "last_tweet_id.txt"
