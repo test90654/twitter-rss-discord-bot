@@ -16,7 +16,7 @@ EXCLUDE_KEYWORDS = [
 ]
 
 def load_last_tweet_id():
-    """前回通知したツイートIDを読み込む（GitHub Actions環境対応）"""
+    """前回通知した最新のツイートIDを読み込む"""
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r", encoding="utf-8") as f:
@@ -26,7 +26,7 @@ def load_last_tweet_id():
     return None
 
 def save_last_tweet_id(tweet_id):
-    """今回通知したツイートIDを保存する"""
+    """今回処理した中で最も新しいツイートIDを保存する"""
     try:
         with open(STATE_FILE, "w", encoding="utf-8") as f:
             f.write(str(tweet_id))
@@ -34,14 +34,14 @@ def save_last_tweet_id(tweet_id):
         print(f"Failed to save state: {e}")
 
 def fetch_tweets():
-    """twitter-cliを使って最新のポストをJSON形式で取得する（文字コード安全対策済み）"""
+    """twitter-cliを使って最新のポストを多めに（例: 20件）取得する"""
     print(f"Fetching tweets for @{TARGET_USER}...")
     
-    # 環境変数（GitHub Secretsから渡されるTWITTER_AUTH_TOKEN / TWITTER_CT0）を継承
     env = os.environ.copy()
     
+    # 取得件数を多め（20件）に指定
     result = subprocess.run(
-        ["python", "-m", "twitter_cli.cli", "user-posts", TARGET_USER, "--max", "10", "--json"],
+        ["python", "-m", "twitter_cli.cli", "user-posts", TARGET_USER, "--max", "20", "--json"],
         capture_output=True,
         text=True,
         encoding="utf-8",
@@ -63,7 +63,6 @@ def fetch_tweets():
         return data
     except json.JSONDecodeError:
         print("Failed to parse JSON from twitter-cli output.")
-        print(f"Raw output (first 200 chars): {raw_output[:200]}")
         return []
 
 def should_exclude(text: str) -> bool:
@@ -95,7 +94,6 @@ def main():
         print("No tweets found or failed to fetch.")
         return
 
-    # データの構造が辞書でラップされている場合のフォールバック
     if isinstance(tweets, dict):
         tweets = tweets.get("tweets", tweets.get("data", [tweets]))
 
@@ -104,42 +102,51 @@ def main():
         return
 
     last_sent_id = load_last_tweet_id()
-    latest_valid_tweet = None
+    
+    valid_tweets_to_send = []
+    newest_fetched_id = None
 
-    # 新着順に確認
-    for tweet in tweets:
-        # 型に応じた安全な値の抽出
+    # twitter-cliの出力は通常「新しい順」になっているため、
+    # 過去に通知したID（last_sent_id）にぶつかるまでの未通知ツイートをすべて集める
+    for i, tweet in enumerate(tweets):
         if isinstance(tweet, dict):
             text = tweet.get("text", tweet.get("full_text", ""))
             tweet_id = str(tweet.get("id", tweet.get("id_str", "")))
-        elif isinstance(tweet, str):
-            text = tweet
-            tweet_id = ""
         else:
             continue
 
         if not tweet_id or not text:
             continue
 
-        # すでに通知済みのIDに到達したらループを抜ける（重複防止）
+        # 一番最初に登場した（最も新しい）ツイートIDを記録しておく
+        if i == 0:
+            newest_fetched_id = tweet_id
+
+        # すでに通知済みのIDに到達したらそれ以上古いものは集めない
         if tweet_id == last_sent_id:
-            print("Reached already notified tweet. Stopping check.")
+            print("Reached already notified tweet. Stopping collection.")
             break
 
-        # フィルタリング判定（除外キーワード）
+        # 除外キーワードが含まれていればスキップ
         if should_exclude(text):
             print(f"Skipping (excluded keyword): {text[:30]}...")
             continue
 
-        # 有効な新着ツイートを発見
         tweet_url = f"https://x.com/{TARGET_USER}/status/{tweet_id}"
-        latest_valid_tweet = {"id": tweet_id, "text": text, "url": tweet_url}
-        break  # 一番新しい有効な1件を処理対象にする
+        valid_tweets_to_send.append({"id": tweet_id, "text": text, "url": tweet_url})
 
-    if latest_valid_tweet:
-        print(f"Processing valid tweet: {latest_valid_tweet['text'][:30]}...")
-        send_to_discord(webhook_url, latest_valid_tweet["text"], latest_valid_tweet["url"])
-        save_last_tweet_id(latest_valid_tweet["id"])
+    # 取得した新着ツイートを「古い順（タイムラインの自然な流れ）」に並べ替えてから通知する
+    if valid_tweets_to_send:
+        valid_tweets_to_send.reverse()
+        print(f"Found {len(valid_tweets_to_send)} new valid tweet(s) to send.")
+        
+        for vt in valid_tweets_to_send:
+            print(f"Sending: {vt['text'][:30]}...")
+            send_to_discord(webhook_url, vt["text"], vt["url"])
+        
+        # 今回処理できた中で最も新しいIDをステートとして保存
+        if newest_fetched_id:
+            save_last_tweet_id(newest_fetched_id)
     else:
         print("No new valid tweets to notify.")
 
