@@ -2,9 +2,8 @@ name: Twitter Buyback Monitor
 
 on:
   schedule:
-    # 1時間ごとに実行
     - cron: '0 * * * *'
-  workflow_dispatch: # 手動実行も可能にする
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -27,16 +26,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests twitter-cli agent-client agent-reach
 
-      - name: Run monitoring script
+      - name: Run Bookoff Monitor
         env:
           TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
           TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          python src/xpost.py
+          python src/xpost_bookoff.py
 
-      - name: Commit state
+      - name: Run Mulan Monitor
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python src/xpost_mulan.py
+
+      - name: Commit states
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update last sent tweet state [skip ci]"
-          file_pattern: "last_tweet_id.txt"
+          commit_message: "Update last sent tweet states [skip ci]"
+          file_pattern: "last_tweet_id_*.txt"
