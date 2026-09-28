@@ -4,7 +4,10 @@ import json
 import requests
 
 TARGET_USER = "bookoffnishigu1"
-STATE_FILE = "last_tweet_id.txt"
+
+# スクリプトがあるディレクトリを基準にして、確実にルートに last_tweet_id.txt を置く
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATE_FILE = os.path.join(BASE_DIR, "..", "last_tweet_id.txt")
 
 # 営業時間や買取に関係ない定型ポストを弾くための除外キーワード
 EXCLUDE_KEYWORDS = [
