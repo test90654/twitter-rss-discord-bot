@@ -1,0 +1,40 @@
+name: Twitter Buyback Monitor
+
+on:
+  schedule:
+    # 1時間ごとに実行（必要に応じてCron式を変更してください）
+    - cron: '0 * * * *'
+  workflow_dispatch: # 手動実行も可能にす​​る
+
+jobs:
+  check-tweets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests twitter-cli agent-client agent-reach
+
+      - name: Run monitoring script
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python src/xpost.py
+
+      # （オプション）実行ごとに最新の通知済みIDをコミットして保存する場合
+      - name: Commit state
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update last sent tweet state"
+          file_pattern: "last_tweet_id.txt"
