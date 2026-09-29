@@ -3,9 +3,9 @@ import subprocess
 import json
 import requests
 
-TARGET_USER = "mulanakiba_chuo"
+TARGET_USER = "bookoffnishigu1"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATE_FILE = os.path.join(BASE_DIR, "..", "last_tweet_id_mulanakiba_chuo.txt")
+STATE_FILE = os.path.join(BASE_DIR, "..", "last_tweet_id_bookoffnishigu1.txt")
 
 EXCLUDE_KEYWORDS = [
     "営業時間",
