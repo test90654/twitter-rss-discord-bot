@@ -202,13 +202,22 @@ if selected_json:
     total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
 
     page_key = f"page_{tweet_id}"
-    if page_key not in st.session_state:
-        st.session_state[page_key] = 0
-    if st.session_state[page_key] >= total_pages or st.session_state[page_key] < 0:
-        st.session_state[page_key] = 0
 
     def is_done(item):
         return bool(item.get("_registered", False))
+
+    def first_pending_page():
+        """登録済みをパスして、最初に未登録アイテムがあるページを返す"""
+        for i, it in enumerate(parsed_items):
+            if not is_done(it):
+                return i // ITEMS_PER_PAGE
+        return 0
+
+    # リロード直後（セッションが新しい）やデータを開いた直後は、続きのページから始める
+    if page_key not in st.session_state:
+        st.session_state[page_key] = first_pending_page()
+    if st.session_state[page_key] >= total_pages or st.session_state[page_key] < 0:
+        st.session_state[page_key] = first_pending_page()
 
     def page_range(p):
         start = p * ITEMS_PER_PAGE
