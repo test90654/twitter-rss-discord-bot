@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import json
 import time
+import tempfile
 from pathlib import Path
 from PIL import Image
 from datetime import datetime
@@ -37,17 +38,31 @@ MASTER_SHEET_NAME = "シート1"
 TARGET_SPREADSHEET_ID = "1EQooFe5QbdCDe1wJj_lI8rxKoQFpre4E-1WbiPyJPx4"
 RESULT_SHEET_NAME = "sheet1"
 
-# --- 2. スプレッドシート & マスター読み込み関数 ---
+# --- 2. スプレッドシート & マスター読み込み関数（環境変数対応） ---
 def get_gspread_client():
+    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+    
+    # 1. Render等の環境変数（GCP_CREDENTIALS_JSON）に入っていればそれを使う
+    creds_json_str = os.environ.get("GCP_CREDENTIALS_JSON", "")
+    if creds_json_str:
+        try:
+            with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False, encoding="utf-8") as temp:
+                temp.write(creds_json_str)
+                temp_path = temp.name
+            creds = Credentials.from_service_account_file(temp_path, scopes=scope)
+            return gspread.authorize(creds)
+        except Exception as e:
+            st.error(f"環境変数のJSON解析エラー: {e}")
+
+    # 2. 環境変数がない場合（ローカル環境など）はファイルパスを探す
     creds_path = BASE_DIR / "credentials.json"
     if not creds_path.exists():
         alt_path = Path(r"C:\Users\chukyotokukai\Documents\rashinban\credentials.json")
         if alt_path.exists():
             creds_path = alt_path
         else:
-            raise FileNotFoundError(f"認証ファイルが見つかりません: {creds_path}")
+            raise FileNotFoundError(f"認証ファイルが見つかりません。Renderの場合は環境変数 `GCP_CREDENTIALS_JSON` を設定してください。")
             
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     creds = Credentials.from_service_account_file(creds_path, scopes=scope)
     return gspread.authorize(creds)
 
@@ -103,7 +118,7 @@ def analyze_image_with_gemini(image_path):
     client = genai.Client(api_key=API_KEY)
     prompt = """
     添付された買取表の画像を読み取り、以下のルールに従ってMarkdownの表形式（テーブル）で出力してください。
-    余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンスは絶対に含めず、表の中にある個別の商品データのみを出力してください。
+    余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンス（例：「📢9/21更新📢新作プライズフィギュア買取速報です✨️」など）は絶対に含めず、表の中にある個別の商品データのみを出力してください。
 
     【出力フォーマット（Markdownテーブル）】
     | シリーズ / キャラクター | 買取価格 | 更新日 | 型番 |
@@ -274,7 +289,6 @@ if selected_json:
 
                 st.session_state[session_key] = parsed_list
                 st.success(f"✨ 解析完了！ {len(parsed_list)}件のデータを抽出しました。")
-                # 💡 解析完了後に即座に画面を再描画して右側にリストを表示させる
                 st.rerun()
 
     with col_list:
