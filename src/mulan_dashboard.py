@@ -227,12 +227,11 @@ if selected_json:
         st.warning("⚠️ このデータをスキップしました（キューから除外）。")
         st.rerun()
 
-    # --- サイドバーまたは画面上部に一括アクションを配置 ---
+    # --- サイドバーの一括操作パネル ---
     if parsed_items:
         st.sidebar.markdown("---")
         st.sidebar.subheader("🚀 一括操作パネル")
         if st.sidebar.button("🚀 チェックした項目を一括登録", type="primary", key="sb_batch_btn"):
-            # サイドバーからでもチェック状態を拾えるようにインデックスを計算
             indices = [i for i in range(len(parsed_items)) if st.session_state.get(f"chk_{tweet_id}_{i}", True)]
             execute_batch_save(indices)
             
@@ -275,6 +274,8 @@ if selected_json:
 
                 st.session_state[session_key] = parsed_list
                 st.success(f"✨ 解析完了！ {len(parsed_list)}件のデータを抽出しました。")
+                # 💡 解析完了後に即座に画面を再描画して右側にリストを表示させる
+                st.rerun()
 
     with col_list:
         st.subheader("✍️ 抽出データ一覧・個別/チェック一括登録")
@@ -284,7 +285,7 @@ if selected_json:
         else:
             st.markdown(f"📌 **{len(parsed_items)}件** 検出。各行で修正・個別登録が可能です。（一括登録は**画面左上のサイドバー**からも行えます）")
             
-            if st.button("☑️️ すべての項目を選択する"):
+            if st.button("☑ すべての項目を選択する"):
                 for i in range(len(parsed_items)):
                     st.session_state[f"chk_{tweet_id}_{i}"] = True
                 st.rerun()
@@ -345,7 +346,6 @@ if selected_json:
 
             st.markdown("---")
             
-            # 画面下部にもボタンを残しつつ、サイドバーでも操作できるようにしました
             col_b1, col_b2 = st.columns(2)
             with col_b1:
                 if st.button("🚀 チェックした項目を一括登録 (下部)", type="primary"):
