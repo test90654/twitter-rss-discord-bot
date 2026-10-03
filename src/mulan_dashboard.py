@@ -8,7 +8,8 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 # --- 1. 初期設定・パス設定 ---
-BASE_DIR = Path(__file__).resolve().parent
+# src/ フォルダ内にあるため、parent.parent でプロジェクトのルート（一番上の階層）を指定
+BASE_DIR = Path(__file__).resolve().parent.parent
 QUEUE_DIR = BASE_DIR / "data" / "mulan_queue"
 DONE_DIR = BASE_DIR / "data" / "mulan_done"
 
