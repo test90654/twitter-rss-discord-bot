@@ -26,24 +26,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- 🎨 画面デザイン調整（左側を独立スクロール＆画面に完全固定するCSS） ---
-st.markdown("""
-<style>
-    .block-container {
-        max-width: 95% !important;
-    }
-    
-    /* 1番目のカラム（左側の画像・元ツイートエリア）を画面に固定し、左側内で独立スクロールさせる */
-    [data-testid="stHorizontalBlock"] > [data-testid="column"]:nth-child(1) {
-        position: sticky;
-        top: 4rem;
-        height: calc(100vh - 5rem);
-        overflow-y: auto;
-        padding-right: 1rem;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("GitHub Actions側で事前解析された買取データをプレビューしながら、スムーズにスプレッドシートへ登録できます。")
 
@@ -228,14 +210,47 @@ if selected_json:
             st.success("✨ すべての項目が登録されました！自動的に次のデータへ移動します...")
             check_and_complete_if_empty()
         else:
-            if st.button("☑ すべての項目を選択する"):
-                for i in range(len(parsed_items)):
+            # --- 📄 ページネーション処理 (1ページあたり10件表示) ---
+            ITEMS_PER_PAGE = 10
+            total_items = len(parsed_items)
+            total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
+            
+            # セッションにページ番号を保持
+            page_key = f"page_{tweet_id}"
+            if page_key not in st.session_state:
+                st.session_state[page_key] = 0
+            
+            # ページ範囲の安全チェック
+            if st.session_state[page_key] >= total_pages:
+                st.session_state[page_key] = total_pages - 1
+
+            # ページ切り替えコントロール
+            c_p1, c_p2, c_p3 = st.columns([1, 2, 1])
+            with c_p1:
+                if st.button("◀ 前へ", disabled=(st.session_state[page_key] == 0)):
+                    st.session_state[page_key] -= 1
+                    st.rerun()
+            with c_p2:
+                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages} (全 {total_items} 件)</div>", unsafe_allow_html=True)
+            with c_p3:
+                if st.button("次へ ▶", disabled=(st.session_state[page_key] >= total_pages - 1)):
+                    st.session_state[page_key] += 1
+                    st.rerun()
+
+            current_page = st.session_state[page_key]
+            start_idx = current_page * ITEMS_PER_PAGE
+            end_idx = min(start_idx + ITEMS_PER_PAGE, total_items)
+
+            if st.button("☑ このページの項目をすべて選択する"):
+                for i in range(start_idx, end_idx):
                     st.session_state[f"chk_{tweet_id}_{i}"] = True
                 st.rerun()
 
             selected_indices = []
             
-            for idx, item in enumerate(parsed_items):
+            # 現在のページのアイテムだけを描画
+            for idx in range(start_idx, end_idx):
+                item = parsed_items[idx]
                 with st.container(border=True):
                     c_chk, c_status = st.columns([1, 3])
                     with c_chk:
