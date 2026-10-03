@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import json
+import time
 from pathlib import Path
 from PIL import Image
 from datetime import datetime
@@ -87,7 +88,7 @@ def append_to_result_sheet(client_gspread, row_data):
     except Exception as e:
         raise Exception(f"結果シートへの書き込みエラー: {e}")
 
-# --- 3. Gemini による画像解析関数 ---
+# --- 3. Gemini による画像解析関数（自動リトライ付き） ---
 def analyze_image_with_gemini(image_path):
     if not API_KEY:
         st.error("❌ GEMINI_API_KEY が設定されていません。環境変数を確認してください。")
@@ -95,35 +96,47 @@ def analyze_image_with_gemini(image_path):
     try:
         with open(image_path, "rb") as f:
             image_bytes = f.read()
-
-        client = genai.Client(api_key=API_KEY)
-        prompt = """
-        添付された買取表の画像を読み取り、以下のルールに従ってMarkdownの表形式（テーブル）で出力してください。
-        余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンス（例：「📢9/21更新📢新作プライズフィギュア買取速報です✨️」など）は絶対に含めず、表の中にある個別の商品データのみを出力してください。
-
-        【出力フォーマット（Markdownテーブル）】
-        | シリーズ / キャラクター | 買取価格 | 更新日 | 型番 |
-        |---|---|---|---|
-        | 商品名が入る | 価格が入る | 更新日が入る | 型番が入る |
-
-        【処理ルール】
-        1. **更新日の付与**: 画像内から更新日を読み取り、各行に反映する。
-        2. **不要な文言の除外**: 注意事項、営業時間、宣伝文句などのノイズ文言はすべて除外する。
-        3. **シリーズ名・カテゴリー名の付与**: 赤文字等で記載されているシリーズ名やカテゴリー名を、商品名の先頭に必ず含める。
-        4. **重複・バリエーションの処理**: 型番が同じでもキャラクター違いやバージョン違いがある場合は絶対に統合せず別行として出力する。
-        """
-
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=[
-                types.Part.from_bytes(data=image_bytes, mime_type='image/jpeg'),
-                prompt
-            ]
-        )
-        return response.text
     except Exception as e:
-        st.error(f"Gemini解析エラー: {e}")
+        st.error(f"画像ファイルの読み込みエラー: {e}")
         return ""
+
+    client = genai.Client(api_key=API_KEY)
+    prompt = """
+    添付された買取表の画像を読み取り、以下のルールに従ってMarkdownの表形式（テーブル）で出力してください。
+    余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンス（例：「📢9/21更新📢新作プライズフィギュア買取速報です✨️」など）は絶対に含めず、表の中にある個別の商品データのみを出力してください。
+
+    【出力フォーマット（Markdownテーブル）】
+    | シリーズ / キャラクター | 買取価格 | 更新日 | 型番 |
+    |---|---|---|---|
+    | 商品名が入る | 価格が入る | 更新日が入る | 型番が入る |
+
+    【処理ルール】
+    1. **更新日の付与**: 画像内から更新日を読み取り、各行に反映する。
+    2. **不要な文言の除外**: 注意事項、営業時間、宣伝文句などのノイズ文言はすべて除外する。
+    3. **シリーズ名・カテゴリー名の付与**: 赤文字等で記載されているシリーズ名やカテゴリー名を、商品名の先頭に必ず含める。
+    4. **重複・バリエーションの処理**: 型番が同じでもキャラクター違いやバージョン違いがある場合は絶対に統合せず別行として出力する。
+    """
+
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=[
+                    types.Part.from_bytes(data=image_bytes, mime_type='image/jpeg'),
+                    prompt
+                ]
+            )
+            return response.text
+        except Exception as e:
+            if "503" in str(e) and attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 2
+                st.warning(f"⚠️ Geminiが混雑しています（503エラー）。{wait_time}秒後に自動再試行します... ({attempt+1}/{max_retries})")
+                time.sleep(wait_time)
+            else:
+                st.error(f"Gemini解析エラー: {e}")
+                return ""
+    return ""
 
 def parse_gemini_output(text):
     items = []
@@ -269,7 +282,7 @@ if selected_json:
             with col_btn1:
                 approve_btn = st.form_submit_button("✅ この1件をスプレッドシートへ転記", type="primary")
             with col_btn2:
-                skip_btn = st.form_submit_button("🗑️️ このデータをスキップ（削除）")
+                skip_btn = st.form_submit_button("🗑 このデータをスキップ（削除）")
 
             if approve_btn:
                 if not edited_name:
