@@ -26,20 +26,20 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- 🎨 画面デザイン調整（左側画像をスクロール追従させるCSS） ---
+# --- 🎨 画面デザイン調整（左側を独立スクロール＆画面に完全固定するCSS） ---
 st.markdown("""
 <style>
     .block-container {
         max-width: 95% !important;
     }
     
-    /* 1番目のカラム（左側のプレビュー画像）をスクロールにピタッと追従させる */
+    /* 1番目のカラム（左側の画像・元ツイートエリア）を画面に固定し、左側内で独立スクロールさせる */
     [data-testid="stHorizontalBlock"] > [data-testid="column"]:nth-child(1) {
         position: sticky;
         top: 4rem;
-        align-self: flex-start;
-        max-height: calc(100vh - 5rem);
+        height: calc(100vh - 5rem);
         overflow-y: auto;
+        padding-right: 1rem;
     }
 </style>
 """, unsafe_allow_html=True)
