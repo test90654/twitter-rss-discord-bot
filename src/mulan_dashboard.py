@@ -26,29 +26,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- 🎨 画面デザイン調整（左側画像をフルサイズのままスクロール追従させるCSS） ---
-st.markdown("""
-<style>
-    /* 1. Streamlitのメインコンテナのスクロール制限を解除してブラウザ全体のスクロールに合わせる */
-    .main .block-container {
-        max-width: 95% !important;
-        overflow: visible !important;
-    }
-    
-    /* 2. 左右カラムの親ブロックが高さを持たないようにする */
-    [data-testid="stHorizontalBlock"] {
-        align-items: flex-start !important;
-    }
-
-    /* 3. 左側のカラム（画像＋元ツイートエリア）を画面にしっかり追従させる */
-    [data-testid="stHorizontalBlock"] > [data-testid="column"]:nth-child(1) {
-        position: sticky !important;
-        top: 5rem !important;
-        z-index: 99;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("GitHub Actions側で事前解析された買取データをプレビューしながら、スムーズにスプレッドシートへ登録できます。")
 
@@ -218,7 +195,6 @@ if selected_json:
         st.subheader("📷 買取表プレビュー")
         if image_path.exists():
             img = Image.open(image_path)
-            # ちょうどよい大きさに設定 (width=650)
             st.image(img, width=650)
         else:
             st.error(f"画像ファイルが見つかりません: {image_filename}")
@@ -234,7 +210,8 @@ if selected_json:
             st.success("✨ すべての項目が登録されました！自動的に次のデータへ移動します...")
             check_and_complete_if_empty()
         else:
-            ITEMS_PER_PAGE = 10
+            # --- 📄 ページネーション処理 (1ページあたり5件表示) ---
+            ITEMS_PER_PAGE = 5
             total_items = len(parsed_items)
             total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
             
@@ -245,15 +222,16 @@ if selected_json:
             if st.session_state[page_key] >= total_pages:
                 st.session_state[page_key] = total_pages - 1
 
+            # --- 🔄 ページネーションバー（上部） ---
             c_p1, c_p2, c_p3 = st.columns([1, 2, 1])
             with c_p1:
-                if st.button("◀ 前へ", disabled=(st.session_state[page_key] == 0)):
+                if st.button("◀ 前へ", key=f"prev_top_{tweet_id}", disabled=(st.session_state[page_key] == 0)):
                     st.session_state[page_key] -= 1
                     st.rerun()
             with c_p2:
                 st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages} (全 {total_items} 件)</div>", unsafe_allow_html=True)
             with c_p3:
-                if st.button("次へ ▶", disabled=(st.session_state[page_key] >= total_pages - 1)):
+                if st.button("次へ ▶", key=f"next_top_{tweet_id}", disabled=(st.session_state[page_key] >= total_pages - 1)):
                     st.session_state[page_key] += 1
                     st.rerun()
 
@@ -261,13 +239,14 @@ if selected_json:
             start_idx = current_page * ITEMS_PER_PAGE
             end_idx = min(start_idx + ITEMS_PER_PAGE, total_items)
 
-            if st.button("☑ このページの項目をすべて選択する"):
+            if st.button("☑ このページの項目をすべて選択する", key=f"select_all_{tweet_id}_{current_page}"):
                 for i in range(start_idx, end_idx):
                     st.session_state[f"chk_{tweet_id}_{i}"] = True
                 st.rerun()
 
             selected_indices = []
             
+            # 現在のページの5件だけを描画
             for idx in range(start_idx, end_idx):
                 item = parsed_items[idx]
                 with st.container(border=True):
@@ -320,6 +299,19 @@ if selected_json:
                         except Exception as e:
                             st.error(f"❌ 登録エラー: {e}")
 
+            # --- 🔄 ページネーションバー（下部） ---
+            c_bp1, c_bp2, c_bp3 = st.columns([1, 2, 1])
+            with c_bp1:
+                if st.button("◀ 前へ", key=f"prev_bot_{tweet_id}", disabled=(st.session_state[page_key] == 0)):
+                    st.session_state[page_key] -= 1
+                    st.rerun()
+            with c_bp2:
+                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages}</div>", unsafe_allow_html=True)
+            with c_bp3:
+                if st.button("次へ ▶", key=f"next_bot_{tweet_id}", disabled=(st.session_state[page_key] >= total_pages - 1)):
+                    st.session_state[page_key] += 1
+                    st.rerun()
+
             st.markdown("---")
             
             col_b1, col_b2 = st.columns(2)
@@ -327,5 +319,5 @@ if selected_json:
                 if st.button("🚀 チェックした項目を一括登録 (下部)", type="primary"):
                     execute_batch_save(selected_indices)
             with col_b2:
-                if st.button("🗑️️ このデータを丸ごとスキップ (下部)"):
+                if st.button("🗑️ このデータを丸ごとスキップ (下部)"):
                     execute_skip()
