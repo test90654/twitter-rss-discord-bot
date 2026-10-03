@@ -29,10 +29,17 @@ st.set_page_config(
 # --- 🎨 画面デザイン調整（左側画像をスクロール追従させるCSS） ---
 st.markdown("""
 <style>
-    [data-testid="column"]:nth-of-type(1) {
+    .block-container {
+        max-width: 95% !important;
+    }
+    
+    /* 1番目のカラム（左側のプレビュー画像）をスクロールにピタッと追従させる */
+    [data-testid="stHorizontalBlock"] > [data-testid="column"]:nth-child(1) {
         position: sticky;
-        top: 5rem;
-        z-index: 99;
+        top: 4rem;
+        align-self: flex-start;
+        max-height: calc(100vh - 5rem);
+        overflow-y: auto;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -95,19 +102,15 @@ done_files = sorted(list(DONE_DIR.glob("*.json")), key=lambda x: x.stat().st_mti
 if done_files:
     st.sidebar.markdown("---")
     st.sidebar.subheader("↩️ 直近の完了データを復元 (アンドゥ)")
-    # 直近完了したファイルを選択してキューに戻す
     restore_target = st.sidebar.selectbox("復元するデータを選択", done_files, format_func=lambda x: x.name)
     if st.sidebar.button("♻️ 選択したデータを未処理に戻す"):
         try:
-        # JSONファイルと紐づく画像ファイルを両方キューに戻す
             meta_path = DONE_DIR / restore_target.name
             with open(meta_path, "r", encoding="utf-8") as f:
                 meta_data = json.load(f)
             img_filename = meta_data.get("image_file")
             
-            # JSONを戻す
             meta_path.rename(QUEUE_DIR / restore_target.name)
-            # 画像があれば戻す
             if img_filename:
                 done_img = DONE_DIR / img_filename
                 if done_img.exists():
@@ -219,7 +222,7 @@ if selected_json:
             st.markdown(f"[🔗 X(Twitter)で元ツイートを開く]({tweet_url})")
 
     with col_list:
-        st.subheader(f"✍️️ 事前解析データ確認 (残り: {len(parsed_items)}件)")
+        st.subheader(f"✍️ 事前解析データ確認 (残り: {len(parsed_items)}件)")
         
         if not parsed_items:
             st.success("✨ すべての項目が登録されました！自動的に次のデータへ移動します...")
