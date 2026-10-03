@@ -2,6 +2,8 @@ name: Test Mulan Image Collector
 
 on:
   workflow_dispatch: # 手動でいつでもテスト実行できるようにする
+  # schedule:
+  #   - cron: '0 * * * *' # 必要に応じて定期実行のコメントアウトを解除してください
 
 permissions:
   contents: write
@@ -36,3 +38,15 @@ jobs:
         with:
           commit_message: "Add collected Mulan images and metadata for testing [skip ci]"
           file_pattern: "data/mulan_queue/*"
+
+      - name: Trigger Render Deploy
+        if: success()
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -n "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "Triggering Render Deploy Hook..."
+            curl -X POST "$RENDER_DEPLOY_HOOK_URL"
+          else
+            echo "RENDER_DEPLOY_HOOK_URL is not set. Skipping deployment trigger."
+          fi
