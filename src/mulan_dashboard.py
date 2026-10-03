@@ -26,6 +26,29 @@ st.set_page_config(
     layout="wide"
 )
 
+# --- 🎨 画面デザイン調整（左側画像をフルサイズのままスクロール追従させるCSS） ---
+st.markdown("""
+<style>
+    /* 1. Streamlitのメインコンテナのスクロール制限を解除してブラウザ全体のスクロールに合わせる */
+    .main .block-container {
+        max-width: 95% !important;
+        overflow: visible !important;
+    }
+    
+    /* 2. 左右カラムの親ブロックが高さを持たないようにする */
+    [data-testid="stHorizontalBlock"] {
+        align-items: flex-start !important;
+    }
+
+    /* 3. 左側のカラム（画像＋元ツイートエリア）を画面にしっかり追従させる */
+    [data-testid="stHorizontalBlock"] > [data-testid="column"]:nth-child(1) {
+        position: sticky !important;
+        top: 5rem !important;
+        z-index: 99;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("GitHub Actions側で事前解析された買取データをプレビューしながら、スムーズにスプレッドシートへ登録できます。")
 
@@ -195,7 +218,7 @@ if selected_json:
         st.subheader("📷 買取表プレビュー")
         if image_path.exists():
             img = Image.open(image_path)
-            # 画像サイズを読みやすい大きさに調整 (width=650)
+            # ちょうどよい大きさに設定 (width=650)
             st.image(img, width=650)
         else:
             st.error(f"画像ファイルが見つかりません: {image_filename}")
@@ -304,5 +327,5 @@ if selected_json:
                 if st.button("🚀 チェックした項目を一括登録 (下部)", type="primary"):
                     execute_batch_save(selected_indices)
             with col_b2:
-                if st.button("🗑️ このデータを丸ごとスキップ (下部)"):
+                if st.button("🗑️️ このデータを丸ごとスキップ (下部)"):
                     execute_skip()
