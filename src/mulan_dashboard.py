@@ -8,6 +8,8 @@ from datetime import datetime
 import gspread
 from google.oauth2.service_account import Credentials
 import time
+import re
+import unicodedata
 
 # --- 1. 初期設定・パス設定 ---
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -99,14 +101,42 @@ def get_gspread_client():
     creds = Credentials.from_service_account_file(creds_path, scopes=scope)
     return gspread.authorize(creds)
 
+def get_result_sheet(client_gspread):
+    spreadsheet = client_gspread.open_by_key(TARGET_SPREADSHEET_ID)
+    try:
+        return spreadsheet.worksheet(RESULT_SHEET_NAME)
+    except gspread.exceptions.WorksheetNotFound:
+        sheet = spreadsheet.add_worksheet(title=RESULT_SHEET_NAME, rows=1000, cols=10)
+        sheet.update(range_name="A1:E1", values=[["ジャンル", "商品名", "価格", "更新日", "型番/JAN"]])
+        return sheet
+
+def _norm(value):
+    """比較用に表記ゆれを吸収する（全角/半角・空白・大文字小文字・日付の区切り）"""
+    s = unicodedata.normalize("NFKC", str(value or ""))
+    s = re.sub(r"\s+", "", s).lower()
+    return s.replace("-", "/")
+
+def item_key(name, model_number, update_date):
+    """
+    登録済み判定に使うキー。商品名＋型番/JAN＋更新日 が一致したら同じ商品とみなす。
+    （価格は手で直すことがあるので判定に含めない）
+    """
+    return (_norm(name), _norm(model_number), _norm(update_date))
+
+def fetch_registered_keys(client_gspread):
+    """スプレッドシートに既に登録されている商品のキー一覧を取得（B:商品名 C:価格 D:更新日 E:型番/JAN）"""
+    sheet = get_result_sheet(client_gspread)
+    keys = set()
+    for row in sheet.get_all_values()[1:]:  # 1行目は見出し
+        row = row + [""] * (5 - len(row))
+        name, _price, date, model = row[1], row[2], row[3], row[4]
+        if name.strip():
+            keys.add(item_key(name, model, date))
+    return keys
+
 def append_to_result_sheet(client_gspread, row_data):
     try:
-        spreadsheet = client_gspread.open_by_key(TARGET_SPREADSHEET_ID)
-        try:
-            sheet = spreadsheet.worksheet(RESULT_SHEET_NAME)
-        except gspread.exceptions.WorksheetNotFound:
-            sheet = spreadsheet.add_worksheet(title=RESULT_SHEET_NAME, rows=1000, cols=10)
-            sheet.update(range_name="A1:E1", values=[["ジャンル", "商品名", "価格", "更新日", "型番/JAN"]])
+        sheet = get_result_sheet(client_gspread)
 
         # A列はジャンル列なので触らず、B列（商品名）の最終行の次の行の B〜E 列に書き込む
         next_row = len(sheet.col_values(2)) + 1
@@ -192,8 +222,35 @@ if selected_json:
     image_path = QUEUE_DIR / image_filename
 
     items_session_key = f"items_{tweet_id}"
+    sync_msg_key = f"sync_msg_{tweet_id}"
+
+    def sync_with_sheet(items):
+        """
+        スプレッドシートと照合し、既に登録されている商品に「登録済み」の印を付ける。
+        JSONファイルが消えたり古くなったりしても、シートを正として二重登録を防ぐ。
+        戻り値：新たに登録済みと判定した件数
+        """
+        keys = fetch_registered_keys(get_gspread_client())
+        newly = 0
+        for it in items:
+            if not it.get("_registered") and item_key(it.get("name"), it.get("model_number"), it.get("update_date")) in keys:
+                it["_registered"] = True
+                newly += 1
+        return newly
+
+    # データを開いた直後・リロード直後にスプレッドシートと照合する
     if items_session_key not in st.session_state:
-        st.session_state[items_session_key] = meta.get("parsed_items", [])
+        items = meta.get("parsed_items", [])
+        try:
+            newly = sync_with_sheet(items)
+            if newly:
+                meta["parsed_items"] = items
+                with open(selected_json, "w", encoding="utf-8") as f:
+                    json.dump(meta, f, ensure_ascii=False, indent=2)
+            st.session_state[sync_msg_key] = ("ok", newly)
+        except Exception as e:
+            st.session_state[sync_msg_key] = ("error", str(e))
+        st.session_state[items_session_key] = items
 
     # ※ 登録したアイテムはリストから削除せず「_registered」の印を付ける。
     #   これでページ番号・アイテム番号が固定され、登録後に確実に次のページへ移動できる。
@@ -273,11 +330,19 @@ if selected_json:
         if not indices:
             st.warning("⚠️ 登録する項目が選択されていません。")
             return False
+        skipped = 0
         try:
             gc = get_gspread_client()
+            # 書き込む直前にシートの最新状態を確認（他の端末・タブで登録済みのものは書かない）
+            sheet_keys = fetch_registered_keys(gc)
             for idx in sorted(indices):
                 vals = current_values(idx)
-                append_to_result_sheet(gc, vals)
+                key = item_key(vals["name"], vals["model_number"], vals["update_date"])
+                if key in sheet_keys:
+                    skipped += 1
+                else:
+                    append_to_result_sheet(gc, vals)
+                    sheet_keys.add(key)
                 parsed_items[idx].update(vals)
                 parsed_items[idx]["_registered"] = True
                 save_meta_json()  # 1件ごとに保存（途中でエラーになっても二重登録を防ぐ）
@@ -286,6 +351,7 @@ if selected_json:
             return False
 
         st.session_state[items_session_key] = parsed_items
+        skip_note = f"（うち {skipped} 件はシートに登録済みだったので書き込みを省略）" if skipped else ""
 
         if pending_count() == 0:
             complete_and_move()
@@ -295,9 +361,9 @@ if selected_json:
         if move_page_always or not page_has_pending(cur):
             new_page = next_pending_page(cur)
             st.session_state[page_key] = new_page
-            st.session_state["flash_msg"] = (f"✅ {len(indices)} 件を登録しました！ページ {new_page + 1} へ移動します。", "🎉")
+            st.session_state["flash_msg"] = (f"✅ {len(indices)} 件を登録しました！{skip_note} ページ {new_page + 1} へ移動します。", "🎉")
         else:
-            st.session_state["flash_msg"] = (f"✅ {len(indices)} 件を登録しました！", "🎉")
+            st.session_state["flash_msg"] = (f"✅ {len(indices)} 件を登録しました！{skip_note}", "🎉")
         return True
 
     def checked_pending_indices_on_page(p):
@@ -320,7 +386,32 @@ if selected_json:
     # データが空 or 全件登録済みなら完了扱い
     if pending_count() == 0:
         complete_and_move()
+        if parsed_items:
+            st.session_state["flash_msg"] = ("✅ このデータはすべてスプレッドシートに登録済みでした。次のデータへ進みます。", "🚀")
         st.rerun()
+
+    # スプレッドシート照合の結果表示
+    sync_result = st.session_state.get(sync_msg_key)
+    if sync_result:
+        status, detail = sync_result
+        if status == "ok" and detail:
+            st.info(f"🔎 スプレッドシートと照合し、{detail} 件を登録済みとしてパスしました。")
+        elif status == "error":
+            st.warning(f"⚠️ スプレッドシートとの照合に失敗しました（登録済み判定はこの端末の記録のみ）: {detail}")
+
+    if st.sidebar.button("🔎 スプレッドシートと照合し直す", key="sb_resync_btn"):
+        resync_ok = False
+        try:
+            newly = sync_with_sheet(parsed_items)
+            save_meta_json()
+            st.session_state[sync_msg_key] = ("ok", newly)
+            st.session_state[page_key] = first_pending_page()
+            st.session_state["flash_msg"] = (f"🔎 照合完了：新たに {newly} 件を登録済みと判定しました。", "✅")
+            resync_ok = True
+        except Exception as e:
+            st.sidebar.error(f"照合エラー: {e}")
+        if resync_ok:
+            st.rerun()
 
     # --- サイドバー一括操作 ---
     st.sidebar.markdown("### 🚀 一括操作パネル")
