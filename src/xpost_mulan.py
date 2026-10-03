@@ -11,7 +11,6 @@ import time
 
 TARGET_USER = "mulanakiba_chuo"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# パスをプロジェクトルート基準の data/mulan_queue に合わせる
 QUEUE_DIR = Path(BASE_DIR).parent / "data" / "mulan_queue"
 QUEUE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -34,42 +33,53 @@ def load_last_tweet_id():
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return f.read().strip()
-        except Exception:
-            pass
+                last_id = f.read().strip()
+                print(f"📄 読み込んだ前回の最後のTweet ID: {last_id}")
+                return last_id
+        except Exception as e:
+            print(f"⚠️ 状態ファイルの読み込みエラー: {e}")
+    print("📄 前回のTweet IDが見つかりません（初回実行またはファイルなし）")
     return None
 
 def save_last_tweet_id(tweet_id):
     try:
         with open(STATE_FILE, "w", encoding="utf-8") as f:
             f.write(str(tweet_id))
+        print(f"💾 状態ファイルを更新しました (Tweet ID: {tweet_id})")
     except Exception as e:
-        print(f"Failed to save state: {e}")
+        print(f"❌ 状態ファイルの保存エラー: {e}")
 
 def fetch_tweets():
-    print(f"Fetching tweets for @{TARGET_USER}...")
+    print(f"🔍 Fetching tweets for @{TARGET_USER}...")
     env = os.environ.copy()
     result = subprocess.run(
         ["python", "-m", "twitter_cli.cli", "user-posts", TARGET_USER, "--max", "5", "--json"],
         capture_output=True, text=True, encoding="utf-8", errors="ignore", env=env
     )
+    print(f"🔍 twitter-cli returncode: {result.returncode}")
     if result.returncode != 0:
+        print(f"❌ twitter-cli error output: {result.stderr}")
         return []
     raw_output = result.stdout.strip()
     if not raw_output:
+        print("⚠️ twitter-cliの出力が空です。")
         return []
     try:
-        return json.loads(raw_output)
-    except json.JSONDecodeError:
+        data = json.loads(raw_output)
+        print(f"📥 取得したJSONの型: {type(data)}")
+        return data
+    except json.JSONDecodeError as e:
+        print(f"❌ JSONパースエラー: {e}")
+        print(f"生出力の先頭100文字: {raw_output[:100]}")
         return []
 
 def should_exclude(text: str) -> bool:
     for keyword in EXCLUDE_KEYWORDS:
         if keyword in text:
+            print(f"🚫 除外キーワード '{keyword}' にヒットしました: {text[:30]}...")
             return True
     return False
 
-# --- Gemini OCR 解析関数（自動リトライ付き） ---
 def analyze_image_with_gemini(image_bytes):
     if not GEMINI_API_KEY:
         print("❌ GEMINI_API_KEY が設定されていません。")
@@ -138,17 +148,24 @@ def send_to_discord(webhook_url, tweet_text, tweet_url, parsed_count=0):
     }
     response = requests.post(webhook_url, json=payload)
     if response.status_code == 204:
-        print("Successfully sent to Discord with OCR info!")
+        print("✅ Discord通知送信成功!")
+    else:
+        print(f"⚠️ Discord通知失敗: {response.status_code}, {response.text}")
 
 def main():
     webhook_url = os.environ.get("DISCORD_WEBHOOK_URL")
     tweets = fetch_tweets()
     if not tweets:
+        print("⚠️ 処理対象のツイートがありませんでした。")
         return
+        
     if isinstance(tweets, dict):
         tweets = tweets.get("tweets", tweets.get("data", [tweets]))
     if not isinstance(tweets, list):
+        print(f"⚠️ 予期しないツイートデータの形式です: {type(tweets)}")
         return
+
+    print(f"📊 取得したツイート総数: {len(tweets)}")
 
     last_sent_id = load_last_tweet_id()
     valid_tweets_to_send = []
@@ -158,17 +175,31 @@ def main():
         if isinstance(tweet, dict):
             text = tweet.get("text", tweet.get("full_text", ""))
             tweet_id = str(tweet.get("id", tweet.get("id_str", "")))
-            media_urls = tweet.get("media_urls", tweet.get("photos", []))
+            
+            # デバッグ用：ツイートのキーと中身をログに出力
+            print(f"\n--- [Tweet #{i}] ID: {tweet_id} ---")
+            print(f"テキスト前半: {text[:40]}...")
+            print(f"利用可能なキー一覧: {list(tweet.keys())}")
+            
+            # 画像URLのキー候補を広く探す
+            media_urls = tweet.get("media_urls", tweet.get("photos", tweet.get("media", [])))
+            print(f"検出されたメディア情報: {media_urls}")
         else:
             continue
 
         if not tweet_id or not text:
+            print("⚠️ IDまたはテキストが空のためスキップします。")
             continue
+            
         if i == 0:
             newest_fetched_id = tweet_id
+            
         if tweet_id == last_sent_id:
+            print(f"🛑 前回のID ({last_sent_id}) に到達したため、ループを中断します。")
             break
+            
         if should_exclude(text):
+            print("🚫 除外対象のツイートのためスキップします。")
             continue
 
         tweet_url = f"https://x.com/{TARGET_USER}/status/{tweet_id}"
@@ -177,7 +208,9 @@ def main():
         saved_image_filename = None
 
         if media_urls:
-            img_url = media_urls[0]
+            # 配列または文字列のケースに対応
+            img_url = media_urls[0] if isinstance(media_urls, list) else media_urls
+            print(f"📷 画像URLを発見しました: {img_url}")
             try:
                 img_res = requests.get(img_url)
                 if img_res.status_code == 200:
@@ -186,15 +219,18 @@ def main():
                     
                     with open(image_path, "wb") as f:
                         f.write(img_res.content)
-                    
-                    print(f"📷 画像をダウンロードしました: {saved_image_filename}")
+                    print(f"💾 画像を保存しました: {image_path}")
                     
                     print("🤖 Geminiで事前OCR解析を実行中...")
                     raw_text = analyze_image_with_gemini(img_res.content)
                     parsed_items = parse_gemini_output(raw_text)
-                    print(f"✨ {len(parsed_items)} 件のデータを抽出しました。")
+                    print(f"✨ 抽出結果: {len(parsed_items)} 件")
+                else:
+                    print(f"❌ 画像ダウンロード失敗 (Status: {img_res.status_code})")
             except Exception as e:
-                print(f"画像処理エラー: {e}")
+                print(f"❌ 画像処理中の例外エラー: {e}")
+        else:
+            print("ℹ️ このツイートには画像メディアが含まれていません。")
 
         if saved_image_filename:
             meta_data = {
@@ -207,17 +243,20 @@ def main():
             json_path = QUEUE_DIR / f"{tweet_id}.json"
             with open(json_path, "w", encoding="utf-8") as jf:
                 json.dump(meta_data, jf, ensure_ascii=False, indent=2)
-            print(f"💾 キューJSONを保存しました: {json_path.name}")
+            print(f"📦 キューJSONを保存しました: {json_path}")
 
         valid_tweets_to_send.append({"id": tweet_id, "text": text, "url": tweet_url, "count": len(parsed_items)})
 
     if valid_tweets_to_send:
+        print(f"🚀 Discordに通知するツイート数: {len(valid_tweets_to_send)}")
         valid_tweets_to_send.reverse()
         for vt in valid_tweets_to_send:
             if webhook_url:
                 send_to_discord(webhook_url, vt["text"], vt["url"], vt["count"])
         if newest_fetched_id:
             save_last_tweet_id(newest_fetched_id)
+    else:
+        print("ℹ️️ 新着で送信対象となるツイートはありませんでした。")
 
 if __name__ == "__main__":
     main()
