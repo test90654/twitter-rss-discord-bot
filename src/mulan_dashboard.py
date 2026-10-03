@@ -73,14 +73,22 @@ def append_to_result_sheet(client_gspread, row_data):
             sheet = spreadsheet.worksheet(RESULT_SHEET_NAME)
         except gspread.exceptions.WorksheetNotFound:
             sheet = spreadsheet.add_worksheet(title=RESULT_SHEET_NAME, rows=1000, cols=10)
-            sheet.append_row(["商品名", "価格", "更新日", "型番/JAN"])
-            
-        sheet.append_row([
-            row_data["name"],
-            row_data["price"],
-            row_data["update_date"],
-            row_data["model_number"]
-        ])
+            sheet.update(range_name="A1:E1", values=[["ジャンル", "商品名", "価格", "更新日", "型番/JAN"]])
+
+        # A列はジャンル列なので触らず、B列（商品名）の最終行の次の行の B〜E 列に書き込む
+        next_row = len(sheet.col_values(2)) + 1
+        if next_row > sheet.row_count:
+            sheet.add_rows(100)
+
+        sheet.update(
+            range_name=f"B{next_row}:E{next_row}",
+            values=[[
+                row_data["name"],
+                row_data["price"],
+                row_data["update_date"],
+                row_data["model_number"]
+            ]]
+        )
     except Exception as e:
         raise Exception(f"結果シートへの書き込みエラー: {e}")
 
