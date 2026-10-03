@@ -27,7 +27,7 @@ st.set_page_config(
 )
 
 st.title("📦 ムーラン買取データ 承認ダッシュボード (Gemini OCR連携)")
-st.markdown("X（Twitter）から自動収集した買取表画像を確認し、スプレッドシートへスムーズに転記できます。")
+st.markdown("X（Twitter）から自動収集した買取表画像をGeminiで構造化解析し、マスターデータと照合してスムーズに承認・転記できます。")
 
 # --- 設定値（環境変数から安全に取得） ---
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -98,18 +98,19 @@ def analyze_image_with_gemini(image_path):
 
         client = genai.Client(api_key=API_KEY)
         prompt = """
-        添付された買取表の画像を読み取り、以下のルールに従ってパイプ ( | ) 区切りの一覧表形式で出力してください。
-        余計な挨拶や解説文は一切含めず、表の行データのみを出力してください。
+        添付された買取表の画像を読み取り、以下のルールに従ってMarkdownの表形式（テーブル）で出力してください。
+        余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンス（例：「📢9/21更新📢新作プライズフィギュア買取速報です✨️」など）は絶対に含めず、表の中にある個別の商品データのみを出力してください。
 
-        【出力フォーマット（1行につき）】
-        商品名 | 価格 | 更新日 | 型番
+        【出力フォーマット（Markdownテーブル）】
+        | シリーズ / キャラクター | 買取価格 | 更新日 | 型番 |
+        |---|---|---|---|
+        | 商品名が入る | 価格が入る | 更新日が入る | 型番が入る |
 
         【処理ルール】
         1. **更新日の付与**: 画像内から更新日を読み取り、各行に反映する。
-        2. **レイアウトの整形**: 「価格」の右側に「更新日」と「型番」を配置する。
-        3. **不要な文言の除外**: 注意事項、営業時間などのノイズ文言はすべて除外する。
-        4. **シリーズ名・カテゴリー名の付与**: 赤文字等で記載されているシリーズ名やカテゴリー名を、各商品の先頭に必ず付与する。
-        5. **重複・バリエーションの処理**: 型番が同じでもキャラクター違いやバージョン違いがある場合は絶対に統合せず別行として出力する。
+        2. **不要な文言の除外**: 注意事項、営業時間、宣伝文句などのノイズ文言はすべて除外する。
+        3. **シリーズ名・カテゴリー名の付与**: 赤文字等で記載されているシリーズ名やカテゴリー名を、商品名の先頭に必ず含める。
+        4. **重複・バリエーションの処理**: 型番が同じでもキャラクター違いやバージョン違いがある場合は絶対に統合せず別行として出力する。
         """
 
         response = client.models.generate_content(
@@ -130,12 +131,14 @@ def parse_gemini_output(text):
         return items
     lines = text.strip().split("\n")
     for line in lines:
-        if "|" in line and "---" not in line and "商品名" not in line:
+        if "|" in line and "---" not in line and "シリーズ" not in line and "買取価格" not in line:
             parts = [p.strip() for p in line.split("|")]
+            parts = [p for p in parts if p != ""]
             if len(parts) >= 4:
+                price_str = parts[1].replace("¥", "").replace(",", "")
                 items.append({
                     "name": parts[0],
-                    "price": parts[1],
+                    "price": price_str,
                     "update_date": parts[2],
                     "model_number": parts[3]
                 })
@@ -249,7 +252,7 @@ if selected_json:
             st.markdown("---")
 
         today_str = datetime.now().strftime("%Y-%m-%d")
-        default_name = parsed_items[0]["name"] if parsed_items else (meta.get("name", tweet_text[:30] if tweet_text else ""))
+        default_name = parsed_items[0]["name"] if parsed_items else ""
         default_price = parsed_items[0]["price"] if parsed_items else ""
         default_date = parsed_items[0]["update_date"] if parsed_items else today_str
         default_model = parsed_items[0]["model_number"] if parsed_items else ""
@@ -266,7 +269,7 @@ if selected_json:
             with col_btn1:
                 approve_btn = st.form_submit_button("✅ この1件をスプレッドシートへ転記", type="primary")
             with col_btn2:
-                skip_btn = st.form_submit_button("🗑️ このデータをスキップ（削除）")
+                skip_btn = st.form_submit_button("🗑️️ このデータをスキップ（削除）")
 
             if approve_btn:
                 if not edited_name:
@@ -278,7 +281,7 @@ if selected_json:
                         
                         match_status = "未照合"
                         if edited_model in master_db:
-                            official_name = master_db[model_num]
+                            official_name = master_db[edited_model]
                             match_status = f"一致 (マスター名: {official_name})"
                         else:
                             match_status = "マスター未登録"
