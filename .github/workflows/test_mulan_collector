@@ -1,0 +1,38 @@
+name: Test Mulan Image Collector
+
+on:
+  workflow_dispatch: # 手動でいつでもテスト実行できるようにする
+
+permissions:
+  contents: write
+
+jobs:
+  collect-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests twitter-cli
+
+      - name: Run Mulan Image Collector Test
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+        run: |
+          python src/test_mulan_collector.py
+
+      - name: Commit collected queue data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Add collected Mulan images and metadata for testing [skip ci]"
+          file_pattern: "data/mulan_queue/*"
