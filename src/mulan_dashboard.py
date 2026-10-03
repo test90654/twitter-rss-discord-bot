@@ -11,7 +11,13 @@ from google.oauth2.service_account import Credentials
 BASE_DIR = Path(__file__).resolve().parent
 QUEUE_DIR = BASE_DIR / "data" / "mulan_queue"
 DONE_DIR = BASE_DIR / "data" / "mulan_done"
-DONE_DIR.mkdir(parents=True, exist_ok=True)
+
+# 安全にディレクトリを自動作成
+try:
+    QUEUE_DIR.mkdir(parents=True, exist_ok=True)
+    DONE_DIR.mkdir(parents=True, exist_ok=True)
+except Exception as e:
+    st.warning(f"ディレクトリの作成中に警告が発生しました: {e}")
 
 # ページタイトル（ブラウザのタブに表示される名前）を設定
 st.set_page_config(
@@ -28,7 +34,6 @@ st.markdown("X（Twitter）から自動収集した買取表画像を確認し�
 def append_to_sheet(row_data):
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     
-    # サービスアカウントの認証ファイルパス
     creds_path = BASE_DIR / "credentials.json" 
     if not creds_path.exists():
         raise FileNotFoundError(f"認証ファイルが見つかりません: {creds_path}")
@@ -36,7 +41,6 @@ def append_to_sheet(row_data):
     creds = Credentials.from_service_account_file(creds_path, scopes=scope)
     client = gspread.authorize(creds)
     
-    # 対象のスプレッドシートキー
     sheet_key = os.environ.get("GOOGLE_SHEET_KEY", "YOUR_SPREADSHEET_KEY_HERE")
     sheet = client.open_by_key(sheet_key).sheet1
     
@@ -50,13 +54,13 @@ def append_to_sheet(row_data):
 
 # --- 3. 未処理キューの読み込み ---
 if not QUEUE_DIR.exists():
-    st.info("`data/mulan_queue/` フォルダが存在しません。")
+    st.info("`data/mulan_queue/` フォルダを準備中です。")
     st.stop()
 
 json_files = sorted(list(QUEUE_DIR.glob("*.json")))
 
 if not json_files:
-    st.success("🎉 未処理の買取データはありません！すべて処理済みです。")
+    st.info("🎉 現在、未処理の買取データはありません。GitHub Actionsによるデータ収集をお待ちください。")
     st.stop()
 
 # サイドバーで処理するアイテムを選択
@@ -121,23 +125,19 @@ if selected_json:
                     }
                     
                     try:
-                        # スプレッドシート転記の実行
                         append_to_sheet(row_data)
                         st.success("🎉 スプレッドシートへの転記が完了しました！")
                         
-                        # 処理済みフォルダへ移動
                         if image_path.exists():
                             image_path.rename(DONE_DIR / image_path.name)
                         selected_json.rename(DONE_DIR / selected_json.name)
                         
-                        # 画面を更新して次のデータへ
                         st.rerun()
                         
                     except Exception as e:
                         st.error(f"❌ 転記エラーが発生しました: {e}")
 
             if skip_btn:
-                # スキップされたものは処理済みフォルダへ退避
                 if image_path.exists():
                     image_path.rename(DONE_DIR / image_path.name)
                 selected_json.rename(DONE_DIR / selected_json.name)
