@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests twitter-cli agent-client agent-reach
+          pip install requests twitter-cli agent-client agent-reach google-genai pillow
 
       - name: Run Bookoff Monitor
         env:
@@ -39,11 +39,12 @@ jobs:
           TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
           TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_MULAN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python src/xpost_mulan.py
 
-      - name: Commit states
+      - name: Commit states and queue data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update last sent tweet states [skip ci]"
-          file_pattern: "last_tweet_id_*.txt"
+          commit_message: "Update tweet states and add mulan queue data [skip ci]"
+          file_pattern: "last_tweet_id_*.txt data/mulan_queue/*"
