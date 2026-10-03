@@ -136,7 +136,6 @@ if selected_json:
 
     parsed_items = st.session_state[items_session_key]
 
-    # リストが空になった（あるいはすべて登録し終えた）場合に完了としてDONEフォルダへ移動し、次へ進む関数
     def check_and_complete_if_empty():
         if not st.session_state[items_session_key]:
             if image_path.exists():
@@ -155,7 +154,6 @@ if selected_json:
             return
         try:
             gc = get_gspread_client()
-            # インデックスのズレを防ぐため、後ろのインデックスから順に処理・削除
             sorted_indices = sorted(indices_to_save, reverse=True)
             
             for idx in sorted_indices:
@@ -164,14 +162,20 @@ if selected_json:
                 parsed_items.pop(idx)
                 
             st.session_state[items_session_key] = parsed_items
-            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録し、リストから除外しました！", icon="✅")
+            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録しました！", icon="✅")
             
-            # JSONファイルを更新
             meta["parsed_items"] = parsed_items
             with open(selected_json, "w", encoding="utf-8") as f:
                 json.dump(meta, f, ensure_ascii=False, indent=2)
 
-            # リストが空になったかチェックして自動進行
+            # ページ位置の調整（アイテム削除によってページ数が減った場合のケア）
+            page_key = f"page_{tweet_id}"
+            ITEMS_PER_PAGE = 5
+            total_items = len(parsed_items)
+            total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
+            if st.session_state[page_key] >= total_pages:
+                st.session_state[page_key] = total_pages - 1
+
             check_and_complete_if_empty()
             st.rerun()
             
@@ -301,6 +305,13 @@ if selected_json:
                                 json.dump(meta, f, ensure_ascii=False, indent=2)
                                 
                             st.toast(f"✅ 商品 [{idx+1}] をスプレッドシートに登録しました！", icon="🎉")
+                            
+                            # ページ位置調整
+                            total_items_after = len(parsed_items)
+                            total_pages_after = max(1, (total_items_after + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
+                            if st.session_state[page_key] >= total_pages_after:
+                                st.session_state[page_key] = total_pages_after - 1
+
                             check_and_complete_if_empty()
                             st.rerun()
                         except Exception as e:
