@@ -14,6 +14,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 QUEUE_DIR = BASE_DIR / "data" / "mulan_queue"
 DONE_DIR = BASE_DIR / "data" / "mulan_done"
 
+ITEMS_PER_PAGE = 5  # 1ページあたりの表示件数
+
 try:
     QUEUE_DIR.mkdir(parents=True, exist_ok=True)
     DONE_DIR.mkdir(parents=True, exist_ok=True)
@@ -136,6 +138,34 @@ if selected_json:
 
     parsed_items = st.session_state[items_session_key]
 
+    # 表示開始位置（何件目から表示するか）。ページ番号ではなく位置で管理することで、
+    # 登録でアイテムが詰まっても「次の未登録アイテム」から正確に表示できる
+    offset_key = f"offset_{tweet_id}"
+    if offset_key not in st.session_state:
+        st.session_state[offset_key] = 0
+
+    def clamp_offset():
+        """表示開始位置が範囲外になったら先頭に戻す（取り残した項目を再表示するため）"""
+        total = len(st.session_state[items_session_key])
+        if total == 0 or st.session_state[offset_key] >= total or st.session_state[offset_key] < 0:
+            st.session_state[offset_key] = 0
+
+    def clear_item_widget_state():
+        """
+        チェックボックス・入力欄の状態をクリアする。
+        登録でアイテムのインデックスが詰まった後も古い入力値が残ると、
+        次のアイテムに前のアイテムの値が上書きされてしまうため必ずクリアする。
+        """
+        prefixes = tuple(f"{p}_{tweet_id}_" for p in ("chk", "name", "price", "date", "model"))
+        keys_to_clear = [k for k in st.session_state.keys() if isinstance(k, str) and k.startswith(prefixes)]
+        for k in keys_to_clear:
+            del st.session_state[k]
+
+    def save_meta_json():
+        meta["parsed_items"] = parsed_items
+        with open(selected_json, "w", encoding="utf-8") as f:
+            json.dump(meta, f, ensure_ascii=False, indent=2)
+
     # 全アイテムがなくなったら完了としてDONEフォルダへ移動する関数
     def check_and_complete_if_empty():
         if not st.session_state[items_session_key]:
@@ -145,11 +175,13 @@ if selected_json:
                 selected_json.rename(DONE_DIR / selected_json.name)
             if items_session_key in st.session_state:
                 del st.session_state[items_session_key]
+            if offset_key in st.session_state:
+                del st.session_state[offset_key]
             st.toast("🎉 このデータの全項目の登録が完了しました！次のデータへ進みます。", icon="🚀")
             time.sleep(1)
             st.rerun()
 
-    def execute_batch_save(indices_to_save):
+    def execute_batch_save(indices_to_save, page_end_idx):
         if not indices_to_save:
             st.warning("⚠️ 登録する項目が選択されていません。")
             return
@@ -164,25 +196,15 @@ if selected_json:
                 parsed_items.pop(idx)
                 
             st.session_state[items_session_key] = parsed_items
-            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録し、リストから除外しました！", icon="✅")
+            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録しました！次のページへ移動します。", icon="✅")
             
-            # チェック状態をクリアしてインデックスのバグを防ぐ
-            keys_to_clear = [k for k in st.session_state.keys() if k.startswith(f"chk_{tweet_id}_")]
-            for k in keys_to_clear:
-                del st.session_state[k]
+            clear_item_widget_state()
+            save_meta_json()
 
-            # JSONファイルを更新
-            meta["parsed_items"] = parsed_items
-            with open(selected_json, "w", encoding="utf-8") as f:
-                json.dump(meta, f, ensure_ascii=False, indent=2)
-
-            # ページ位置の安全調整
-            page_key = f"page_{tweet_id}"
-            ITEMS_PER_PAGE = 5
-            total_items = len(parsed_items)
-            total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
-            if st.session_state.get(page_key, 0) >= total_pages:
-                st.session_state[page_key] = total_pages - 1
+            # ▶ 自動で次のページへ：
+            # 今のページの最後のアイテムの「次」にあったアイテムが、詰めた後に何番目になるかを計算して表示開始位置にする
+            st.session_state[offset_key] = page_end_idx - len(indices_to_save)
+            clamp_offset()
 
             check_and_complete_if_empty()
             st.rerun()
@@ -197,21 +219,22 @@ if selected_json:
             selected_json.rename(DONE_DIR / selected_json.name)
         if items_session_key in st.session_state:
             del st.session_state[items_session_key]
+        if offset_key in st.session_state:
+            del st.session_state[offset_key]
         st.warning("⚠️ このデータをスキップしました（キューから除外）。")
         st.rerun()
+
+    clamp_offset()
 
     if parsed_items:
         st.sidebar.markdown("### 🚀 一括操作パネル")
         if st.sidebar.button("🚀 チェックした項目を一括登録", type="primary", key="sb_batch_btn"):
-            # 現在のページで選択されているインデックスを計算して一括登録
-            ITEMS_PER_PAGE = 5
-            page_key = f"page_{tweet_id}"
-            current_page = st.session_state.get(page_key, 0)
-            start_idx = current_page * ITEMS_PER_PAGE
+            # 現在表示中の範囲で選択されているインデックスを計算して一括登録
+            start_idx = st.session_state[offset_key]
             end_idx = min(start_idx + ITEMS_PER_PAGE, len(parsed_items))
             
             indices = [i for i in range(start_idx, end_idx) if st.session_state.get(f"chk_{tweet_id}_{i}", True)]
-            execute_batch_save(indices)
+            execute_batch_save(indices, end_idx)
             
         if st.sidebar.button("🗑️ このデータを丸ごとスキップ", key="sb_skip_btn"):
             execute_skip()
@@ -237,35 +260,31 @@ if selected_json:
             check_and_complete_if_empty()
         else:
             # --- 📄 ページネーション処理 (1ページあたり5件表示) ---
-            ITEMS_PER_PAGE = 5
             total_items = len(parsed_items)
             total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
-            
-            page_key = f"page_{tweet_id}"
-            if page_key not in st.session_state:
-                st.session_state[page_key] = 0
-            
-            if st.session_state[page_key] >= total_pages:
-                st.session_state[page_key] = total_pages - 1
+
+            start_idx = st.session_state[offset_key]
+            end_idx = min(start_idx + ITEMS_PER_PAGE, total_items)
+            current_page_no = start_idx // ITEMS_PER_PAGE + 1
+
+            def go_prev():
+                st.session_state[offset_key] = max(0, st.session_state[offset_key] - ITEMS_PER_PAGE)
+
+            def go_next():
+                st.session_state[offset_key] = st.session_state[offset_key] + ITEMS_PER_PAGE
+
+            page_label = f"ページ {current_page_no} / {total_pages}（{start_idx + 1}〜{end_idx}件目 / 残り {total_items} 件）"
 
             # --- 🔄 ページネーションバー（上部） ---
             c_p1, c_p2, c_p3 = st.columns([1, 2, 1])
             with c_p1:
-                if st.button("◀ 前へ", key=f"prev_top_{tweet_id}", disabled=(st.session_state[page_key] == 0)):
-                    st.session_state[page_key] -= 1
-                    st.rerun()
+                st.button("◀ 前へ", key=f"prev_top_{tweet_id}", disabled=(start_idx == 0), on_click=go_prev)
             with c_p2:
-                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages} (残り {total_items} 件)</div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='text-align: center; font-weight: bold;'>{page_label}</div>", unsafe_allow_html=True)
             with c_p3:
-                if st.button("次へ ▶", key=f"next_top_{tweet_id}", disabled=(st.session_state[page_key] >= total_pages - 1)):
-                    st.session_state[page_key] += 1
-                    st.rerun()
+                st.button("次へ ▶", key=f"next_top_{tweet_id}", disabled=(end_idx >= total_items), on_click=go_next)
 
-            current_page = st.session_state[page_key]
-            start_idx = current_page * ITEMS_PER_PAGE
-            end_idx = min(start_idx + ITEMS_PER_PAGE, total_items)
-
-            if st.button("☑ このページの項目をすべて選択する", key=f"select_all_{tweet_id}_{current_page}"):
+            if st.button("☑ このページの項目をすべて選択する", key=f"select_all_{tweet_id}_{start_idx}"):
                 for i in range(start_idx, end_idx):
                     st.session_state[f"chk_{tweet_id}_{i}"] = True
                 st.rerun()
@@ -315,22 +334,14 @@ if selected_json:
                             parsed_items.pop(idx)
                             st.session_state[items_session_key] = parsed_items
                             
-                            # チェック状態をクリア
-                            keys_to_clear = [k for k in st.session_state.keys() if k.startswith(f"chk_{tweet_id}_")]
-                            for k in keys_to_clear:
-                                del st.session_state[k]
-
-                            meta["parsed_items"] = parsed_items
-                            with open(selected_json, "w", encoding="utf-8") as f:
-                                json.dump(meta, f, ensure_ascii=False, indent=2)
+                            clear_item_widget_state()
+                            save_meta_json()
                                 
                             st.toast(f"✅ 商品 [{idx+1}] をスプレッドシートに登録しました！", icon="🎉")
                             
-                            # ページ位置調整
-                            total_items_after = len(parsed_items)
-                            total_pages_after = max(1, (total_items_after + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
-                            if st.session_state[page_key] >= total_pages_after:
-                                st.session_state[page_key] = total_pages_after - 1
+                            # ▶ このページの最後の1件を登録したら、次のページの先頭が自動で表示される
+                            # （表示開始位置はそのままで、後続アイテムが繰り上がって表示される）
+                            clamp_offset()
 
                             check_and_complete_if_empty()
                             st.rerun()
@@ -340,22 +351,18 @@ if selected_json:
             # --- 🔄 ページネーションバー（下部） ---
             c_bp1, c_bp2, c_bp3 = st.columns([1, 2, 1])
             with c_bp1:
-                if st.button("◀ 前へ", key=f"prev_bot_{tweet_id}", disabled=(st.session_state[page_key] == 0)):
-                    st.session_state[page_key] -= 1
-                    st.rerun()
+                st.button("◀ 前へ", key=f"prev_bot_{tweet_id}", disabled=(start_idx == 0), on_click=go_prev)
             with c_bp2:
-                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages}</div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {current_page_no} / {total_pages}</div>", unsafe_allow_html=True)
             with c_bp3:
-                if st.button("次へ ▶", key=f"next_bot_{tweet_id}", disabled=(st.session_state[page_key] >= total_pages - 1)):
-                    st.session_state[page_key] += 1
-                    st.rerun()
+                st.button("次へ ▶", key=f"next_bot_{tweet_id}", disabled=(end_idx >= total_items), on_click=go_next)
 
             st.markdown("---")
             
             col_b1, col_b2 = st.columns(2)
             with col_b1:
                 if st.button("🚀 チェックした項目を一括登録 (下部)", type="primary"):
-                    execute_batch_save(selected_indices_in_page)
+                    execute_batch_save(selected_indices_in_page, end_idx)
             with col_b2:
                 if st.button("🗑️ このデータを丸ごとスキップ (下部)"):
                     execute_skip()
