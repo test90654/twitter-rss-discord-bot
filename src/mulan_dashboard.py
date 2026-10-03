@@ -85,7 +85,7 @@ if done_files:
     st.sidebar.markdown("---")
     st.sidebar.subheader("↩️ 直近の完了データを復元 (アンドゥ)")
     restore_target = st.sidebar.selectbox("復元するデータを選択", done_files, format_func=lambda x: x.name)
-    if st.sidebar.button("♻️ 選択したデータを未処理に戻す"):
+    if st.sidebar.button("♻️️ 選択したデータを未処理に戻す"):
         try:
             meta_path = DONE_DIR / restore_target.name
             with open(meta_path, "r", encoding="utf-8") as f:
@@ -195,7 +195,8 @@ if selected_json:
         st.subheader("📷 買取表プレビュー")
         if image_path.exists():
             img = Image.open(image_path)
-            st.image(img, width="stretch")
+            # 画像サイズを450pxにコンパクト化して見やすく調整
+            st.image(img, width=450)
         else:
             st.error(f"画像ファイルが見つかりません: {image_filename}")
 
@@ -215,16 +216,13 @@ if selected_json:
             total_items = len(parsed_items)
             total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
             
-            # セッションにページ番号を保持
             page_key = f"page_{tweet_id}"
             if page_key not in st.session_state:
                 st.session_state[page_key] = 0
             
-            # ページ範囲の安全チェック
             if st.session_state[page_key] >= total_pages:
                 st.session_state[page_key] = total_pages - 1
 
-            # ページ切り替えコントロール
             c_p1, c_p2, c_p3 = st.columns([1, 2, 1])
             with c_p1:
                 if st.button("◀ 前へ", disabled=(st.session_state[page_key] == 0)):
@@ -248,7 +246,6 @@ if selected_json:
 
             selected_indices = []
             
-            # 現在のページのアイテムだけを描画
             for idx in range(start_idx, end_idx):
                 item = parsed_items[idx]
                 with st.container(border=True):
