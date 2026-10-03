@@ -31,6 +31,39 @@ st.set_page_config(
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("GitHub Actions側で事前解析された買取データをプレビューしながら、スムーズにスプレッドシートへ登録できます。")
 
+# --- 買取表プレビューをスクロールに追従させるCSS ---
+# ポイント：
+#  ・列は標準で行の高さいっぱいに引き伸ばされるため、そのままでは sticky が効かない
+#    → align-self: flex-start で列の高さを中身ぶんに縮める
+#  ・目印（.preview-sticky-marker）を含む列だけを対象にし、右側の入力欄の列には影響させない
+#  ・画像が画面より縦に長い場合は、プレビュー列の中だけでスクロールできるようにする
+#  ・Streamlitのバージョンによって列の data-testid が "stColumn" / "column" と異なるので両方指定
+st.markdown(
+    """
+    <style>
+    div[data-testid="stColumn"]:has(.preview-sticky-marker),
+    div[data-testid="column"]:has(.preview-sticky-marker) {
+        position: sticky;
+        top: 4rem;                       /* 上部ヘッダーの下に固定 */
+        align-self: flex-start;
+        max-height: calc(100vh - 5rem);
+        overflow-y: auto;
+        z-index: 1;
+    }
+    /* スマホなど列が縦に並ぶ幅では追従しない */
+    @media (max-width: 640px) {
+        div[data-testid="stColumn"]:has(.preview-sticky-marker),
+        div[data-testid="column"]:has(.preview-sticky-marker) {
+            position: static;
+            max-height: none;
+            overflow-y: visible;
+        }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # rerun をまたいでトーストを表示するためのメッセージ
 if "flash_msg" in st.session_state:
     msg, icon = st.session_state.pop("flash_msg")
@@ -291,6 +324,8 @@ if selected_json:
     col_img, col_list = st.columns([1, 1.3], gap="large")
 
     with col_img:
+        # この目印を含む列だけをスクロール追従（sticky）させる
+        st.markdown('<div class="preview-sticky-marker"></div>', unsafe_allow_html=True)
         st.subheader("📷 買取表プレビュー")
         if image_path.exists():
             img = Image.open(image_path)
