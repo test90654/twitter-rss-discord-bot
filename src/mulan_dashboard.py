@@ -27,8 +27,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📦 ムーラン買取データ 承認ダッシュボード (Gemini OCR連携)")
-st.markdown("X（Twitter）から自動収集した買取表画像をGeminiで構造化解析し、マスターデータと照合してスムーズに承認・転記できます。")
+st.title("📦 ムーラン買取データ 承認ダッシュボード")
+st.markdown("X（Twitter）から自動収集した買取表画像をGeminiで解析し、マスター照合と修正を行ってスプレッドシートへ一括書き込みできます。")
 
 # --- 設定値（環境変数から安全に取得） ---
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -103,7 +103,7 @@ def analyze_image_with_gemini(image_path):
     client = genai.Client(api_key=API_KEY)
     prompt = """
     添付された買取表の画像を読み取り、以下のルールに従ってMarkdownの表形式（テーブル）で出力してください。
-    余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンス（例：「📢9/21更新📢新作プライズフィギュア買取速報です✨️」など）は絶対に含めず、表の中にある個別の商品データのみを出力してください。
+    余計な挨拶、解説文、およびツイートの冒頭にあるような宣伝文句や更新アナウンスは絶対に含めず、表の中にある個別の商品データのみを出力してください。
 
     【出力フォーマット（Markdownテーブル）】
     | シリーズ / キャラクター | 買取価格 | 更新日 | 型番 |
@@ -184,6 +184,7 @@ if selected_json:
 
     session_key = f"parsed_{tweet_id}"
 
+    # 画面を2分割（左：画像＆元ツイート、右：抽出＆一括修正リスト）
     col1, col2 = st.columns([1, 1], gap="large")
 
     with col1:
@@ -198,7 +199,7 @@ if selected_json:
             st.markdown(tweet_text)
             st.markdown(f"[🔗 X(Twitter)で元ツイートを開く]({tweet_url})")
 
-        if st.button("🤖 Gemini Flashで画像から自動抽出する", type="secondary"):
+        if st.button("🤖 Gemini Flashで画像から自動抽出する", type="primary"):
             with st.spinner("Geminiが画像を解析してテキスト化しています..."):
                 raw_text = analyze_image_with_gemini(str(image_path))
                 parsed_list = parse_gemini_output(raw_text)
@@ -221,26 +222,55 @@ if selected_json:
                 st.success(f"✨ 解析完了！ {len(parsed_list)}件のデータを抽出しました。")
 
     with col2:
-        st.subheader("✍️ 抽出データ確認・一括/個別承認")
+        st.subheader("✍️ 抽出データ一覧・修正 & 承認")
         
         parsed_items = st.session_state.get(session_key, [])
 
-        if parsed_items:
-            st.info(f"📌 Geminiによって **{len(parsed_items)}件** の商品が検出されています。")
+        if not parsed_items:
+            st.info("👈 左側のボタンを押して画像をGeminiで解析してください。")
+        else:
+            st.markdown(f"📌 **{len(parsed_items)}件** の商品が検出されました。内容を確認・修正し、一括でスプレッドシートへ書き込めます。")
             
-            for idx, item in enumerate(parsed_items):
-                with st.expander(f"📦 [{idx+1}] {item['name']} (¥{item['price']}) - {item['match_status']}"):
-                    st.write(f"**更新日:** {item['update_date']}")
-                    st.write(f"**型番/JAN:** {item['model_number']}")
-                    st.write(f"**照合結果:** {item['match_status']}")
+            # 修正用フォームをコンテナで囲む
+            with st.form(key=f"batch_form_{tweet_id}"):
+                updated_parsed_items = []
+                
+                for idx, item in enumerate(parsed_items):
+                    st.markdown(f"**[{idx+1}] 照合: `{item.get('match_status', '未確認')}`**")
+                    c_name, c_price = st.columns([2, 1])
+                    c_date, c_model = st.columns([1, 1])
+                    
+                    with c_name:
+                        new_name = st.text_input(f"商品名 [{idx+1}]", value=item["name"], key=f"name_{idx}")
+                    with c_price:
+                        new_price = st.text_input(f"価格 [{idx+1}]", value=item["price"], key=f"price_{idx}")
+                    with c_date:
+                        new_date = st.text_input(f"更新日 [{idx+1}]", value=item["update_date"], key=f"date_{idx}")
+                    with c_model:
+                        new_model = st.text_input(f"型番/JAN [{idx+1}]", value=item["model_number"], key=f"model_{idx}")
+                    
+                    st.markdown("---")
+                    
+                    updated_parsed_items.append({
+                        "name": new_name,
+                        "price": new_price,
+                        "update_date": new_date,
+                        "model_number": new_model,
+                        "match_status": item.get("match_status", "未照合")
+                    })
 
-            if st.button("🚀 抽出された全データをスプレッドシートへ一括書き込み", type="primary"):
-                with st.spinner("スプレッドシートへ書き込み中..."):
+                col_btn1, col_btn2 = st.columns(2)
+                with col_btn1:
+                    submit_all = st.form_submit_button("🚀 修正内容を確認して全件一括書き込み", type="primary")
+                with col_btn2:
+                    skip_btn = st.form_submit_button("🗑️ このデータをスキップ（削除）")
+
+                if submit_all:
                     try:
                         gc = get_gspread_client()
                         master_db = load_master_db(gc)
                         
-                        for item in parsed_items:
+                        for item in updated_parsed_items:
                             model_num = item["model_number"]
                             if model_num in master_db:
                                 official_name = master_db[model_num]
@@ -261,72 +291,12 @@ if selected_json:
                         
                     except Exception as e:
                         st.error(f"❌ 書き込みエラー: {e}")
-            
-            st.markdown("---")
 
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        default_name = parsed_items[0]["name"] if parsed_items else ""
-        default_price = parsed_items[0]["price"] if parsed_items else ""
-        default_date = parsed_items[0]["update_date"] if parsed_items else today_str
-        default_model = parsed_items[0]["model_number"] if parsed_items else ""
-
-        with st.form(key=f"form_{tweet_id}"):
-            edited_name = st.text_input("商品名", value=default_name)
-            edited_price = st.text_input("価格 (例: 2500 または 2,500)", value=str(default_price))
-            edited_date = st.text_input("更新日 (YYYY-MM-DD)", value=default_date)
-            edited_model = st.text_input("型番 / JAN", value=str(default_model))
-            
-            st.markdown("---")
-            
-            col_btn1, col_btn2 = st.columns(2)
-            with col_btn1:
-                approve_btn = st.form_submit_button("✅ この1件をスプレッドシートへ転記", type="primary")
-            with col_btn2:
-                skip_btn = st.form_submit_button("🗑 このデータをスキップ（削除）")
-
-            if approve_btn:
-                if not edited_name:
-                    st.error("❌ 商品名を入力してください。")
-                else:
-                    try:
-                        gc = get_gspread_client()
-                        master_db = load_master_db(gc)
-                        
-                        match_status = "未照合"
-                        if edited_model in master_db:
-                            official_name = master_db[edited_model]
-                            match_status = f"一致 (マスター名: {official_name})"
-                        else:
-                            match_status = "マスター未登録"
-
-                        row_data = {
-                            "name": edited_name,
-                            "price": edited_price,
-                            "update_date": edited_date,
-                            "model_number": edited_model,
-                            "match_status": match_status
-                        }
-                        
-                        append_to_result_sheet(gc, row_data)
-                        st.success("🎉 スプレッドシートへの転記が完了しました！")
-                        
-                        if image_path.exists():
-                            image_path.rename(DONE_DIR / image_path.name)
-                        selected_json.rename(DONE_DIR / selected_json.name)
-                        
-                        if session_key in st.session_state:
-                            del st.session_state[session_key]
-                            
-                        st.rerun()
-                        
-                    except Exception as e:
-                        st.error(f"❌ 転記エラーが発生しました: {e}")
-
-            if skip_btn:
-                if image_path.exists():
-                    image_path.rename(DONE_DIR / image_path.name)
-                selected_json.rename(DONE_DIR / selected_json.name)
-                if session_key in st.session_state:
-                    del st.session_state[session_key]
-                st.warning("⚠️ このデータをスキップしました（キューから除外）。")
-                st.rerun()
+                if skip_btn:
+                    if image_path.exists():
+                        image_path.rename(DONE_DIR / image_path.name)
+                    selected_json.rename(DONE_DIR / selected_json.name)
+                    if session_key in st.session_state:
+                        del st.session_state[session_key]
+                    st.warning("⚠️ このデータをスキップしました（キューから除外）。")
+                    st.rerun()
