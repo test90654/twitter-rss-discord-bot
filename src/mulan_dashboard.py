@@ -8,26 +8,22 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 # --- 1. 初期設定・パス設定 ---
-# src/ フォルダ内にあるため、parent.parent でプロジェクトのルート（一番上の階層）を指定
 BASE_DIR = Path(__file__).resolve().parent.parent
 QUEUE_DIR = BASE_DIR / "data" / "mulan_queue"
 DONE_DIR = BASE_DIR / "data" / "mulan_done"
 
-# 安全にディレクトリを自動作成
 try:
     QUEUE_DIR.mkdir(parents=True, exist_ok=True)
     DONE_DIR.mkdir(parents=True, exist_ok=True)
 except Exception as e:
     st.warning(f"ディレクトリの作成中に警告が発生しました: {e}")
 
-# ページタイトル（ブラウザのタブに表示される名前）を設定
 st.set_page_config(
     page_title="ムーラン買取データ 承認ダッシュボード",
     page_icon="📦",
     layout="wide"
 )
 
-# 画面上のメインタイトル
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("X（Twitter）から自動収集した買取表画像を確認し、スプレッドシートへスムーズに転記するための管理画面です。")
 
@@ -45,7 +41,6 @@ def append_to_sheet(row_data):
     sheet_key = os.environ.get("GOOGLE_SHEET_KEY", "YOUR_SPREADSHEET_KEY_HERE")
     sheet = client.open_by_key(sheet_key).sheet1
     
-    # B列〜E列に対応するデータを追加 [商品名, 価格, 更新日, 型番]
     sheet.append_row([
         row_data["name"],
         row_data["price"],
@@ -64,7 +59,6 @@ if not json_files:
     st.info("🎉 現在、未処理の買取データはありません。GitHub Actionsによるデータ収集をお待ちください。")
     st.stop()
 
-# サイドバーで処理するアイテムを選択
 st.sidebar.title("📋 未処理キュー一覧")
 st.sidebar.markdown(f"残り件数: **{len(json_files)}件**")
 selected_json = st.sidebar.selectbox("確認するデータを選択", json_files, format_func=lambda x: x.name)
@@ -79,14 +73,19 @@ if selected_json:
     image_filename = meta.get("image_file")
     image_path = QUEUE_DIR / image_filename
 
-    # 画面を2分割（左：画像＆元ツイート、右：編集フォーム）
+    # JSONから事前に紐づいている解析データ（あれば取得）
+    suggested_name = meta.get("name", tweet_text[:30] if tweet_text else "")
+    suggested_price = meta.get("price", "")
+    suggested_model = meta.get("model_number", "")
+
     col1, col2 = st.columns([1, 1], gap="large")
 
     with col1:
         st.subheader("📷 買取表プレビュー")
         if image_path.exists():
             img = Image.open(image_path)
-            st.image(img, use_column_width=True)
+            # 最新仕様に合わせて width="stretch" に修正
+            st.image(img, width="stretch")
         else:
             st.error(f"画像ファイルが見つかりません: {image_filename}")
 
@@ -96,15 +95,15 @@ if selected_json:
 
     with col2:
         st.subheader("✍️ データ確認・修正・承認")
-        st.markdown("画像を参考にしながら商品情報を入力・確認し、スプレッドシートへ転記してください。")
+        st.markdown("自動抽出データ（またはツイート内容）を元にフォームに反映しています。必要に応じて修正してください。")
         
         today_str = datetime.now().strftime("%Y-%m-%d")
 
         with st.form(key=f"form_{tweet_id}"):
-            edited_name = st.text_input("商品名", value="")
-            edited_price = st.text_input("価格 (例: 2500 または 2,500)", value="")
+            edited_name = st.text_input("商品名", value=suggested_name)
+            edited_price = st.text_input("価格 (例: 2500 または 2,500)", value=str(suggested_price))
             edited_date = st.text_input("更新日 (YYYY-MM-DD)", value=today_str)
-            edited_model = st.text_input("型番", value="")
+            edited_model = st.text_input("型番", value=str(suggested_model))
             
             st.markdown("---")
             
