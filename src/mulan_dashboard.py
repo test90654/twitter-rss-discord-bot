@@ -28,17 +28,14 @@ st.set_page_config(
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("GitHub Actions側で事前解析された買取データをプレビューしながら、スムーズにスプレッドシートへ登録できます。")
 
-# --- 設定値（スプレッドシートID） ---
-MASTER_SPREADSHEET_ID = "1CHnUUP_9uiZYaWzbpoaTIjYwyFY5YBAv4x5M3gka2T0"
-MASTER_SHEET_NAME = "シート1"
-TARGET_SPREADSHEET_ID = "1EQooFe5QbdCDe1wJj_lI8rxKoQFpre4E-1WbiPyJPx4"
-RESULT_SHEET_NAME = "sheet1"
+# --- 設定値（環境変数から取得） ---
+TARGET_SPREADSHEET_ID = os.environ.get("TARGET_SPREADSHEET_ID", "1EQooFe5QbdCDe1wJj_lI8rxKoQFpre4E-1WbiPyJPx4")
+RESULT_SHEET_NAME = os.environ.get("RESULT_SHEET_NAME", "sheet1")
 
-# --- 2. スプレッドシート & マスター読み込み関数 ---
+# --- 2. スプレッドシート書き込み関数 ---
 def get_gspread_client():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     
-    # 1. Render等の環境変数（GCP_CREDENTIALS_JSON）に入っていればそれを使う
     creds_json_str = os.environ.get("GCP_CREDENTIALS_JSON", "")
     if creds_json_str:
         try:
@@ -50,7 +47,6 @@ def get_gspread_client():
         except Exception as e:
             st.error(f"環境変数のJSON解析エラー: {e}")
 
-    # 2. 環境変数がない場合（ローカル環境など）はファイルパスを探す
     creds_path = BASE_DIR / "credentials.json"
     if not creds_path.exists():
         alt_path = Path(r"C:\Users\chukyotokukai\Documents\rashinban\credentials.json")
@@ -62,24 +58,6 @@ def get_gspread_client():
     creds = Credentials.from_service_account_file(creds_path, scopes=scope)
     return gspread.authorize(creds)
 
-def load_master_db(client_gspread):
-    try:
-        spreadsheet = client_gspread.open_by_key(MASTER_SPREADSHEET_ID)
-        sheet = spreadsheet.worksheet(MASTER_SHEET_NAME)
-        records = sheet.get_all_values()
-        
-        master_db = {}
-        for row in records[1:]:
-            if len(row) >= 2:
-                jan = row[0].strip()
-                name = row[1].strip()
-                if jan:
-                    master_db[jan] = name
-        return master_db
-    except Exception as e:
-        st.error(f"マスターデータの読み込みエラー: {e}")
-        return {}
-
 def append_to_result_sheet(client_gspread, row_data):
     try:
         spreadsheet = client_gspread.open_by_key(TARGET_SPREADSHEET_ID)
@@ -87,14 +65,13 @@ def append_to_result_sheet(client_gspread, row_data):
             sheet = spreadsheet.worksheet(RESULT_SHEET_NAME)
         except gspread.exceptions.WorksheetNotFound:
             sheet = spreadsheet.add_worksheet(title=RESULT_SHEET_NAME, rows=1000, cols=10)
-            sheet.append_row(["商品名", "価格", "更新日", "型番/JAN", "マスター照合結果"])
+            sheet.append_row(["商品名", "価格", "更新日", "型番/JAN"])
             
         sheet.append_row([
             row_data["name"],
             row_data["price"],
             row_data["update_date"],
-            row_data["model_number"],
-            row_data["match_status"]
+            row_data["model_number"]
         ])
     except Exception as e:
         raise Exception(f"結果シートへの書き込みエラー: {e}")
@@ -124,28 +101,17 @@ if selected_json:
     image_filename = meta.get("image_file")
     image_path = QUEUE_DIR / image_filename
 
-    # GitHub Actions側で既にパース済みのアイテムリストがあれば取得する（なければ空リスト）
-    # JSON構造のキー名に合わせて適宜調整（例: meta.get("parsed_items", []) など）
     parsed_items = meta.get("parsed_items", [])
 
-    # 共通の一括登録・スキップを実行する関数
+    # 一括登録・スキップを実行する関数
     def execute_batch_save(indices):
         if not indices:
             st.warning("⚠️ 登録する項目が選択されていません。")
             return
         try:
             gc = get_gspread_client()
-            master_db = load_master_db(gc)
-            
             for idx in indices:
                 item = parsed_items[idx]
-                model_num = item.get("model_number", "")
-                if model_num in master_db:
-                    official_name = master_db[model_num]
-                    item["match_status"] = f"一致 (マスター: {official_name})"
-                else:
-                    item["match_status"] = "マスター未登録"
-                    
                 append_to_result_sheet(gc, item)
                 
             st.success(f"🎉 選択された {len(indices)} 件の登録が完了しました！")
@@ -197,7 +163,7 @@ if selected_json:
         
         if not parsed_items:
             st.warning("⚠️ このJSONには事前解析データ（parsed_items）が含まれていません。GitHub Actions側のOCRスクリプトを確認してください。")
-            st.json(meta) # デバッグ用に中身を表示
+            st.json(meta)
         else:
             st.markdown(f"📌 GitHub Actions側で解析された **{len(parsed_items)}件** のデータです。各行で修正・個別登録が可能です。")
             
@@ -216,8 +182,7 @@ if selected_json:
                         if is_checked:
                             selected_indices.append(idx)
                     with c_status:
-                        match_lbl = item.get('match_status', '未確認')
-                        st.markdown(f"**[{idx+1}] 照合:** `{match_lbl}`")
+                        st.markdown(f"**[{idx+1}] 登録用データ**")
 
                     c1, c2 = st.columns([2, 1])
                     c3, c4 = st.columns([1, 1])
@@ -239,21 +204,11 @@ if selected_json:
                     if st.button(f"✅ この [{idx+1}] 件だけを登録", key=f"single_btn_{tweet_id}_{idx}"):
                         try:
                             gc = get_gspread_client()
-                            master_db = load_master_db(gc)
-                            
-                            model_num = new_model
-                            if model_num in master_db:
-                                official_name = master_db[model_num]
-                                match_status = f"一致 (マスター: {official_name})"
-                            else:
-                                match_status = "マスター未登録"
-
                             single_data = {
                                 "name": new_name,
                                 "price": new_price,
                                 "update_date": new_date,
-                                "model_number": new_model,
-                                "match_status": match_status
+                                "model_number": new_model
                             }
                             append_to_result_sheet(gc, single_data)
                             st.success(f"🎉 商品 [{idx+1}] をスプレッドシートに登録しました！")
