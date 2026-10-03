@@ -7,6 +7,7 @@ from PIL import Image
 from datetime import datetime
 import gspread
 from google.oauth2.service_account import Credentials
+import time
 
 # --- 1. 初期設定・パス設定 ---
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,6 +25,17 @@ st.set_page_config(
     page_icon="📦",
     layout="wide"
 )
+
+# --- 🎨 画面デザイン調整（左側画像をスクロール追従させるCSS） ---
+st.markdown("""
+<style>
+    [data-testid="column"]:nth-of-type(1) {
+        position: sticky;
+        top: 5rem;
+        z-index: 99;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 st.title("📦 ムーラン買取データ 承認ダッシュボード")
 st.markdown("GitHub Actions側で事前解析された買取データをプレビューしながら、スムーズにスプレッドシートへ登録できます。")
@@ -76,6 +88,39 @@ def append_to_result_sheet(client_gspread, row_data):
     except Exception as e:
         raise Exception(f"結果シートへの書き込みエラー: {e}")
 
+# --- 4. サイドバー：復元（アンドゥ）エリアの設置 ---
+st.sidebar.title("📋 未処理キュー一覧")
+done_files = sorted(list(DONE_DIR.glob("*.json")), key=lambda x: x.stat().st_mtime, reverse=True)
+
+if done_files:
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("↩️ 直近の完了データを復元 (アンドゥ)")
+    # 直近完了したファイルを選択してキューに戻す
+    restore_target = st.sidebar.selectbox("復元するデータを選択", done_files, format_func=lambda x: x.name)
+    if st.sidebar.button("♻️ 選択したデータを未処理に戻す"):
+        try:
+        # JSONファイルと紐づく画像ファイルを両方キューに戻す
+            meta_path = DONE_DIR / restore_target.name
+            with open(meta_path, "r", encoding="utf-8") as f:
+                meta_data = json.load(f)
+            img_filename = meta_data.get("image_file")
+            
+            # JSONを戻す
+            meta_path.rename(QUEUE_DIR / restore_target.name)
+            # 画像があれば戻す
+            if img_filename:
+                done_img = DONE_DIR / img_filename
+                if done_img.exists():
+                    done_img.rename(QUEUE_DIR / img_filename)
+                    
+            st.sidebar.success(f"🎉 '{restore_target.name}' をキューに復元しました！")
+            time.sleep(1)
+            st.rerun()
+        except Exception as e:
+            st.sidebar.error(f"復元エラー: {e}")
+
+st.sidebar.markdown("---")
+
 # --- 3. 未処理キューの読み込み ---
 if not QUEUE_DIR.exists():
     st.info("`data/mulan_queue/` フォルダを準備中です。")
@@ -87,7 +132,6 @@ if not json_files:
     st.info("🎉 現在、未処理の買取データはありません。GitHub Actionsによるデータ収集・OCR完了をお待ちください。")
     st.stop()
 
-st.sidebar.title("📋 未処理キュー一覧")
 st.sidebar.markdown(f"残り件数: **{len(json_files)}件**")
 selected_json = st.sidebar.selectbox("確認するデータを選択", json_files, format_func=lambda x: x.name)
 
@@ -101,25 +145,42 @@ if selected_json:
     image_filename = meta.get("image_file")
     image_path = QUEUE_DIR / image_filename
 
-    parsed_items = meta.get("parsed_items", [])
+    items_session_key = f"items_{tweet_id}"
+    if items_session_key not in st.session_state:
+        st.session_state[items_session_key] = meta.get("parsed_items", [])
 
-    # 一括登録・スキップを実行する関数
-    def execute_batch_save(indices):
-        if not indices:
+    parsed_items = st.session_state[items_session_key]
+
+    def check_and_complete_if_empty():
+        if not st.session_state[items_session_key]:
+            if image_path.exists():
+                image_path.rename(DONE_DIR / image_path.name)
+            selected_json.rename(DONE_DIR / selected_json.name)
+            st.toast("🎉 このデータの全項目の登録が完了しました！次のデータへ進みます。", icon="🚀")
+            time.sleep(1)
+            st.rerun()
+
+    def execute_batch_save(indices_to_save):
+        if not indices_to_save:
             st.warning("⚠️ 登録する項目が選択されていません。")
             return
         try:
             gc = get_gspread_client()
-            for idx in indices:
+            sorted_indices = sorted(indices_to_save, reverse=True)
+            
+            for idx in sorted_indices:
                 item = parsed_items[idx]
                 append_to_result_sheet(gc, item)
+                parsed_items.pop(idx)
                 
-            st.success(f"🎉 選択された {len(indices)} 件の登録が完了しました！")
+            st.session_state[items_session_key] = parsed_items
+            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録し、リストから除外しました！", icon="✅")
             
-            if image_path.exists():
-                image_path.rename(DONE_DIR / image_path.name)
-            selected_json.rename(DONE_DIR / selected_json.name)
-            
+            meta["parsed_items"] = parsed_items
+            with open(selected_json, "w", encoding="utf-8") as f:
+                json.dump(meta, f, ensure_ascii=False, indent=2)
+
+            check_and_complete_if_empty()
             st.rerun()
             
         except Exception as e:
@@ -129,13 +190,13 @@ if selected_json:
         if image_path.exists():
             image_path.rename(DONE_DIR / image_path.name)
         selected_json.rename(DONE_DIR / selected_json.name)
+        if items_session_key in st.session_state:
+            del st.session_state[items_session_key]
         st.warning("⚠️ このデータをスキップしました（キューから除外）。")
         st.rerun()
 
-    # --- サイドバーの一括操作パネル ---
     if parsed_items:
-        st.sidebar.markdown("---")
-        st.sidebar.subheader("🚀 一括操作パネル")
+        st.sidebar.markdown("### 🚀 一括操作パネル")
         if st.sidebar.button("🚀 チェックした項目を一括登録", type="primary", key="sb_batch_btn"):
             indices = [i for i in range(len(parsed_items)) if st.session_state.get(f"chk_{tweet_id}_{i}", True)]
             execute_batch_save(indices)
@@ -143,7 +204,6 @@ if selected_json:
         if st.sidebar.button("🗑️ このデータを丸ごとスキップ", key="sb_skip_btn"):
             execute_skip()
 
-    # 画面構成：左側に画像を固定、右側に編集・登録リスト
     col_img, col_list = st.columns([1, 1.3], gap="large")
 
     with col_img:
@@ -159,14 +219,12 @@ if selected_json:
             st.markdown(f"[🔗 X(Twitter)で元ツイートを開く]({tweet_url})")
 
     with col_list:
-        st.subheader("✍️ 事前解析データ確認・個別/チェック一括登録")
+        st.subheader(f"✍️️ 事前解析データ確認 (残り: {len(parsed_items)}件)")
         
         if not parsed_items:
-            st.warning("⚠️ このJSONには事前解析データ（parsed_items）が含まれていません。GitHub Actions側のOCRスクリプトを確認してください。")
-            st.json(meta)
+            st.success("✨ すべての項目が登録されました！自動的に次のデータへ移動します...")
+            check_and_complete_if_empty()
         else:
-            st.markdown(f"📌 GitHub Actions側で解析された **{len(parsed_items)}件** のデータです。各行で修正・個別登録が可能です。")
-            
             if st.button("☑ すべての項目を選択する"):
                 for i in range(len(parsed_items)):
                     st.session_state[f"chk_{tweet_id}_{i}"] = True
@@ -182,7 +240,7 @@ if selected_json:
                         if is_checked:
                             selected_indices.append(idx)
                     with c_status:
-                        st.markdown(f"**[{idx+1}] 登録用データ**")
+                        st.markdown(f"**[{idx+1}] 未登録アイテム**")
 
                     c1, c2 = st.columns([2, 1])
                     c3, c4 = st.columns([1, 1])
@@ -211,7 +269,17 @@ if selected_json:
                                 "model_number": new_model
                             }
                             append_to_result_sheet(gc, single_data)
-                            st.success(f"🎉 商品 [{idx+1}] をスプレッドシートに登録しました！")
+                            
+                            parsed_items.pop(idx)
+                            st.session_state[items_session_key] = parsed_items
+                            
+                            meta["parsed_items"] = parsed_items
+                            with open(selected_json, "w", encoding="utf-8") as f:
+                                json.dump(meta, f, ensure_ascii=False, indent=2)
+                                
+                            st.toast(f"✅ 商品 [{idx+1}] をスプレッドシートに登録しました！", icon="🎉")
+                            check_and_complete_if_empty()
+                            st.rerun()
                         except Exception as e:
                             st.error(f"❌ 登録エラー: {e}")
 
