@@ -1,2 +1,6 @@
 twitter-cli
 requests
+streamlit
+gspread
+google-auth
+Pillow
