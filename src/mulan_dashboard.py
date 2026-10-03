@@ -85,7 +85,7 @@ if done_files:
     st.sidebar.markdown("---")
     st.sidebar.subheader("↩️ 直近の完了データを復元 (アンドゥ)")
     restore_target = st.sidebar.selectbox("復元するデータを選択", done_files, format_func=lambda x: x.name)
-    if st.sidebar.button("♻️️ 選択したデータを未処理に戻す"):
+    if st.sidebar.button("♻️ 選択したデータを未処理に戻す"):
         try:
             meta_path = DONE_DIR / restore_target.name
             with open(meta_path, "r", encoding="utf-8") as f:
@@ -195,8 +195,8 @@ if selected_json:
         st.subheader("📷 買取表プレビュー")
         if image_path.exists():
             img = Image.open(image_path)
-            # 画像サイズを450pxにコンパクト化して見やすく調整
-            st.image(img, width=450)
+            # 画像サイズを読みやすい大きさに調整 (width=650)
+            st.image(img, width=650)
         else:
             st.error(f"画像ファイルが見つかりません: {image_filename}")
 
@@ -211,7 +211,6 @@ if selected_json:
             st.success("✨ すべての項目が登録されました！自動的に次のデータへ移動します...")
             check_and_complete_if_empty()
         else:
-            # --- 📄 ページネーション処理 (1ページあたり10件表示) ---
             ITEMS_PER_PAGE = 10
             total_items = len(parsed_items)
             total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
