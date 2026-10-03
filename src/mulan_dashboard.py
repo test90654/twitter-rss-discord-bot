@@ -136,12 +136,15 @@ if selected_json:
 
     parsed_items = st.session_state[items_session_key]
 
-    # 完了判定（リストが空になったら、あるいは一括登録ですべて処理されたらDONEへ移動して次へ進む）
+    # リストが空になった（あるいはすべて登録し終えた）場合に完了としてDONEフォルダへ移動し、次へ進む関数
     def check_and_complete_if_empty():
         if not st.session_state[items_session_key]:
             if image_path.exists():
                 image_path.rename(DONE_DIR / image_path.name)
-            selected_json.rename(DONE_DIR / selected_json.name)
+            if selected_json.exists():
+                selected_json.rename(DONE_DIR / selected_json.name)
+            if items_session_key in st.session_state:
+                del st.session_state[items_session_key]
             st.toast("🎉 このデータの全項目の登録が完了しました！次のデータへ進みます。", icon="🚀")
             time.sleep(1)
             st.rerun()
@@ -152,6 +155,7 @@ if selected_json:
             return
         try:
             gc = get_gspread_client()
+            # インデックスのズレを防ぐため、後ろのインデックスから順に処理・削除
             sorted_indices = sorted(indices_to_save, reverse=True)
             
             for idx in sorted_indices:
@@ -160,29 +164,16 @@ if selected_json:
                 parsed_items.pop(idx)
                 
             st.session_state[items_session_key] = parsed_items
-            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録しました！", icon="✅")
+            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録し、リストから除外しました！", icon="✅")
             
+            # JSONファイルを更新
             meta["parsed_items"] = parsed_items
             with open(selected_json, "w", encoding="utf-8") as f:
                 json.dump(meta, f, ensure_ascii=False, indent=2)
 
-            # ★ 一括登録した結果、リストが空になったか、あるいはすべて処理し終えたとみなして完了扱いにしたい場合、
-            # もし「一括登録ボタンを押したら残りがあっても強制的にこのデータを完了にして次に進む」仕様にする場合はここで完了処理を呼びます。
-            # 今回は「リストに残っている全アイテムを一括登録した時（またはチェックされたものが全件だった時）」に自動完了させるか、
-            # あるいは「チェックしたものを一括登録したら、このデータ自体を完了（DONE）にして次のファイルへ進む」挙動にします。
-            
-            # チェックされた項目が全件、もしくはリスト全体を処理した場合は完了フォルダへ移動
-            if not parsed_items or len(indices_to_save) >= len(parsed_items) or len(parsed_items) == 0:
-                if image_path.exists():
-                    image_path.rename(DONE_DIR / image_path.name)
-                selected_json.rename(DONE_DIR / selected_json.name)
-                if items_session_key in st.session_state:
-                    del st.session_state[items_session_key]
-                st.toast("🎉 このデータの処理が完了しました！次のデータへ進みます。", icon="🚀")
-                time.sleep(1)
-                st.rerun()
-            else:
-                st.rerun()
+            # リストが空になったかチェックして自動進行
+            check_and_complete_if_empty()
+            st.rerun()
             
         except Exception as e:
             st.error(f"❌ 一括登録エラー: {e}")
@@ -190,7 +181,8 @@ if selected_json:
     def execute_skip():
         if image_path.exists():
             image_path.rename(DONE_DIR / image_path.name)
-        selected_json.rename(DONE_DIR / selected_json.name)
+        if selected_json.exists():
+            selected_json.rename(DONE_DIR / selected_json.name)
         if items_session_key in st.session_state:
             del st.session_state[items_session_key]
         st.warning("⚠️ このデータをスキップしました（キューから除外）。")
@@ -220,10 +212,9 @@ if selected_json:
             st.markdown(f"[🔗 X(Twitter)で元ツイートを開く]({tweet_url})")
 
     with col_list:
-        st.subheader(f"✍️️ 事前解析データ確認 (残り: {len(parsed_items)}件)")
+        st.subheader(f"✍️ 事前解析データ確認 (残り: {len(parsed_items)}件)")
         
         if not parsed_items:
-            st.success("✨ すべての項目が登録されました！自動的に次のデータへ移動します...")
             check_and_complete_if_empty()
         else:
             # --- 📄 ページネーション処理 (1ページあたり5件表示) ---
@@ -245,7 +236,7 @@ if selected_json:
                     st.session_state[page_key] -= 1
                     st.rerun()
             with c_p2:
-                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages} (全 {total_items} 件)</div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='text-align: center; font-weight: bold;'>ページ {st.session_state[page_key] + 1} / {total_pages} (残り {total_items} 件)</div>", unsafe_allow_html=True)
             with c_p3:
                 if st.button("次へ ▶", key=f"next_top_{tweet_id}", disabled=(st.session_state[page_key] >= total_pages - 1)):
                     st.session_state[page_key] += 1
