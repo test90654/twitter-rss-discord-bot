@@ -3,7 +3,7 @@ name: Test Mulan Image Collector
 on:
   workflow_dispatch: # 手動でいつでもテスト実行できるようにする
   # schedule:
-  #   - cron: '0 * * * *' # 必要に応じて定期実行のコメントアウトを解除してください
+  #   - cron: '0 * * * *' # 必要に応じて定期実行の有効化にご活用ください
 
 permissions:
   contents: write
