@@ -136,6 +136,7 @@ if selected_json:
 
     parsed_items = st.session_state[items_session_key]
 
+    # 全アイテムがなくなったら完了としてDONEフォルダへ移動する関数
     def check_and_complete_if_empty():
         if not st.session_state[items_session_key]:
             if image_path.exists():
@@ -154,6 +155,7 @@ if selected_json:
             return
         try:
             gc = get_gspread_client()
+            # インデックスのズレを防ぐため、後ろのインデックスから順に処理・削除
             sorted_indices = sorted(indices_to_save, reverse=True)
             
             for idx in sorted_indices:
@@ -162,18 +164,24 @@ if selected_json:
                 parsed_items.pop(idx)
                 
             st.session_state[items_session_key] = parsed_items
-            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録しました！", icon="✅")
+            st.toast(f"🎉 選択された {len(indices_to_save)} 件を登録し、リストから除外しました！", icon="✅")
             
+            # チェック状態をクリアしてインデックスのバグを防ぐ
+            keys_to_clear = [k for k in st.session_state.keys() if k.startswith(f"chk_{tweet_id}_")]
+            for k in keys_to_clear:
+                del st.session_state[k]
+
+            # JSONファイルを更新
             meta["parsed_items"] = parsed_items
             with open(selected_json, "w", encoding="utf-8") as f:
                 json.dump(meta, f, ensure_ascii=False, indent=2)
 
-            # ページ位置の調整（アイテム削除によってページ数が減った場合のケア）
+            # ページ位置の安全調整
             page_key = f"page_{tweet_id}"
             ITEMS_PER_PAGE = 5
             total_items = len(parsed_items)
             total_pages = max(1, (total_items + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE)
-            if st.session_state[page_key] >= total_pages:
+            if st.session_state.get(page_key, 0) >= total_pages:
                 st.session_state[page_key] = total_pages - 1
 
             check_and_complete_if_empty()
@@ -195,7 +203,14 @@ if selected_json:
     if parsed_items:
         st.sidebar.markdown("### 🚀 一括操作パネル")
         if st.sidebar.button("🚀 チェックした項目を一括登録", type="primary", key="sb_batch_btn"):
-            indices = [i for i in range(len(parsed_items)) if st.session_state.get(f"chk_{tweet_id}_{i}", True)]
+            # 現在のページで選択されているインデックスを計算して一括登録
+            ITEMS_PER_PAGE = 5
+            page_key = f"page_{tweet_id}"
+            current_page = st.session_state.get(page_key, 0)
+            start_idx = current_page * ITEMS_PER_PAGE
+            end_idx = min(start_idx + ITEMS_PER_PAGE, len(parsed_items))
+            
+            indices = [i for i in range(start_idx, end_idx) if st.session_state.get(f"chk_{tweet_id}_{i}", True)]
             execute_batch_save(indices)
             
         if st.sidebar.button("🗑️ このデータを丸ごとスキップ", key="sb_skip_btn"):
@@ -255,7 +270,7 @@ if selected_json:
                     st.session_state[f"chk_{tweet_id}_{i}"] = True
                 st.rerun()
 
-            selected_indices = []
+            selected_indices_in_page = []
             
             # 現在のページの5件だけを描画
             for idx in range(start_idx, end_idx):
@@ -265,7 +280,7 @@ if selected_json:
                     with c_chk:
                         is_checked = st.checkbox("選択", value=st.session_state.get(f"chk_{tweet_id}_{idx}", True), key=f"chk_{tweet_id}_{idx}")
                         if is_checked:
-                            selected_indices.append(idx)
+                            selected_indices_in_page.append(idx)
                     with c_status:
                         st.markdown(f"**[{idx+1}] 未登録アイテム**")
 
@@ -300,6 +315,11 @@ if selected_json:
                             parsed_items.pop(idx)
                             st.session_state[items_session_key] = parsed_items
                             
+                            # チェック状態をクリア
+                            keys_to_clear = [k for k in st.session_state.keys() if k.startswith(f"chk_{tweet_id}_")]
+                            for k in keys_to_clear:
+                                del st.session_state[k]
+
                             meta["parsed_items"] = parsed_items
                             with open(selected_json, "w", encoding="utf-8") as f:
                                 json.dump(meta, f, ensure_ascii=False, indent=2)
@@ -335,7 +355,7 @@ if selected_json:
             col_b1, col_b2 = st.columns(2)
             with col_b1:
                 if st.button("🚀 チェックした項目を一括登録 (下部)", type="primary"):
-                    execute_batch_save(selected_indices)
+                    execute_batch_save(selected_indices_in_page)
             with col_b2:
                 if st.button("🗑️ このデータを丸ごとスキップ (下部)"):
                     execute_skip()
