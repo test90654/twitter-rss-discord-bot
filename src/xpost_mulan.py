@@ -8,6 +8,7 @@ import requests
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 import time
+from datetime import datetime, date, timedelta, timezone
 
 from PIL import Image
 from pydantic import BaseModel
@@ -82,6 +83,70 @@ def fetch_tweets():
 
 
 # ============================================================
+# 投稿日時の取得と、更新日の補正
+# ============================================================
+JST = timezone(timedelta(hours=9))
+DATE_TOLERANCE_DAYS = 45  # 投稿日からこれ以上離れた更新日は読み間違いとみなし、投稿日を使う
+
+def get_post_datetime(tweet, tweet_id):
+    """
+    ポストの投稿日時（日本時間）を取得する。
+    created_at があればそれを使い、無ければツイートIDから計算する（IDに投稿時刻が埋め込まれている）。
+    """
+    created = tweet.get("created_at") or tweet.get("createdAt") or ""
+    if created:
+        for fmt in ("%a %b %d %H:%M:%S %z %Y", "%Y-%m-%dT%H:%M:%S.%f%z", "%Y-%m-%dT%H:%M:%S%z"):
+            try:
+                return datetime.strptime(created.replace("Z", "+00:00"), fmt).astimezone(JST)
+            except ValueError:
+                pass
+        try:
+            return datetime.fromisoformat(created.replace("Z", "+00:00")).astimezone(JST)
+        except ValueError:
+            pass
+    try:
+        ms = (int(tweet_id) >> 22) + 1288834974657
+        return datetime.fromtimestamp(ms / 1000, tz=JST)
+    except (ValueError, TypeError):
+        return datetime.now(JST)
+
+def normalize_update_date(raw, post_dt):
+    """
+    OCRで読んだ更新日を、ポストの年に紐付けた正しい日付（YYYY/MM/DD）にする。
+    - 画像の日付は「10/3」「10月3日」など年なしが多く、Geminiが年をでっち上げるため、年は無視して月日だけ使う
+    - 年は投稿日に一番近くなるものを選ぶ（12/31の表を1/2に投稿、のような年またぎにも対応）
+    - 月日が読めない・ありえない日付・投稿日から大きく離れている場合は投稿日を使う
+    """
+    post_date = post_dt.date()
+    s = unicodedata.normalize("NFKC", str(raw or ""))
+    nums = re.findall(r"\d+", s)
+
+    month = day = None
+    # 年(4桁 or 2桁)を含む書き方 → 後ろの2つを月日として使う
+    if len(nums) >= 3:
+        month, day = int(nums[-2]), int(nums[-1])
+    elif len(nums) == 2:
+        month, day = int(nums[0]), int(nums[1])
+
+    if month and day:
+        candidates = []
+        for y in (post_date.year - 1, post_date.year, post_date.year + 1):
+            try:
+                candidates.append(date(y, month, day))
+            except ValueError:
+                pass
+        if candidates:
+            best = min(candidates, key=lambda d: abs((d - post_date).days))
+            if abs((best - post_date).days) <= DATE_TOLERANCE_DAYS:
+                return best.strftime("%Y/%m/%d")
+            print(f"  ⚠️ 更新日「{raw}」が投稿日 {post_date} から離れすぎているため投稿日を使用")
+    elif s.strip():
+        print(f"  ⚠️ 更新日「{raw}」を日付として読めないため投稿日を使用")
+
+    return post_date.strftime("%Y/%m/%d")
+
+
+# ============================================================
 # 画像の取得（原寸で取る）
 # ============================================================
 def to_original_size_url(url):
@@ -144,7 +209,7 @@ BASE_RULES = """
 - category: その商品が属する見出し（赤文字・色付き帯・太字などのシリーズ名/カテゴリー名）。直前の見出しを引き継ぐ。無ければ空文字。
 - name: 商品名。category と同じ文字は繰り返さなくてよい。
 - price: 買取価格。「¥」「円」「,」は除き数字だけ（例: 12000）。「要相談」など数字でない場合はその文字列のまま。
-- update_date: 画像内に書かれた更新日。行ごとに無ければ空文字（全体の更新日は update_date に別途入れる）。
+- update_date: 画像内に書かれた更新日を、書かれている月日のまま（例: 10/3）。年が書かれていなければ年は付けない。行ごとに無ければ空文字（全体の更新日は update_date に別途入れる）。
 - model_number: 型番やJANコード。無ければ空文字。
 
 【除外するもの】
@@ -270,7 +335,7 @@ def _merge(base, extra):
     return added
 
 
-def analyze_image_with_gemini(image_bytes):
+def analyze_image_with_gemini(image_bytes, post_dt=None):
     """
     買取表画像から商品リストを抽出する。
       1. 縦長なら帯に分割し、帯ごとに抽出（全体画像も一緒に渡して見出しや更新日を判断させる）
@@ -325,14 +390,20 @@ def analyze_image_with_gemini(image_bytes):
         print(f"❌ Gemini解析エラー: {e}")
 
     # ダッシュボード用の形式に変換（シリーズ名・カテゴリー名を商品名の先頭に付ける）
+    # 更新日はポストの投稿日をもとに年を決めて YYYY/MM/DD にそろえる
+    post_dt = post_dt or datetime.now(JST)
+    date_cache = {}
     out = []
     for it in items:
+        raw_date = (it.update_date or overall_date).strip()
+        if raw_date not in date_cache:
+            date_cache[raw_date] = normalize_update_date(raw_date, post_dt)
         cat, name = it.category.strip(), it.name.strip()
         full_name = name if (not cat or name.startswith(cat)) else f"{cat} {name}"
         out.append({
             "name": full_name,
             "price": it.price.replace("¥", "").replace("円", "").replace(",", "").strip(),
-            "update_date": (it.update_date or overall_date).strip(),
+            "update_date": date_cache[raw_date],
             "model_number": it.model_number.strip(),
         })
     return out, _working_model
@@ -384,7 +455,8 @@ def main():
             print(f"Skipping tweet {tweet_id} (No hashtag)")
             continue
 
-        print(f"Target tweet found! ID: {tweet_id}")
+        post_dt = get_post_datetime(tweet, tweet_id)
+        print(f"Target tweet found! ID: {tweet_id}（投稿日時: {post_dt:%Y/%m/%d %H:%M}）")
 
         # メディア（画像）のURLを抽出
         image_urls = []
@@ -426,7 +498,7 @@ def main():
             img_bytes = download_image(img_url, img_path)
             if img_bytes:
                 print(f"🤖 GeminiでOCR解析を実行中 ({img_filename})...")
-                parsed_items, used_model = analyze_image_with_gemini(img_bytes)
+                parsed_items, used_model = analyze_image_with_gemini(img_bytes, post_dt)
                 print(f"✨ 抽出結果: {len(parsed_items)} 件（モデル: {used_model}）")
 
                 tweet_total_parsed += len(parsed_items)
@@ -439,6 +511,7 @@ def main():
                     "text": text,
                     "image_file": img_filename,
                     "tweet_url": tweet_url,
+                    "posted_at": post_dt.strftime("%Y/%m/%d %H:%M"),
                     "ocr_model": used_model,
                     "parsed_items": parsed_items
                 }
