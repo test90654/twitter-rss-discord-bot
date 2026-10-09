@@ -412,13 +412,47 @@ def analyze_image_with_gemini(image_bytes, post_dt=None):
 # ============================================================
 # Discord通知・メイン処理
 # ============================================================
-def send_to_discord(webhook_url, tweet_text, tweet_url, parsed_count=0):
-    payload = {
-        "content": f"🚨 **【@{TARGET_USER} 買取情報・OCR解析完了】** 🚨\n\n📌 **抽出された商品数:** `{parsed_count}件`\n\n{tweet_text}\n\n👉 元ツイート: <{tweet_url}>"
-    }
-    response = requests.post(webhook_url, json=payload)
-    if response.status_code == 204:
+DISCORD_MAX_LEN = 1900  # Discordの上限2000文字に余裕を持たせる
+
+def _format_price(price):
+    return f"¥{int(price):,}" if price.isdigit() else (price or "価格不明")
+
+def _build_item_messages(items):
+    """商品リストを「商品名 … 価格」の行にし、Discordの文字数上限で分割する"""
+    lines = [f"・{it['name']} … **{_format_price(it['price'])}**" for it in items]
+    chunks, cur = [], ""
+    for line in lines:
+        if len(line) > DISCORD_MAX_LEN:
+            line = line[:DISCORD_MAX_LEN - 1] + "…"
+        if cur and len(cur) + 1 + len(line) > DISCORD_MAX_LEN:
+            chunks.append(cur)
+            cur = line
+        else:
+            cur = f"{cur}\n{line}" if cur else line
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+def _post_discord(webhook_url, content):
+    for attempt in range(3):
+        response = requests.post(webhook_url, json={"content": content, "allowed_mentions": {"parse": []}})
+        if response.status_code == 429:  # レート制限は指定秒数待って再送
+            time.sleep(float(response.json().get("retry_after", 1)))
+            continue
+        return response.status_code in (200, 204)
+    return False
+
+def send_to_discord(webhook_url, tweet_text, tweet_url, items):
+    header = f"🚨 **【@{TARGET_USER} 買取情報・OCR解析完了】** 🚨\n\n📌 **抽出された商品数:** `{len(items)}件`\n\n{tweet_text}\n\n👉 元ツイート: <{tweet_url}>"
+    ok = _post_discord(webhook_url, header[:2000])
+    chunks = _build_item_messages(items)
+    for i, chunk in enumerate(chunks, 1):
+        title = f"📋 **抽出商品一覧** ({i}/{len(chunks)})\n" if len(chunks) > 1 else "📋 **抽出商品一覧**\n"
+        ok = _post_discord(webhook_url, title + chunk) and ok
+    if ok:
         print("Successfully sent to Discord with OCR info!")
+    else:
+        print("⚠️ Discordへの送信に一部失敗しました")
 
 def main():
     webhook_url = os.environ.get("DISCORD_WEBHOOK_URL")
@@ -475,7 +509,7 @@ def main():
             print(f"-> Tweet {tweet_id} has hashtag, but no images attached.")
             continue
 
-        tweet_total_parsed = 0
+        tweet_items = []
         has_new_media = False
 
         # 画像のダウンロードとメタデータ保存 ＆ OCR処理
@@ -501,7 +535,7 @@ def main():
                 parsed_items, used_model = analyze_image_with_gemini(img_bytes, post_dt)
                 print(f"✨ 抽出結果: {len(parsed_items)} 件（モデル: {used_model}）")
 
-                tweet_total_parsed += len(parsed_items)
+                tweet_items.extend(parsed_items)
                 has_new_media = True
 
                 tweet_url = f"https://x.com/{TARGET_USER}/status/{tweet_id}"
@@ -523,7 +557,7 @@ def main():
             valid_tweets_to_send.append({
                 "text": text,
                 "url": f"https://x.com/{TARGET_USER}/status/{tweet_id}",
-                "count": tweet_total_parsed
+                "items": tweet_items
             })
 
     # Discord通知と状態保存
@@ -531,7 +565,7 @@ def main():
         valid_tweets_to_send.reverse()
         for vt in valid_tweets_to_send:
             if webhook_url:
-                send_to_discord(webhook_url, vt["text"], vt["url"], vt["count"])
+                send_to_discord(webhook_url, vt["text"], vt["url"], vt["items"])
         if newest_fetched_id:
             save_last_tweet_id(newest_fetched_id)
 
