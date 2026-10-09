@@ -44,7 +44,23 @@ jobs:
           python src/xpost_mulan.py
 
       - name: Commit states and queue data
+        id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update tweet states and add mulan queue data [skip ci]"
           file_pattern: "last_tweet_id_*.txt data/mulan_queue/*"
+
+      # 新しいOCRデータがコミットされたときだけダッシュボード（Render）を再デプロイする
+      - name: Trigger Render Deploy
+        if: steps.auto_commit.outputs.changes_detected == 'true'
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if ! git diff --name-only HEAD~1 HEAD -- data/mulan_queue | grep -q .; then
+            echo "No new mulan queue data. Skipping deployment trigger."
+          elif [ -n "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "Triggering Render Deploy Hook..."
+            curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
+          else
+            echo "RENDER_DEPLOY_HOOK_URL is not set. Skipping deployment trigger."
+          fi
