@@ -43,12 +43,19 @@ jobs:
         run: |
           python src/xpost_mulan.py
 
+      - name: Run Jump Calendar Prize Monitor
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_JUMPCAL }}
+        run: |
+          python src/jumpcal_prize.py
+
       - name: Commit states and queue data
         id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update tweet states and add mulan queue data [skip ci]"
-          file_pattern: "last_tweet_id_*.txt data/mulan_queue/*"
+          file_pattern: "last_tweet_id_*.txt data/mulan_queue/* data/jumpcal_prize_seen.json"
 
       # 新しいOCRデータがコミットされたときだけダッシュボード（Render）を再デプロイする
       - name: Trigger Render Deploy
