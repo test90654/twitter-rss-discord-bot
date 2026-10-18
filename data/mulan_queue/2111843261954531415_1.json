@@ -1,0 +1,383 @@
+{
+  "tweet_id": "2111843261954531415_1",
+  "original_tweet_id": "2111843261954531415",
+  "text": "📢10/19更新📢\nちいかわ買2026年11月2日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取\n\n↓リプライに続きます https://t.co/5xMvgKXfB5",
+  "image_file": "2111843261954531415_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2111843261954531415",
+  "posted_at": "2026/10/19 00:34",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "USB スタンドライト うさぎ (タイトー)",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "ちいかわ ころころクリーナー (タイトー)",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ でかつよ・あのこ BIG ぬいぐるみ でかつよ",
+      "price": "2000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ でかつよ・あのこ BIG ぬいぐるみ あのこ",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ セイレーン BIG ぬいぐるみ (目開け)",
+      "price": "3000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ セイレーン BIG ぬいぐるみ (目閉じ)",
+      "price": "3000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ ちいかわ",
+      "price": "1500",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ ハチワレ",
+      "price": "1500",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ うさぎ",
+      "price": "1800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ モモンガ",
+      "price": "1400",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ くりまんじゅう",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ ラッコ",
+      "price": "1400",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ シーサー",
+      "price": "1800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島へようこそ!! ぬいぐるみ 古本屋",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 島二郎 BIG ぬいぐるみ",
+      "price": "1800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ いっしょに食べよポップコーンぬいぐるみ ちいかわ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ いっしょに食べよポップコーンぬいぐるみ ハチワレ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ カレーのお供たち BIG ぬいぐるみ ちいかわ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ カレーのお供たち BIG ぬいぐるみ ハチワレ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ カレーのお供たち BIG ぬいぐるみ うさぎ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちるおかお超 BIG ぬいぐるみ① ちいかわ",
+      "price": "1800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちるおかお超 BIG ぬいぐるみ① ハチワレ",
+      "price": "1800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちるおかお超 BIG ぬいぐるみ② うさぎ",
+      "price": "2000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちるおかお超 BIG ぬいぐるみ② モモンガ",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ウラヤハボウズ BIG ぬいぐるみ",
+      "price": "1500",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ プリンセス誕生日ぬいぐるみ うさぎ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 誕生日なうさぎ BIG ぬいぐるみ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ そろそろイースターな BIG ぬいぐるみ ちいかわ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ そろそろイースターな BIG ぬいぐるみ ハチワレ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ そろそろイースターな BIG ぬいぐるみ うさぎ",
+      "price": "1100",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ちいかわ × サンリオ BIG ぬいぐるみ① ちいかわ",
+      "price": "1100",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ちいかわ × サンリオ BIG ぬいぐるみ① ハチワレ",
+      "price": "1300",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ちいかわ × サンリオ BIG ぬいぐるみ① くりまんじゅう",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ちいかわ × サンリオ BIG ぬいぐるみ② うさぎ",
+      "price": "1500",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ちいかわ × サンリオ BIG ぬいぐるみ② モモンガ",
+      "price": "1400",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ① ちいかわ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ① ハチワレ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ① くりまんじゅう",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ① シーサー",
+      "price": "800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ② うさぎ",
+      "price": "1300",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ② モモンガ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ② ラッコ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ しーぷわぬいぐるみ② 古本屋",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ゴブリン BIG ぬいぐるみ レシピ帳",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ゴブリン BIG ぬいぐるみ もぐもぐ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 黒猫のぬいぐるみ ちいかわ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 黒猫のぬいぐるみ ハチワレ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ 黒猫のぬいぐるみ うさぎ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ きのこ着ぐるみ BIG ぬいぐるみ ちいかわ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ きのこ着ぐるみ BIG ぬいぐるみ ハチワレ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ きのこ着ぐるみ BIG ぬいぐるみ うさぎ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ハチさん BIG ぬいぐるみ ちいかわ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ハチさん BIG ぬいぐるみ ハチワレ",
+      "price": "900",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ ハチさん BIG ぬいぐるみ うさぎ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちる ねそべり BIG ぬいぐるみ① ちいかわ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちる ねそべり BIG ぬいぐるみ① ハチワレ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちる ねそべり BIG ぬいぐるみ② うさぎ",
+      "price": "1800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ もっちる ねそべり BIG ぬいぐるみ② モモンガ",
+      "price": "1400",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ パジャマ BIG ぬいぐるみ 1 ちいかわ",
+      "price": "1200",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ パジャマ BIG ぬいぐるみ 1 ハチワレ",
+      "price": "1000",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ パジャマ BIG ぬいぐるみ 2 うさぎ",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    },
+    {
+      "name": "パレード ぬいぐるみ パジャマ BIG ぬいぐるみ 2 モモンガ",
+      "price": "800",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    }
+  ]
+}
