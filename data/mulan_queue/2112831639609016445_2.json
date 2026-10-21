@@ -1,0 +1,323 @@
+{
+  "tweet_id": "2112831639609016445_2",
+  "original_tweet_id": "2112831639609016445",
+  "text": "📢10/21更新📢\n『初音ミク』プライズフィギュア買取速報です🎤🎵\n有効期限は2026年11月4日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/ZmTo2wAFpG",
+  "image_file": "2112831639609016445_2.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2112831639609016445",
+  "posted_at": "2026/10/21 18:01",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "セガプライズ FIGURIZMα Punk !",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1123715"
+    },
+    {
+      "name": "セガプライズ ちょこのせ × シナモロール",
+      "price": "3000",
+      "update_date": "2026/10/21",
+      "model_number": "1105506"
+    },
+    {
+      "name": "セガプライズ ちょこのせ × シナモロール おすましVer.",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1114895"
+    },
+    {
+      "name": "セガプライズ SPM リボンガール (再販)",
+      "price": "2600",
+      "update_date": "2026/10/21",
+      "model_number": "1116377"
+    },
+    {
+      "name": "セガプライズ SPM にゃんこ (再販)",
+      "price": "2500",
+      "update_date": "2026/10/21",
+      "model_number": "1116389"
+    },
+    {
+      "name": "セガプライズ SPM 堕悪天使 (再販)",
+      "price": "2400",
+      "update_date": "2026/10/21",
+      "model_number": "1110890"
+    },
+    {
+      "name": "セガプライズ SPM 巡音ルカ アムール (再販)",
+      "price": "1800",
+      "update_date": "2026/10/21",
+      "model_number": "1109103"
+    },
+    {
+      "name": "セガプライズ × シナモロール L ぬいぐるみ ミク",
+      "price": "1500",
+      "update_date": "2026/10/21",
+      "model_number": "1111918"
+    },
+    {
+      "name": "セガプライズ × シナモロール L ぬいぐるみ シナモン",
+      "price": "1400",
+      "update_date": "2026/10/21",
+      "model_number": "1111920"
+    },
+    {
+      "name": "Luminasta Conceptual series Vol.3",
+      "price": "700",
+      "update_date": "2026/10/21",
+      "model_number": "1120817"
+    },
+    {
+      "name": "Luminasta Project DIVA MEGA39's 15th Ver.",
+      "price": "1800",
+      "update_date": "2026/10/21",
+      "model_number": "1113738"
+    },
+    {
+      "name": "Luminasta 深海少女",
+      "price": "1300",
+      "update_date": "2026/10/21",
+      "model_number": "1106448"
+    },
+    {
+      "name": "Luminasta クラシカルメイド",
+      "price": "700",
+      "update_date": "2026/10/21",
+      "model_number": "1121623"
+    },
+    {
+      "name": "Luminasta シナモロール ホワイトドレスVer.",
+      "price": "1400",
+      "update_date": "2026/10/21",
+      "model_number": "1115674"
+    },
+    {
+      "name": "Luminasta スターヴォイス",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1110691"
+    },
+    {
+      "name": "Luminasta ビターパティシエ",
+      "price": "1500",
+      "update_date": "2026/10/21",
+      "model_number": "1067074"
+    },
+    {
+      "name": "Luminasta ビターパティシエ (再販)",
+      "price": "1500",
+      "update_date": "2026/10/21",
+      "model_number": "1109730"
+    },
+    {
+      "name": "Luminasta モダンチャイナ",
+      "price": "2200",
+      "update_date": "2026/10/21",
+      "model_number": "1109100"
+    },
+    {
+      "name": "Luminasta 開かれた窓のセカイの初音ミク",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1119617"
+    },
+    {
+      "name": "Luminasta 閉ざされた窓のセカイの初音ミク",
+      "price": "1300",
+      "update_date": "2026/10/21",
+      "model_number": "1117178"
+    },
+    {
+      "name": "Luminasta 雪ミクスカイタウン Ver.",
+      "price": "1100",
+      "update_date": "2026/10/21",
+      "model_number": "1107799"
+    },
+    {
+      "name": "Luminasta 巡音ルカ",
+      "price": "1200",
+      "update_date": "2026/10/21",
+      "model_number": "1107448"
+    },
+    {
+      "name": "ふわぷち ぬいぐるみ LL 初音ミク にゃんこ",
+      "price": "2500",
+      "update_date": "2026/10/21",
+      "model_number": "1121368"
+    },
+    {
+      "name": "ふわぷち ぬいぐるみ LL 巡音ルカ",
+      "price": "2500",
+      "update_date": "2026/10/21",
+      "model_number": "1121287"
+    },
+    {
+      "name": "ふわぷち ぬいぐるみ L 初音ミク",
+      "price": "4200",
+      "update_date": "2026/10/21",
+      "model_number": "1121277"
+    },
+    {
+      "name": "ふわぷち ぬいぐるみ L 深海少女",
+      "price": "1500",
+      "update_date": "2026/10/21",
+      "model_number": "1123976"
+    },
+    {
+      "name": "ふわぷち ぬいぐるみ M クラシカルメイド",
+      "price": "1500",
+      "update_date": "2026/10/21",
+      "model_number": "1121627"
+    },
+    {
+      "name": "ふわぷち ぬいぐるみ M Punk!",
+      "price": "1500",
+      "update_date": "2026/10/21",
+      "model_number": "1123966"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ 初音ミク",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1101035"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ シナモン (2種共通)",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1101035"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ 初音ミク (再販)",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1109349"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ シナモン (2種共通 / 再販)",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1109349"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.2 初音ミク (2種共通)",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1111878"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.2 シナモン (2種共通)",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1111878"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.3 初音ミク",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1111880"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.3 シナモン",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1111880"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.4 初音ミク (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1115086"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.4 シナモン (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1115086"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.5 初音ミク",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1115088"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.5 シナモン (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1115088"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1116877"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 シナモン (2種共通)",
+      "price": "800",
+      "update_date": "2026/10/21",
+      "model_number": "1116877"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通 / 再販)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1121194"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 シナモン (2種共通 / 再販)",
+      "price": "800",
+      "update_date": "2026/10/21",
+      "model_number": "1121194"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.7 初音ミク (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1116945"
+    },
+    {
+      "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.7 シナモン (2種共通)",
+      "price": "800",
+      "update_date": "2026/10/21",
+      "model_number": "1116945"
+    },
+    {
+      "name": "初音ミク × シナモロール マスコット ぴょこぴょこ 初音ミク (2種共通)",
+      "price": "1000",
+      "update_date": "2026/10/21",
+      "model_number": "1122291"
+    },
+    {
+      "name": "初音ミク × シナモロール マスコット ぴょこぴょこ シナモン",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1122291"
+    },
+    {
+      "name": "初音ミク × シナモロール マスコット 桜Ver. 初音ミク (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1122982"
+    },
+    {
+      "name": "初音ミク × シナモロール マスコット 桜Ver. シナモン (2種共通)",
+      "price": "900",
+      "update_date": "2026/10/21",
+      "model_number": "1122982"
+    },
+    {
+      "name": "初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ ミク 2種共通",
+      "price": "500",
+      "update_date": "2026/10/21",
+      "model_number": "1124376"
+    },
+    {
+      "name": "初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ シナモン 2種共通",
+      "price": "800",
+      "update_date": "2026/10/21",
+      "model_number": "1124376"
+    }
+  ]
+}
