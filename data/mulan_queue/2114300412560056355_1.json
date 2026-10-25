@@ -1,0 +1,419 @@
+{
+  "tweet_id": "2114300412560056355_1",
+  "original_tweet_id": "2114300412560056355",
+  "text": "📢10/25更新📢\n『ドラゴンボール』プライズフィギュア買取速報です🐲\n有効期限は2026年11月8日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/s8ZeVBt8qa",
+  "image_file": "2114300412560056355_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2114300412560056355",
+  "posted_at": "2026/10/25 19:17",
+  "ocr_model": "gemini-2.5-flash",
+  "parsed_items": [
+    {
+      "name": "10TH ANNIVERSARY FIGURE 超ベジット",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2752921"
+    },
+    {
+      "name": "10TH ANNIVERSARY FIGURE 超ゴジータ",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2752920"
+    },
+    {
+      "name": "究極のフュージョン ビッグバンかめはめ波",
+      "price": "2400",
+      "update_date": "2026/10/25",
+      "model_number": "39120"
+    },
+    {
+      "name": "ドラゴンレーダー型スピーカー",
+      "price": "1300",
+      "update_date": "2026/10/25",
+      "model_number": "2816017"
+    },
+    {
+      "name": "Grandista 孫悟空 (2017年)",
+      "price": "12000",
+      "update_date": "2026/10/25",
+      "model_number": "37542"
+    },
+    {
+      "name": "Grandista 孫悟空 #2",
+      "price": "11000",
+      "update_date": "2026/10/25",
+      "model_number": "38220"
+    },
+    {
+      "name": "Grandista 孫悟空 #3 (フルカラー)",
+      "price": "6200",
+      "update_date": "2026/10/25",
+      "model_number": "38513"
+    },
+    {
+      "name": "Grandista 孫悟飯",
+      "price": "6200",
+      "update_date": "2026/10/25",
+      "model_number": "38746"
+    },
+    {
+      "name": "Grandista 孫悟飯 #2",
+      "price": "4500",
+      "update_date": "2026/10/25",
+      "model_number": "2549273"
+    },
+    {
+      "name": "Grandista ベジータ (2017年)",
+      "price": "15000",
+      "update_date": "2026/10/25",
+      "model_number": "37941"
+    },
+    {
+      "name": "Grandista ゴジータ (2019年)",
+      "price": "6000",
+      "update_date": "2026/10/25",
+      "model_number": "39258"
+    },
+    {
+      "name": "Grandista バーダック",
+      "price": "6000",
+      "update_date": "2026/10/25",
+      "model_number": "38259"
+    },
+    {
+      "name": "Grandista 超サイヤ人ロゼ ゴクウブラック",
+      "price": "5200",
+      "update_date": "2026/10/25",
+      "model_number": "38075"
+    },
+    {
+      "name": "Grandista 孫悟空 (2025年)",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2739494"
+    },
+    {
+      "name": "Grandista 孫悟空 II",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2756010"
+    },
+    {
+      "name": "Grandista 孫悟空 III",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2789973"
+    },
+    {
+      "name": "Grandista ゴジータ (2025年)",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2762938"
+    },
+    {
+      "name": "Grandista ゴジータ II (2026年)",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2762956"
+    },
+    {
+      "name": "Grandista ベジット",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2789969"
+    },
+    {
+      "name": "Grandista ベジータ (2025年)",
+      "price": "600",
+      "update_date": "2026/10/25",
+      "model_number": "2739496"
+    },
+    {
+      "name": "Grandista 魔人ベジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2756011"
+    },
+    {
+      "name": "Grandista ブロリー",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2789971"
+    },
+    {
+      "name": "History Box vol.8 孫悟飯ビースト",
+      "price": "2500",
+      "update_date": "2026/10/25",
+      "model_number": "2662598"
+    },
+    {
+      "name": "History Box vol.9 孫悟空",
+      "price": "2200",
+      "update_date": "2026/10/25",
+      "model_number": "2670318"
+    },
+    {
+      "name": "History Box vol.10 超サイヤ人孫悟飯",
+      "price": "3400",
+      "update_date": "2026/10/25",
+      "model_number": "2693315"
+    },
+    {
+      "name": "History Box vol.11 アルティメット孫悟飯",
+      "price": "2400",
+      "update_date": "2026/10/25",
+      "model_number": "2693434"
+    },
+    {
+      "name": "History Box vol.12 魔人ベジータ",
+      "price": "2400",
+      "update_date": "2026/10/25",
+      "model_number": "2704165"
+    },
+    {
+      "name": "History Box 孫悟空 (2026年10月)",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2775415"
+    },
+    {
+      "name": "History Box 超サイヤ人3 孫悟空",
+      "price": "1300",
+      "update_date": "2026/10/25",
+      "model_number": "2805907"
+    },
+    {
+      "name": "History Box 魔人ベジータ",
+      "price": "1300",
+      "update_date": "2026/10/25",
+      "model_number": "2752067"
+    },
+    {
+      "name": "History Box ベジット",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2762953"
+    },
+    {
+      "name": "History Box 孫悟天 & トランクス",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2785670"
+    },
+    {
+      "name": "History Box クリリン",
+      "price": "700",
+      "update_date": "2026/10/25",
+      "model_number": "2762952"
+    },
+    {
+      "name": "History Box 亀仙人",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2762937"
+    },
+    {
+      "name": "History Box 神龍",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2785672"
+    },
+    {
+      "name": "魔人ブウ",
+      "price": "600",
+      "update_date": "2026/10/25",
+      "model_number": "2785669"
+    },
+    {
+      "name": "GXmateria 孫悟空 IV",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2713266"
+    },
+    {
+      "name": "GXmateria 孫悟飯 III",
+      "price": "700",
+      "update_date": "2026/10/25",
+      "model_number": "2752072"
+    },
+    {
+      "name": "GXmateria 孫悟飯",
+      "price": "700",
+      "update_date": "2026/10/25",
+      "model_number": "2752068"
+    },
+    {
+      "name": "GXmateria ゴジータ",
+      "price": "700",
+      "update_date": "2026/10/25",
+      "model_number": "2787532"
+    },
+    {
+      "name": "GXmateria トランクス",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2632863"
+    },
+    {
+      "name": "GXmateria ピッコロ",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2662599"
+    },
+    {
+      "name": "GXmateria 天津飯",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2713263"
+    },
+    {
+      "name": "GXmateria バーダック",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2653592"
+    },
+    {
+      "name": "GXmateria 亀仙人",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2641972"
+    },
+    {
+      "name": "GXmateria フリーザ II",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2616882"
+    },
+    {
+      "name": "GXmateria 魔人ブウ",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2727648"
+    },
+    {
+      "name": "GXmateria 魔人ブウ (再販)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2794822"
+    },
+    {
+      "name": "BLOOD OF SAIYANS プロリー",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2704167"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人3 孫悟空",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2762951"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人ブルー孫悟空 (2026年)",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2785232"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人孫悟空 II",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2794208"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人孫悟空 (2026年)",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2785233"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2794207"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人孫悟天",
+      "price": "600",
+      "update_date": "2026/10/25",
+      "model_number": "2785234"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人4 ゴジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2729197"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人ブルー ベジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2762939"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人ベジータ",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2794209"
+    },
+    {
+      "name": "BLOOD OF SAIYANS 超サイヤ人トランクス II",
+      "price": "600",
+      "update_date": "2026/10/25",
+      "model_number": "2794210"
+    },
+    {
+      "name": "SP X 孫悟空",
+      "price": "2200",
+      "update_date": "2026/10/25",
+      "model_number": "2553348"
+    },
+    {
+      "name": "SP XI 超サイヤ人2 孫悟飯",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2600221"
+    },
+    {
+      "name": "SP XIV 孫悟飯ビースト",
+      "price": "1300",
+      "update_date": "2026/10/25",
+      "model_number": "2653504"
+    },
+    {
+      "name": "SP XVI 超サイヤ人ゴテンクス",
+      "price": "1300",
+      "update_date": "2026/10/25",
+      "model_number": "2675531"
+    },
+    {
+      "name": "SP XVII 超サイヤ人ブロリー",
+      "price": "1800",
+      "update_date": "2026/10/25",
+      "model_number": "2670319"
+    },
+    {
+      "name": "SP XVIII SSSGSS ゴジータ",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2693318"
+    },
+    {
+      "name": "SP XIX SSSGSS ベジータ",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2693433"
+    },
+    {
+      "name": "SP XX 孫悟空 (身勝手の極意)",
+      "price": "1700",
+      "update_date": "2026/10/25",
+      "model_number": "2693438"
+    },
+    {
+      "name": "GXmateria 魔人ブウ",
+      "price": "600",
+      "update_date": "2026/10/25",
+      "model_number": "2785669"
+    }
+  ]
+}

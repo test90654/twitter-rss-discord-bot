@@ -1,0 +1,443 @@
+{
+  "tweet_id": "2114300412560056355_2",
+  "original_tweet_id": "2114300412560056355",
+  "text": "📢10/25更新📢\n『ドラゴンボール』プライズフィギュア買取速報です🐲\n有効期限は2026年11月8日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/s8ZeVBt8qa",
+  "image_file": "2114300412560056355_2.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2114300412560056355",
+  "posted_at": "2026/10/25 19:17",
+  "ocr_model": "gemini-2.5-flash",
+  "parsed_items": [
+    {
+      "name": "SPIRITFLICKS 01 A 孫悟空",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2809842"
+    },
+    {
+      "name": "SPIRITFLICKS 01 B SS 孫悟空",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2809842"
+    },
+    {
+      "name": "SPIRITFLICKS 01 C SS2 孫悟空",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2809842"
+    },
+    {
+      "name": "SPIRITFLICKS 01 D 界王拳孫悟空",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2809842"
+    },
+    {
+      "name": "SPIRITFLICKS 02 A ベジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2838322"
+    },
+    {
+      "name": "SPIRITFLICKS 02 B SS ベジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2838322"
+    },
+    {
+      "name": "SPIRITFLICKS 02 C 超ベジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2838322"
+    },
+    {
+      "name": "SPIRITFLICKS 02 D 魔人ベジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2838322"
+    },
+    {
+      "name": "THE 出陣 5A 超サイヤ人孫悟飯 (再販)",
+      "price": "1800",
+      "update_date": "2026/10/25",
+      "model_number": "2728513"
+    },
+    {
+      "name": "THE 出陣 5B 超サイヤ人孫悟飯 (再販)",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2728513"
+    },
+    {
+      "name": "THE 出陣 9A トランクス",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2623793"
+    },
+    {
+      "name": "THE 出陣 9B 超サイヤントランクス",
+      "price": "2000",
+      "update_date": "2026/10/25",
+      "model_number": "2623793"
+    },
+    {
+      "name": "THE 出陣 10A ベジータ",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2641971"
+    },
+    {
+      "name": "THE 出陣 10B 魔人ベジータ",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2641971"
+    },
+    {
+      "name": "THE 出陣 11A 超サイヤントランクス",
+      "price": "2200",
+      "update_date": "2026/10/25",
+      "model_number": "2653503"
+    },
+    {
+      "name": "THE 出陣 11B 超サイヤ人トランクス",
+      "price": "2200",
+      "update_date": "2026/10/25",
+      "model_number": "2653503"
+    },
+    {
+      "name": "THE 出陣 12A 超サイヤ人2孫悟飯",
+      "price": "2000",
+      "update_date": "2026/10/25",
+      "model_number": "2653595"
+    },
+    {
+      "name": "THE 出陣 12B 超サイヤ人孫悟飯",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2653595"
+    },
+    {
+      "name": "THE 出陣 13A ピッコロ",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2670313"
+    },
+    {
+      "name": "THE 出陣 13B ピッコロ (ターバンあり)",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2670313"
+    },
+    {
+      "name": "THE 出陣 14A 孫悟飯ビースト",
+      "price": "1800",
+      "update_date": "2026/10/25",
+      "model_number": "2675530"
+    },
+    {
+      "name": "THE 出陣 14B アルティメット悟飯",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2675530"
+    },
+    {
+      "name": "THE 出陣 16 魔人ブウ",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2693437"
+    },
+    {
+      "name": "THE 出陣 フリーザ",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2720630"
+    },
+    {
+      "name": "THE 出陣 魔人ブウ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2704192"
+    },
+    {
+      "name": "THE 出陣 セル",
+      "price": "1700",
+      "update_date": "2026/10/25",
+      "model_number": "2704196"
+    },
+    {
+      "name": "THE 出陣 人造人間17号",
+      "price": "1600",
+      "update_date": "2026/10/25",
+      "model_number": "2713261"
+    },
+    {
+      "name": "THE 出陣 人造人間18号",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2713260"
+    },
+    {
+      "name": "THE 出陣 孫悟空 身勝手の極意",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2693441"
+    },
+    {
+      "name": "THE 出陣 超サイヤ人4孫悟空",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2752066"
+    },
+    {
+      "name": "THE 出陣 超サイヤ人4ベジータ",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2752064"
+    },
+    {
+      "name": "THE 出陣 超サイヤ人4ゴジータ",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2752065"
+    },
+    {
+      "name": "THE 出陣 ピッコロ",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2794204"
+    },
+    {
+      "name": "THE 出陣 亀仙人",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2794177"
+    },
+    {
+      "name": "THE 出陣 ブロリーⅡ",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2773701"
+    },
+    {
+      "name": "THE 出陣 超サイヤ人3ゴテンクス",
+      "price": "700",
+      "update_date": "2026/10/25",
+      "model_number": "2773700"
+    },
+    {
+      "name": "CLEARISE 超サイヤ人孫悟空 (2024年)",
+      "price": "2000",
+      "update_date": "2026/10/25",
+      "model_number": "2693316"
+    },
+    {
+      "name": "CLEARISE 孫悟飯 (ビースト)",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2713264"
+    },
+    {
+      "name": "CLEARISE 魔人ベジータ",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2683282"
+    },
+    {
+      "name": "CLEARISE A. ゴクウブラック",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2720631"
+    },
+    {
+      "name": "CLEARISE B. 超サイヤ人ロゼゴクウブラック",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2720631"
+    },
+    {
+      "name": "MATCH MAKERS 孫悟空 (VS ベジータ/2026年)",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2800153"
+    },
+    {
+      "name": "MATCH MAKERS ベジータ (VS 孫悟空/2026年)",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2800154"
+    },
+    {
+      "name": "MATCH MAKERS 孫悟空 (VS ベジータ/2023年)",
+      "price": "2000",
+      "update_date": "2026/10/25",
+      "model_number": "2683284"
+    },
+    {
+      "name": "MATCH MAKERS 魔人ベジータ (VS 孫悟空/2023年)",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2683283"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人2孫悟飯 (VS SS2 孫悟空/2025年)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2763860"
+    },
+    {
+      "name": "MATCH MAKERS 魔人ベジータ (VS SS2 孫悟空/2025年)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2763861"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人2孫悟飯 (2022年)",
+      "price": "1800",
+      "update_date": "2026/10/25",
+      "model_number": "2617615"
+    },
+    {
+      "name": "MATCH MAKERS 魔人ベジータ (2022年)",
+      "price": "1400",
+      "update_date": "2026/10/25",
+      "model_number": "2617616"
+    },
+    {
+      "name": "MATCH MAKERS 孫悟空 (VS ゴクウブラック)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2794213"
+    },
+    {
+      "name": "MATCH MAKERS ゴクウブラック (VS 孫悟空)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2794214"
+    },
+    {
+      "name": "MATCH MAKERS 孫悟空 身勝手の極意 (VS ジレン)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2785224"
+    },
+    {
+      "name": "MATCH MAKERS ジレン (VS 孫悟空 身勝手の極意)",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2785225"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人3孫悟空 (VS 魔人ブウ)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2729363"
+    },
+    {
+      "name": "MATCH MAKERS 魔人ブウ (VS 超サイヤ人3孫悟空)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2729364"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人3孫悟空 (VS 魔人ブウ (純粋))",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2773698"
+    },
+    {
+      "name": "MATCH MAKERS 魔人ブウ (純粋) (VS 超サイヤ人3孫悟空)",
+      "price": "900",
+      "update_date": "2026/10/25",
+      "model_number": "2773699"
+    },
+    {
+      "name": "MATCH MAKERS SSGSS ゴジータ (VS ブロリー)",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2713271"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人ブロリー (VS ゴジータ)",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2713272"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人ベジット (VS 魔人ブウ)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2670316"
+    },
+    {
+      "name": "MATCH MAKERS 魔人ブウ (孫悟飯吸収) (VS ベジット)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2670317"
+    },
+    {
+      "name": "MATCH MAKERS 孫悟空 (スーパーヒーロー)",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2626700"
+    },
+    {
+      "name": "MATCH MAKERS ベジータ (スーパーヒーロー)",
+      "price": "1000",
+      "update_date": "2026/10/25",
+      "model_number": "2626701"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人孫悟飯 (VS セル)",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2729335"
+    },
+    {
+      "name": "MATCH MAKERS セル (VS 超サイヤ人孫悟飯)",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2729336"
+    },
+    {
+      "name": "MATCH MAKERS 孫悟空 (幼少期)",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2609246"
+    },
+    {
+      "name": "MATCH MAKERS ピッコロ大魔王",
+      "price": "1200",
+      "update_date": "2026/10/25",
+      "model_number": "2609245"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人ゴジータ (VS ジャネンバ)",
+      "price": "1100",
+      "update_date": "2026/10/25",
+      "model_number": "2712889"
+    },
+    {
+      "name": "MATCH MAKERS ジャネンバ (VS 超サイヤ人ゴジータ)",
+      "price": "500",
+      "update_date": "2026/10/25",
+      "model_number": "2712900"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人孫悟空 (VS クウラ)",
+      "price": "1500",
+      "update_date": "2026/10/25",
+      "model_number": "2712887"
+    },
+    {
+      "name": "MATCH MAKERS クウラ (VS 超サイヤ人孫悟空)",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2712888"
+    },
+    {
+      "name": "MATCH MAKERS 超サイヤ人孫悟空 (VS 超17号)",
+      "price": "800",
+      "update_date": "2026/10/25",
+      "model_number": "2704190"
+    }
+  ]
+}

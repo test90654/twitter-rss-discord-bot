@@ -1,0 +1,353 @@
+{
+  "tweet_id": "2114300412560056355_4",
+  "original_tweet_id": "2114300412560056355",
+  "text": "📢10/25更新📢\n『ドラゴンボール』プライズフィギュア買取速報です🐲\n有効期限は2026年11月8日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/s8ZeVBt8qa",
+  "image_file": "2114300412560056355_4.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2114300412560056355",
+  "posted_at": "2026/10/25 19:17",
+  "ocr_model": "gemini-2.5-flash",
+  "parsed_items": [
+    {
+      "name": "未来への決闘!! A賞 パーフェクトセル",
+      "price": "8000",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "未来への決闘!! ラストワン賞 悟空(界王様付き)",
+      "price": "9000",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "HEROES 5th MISSION D賞 ブロリー",
+      "price": "15000",
+      "update_date": "2026/10/25",
+      "model_number": "62813"
+    },
+    {
+      "name": "VSオムニバス BRAVE C賞 超サイヤ人孫悟空",
+      "price": "8000",
+      "update_date": "2026/10/25",
+      "model_number": "62747"
+    },
+    {
+      "name": "激突!! 宇宙を賭けた闘い D賞 孫悟空",
+      "price": "7000",
+      "update_date": "2026/10/25",
+      "model_number": "62715"
+    },
+    {
+      "name": "摩訶不思議大冒険 A賞 孫悟空",
+      "price": "11000",
+      "update_date": "2026/10/25",
+      "model_number": "054"
+    },
+    {
+      "name": "VSオムニバスアメイジング A賞 孫悟空&孫悟飯",
+      "price": "4800",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング C賞 孫悟飯",
+      "price": "3600",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング D賞 ピッコロ&孫悟飯",
+      "price": "5500",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング E賞 ベジータ",
+      "price": "4500",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "未来への決闘!! B賞 トランクス",
+      "price": "4500",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "未来への決闘!! C賞 孫悟飯:未来",
+      "price": "3000",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "未来への決闘!! D賞 ベジータ",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "未来への決闘!! E賞 ミスター・サタン",
+      "price": "2300",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "未来への決闘!! ラストワン賞 孫悟空 (界王様付き)",
+      "price": "9000",
+      "update_date": "2026/10/25",
+      "model_number": "64305"
+    },
+    {
+      "name": "SUPER DRAGONBALL HEROES 5th MISSION A賞 紅き仮面のサイヤ人",
+      "price": "4000",
+      "update_date": "2026/10/25",
+      "model_number": "62813"
+    },
+    {
+      "name": "SUPER DRAGONBALL HEROES 5th MISSION B賞 孫悟空 (SSGSS 宇宙樹パワー)",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "62813"
+    },
+    {
+      "name": "SUPER DRAGONBALL HEROES 5th MISSION C賞 ブロリー",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "62813"
+    },
+    {
+      "name": "SUPER DRAGONBALL HEROES 5th MISSION D賞 ブロリー (超サイヤ人3)",
+      "price": "15000",
+      "update_date": "2026/10/25",
+      "model_number": "62813"
+    },
+    {
+      "name": "SUPER DRAGONBALL HEROES 5th MISSION ラストワン賞 紅き仮面のサイヤ人",
+      "price": "5000",
+      "update_date": "2026/10/25",
+      "model_number": "62813"
+    },
+    {
+      "name": "VSオムニバス BRAVE A賞 孫悟飯ビースト",
+      "price": "5000",
+      "update_date": "2026/10/25",
+      "model_number": "62747"
+    },
+    {
+      "name": "VSオムニバス BRAVE B賞 オレンジピッコロ",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "62747"
+    },
+    {
+      "name": "VSオムニバス BRAVE D賞 フリーザ (フルパワー)",
+      "price": "2500",
+      "update_date": "2026/10/25",
+      "model_number": "62747"
+    },
+    {
+      "name": "VSオムニバス BRAVE E賞 ブルマ",
+      "price": "4200",
+      "update_date": "2026/10/25",
+      "model_number": "62747"
+    },
+    {
+      "name": "VSオムニバス BRAVE ラストワン賞 オレンジピッコロ",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "62747"
+    },
+    {
+      "name": "激突!! 宇宙を賭けた闘い A賞 孫悟飯",
+      "price": "4000",
+      "update_date": "2026/10/25",
+      "model_number": "62715"
+    },
+    {
+      "name": "激突!! 宇宙を賭けた闘い B賞 ダーブラ",
+      "price": "3000",
+      "update_date": "2026/10/25",
+      "model_number": "62715"
+    },
+    {
+      "name": "激突!! 宇宙を賭けた闘い C賞 魔人ブウ",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "62715"
+    },
+    {
+      "name": "激突!! 宇宙を賭けた闘い ラストワン賞 グレートサイヤマン",
+      "price": "4500",
+      "update_date": "2026/10/25",
+      "model_number": "62715"
+    },
+    {
+      "name": "BATTLE ON PLANET NAMEK A賞 孫悟空 & フリーザ",
+      "price": "4500",
+      "update_date": "2026/10/25",
+      "model_number": "62698"
+    },
+    {
+      "name": "VSオムニバスアメイジング B賞 クリリン",
+      "price": "3000",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング C賞 孫悟飯",
+      "price": "3000",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング D賞 フリーザ (第二形態)",
+      "price": "5000",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング E賞 フリーザ (第三形態)",
+      "price": "5500",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "VSオムニバスアメイジング ラストワン賞 孫悟空 & フリーザ",
+      "price": "6000",
+      "update_date": "2026/10/25",
+      "model_number": "64385"
+    },
+    {
+      "name": "亀仙流の猛者たち A賞 孫悟空",
+      "price": "10000",
+      "update_date": "2026/10/25",
+      "model_number": "62663"
+    },
+    {
+      "name": "亀仙流の猛者たち B賞 亀仙人",
+      "price": "4200",
+      "update_date": "2026/10/25",
+      "model_number": "62663"
+    },
+    {
+      "name": "亀仙流の猛者たち C賞 孫悟飯じいちゃん",
+      "price": "2500",
+      "update_date": "2026/10/25",
+      "model_number": "62663"
+    },
+    {
+      "name": "亀仙流の猛者たち ラストワン賞 孫悟空",
+      "price": "12000",
+      "update_date": "2026/10/25",
+      "model_number": "62663"
+    },
+    {
+      "name": "人造人間 B賞 人造人間17号",
+      "price": "8500",
+      "update_date": "2026/10/25",
+      "model_number": "60056"
+    },
+    {
+      "name": "人造人間 C賞 人造人間18号",
+      "price": "10000",
+      "update_date": "2026/10/25",
+      "model_number": "60056"
+    },
+    {
+      "name": "人造人間 D賞 人造人間19号",
+      "price": "18000",
+      "update_date": "2026/10/25",
+      "model_number": "60056"
+    },
+    {
+      "name": "人造人間 E賞 人造人間20号",
+      "price": "14000",
+      "update_date": "2026/10/25",
+      "model_number": "60056"
+    },
+    {
+      "name": "スーパーヒーロー ラストワン賞 神龍",
+      "price": "55000",
+      "update_date": "2026/10/25",
+      "model_number": "62295"
+    },
+    {
+      "name": "摩訶不思議大冒険 B賞 ピッコロ大魔王",
+      "price": "4800",
+      "update_date": "2026/10/25",
+      "model_number": "054"
+    },
+    {
+      "name": "摩訶不思議大冒険 C賞 桃白白",
+      "price": "3500",
+      "update_date": "2026/10/25",
+      "model_number": "054"
+    },
+    {
+      "name": "摩訶不思議大冒険 D賞 ピラフ & ドラゴンボール",
+      "price": "11000",
+      "update_date": "2026/10/25",
+      "model_number": "054"
+    },
+    {
+      "name": "摩訶不思議大冒険 E賞 シュウ & マイ",
+      "price": "12000",
+      "update_date": "2026/10/25",
+      "model_number": "054"
+    },
+    {
+      "name": "摩訶不思議大冒険 ラストワン賞 サイボーグ桃白白",
+      "price": "4500",
+      "update_date": "2026/10/25",
+      "model_number": "054"
+    },
+    {
+      "name": "VSオムニバス超 A賞 SSGSS孫悟空 & SSGSSベジータ",
+      "price": "11000",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 B賞 超サイヤ人ブロリー",
+      "price": "6500",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 C賞 超サイヤ人4ゴジータ",
+      "price": "10000",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 D賞 超一星龍",
+      "price": "9000",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 E賞 超トランクス",
+      "price": "6500",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 F賞 セル完全体",
+      "price": "6500",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 G賞 セルジュニア",
+      "price": "2500",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    },
+    {
+      "name": "VSオムニバス超 ラストワン賞 神龍 究極DB ver.",
+      "price": "26000",
+      "update_date": "2026/10/25",
+      "model_number": "005"
+    }
+  ]
+}
