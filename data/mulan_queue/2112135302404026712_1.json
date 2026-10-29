@@ -1,0 +1,18 @@
+{
+  "tweet_id": "2112135302404026712_1",
+  "original_tweet_id": "2112135302404026712",
+  "store": "ムーラン本店",
+  "text": "🔥買取強化🔥10/19更新\n2026年10月25日まで💫\n\n『初音ミク　T-most　フィギュア』\n1,600円買取です✨\n\n買取大大大募集中‼️\n\n目標達成しだい掲載終了となります‼️\nお早めに👀✨\n\n#ムーラン本店買取 #秋葉原 https://t.co/McdCM279lq",
+  "image_file": "2112135302404026712_1.jpg",
+  "tweet_url": "https://x.com/MulanAkiba1Fkai/status/2112135302404026712",
+  "posted_at": "2026/10/19 19:54",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "初音ミク T-most",
+      "price": "1600",
+      "update_date": "2026/10/19",
+      "model_number": ""
+    }
+  ]
+}
