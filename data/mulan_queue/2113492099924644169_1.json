@@ -1,0 +1,36 @@
+{
+  "tweet_id": "2113492099924644169_1",
+  "original_tweet_id": "2113492099924644169",
+  "store": "ムーラン本店",
+  "text": "💫買取目標数達成💫\n\n刃牙 Grandistaッッ!!-HANMA BAKI-\n\n目標数達成しました🙇‍♀️\nたくさんのお持ち込みありがとうございました❣\n\nお値段は変わってしまいますが、引き続きお持ち込みお待ちしています❣\n\n#ムーラン本店買取 https://t.co/twpIbWXVr6",
+  "image_file": "2113492099924644169_1.jpg",
+  "tweet_url": "https://x.com/MulanAkiba1Fkai/status/2113492099924644169",
+  "posted_at": "2026/10/23 13:45",
+  "ocr_model": "gemini-2.5-flash",
+  "parsed_items": [
+    {
+      "name": "刃牙 買取強化ツ!! Grandistaッ!! 範馬刃牙",
+      "price": "800",
+      "update_date": "2026/10/15",
+      "model_number": ""
+    },
+    {
+      "name": "刃牙 買取強化ツ!! Grandistaッ!! 範馬勇次郎",
+      "price": "1200",
+      "update_date": "2026/10/15",
+      "model_number": ""
+    },
+    {
+      "name": "刃牙 買取強化ツ!! 「これって･･････ッッ 球体･･････････!!!」",
+      "price": "800",
+      "update_date": "2026/10/15",
+      "model_number": ""
+    },
+    {
+      "name": "刃牙 買取強化ツ!! Grandista×フィグライフッ!! 範馬勇次郎 強くなりたくば吊るせッッハンガー",
+      "price": "1200",
+      "update_date": "2026/10/15",
+      "model_number": ""
+    }
+  ]
+}
