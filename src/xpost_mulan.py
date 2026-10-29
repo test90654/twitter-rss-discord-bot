@@ -262,7 +262,8 @@ def _call_gemini(client, contents):
                 if any(s in msg for s in ["404", "NOT_FOUND", "not found", "is not supported"]):
                     print(f"  ⚠️ モデル {model} は使えないため次の候補へ: {msg[:120]}")
                     break
-                if any(s in msg for s in ["429", "500", "502", "503", "504", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "DEADLINE", "timed out", "overloaded"]):
+                if any(s in msg for s in ["429", "500", "502", "503", "504", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "DEADLINE", "timed out", "overloaded",
+                                          "disconnected", "Connection", "connection", "reset", "EOF", "Timeout"]):
                     wait = 5 * (2 ** attempt)
                     print(f"  ⚠️ Gemini混雑/制限中。{wait}秒後に再試行 ({attempt+1}/5)")
                     time.sleep(wait)
@@ -340,13 +341,14 @@ def analyze_image_with_gemini(image_bytes, post_dt=None):
     買取表画像から商品リストを抽出する。
       1. 縦長なら帯に分割し、帯ごとに抽出（全体画像も一緒に渡して見出しや更新日を判断させる）
       2. 最後に全体画像と抽出結果を見比べさせ、漏れている商品だけを追加で抽出
-    戻り値: (items: list[dict], 使ったモデル名)
+    戻り値: (items: list[dict], 使ったモデル名)。解析に失敗したときは (None, None)
     """
     if not GEMINI_API_KEY:
         print("❌ GEMINI_API_KEY が設定されていません。")
-        return [], None
+        return None, None
 
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    # 応答が返らないまま待ち続けないよう、1リクエスト5分で打ち切る（打ち切りは再試行の対象）
+    client = genai.Client(api_key=GEMINI_API_KEY, http_options=types.HttpOptions(timeout=300_000))
     full_part = _img_part(image_bytes)
     items: list[OcrItem] = []
     overall_date = ""
@@ -372,7 +374,12 @@ def analyze_image_with_gemini(image_bytes, post_dt=None):
                 overall_date = overall_date or res.update_date
                 added = _merge(items, res.items)
                 print(f"    分割 {i}/{len(strips)}: {len(res.items)} 件読み取り（新規 {added} 件）")
+    except Exception as e:
+        # 本体の抽出に失敗したら結果を使わない（呼び出し側で次回に再解析させる）
+        print(f"❌ Gemini解析エラー: {e}")
+        return None, None
 
+    try:
         # --- 漏れチェック（見直しパス） ---
         listed = "\n".join(f"- [{it.category}] {it.name} / {it.price} / {it.model_number}" for it in items)
         check_prompt = BASE_RULES + f"""
@@ -385,9 +392,8 @@ def analyze_image_with_gemini(image_bytes, post_dt=None):
         res = _parse_response(_call_gemini(client, [full_part, check_prompt]))
         added = _merge(items, res.items)
         print(f"  - 見直しパス: 漏れ {added} 件を追加")
-
     except Exception as e:
-        print(f"❌ Gemini解析エラー: {e}")
+        print(f"  ⚠️ 見直しパスに失敗（抽出済みの {len(items)} 件はそのまま使う）: {e}")
 
     # ダッシュボード用の形式に変換（シリーズ名・カテゴリー名を商品名の先頭に付ける）
     # 更新日はポストの投稿日をもとに年を決めて YYYY/MM/DD にそろえる
@@ -533,6 +539,11 @@ def main():
             if img_bytes:
                 print(f"🤖 GeminiでOCR解析を実行中 ({img_filename})...")
                 parsed_items, used_model = analyze_image_with_gemini(img_bytes, post_dt)
+                if parsed_items is None:
+                    # 画像を残すと「処理済み」扱いになるため削除し、次回の実行で再解析する
+                    img_path.unlink(missing_ok=True)
+                    print(f"-> OCRに失敗したため {img_filename} は次回の実行で再解析します")
+                    continue
                 print(f"✨ 抽出結果: {len(parsed_items)} 件（モデル: {used_model}）")
 
                 tweet_items.extend(parsed_items)
