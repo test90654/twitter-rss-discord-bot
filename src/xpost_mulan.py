@@ -15,12 +15,16 @@ from pydantic import BaseModel
 from google import genai
 from google.genai import types
 
-TARGET_USER = "mulanakiba_chuo"
+# 監視するアカウント・店舗名・必須ハッシュタグ（環境変数で切り替えて複数アカウントに使う）
+TARGET_USER = os.environ.get("TARGET_USER", "mulanakiba_chuo")
+STORE_NAME = os.environ.get("STORE_NAME", "ムラ中")
+REQUIRED_HASHTAG = os.environ.get("REQUIRED_HASHTAG", "#ムラ中買取")
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 QUEUE_DIR = BASE_DIR / "data" / "mulan_queue"
 QUEUE_DIR.mkdir(parents=True, exist_ok=True)
 
-STATE_FILE = BASE_DIR.parent / "last_tweet_id_mulanakiba_chuo.txt"
+STATE_FILE = BASE_DIR.parent / f"last_tweet_id_{TARGET_USER}.txt"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # 使うモデル（上から順に試し、存在しない・使えないモデルなら次へ）
@@ -36,9 +40,6 @@ MODEL_CANDIDATES = [m for m in [
 STRIP_ASPECT = 1.2      # 1枚の切り出しの高さ = 幅 × この値
 STRIP_OVERLAP = 0.2     # 切り出し同士の重なり（行が境目で切れて落ちるのを防ぐ）
 SPLIT_THRESHOLD = 1.6   # 高さが 幅×この値 を超えたら分割する
-
-# 必須のハッシュタグ
-REQUIRED_HASHTAG = "#ムラ中買取"
 
 
 # ============================================================
@@ -449,7 +450,7 @@ def _post_discord(webhook_url, content):
     return False
 
 def send_to_discord(webhook_url, tweet_text, tweet_url, items):
-    header = f"🚨 **【@{TARGET_USER} 買取情報・OCR解析完了】** 🚨\n\n📌 **抽出された商品数:** `{len(items)}件`\n\n{tweet_text}\n\n👉 元ツイート: <{tweet_url}>"
+    header = f"🚨 **【{STORE_NAME}（@{TARGET_USER}） 買取情報・OCR解析完了】** 🚨\n\n📌 **抽出された商品数:** `{len(items)}件`\n\n{tweet_text}\n\n👉 元ツイート: <{tweet_url}>"
     ok = _post_discord(webhook_url, header[:2000])
     chunks = _build_item_messages(items)
     for i, chunk in enumerate(chunks, 1):
@@ -553,6 +554,7 @@ def main():
                 meta_data = {
                     "tweet_id": f"{tweet_id}_{idx+1}",
                     "original_tweet_id": tweet_id,
+                    "store": STORE_NAME,
                     "text": text,
                     "image_file": img_filename,
                     "tweet_url": tweet_url,

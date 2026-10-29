@@ -43,6 +43,18 @@ jobs:
         run: |
           python src/xpost_mulan.py
 
+      - name: Run Mulan Honten Monitor
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_MULAN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TARGET_USER: MulanAkiba1Fkai
+          STORE_NAME: ムーラン本店
+          REQUIRED_HASHTAG: "#ムーラン本店買取"
+        run: |
+          python src/xpost_mulan.py
+
       - name: Run Jump Calendar Prize Monitor
         continue-on-error: true
         env:

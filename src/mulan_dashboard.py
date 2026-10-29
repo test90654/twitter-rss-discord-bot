@@ -74,6 +74,16 @@ if "flash_msg" in st.session_state:
 # --- 設定値（環境変数から取得） ---
 TARGET_SPREADSHEET_ID = os.environ.get("TARGET_SPREADSHEET_ID", "1EQooFe5QbdCDe1wJj_lI8rxKoQFpre4E-1WbiPyJPx4")
 RESULT_SHEET_NAME = os.environ.get("RESULT_SHEET_NAME", "sheet1")
+# 店舗ごとの書き込み先シート（タブ名）。店舗名の無い古いデータは DEFAULT_STORE として扱う
+DEFAULT_STORE = "ムラ中"
+STORE_SHEETS = {
+    "ムラ中": RESULT_SHEET_NAME,
+    "ムーラン本店": os.environ.get("HONTEN_SHEET_NAME", "ムーラン本店"),
+}
+SHEET_HEADER = ["作品名", "商品名（シリーズ / キャラクター）", "買取価格", "更新日時", "型番"]
+
+def sheet_name_for(store):
+    return STORE_SHEETS.get(store, store)
 
 # --- 2. スプレッドシート書き込み関数 ---
 def get_gspread_client():
@@ -101,13 +111,15 @@ def get_gspread_client():
     creds = Credentials.from_service_account_file(creds_path, scopes=scope)
     return gspread.authorize(creds)
 
-def get_result_sheet(client_gspread):
+def get_result_sheet(client_gspread, store):
+    """店舗に対応するシートを開く（無ければ見出し付きで作る）"""
+    name = sheet_name_for(store)
     spreadsheet = client_gspread.open_by_key(TARGET_SPREADSHEET_ID)
     try:
-        return spreadsheet.worksheet(RESULT_SHEET_NAME)
+        return spreadsheet.worksheet(name)
     except gspread.exceptions.WorksheetNotFound:
-        sheet = spreadsheet.add_worksheet(title=RESULT_SHEET_NAME, rows=1000, cols=10)
-        sheet.update(range_name="A1:E1", values=[["ジャンル", "商品名", "価格", "更新日", "型番/JAN"]])
+        sheet = spreadsheet.add_worksheet(title=name, rows=1000, cols=10)
+        sheet.update(range_name="A1:E1", values=[SHEET_HEADER])
         return sheet
 
 def _norm(value):
@@ -123,9 +135,9 @@ def item_key(name, model_number, update_date):
     """
     return (_norm(name), _norm(model_number), _norm(update_date))
 
-def fetch_registered_keys(client_gspread):
-    """スプレッドシートに既に登録されている商品のキー一覧を取得（B:商品名 C:価格 D:更新日 E:型番/JAN）"""
-    sheet = get_result_sheet(client_gspread)
+def fetch_registered_keys(client_gspread, store):
+    """その店舗のシートに既に登録されている商品のキー一覧を取得（B:商品名 C:価格 D:更新日 E:型番/JAN）"""
+    sheet = get_result_sheet(client_gspread, store)
     keys = set()
     for row in sheet.get_all_values()[1:]:  # 1行目は見出し
         row = row + [""] * (5 - len(row))
@@ -134,9 +146,9 @@ def fetch_registered_keys(client_gspread):
             keys.add(item_key(name, model, date))
     return keys
 
-def append_to_result_sheet(client_gspread, row_data):
+def append_to_result_sheet(client_gspread, row_data, store):
     try:
-        sheet = get_result_sheet(client_gspread)
+        sheet = get_result_sheet(client_gspread, store)
 
         # A列はジャンル列なので触らず、B列（商品名）の最終行の次の行の B〜E 列に書き込む
         next_row = len(sheet.col_values(2)) + 1
@@ -219,6 +231,7 @@ if selected_json:
     tweet_text = meta.get("text", "")
     tweet_url = meta.get("tweet_url", "")
     image_filename = meta.get("image_file")
+    store = meta.get("store") or DEFAULT_STORE
     image_path = QUEUE_DIR / image_filename
 
     items_session_key = f"items_{tweet_id}"
@@ -230,7 +243,7 @@ if selected_json:
         JSONファイルが消えたり古くなったりしても、シートを正として二重登録を防ぐ。
         戻り値：新たに登録済みと判定した件数
         """
-        keys = fetch_registered_keys(get_gspread_client())
+        keys = fetch_registered_keys(get_gspread_client(), store)
         newly = 0
         for it in items:
             if not it.get("_registered") and item_key(it.get("name"), it.get("model_number"), it.get("update_date")) in keys:
@@ -334,14 +347,14 @@ if selected_json:
         try:
             gc = get_gspread_client()
             # 書き込む直前にシートの最新状態を確認（他の端末・タブで登録済みのものは書かない）
-            sheet_keys = fetch_registered_keys(gc)
+            sheet_keys = fetch_registered_keys(gc, store)
             for idx in sorted(indices):
                 vals = current_values(idx)
                 key = item_key(vals["name"], vals["model_number"], vals["update_date"])
                 if key in sheet_keys:
                     skipped += 1
                 else:
-                    append_to_result_sheet(gc, vals)
+                    append_to_result_sheet(gc, vals, store)
                     sheet_keys.add(key)
                 parsed_items[idx].update(vals)
                 parsed_items[idx]["_registered"] = True
@@ -426,7 +439,7 @@ if selected_json:
     with col_img:
         # この目印を含む列だけをスクロール追従（sticky）させる
         st.markdown('<div class="preview-sticky-marker"></div>', unsafe_allow_html=True)
-        st.subheader("📷 買取表プレビュー")
+        st.subheader(f"📷 買取表プレビュー（🏪 {store} → シート「{sheet_name_for(store)}」）")
         if image_path.exists():
             img = Image.open(image_path)
             st.image(img, width=650)
