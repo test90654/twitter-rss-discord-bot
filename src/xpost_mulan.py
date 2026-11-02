@@ -27,19 +27,23 @@ QUEUE_DIR.mkdir(parents=True, exist_ok=True)
 STATE_FILE = BASE_DIR.parent / f"last_tweet_id_{TARGET_USER}.txt"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-# 使うモデル（上から順に試し、存在しない・使えないモデルなら次へ）
+# 使うモデル（上から順に試し、モデル自体が存在しない(404)ときだけ次へ）
 # 環境変数 GEMINI_MODEL を設定すればそれを最優先で使う
+# ※混雑(503/429)では下位モデルに落とさない。gemini-2.5-flash は小さい漢字を大きく読み違えるため、
+#   混雑時は解析を見送り、次回の実行で上位モデルで再解析する。
+#   gemini-2.5-pro は新規ユーザー向け提供終了(404)のため候補から外した。
 MODEL_CANDIDATES = [m for m in [
     os.environ.get("GEMINI_MODEL", "").strip(),
     "gemini-3.8-flash",
-    "gemini-2.5-pro",
     "gemini-2.5-flash",
 ] if m]
 
 # 縦長画像を分割するときの設定
-STRIP_ASPECT = 1.2      # 1枚の切り出しの高さ = 幅 × この値
+STRIP_ASPECT = 1.2      # 1枚の切り出しの高さ = 幅 × この値（上限）
+STRIP_MAX_RATIO = 0.45  # 1枚の切り出しの高さ = 画像の高さ × この値（上限）。縦長でない表でも3分割程度にする
 STRIP_OVERLAP = 0.2     # 切り出し同士の重なり（行が境目で切れて落ちるのを防ぐ）
-SPLIT_THRESHOLD = 1.6   # 高さが 幅×この値 を超えたら分割する
+SPLIT_THRESHOLD = 1.0   # 高さが 幅×この値 を超えたら（縦向きなら）分割する
+MIN_STRIP_WIDTH = 1600  # 切り出しの幅がこれ未満なら拡大して渡す（小さい文字の読み違い対策）
 
 
 # ============================================================
@@ -270,6 +274,9 @@ def _call_gemini(client, contents):
                     time.sleep(wait)
                     continue
                 raise
+        else:
+            # 混雑が続いた場合は下位モデルに落とさず、今回は見送る（次回の実行で再解析）
+            raise ModelUnavailable(f"{model} が混雑のため今回は解析を見送ります: {str(last_err)[:120]}")
     raise ModelUnavailable(f"どのモデルでも解析できませんでした: {last_err}")
 
 def _parse_response(resp):
@@ -296,20 +303,26 @@ def _parse_response(resp):
 def split_into_strips(img_bytes):
     """
     縦長の買取表を、重なりを持たせた横長の帯に分割する。
-    1枚の画像に商品が大量にあると、モデルが途中を読み飛ばしやすいため。
+    1枚の画像に商品が大量にあると、モデルが途中を読み飛ばしやすく、
+    小さい文字（グリッド型の表の商品名など）も読み違えやすいため。
+    幅が小さい画像は帯ごとに拡大してから渡す。
     """
     img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
     w, h = img.size
     if h <= w * SPLIT_THRESHOLD:
         return []
-    strip_h = int(w * STRIP_ASPECT)
+    strip_h = min(int(w * STRIP_ASPECT), int(h * STRIP_MAX_RATIO))
+    scale = MIN_STRIP_WIDTH / w if w < MIN_STRIP_WIDTH else 1.0
     step = int(strip_h * (1 - STRIP_OVERLAP))
     strips = []
     top = 0
     while True:
         bottom = min(top + strip_h, h)
         buf = io.BytesIO()
-        img.crop((0, top, w, bottom)).save(buf, format="JPEG", quality=95)
+        part = img.crop((0, top, w, bottom))
+        if scale > 1.0:
+            part = part.resize((int(w * scale), int((bottom - top) * scale)), Image.LANCZOS)
+        part.save(buf, format="JPEG", quality=95)
         strips.append(buf.getvalue())
         if bottom >= h:
             break
@@ -470,6 +483,7 @@ def main():
 
     last_sent_id = load_last_tweet_id()
     newest_fetched_id = None
+    had_ocr_failure = False  # 1枚でもOCRを見送ったら、処理済みIDを進めない（次回そのポストまで遡って再解析する）
     count = 0
     valid_tweets_to_send = []
 
@@ -543,6 +557,7 @@ def main():
                 if parsed_items is None:
                     # 画像を残すと「処理済み」扱いになるため削除し、次回の実行で再解析する
                     img_path.unlink(missing_ok=True)
+                    had_ocr_failure = True
                     print(f"-> OCRに失敗したため {img_filename} は次回の実行で再解析します")
                     continue
                 print(f"✨ 抽出結果: {len(parsed_items)} 件（モデル: {used_model}）")
@@ -579,7 +594,7 @@ def main():
         for vt in valid_tweets_to_send:
             if webhook_url:
                 send_to_discord(webhook_url, vt["text"], vt["url"], vt["items"])
-        if newest_fetched_id:
+        if newest_fetched_id and not had_ocr_failure:
             save_last_tweet_id(newest_fetched_id)
 
     print(f"Successfully collected {count} new valid買取 images/metadata with OCR.")
