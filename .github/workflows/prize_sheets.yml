@@ -51,7 +51,8 @@ jobs:
           TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          SPREADSHEET_ID_CALENDAR: ${{ secrets.SPREADSHEET_ID_CALENDAR }}
+          # Secrets には SPREADSHEET_ID_CALENDER（E）の綴りで登録されているので、どちらの綴りでも読む
+          SPREADSHEET_ID_CALENDAR: ${{ secrets.SPREADSHEET_ID_CALENDAR || secrets.SPREADSHEET_ID_CALENDER }}
           DISCORD_WEBHOOK_URL_CALENDAR: ${{ secrets.DISCORD_WEBHOOK_URL_CALENDAR }}
           TWEET: ${{ inputs.calendar_tweet }}
         run: |
