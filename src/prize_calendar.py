@@ -114,8 +114,25 @@ def run_twitter_cli(args):
     return [t for t in data if isinstance(t, dict)]
 
 
+RECENT_POSTS_MAX = 100  # 検索が使えないときに読む直近ポスト数
+_recent_posts = None
+
+def recent_posts():
+    """アカウントの直近ポスト（1回の実行で1度だけ取得）"""
+    global _recent_posts
+    if _recent_posts is None:
+        _recent_posts = run_twitter_cli(["user-posts", TARGET_USER, "--max", str(RECENT_POSTS_MAX)])
+    return _recent_posts
+
+
 def search_posts(query, max_count):
-    return run_twitter_cli(["search", query, "--from", TARGET_USER, "--type", "Latest", "--max", str(max_count)])
+    try:
+        return run_twitter_cli(["search", query, "--from", TARGET_USER, "--type", "Latest", "--max", str(max_count)])
+    except RuntimeError as e:
+        # X の検索は twitter-cli 側で失敗することがある（ClientTransaction の初期化エラーなど）。
+        # その場合はアカウントの直近ポストを読み、本文で絞り込む
+        print(f"検索に失敗したため直近 {RECENT_POSTS_MAX} 件のポストから「{query}」を探します: {str(e)[:120]}")
+        return [p for p in recent_posts() if query in post_text(p)][:max_count]
 
 
 def fetch_post(tweet_id):
