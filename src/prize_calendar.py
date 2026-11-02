@@ -492,9 +492,17 @@ def main():
         return
 
     try:
-        for post in search_posts(SCHEDULE_QUERY, 5):
-            if SCHEDULE_QUERY in post_text(post) and image_urls(post):
-                record_schedule(client, ws_schedule, post, done_schedule)
+        schedule_posts = [p for p in search_posts(SCHEDULE_QUERY, 5) if SCHEDULE_QUERY in post_text(p) and image_urls(p)]
+        if not schedule_posts and _recent_posts is not None:
+            # 見つからないとき、どこまで遡って読めたかと、似たポストを出しておく
+            times = [t for t in (post_time(p) for p in _recent_posts) if t]
+            oldest = min(times).strftime("%Y-%m-%d") if times else "不明"
+            print(f"[入荷予定] 直近 {len(_recent_posts)} 件（{oldest} 以降）に「{SCHEDULE_QUERY}」の画像付きポストはありませんでした")
+            for p in _recent_posts:
+                if "入荷予定" in post_text(p):
+                    print(f"  似たポスト: {post_url(p)} 画像{len(image_urls(p))}枚 / {post_text(p)[:60]!r}")
+        for post in schedule_posts:
+            record_schedule(client, ws_schedule, post, done_schedule)
     except QuotaExhausted as e:
         # 読めなかったポストは記録していないので、次回の実行で読み直す
         print(f"::warning::Gemini daily quota exhausted; schedule will be retried next run: {e}")
