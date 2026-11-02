@@ -1,0 +1,64 @@
+name: Prize Sheets (Nakano Factory + Prize Calendar)
+
+# Xのポストを読んでスプレッドシートに記録する（Discordへの通知だけの監視とは別）。
+#   ・ナカノファクトリー（@nakanofactory）の「本日の商品」→ 買取価格シート（sheet-matcher の店舗の1つ）
+#   ・マンガ倉庫甘木店アミューズ（@amagi_amuse）の「新景品入荷予定一覧」「【新プライズ情報】」→ 入荷カレンダーシート
+on:
+  schedule:
+    - cron: '15 3 * * *'   # 日本時間 12:15（ナカノファクトリーは11時前後に投稿）
+    - cron: '45 6 * * *'   # 日本時間 15:45
+    - cron: '0 12 * * *'   # 日本時間 21:00
+  workflow_dispatch:
+    inputs:
+      calendar_tweet:
+        description: '入荷予定表のポストを指定して読み直す（URLまたはID。空なら通常の実行）'
+        required: false
+        default: ''
+
+jobs:
+  prize-sheets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install gspread requests twitter-cli google-genai pydantic
+
+      - name: Nakano Factory buyback prices
+        if: ${{ inputs.calendar_tweet == '' }}
+        continue-on-error: true
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          SPREADSHEET_ID_NAKANO: ${{ secrets.SPREADSHEET_ID_NAKANO }}
+          DISCORD_WEBHOOK_URL_NAKANO: ${{ secrets.DISCORD_WEBHOOK_URL_NAKANO }}
+        run: |
+          python src/nakano_factory.py
+
+      - name: Prize calendar (Amagi)
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SPREADSHEET_ID_CALENDAR: ${{ secrets.SPREADSHEET_ID_CALENDAR }}
+          DISCORD_WEBHOOK_URL_CALENDAR: ${{ secrets.DISCORD_WEBHOOK_URL_CALENDAR }}
+          TWEET: ${{ inputs.calendar_tweet }}
+        run: |
+          if [ -z "$SPREADSHEET_ID_CALENDAR" ]; then
+            echo "SPREADSHEET_ID_CALENDAR is not set; skipped"
+          elif [ -n "$TWEET" ]; then
+            python src/prize_calendar.py --tweet "$TWEET"
+          else
+            python src/prize_calendar.py
+          fi
