@@ -62,12 +62,21 @@ jobs:
         run: |
           python src/jumpcal_prize.py
 
+      # figure-kaitori-bot がスプレッドシートに書き込むためのポスト（ナカノファクトリーの買取価格、甘木店の入荷予定）
+      - name: Collect X posts for figure-kaitori-bot
+        continue-on-error: true
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+        run: |
+          python src/collect_x_posts.py
+
       - name: Commit states and queue data
         id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update tweet states and add mulan queue data [skip ci]"
-          file_pattern: "last_tweet_id_*.txt data/mulan_queue/* data/jumpcal_prize_seen.json"
+          file_pattern: "last_tweet_id_*.txt data/mulan_queue/* data/jumpcal_prize_seen.json data/x_posts/*.json"
 
       # 新しいOCRデータがコミットされたときだけダッシュボード（Render）を再デプロイする
       - name: Trigger Render Deploy
