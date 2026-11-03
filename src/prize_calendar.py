@@ -104,15 +104,31 @@ def run_twitter_cli(args):
         # 固定ポストも読めるようにしたラッパー経由で twitter-cli を動かす（入荷予定一覧は固定されていることが多い）
         [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "twitter_cli_runner.py"), *args, "--json"],
         capture_output=True, text=True, encoding="utf-8", errors="ignore", env=os.environ.copy(),
+        timeout=180,
     )
+    try:
+        data = json.loads(result.stdout)
+    except (ValueError, TypeError) as e:
+        raise RuntimeError(
+            f"ポストを取得できませんでした（終了コード {result.returncode}、JSON応答なし）: "
+            f"{result.stderr.strip()[-300:]}"
+        ) from e
+    if isinstance(data, dict) and data.get("ok") is False:
+        raise RuntimeError(f"ポストを取得できませんでした: {str(data.get('error', '不明なエラー'))[:500]}")
     if result.returncode != 0:
-        raise RuntimeError(f"ポストを取得できませんでした: {result.stderr.strip()[:300]}")
-    data = json.loads(result.stdout.strip() or "[]")
+        raise RuntimeError(f"ポストを取得できませんでした（終了コード {result.returncode}）: {result.stderr.strip()[-300:]}")
     if isinstance(data, dict):
-        data = data.get("tweets") or data.get("data") or []
+        if "data" in data:
+            data = data["data"]
+        elif "tweets" in data:
+            data = data["tweets"]
+        else:
+            raise RuntimeError("twitter-cli の応答に data / tweets がありません")
     if isinstance(data, dict):
         data = [data]
-    return [t for t in data if isinstance(t, dict)]
+    if not isinstance(data, list) or any(not isinstance(t, dict) or not t.get("id") for t in data):
+        raise RuntimeError("twitter-cli のポスト応答形式が不正です")
+    return data
 
 
 RECENT_POSTS_MAX = 100  # 検索が使えないときに読む直近ポスト数
@@ -127,13 +143,30 @@ def recent_posts():
 
 
 def search_posts(query, max_count):
+    # 同一アカウントの予定表と入荷報告は、共通の投稿一覧から先に探す。
+    # 検索だけが壊れていても毎回同じ検索エラーを発生させない。
+    recent_error = None
+    try:
+        posts = recent_posts()
+    except (RuntimeError, subprocess.TimeoutExpired) as e:
+        recent_error = e
+        posts = None
+    if posts is not None:
+        matched = [p for p in posts if query in post_text(p)]
+        print(f"[X取得] 投稿一覧 {len(posts)}件 / 「{query}」一致 {len(matched)}件")
+        if matched:
+            # 投稿一覧は固定ポストの順番が特殊なため、投稿日時で新しい順にする。
+            return sorted(matched, key=lambda p: post_time(p) or datetime.min.replace(tzinfo=JST), reverse=True)[:max_count]
     try:
         return run_twitter_cli(["search", query, "--from", TARGET_USER, "--type", "Latest", "--max", str(max_count)])
-    except RuntimeError as e:
-        # X の検索は twitter-cli 側で失敗することがある（ClientTransaction の初期化エラーなど）。
-        # その場合はアカウントの直近ポストを読み、本文で絞り込む
-        print(f"検索に失敗したため直近 {RECENT_POSTS_MAX} 件のポストから「{query}」を探します: {str(e)[:120]}")
-        return [p for p in recent_posts() if query in post_text(p)][:max_count]
+    except (RuntimeError, subprocess.TimeoutExpired) as e:
+        if posts is None or not posts:
+            raise RuntimeError(f"Xの投稿を確認できませんでした。投稿一覧: {recent_error or '0件'} / 検索: {e}") from e
+        # 一覧が取得できても、検索失敗時は対象なしと断定しない。
+        raise RuntimeError(
+            f"「{query}」は直近 {len(posts)}件で見つからず、検索も失敗しました。"
+            f"範囲外の投稿は未確認のため、正常終了にしません: {e}"
+        ) from e
 
 
 def fetch_post(tweet_id):
@@ -447,19 +480,28 @@ def record_schedule(client, ws, post, done):
 
 def record_arrivals(ws, posts, done):
     rows = []
+    already_recorded = invalid_text = invalid_time = 0
     for post in sorted(posts, key=lambda p: post_time(p) or datetime.min.replace(tzinfo=JST)):
         url = post_url(post)
         if url in done:
+            already_recorded += 1
             continue
         name = parse_arrival(post_text(post))
         when = post_time(post)
-        if not name or when is None:
+        if not name:
+            invalid_text += 1
+            print(f"::warning::入荷報告の商品名を解析できませんでした: {url}")
+            continue
+        if when is None:
+            invalid_time += 1
+            print(f"::warning::入荷報告の投稿日時を解析できませんでした: {url}")
             continue
         rows.append([when.strftime("%Y-%m-%d"), name, url])
         done.add(url)
     if rows:
         ws.append_rows(rows, value_input_option="RAW")
-    print(f"[入荷報告] {len(rows)}件を追加しました")
+    print(f"[入荷報告] 対象 {len(posts)}件 / 記録済み {already_recorded}件 / "
+          f"本文解析不可 {invalid_text}件 / 日時解析不可 {invalid_time}件 / 追加 {len(rows)}件")
     return len(rows)
 
 
