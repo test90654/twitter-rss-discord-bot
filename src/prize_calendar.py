@@ -101,7 +101,8 @@ def check_twitter_secrets():
 def run_twitter_cli(args):
     check_twitter_secrets()
     result = subprocess.run(
-        [sys.executable, "-m", "twitter_cli.cli", *args, "--json"],
+        # 固定ポストも読めるようにしたラッパー経由で twitter-cli を動かす（入荷予定一覧は固定されていることが多い）
+        [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "twitter_cli_runner.py"), *args, "--json"],
         capture_output=True, text=True, encoding="utf-8", errors="ignore", env=os.environ.copy(),
     )
     if result.returncode != 0:
