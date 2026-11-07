@@ -1,0 +1,372 @@
+{
+  "tweet_id": "2117999385992982581_3",
+  "original_tweet_id": "2117999385992982581",
+  "store": "ムラ中",
+  "text": "📢11/5更新📢\n『NARUTO ナルト』プライズフィギュア\n一番くじフィギュア買取速報です🍃🔥\n有効期限は2026年11月19日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/r8iBeU7VCs",
+  "image_file": "2117999385992982581_3.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2117999385992982581",
+  "posted_at": "2026/11/05 00:16",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+      "price": "16000",
+      "update_date": "2026/11/05",
+      "model_number": "2632926"
+    },
+    {
+      "name": "アミューズメント一番くじ うちはイタチ THE ANIME 賞",
+      "price": "16000",
+      "update_date": "2026/11/05",
+      "model_number": "2632926"
+    },
+    {
+      "name": "アミューズメント一番くじ うちはイタチ THE BRUSH TONES 賞",
+      "price": "16500",
+      "update_date": "2026/11/05",
+      "model_number": "2632926"
+    },
+    {
+      "name": "アミューズメント一番くじ うちはイタチ THE TONES 賞",
+      "price": "11000",
+      "update_date": "2026/11/05",
+      "model_number": "2632926"
+    },
+    {
+      "name": "紡がれる火の意志（初版 / 再販問わず） A賞 うずまきナルト",
+      "price": "56000",
+      "update_date": "2026/11/05",
+      "model_number": "62253"
+    },
+    {
+      "name": "心を写す赤き瞳 B賞 うちはシスイ",
+      "price": "3500",
+      "update_date": "2026/11/05",
+      "model_number": "64712"
+    },
+    {
+      "name": "心を写す赤き瞳 C賞 うちはオビト",
+      "price": "5000",
+      "update_date": "2026/11/05",
+      "model_number": "64712"
+    },
+    {
+      "name": "心を写す赤き瞳 D賞 はたけカカシ（暗部）",
+      "price": "4200",
+      "update_date": "2026/11/05",
+      "model_number": "64712"
+    },
+    {
+      "name": "心を写す赤き瞳 ラストワン賞 うちはサスケ＆うちはイタチ",
+      "price": "12500",
+      "update_date": "2026/11/05",
+      "model_number": "64712"
+    },
+    {
+      "name": "中忍試験編 A賞 うずまきナルト",
+      "price": "3500",
+      "update_date": "2026/11/05",
+      "model_number": "64765"
+    },
+    {
+      "name": "中忍試験編 B賞 うちはサスケ",
+      "price": "4800",
+      "update_date": "2026/11/05",
+      "model_number": "64765"
+    },
+    {
+      "name": "紡がれる火の意志（初版 / 再販問わず） B賞 うちはサスケ 通常瞳※要開封確認",
+      "price": "9000",
+      "update_date": "2026/11/05",
+      "model_number": "62253"
+    },
+    {
+      "name": "紡がれる火の意志（初版 / 再販問わず） B賞 うちはサスケ 輪廻写輪眼※要開封確認",
+      "price": "25000",
+      "update_date": "2026/11/05",
+      "model_number": "62253"
+    },
+    {
+      "name": "紡がれる火の意志（初版 / 再販問わず） C賞 はたけカカシ 通常瞳※要開封確認",
+      "price": "3500",
+      "update_date": "2026/11/05",
+      "model_number": "62253"
+    },
+    {
+      "name": "紡がれる火の意志（初版 / 再販問わず） C賞 はたけカカシ 両目写輪眼※要開封確認",
+      "price": "6000",
+      "update_date": "2026/11/05",
+      "model_number": "62253"
+    },
+    {
+      "name": "紡がれる火の意志（初版 / 再販問わず） ラストワン賞 波風ミナト",
+      "price": "42000",
+      "update_date": "2026/11/05",
+      "model_number": "62253"
+    },
+    {
+      "name": "疾風伝 忍ノ絆 A賞 うずまきナルト",
+      "price": "18000",
+      "update_date": "2026/11/05",
+      "model_number": "62676"
+    },
+    {
+      "name": "疾風伝 忍ノ絆 B賞 うちはサスケ",
+      "price": "12000",
+      "update_date": "2026/11/05",
+      "model_number": "62676"
+    },
+    {
+      "name": "疾風伝 忍ノ絆 C賞 我愛羅",
+      "price": "4500",
+      "update_date": "2026/11/05",
+      "model_number": "62676"
+    },
+    {
+      "name": "疾風伝 忍ノ絆 D賞 うちはイタチ",
+      "price": "18000",
+      "update_date": "2026/11/05",
+      "model_number": "62676"
+    },
+    {
+      "name": "疾風伝 忍ノ絆 ラストワン賞 はたけカカシ",
+      "price": "5000",
+      "update_date": "2026/11/05",
+      "model_number": "62676"
+    },
+    {
+      "name": "NARUTOP99 豪華絢爛忍絵巻 A賞 見開きビジュアルボード",
+      "price": "1200",
+      "update_date": "2026/11/05",
+      "model_number": "64327"
+    },
+    {
+      "name": "NARUTOP99 豪華絢爛忍絵巻 B賞 波風ミナト",
+      "price": "4800",
+      "update_date": "2026/11/05",
+      "model_number": "64327"
+    },
+    {
+      "name": "NARUTOP99 豪華絢爛忍絵巻 C賞 うずまきナルト",
+      "price": "4000",
+      "update_date": "2026/11/05",
+      "model_number": "64327"
+    },
+    {
+      "name": "NARUTOP99 豪華絢爛忍絵巻 D賞 うちはイタチ",
+      "price": "5500",
+      "update_date": "2026/11/05",
+      "model_number": "64327"
+    },
+    {
+      "name": "NARUTOP99 豪華絢爛忍絵巻 ラストワン賞 見開きビジュアルボード",
+      "price": "1500",
+      "update_date": "2026/11/05",
+      "model_number": "64327"
+    },
+    {
+      "name": "繋がる思い A賞 千手柱間",
+      "price": "3500",
+      "update_date": "2026/11/05",
+      "model_number": "64571"
+    },
+    {
+      "name": "繋がる思い B賞 千手扉間",
+      "price": "5000",
+      "update_date": "2026/11/05",
+      "model_number": "64571"
+    },
+    {
+      "name": "繋がる思い C賞 波風ミナト",
+      "price": "7000",
+      "update_date": "2026/11/05",
+      "model_number": "64571"
+    },
+    {
+      "name": "繋がる思い D賞 うずまきナルト",
+      "price": "9500",
+      "update_date": "2026/11/05",
+      "model_number": "64571"
+    },
+    {
+      "name": "繋がる思い ラストワン賞 うちはマダラ",
+      "price": "30000",
+      "update_date": "2026/11/05",
+      "model_number": "64571"
+    },
+    {
+      "name": "中忍試験編 C賞 奈良シカマル",
+      "price": "2600",
+      "update_date": "2026/11/05",
+      "model_number": "64765"
+    },
+    {
+      "name": "中忍試験編 D賞 ロック・リー",
+      "price": "7500",
+      "update_date": "2026/11/05",
+      "model_number": "64765"
+    },
+    {
+      "name": "中忍試験編 E賞 日向ネジ",
+      "price": "2400",
+      "update_date": "2026/11/05",
+      "model_number": "64765"
+    },
+    {
+      "name": "中忍試験編 ラストワン賞 我愛羅",
+      "price": "8000",
+      "update_date": "2026/11/05",
+      "model_number": "64765"
+    },
+    {
+      "name": "波の国編 A賞 うずまきナルト",
+      "price": "8000",
+      "update_date": "2026/11/05",
+      "model_number": "64838"
+    },
+    {
+      "name": "波の国編 B賞 白",
+      "price": "6000",
+      "update_date": "2026/11/05",
+      "model_number": "64838"
+    },
+    {
+      "name": "波の国編 C賞 うずまきナルト＆白",
+      "price": "3200",
+      "update_date": "2026/11/05",
+      "model_number": "64838"
+    },
+    {
+      "name": "波の国編 D賞 白のお面",
+      "price": "1400",
+      "update_date": "2026/11/05",
+      "model_number": "64838"
+    },
+    {
+      "name": "波の国編 ラストワン賞 桃地再不斬",
+      "price": "20000",
+      "update_date": "2026/11/05",
+      "model_number": "64838"
+    },
+    {
+      "name": "輪廻の嘆きと平和の懸け橋 A賞 うずまきナルト",
+      "price": "12000",
+      "update_date": "2026/11/05",
+      "model_number": "67923"
+    },
+    {
+      "name": "輪廻の嘆きと平和の懸け橋 B賞 日向ヒナタ",
+      "price": "3500",
+      "update_date": "2026/11/05",
+      "model_number": "67923"
+    },
+    {
+      "name": "輪廻の嘆きと平和の懸け橋 C賞 ペイン",
+      "price": "7000",
+      "update_date": "2026/11/05",
+      "model_number": "67923"
+    },
+    {
+      "name": "輪廻の嘆きと平和の懸け橋 D賞 キラー・ビー",
+      "price": "1800",
+      "update_date": "2026/11/05",
+      "model_number": "67923"
+    },
+    {
+      "name": "輪廻の嘆きと平和の懸け橋 E賞 自来也",
+      "price": "6000",
+      "update_date": "2026/11/05",
+      "model_number": "67923"
+    },
+    {
+      "name": "輪廻の嘆きと平和の懸け橋 ラストワン賞 ナルト（妖狐の衣 六本目）",
+      "price": "7500",
+      "update_date": "2026/11/05",
+      "model_number": "67923"
+    },
+    {
+      "name": "風影奪還編 A賞 うずまきナルト",
+      "price": "5200",
+      "update_date": "2026/11/05",
+      "model_number": "68076"
+    },
+    {
+      "name": "風影奪還編 C賞 はたけカカシ",
+      "price": "2000",
+      "update_date": "2026/11/05",
+      "model_number": "68076"
+    },
+    {
+      "name": "風影奪還編 D賞 我愛羅（風影）",
+      "price": "2500",
+      "update_date": "2026/11/05",
+      "model_number": "68076"
+    },
+    {
+      "name": "風影奪還編 E賞 サソリ",
+      "price": "4000",
+      "update_date": "2026/11/05",
+      "model_number": "68076"
+    },
+    {
+      "name": "風影奪還編 ラストワン賞 デイダラ",
+      "price": "14000",
+      "update_date": "2026/11/05",
+      "model_number": "68076"
+    },
+    {
+      "name": "伝説の三忍 A賞 自来也",
+      "price": "20000",
+      "update_date": "2026/11/05",
+      "model_number": "64612"
+    },
+    {
+      "name": "伝説の三忍 B賞 大蛇丸",
+      "price": "9000",
+      "update_date": "2026/11/05",
+      "model_number": "64612"
+    },
+    {
+      "name": "伝説の三忍 C賞 綱手",
+      "price": "20000",
+      "update_date": "2026/11/05",
+      "model_number": "64612"
+    },
+    {
+      "name": "伝説の三忍 ラストワン賞 うずまきナルト＆自来也",
+      "price": "28000",
+      "update_date": "2026/11/05",
+      "model_number": "64612"
+    },
+    {
+      "name": "飛段・角都編 A賞 奈良シカマル",
+      "price": "3800",
+      "update_date": "2026/11/05",
+      "model_number": "68209"
+    },
+    {
+      "name": "飛段・角都編 B賞 猿飛アスマ",
+      "price": "7000",
+      "update_date": "2026/11/05",
+      "model_number": "68209"
+    },
+    {
+      "name": "飛段・角都編 C賞 飛段",
+      "price": "14500",
+      "update_date": "2026/11/05",
+      "model_number": "68209"
+    },
+    {
+      "name": "飛段・角都編 D賞 角都",
+      "price": "26000",
+      "update_date": "2026/11/05",
+      "model_number": "68209"
+    },
+    {
+      "name": "飛段・角都編 ラストワン賞 うずまきナルト",
+      "price": "6000",
+      "update_date": "2026/11/05",
+      "model_number": "68209"
+    }
+  ]
+}

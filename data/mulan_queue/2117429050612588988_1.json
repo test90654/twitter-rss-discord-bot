@@ -1,0 +1,474 @@
+{
+  "tweet_id": "2117429050612588988_1",
+  "original_tweet_id": "2117429050612588988",
+  "store": "ムラ中",
+  "text": "📢11/3更新📢\n『ワンピース』プライズフィギュア\n一番くじフィギュア買取速報です🏴‍☠️\n有効期限は2026年11月17日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/w8p2sr2XTh",
+  "image_file": "2117429050612588988_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2117429050612588988",
+  "posted_at": "2026/11/03 10:30",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "THEORAMA SOUL ゾロ",
+      "price": "1600",
+      "update_date": "2026/11/03",
+      "model_number": "2844572"
+    },
+    {
+      "name": "THEORAMA SOUL シャンクス",
+      "price": "2800",
+      "update_date": "2026/11/03",
+      "model_number": "2828454"
+    },
+    {
+      "name": "MAXIMATIC PLUS ルフィ I",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2800213"
+    },
+    {
+      "name": "MAXIMATIC PLUS ルフィ II",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2809579"
+    },
+    {
+      "name": "MAXIMATICPLUS ゾロ",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2816483"
+    },
+    {
+      "name": "MAXIMATICPLUS サンジ",
+      "price": "1300",
+      "update_date": "2026/11/03",
+      "model_number": "2824661"
+    },
+    {
+      "name": "ROMANCE DAWN ルフィ vol.1",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2816413"
+    },
+    {
+      "name": "Grandista ギア 5 ルフィ III",
+      "price": "1400",
+      "update_date": "2026/11/03",
+      "model_number": "2834503"
+    },
+    {
+      "name": "Grandista ルフィ (2024 年 )",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2723174"
+    },
+    {
+      "name": "Grandista ゾロ (2024 年 )",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2723175"
+    },
+    {
+      "name": "Grandista ゾロ II (2026 年 )",
+      "price": "1800",
+      "update_date": "2026/11/03",
+      "model_number": "2814781"
+    },
+    {
+      "name": "Grandista エース (2025 年 )",
+      "price": "1100",
+      "update_date": "2026/11/03",
+      "model_number": "2774191"
+    },
+    {
+      "name": "Grandista ロー (2024 年 )",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2723176"
+    },
+    {
+      "name": "Grandista シャンクス II",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2834505"
+    },
+    {
+      "name": "ROMANCE DAWN ルフィ vol.2",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2816414"
+    },
+    {
+      "name": "CROSS POSING ルフィ",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2830161"
+    },
+    {
+      "name": "CROSS POSING エネル",
+      "price": "700",
+      "update_date": "2026/11/03",
+      "model_number": "2830162"
+    },
+    {
+      "name": "MANHOOD ロジャー SP ver.",
+      "price": "1600",
+      "update_date": "2026/11/03",
+      "model_number": "2639635"
+    },
+    {
+      "name": "MANHOOD ロジャー SP ver. ( 再販 )",
+      "price": "1600",
+      "update_date": "2026/11/03",
+      "model_number": "2779360"
+    },
+    {
+      "name": "MANHOOD エドワード SP ver.",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2639635"
+    },
+    {
+      "name": "MANHOOD エドワード SP ver. ( 再販 )",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2779360"
+    },
+    {
+      "name": "フィグライフ！ギア 5 ルフィ vol.1",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2728303"
+    },
+    {
+      "name": "フィグライフ！ギア 5 ルフィ vol.1 ( 再販 )",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2827823"
+    },
+    {
+      "name": "フィグライフ！ギア 5 ルフィ vol.2",
+      "price": "1300",
+      "update_date": "2026/11/03",
+      "model_number": "2728269"
+    },
+    {
+      "name": "フィグライフ！ギア 5 ルフィ vol.2 ( 再販 )",
+      "price": "1300",
+      "update_date": "2026/11/03",
+      "model_number": "2827823"
+    },
+    {
+      "name": "フィグライフ！ギア 5 ルフィ vol.3",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2728304"
+    },
+    {
+      "name": "フィグライフ！ギア 5 ルフィ vol.5",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2774197"
+    },
+    {
+      "name": "フィグライフ！海賊狩りのゾロ",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2746725"
+    },
+    {
+      "name": "フィグライフ！ユースタス・キッド",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2761767"
+    },
+    {
+      "name": "GRANDLINE JOURNEY ナミ SPECIAL",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2650589"
+    },
+    {
+      "name": "GRANDLINE JOURNEY ハンコック SPECIAL",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2650589"
+    },
+    {
+      "name": "GLITTER& ～ ハンコック II",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2740074"
+    },
+    {
+      "name": "GLITTER& ～ ナミ EGGHEAD",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2752435"
+    },
+    {
+      "name": "GLITTER& ～ ナミ SUMMER STYLE",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2816418"
+    },
+    {
+      "name": "GLITTER& ～ ロビン EGGHEAD",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2752436"
+    },
+    {
+      "name": "GLITTER& ～ ロビン SUMMER STYLE",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2816419"
+    },
+    {
+      "name": "野郎ども宴だ!! ルフィ SP ver.",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2835307"
+    },
+    {
+      "name": "Fluffy Puffy チョッパー vol.1 A",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2785113"
+    },
+    {
+      "name": "ルフィ ( 2024 年 )",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2723174"
+    },
+    {
+      "name": "ゾロ ( 2024 年 )",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2723175"
+    },
+    {
+      "name": "ゾロ II ( 2026 年 )",
+      "price": "1800",
+      "update_date": "2026/11/03",
+      "model_number": "2814781"
+    },
+    {
+      "name": "エース ( 2025 年 )",
+      "price": "1100",
+      "update_date": "2026/11/03",
+      "model_number": "2774191"
+    },
+    {
+      "name": "ロー ( 2024 年 )",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2723176"
+    },
+    {
+      "name": "シャンクス II",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2834505"
+    },
+    {
+      "name": "エドワード・ニューゲート",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2762801"
+    },
+    {
+      "name": "ハンコック",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2774190"
+    },
+    {
+      "name": "ティーチ",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2834504"
+    },
+    {
+      "name": "KING OF ARTIST ルフィ エルバフ",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2816421"
+    },
+    {
+      "name": "KING OF ARTIST バウンドマン SP ver.II",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2836084"
+    },
+    {
+      "name": "KING OF ARTIST スネイクマン SP ver.II",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2836084"
+    },
+    {
+      "name": "KING OF ARTIST ルフィ ギア 5 II",
+      "price": "1100",
+      "update_date": "2026/11/03",
+      "model_number": "2729190"
+    },
+    {
+      "name": "KING OF ARTIST ルフィ ギア 5 II SP",
+      "price": "1100",
+      "update_date": "2026/11/03",
+      "model_number": "2836086"
+    },
+    {
+      "name": "KING OF ARTIST ギア 5 ルフィ III",
+      "price": "1300",
+      "update_date": "2026/11/03",
+      "model_number": "2775303"
+    },
+    {
+      "name": "KING OF ARTIST ルフィ ワノ国 II SPECIAL",
+      "price": "1400",
+      "update_date": "2026/11/03",
+      "model_number": "2800814"
+    },
+    {
+      "name": "KING OF ARTIST ゾロ ワノ国 II SP",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2827458"
+    },
+    {
+      "name": "KING OF ARTIST サンジ ワノ国 SP",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2827458"
+    },
+    {
+      "name": "KING OF ARTIST ゴール・D・ロジャー SP",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2748105"
+    },
+    {
+      "name": "KING OF ARTIST ゴール・D・ロジャー SP ( 再販 )",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2810660"
+    },
+    {
+      "name": "DXF シリーズ SPECIAL ルフィ",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2775305"
+    },
+    {
+      "name": "DXF シリーズ SPECIAL エース",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2775304"
+    },
+    {
+      "name": "DXF シリーズ EXTRA+ ハンコック ( サロメ付 )",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2731343"
+    },
+    {
+      "name": "DXF シリーズ EXTRA ハンコック",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2694511"
+    },
+    {
+      "name": "DXF シリーズ エッグヘッド ゾロ",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2704312"
+    },
+    {
+      "name": "DXF シリーズ エッグヘッド ニコ・ロビン",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2694521"
+    },
+    {
+      "name": "DXF シリーズ エッグヘッド チョッパー",
+      "price": "1400",
+      "update_date": "2026/11/03",
+      "model_number": "2694518"
+    },
+    {
+      "name": "DXF シリーズ ワノ国 ルフィ 浴衣 ver.",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2659006"
+    },
+    {
+      "name": "Fluffy Puffy チョッパー vol.1 B",
+      "price": "1200",
+      "update_date": "2026/11/03",
+      "model_number": "2785113"
+    },
+    {
+      "name": "サウザンド・サニー号 リモコンカー",
+      "price": "800",
+      "update_date": "2026/11/03",
+      "model_number": "2870003"
+    },
+    {
+      "name": "めちゃながイム様ぬいぐるみ",
+      "price": "3000",
+      "update_date": "2026/11/03",
+      "model_number": "2711165"
+    },
+    {
+      "name": "Grandista ギア5 ルフィ",
+      "price": "1300",
+      "update_date": "2026/11/03",
+      "model_number": "2748104"
+    },
+    {
+      "name": "Grandista ギア5 ルフィ II",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2774192"
+    },
+    {
+      "name": "DXF シリーズ ワノ国 ゾロ 浴衣 ver.",
+      "price": "1800",
+      "update_date": "2026/11/03",
+      "model_number": "2659007"
+    },
+    {
+      "name": "DXF シリーズ ワノ国 サンジ 浴衣 ver.",
+      "price": "900",
+      "update_date": "2026/11/03",
+      "model_number": "2659008"
+    },
+    {
+      "name": "DXF シリーズ MEN ワノ国 vol.19 チョッパー",
+      "price": "2400",
+      "update_date": "2026/11/03",
+      "model_number": "2582821"
+    },
+    {
+      "name": "DXF シリーズ MEN ワノ国 vol.21 チョッパー",
+      "price": "1500",
+      "update_date": "2026/11/03",
+      "model_number": "2616357"
+    },
+    {
+      "name": "DXF シリーズ MEN ワノ国 vol.24 ルフィ",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2643756"
+    },
+    {
+      "name": "DXF シリーズ モンキー・D・ルフィ (2023年7月)",
+      "price": "1000",
+      "update_date": "2026/11/03",
+      "model_number": "2659001"
+    }
+  ]
+}
