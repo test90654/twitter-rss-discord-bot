@@ -17,6 +17,16 @@ EXCLUDE_KEYWORDS = [
     "定休日",
     "店頭買取業務休止",
     "買取価格等に関するお問い合わせ",
+    # トミカ
+    "トミカ",
+    "tomica",
+    # ガンプラ
+    "ガンプラ",
+    "プラモ",  # プラモデルも含む
+    "hguc",
+    "mgex",
+    "1/144",
+    "1/100",
 ]
 
 def load_last_tweet_id():
@@ -53,8 +63,9 @@ def fetch_tweets():
         return []
 
 def should_exclude(text: str) -> bool:
+    lowered = text.lower()
     for keyword in EXCLUDE_KEYWORDS:
-        if keyword in text:
+        if keyword.lower() in lowered:
             return True
     return False
 
