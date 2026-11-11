@@ -11,313 +11,1014 @@
       "name": "HUNTER×HUNTER ゴン G.I. 編",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": "2774364"
+      "model_number": "2774364",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTER×HUNTER ハンター×ハンター",
+        "source": "ポスト本文",
+        "score": 0.667,
+        "unmatched": [
+          "ゴン",
+          "G.I."
+        ],
+        "missing": [
+          "ハンター",
+          "ハンター"
+        ],
+        "suggestion": "HUNTER× ゴン G.I. 編",
+        "reason": "「ゴン」「G.I.」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER キルア G.I. 編",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": "2774367"
+      "model_number": "2774367",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTER×HUNTER ハンター×ハンター",
+        "source": "ポスト本文",
+        "score": 0.632,
+        "unmatched": [
+          "キルア",
+          "G.I."
+        ],
+        "missing": [
+          "ハンター",
+          "ハンター"
+        ],
+        "suggestion": "HUNTER× キルア G.I. 編",
+        "reason": "「キルア」「G.I.」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ヒソカ G.I. 編",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2774368"
+      "model_number": "2774368",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTER×HUNTER ハンター×ハンター",
+        "source": "ポスト本文",
+        "score": 0.632,
+        "unmatched": [
+          "ヒソカ",
+          "G.I."
+        ],
+        "missing": [
+          "ハンター",
+          "ハンター"
+        ],
+        "suggestion": "HUNTER× ヒソカ G.I. 編",
+        "reason": "「ヒソカ」「G.I.」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Grandista クラピカ",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2774365"
+      "model_number": "2774365",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista クラピカ",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× Grandista クラピカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Grandista ヒソカ",
       "price": "2700",
       "update_date": "2026/10/29",
-      "model_number": "2730263"
+      "model_number": "2730263",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ヒソカ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× Grandista ヒソカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER HUNTING ARCHIVES クラピカ 絶対時間",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "2821310"
+      "model_number": "2821310",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTING ARCHIVES クラピカ 絶対時間",
+        "source": "登録済み/sheet1",
+        "score": 0.657,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTIN×HUNTIN HUNTING ARCHIVES クラピカ 絶対時間",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: HUNTER→HUNTIN, HUNTER→HUNTIN, 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER HUNTING ARCHIVES キルア 神速",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2821312"
+      "model_number": "2821312",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTING ARCHIVES クラピカ 絶対時間",
+        "source": "登録済み/sheet1",
+        "score": 0.469,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER",
+          "キルア",
+          "神速"
+        ],
+        "missing": [
+          "クラピカ",
+          "絶対時間"
+        ],
+        "suggestion": "HUNTIN×HUNTIN HUNTING ARCHIVES キルア 神速",
+        "reason": "「HUNTER」「HUNTER」「キルア」「神速」が参照名に見当たりません、同じ単語が重なっています（候補: HUNTER→HUNTIN, HUNTER→HUNTIN, 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER HUNTING ARCHIVES クロロ 盗賊の極意",
       "price": "2400",
       "update_date": "2026/10/29",
-      "model_number": "2762935"
+      "model_number": "2762935",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTING ARCHIVES クロロ 盗賊の極意",
+        "source": "登録済み/sheet1",
+        "score": 0.657,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTIN×HUNTIN HUNTING ARCHIVES クロロ 盗賊の極意",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: HUNTER→HUNTIN, HUNTER→HUNTIN, 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER フィグライフ！ ゴン ありったけのペン",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "2761552"
+      "model_number": "2761552",
+      "_check": {
+        "status": "suspect",
+        "ref": "フィグライフ! ゴン ありったけのペン",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× フィグライフ! ゴン ありったけのペン",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER フィグライフ！ ポットクリン",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "2826555"
+      "model_number": "2826555",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTER×HUNTER ハンター×ハンター",
+        "source": "ポスト本文",
+        "score": 0.5,
+        "unmatched": [
+          "フィグライフ",
+          "ポットクリン"
+        ],
+        "missing": [
+          "ハンター",
+          "ハンター"
+        ],
+        "suggestion": "HUNTER× フィグライフ! ポットクリン",
+        "reason": "「フィグライフ」「ポットクリン」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER VIBRATION STARS クラピカ II",
       "price": "4200",
       "update_date": "2026/10/29",
-      "model_number": "2711654"
+      "model_number": "2711654",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS クラピカ II",
+        "source": "登録済み/sheet1",
+        "score": 0.625,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× VIBRATION STARS クラピカ II",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER VIBRATION STARS カイト",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "2692564"
+      "model_number": "2692564",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS カイト",
+        "source": "登録済み/sheet1",
+        "score": 0.586,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× VIBRATION STARS カイト",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER VIBRATION STARS ネテロ",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2711656"
+      "model_number": "2711656",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS ネテロ",
+        "source": "登録済み/sheet1",
+        "score": 0.586,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× VIBRATION STARS ネテロ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER VIBRATION STARS メルエム",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2711657"
+      "model_number": "2711657",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS メルエム",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× VIBRATION STARS メルエム",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER VIBRATION STARS ネフェルピトー",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "2711655"
+      "model_number": "2711655",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS ネフェルピトー",
+        "source": "登録済み/sheet1",
+        "score": 0.636,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× VIBRATION STARS ネフェルピトー",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Memorable Saga Special ゴン",
       "price": "3800",
       "update_date": "2026/10/29",
-      "model_number": "2720297"
+      "model_number": "2720297",
+      "_check": {
+        "status": "suspect",
+        "ref": "Memorable Saga Special ヒソカ",
+        "source": "登録済み/sheet1",
+        "score": 0.588,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER",
+          "ゴン"
+        ],
+        "missing": [
+          "ヒソカ"
+        ],
+        "suggestion": "HUNTER× Memorable Saga Special ゴン",
+        "reason": "「HUNTER」「HUNTER」「ゴン」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Memorable Saga Special ヒソカ",
       "price": "2200",
       "update_date": "2026/10/29",
-      "model_number": "2720299"
+      "model_number": "2720299",
+      "_check": {
+        "status": "suspect",
+        "ref": "Memorable Saga Special ヒソカ",
+        "source": "登録済み/sheet1",
+        "score": 0.657,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× Memorable Saga Special ヒソカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DX フィギュア vol.1 ゴン",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "47915"
+      "model_number": "47915",
+      "_check": {
+        "status": "suspect",
+        "ref": "DX フィギュア vol.1 ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DX フィギュア vol.1 ゴン",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DX フィギュア vol.1 クラピカ",
       "price": "4500",
       "update_date": "2026/10/29",
-      "model_number": "47915"
+      "model_number": "47915",
+      "_check": {
+        "status": "suspect",
+        "ref": "DX フィギュア vol.1 クラピカ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DX フィギュア vol.1 クラピカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DX フィギュア vol.2 キルア",
       "price": "4500",
       "update_date": "2026/10/29",
-      "model_number": "48024"
+      "model_number": "48024",
+      "_check": {
+        "status": "suspect",
+        "ref": "DX フィギュア vol.2 キルア",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DX フィギュア vol.2 キルア",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DX フィギュア vol.2 レオリオ",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "48024"
+      "model_number": "48024",
+      "_check": {
+        "status": "suspect",
+        "ref": "DX フィギュア vol.2 レオリオ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DX フィギュア vol.2 レオリオ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF フィギュア vol.3 シルバ",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "48195"
+      "model_number": "48195",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF フィギュア vol.3 シルバ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF フィギュア vol.3 シルバ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF フィギュア vol.3 ゼノ",
       "price": "6500",
       "update_date": "2026/10/29",
-      "model_number": "48195"
+      "model_number": "48195",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF フィギュア vol.3 ゼノ",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF フィギュア vol.3 ゼノ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF フィギュア vol.4 ヒソカ",
       "price": "5000",
       "update_date": "2026/10/29",
-      "model_number": "48245"
+      "model_number": "48245",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF フィギュア vol.4 ヒソカ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF フィギュア vol.4 ヒソカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF フィギュア vol.4 イルミ",
       "price": "5000",
       "update_date": "2026/10/29",
-      "model_number": "48245"
+      "model_number": "48245",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF フィギュア vol.4 イルミ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF フィギュア vol.4 イルミ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF フィギュア vol.5 クラピカ",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "48314"
+      "model_number": "48314",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF フィギュア vol.5 クラピカ",
+        "source": "登録済み/sheet1",
+        "score": 0.586,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF フィギュア vol.5 クラピカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF フィギュア vol.5 クロロ",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "48314"
+      "model_number": "48314",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF フィギュア vol.5 クロロ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF フィギュア vol.5 クロロ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF× グリードアイランド ×1 ゴン",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "48448"
+      "model_number": "48448",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF×グリードアイランド×1 ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF× グリードアイランド ×1 ゴン",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF× グリードアイランド ×1 ビスケ",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "48448"
+      "model_number": "48448",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF×グリードアイランド×1 ビスケ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF× グリードアイランド ×1 ビスケ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF× グリードアイランド ×2 キルア",
       "price": "6500",
       "update_date": "2026/10/29",
-      "model_number": "48536"
+      "model_number": "48536",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF×グリードアイランド×2 キルア",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF× グリードアイランド ×2 キルア",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER DXF× グリードアイランド ×2 レイザー",
       "price": "16000",
       "update_date": "2026/10/29",
-      "model_number": "48536"
+      "model_number": "48536",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF×グリードアイランド×2 レイザー",
+        "source": "登録済み/sheet1",
+        "score": 0.586,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× DXF× グリードアイランド ×2 レイザー",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Exceed Creative クロロ 鎮魂歌",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "17906"
+      "model_number": "17906",
+      "_check": {
+        "status": "suspect",
+        "ref": "Exc∞d Creative クロロ 鎮魂歌",
+        "source": "登録済み/sheet1",
+        "score": 0.438,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER",
+          "Exceed"
+        ],
+        "missing": [
+          "exc∞d"
+        ],
+        "suggestion": "HUNTER× Exc∞d Creative クロロ 鎮魂歌",
+        "reason": "「HUNTER」「HUNTER」「Exceed」が参照名に見当たりません、同じ単語が重なっています（候補: Exceed→Exc∞d, 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Exceed Creative クロロ 鎮魂歌 (再販)",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "20353"
+      "model_number": "20353",
+      "_check": {
+        "status": "suspect",
+        "ref": "Exc∞d Creative クロロ 鎮魂歌",
+        "source": "登録済み/sheet1",
+        "score": 0.438,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER",
+          "Exceed"
+        ],
+        "missing": [
+          "exc∞d"
+        ],
+        "suggestion": "HUNTER× Exc∞d Creative クロロ 鎮魂歌 (再販)",
+        "reason": "「HUNTER」「HUNTER」「Exceed」が参照名に見当たりません、同じ単語が重なっています（候補: Exceed→Exc∞d, 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER Exceed Creative ヒソカ",
       "price": "700",
       "update_date": "2026/10/29",
-      "model_number": "21100"
+      "model_number": "21100",
+      "_check": {
+        "status": "suspect",
+        "ref": "HUNTER×HUNTER ハンター×ハンター",
+        "source": "ポスト本文",
+        "score": 0.414,
+        "unmatched": [
+          "Exceed",
+          "Creative",
+          "ヒソカ"
+        ],
+        "missing": [
+          "ハンター",
+          "ハンター"
+        ],
+        "suggestion": "HUNTER× Exceed Creative ヒソカ",
+        "reason": "「Exceed」「Creative」「ヒソカ」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー クラピカ",
       "price": "3300",
       "update_date": "2026/10/29",
-      "model_number": "15410"
+      "model_number": "15410",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー クラピカ",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー クラピカ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー クラピカ (再販)",
       "price": "3300",
       "update_date": "2026/10/29",
-      "model_number": "17379"
+      "model_number": "17379",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー クラピカ",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー クラピカ (再販)",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー レオリオ",
       "price": "600",
       "update_date": "2026/10/29",
-      "model_number": "19670"
+      "model_number": "19670",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー レオリオ",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー レオリオ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー クロロ",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "15555"
+      "model_number": "15555",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー クロロ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー クロロ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー クロロ (再販)",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "16415"
+      "model_number": "16415",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー クロロ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー クロロ (再販)",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー フェイタン",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "17064"
+      "model_number": "17064",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー フェイタン",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー フェイタン",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー シャルナーク",
       "price": "2200",
       "update_date": "2026/10/29",
-      "model_number": "17588"
+      "model_number": "17588",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー シャルナーク",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー シャルナーク",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー マチ",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "17931"
+      "model_number": "17931",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー マチ",
+        "source": "登録済み/sheet1",
+        "score": 0.478,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー マチ",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "HUNTER×HUNTER ぬーどるストッパー マチ (再販)",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "20371"
+      "model_number": "20371",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー マチ",
+        "source": "登録済み/sheet1",
+        "score": 0.478,
+        "unmatched": [
+          "HUNTER",
+          "HUNTER"
+        ],
+        "missing": [],
+        "suggestion": "HUNTER× ぬーどるストッパー マチ (再販)",
+        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
+      }
     },
     {
       "name": "幽☆遊☆白書 MAXIMATIC 浦飯幽助",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "2763177"
+      "model_number": "2763177",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.474,
+        "unmatched": [
+          "幽☆遊☆白書",
+          "浦飯幽助"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 浦飯幽助",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "2704639"
+      "model_number": "2704639",
+      "_check": {
+        "status": "suspect",
+        "ref": "暗黒武術会 浦飯幽助",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 桑原和真",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "2711289"
+      "model_number": "2711289",
+      "_check": {
+        "status": "suspect",
+        "ref": "暗黒武術会 桑原和真",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 蔵馬",
       "price": "900",
       "update_date": "2026/10/29",
-      "model_number": "2711288"
+      "model_number": "2711288",
+      "_check": {
+        "status": "suspect",
+        "ref": "暗黒武術会 蔵馬",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 妖狐蔵馬",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "2728489"
+      "model_number": "2728489",
+      "_check": {
+        "status": "suspect",
+        "ref": "暗黒武術会 妖狐蔵馬",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 飛影",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2704642"
+      "model_number": "2704642",
+      "_check": {
+        "status": "suspect",
+        "ref": "暗黒武術会 飛影",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 飛影 黒龍波エフェクト ver.",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "2728505"
+      "model_number": "2728505",
+      "_check": {
+        "status": "suspect",
+        "ref": "暗黒武術会 飛影 黒龍波エフェクト ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.76,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 DXF 浦飯幽助 30th Anniversary",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "2630366"
+      "model_number": "2630366",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF 浦飯幽助 30th Anniversary",
+        "source": "登録済み/sheet1",
+        "score": 0.786,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     },
     {
       "name": "幽☆遊☆白書 DXF 桑原和真 30th Anniversary",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "2630367"
+      "model_number": "2630367",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF 桑原和真 30th Anniversary",
+        "source": "登録済み/sheet1",
+        "score": 0.786,
+        "unmatched": [
+          "幽☆遊☆白書"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

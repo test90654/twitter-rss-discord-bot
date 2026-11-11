@@ -8,382 +8,1258 @@
   "ocr_model": "gemini-3.8-flash",
   "parsed_items": [
     {
-      "name": "パレード ぬいぐるみ 寝袋ぬいぐるみ ちいかわ",
+      "name": "寝袋ぬいぐるみ ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "寝袋ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「寝袋ぬいぐるみ ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ 寝袋ぬいぐるみ ハチワレ",
+      "name": "寝袋ぬいぐるみ ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "寝袋ぬいぐるみ ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「寝袋ぬいぐるみ ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ 寝袋ぬいぐるみ うさぎ",
+      "name": "寝袋ぬいぐるみ うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "寝袋ぬいぐるみ うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「寝袋ぬいぐるみ うさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ まじかる BIG ぬいぐるみ ちいかわ",
+      "name": "まじかる BIG ぬいぐるみ ちいかわ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "まじかる BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「まじかる BIG ぬいぐるみ ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ まじかる BIG ぬいぐるみ ハチワレ",
+      "name": "まじかる BIG ぬいぐるみ ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "まじかる BIG ぬいぐるみ ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「まじかる BIG ぬいぐるみ ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ まじかる BIG ぬいぐるみ うさぎ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "まじかる BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "うさぎ"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "まじかる BIG ぬいぐるみ うさぎ",
+        "reason": "「うさぎ」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード ぬいぐるみ まじかる BIG ぬいぐるみ 亜種なモモンガ",
+      "name": "まじかる BIG ぬいぐるみ 亜種なモモンガ",
       "price": "1600",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "まじかる BIG ぬいぐるみ 亜種なモモンガ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「まじかる BIG ぬいぐるみ 亜種なモモンガ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ まじかる BIG ぬいぐるみ 悪いバージョンだ？ モモンガ",
+      "name": "まじかる BIG ぬいぐるみ 悪いバージョンだ？ モモンガ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "まじかる BIG ぬいぐるみ 悪いバージョンだ？ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「まじかる BIG ぬいぐるみ 悪いバージョンだ？ モモンガ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ 悪いバージョンだ BIG ぬいぐるみ ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "悪いバージョンだ"
+        ],
+        "missing": [],
+        "suggestion": "悪いバージョンだ BIG ぬいぐるみ ちいかわ",
+        "reason": "「悪いバージョンだ」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ 悪いバージョンだ BIG ぬいぐるみ ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "まじかる BIG ぬいぐるみ 悪いバージョンだ？ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "ハチワレ"
+        ],
+        "missing": [
+          "まじかる",
+          "モモンガ"
+        ],
+        "suggestion": "悪いバージョンだ BIG ぬいぐるみ ハチワレ",
+        "reason": "「ハチワレ」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ 悪いバージョンだ BIG ぬいぐるみ うさぎ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "まじかる BIG ぬいぐるみ 悪いバージョンだ？ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.842,
+        "unmatched": [
+          "うさぎ"
+        ],
+        "missing": [
+          "まじかる",
+          "モモンガ"
+        ],
+        "suggestion": "悪いバージョンだ BIG ぬいぐるみ うさぎ",
+        "reason": "「うさぎ」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ てんしな BIG ぬいぐるみ ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "てんしな"
+        ],
+        "missing": [],
+        "suggestion": "てんしな BIG ぬいぐるみ ちいかわ",
+        "reason": "「てんしな」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ てんしな BIG ぬいぐるみ ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハチさん BIG ぬいぐるみ ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "てんしな"
+        ],
+        "missing": [
+          "ハチさん"
+        ],
+        "suggestion": "てんしな BIG ぬいぐるみ ハチワレ",
+        "reason": "「てんしな」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ あくまな BIG ぬいぐるみ うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハチさん BIG ぬいぐるみ うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.733,
+        "unmatched": [
+          "あくまな"
+        ],
+        "missing": [
+          "ハチさん"
+        ],
+        "suggestion": "あくまな BIG ぬいぐるみ うさぎ",
+        "reason": "「あくまな」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ あくまな BIG ぬいぐるみ モモンガ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "あくまな"
+        ],
+        "missing": [
+          "パジャマ",
+          "2"
+        ],
+        "suggestion": "あくまな BIG ぬいぐるみ モモンガ",
+        "reason": "「あくまな」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ あくまな BIG ぬいぐるみ くりまんじゅう",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.789,
+        "unmatched": [
+          "あくまな"
+        ],
+        "missing": [],
+        "suggestion": "あくまな BIG ぬいぐるみ くりまんじゅう",
+        "reason": "「あくまな」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード ぬいぐるみ カブトムシ BIG ぬいぐるみ (通常)",
+      "name": "カブトムシ BIG ぬいぐるみ (通常)",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "カブトムシ BIG ぬいぐるみ (通常)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「カブトムシ BIG ぬいぐるみ (通常)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ カブトムシ BIG ぬいぐるみ (ぽちゃぽちゃ顔)",
+      "name": "カブトムシ BIG ぬいぐるみ (ぽちゃぽちゃ顔)",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "カブトムシ BIG ぬいぐるみ (ぽちゃぽちゃ顔)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「カブトムシ BIG ぬいぐるみ (ぽちゃぽちゃ顔)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ 雨の日 BIG ぬいぐるみ ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "雨の日"
+        ],
+        "missing": [],
+        "suggestion": "雨の日 BIG ぬいぐるみ ちいかわ",
+        "reason": "「雨の日」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ 雨の日 BIG ぬいぐるみ ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハチさん BIG ぬいぐるみ ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "雨の日"
+        ],
+        "missing": [
+          "ハチさん"
+        ],
+        "suggestion": "雨の日 BIG ぬいぐるみ ハチワレ",
+        "reason": "「雨の日」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ 雨の日 BIG ぬいぐるみ うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハチさん BIG ぬいぐるみ うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.786,
+        "unmatched": [
+          "雨の日"
+        ],
+        "missing": [
+          "ハチさん"
+        ],
+        "suggestion": "雨の日 BIG ぬいぐるみ うさぎ",
+        "reason": "「雨の日」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード ぬいぐるみ カボチャ BIG ぬいぐるみ うさぎ",
+      "name": "カボチャ BIG ぬいぐるみ うさぎ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "カボチャ BIG ぬいぐるみ うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「カボチャ BIG ぬいぐるみ うさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ 超 BIG ぬいぐるみ ラッコ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.727,
+        "unmatched": [
+          "ラッコ"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "超 BIG ぬいぐるみ ラッコ",
+        "reason": "「ラッコ」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ 超 BIG ぬいぐるみ モモンガ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "パジャマ",
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照名「パジャマ BIG ぬいぐるみ 2 モモンガ」にある「2」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
-      "name": "パレード ぬいぐるみ 超 BIG ぬいぐるみ くりまんじゅう",
+      "name": "超 BIG ぬいぐるみ くりまんじゅう",
       "price": "3500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「超 BIG ぬいぐるみ くりまんじゅう」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ 超 BIG ぬいぐるみ ちいかわ",
+      "name": "超 BIG ぬいぐるみ ちいかわ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「超 BIG ぬいぐるみ ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ 超 BIG ぬいぐるみ スポーツ刈りなハチワレ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.421,
+        "unmatched": [
+          "スポーツ刈りなハチワレ"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "超 BIG ぬいぐるみ スポーツ刈りなハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
-      "name": "パレード ぬいぐるみ 超 BIG ぬいぐるみ 垂れ耳なうさぎ",
+      "name": "超 BIG ぬいぐるみ 垂れ耳なうさぎ",
       "price": "2200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "超 BIG ぬいぐるみ 垂れ耳なうさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「超 BIG ぬいぐるみ 垂れ耳なうさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ パラレルワールド!?BIG ぬいぐるみ ハチワレ?",
+      "name": "パラレルワールド!?BIG ぬいぐるみ ハチワレ?",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "パラレルワールド!? BIG ぬいぐるみ 強くなったハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "強くなったハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「パラレルワールド!? BIG ぬいぐるみ 強くなったハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ パラレルワールド!?BIG ぬいぐるみ 強くなったハチワレ",
+      "name": "パラレルワールド!?BIG ぬいぐるみ 強くなったハチワレ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "パラレルワールド!? BIG ぬいぐるみ 強くなったハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「パラレルワールド!? BIG ぬいぐるみ 強くなったハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ あのこ BIG ぬいぐるみ (2024年) 笑顔",
       "price": "3000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "あのこ BIG ぬいぐるみ 通常",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "2024",
+          "笑顔"
+        ],
+        "missing": [
+          "通常"
+        ],
+        "suggestion": "あのこ BIG ぬいぐるみ (2024年) 笑顔",
+        "reason": "「2024」「笑顔」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ あのこ BIG ぬいぐるみ (2024年) 通常",
       "price": "2200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "あのこ BIG ぬいぐるみ 通常",
+        "source": "登録済み/sheet1",
+        "score": 0.765,
+        "unmatched": [
+          "2024"
+        ],
+        "missing": [],
+        "suggestion": "あのこ BIG ぬいぐるみ (2024年) 通常",
+        "reason": "「2024」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード ぬいぐるみ もぐもぐぬいぐるみ モモンガ (2種共通)",
+      "name": "もぐもぐぬいぐるみ モモンガ (2種共通)",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "もぐもぐぬいぐるみ モモンガ (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「もぐもぐぬいぐるみ モモンガ (2種共通)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード ぬいぐるみ スフィンクスなハチワレ",
+      "name": "スフィンクスなハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "スフィンクスなハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「スフィンクスなハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ①ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "1"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ1ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ①ハチワレ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パジャマ BIG ぬいぐるみ 1 ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ"
+        ],
+        "missing": [
+          "パジャマ",
+          "big"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ1ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ①くりまんじゅう",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "1"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ1くりまんじゅう",
+        "reason": "「ぬいぱれっと」「ミルクいろ」「1」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ②うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パジャマ BIG ぬいぐるみ 2 うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ"
+        ],
+        "missing": [
+          "パジャマ",
+          "big"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ2うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ②モモンガ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ"
+        ],
+        "missing": [
+          "パジャマ",
+          "big"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ2モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ②古本屋",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ 2 ポチタ (涙)",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "古本屋"
+        ],
+        "missing": [
+          "big",
+          "ポチタ"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ2古本屋",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード ぬいぐるみ ぬいぱれっと ミルクいろ ぬいぐるみ②ラッコ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ 2 ポチタ (涙)",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "ラッコ"
+        ],
+        "missing": [
+          "big",
+          "ポチタ"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ ぬいぐるみ2ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット フッサフッサでコーデュロイなパジャマ ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "フッサフッサでコーデュロイなパジャマ"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "フッサフッサでコーデュロイなパジャマ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット フッサフッサでコーデュロイなパジャマ ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "フッサフッサでコーデュロイなパジャマ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "フッサフッサでコーデュロイなパジャマ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット フッサフッサでコーデュロイなパジャマ うさぎ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "フッサフッサでコーデュロイなパジャマ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "フッサフッサでコーデュロイなパジャマ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット①ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "1"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット1ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット①ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "1"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット1ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット①くりまんじゅう",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "1",
+          "くりまんじゅう"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット1くりまんじゅう",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット①シーサー",
       "price": "700",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "1",
+          "シーサー"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット1シーサー",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット②うさぎ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "2",
+          "うさぎ"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット2うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット②モモンガ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "2",
+          "モモンガ"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット2モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット②ラッコ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット2ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと ミルクいろ マスコット②古本屋",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぬいぱれっと",
+          "ミルクいろ",
+          "2",
+          "古本屋"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと ミルクいろ マスコット2古本屋",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット①ちいかわ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "1"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット1ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット①ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "1"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット1ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット①くりまんじゅう",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "1",
+          "くりまんじゅう"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット1くりまんじゅう",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット①シーサー",
       "price": "700",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "1",
+          "シーサー"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット1シーサー",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット②うさぎ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "2",
+          "うさぎ"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット2うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット②モモンガ",
       "price": "1100",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "2",
+          "モモンガ"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット2モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット②ラッコ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット2ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット ぬいぱれっと さくらいろ マスコット②古本屋",
       "price": "1100",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぬいぱれっと",
+          "さくらいろ",
+          "2",
+          "古本屋"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぱれっと さくらいろ マスコット2古本屋",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット お正月マスコット ちいかわ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "お正月マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ちいかわ"
+        ],
+        "missing": [
+          "うさぎ"
+        ],
+        "suggestion": "お正月マスコット ちいかわ",
+        "reason": "「ちいかわ」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード マスコット お正月マスコット ハチワレ",
+      "name": "お正月マスコット ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "お正月マスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「お正月マスコット ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット お正月マスコット うさぎ",
+      "name": "お正月マスコット うさぎ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "お正月マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「お正月マスコット うさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

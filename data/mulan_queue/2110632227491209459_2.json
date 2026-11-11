@@ -11,145 +11,499 @@
       "name": "喜多川海夢 (アニプレックス)",
       "price": "20000",
       "update_date": "2026/10/15",
-      "model_number": "4534530739506"
+      "model_number": "4534530739506",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "アニプレックス"
+        ],
+        "missing": [
+          "ぬーどるストッパー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 水着Ver. (アニプレックス)",
       "price": "17000",
       "update_date": "2026/10/15",
-      "model_number": "4534530757067"
+      "model_number": "4534530757067",
+      "_check": {
+        "status": "suspect",
+        "ref": "喜多川海夢 水着 ver. (スピリテイル)",
+        "source": "登録済み/sheet1",
+        "score": 0.611,
+        "unmatched": [
+          "アニプレックス"
+        ],
+        "missing": [
+          "スピリテイル"
+        ],
+        "suggestion": "",
+        "reason": "「アニプレックス」が参照名に見当たりません"
+      }
     },
     {
       "name": "喜多川海夢 ナイトプールVer. (アニプレックス)",
       "price": "15000",
       "update_date": "2026/10/15",
-      "model_number": "4534530766137"
+      "model_number": "4534530766137",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "ナイトプールVer.",
+          "アニプレックス"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 ベビードールver. (アニプレックス)",
       "price": "40000",
       "update_date": "2026/10/15",
-      "model_number": "4534530794512"
+      "model_number": "4534530794512",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "ベビードールver.",
+          "アニプレックス"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 レースクイーンVer. (アニプレックス)",
       "price": "20000",
       "update_date": "2026/10/15",
-      "model_number": "4534530796066"
+      "model_number": "4534530796066",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.217,
+        "unmatched": [
+          "レースクイーンVer.",
+          "アニプレックス"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 ルームウェアVer. (アニプレックス)",
       "price": "8000",
       "update_date": "2026/10/15",
-      "model_number": "4534530773357"
+      "model_number": "4534530773357",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "ルームウェアVer.",
+          "アニプレックス"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 リズVer. (スピリテイル)",
       "price": "20000",
       "update_date": "2026/10/15",
-      "model_number": "4988611224519"
+      "model_number": "4988611224519",
+      "_check": {
+        "status": "suspect",
+        "ref": "喜多川海夢 水着 ver. (スピリテイル)",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "リズVer."
+        ],
+        "missing": [
+          "水着"
+        ],
+        "suggestion": "",
+        "reason": "「リズVer.」が参照名に見当たりません"
+      }
     },
     {
       "name": "喜多川海夢 水着ver. (スピリテイル)",
       "price": "29000",
       "update_date": "2026/10/15",
-      "model_number": "4988611224977"
+      "model_number": "4988611224977",
+      "_check": {
+        "status": "verified",
+        "ref": "喜多川海夢 水着 ver. (スピリテイル)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「喜多川海夢 水着 ver. (スピリテイル)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 (マックスファクトリー)",
       "price": "20000",
       "update_date": "2026/10/15",
-      "model_number": "4545784043806"
+      "model_number": "4545784043806",
+      "_check": {
+        "status": "verified",
+        "ref": "喜多川海夢 (マックスファクトリー)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「喜多川海夢 (マックスファクトリー)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 プリティメイドVer. (S-FIRE)",
       "price": "20500",
       "update_date": "2026/10/15",
-      "model_number": "4582733435305"
+      "model_number": "4582733435305",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "プリティメイドVer.",
+          "FIRE"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 浴衣Ver. (KADOKAWA)",
       "price": "18000",
       "update_date": "2026/10/15",
-      "model_number": "4942330262450"
+      "model_number": "4942330262450",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.263,
+        "unmatched": [
+          "浴衣Ver.",
+          "KADOKAWA"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 (グッドスマイルカンパニー)",
       "price": "12000",
       "update_date": "2026/10/15",
-      "model_number": "4580590205284"
+      "model_number": "4580590205284",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 0.294,
+        "unmatched": [
+          "グッドスマイルカンパニー"
+        ],
+        "missing": [
+          "ぬーどるストッパー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 リズVer. (アルター)",
       "price": "15000",
       "update_date": "2026/10/15",
-      "model_number": "4560228207224"
+      "model_number": "4560228207224",
+      "_check": {
+        "status": "suspect",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.733,
+        "unmatched": [
+          "アルター"
+        ],
+        "missing": [
+          "most"
+        ],
+        "suggestion": "",
+        "reason": "「アルター」が参照名に見当たりません"
+      }
     },
     {
       "name": "喜多川海夢 (キューズQ)",
       "price": "12000",
       "update_date": "2026/10/15",
-      "model_number": "4560393843197"
+      "model_number": "4560393843197",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "キューズQ"
+        ],
+        "missing": [
+          "ぬーどるストッパー"
+        ],
+        "suggestion": "",
+        "reason": "「キューズQ」が参照名に見当たりません"
+      }
     },
     {
       "name": "喜多川海夢 バニーver. (フリーイング)",
       "price": "40000",
       "update_date": "2026/10/15",
-      "model_number": "4570001512087"
+      "model_number": "4570001512087",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "バニーver.",
+          "フリーイング"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "喜多川海夢 生足バニーver. (フリーイング)",
       "price": "29000",
       "update_date": "2026/10/15",
-      "model_number": "4570001514517"
+      "model_number": "4570001514517",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "生足バニーver.",
+          "フリーイング"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "TENITOL TALL 喜多川海夢 五条新菜の体操服Ver.",
       "price": "11000",
       "update_date": "2026/10/15",
-      "model_number": "4580736407329"
+      "model_number": "4580736407329",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.179,
+        "unmatched": [
+          "TENITOL",
+          "TALL",
+          "五条新菜の体操服Ver."
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ねんどろいどどーる 喜多川海夢",
       "price": "10000",
       "update_date": "2026/10/15",
-      "model_number": "4580590173170"
+      "model_number": "4580590173170",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 0.357,
+        "unmatched": [
+          "ねんどろいどどーる"
+        ],
+        "missing": [
+          "ぬーどるストッパー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ねんどろいどどーる 黒江雫",
       "price": "10000",
       "update_date": "2026/10/15",
-      "model_number": "4580590174160"
+      "model_number": "4580590174160",
+      "_check": {
+        "status": "unknown",
+        "ref": "アニプレックスくじ A賞 黒江雫",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ねんどろいどどーる"
+        ],
+        "missing": [
+          "アニプレックスくじ",
+          "a賞"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ねんどろいど 喜多川海夢",
       "price": "5500",
       "update_date": "2026/10/15",
-      "model_number": "4580590170636 / 4580828663015"
+      "model_number": "4580590170636 / 4580828663015",
+      "_check": {
+        "status": "suspect",
+        "ref": "ねんどろいど フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "喜多川海夢"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "「喜多川海夢」が参照名に見当たりません"
+      }
     },
     {
       "name": "ねんどろいど 喜多川海夢 水着Ver.",
       "price": "5500",
       "update_date": "2026/10/15",
-      "model_number": "4580590191877"
+      "model_number": "4580590191877",
+      "_check": {
+        "status": "suspect",
+        "ref": "喜多川海夢 水着 ver. (スピリテイル)",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "ねんどろいど"
+        ],
+        "missing": [
+          "スピリテイル"
+        ],
+        "suggestion": "",
+        "reason": "「ねんどろいど」が参照名に見当たりません"
+      }
     },
     {
       "name": "ねんどろいど 喜多川海夢 ヌル女グラフィックTシャツVer.",
       "price": "5500",
       "update_date": "2026/10/15",
-      "model_number": "4580590196537"
+      "model_number": "4580590196537",
+      "_check": {
+        "status": "unknown",
+        "ref": "ねんどろいど フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "喜多川海夢",
+          "ヌル女グラフィックTシャツVer."
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ねんどろいど 黒江雫",
       "price": "11000",
       "update_date": "2026/10/15",
-      "model_number": "4580828662216"
+      "model_number": "4580828662216",
+      "_check": {
+        "status": "suspect",
+        "ref": "ねんどろいど フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "黒江雫"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "「黒江雫」が参照名に見当たりません"
+      }
     },
     {
       "name": "ねんどろいど リズ",
       "price": "5800",
       "update_date": "2026/10/15",
-      "model_number": "4580590175037"
+      "model_number": "4580590175037",
+      "_check": {
+        "status": "suspect",
+        "ref": "ねんどろいど フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "リズ"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "「リズ」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

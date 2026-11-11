@@ -63,6 +63,32 @@ def tokens(name):
     return out
 
 
+def _all_words(name):
+    """二重登録の判定用の単語（再販・番号なども区別に使うので除かない）"""
+    out = []
+    for word in _SEP_RE.split(_nfkc(name).lower()):
+        out += [t for t in _DIGIT_EDGE_RE.split(word) if t]
+    return out
+
+
+def same_item_name(a, b):
+    """
+    2つの商品名が表記ゆれ（空白・記号・シリーズ名の書き方）だけの違いで、同じ商品を指しているか。
+    互いの単語がすべて相手の名前に含まれているときだけ同じとみなす。
+    （「ちいかわ」と「ハチワレ」、「(再販)」の有無、「Vol.3」と「Vol.4」は別の商品）
+    """
+    a_flat, b_flat = _SEP_RE.sub("", _nfkc(a).lower()), _SEP_RE.sub("", _nfkc(b).lower())
+    a_words, b_words = _all_words(a), _all_words(b)
+    if not a_words or not b_words:
+        return False
+
+    def covered(words, other_flat, other_words):
+        # 1文字の単語（「B」「1」など）は別の単語の一部に紛れやすいので、単語として一致するときだけ含まれるとみなす
+        return all((w in other_words) if len(w) == 1 else (w in other_flat) for w in words)
+
+    return covered(a_words, b_flat, b_words) and covered(b_words, a_flat, a_words)
+
+
 class Ref:
     __slots__ = ("name", "source", "cmp", "disp", "toks")
 

@@ -12,769 +12,2757 @@
       "name": "Mometria 空条承太郎",
       "price": "2700",
       "update_date": "2026/11/03",
-      "model_number": "2778329"
+      "model_number": "2778329",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria 空条承太郎」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria DIO",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "2778340"
+      "model_number": "2778340",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria DIO」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria ジョセフ・ジョースター",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "2778327"
+      "model_number": "2778327",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria ジョセフ・ジョースター」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria カーズ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2778328"
+      "model_number": "2778328",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria カーズ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria カーズ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria 東方仗助",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "2778341"
+      "model_number": "2778341",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria 東方仗助」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria 吉良吉影",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "2778342"
+      "model_number": "2778342",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria 吉良吉影",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria 吉良吉影」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria ジョルノ・ジョバァーナ",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2778343"
+      "model_number": "2778343",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "ジョルノ",
+          "ジョバァーナ"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Mometria ディオ・ブ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2778344"
+      "model_number": "2778344",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria ディオ・ブランドー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ブランドー"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria ディオ・ブランドー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria 空条徐倫",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2778345"
+      "model_number": "2778345",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "空条徐倫"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "「空条徐倫」が参照名に見当たりません"
+      }
     },
     {
       "name": "Mometria エンリコ・P",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2778346"
+      "model_number": "2778346",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "エンリコ"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "「エンリコ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Mometria ウェザー・リポート",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2834947"
+      "model_number": "2834947",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ウェザー",
+          "リポート"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "「ウェザー」「リポート」が参照名に見当たりません"
+      }
     },
     {
       "name": "Mometria ジャイロ・ツェペリ",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": "2834941"
+      "model_number": "2834941",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria ジャイロ・ツェペリ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria ジャイロ・ツェペリ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLinkMAX ジョニィ・ジョースター",
       "price": "2600",
       "update_date": "2026/11/03",
-      "model_number": "2802765"
+      "model_number": "2802765",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "XrossLinkMAX",
+          "ジョニィ"
+        ],
+        "missing": [
+          "mometria",
+          "ジョセフ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "XrossLinkMAX ジャイロ・ツェペリ",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "1124667"
+      "model_number": "1124667",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジャイロ・ツェペリ",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "XrossLinkMAX"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "石仮面 感知して動く シアーハートアタック",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "110687"
+      "model_number": "110687",
+      "_check": {
+        "status": "suspect",
+        "ref": "感知して動く シアーハートアタック",
+        "source": "登録済み/sheet1",
+        "score": 0.842,
+        "unmatched": [
+          "石仮面"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「石仮面」が参照名に見当たりません"
+      }
     },
     {
       "name": "STEEL BALL RUN A賞 ジョニィ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "ジョニィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN B賞 カーズ",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria カーズ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "B賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN C賞 DIO",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.118,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN D賞 ホット・サマー・ナイツ",
       "price": "500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "ホット",
+          "サマー",
+          "ナイツ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN E賞 ウェカピポ",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.105,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "ウェカピポ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN F賞 ジョルノ・ジョバァーナ",
       "price": "500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "F賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "STEEL BALL ran F賞 ジョルノ・ジョバァーナ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Mometria DIO",
       "price": "2700",
       "update_date": "2026/11/03",
-      "model_number": "2778329"
+      "model_number": "2778329",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria DIO」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria 空条承太郎",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "2778330"
+      "model_number": "2778330",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria 空条承太郎」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria シーザー・A・ツェペリ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2778328"
+      "model_number": "2778328",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria ジャイロ・ツェペリ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "シーザー"
+        ],
+        "missing": [
+          "ジャイロ"
+        ],
+        "suggestion": "",
+        "reason": "「シーザー」が参照名に見当たりません"
+      }
     },
     {
       "name": "Mometria カーズ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2778332"
+      "model_number": "2778332",
+      "_check": {
+        "status": "verified",
+        "ref": "Mometria カーズ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Mometria カーズ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria ディアボロ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2778344"
+      "model_number": "2778344",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "ディアボロ"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "「ディアボロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ジョナサン・ジョースター",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "2834940"
+      "model_number": "2834940",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "ジョナサン",
+          "ジョースター"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista ジョルノ・ジョバァーナ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "39269"
+      "model_number": "39269",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ジョルノ・ジョバァーナ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista 岸辺露伴",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "39949"
+      "model_number": "39949",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 岸辺露伴",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 岸辺露伴」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista DIO",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "82463"
+      "model_number": "82463",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista DIO",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista DIO」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES イギー",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "2562676"
+      "model_number": "2562676",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES イギー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES イギー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES イギー",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "2654557"
+      "model_number": "2654557",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES イギー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES イギー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES イギー vol.2",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2710412"
+      "model_number": "2710412",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES イギー vol.2",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES イギー vol.2」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES イギー vol.3",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2760248"
+      "model_number": "2760248",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES イギー vol.3",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES イギー vol.3」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES イギー vol.4",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2802764"
+      "model_number": "2802764",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES イギー vol.4",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES イギー vol.4」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES イギー 花京院典明",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2834938"
+      "model_number": "2834938",
+      "_check": {
+        "status": "suspect",
+        "ref": "SOFVIMATES イギー",
+        "source": "登録済み/sheet1",
+        "score": 0.722,
+        "unmatched": [
+          "花京院典明"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「花京院典明」が参照名に見当たりません"
+      }
     },
     {
       "name": "CLEAR FIGURE イギー A",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2841134"
+      "model_number": "2841134",
+      "_check": {
+        "status": "unknown",
+        "ref": "めちゃもふぐっと イギー",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "CLEAR",
+          "FIGURE"
+        ],
+        "missing": [
+          "めちゃもふぐっと"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CLEAR FIGURE イギー B",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2841134"
+      "model_number": "2841134",
+      "_check": {
+        "status": "unknown",
+        "ref": "めちゃもふぐっと イギー",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "CLEAR",
+          "FIGURE"
+        ],
+        "missing": [
+          "めちゃもふぐっと"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "めちゃもふくっど イギー",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2729643"
+      "model_number": "2729643",
+      "_check": {
+        "status": "unknown",
+        "ref": "めちゃもふぐっと イギー",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "めちゃもふくっど"
+        ],
+        "missing": [
+          "めちゃもふぐっと"
+        ],
+        "suggestion": "めちゃもふぐっと イギー",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "めちゃもふくっど イギー vol.2",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2760672"
+      "model_number": "2760672",
+      "_check": {
+        "status": "suspect",
+        "ref": "SOFVIMATES イギー vol.2",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "めちゃもふくっど"
+        ],
+        "missing": [
+          "sofvimates"
+        ],
+        "suggestion": "",
+        "reason": "「めちゃもふくっど」が参照名に見当たりません"
+      }
     },
     {
       "name": "めちゃもふくっど イギー vol.3",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2828642"
+      "model_number": "2828642",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.312,
+        "unmatched": [
+          "めちゃもふくっど",
+          "イギー"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAFIARTe 1 ジョルノフルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "38668"
+      "model_number": "38668",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "1",
+          "ジョルノフルカラー"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAFIARTe 2 アバッキオフルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "38750"
+      "model_number": "38750",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.421,
+        "unmatched": [
+          "2",
+          "アバッキオフルカラー"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAFIARTe 3 アバッキオフルカラー",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "38845"
+      "model_number": "38845",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.421,
+        "unmatched": [
+          "3",
+          "アバッキオフルカラー"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAFIARTe 9 パンナコッタ・フーゴ フルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "38916"
+      "model_number": "38916",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAFIArte5 パンナコッタ・フーゴ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.957,
+        "unmatched": [
+          "9"
+        ],
+        "missing": [
+          "mafiarte5"
+        ],
+        "suggestion": "",
+        "reason": "「9」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAFIARTe 7 ディオ・ミスタ フルカラー",
       "price": "2200",
       "update_date": "2026/11/03",
-      "model_number": "39125"
+      "model_number": "39125",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAFIArte7 トリッシュ・ウナ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.7,
+        "unmatched": [
+          "ディオ",
+          "ミスタ"
+        ],
+        "missing": [
+          "トリッシュ",
+          "ウナ"
+        ],
+        "suggestion": "",
+        "reason": "「ディオ」「ミスタ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAFIARTe 4 トリュッシュ・ウナフルカラー",
       "price": "2200",
       "update_date": "2026/11/03",
-      "model_number": "39193"
+      "model_number": "39193",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAFIArte7 トリッシュ・ウナ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.682,
+        "unmatched": [
+          "4",
+          "トリュッシュ"
+        ],
+        "missing": [
+          "mafiarte7",
+          "トリッシュ"
+        ],
+        "suggestion": "MAFIARTe 4 トリッシュ・ウナフルカラー",
+        "reason": "「4」「トリュッシュ」が参照名に見当たりません（候補: トリュッシュ→トリッシュ）"
+      }
     },
     {
       "name": "MAFIARTe 8 ブローノ・ブチャラティ Armivederci フルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "39320"
+      "model_number": "39320",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.371,
+        "unmatched": [
+          "8",
+          "ブローノ",
+          "ブチャラティ",
+          "Armivederci"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fluffy Puffy イギー B",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "82548"
+      "model_number": "82548",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.786,
+        "unmatched": [
+          "イギー"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「イギー」が参照名に見当たりません"
+      }
     },
     {
       "name": "フキフキライフ MI",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "829002"
+      "model_number": "829002",
+      "_check": {
+        "status": "unknown",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "フキフキライフ"
+        ],
+        "missing": [
+          "luminasta",
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "レクイエムの大冒険 イギー",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2854424"
+      "model_number": "2854424",
+      "_check": {
+        "status": "unknown",
+        "ref": "めちゃもふぐっと イギー",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "レクイエムの大冒険"
+        ],
+        "missing": [
+          "めちゃもふぐっと"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "XrosslinkMAX ジョニィ・ジョースター",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "1124665"
+      "model_number": "1124665",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "XrosslinkMAX",
+          "ジョニィ"
+        ],
+        "missing": [
+          "mometria",
+          "ジョセフ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "XrosslinkMAX 感動して動くシーハートアタック",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "68106"
+      "model_number": "68106",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN B 賞 ジャイロ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジャイロ・ツェペリ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN"
+        ],
+        "missing": [
+          "mometria",
+          "ツェペリ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN C 賞 スローダンサー",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Bruno Bucciarati Arrivederci フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "スローダンサー"
+        ],
+        "missing": [
+          "bruno",
+          "bucciarati",
+          "arrivederci",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN D 賞 東方仗助",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN E 賞 天国へ行ったDIO",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Bruno Bucciarati Arrivederci フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "天国へ行ったDIO"
+        ],
+        "missing": [
+          "bruno",
+          "bucciarati",
+          "arrivederci",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN F 賞 ジャイロの鉄球",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Bruno Bucciarati Arrivederci フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "ジャイロの鉄球"
+        ],
+        "missing": [
+          "bruno",
+          "bucciarati",
+          "arrivederci",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS A 賞 ジョナサン・ジョースター",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョナサン・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.367,
+        "unmatched": [
+          "The",
+          "Gathering",
+          "of",
+          "STARS"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS B 賞 ジョセフ・ジョースター",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "The",
+          "Gathering",
+          "of",
+          "STARS"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS C 賞 空条承太郎",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "Gathering",
+          "of",
+          "STARS",
+          "空条承太郎"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS D 賞 東方仗助",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "Gathering",
+          "of",
+          "STARS",
+          "東方仗助"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS E 賞 ジョルノ",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "Gathering",
+          "of",
+          "STARS",
+          "ジョルノ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS F 賞 空条徐倫",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.174,
+        "unmatched": [
+          "The",
+          "Gathering",
+          "of",
+          "STARS"
+        ],
+        "missing": [
+          "f賞"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! A 賞 東方仗助",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! B 賞 クレイジー・ダイヤモンド",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.129,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "クレイジー",
+          "ダイヤモンド"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! C 賞 川尻浩作",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "川尻浩作"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! D 賞 虹村億泰",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "虹村億泰"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! E 賞 噴上裕也",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "噴上裕也"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! F 賞 シーハートアタック",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.138,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "シーハートアタック"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! G 賞 キラークイーン",
       "price": "13000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.148,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "キラークイーン"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! H 賞 トレノトット",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "トレノトット"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! I 賞 矢安宮重清",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH 賞",
+        "source": "登録済み/sheet1",
+        "score": 0.16,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "矢安宮重清"
+        ],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ",
+          "the",
+          "brush"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! J 賞 東方仗助",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD A 賞 ジョナサン・ジョースター",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョナサン・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.478,
+        "unmatched": [
+          "THE",
+          "JOJO",
+          "WORLD"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD B 賞 ジョセフ・ジョースター",
       "price": "6800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "THE",
+          "JOJO",
+          "WORLD"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD C 賞 空条承太郎",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "JOJO",
+          "WORLD",
+          "空条承太郎"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD D 賞 東方仗助",
       "price": "5900",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "JOJO",
+          "WORLD",
+          "東方仗助"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD E 賞 ジョルノ・ジョバァーナ",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "THE",
+          "JOJO",
+          "WORLD"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD F 賞 空条徐倫",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "THE",
+          "JOJO",
+          "WORLD"
+        ],
+        "missing": [
+          "f賞"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE JOJO WORLD G 賞 小泉イギーフィギュア小物入れ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "JOJO",
+          "WORLD",
+          "小泉イギーフィギュア小物入れ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "めちゃぐぶつぐとイギー vol.2",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2760672"
+      "model_number": "2760672",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.312,
+        "unmatched": [
+          "めちゃぐぶつぐとイギー"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "めちゃぐぶつぐとイギー vol.3",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2828642"
+      "model_number": "2828642",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.312,
+        "unmatched": [
+          "めちゃぐぶつぐとイギー"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAFIArte 2 ブチャラティ フルカラー",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "38750"
+      "model_number": "38750",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.65,
+        "unmatched": [
+          "2",
+          "ブチャラティ"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "「2」「ブチャラティ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAFIArte 3 アバッキオ フルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "38845"
+      "model_number": "38845",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.684,
+        "unmatched": [
+          "3",
+          "アバッキオ"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "「3」「アバッキオ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAFIArte 4 ナランチャ フルカラー",
       "price": "2200",
       "update_date": "2026/11/03",
-      "model_number": "38916"
+      "model_number": "38916",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.684,
+        "unmatched": [
+          "4",
+          "ナランチャ"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "「4」「ナランチャ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAFIArte 5 パンナコッタ・フーゴ フルカラー",
       "price": "2200",
       "update_date": "2026/11/03",
-      "model_number": "39043"
+      "model_number": "39043",
+      "_check": {
+        "status": "verified",
+        "ref": "MAFIArte5 パンナコッタ・フーゴ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAFIArte5 パンナコッタ・フーゴ フルカラー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAFIArte 6 グイード・ミスタ フルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "39125"
+      "model_number": "39125",
+      "_check": {
+        "status": "verified",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAFIArte6 グイード・ミスタ フルカラー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAFIArte 7 トリッシュ・ウナ フルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "39193"
+      "model_number": "39193",
+      "_check": {
+        "status": "verified",
+        "ref": "MAFIArte7 トリッシュ・ウナ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAFIArte7 トリッシュ・ウナ フルカラー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAFIArte Bruno Bucciarati Arrivederci フルカラー",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "39420"
+      "model_number": "39420",
+      "_check": {
+        "status": "suspect",
+        "ref": "Bruno Bucciarati Arrivederci フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.795,
+        "unmatched": [
+          "MAFIArte"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「MAFIArte」が参照名に見当たりません"
+      }
     },
     {
       "name": "Fluffy Puffy イギー A",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "82548"
+      "model_number": "82548",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.786,
+        "unmatched": [
+          "イギー"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「イギー」が参照名に見当たりません"
+      }
     },
     {
       "name": "フィギュアライフ！ Mt",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2829002"
+      "model_number": "2829002",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "レクイエムの矢先",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2854424"
+      "model_number": "2854424",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ジョジョの奇妙な冒険 ダイヤモンドは砕けない STAND RUSH! G賞 シアーハートアタック",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジョジョの奇妙な冒険",
+        "source": "ポスト本文",
+        "score": 0.217,
+        "unmatched": [
+          "一番くじ",
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "G賞",
+          "シアーハートアタック"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ジョジョの奇妙な冒険 ダイヤモンドは砕けない STAND RUSH! G賞 ストレイ・キャット",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジョジョの奇妙な冒険",
+        "source": "ポスト本文",
+        "score": 0.227,
+        "unmatched": [
+          "一番くじ",
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "G賞",
+          "ストレイ",
+          "キャット"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ジョジョの奇妙な冒険 ダイヤモンドは砕けない STAND RUSH! G賞 ハーヴェスト",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジョジョの奇妙な冒険",
+        "source": "ポスト本文",
+        "score": 0.238,
+        "unmatched": [
+          "一番くじ",
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "G賞",
+          "ハーヴェスト"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ジョジョの奇妙な冒険 ダイヤモンドは砕けない STAND RUSH! ラストワン賞 岸辺露伴&ヘブンズ・ドアー",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジョジョの奇妙な冒険",
+        "source": "ポスト本文",
+        "score": 0.196,
+        "unmatched": [
+          "一番くじ",
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "ラストワン賞",
+          "岸辺露伴",
+          "ヘブンズ",
+          "ドアー"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD A賞 ジョナサン・ジョースター",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョナサン・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.423,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD B賞 ジョセフ・ジョースター",
       "price": "6800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD",
+          "B賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD C賞 空条承太郎",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD",
+          "C賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD D賞 東方仗助",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.211,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD",
+          "D賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD E賞 ジョルノ・ジョバーナ",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD",
+          "E賞",
+          "ジョバーナ"
+        ],
+        "missing": [
+          "grandista",
+          "ジョバァーナ"
+        ],
+        "suggestion": "THE★JOJO WORLD E賞 ジョルノ・ジョバァーナ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD F賞 空条徐倫",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD ラストワン賞 イギー フィギュア小物入れ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ラストワン賞 イギー フィギュア小物入れ",
+        "source": "登録済み/sheet1",
+        "score": 0.581,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「THE★JOJO」「WORLD」が参照名に見当たりません"
+      }
     },
     {
       "name": "Mometria ジョニィ・ジョースター",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2834940"
+      "model_number": "2834940",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "ジョニィ"
+        ],
+        "missing": [
+          "ジョセフ"
+        ],
+        "suggestion": "",
+        "reason": "「ジョニィ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 東方仗助",
       "price": "5200",
       "update_date": "2026/11/03",
-      "model_number": "38266"
+      "model_number": "38266",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 東方仗助」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAFIARTe 2 ブチャラティフルカラー",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "38750"
+      "model_number": "38750",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "2",
+          "ブチャラティフルカラー"
+        ],
+        "missing": [
+          "mafiarte6",
+          "グイード",
+          "ミスタ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ/キャラクター 石仮面",
       "price": "2600",
       "update_date": "2026/11/03",
-      "model_number": "2802765"
+      "model_number": "2802765",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "キャラクター",
+          "石仮面"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ/キャラクター 感知して動く シアーハートアタック",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "68106"
+      "model_number": "68106",
+      "_check": {
+        "status": "suspect",
+        "ref": "感知して動く シアーハートアタック",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「シリーズ」「キャラクター」が参照名に見当たりません"
+      }
     },
     {
       "name": "STEEL BALL RUN D賞 ルーシー",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "ルーシー"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ラストワン賞 ディエゴ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "2834940"
+      "model_number": "2834940",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "ディエゴ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「ディエゴ」が参照名に見当たりません"
+      }
     },
     {
       "name": "The Gathering of STARS A賞 ジョナサン・ジョースター",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "67974"
+      "model_number": "67974",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョナサン・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.344,
+        "unmatched": [
+          "The",
+          "Gathering",
+          "of",
+          "STARS",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ラストワン賞 ジョニィ&ジャイロ",
       "price": "9800",
       "update_date": "2026/11/03",
-      "model_number": "2710412"
+      "model_number": "2710412",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ジョニィ",
+          "ジャイロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! A賞 東方仗助",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "68055"
+      "model_number": "68055",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! D賞 キラークイーン",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.069,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "キラークイーン"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! E賞 矢安宮重清",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "矢安宮重清"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! F賞 噴上裕也",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "噴上裕也"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! G賞 シアーハートアタック",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "感知して動く シアーハートアタック",
+        "source": "登録済み/sheet1",
+        "score": 0.312,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "G賞"
+        ],
+        "missing": [
+          "感知して動く"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! G賞 ストレイ・キャット",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 0.067,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "ストレイ",
+          "キャット"
+        ],
+        "missing": [
+          "一番くじ",
+          "死滅回游",
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! G賞 ハーヴェスト",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "ハーヴェスト"
+        ],
+        "missing": [
+          "一番くじ",
+          "死滅回游",
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! ラストワン賞 岸辺露伴&ヘブンズ・ドアー",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.162,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "岸辺露伴",
+          "ヘブンズ",
+          "ドアー"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD A賞 ジョナサン・ジョースター",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "67794"
+      "model_number": "67794",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョナサン・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.423,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD B賞 ジョセフ・ジョースター",
       "price": "6800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD",
+          "B賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD C賞 空条承太郎",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD",
+          "C賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD D賞 東方仗助",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.211,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD",
+          "D賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD E賞 ジョルノ・ジョバァーナ",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD",
+          "E賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD F賞 空条徐倫",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE☆JOJO WORLD ラストワン賞 イギー フィギュア小物入れ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ラストワン賞 イギー フィギュア小物入れ",
+        "source": "登録済み/sheet1",
+        "score": 0.581,
+        "unmatched": [
+          "THE☆JOJO",
+          "WORLD"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「THE☆JOJO」「WORLD」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

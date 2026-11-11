@@ -11,295 +11,1200 @@
       "name": "スペクタルバトル E賞 孫悟空＆孫悟飯",
       "price": "14000",
       "update_date": "2026/10/25",
-      "model_number": "68253"
+      "model_number": "68253",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "スペクタルバトル",
+          "孫悟空",
+          "孫悟飯"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スペクタルバトル A賞 孫悟空",
       "price": "5000",
       "update_date": "2026/10/25",
-      "model_number": "68253"
+      "model_number": "68253",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "スペクタルバトル",
+          "孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スペクタルバトル B賞 孫悟飯",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "68253"
+      "model_number": "68253",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "スペクタルバトル",
+          "孫悟飯"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スペクタルバトル C賞 ピッコロ",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "68253"
+      "model_number": "68253",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "スペクタルバトル",
+          "ピッコロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スペクタルバトル D賞 ベジータ",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "68253"
+      "model_number": "68253",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "スペクタルバトル",
+          "D賞"
+        ],
+        "missing": [
+          "grandista",
+          "魔人ベジータ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スペクタルバトル ラストワン賞 超サイヤ人孫悟空",
       "price": "6800",
       "update_date": "2026/10/25",
-      "model_number": "68253"
+      "model_number": "68253",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "スペクタルバトル",
+          "超サイヤ人孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fantastic Adventure 2 A賞 孫悟空＆クリリン",
       "price": "4500",
       "update_date": "2026/10/25",
-      "model_number": "67919"
+      "model_number": "67919",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.036,
+        "unmatched": [
+          "Fantastic",
+          "Adventure",
+          "A賞",
+          "孫悟空",
+          "クリリン"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fantastic Adventure 2 B賞 孫悟飯の急襲",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "67919"
+      "model_number": "67919",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.037,
+        "unmatched": [
+          "Fantastic",
+          "Adventure",
+          "B賞",
+          "孫悟飯の急襲"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fantastic Adventure 2 ラストワン賞 孫悟空＆チチ",
       "price": "12000",
       "update_date": "2026/10/25",
-      "model_number": "67919"
+      "model_number": "67919",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "Fantastic",
+          "Adventure",
+          "2",
+          "孫悟空",
+          "チチ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BATTLE OF THE SUPER SAIYAN A賞 超サイヤ人3 孫悟空",
       "price": "18000",
       "update_date": "2026/10/25",
-      "model_number": "67933"
+      "model_number": "67933",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.394,
+        "unmatched": [
+          "BATTLE",
+          "THE",
+          "SUPER",
+          "A賞",
+          "3",
+          "孫悟空"
+        ],
+        "missing": [
+          "blood",
+          "saiyans",
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "BATTLE OF THE SUPER SAIYAN A賞 超サイヤ人3 人孫悟",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BATTLE OF THE SUPER SAIYAN C賞 フリーザ",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "67933"
+      "model_number": "67933",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.107,
+        "unmatched": [
+          "BATTLE",
+          "OF",
+          "SUPER",
+          "SAIYAN",
+          "C賞",
+          "フリーザ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BATTLE OF THE SUPER SAIYAN D賞 孫悟天＆トランクス",
       "price": "7500",
       "update_date": "2026/10/25",
-      "model_number": "67933"
+      "model_number": "67933",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.094,
+        "unmatched": [
+          "BATTLE",
+          "OF",
+          "SUPER",
+          "SAIYAN",
+          "D賞",
+          "孫悟天",
+          "トランクス"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BATTLE OF THE SUPER SAIYAN E賞 バビティ",
       "price": "3800",
       "update_date": "2026/10/25",
-      "model_number": "67933"
+      "model_number": "67933",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.107,
+        "unmatched": [
+          "BATTLE",
+          "OF",
+          "SUPER",
+          "SAIYAN",
+          "E賞",
+          "バビティ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 A賞 孫悟空",
       "price": "4200",
       "update_date": "2026/10/25",
-      "model_number": "67901"
+      "model_number": "67901",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 B賞 ベジータ",
       "price": "3000",
       "update_date": "2026/10/25",
-      "model_number": "67901"
+      "model_number": "67901",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "ベジータ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 C賞 孫悟飯",
       "price": "4000",
       "update_date": "2026/10/25",
-      "model_number": "67901"
+      "model_number": "67901",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "孫悟飯"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 D賞 ピッコロ",
       "price": "2500",
       "update_date": "2026/10/25",
-      "model_number": "67901"
+      "model_number": "67901",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "ピッコロ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 E賞 クリリン",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "67901"
+      "model_number": "67901",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "クリリン"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 ラストワン賞 神龍",
       "price": "5000",
       "update_date": "2026/10/25",
-      "model_number": "67901"
+      "model_number": "67901",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.24,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "神龍"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SNAP COLLECTION2 A賞 孫悟空＆チチ",
       "price": "4800",
       "update_date": "2026/10/25",
-      "model_number": "67866"
+      "model_number": "67866",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "SNAP",
+          "COLLECTION2",
+          "孫悟空",
+          "チチ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SNAP COLLECTION2 B賞 孫悟空",
       "price": "2200",
       "update_date": "2026/10/25",
-      "model_number": "67866"
+      "model_number": "67866",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "SNAP",
+          "COLLECTION2",
+          "孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SNAP COLLECTION2 C賞 亀仙人",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "67866"
+      "model_number": "67866",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "SNAP",
+          "COLLECTION2",
+          "亀仙人"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SNAP COLLECTION2 ラストワン賞 孫悟飯＆ビーデル",
       "price": "4500",
       "update_date": "2026/10/25",
-      "model_number": "67866"
+      "model_number": "67866",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "SNAP",
+          "COLLECTION2",
+          "孫悟飯",
+          "ビーデル"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 A賞 巻一 COMICS VIGNETTE",
       "price": "18000",
       "update_date": "2026/10/25",
-      "model_number": "67784"
+      "model_number": "67784",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.057,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "巻一",
+          "COMICS",
+          "VIGNETTE"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGON BALL 40th 〜其之二〜 B賞 巻四十二 COMICS VIGNETTE",
       "price": "9500",
       "update_date": "2026/10/25",
-      "model_number": "67784"
+      "model_number": "67784",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.054,
+        "unmatched": [
+          "DRAGON",
+          "BALL",
+          "40th",
+          "其之二",
+          "巻四十二",
+          "COMICS",
+          "VIGNETTE"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ラストワン賞 超サイヤ人孫悟空",
       "price": "4000",
       "update_date": "2026/10/25",
-      "model_number": "67782"
+      "model_number": "67782",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "超サイヤ人孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ASSEMBLE COLLECTION ラストワン賞 THE GIGANT NAME",
       "price": "22000",
       "update_date": "2026/10/25",
-      "model_number": "67782"
+      "model_number": "67782",
+      "_check": {
+        "status": "unknown",
+        "ref": "Noir Edge Collection 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.27,
+        "unmatched": [
+          "ASSEMBLE",
+          "ラストワン賞",
+          "THE",
+          "GIGANT",
+          "NAME"
+        ],
+        "missing": [
+          "noir",
+          "edge",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DAIMA 第2弾 ラストワン賞 ポルンガ",
       "price": "6500",
       "update_date": "2026/10/25",
-      "model_number": "64721"
+      "model_number": "64721",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "DAIMA",
+          "2",
+          "ポルンガ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット A賞 超サイヤ人3 孫悟空:GT",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.037,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "A賞",
+          "超サイヤ人",
+          "孫悟空",
+          "GT"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット B賞 スーパーベビー2",
       "price": "3600",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.042,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "B賞",
+          "スーパーベビー"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット C賞 超ベジット",
       "price": "2500",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "超ベジット"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット D賞 魔人ブウ:孫悟飯吸収",
       "price": "4500",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "魔人ブウ",
+          "孫悟飯吸収"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット E賞 カカロット",
       "price": "4000",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "カカロット"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット F賞 カカロット",
       "price": "5000",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "カカロット"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS オムニバスアルティメット ラストワン賞 黄金大猿悟空",
       "price": "6000",
       "update_date": "2026/10/25",
-      "model_number": "64655"
+      "model_number": "64655",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "VS",
+          "オムニバスアルティメット",
+          "黄金大猿悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DAIMA ラストワン賞 神龍 Special Color Ver.",
       "price": "18000",
       "update_date": "2026/10/25",
-      "model_number": "64621"
+      "model_number": "64621",
+      "_check": {
+        "status": "unknown",
+        "ref": "ラストワン賞 番犬ガオガオ イギー ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "DAIMA",
+          "神龍",
+          "Special",
+          "Color"
+        ],
+        "missing": [
+          "番犬ガオガオ",
+          "イギー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fantastic Adventure A賞 孫悟空＆ブルマ",
       "price": "18000",
       "update_date": "2026/10/25",
-      "model_number": "64485"
+      "model_number": "64485",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "Fantastic",
+          "Adventure",
+          "孫悟空",
+          "ブルマ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fantastic Adventure B賞 ブルマ ミラー付きフィギュア",
       "price": "3500",
       "update_date": "2026/10/25",
-      "model_number": "64485"
+      "model_number": "64485",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.061,
+        "unmatched": [
+          "Fantastic",
+          "Adventure",
+          "ブルマ",
+          "ミラー付きフィギュア"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fantastic Adventure ラストワン賞 孫悟空",
       "price": "5000",
       "update_date": "2026/10/25",
-      "model_number": "64485"
+      "model_number": "64485",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "Fantastic",
+          "Adventure",
+          "孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGONBALL SNAP COLLECTION A賞 孫悟空",
       "price": "5000",
       "update_date": "2026/10/25",
-      "model_number": "64518"
+      "model_number": "64518",
+      "_check": {
+        "status": "unknown",
+        "ref": "Noir Edge Collection 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "DRAGONBALL",
+          "SNAP",
+          "A賞",
+          "孫悟空"
+        ],
+        "missing": [
+          "noir",
+          "edge",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGONBALL SNAP COLLECTION B賞 孫悟飯",
       "price": "3000",
       "update_date": "2026/10/25",
-      "model_number": "64518"
+      "model_number": "64518",
+      "_check": {
+        "status": "unknown",
+        "ref": "Noir Edge Collection 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "DRAGONBALL",
+          "SNAP",
+          "B賞",
+          "孫悟飯"
+        ],
+        "missing": [
+          "noir",
+          "edge",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGONBALL SNAP COLLECTION C賞 孫悟空 少年期 ver.",
       "price": "3500",
       "update_date": "2026/10/25",
-      "model_number": "64518"
+      "model_number": "64518",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION カタクリ SP ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.389,
+        "unmatched": [
+          "DRAGONBALL",
+          "SNAP",
+          "C賞",
+          "孫悟空",
+          "少年期"
+        ],
+        "missing": [
+          "battle",
+          "record",
+          "カタクリ",
+          "sp"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGONBALL SNAP COLLECTION D賞 ランチ",
       "price": "3400",
       "update_date": "2026/10/25",
-      "model_number": "64518"
+      "model_number": "64518",
+      "_check": {
+        "status": "unknown",
+        "ref": "Noir Edge Collection 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "DRAGONBALL",
+          "SNAP",
+          "D賞",
+          "ランチ"
+        ],
+        "missing": [
+          "noir",
+          "edge",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DRAGONBALL SNAP COLLECTION ラストワン賞 孫悟飯 幼年期 ver.",
       "price": "7500",
       "update_date": "2026/10/25",
-      "model_number": "64518"
+      "model_number": "64518",
+      "_check": {
+        "status": "unknown",
+        "ref": "ラストワン賞 番犬ガオガオ イギー ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "DRAGONBALL",
+          "SNAP",
+          "COLLECTION",
+          "孫悟飯",
+          "幼年期"
+        ],
+        "missing": [
+          "番犬ガオガオ",
+          "イギー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "雲の上の神殿 A賞 孫悟空＆カリン",
       "price": "4500",
       "update_date": "2026/10/25",
-      "model_number": "64457"
+      "model_number": "64457",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "雲の上の神殿",
+          "孫悟空",
+          "カリン"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "雲の上の神殿 B賞 神様",
       "price": "2800",
       "update_date": "2026/10/25",
-      "model_number": "64457"
+      "model_number": "64457",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "雲の上の神殿",
+          "神様"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "雲の上の神殿 C賞 ヤジロベー",
       "price": "2400",
       "update_date": "2026/10/25",
-      "model_number": "64457"
+      "model_number": "64457",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "雲の上の神殿",
+          "ヤジロベー"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "雲の上の神殿 D賞 神龍の模型",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "64457"
+      "model_number": "64457",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "雲の上の神殿",
+          "神龍の模型"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "雲の上の神殿 ラストワン賞 ピッコロ大魔王",
       "price": "8500",
       "update_date": "2026/10/25",
-      "model_number": "64457"
+      "model_number": "64457",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "雲の上の神殿",
+          "ピッコロ大魔王"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

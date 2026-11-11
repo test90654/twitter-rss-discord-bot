@@ -11,313 +11,1157 @@
       "name": "ちいかわだらけくじ A賞 超BIGぬいぐるみ ヤダッ",
       "price": "4500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.391,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "A賞",
+          "ヤダッ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ A賞 超BIGぬいぐるみ ピース",
       "price": "6500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.391,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "A賞",
+          "ピース"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ B賞 なかよしぬいぐるみ",
       "price": "3500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "なかよしぬいぐるみ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ B賞 救出! 着脱ぬいぐるみ",
       "price": "2500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "救出",
+          "着脱ぬいぐるみ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ C賞 ピピーボピボピ",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "ピピーボピボピ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ C賞 目薬",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "目薬"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット ハチワレ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.16,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "D賞",
+          "おともだちマスコット"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット うさぎ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "D賞",
+          "おともだちマスコット"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット モモンガ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.16,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "D賞",
+          "おともだちマスコット"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット くりまんじゅう",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "D賞",
+          "おともだちマスコット"
+        ],
+        "missing": [
+          "big",
+          "ぬいぐるみ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット シーサー",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "おともだちマスコット",
+          "シーサー"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット ラッコ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "D賞",
+          "おともだちマスコット"
+        ],
+        "missing": [
+          "討伐マスコット",
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちいかわだらけくじ D賞 おともだちマスコット 古本屋",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "ちいかわだらけくじ",
+          "おともだちマスコット",
+          "古本屋"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ A賞 超BIG 寄り添いぬいぐるみ",
       "price": "8000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "A賞",
+          "寄り添いぬいぐるみ"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ B賞 抱っこサイズぬいぐるみ",
       "price": "5000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "抱っこサイズぬいぐるみ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ C賞 おかおクッション (ふつうのおかお)",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.067,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "おかおクッション",
+          "ふつうのおかお"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ C賞 おかおクッション (ッバーン!!)",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "おかおクッション",
+          "ッバーン"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ D賞 おかおショルダーバッグ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "おかおショルダーバッグ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (あくび)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.217,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "あくび"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (やったゾ!!)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "やったゾ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (キラキラ)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "キラキラ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (さくら)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.217,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "さくら"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (もぐもぐ)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "もぐもぐ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (オロ…)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "オロ..."
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "褒めろッ モモンガだらけくじ E賞 マスコット (サイッコーに決まってるッ)",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.156,
+        "unmatched": [
+          "褒めろッ",
+          "モモンガだらけくじ",
+          "E賞",
+          "サイッコーに決まってるッ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ A賞 超BIGぬいぐるみ 腕組み",
       "price": "8000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.409,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "A賞",
+          "腕組み"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ A賞 超BIGぬいぐるみ ジャンプ",
       "price": "8000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.391,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "A賞",
+          "ジャンプ"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ B賞 フェイスクッション ウラララ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "フェイスクッション",
+          "ウラララ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ B賞 フェイスクッション 垂れ耳",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "フェイスクッション",
+          "垂れ耳"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ C賞 ぬいぐるみポシェット 罠",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみポシェット"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ C賞 ぬいぐるみポシェット 蔦",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみポシェット"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ D賞 マスコット どんぐりDJ",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "D賞",
+          "どんぐりDJ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ D賞 マスコット ハサミ",
       "price": "3000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "D賞",
+          "ハサミ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ D賞 マスコット カヌレ",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "D賞",
+          "カヌレ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ D賞 マスコット ピザまん",
       "price": "1800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.263,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "D賞",
+          "ピザまん"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ E賞 ぬいぐるみバッジ ヤハ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ウラヤハボズ BIG ぬいぐるみ",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "E賞",
+          "ぬいぐるみバッジ"
+        ],
+        "missing": [
+          "ウラヤハボズ",
+          "big"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ E賞 ぬいぐるみバッジ ぐー",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみバッジ",
+          "ぐー"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ E賞 ぬいぐるみバッジ ハァ!?",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみバッジ",
+          "ハァ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ E賞 ぬいぐるみバッジ フーツ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみバッジ",
+          "フーツ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ E賞 ぬいぐるみバッジ ほかッ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみバッジ",
+          "ほかッ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うさぎだらけくじ E賞 ぬいぐるみバッジ トンカチ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "うさぎだらけくじ",
+          "ぬいぐるみバッジ",
+          "トンカチ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ A賞 ドデカたぬき ちいかわ",
       "price": "4000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "A賞",
+          "ドデカたぬき"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ A賞 ドデカたぬき ハチワレ",
       "price": "4500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "A賞",
+          "ドデカたぬき"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ A賞 ドデカたぬき うさぎ",
       "price": "7000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "A賞",
+          "ドデカたぬき"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ B賞 たぬきぬいぐるみ S ちいかわ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "B賞",
+          "たぬきぬいぐるみ"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ B賞 たぬきぬいぐるみ S ハチワレ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "B賞",
+          "たぬきぬいぐるみ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ B賞 たぬきぬいぐるみ S うさぎ",
       "price": "2500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "B賞",
+          "たぬきぬいぐるみ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ C賞 マスコット ちいかわ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.474,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "C賞"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ C賞 マスコット ハチワレ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.474,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "C賞"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ C賞 マスコット うさぎ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "C賞",
+          "うさぎ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ C賞 マスコット モモンガ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.263,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "C賞",
+          "モモンガ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "たぬきだもんくじ C賞 マスコット くりまんじゅう",
       "price": "1800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "たぬきだもんくじ",
+          "C賞",
+          "くりまんじゅう"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

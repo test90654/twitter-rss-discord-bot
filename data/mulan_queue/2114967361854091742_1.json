@@ -12,7 +12,20 @@
       "name": "ぬーどるストッパーフィギュア シンデレラ",
       "price": "2200",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー シンデレラ",
+        "source": "ポスト本文",
+        "score": 0.263,
+        "unmatched": [
+          "ぬーどるストッパーフィギュア"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

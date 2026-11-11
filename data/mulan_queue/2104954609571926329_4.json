@@ -9,139 +9,458 @@
       "name": "フリュー プライズ ぬーどるストッパー ウラヤハボウズ",
       "price": "1000",
       "update_date": "2023-09-30",
-      "model_number": "19584"
+      "model_number": "19584",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "ウラヤハボウズ"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "ぬーどるストッパー ウラヤハボウズ",
+        "reason": "「ウラヤハボウズ」が参照名に見当たりません"
+      }
     },
     {
       "name": "フリュー プライズ ぬいぐるみリュック ちいかわ",
       "price": "2000",
       "update_date": "2023-09-30",
-      "model_number": "13598"
+      "model_number": "13598",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.308,
+        "unmatched": [
+          "ぬいぐるみリュック"
+        ],
+        "missing": [],
+        "suggestion": "ぬいぐるみリュック ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ ぬいぐるみリュック ハチワレ",
       "price": "2000",
       "update_date": "2023-09-30",
-      "model_number": "14421"
+      "model_number": "14421",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "ぬいぐるみリュック"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "ぬいぐるみリュック ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ ぬいぐるみリュック うさぎ",
       "price": "2000",
       "update_date": "2023-09-30",
-      "model_number": "15063"
+      "model_number": "15063",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぬいぐるみリュック"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "ぬいぐるみリュック うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ だららんBIGぬいぐるみ ちいかわ",
       "price": "1100",
       "update_date": "2023-09-30",
-      "model_number": "15070"
+      "model_number": "15070",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.25,
+        "unmatched": [
+          "だららんBIGぬいぐるみ"
+        ],
+        "missing": [],
+        "suggestion": "だららんBIGぬいぐるみ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ だららんBIGぬいぐるみ ハチワレ",
       "price": "1200",
       "update_date": "2023-09-30",
-      "model_number": "15130"
+      "model_number": "15130",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "だららんBIGぬいぐるみ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "だららんBIGぬいぐるみ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ だららんBIGぬいぐるみ うさぎ",
       "price": "1200",
       "update_date": "2023-09-30",
-      "model_number": "15151"
+      "model_number": "15151",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "だららんBIGぬいぐるみ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "だららんBIGぬいぐるみ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ だららんBIGぬいぐるみ モモンガ",
       "price": "1200",
       "update_date": "2023-09-30",
-      "model_number": "17320"
+      "model_number": "17320",
+      "_check": {
+        "status": "unknown",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "だららんBIGぬいぐるみ"
+        ],
+        "missing": [
+          "パジャマ",
+          "2"
+        ],
+        "suggestion": "だららんBIGぬいぐるみ モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ おしりふりふりBIGぬいぐるみ うさぎ",
       "price": "1000",
       "update_date": "2023-09-30",
-      "model_number": "16928"
+      "model_number": "16928",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "おしりふりふりBIGぬいぐるみ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "おしりふりふりBIGぬいぐるみ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ フンフリモモンガBIGぬいぐるみ",
       "price": "1000",
       "update_date": "2023-09-30",
-      "model_number": "16926"
+      "model_number": "16926",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 超BIGぬいぐるみ うさぎ～ヤハ～",
       "price": "2500",
       "update_date": "2023-09-30",
-      "model_number": "14633"
+      "model_number": "14633",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ 垂れ耳なうさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.857,
+        "unmatched": [
+          "ヤハ"
+        ],
+        "missing": [
+          "垂れ耳なうさぎ"
+        ],
+        "suggestion": "超BIGぬいぐるみ うさぎ~ヤハ~",
+        "reason": "「ヤハ」が参照名に見当たりません"
+      }
     },
     {
       "name": "フリュー プライズ 超BIG さすまた ちいかわ",
       "price": "2000",
       "update_date": "2023-09-30",
-      "model_number": "17459"
+      "model_number": "17459",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "さすまた"
+        ],
+        "missing": [
+          "ぬいぐるみ"
+        ],
+        "suggestion": "超BIG さすまた ちいかわ",
+        "reason": "「さすまた」が参照名に見当たりません"
+      }
     },
     {
       "name": "フリュー プライズ 超BIG さすまた ハチワレ",
       "price": "2000",
       "update_date": "2023-09-30",
-      "model_number": "17459"
+      "model_number": "17459",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "超BIG",
+          "さすまた"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "超BIG さすまた ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 浴衣ぬいぐるみ ちいかわ",
       "price": "800",
       "update_date": "2023-09-30",
-      "model_number": "15131"
+      "model_number": "15131",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.364,
+        "unmatched": [
+          "浴衣ぬいぐるみ"
+        ],
+        "missing": [],
+        "suggestion": "浴衣ぬいぐるみ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 浴衣ぬいぐるみ ハチワレ",
       "price": "800",
       "update_date": "2023-09-30",
-      "model_number": "15131"
+      "model_number": "15131",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.364,
+        "unmatched": [
+          "浴衣ぬいぐるみ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "浴衣ぬいぐるみ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 浴衣ぬいぐるみ うさぎ",
       "price": "800",
       "update_date": "2023-09-30",
-      "model_number": "15131"
+      "model_number": "15131",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "浴衣ぬいぐるみ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "浴衣ぬいぐるみ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 泣いちゃったぬいぐるみ ちいかわ",
       "price": "700",
       "update_date": "2023-09-30",
-      "model_number": "17327"
+      "model_number": "17327",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.267,
+        "unmatched": [
+          "泣いちゃったぬいぐるみ"
+        ],
+        "missing": [],
+        "suggestion": "泣いちゃったぬいぐるみ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 泣いちゃったぬいぐるみ ハチワレ",
       "price": "800",
       "update_date": "2023-09-30",
-      "model_number": "17327"
+      "model_number": "17327",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "泣いちゃったぬいぐるみ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "泣いちゃったぬいぐるみ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ 泣いちゃったぬいぐるみ うさぎ",
       "price": "1000",
       "update_date": "2023-09-30",
-      "model_number": "17327"
+      "model_number": "17327",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "泣いちゃったぬいぐるみ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "泣いちゃったぬいぐるみ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ どんぐり帽子マスコット うさぎ",
       "price": "800",
       "update_date": "2023-09-30",
-      "model_number": "15329"
+      "model_number": "15329",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "どんぐり帽子マスコット"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "どんぐり帽子マスコット うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ ちいかわがいっぱいマスコット (3種共通)",
       "price": "800",
       "update_date": "2023-09-30",
-      "model_number": "14420"
+      "model_number": "14420",
+      "_check": {
+        "status": "unknown",
+        "ref": "シナモン (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ちいかわがいっぱいマスコット",
+          "3"
+        ],
+        "missing": [
+          "シナモン",
+          "2"
+        ],
+        "suggestion": "ちいかわがいっぱいマスコット (3種共通)",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ いろんな顔つきちいかわマスコット (3種共通)",
       "price": "500",
       "update_date": "2023-09-30",
-      "model_number": "16988"
+      "model_number": "16988",
+      "_check": {
+        "status": "unknown",
+        "ref": "シナモン (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "いろんな顔つきちいかわマスコット",
+          "3"
+        ],
+        "missing": [
+          "シナモン",
+          "2"
+        ],
+        "suggestion": "いろんな顔つきちいかわマスコット (3種共通)",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリュー プライズ うさぎがいっぱいマスコット (3種共通)",
       "price": "1000",
       "update_date": "2023-09-30",
-      "model_number": "15059"
+      "model_number": "15059",
+      "_check": {
+        "status": "unknown",
+        "ref": "シナモン (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "うさぎがいっぱいマスコット",
+          "3"
+        ],
+        "missing": [
+          "シナモン",
+          "2"
+        ],
+        "suggestion": "うさぎがいっぱいマスコット (3種共通)",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

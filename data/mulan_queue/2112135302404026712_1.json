@@ -12,7 +12,22 @@
       "name": "初音ミク T-most",
       "price": "1600",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "初音ミク　T-most　フィギュア",
+        "source": "ポスト本文",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "フィギュア"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「初音ミク　T-most　フィギュア」（ポスト本文）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

@@ -12,463 +12,1606 @@
       "name": "THEORAMA SOUL ゾロ",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": "2844572"
+      "model_number": "2844572",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "THEORAMA",
+          "SOUL"
+        ],
+        "missing": [
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THEORAMA SOUL シャンクス",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": "2828454"
+      "model_number": "2828454",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.294,
+        "unmatched": [
+          "THEORAMA",
+          "SOUL"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAXIMATIC PLUS ルフィ I",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2800213"
+      "model_number": "2800213",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC PLUS ルフィ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC PLUS ルフィ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC PLUS ルフィ II",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2809579"
+      "model_number": "2809579",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC PLUS ルフィ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC PLUS ルフィ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATICPLUS ゾロ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2816483"
+      "model_number": "2816483",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC PLUS 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.867,
+        "unmatched": [
+          "ゾロ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ゾロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATICPLUS サンジ",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2824661"
+      "model_number": "2824661",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC PLUS 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "サンジ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「サンジ」が参照名に見当たりません"
+      }
     },
     {
       "name": "ROMANCE DAWN ルフィ vol.1",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2816413"
+      "model_number": "2816413",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "ROMANCE",
+          "DAWN",
+          "vol.1"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista ギア 5 ルフィ III",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2834503"
+      "model_number": "2834503",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ギア",
+          "5",
+          "III"
+        ],
+        "missing": [
+          "2024"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ルフィ (2024 年 )",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2723174"
+      "model_number": "2723174",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ルフィ (2024年)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ゾロ (2024 年 )",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2723175"
+      "model_number": "2723175",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ゾロ（2024年版）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ゾロ（2024年版）」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ゾロ II (2026 年 )",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "2814781"
+      "model_number": "2814781",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ゾロ II（2026年版）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ゾロ II（2026年版）」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista エース (2025 年 )",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2774191"
+      "model_number": "2774191",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista カカシ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "エース"
+        ],
+        "missing": [
+          "カカシ"
+        ],
+        "suggestion": "",
+        "reason": "「エース」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ロー (2024 年 )",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2723176"
+      "model_number": "2723176",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 0.867,
+        "unmatched": [
+          "ロー"
+        ],
+        "missing": [
+          "ルフィ"
+        ],
+        "suggestion": "",
+        "reason": "「ロー」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista シャンクス II",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2834505"
+      "model_number": "2834505",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "ROMANCE DAWN ルフィ vol.2",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2816414"
+      "model_number": "2816414",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.263,
+        "unmatched": [
+          "ROMANCE",
+          "DAWN",
+          "ルフィ"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CROSS POSING ルフィ",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2830161"
+      "model_number": "2830161",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "CROSS",
+          "POSING"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CROSS POSING エネル",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2830162"
+      "model_number": "2830162",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MANHOOD ロジャー SP ver.",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": "2639635"
+      "model_number": "2639635",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "MANHOOD",
+          "ロジャー",
+          "SP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MANHOOD ロジャー SP ver. ( 再販 )",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": "2779360"
+      "model_number": "2779360",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "MANHOOD",
+          "ロジャー",
+          "SP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MANHOOD エドワード SP ver.",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2639635"
+      "model_number": "2639635",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "MANHOOD",
+          "エドワード",
+          "SP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MANHOOD エドワード SP ver. ( 再販 )",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2779360"
+      "model_number": "2779360",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "MANHOOD",
+          "エドワード",
+          "SP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ギア 5 ルフィ vol.1",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2728303"
+      "model_number": "2728303",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "vol.1"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "フィグライフ!ギア 5 フィグ vol.1",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ギア 5 ルフィ vol.1 ( 再販 )",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2827823"
+      "model_number": "2827823",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "vol.1"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "フィグライフ!ギア 5 フィグ vol.1 ( 再販 )",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ギア 5 ルフィ vol.2",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2728269"
+      "model_number": "2728269",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "vol.2"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "フィグライフ!ギア 5 フィグ vol.2",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ギア 5 ルフィ vol.2 ( 再販 )",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2827823"
+      "model_number": "2827823",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "vol.2"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "フィグライフ!ギア 5 フィグ vol.2 ( 再販 )",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ギア 5 ルフィ vol.3",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2728304"
+      "model_number": "2728304",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "vol.3"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "フィグライフ!ギア 5 フィグ vol.3",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ギア 5 ルフィ vol.5",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2774197"
+      "model_number": "2774197",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "vol.5"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "フィグライフ!ギア 5 フィグ vol.5",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！海賊狩りのゾロ",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2746725"
+      "model_number": "2746725",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.462,
+        "unmatched": [
+          "海賊狩りのゾロ"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグライフ！ユースタス・キッド",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2761767"
+      "model_number": "2761767",
+      "_check": {
+        "status": "unknown",
+        "ref": "フィグライフ! 火影岩",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "ユースタス",
+          "キッド"
+        ],
+        "missing": [
+          "火影岩"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GRANDLINE JOURNEY ナミ SPECIAL",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2650589"
+      "model_number": "2650589",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 0.28,
+        "unmatched": [
+          "GRANDLINE",
+          "JOURNEY",
+          "ナミ"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "ガープ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GRANDLINE JOURNEY ハンコック SPECIAL",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2650589"
+      "model_number": "2650589",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "GRANDLINE",
+          "JOURNEY",
+          "ハンコック"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "ガープ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GLITTER& ～ ハンコック II",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2740074"
+      "model_number": "2740074",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ハンコック",
+          "II"
+        ],
+        "missing": [
+          "glamours",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「ハンコック」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "GLITTER& ～ ナミ EGGHEAD",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2752435"
+      "model_number": "2752435",
+      "_check": {
+        "status": "unknown",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.438,
+        "unmatched": [
+          "ナミ",
+          "EGGHEAD"
+        ],
+        "missing": [
+          "glamours",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GLITTER& ～ ナミ SUMMER STYLE",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2816418"
+      "model_number": "2816418",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS ナミ SUMMER STYLE",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "glamours"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「GLITTER&GLAMOURS ナミ SUMMER STYLE」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER& ～ ロビン EGGHEAD",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2752436"
+      "model_number": "2752436",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ロビン ver.EGGHEAD",
+        "source": "登録済み/sheet1",
+        "score": 0.588,
+        "unmatched": [
+          "GLITTER"
+        ],
+        "missing": [
+          "the",
+          "出航",
+          "ver.egghead"
+        ],
+        "suggestion": "",
+        "reason": "「GLITTER」が参照名に見当たりません"
+      }
     },
     {
       "name": "GLITTER& ～ ロビン SUMMER STYLE",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2816419"
+      "model_number": "2816419",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS ナミ SUMMER STYLE",
+        "source": "登録済み/sheet1",
+        "score": 0.857,
+        "unmatched": [
+          "ロビン"
+        ],
+        "missing": [
+          "glamours",
+          "ナミ"
+        ],
+        "suggestion": "",
+        "reason": "「ロビン」が参照名に見当たりません"
+      }
     },
     {
       "name": "野郎ども宴だ!! ルフィ SP ver.",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2835307"
+      "model_number": "2835307",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "野郎ども宴だ",
+          "SP",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fluffy Puffy チョッパー vol.1 A",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2785113"
+      "model_number": "2785113",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.524,
+        "unmatched": [
+          "チョッパー",
+          "vol.1"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「チョッパー」「vol.1」が参照名に見当たりません"
+      }
     },
     {
       "name": "ルフィ ( 2024 年 )",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2723174"
+      "model_number": "2723174",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ゾロ ( 2024 年 )",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2723175"
+      "model_number": "2723175",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ゾロ（2024年版）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista",
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ゾロ II ( 2026 年 )",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "2814781"
+      "model_number": "2814781",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ゾロ II（2026年版）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista",
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "参照名「Grandista ゾロ II（2026年版）」と比べて商品名に足りない部分が多いので、別の商品の可能性があります"
+      }
     },
     {
       "name": "エース ( 2025 年 )",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2774191"
+      "model_number": "2774191",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギア エース",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "2025"
+        ],
+        "missing": [
+          "the",
+          "出航",
+          "ロギア"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロー ( 2024 年 )",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2723176"
+      "model_number": "2723176",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー 桜ミク 2024",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ロー"
+        ],
+        "missing": [
+          "ぬーどるストッパー",
+          "桜ミク"
+        ],
+        "suggestion": "",
+        "reason": "「ロー」が参照名に見当たりません"
+      }
     },
     {
       "name": "シャンクス II",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2834505"
+      "model_number": "2834505",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "エドワード・ニューゲート",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2762801"
+      "model_number": "2762801",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista エドワード・ニューゲート",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista エドワード・ニューゲート」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ハンコック",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2774190"
+      "model_number": "2774190",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ティーチ",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2834504"
+      "model_number": "2834504",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "KING OF ARTIST ルフィ エルバフ",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2816421"
+      "model_number": "2816421",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.632,
+        "unmatched": [
+          "ルフィ",
+          "エルバフ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィ」「エルバフ」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST バウンドマン SP ver.II",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2836084"
+      "model_number": "2836084",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST バウンドマン SP ver.II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST バウンドマン SP ver.II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST スネイクマン SP ver.II",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2836084"
+      "model_number": "2836084",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST スネイクマン SP ver.II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST スネイクマン SP ver.II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ルフィ ギア 5 II",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2729190"
+      "model_number": "2729190",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST ロー II",
+        "source": "登録済み/sheet1",
+        "score": 0.7,
+        "unmatched": [
+          "ルフィ",
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "ロー"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィ」「ギア」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST ルフィ ギア 5 II SP",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2836086"
+      "model_number": "2836086",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST ゾロ ワノ国 II SP",
+        "source": "登録済み/sheet1",
+        "score": 0.727,
+        "unmatched": [
+          "ルフィ",
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "ゾロ",
+          "ワノ国"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィ」「ギア」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST ギア 5 ルフィ III",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2775303"
+      "model_number": "2775303",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ",
+          "III"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「ルフィ」「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST ルフィ ワノ国 II SPECIAL",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2800814"
+      "model_number": "2800814",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST ゾロ ワノ国 II SP",
+        "source": "登録済み/sheet1",
+        "score": 0.63,
+        "unmatched": [
+          "ルフィ",
+          "SPECIAL"
+        ],
+        "missing": [
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィ」「SPECIAL」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST ゾロ ワノ国 II SP",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2827458"
+      "model_number": "2827458",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST ゾロ ワノ国 II SP",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST ゾロ ワノ国 II SP」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST サンジ ワノ国 SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2827458"
+      "model_number": "2827458",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST サンジ ワノ国 SP",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST サンジ ワノ国 SP」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ゴール・D・ロジャー SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2748105"
+      "model_number": "2748105",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "ゴール",
+          "ロジャー",
+          "SP"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ゴール」「ロジャー」「SP」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST ゴール・D・ロジャー SP ( 再販 )",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2810660"
+      "model_number": "2810660",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "ゴール",
+          "ロジャー",
+          "SP"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ゴール」「ロジャー」「SP」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ SPECIAL ルフィ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2775305"
+      "model_number": "2775305",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 0.824,
+        "unmatched": [
+          "ルフィ"
+        ],
+        "missing": [
+          "ガープ"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィ」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ SPECIAL エース",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2775304"
+      "model_number": "2775304",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 0.824,
+        "unmatched": [
+          "エース"
+        ],
+        "missing": [
+          "ガープ"
+        ],
+        "suggestion": "",
+        "reason": "「エース」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ EXTRA+ ハンコック ( サロメ付 )",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2731343"
+      "model_number": "2731343",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ EXTRA クロコダイル",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "ハンコック",
+          "サロメ付"
+        ],
+        "missing": [
+          "クロコダイル"
+        ],
+        "suggestion": "",
+        "reason": "「ハンコック」「サロメ付」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ EXTRA ハンコック",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2694511"
+      "model_number": "2694511",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ EXTRA クロコダイル",
+        "source": "登録済み/sheet1",
+        "score": 0.706,
+        "unmatched": [
+          "ハンコック"
+        ],
+        "missing": [
+          "クロコダイル"
+        ],
+        "suggestion": "",
+        "reason": "「ハンコック」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ エッグヘッド ゾロ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2704312"
+      "model_number": "2704312",
+      "_check": {
+        "status": "verified",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「DXFシリーズ エッグヘッド ゾロ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "DXF シリーズ エッグヘッド ニコ・ロビン",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2694521"
+      "model_number": "2694521",
+      "_check": {
+        "status": "verified",
+        "ref": "DXFシリーズ エッグヘッド ニコ・ロビン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「DXFシリーズ エッグヘッド ニコ・ロビン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "DXF シリーズ エッグヘッド チョッパー",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2694518"
+      "model_number": "2694518",
+      "_check": {
+        "status": "verified",
+        "ref": "DXFシリーズ エッグヘッド チョッパー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「DXFシリーズ エッグヘッド チョッパー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "DXF シリーズ ワノ国 ルフィ 浴衣 ver.",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2659006"
+      "model_number": "2659006",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.368,
+        "unmatched": [
+          "ワノ国",
+          "ルフィ",
+          "浴衣",
+          "ver."
+        ],
+        "missing": [
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Fluffy Puffy チョッパー vol.1 B",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2785113"
+      "model_number": "2785113",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.524,
+        "unmatched": [
+          "チョッパー",
+          "vol.1"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「チョッパー」「vol.1」が参照名に見当たりません"
+      }
     },
     {
       "name": "サウザンド・サニー号 リモコンカー",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2870003"
+      "model_number": "2870003",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "めちゃながイム様ぬいぐるみ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "2711165"
+      "model_number": "2711165",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista ギア5 ルフィ",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2748104"
+      "model_number": "2748104",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "2024"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ギア5 ルフィ II",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2774192"
+      "model_number": "2774192",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 0.706,
+        "unmatched": [
+          "ギア",
+          "5",
+          "II"
+        ],
+        "missing": [
+          "2024"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ ワノ国 ゾロ 浴衣 ver.",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "2659007"
+      "model_number": "2659007",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ワノ国",
+          "浴衣",
+          "ver."
+        ],
+        "missing": [
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "「ワノ国」「浴衣」「ver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ ワノ国 サンジ 浴衣 ver.",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2659008"
+      "model_number": "2659008",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF THE GRANDLINE SERIES ワノ国 ワノ国 サンジ 浴衣 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.789,
+        "unmatched": [
+          "シリーズ"
+        ],
+        "missing": [
+          "the",
+          "grandline",
+          "series"
+        ],
+        "suggestion": "",
+        "reason": "「シリーズ」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ MEN ワノ国 vol.19 チョッパー",
       "price": "2400",
       "update_date": "2026/11/03",
-      "model_number": "2582821"
+      "model_number": "2582821",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF THE GRANDLINE MEN ワノ国 vol.19 トニートニー・チョッパー",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "シリーズ"
+        ],
+        "missing": [
+          "the",
+          "grandline",
+          "トニートニー"
+        ],
+        "suggestion": "",
+        "reason": "「シリーズ」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ MEN ワノ国 vol.21 チョッパー",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2616357"
+      "model_number": "2616357",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF THE GRANDLINE MEN ワノ国 vol.21 トニートニー・チョッパー",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "シリーズ"
+        ],
+        "missing": [
+          "the",
+          "grandline",
+          "トニートニー"
+        ],
+        "suggestion": "",
+        "reason": "「シリーズ」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ MEN ワノ国 vol.24 ルフィ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2643756"
+      "model_number": "2643756",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXF THE GRANDLINE MEN ワノ国 vol.24 モンキー・D・ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "シリーズ"
+        ],
+        "missing": [
+          "the",
+          "grandline",
+          "モンキー"
+        ],
+        "suggestion": "",
+        "reason": "「シリーズ」が参照名に見当たりません"
+      }
     },
     {
       "name": "DXF シリーズ モンキー・D・ルフィ (2023年7月)",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2659001"
+      "model_number": "2659001",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.368,
+        "unmatched": [
+          "モンキー",
+          "ルフィ",
+          "2023",
+          "7"
+        ],
+        "missing": [
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

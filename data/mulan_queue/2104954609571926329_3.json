@@ -9,127 +9,414 @@
       "name": "パレード その他プライズ Chiikawa Baby ポケットいっぱいばいばい",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "2種共通"
+      "model_number": "2種共通",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ BIG 収納バスケット",
       "price": "1100",
       "update_date": "9月30日",
-      "model_number": "2種共通"
+      "model_number": "2種共通",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "収納バスケット"
+        ],
+        "missing": [
+          "ぬいぐるみ",
+          "ちいかわ"
+        ],
+        "suggestion": "BIG 収納バスケット",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ おかおBIGボストンバッグ ちいかわ",
       "price": "1500",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.235,
+        "unmatched": [
+          "おかおBIGボストンバッグ"
+        ],
+        "missing": [],
+        "suggestion": "おかおBIGボストンバッグ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ おかおBIGボストンバッグ ハチワレ",
       "price": "1500",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "おかおBIGボストンバッグ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "おかおBIGボストンバッグ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ おかおBIGボストンバッグ モモンガ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "おかおBIGボストンバッグ"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "おかおBIGボストンバッグ モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ おかおBIGボストンバッグ うさぎ",
       "price": "1400",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "おかおBIGボストンバッグ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "おかおBIGボストンバッグ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 超BIG マイヤーブランケット",
       "price": "1800",
       "update_date": "9月30日",
-      "model_number": "(ちいかわ/ハチワレ/うさぎ)"
+      "model_number": "(ちいかわ/ハチワレ/うさぎ)",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "マイヤーブランケット"
+        ],
+        "missing": [
+          "ぬいぐるみ",
+          "ちいかわ"
+        ],
+        "suggestion": "超BIG マイヤーブランケット",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 超BIG マイヤーブランケット",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "(モモンガ/古本屋)"
+      "model_number": "(モモンガ/古本屋)",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "マイヤーブランケット"
+        ],
+        "missing": [
+          "ぬいぐるみ",
+          "ちいかわ"
+        ],
+        "suggestion": "超BIG マイヤーブランケット",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "おかお折りたたみミニテーブル ちいかわ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.222,
+        "unmatched": [
+          "おかお折りたたみミニテーブル"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "おかお折りたたみミニテーブル ハチワレ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "おかお折りたたみミニテーブル"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "おかお折りたたみミニテーブル うさぎ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "おかお折りたたみミニテーブル"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "おかお折りたたみミニテーブル モモンガ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "おかお折りたたみミニテーブル"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬいぐるみパスケースポーチ ちいかわ",
       "price": "800",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.235,
+        "unmatched": [
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬいぐるみパスケースポーチ ハチワレ",
       "price": "800",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬいぐるみパスケースポーチ くりまんじゅう",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.35,
+        "unmatched": [
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬいぐるみパスケースポーチ うさぎ",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬいぐるみパスケースポーチ モモンガ",
       "price": "800",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬいぐるみパスケースポーチ ラッコ",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "討伐マスコット",
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PUKU CHURU seal",
       "price": "500",
       "update_date": "9月30日",
-      "model_number": "① 7種共通"
+      "model_number": "① 7種共通",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エイコープライズ びたれすと ぽてもち ハチワレ",
       "price": "500",
       "update_date": "9月30日",
-      "model_number": "vol.2"
+      "model_number": "vol.2",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "びたれすと",
+          "ぽてもち"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "びたれすと ぽてもち ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エイコープライズ びたれすと ぽてもち うさぎ",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "vol.2"
+      "model_number": "vol.2",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "びたれすと",
+          "ぽてもち"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "びたれすと ぽてもち うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

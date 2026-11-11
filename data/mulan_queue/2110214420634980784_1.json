@@ -11,295 +11,950 @@
       "name": "Grandista うずまきナルト 72 series 45",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2784750"
+      "model_number": "2784750",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista うずまきナルト (2024年版)",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "72",
+          "series",
+          "45"
+        ],
+        "missing": [
+          "2024",
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "「72」「series」「45」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista うずまきナルト (2024 年)",
       "price": "1800",
       "update_date": "2026/10/14",
-      "model_number": "2720980"
+      "model_number": "2720980",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista うずまきナルト (2024年版)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista うずまきナルト (2024年版)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista うずまきナルト II (2025 年)",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2770581"
+      "model_number": "2770581",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista うずまきナルト II (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista うずまきナルト II (2025年)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista うちはサスケ (2024 年)",
       "price": "1100",
       "update_date": "2026/10/14",
-      "model_number": "2720981"
+      "model_number": "2720981",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista うちはサスケ (2024年版)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista うちはサスケ (2024年版)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista B. うちはサスケ (2026 年)",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2763793"
+      "model_number": "2763793",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista うちはサスケ (2024年版)",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "B.",
+          "2026"
+        ],
+        "missing": [
+          "2024",
+          "年版"
+        ],
+        "suggestion": "Grandista B. うちはサスケ (2024 年)",
+        "reason": "「B.」「2026」が参照名に見当たりません（候補: 2026→2024）"
+      }
     },
     {
       "name": "Grandista うちはイタチ",
       "price": "2800",
       "update_date": "2026/10/14",
-      "model_number": "2735444"
+      "model_number": "2735444",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista うちはイタチ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista うちはイタチ II",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2819251"
+      "model_number": "2819251",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 0.882,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista はたけカカシ II",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2807726"
+      "model_number": "2807726",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "はたけカカシ",
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「はたけカカシ」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 波風ミナト",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2720982"
+      "model_number": "2720982",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 波風ミナト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista A. 春野サクラ (2026 年)",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2763793"
+      "model_number": "2763793",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ゾロ II（2026年版）",
+        "source": "登録済み/sheet1",
+        "score": 0.65,
+        "unmatched": [
+          "A.",
+          "春野サクラ"
+        ],
+        "missing": [
+          "ゾロ",
+          "ii",
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "「A.」「春野サクラ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Memorable Saga Special うちはイタチ",
       "price": "4000",
       "update_date": "2026/10/14",
-      "model_number": "2729224"
+      "model_number": "2729224",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga Special うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga Special うちはイタチ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga Special うずまきナルト",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2756258"
+      "model_number": "2756258",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga Special うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga Special うずまきナルト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga うずまきナルト",
       "price": "2700",
       "update_date": "2026/10/14",
-      "model_number": "2643309"
+      "model_number": "2643309",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga うずまきナルト II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga うずまきナルト II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga うちはイタチ II",
       "price": "2500",
       "update_date": "2026/10/14",
-      "model_number": "2708339"
+      "model_number": "2708339",
+      "_check": {
+        "status": "suspect",
+        "ref": "Memorable Saga Special うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 0.905,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [
+          "special"
+        ],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "Memorable Saga うちはサスケ",
       "price": "1600",
       "update_date": "2026/10/14",
-      "model_number": "2643350"
+      "model_number": "2643350",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga Special うちはサスケ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "special",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga Special うちはサスケ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga うちはサスケ II",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2708390"
+      "model_number": "2708390",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga Special うちはサスケ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "special"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga Special うちはサスケ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga ロック・リー",
       "price": "2200",
       "update_date": "2026/10/14",
-      "model_number": "2682023"
+      "model_number": "2682023",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga ロック・リー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga ロック・リー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga 奈良シカマル",
       "price": "3000",
       "update_date": "2026/10/14",
-      "model_number": "2703273"
+      "model_number": "2703273",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga 奈良シカマル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga 奈良シカマル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga 白",
       "price": "1500",
       "update_date": "2026/10/14",
-      "model_number": "2682021"
+      "model_number": "2682021",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga 白",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga 白」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga 桃地再不斬",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2650519"
+      "model_number": "2650519",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga 桃地再不斬",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga 桃地再不斬」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga 日向ネジ",
       "price": "1500",
       "update_date": "2026/10/14",
-      "model_number": "2690116"
+      "model_number": "2690116",
+      "_check": {
+        "status": "verified",
+        "ref": "Memorable Saga 日向ネジ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Memorable Saga 日向ネジ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS うずまきナルト V",
       "price": "1800",
       "update_date": "2026/10/14",
-      "model_number": "2650562"
+      "model_number": "2650562",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS うずまきナルト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS うずまきナルト V SPECIAL",
       "price": "2400",
       "update_date": "2026/10/14",
-      "model_number": "2744252"
+      "model_number": "2744252",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS うずまきナルト V SPECIAL",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS うずまきナルト V SPECIAL」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS B うちはサスケ",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2729223"
+      "model_number": "2729223",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS うちはサスケ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS うちはサスケ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "うちはサスケ IV",
       "price": "3200",
       "update_date": "2026/10/14",
-      "model_number": "2708337"
+      "model_number": "2708337",
+      "_check": {
+        "status": "suspect",
+        "ref": "EFFECTREME うちはサスケ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "IV"
+        ],
+        "missing": [
+          "effectreme"
+        ],
+        "suggestion": "",
+        "reason": "「IV」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS はたけカカシ 72 series 63 A",
       "price": "1100",
       "update_date": "2026/10/14",
-      "model_number": "2827328"
+      "model_number": "2827328",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "72",
+          "series",
+          "63"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「72」「series」「63」が参照名に見当たりません"
+      }
     },
     {
       "name": "はたけカカシ II",
       "price": "5800",
       "update_date": "2026/10/14",
-      "model_number": "2595407"
+      "model_number": "2595407",
+      "_check": {
+        "status": "suspect",
+        "ref": "造形忍界大戦 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [
+          "造形忍界大戦"
+        ],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "波風ミナト II",
       "price": "2000",
       "update_date": "2026/10/14",
-      "model_number": "2635774"
+      "model_number": "2635774",
+      "_check": {
+        "status": "suspect",
+        "ref": "波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "波風ミナト III",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2729189"
+      "model_number": "2729189",
+      "_check": {
+        "status": "suspect",
+        "ref": "波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 0.625,
+        "unmatched": [
+          "III"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS うちはイタチ",
       "price": "9000",
       "update_date": "2026/10/14",
-      "model_number": "82009"
+      "model_number": "82009",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS うちはイタチ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS うちはイタチ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "我愛羅",
       "price": "700",
       "update_date": "2026/10/14",
-      "model_number": "2729223"
+      "model_number": "2729223",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 疾風伝 忍ノ絆 C 賞 我愛羅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "一番くじ",
+          "疾風伝",
+          "忍ノ絆"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "我愛羅 PLUS",
       "price": "1100",
       "update_date": "2026/10/14",
-      "model_number": "2760896"
+      "model_number": "2760896",
+      "_check": {
+        "status": "suspect",
+        "ref": "PLUS 爆豪勝己",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "我愛羅"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "「我愛羅」が参照名に見当たりません"
+      }
     },
     {
       "name": "B. 大蛇丸",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2749924"
+      "model_number": "2749924",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXF 30th Anniversary B. 戸愚呂兄",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "大蛇丸"
+        ],
+        "missing": [
+          "dxf",
+          "30th",
+          "anniversary",
+          "戸愚呂兄"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VIBRATION STARS うちはオビト II",
       "price": "3000",
       "update_date": "2026/10/14",
-      "model_number": "2666679"
+      "model_number": "2666679",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS うちはオビト II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS うちはオビト II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS うちはオビト 72 series 63 B",
       "price": "1100",
       "update_date": "2026/10/14",
-      "model_number": "2827328"
+      "model_number": "2827328",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS うちはオビト II",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "72",
+          "series",
+          "63"
+        ],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "「72」「series」「63」が参照名に見当たりません"
+      }
     },
     {
       "name": "うちはマダラ (2025 年 3 月)",
       "price": "2400",
       "update_date": "2026/10/14",
-      "model_number": "2715044"
+      "model_number": "2715044",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS うちはマダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "2025",
+          "3"
+        ],
+        "missing": [
+          "vibration",
+          "stars"
+        ],
+        "suggestion": "",
+        "reason": "「2025」「3」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS ペイン",
       "price": "4800",
       "update_date": "2026/10/14",
-      "model_number": "2694858"
+      "model_number": "2694858",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS ペイン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS ペイン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS B ペイン",
       "price": "4800",
       "update_date": "2026/10/14",
-      "model_number": "2735448"
+      "model_number": "2735448",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS ペイン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「VIBRATION STARS ペイン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "キラー・ビー",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2708338"
+      "model_number": "2708338",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 恋するブレザー ネイビー",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "キラー"
+        ],
+        "missing": [
+          "ぬーどるストッパー",
+          "恋するブレザー",
+          "ネイビー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "トビ",
       "price": "4000",
       "update_date": "2026/10/14",
-      "model_number": "2750801"
+      "model_number": "2750801",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS トビ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "vibration",
+          "stars"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "A. 千手扉間",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2749924"
+      "model_number": "2749924",
+      "_check": {
+        "status": "suspect",
+        "ref": "PANEL SPECTACLE 千手扉間",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "A."
+        ],
+        "missing": [
+          "panel",
+          "spectacle"
+        ],
+        "suggestion": "",
+        "reason": "「A.」が参照名に見当たりません"
+      }
     },
     {
       "name": "Combination Battle",
       "price": "1800",
       "update_date": "2026/10/14",
-      "model_number": "2708391"
+      "model_number": "2708391",
+      "_check": {
+        "status": "verified",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Combination Battle 花御」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "うずまきナルト",
       "price": "2300",
       "update_date": "2026/10/14",
-      "model_number": "2708392"
+      "model_number": "2708392",
+      "_check": {
+        "status": "unknown",
+        "ref": "うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "2 うずまきナルト",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2770578"
+      "model_number": "2770578",
+      "_check": {
+        "status": "suspect",
+        "ref": "うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "2"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2」が参照名に見当たりません"
+      }
     },
     {
       "name": "2 うちはサスケ",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2770579"
+      "model_number": "2770579",
+      "_check": {
+        "status": "suspect",
+        "ref": "EFFECTREME うちはサスケ",
+        "source": "登録済み/sheet1",
+        "score": 0.857,
+        "unmatched": [
+          "2"
+        ],
+        "missing": [
+          "effectreme"
+        ],
+        "suggestion": "",
+        "reason": "「2」が参照名に見当たりません"
+      }
     },
     {
       "name": "うちはイタチ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2770576"
+      "model_number": "2770576",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "うちはイタチ",
       "price": "1300",
       "update_date": "2026/10/14",
-      "model_number": "2770577"
+      "model_number": "2770577",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "2 うずまきナルト",
       "price": "500",
       "update_date": "2026/10/14",
-      "model_number": "2756253"
+      "model_number": "2756253",
+      "_check": {
+        "status": "suspect",
+        "ref": "うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "2"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2」が参照名に見当たりません"
+      }
     },
     {
       "name": "2 我愛羅",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2756254"
+      "model_number": "2756254",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "我愛羅"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

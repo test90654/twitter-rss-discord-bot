@@ -9,139 +9,445 @@
       "name": "セイレーン BIG ぬいぐるみ",
       "price": "2800",
       "update_date": "9月30日",
-      "model_number": "目開け"
+      "model_number": "目開け",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "セイレーン"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "「セイレーン」が参照名に見当たりません"
+      }
     },
     {
       "name": "セイレーン BIG ぬいぐるみ",
       "price": "2500",
       "update_date": "9月30日",
-      "model_number": "目閉じ"
+      "model_number": "目閉じ",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "セイレーン"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "「セイレーン」が参照名に見当たりません"
+      }
     },
     {
       "name": "もっふるおかお超 BIG ぬいぐるみ ちいかわ",
       "price": "1500",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "もっふるおかお超"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「もっふるおかお超」が参照名に見当たりません"
+      }
     },
     {
       "name": "もっふるおかお超 BIG ぬいぐるみ ハチワレ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハチさん BIG ぬいぐるみ ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "もっふるおかお超"
+        ],
+        "missing": [
+          "ハチさん"
+        ],
+        "suggestion": "",
+        "reason": "「もっふるおかお超」が参照名に見当たりません"
+      }
     },
     {
       "name": "もっふるおかお超 BIG ぬいぐるみ うさぎ",
       "price": "1800",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハチさん BIG ぬいぐるみ うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.579,
+        "unmatched": [
+          "もっふるおかお超"
+        ],
+        "missing": [
+          "ハチさん"
+        ],
+        "suggestion": "",
+        "reason": "「もっふるおかお超」が参照名に見当たりません"
+      }
     },
     {
       "name": "もっふるおかお超 BIG ぬいぐるみ モモンガ",
       "price": "1500",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "もっふるおかお超"
+        ],
+        "missing": [
+          "パジャマ",
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "「もっふるおかお超」が参照名に見当たりません"
+      }
     },
     {
       "name": "ちいかわ X サンリオ BIG ぬいぐるみ ちいかわ",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちいかわ × サンリオ BIG ぬいぐるみ① ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "1"
+        ],
+        "suggestion": "ちいかわ X サンリオ BIG ぬいぐるみ",
+        "reason": "同じ単語が重なっています（候補: 重複「ちいかわ」を削除）"
+      }
     },
     {
       "name": "ちいかわ X サンリオ BIG ぬいぐるみ ハチワレ",
       "price": "1100",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちいかわ × サンリオ BIG ぬいぐるみ① ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "1"
+        ],
+        "suggestion": "",
+        "reason": "参照名「ちいかわ × サンリオ BIG ぬいぐるみ① ハチワレ」にある「1」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "ちいかわ X サンリオ BIG ぬいぐるみ くりまんじゅう",
       "price": "1300",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちいかわ × サンリオ BIG ぬいぐるみ① くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "1"
+        ],
+        "suggestion": "",
+        "reason": "参照名「ちいかわ × サンリオ BIG ぬいぐるみ① くりまんじゅう」にある「1」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "ちいかわ X サンリオ BIG ぬいぐるみ うさぎ",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちいかわ × サンリオ BIG ぬいぐるみ② うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照名「ちいかわ × サンリオ BIG ぬいぐるみ② うさぎ」にある「2」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "ちいかわ X サンリオ BIG ぬいぐるみ モモンガ",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちいかわ × サンリオ BIG ぬいぐるみ② モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照名「ちいかわ × サンリオ BIG ぬいぐるみ② モモンガ」にある「2」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "レーあぶわぬいぐるみ ちいかわ",
       "price": "800",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちいかわ",
+        "source": "ポスト本文",
+        "score": 0.286,
+        "unmatched": [
+          "レーあぶわぬいぐるみ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "レーあぶわぬいぐるみ ハチワレ",
       "price": "800",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "レーあぶわぬいぐるみ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "レーあぶわぬいぐるみ くりまんじゅう",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.412,
+        "unmatched": [
+          "レーあぶわぬいぐるみ"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "レーあぶわぬいぐるみ うさぎ",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "レーあぶわぬいぐるみ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "もっふる ねそべり BIG ぬいぐるみ ちいかわ",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "もっちる ねそべり BIG ぬいぐるみ① ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "もっふる"
+        ],
+        "missing": [
+          "もっちる",
+          "1"
+        ],
+        "suggestion": "もっちる ねそべり BIG ぬいぐるみ ちいかわ",
+        "reason": "「もっふる」が参照名に見当たりません（候補: もっふる→もっちる）"
+      }
     },
     {
       "name": "もっふる ねそべり BIG ぬいぐるみ ハチワレ",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "もっちる ねそべり BIG ぬいぐるみ① ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "もっふる"
+        ],
+        "missing": [
+          "もっちる",
+          "1"
+        ],
+        "suggestion": "もっちる ねそべり BIG ぬいぐるみ ハチワレ",
+        "reason": "「もっふる」が参照名に見当たりません（候補: もっふる→もっちる）"
+      }
     },
     {
       "name": "もっふる ねそべり BIG ぬいぐるみ うさぎ",
       "price": "1600",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "もっちる ねそべり BIG ぬいぐるみ② うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.789,
+        "unmatched": [
+          "もっふる"
+        ],
+        "missing": [
+          "もっちる",
+          "2"
+        ],
+        "suggestion": "もっちる ねそべり BIG ぬいぐるみ うさぎ",
+        "reason": "「もっふる」が参照名に見当たりません（候補: もっふる→もっちる）"
+      }
     },
     {
       "name": "もっふる ねそべり BIG ぬいぐるみ モモンガ",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "もっちる ねそべり BIG ぬいぐるみ② モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "もっふる"
+        ],
+        "missing": [
+          "もっちる",
+          "2"
+        ],
+        "suggestion": "もっちる ねそべり BIG ぬいぐるみ モモンガ",
+        "reason": "「もっふる」が参照名に見当たりません（候補: もっふる→もっちる）"
+      }
     },
     {
       "name": "パジャマ BIG ぬいぐるみ ちいかわ",
       "price": "1200",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 1 ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "1"
+        ],
+        "suggestion": "",
+        "reason": "参照名「パジャマ BIG ぬいぐるみ 1 ちいかわ」にある「1」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "パジャマ BIG ぬいぐるみ ハチワレ",
       "price": "1000",
       "update_date": "9月30日",
-      "model_number": "①"
+      "model_number": "①",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 1 ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "1"
+        ],
+        "suggestion": "",
+        "reason": "参照名「パジャマ BIG ぬいぐるみ 1 ハチワレ」にある「1」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "パジャマ BIG ぬいぐるみ うさぎ",
       "price": "1500",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 2 うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照名「パジャマ BIG ぬいぐるみ 2 うさぎ」にある「2」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "パジャマ BIG ぬいぐるみ モモンガ",
       "price": "700",
       "update_date": "9月30日",
-      "model_number": "②"
+      "model_number": "②",
+      "_check": {
+        "status": "suspect",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "2"
+        ],
+        "suggestion": "",
+        "reason": "参照名「パジャマ BIG ぬいぐるみ 2 モモンガ」にある「2」が商品名にありません（番号・賞の読み落とし？）"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

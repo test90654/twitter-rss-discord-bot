@@ -12,7 +12,22 @@
       "name": "T-most 喜多川海夢 バニーver.",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "バニーver."
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「バニーver.」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

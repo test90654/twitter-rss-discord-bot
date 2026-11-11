@@ -12,739 +12,2597 @@
       "name": "BATTLE RECORD COLLECTION ルフィエッグヘッド",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2720094"
+      "model_number": "2720094",
+      "_check": {
+        "status": "suspect",
+        "ref": "BATTLE RECORD COLLECTION ナミ",
+        "source": "登録済み/sheet1",
+        "score": 0.71,
+        "unmatched": [
+          "ルフィエッグヘッド"
+        ],
+        "missing": [
+          "ナミ"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィエッグヘッド」が参照名に見当たりません"
+      }
     },
     {
       "name": "BATTLE RECORD COLLECTION ルフィII SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2750937"
+      "model_number": "2750937",
+      "_check": {
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ルフィ II SP",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「BATTLE RECORD COLLECTION ルフィ II SP」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BATTLE RECORD COLLECTION ギア5 ルフィSP",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2800813"
+      "model_number": "2800813",
+      "_check": {
+        "status": "suspect",
+        "ref": "BATTLE RECORD COLLECTION ナミ",
+        "source": "登録済み/sheet1",
+        "score": 0.733,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィSP"
+        ],
+        "missing": [
+          "ナミ"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「ルフィSP」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE 出航 サンジ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2651292"
+      "model_number": "2651292",
+      "_check": {
+        "status": "verified",
+        "ref": "THE 出航 サンジ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE 出航 サンジ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出航 サボ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2704921"
+      "model_number": "2704921",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギアサボ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ロギアサボ"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ログストーリーズ ルフィ & シャンクス",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2650587"
+      "model_number": "2650587",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ログストーリーズ",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BATTLE RECORD COLLECTION ギア5 ルフィII",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2764096"
+      "model_number": "2764096",
+      "_check": {
+        "status": "suspect",
+        "ref": "BATTLE RECORD COLLECTION ルフィ II SP",
+        "source": "登録済み/sheet1",
+        "score": 0.9,
+        "unmatched": [
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "sp"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "ゾロIII",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2816423"
+      "model_number": "2816423",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "サンジII",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2720095"
+      "model_number": "2720095",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シャンクス",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2712789"
+      "model_number": "2712789",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "シャンクスSP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2707311"
+      "model_number": "2707311",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION シャンクス SP",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "battle",
+          "record",
+          "collection"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ローII",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2712800"
+      "model_number": "2712800",
+      "_check": {
+        "status": "unknown",
+        "ref": "KING OF ARTIST ロー II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "king",
+          "of",
+          "artist"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ティーチ",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2712788"
+      "model_number": "2712788",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ゴールド・D・ロジャー",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2736914"
+      "model_number": "2736914",
+      "_check": {
+        "status": "suspect",
+        "ref": "BATTLE RECORD COLLECTION ゴール・D・ロジャー",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ゴールド"
+        ],
+        "missing": [
+          "battle",
+          "record",
+          "collection"
+        ],
+        "suggestion": "ゴール・D・ロジャー",
+        "reason": "「ゴールド」が参照名に見当たりません（候補: ゴールド→ゴール）"
+      }
     },
     {
       "name": "カープ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2789098"
+      "model_number": "2789098",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "カタクリSP ver.",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2835279"
+      "model_number": "2835279",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "カタクリSP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "クザン",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2761773"
+      "model_number": "2761773",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ギア4 ルフィ",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2731348"
+      "model_number": "2731348",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ギア",
+          "4"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「4」が参照名に見当たりません"
+      }
     },
     {
       "name": "ボルサリーノ",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2731349"
+      "model_number": "2731349",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ルフィ(ギア5)",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2784757"
+      "model_number": "2784757",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "ポニー",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2784758"
+      "model_number": "2784758",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドリー",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2784759"
+      "model_number": "2784759",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ブロギー",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2784780"
+      "model_number": "2784780",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ルフィエッグヘッド",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2720094"
+      "model_number": "2720094",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.211,
+        "unmatched": [
+          "キャラクター",
+          "ルフィエッグヘッド"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ルフィII SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2750937"
+      "model_number": "2750937",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.118,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター",
+          "ルフィII"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ギア 5 ルフィ II",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2800813"
+      "model_number": "2800813",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター",
+          "ギア",
+          "5",
+          "II"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ギア 5 ルフィ SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2764096"
+      "model_number": "2764096",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター",
+          "ギア",
+          "5",
+          "SP"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ゾロIII",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2816423"
+      "model_number": "2816423",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "キャラクター",
+          "ゾロIII"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ゾロII",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2752434"
+      "model_number": "2752434",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "キャラクター",
+          "ゾロII"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター サンジIII",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2816424"
+      "model_number": "2816424",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "キャラクター",
+          "サンジIII"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ナミ",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2720095"
+      "model_number": "2720095",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ エッグヘッド ナミ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "キャラクター"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "「キャラクター」が参照名に見当たりません"
+      }
     },
     {
       "name": "シリーズ / キャラクター シャンクス",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2712789"
+      "model_number": "2712789",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター シャンクス SP",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2791311"
+      "model_number": "2791311",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.294,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター",
+          "SP"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ローII",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2712830"
+      "model_number": "2712830",
+      "_check": {
+        "status": "unknown",
+        "ref": "KING OF ARTIST ロー II",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター"
+        ],
+        "missing": [
+          "king",
+          "of",
+          "artist"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ティーチ",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2712788"
+      "model_number": "2712788",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ SPECIAL ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "キャラクター"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "special"
+        ],
+        "suggestion": "",
+        "reason": "「キャラクター」が参照名に見当たりません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ゴール・D・ロジャー",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2786974"
+      "model_number": "2786974",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "キャラクター",
+          "ゴール",
+          "ロジャー"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ガープ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2764094"
+      "model_number": "2764094",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "キャラクター"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "special"
+        ],
+        "suggestion": "",
+        "reason": "「キャラクター」が参照名に見当たりません"
+      }
     },
     {
       "name": "シリーズ / キャラクター カタクリ SP ver.",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2835279"
+      "model_number": "2835279",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター",
+          "カタクリ",
+          "SP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出航 ルフィ ver.EGGHEAD",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2729840"
+      "model_number": "2729840",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 サンジ ver.EGGHEAD",
+        "source": "登録済み/sheet1",
+        "score": 0.842,
+        "unmatched": [
+          "ルフィ"
+        ],
+        "missing": [
+          "サンジ"
+        ],
+        "suggestion": "",
+        "reason": "「ルフィ」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE 出航 サンジ (再販)",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2750955"
+      "model_number": "2750955",
+      "_check": {
+        "status": "verified",
+        "ref": "THE 出航 サンジ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE 出航 サンジ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出航 サンジ ver.EGGHEAD",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2740097"
+      "model_number": "2740097",
+      "_check": {
+        "status": "verified",
+        "ref": "THE 出航 サンジ ver.EGGHEAD",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE 出航 サンジ ver.EGGHEAD」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出航 ナミ ver.EGGHEAD",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2751539"
+      "model_number": "2751539",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 サンジ ver.EGGHEAD",
+        "source": "登録済み/sheet1",
+        "score": 0.889,
+        "unmatched": [
+          "ナミ"
+        ],
+        "missing": [
+          "サンジ"
+        ],
+        "suggestion": "",
+        "reason": "「ナミ」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE 出航 ロビン",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2650635"
+      "model_number": "2650635",
+      "_check": {
+        "status": "verified",
+        "ref": "THE 出航 ロビン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE 出航 ロビン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出航 ロビン ver.EGGHEAD",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2751550"
+      "model_number": "2751550",
+      "_check": {
+        "status": "verified",
+        "ref": "THE 出航 ロビン ver.EGGHEAD",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE 出航 ロビン ver.EGGHEAD」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ロギアサボ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2764321"
+      "model_number": "2764321",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギアサボ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ロギアサボ ロギア エース",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2809569"
+      "model_number": "2809569",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ロギアサボ",
+        "source": "登録済み/sheet1",
+        "score": 0.727,
+        "unmatched": [
+          "エース"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「エース」が参照名に見当たりません"
+      }
     },
     {
       "name": "ロギアサボ クロコダイル",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2720282"
+      "model_number": "2720282",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギアサボ",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "クロコダイル"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロギアサボ ミホーク",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2720281"
+      "model_number": "2720281",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ロギアサボ",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "ミホーク"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「ミホーク」が参照名に見当たりません"
+      }
     },
     {
       "name": "ロギアサボ サカズキ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2776602"
+      "model_number": "2776602",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ロギアサボ",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "サカズキ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「サカズキ」が参照名に見当たりません"
+      }
     },
     {
       "name": "ロギアサボ ボルサリーノ",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2776601"
+      "model_number": "2776601",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "ロギアサボ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「ロギアサボ」が参照名に見当たりません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ II",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2731349"
+      "model_number": "2731349",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "II"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ボルサリーノ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2731348"
+      "model_number": "2731348",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ドリー",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2784757"
+      "model_number": "2784757",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ポニー",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2784758"
+      "model_number": "2784758",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ブローギー",
       "price": "600",
       "update_date": "2026/11/03",
-      "model_number": "2784759"
+      "model_number": "2784759",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア エース",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2591075"
+      "model_number": "2591075",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギア エース",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア"
+        ],
+        "missing": [
+          "the",
+          "出航",
+          "ロギア"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & シャンクス",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2650587"
+      "model_number": "2650587",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "ロクストリーズ",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ VS 近海の主",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2650622"
+      "model_number": "2650622",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ロクストリーズ",
+          "VS",
+          "近海の主"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & ゾロ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2650620"
+      "model_number": "2650620",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ロクストリーズ",
+          "ゾロ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ VS ミホーク",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2650623"
+      "model_number": "2650623",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ミホーク",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ロクストリーズ",
+          "ルフィ",
+          "VS"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & ナミ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2704760"
+      "model_number": "2704760",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ロクストリーズ",
+          "ナミ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ VS アーロン",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2704761"
+      "model_number": "2704761",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ロクストリーズ",
+          "VS",
+          "アーロン"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & エース",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2720318"
+      "model_number": "2720318",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "ロクストリーズ",
+          "エース"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & エネル",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2741482"
+      "model_number": "2741482",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "ロクストリーズ",
+          "エネル"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & ブルック",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2752954"
+      "model_number": "2752954",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "ロクストリーズ",
+          "ブルック"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & エール",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2741482"
+      "model_number": "2741482",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "ロクストリーズ",
+          "エール"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & ゾロ",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2704762"
+      "model_number": "2704762",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ロクストリーズ",
+          "ゾロ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & メリー号",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2713408"
+      "model_number": "2713408",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "ロクストリーズ",
+          "メリー号"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ ルフィ & ロビン",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2713407"
+      "model_number": "2713407",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "ロクストリーズ",
+          "ロビン"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロクストリーズ エース VS ティーチ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2752952"
+      "model_number": "2752952",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ロクストリーズ",
+          "エース",
+          "VS"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2729351"
+      "model_number": "2729351",
+      "_check": {
+        "status": "suspect",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "チョッパー"
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "「チョッパー」が参照名に見当たりません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー アラバスタ ver.",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2732335"
+      "model_number": "2732335",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "チョッパー",
+          "アラバスタ",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー 魚人島 ver.",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2729352"
+      "model_number": "2729352",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "チョッパー",
+          "魚人島",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー エッグヘッド ver.",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2701930"
+      "model_number": "2701930",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "チョッパー",
+          "エッグヘッド",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー お祭り ver.",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2746433"
+      "model_number": "2746433",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "チョッパー",
+          "お祭り",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー ゾウ ver.",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2746433"
+      "model_number": "2746433",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "チョッパー",
+          "ゾウ",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー お風呂上がり ver.",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2764103"
+      "model_number": "2764103",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "チョッパー",
+          "お風呂上がり",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES チョッパー ドレスローザ ver.",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2748079"
+      "model_number": "2748079",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "チョッパー",
+          "ドレスローザ",
+          "ver."
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ロギア エース",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2809569"
+      "model_number": "2809569",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギア エース",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター クロコダイル",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2720282"
+      "model_number": "2720282",
+      "_check": {
+        "status": "suspect",
+        "ref": "DXFシリーズ EXTRA クロコダイル",
+        "source": "登録済み/sheet1",
+        "score": 0.625,
+        "unmatched": [
+          "キャラクター"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "extra"
+        ],
+        "suggestion": "",
+        "reason": "「キャラクター」が参照名に見当たりません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ミホーク",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2720281"
+      "model_number": "2720281",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ミホーク",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター サカズキ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2776602"
+      "model_number": "2776602",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "キャラクター",
+          "サカズキ"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "シリーズ / キャラクター ボルサリーノ",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2776601"
+      "model_number": "2776601",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "シリーズ",
+          "キャラクター"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "難光絶景 ゾロ EGGHEAD ver.",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2761770"
+      "model_number": "2761770",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 サンジ ver.EGGHEAD",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "難光絶景",
+          "ゾロ"
+        ],
+        "missing": [
+          "the",
+          "出航",
+          "サンジ",
+          "ver.egghead"
+        ],
+        "suggestion": "",
+        "reason": "「難光絶景」「ゾロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "難光絶景 トラファルガー・ロー",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2712831"
+      "model_number": "2712831",
+      "_check": {
+        "status": "unknown",
+        "ref": "KING OF ARTIST ロー II",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "難光絶景",
+          "トラファルガー"
+        ],
+        "missing": [
+          "king",
+          "of",
+          "artist",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "難光絶景 ティーチ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2712832"
+      "model_number": "2712832",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "難光絶景"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "「難光絶景」が参照名に見当たりません"
+      }
     },
     {
       "name": "難光絶景 ガープ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2761772"
+      "model_number": "2761772",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "難光絶景"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "special"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパー アラバスタ ver.",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2732335"
+      "model_number": "2732335",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.103,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "チョッパー",
+          "アラバスタ",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパー 魚人島 ver.",
       "price": "1300",
       "update_date": "2026/11/03",
-      "model_number": "2729352"
+      "model_number": "2729352",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "チョッパー",
+          "魚人島",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパー エッグヘッド ver.",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2701930"
+      "model_number": "2701930",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド チョッパー",
+        "source": "登録済み/sheet1",
+        "score": 0.367,
+        "unmatched": [
+          "ログストリーズ",
+          "ルフィ",
+          "シャンクス",
+          "ver."
+        ],
+        "missing": [
+          "dxfシリーズ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパー ゾウ ver.",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "2746433"
+      "model_number": "2746433",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "チョッパー",
+          "ゾウ",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパー お風呂上がり ver.",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2764103"
+      "model_number": "2764103",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "チョッパー",
+          "お風呂上がり",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパー ドレスローザ ver.",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2748079"
+      "model_number": "2748079",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "チョッパー",
+          "ドレスローザ",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス チョッパーえもん",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2764104"
+      "model_number": "2764104",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "チョッパーえもん"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス おおきなチョッパードラム王国 ver.",
       "price": "1400",
       "update_date": "2026/11/03",
-      "model_number": "2785111"
+      "model_number": "2785111",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "おおきなチョッパードラム王国",
+          "ver."
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス ゴールデン 電伝虫",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2764102"
+      "model_number": "2764102",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "ゴールデン",
+          "電伝虫"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストリーズ ルフィ & シャンクス ベポ",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2732336"
+      "model_number": "2732336",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "ログストリーズ",
+          "シャンクス",
+          "ベポ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ルフィエッグヘッド",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2720094"
+      "model_number": "2720094",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ルフィII SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2750937"
+      "model_number": "2750937",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "ルフィII"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ギア 5 ルフィ II",
       "price": "1100",
       "update_date": "2026/11/03",
-      "model_number": "2800813"
+      "model_number": "2800813",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "ギア",
+          "5",
+          "II"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ギア 5 ルフィ SP",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2764096"
+      "model_number": "2764096",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "ギア",
+          "5",
+          "SP"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ゾロII",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2752434"
+      "model_number": "2752434",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ゾロ II（2026年版）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista",
+          "2026",
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "サンジIII",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2816424"
+      "model_number": "2816424",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ナミ",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2720095"
+      "model_number": "2720095",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ナミ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "シャンクス",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2712789"
+      "model_number": "2712789",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "シャンクス SP",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2791311"
+      "model_number": "2791311",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "SP"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "「SP」が参照名に見当たりません"
+      }
     },
     {
       "name": "ローII",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2712830"
+      "model_number": "2712830",
+      "_check": {
+        "status": "unknown",
+        "ref": "KING OF ARTIST ロー II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "king",
+          "of",
+          "artist"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ゴール・D・ロジャー",
       "price": "900",
       "update_date": "2026/11/03",
-      "model_number": "2786974"
+      "model_number": "2786974",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION ゴール・D・ロジャー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "battle",
+          "record",
+          "collection"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "ガープ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2764094"
+      "model_number": "2764094",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ SPECIAL ガープ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "dxfシリーズ",
+          "special"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "カタクリ SP ver.",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2835279"
+      "model_number": "2835279",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "カタクリ",
+          "SP"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ VS 近海の主",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2650622"
+      "model_number": "2650622",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "VS",
+          "近海の主"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & ゾロ",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2650620"
+      "model_number": "2650620",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "ゾロ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ VS ミホーク",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2650623"
+      "model_number": "2650623",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ミホーク",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "ルフィ",
+          "VS"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & ナミ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2704760"
+      "model_number": "2704760",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "ナミ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ VS アーロン",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2704761"
+      "model_number": "2704761",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "VS",
+          "アーロン"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & エース",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2720318"
+      "model_number": "2720318",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "エース"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & エネル",
       "price": "700",
       "update_date": "2026/11/03",
-      "model_number": "2741482"
+      "model_number": "2741482",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "エネル"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & ブルック",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2752954"
+      "model_number": "2752954",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "ブルック"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ゾロ & サンジ",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2752953"
+      "model_number": "2752953",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 サンジ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "ゾロ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア チョッパー",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": "2704762"
+      "model_number": "2704762",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド チョッパー",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & メリー号",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2713408"
+      "model_number": "2713408",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "メリー号"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ & ロビン",
       "price": "1000",
       "update_date": "2026/11/03",
-      "model_number": "2713407"
+      "model_number": "2713407",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "ロビン"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ワールドコレクタブルフィギュア エース VS ティーチ",
       "price": "800",
       "update_date": "2026/11/03",
-      "model_number": "2752952"
+      "model_number": "2752952",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "ワールドコレクタブルフィギュア",
+          "エース",
+          "VS"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

@@ -11,433 +11,1730 @@
       "name": "SPIRITFLICKS 01 A 孫悟空",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2809842"
+      "model_number": "2809842",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.118,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "呪術廻戦",
+          "1224",
+          "b賞",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 01 B SS 孫悟空",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2809842"
+      "model_number": "2809842",
+      "_check": {
+        "status": "unknown",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.105,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "01",
+          "孫悟空"
+        ],
+        "missing": [
+          "xrosslink",
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 01 C SS2 孫悟空",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2809842"
+      "model_number": "2809842",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "SS2",
+          "孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "呪術廻戦",
+          "1224",
+          "b賞",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 01 D 界王拳孫悟空",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2809842"
+      "model_number": "2809842",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.1,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "界王拳孫悟空"
+        ],
+        "missing": [
+          "一番くじ",
+          "呪術廻戦",
+          "1224",
+          "b賞",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 02 A ベジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2838322"
+      "model_number": "2838322",
+      "_check": {
+        "status": "unknown",
+        "ref": "📢10/25更新📢",
+        "source": "ポスト本文",
+        "score": 0.111,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "ベジータ"
+        ],
+        "missing": [
+          "📢10",
+          "25",
+          "更新📢"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 02 B SS ベジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2838322"
+      "model_number": "2838322",
+      "_check": {
+        "status": "unknown",
+        "ref": "📢10/25更新📢",
+        "source": "ポスト本文",
+        "score": 0.1,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "SS",
+          "ベジータ"
+        ],
+        "missing": [
+          "📢10",
+          "25",
+          "更新📢"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 02 C 超ベジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2838322"
+      "model_number": "2838322",
+      "_check": {
+        "status": "unknown",
+        "ref": "📢10/25更新📢",
+        "source": "ポスト本文",
+        "score": 0.105,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "超ベジータ"
+        ],
+        "missing": [
+          "📢10",
+          "25",
+          "更新📢"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SPIRITFLICKS 02 D 魔人ベジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2838322"
+      "model_number": "2838322",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "SPIRITFLICKS",
+          "02"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 5A 超サイヤ人孫悟飯 (再販)",
       "price": "1800",
       "update_date": "2026/10/25",
-      "model_number": "2728513"
+      "model_number": "2728513",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "出陣",
+          "5A",
+          "超サイヤ人孫悟飯"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 5B 超サイヤ人孫悟飯 (再販)",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2728513"
+      "model_number": "2728513",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "出陣",
+          "5B",
+          "超サイヤ人孫悟飯"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 9A トランクス",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2623793"
+      "model_number": "2623793",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "出陣",
+          "9A",
+          "トランクス"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 9B 超サイヤントランクス",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "2623793"
+      "model_number": "2623793",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "出陣",
+          "9B",
+          "超サイヤントランクス"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 10A ベジータ",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2641971"
+      "model_number": "2641971",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "出陣",
+          "10A",
+          "ベジータ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 10B 魔人ベジータ",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2641971"
+      "model_number": "2641971",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "THE",
+          "出陣",
+          "10B"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 11A 超サイヤントランクス",
       "price": "2200",
       "update_date": "2026/10/25",
-      "model_number": "2653503"
+      "model_number": "2653503",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "出陣",
+          "11A",
+          "超サイヤントランクス"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 11B 超サイヤ人トランクス",
       "price": "2200",
       "update_date": "2026/10/25",
-      "model_number": "2653503"
+      "model_number": "2653503",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "出陣",
+          "11B",
+          "超サイヤ人トランクス"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 12A 超サイヤ人2孫悟飯",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "2653595"
+      "model_number": "2653595",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "出陣",
+          "12A",
+          "超サイヤ人",
+          "2",
+          "孫悟飯"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 12B 超サイヤ人孫悟飯",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2653595"
+      "model_number": "2653595",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "出陣",
+          "12B",
+          "超サイヤ人孫悟飯"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 13A ピッコロ",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2670313"
+      "model_number": "2670313",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "出陣",
+          "13A",
+          "ピッコロ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 13B ピッコロ (ターバンあり)",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2670313"
+      "model_number": "2670313",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "出陣",
+          "13B",
+          "ピッコロ",
+          "ターバンあり"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 14A 孫悟飯ビースト",
       "price": "1800",
       "update_date": "2026/10/25",
-      "model_number": "2675530"
+      "model_number": "2675530",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "出陣",
+          "14A",
+          "孫悟飯ビースト"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 14B アルティメット悟飯",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2675530"
+      "model_number": "2675530",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "出陣",
+          "14B",
+          "アルティメット悟飯"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 16 魔人ブウ",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2693437"
+      "model_number": "2693437",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "出陣",
+          "16",
+          "魔人ブウ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 フリーザ",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2720630"
+      "model_number": "2720630",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "出陣",
+          "フリーザ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 魔人ブウ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2704192"
+      "model_number": "2704192",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "出陣",
+          "魔人ブウ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 セル",
       "price": "1700",
       "update_date": "2026/10/25",
-      "model_number": "2704196"
+      "model_number": "2704196",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "出陣",
+          "セル"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 人造人間17号",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2713261"
+      "model_number": "2713261",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "出陣",
+          "人造人間",
+          "17"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 人造人間18号",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2713260"
+      "model_number": "2713260",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "出陣",
+          "人造人間",
+          "18"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 孫悟空 身勝手の極意",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2693441"
+      "model_number": "2693441",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "出陣",
+          "孫悟空",
+          "身勝手の極意"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 超サイヤ人4孫悟空",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2752066"
+      "model_number": "2752066",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "出陣",
+          "超サイヤ人",
+          "4",
+          "孫悟空"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 超サイヤ人4ベジータ",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2752064"
+      "model_number": "2752064",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "出陣",
+          "超サイヤ人",
+          "4",
+          "ベジータ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 超サイヤ人4ゴジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2752065"
+      "model_number": "2752065",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "出陣",
+          "超サイヤ人",
+          "4",
+          "ゴジータ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 ピッコロ",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2794204"
+      "model_number": "2794204",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "出陣",
+          "ピッコロ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 亀仙人",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2794177"
+      "model_number": "2794177",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "出陣",
+          "亀仙人"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 ブロリーⅡ",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2773701"
+      "model_number": "2773701",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "出陣",
+          "ブロリーII"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE 出陣 超サイヤ人3ゴテンクス",
       "price": "700",
       "update_date": "2026/10/25",
-      "model_number": "2773700"
+      "model_number": "2773700",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "出陣",
+          "超サイヤ人",
+          "3",
+          "ゴテンクス"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CLEARISE 超サイヤ人孫悟空 (2024年)",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "2693316"
+      "model_number": "2693316",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 桜ミク 2024",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "CLEARISE",
+          "超サイヤ人孫悟空"
+        ],
+        "missing": [
+          "ぬーどるストッパー",
+          "桜ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CLEARISE 孫悟飯 (ビースト)",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2713264"
+      "model_number": "2713264",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "CLEARISE",
+          "ビースト"
+        ],
+        "missing": [
+          "blood",
+          "of",
+          "saiyans",
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CLEARISE 魔人ベジータ",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2683282"
+      "model_number": "2683282",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "CLEARISE"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CLEARISE A. ゴクウブラック",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2720631"
+      "model_number": "2720631",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS A. 千手柱間",
+        "source": "登録済み/sheet1",
+        "score": 0.118,
+        "unmatched": [
+          "CLEARISE",
+          "ゴクウブラック"
+        ],
+        "missing": [
+          "vibration",
+          "stars",
+          "千手柱間"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "CLEARISE B. 超サイヤ人ロゼゴクウブラック",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2720631"
+      "model_number": "2720631",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXF 30th Anniversary B. 戸愚呂兄",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "CLEARISE",
+          "超サイヤ人ロゼゴクウブラック"
+        ],
+        "missing": [
+          "dxf",
+          "30th",
+          "anniversary",
+          "戸愚呂兄"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 孫悟空 (VS ベジータ/2026年)",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2800153"
+      "model_number": "2800153",
+      "_check": {
+        "status": "unknown",
+        "ref": "有効期限は2026年11月8日迄💨",
+        "source": "ポスト本文",
+        "score": 0.167,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "孫悟空",
+          "VS",
+          "ベジータ"
+        ],
+        "missing": [
+          "有効期限は",
+          "11",
+          "8",
+          "日迄💨"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS ベジータ (VS 孫悟空/2026年)",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2800154"
+      "model_number": "2800154",
+      "_check": {
+        "status": "unknown",
+        "ref": "有効期限は2026年11月8日迄💨",
+        "source": "ポスト本文",
+        "score": 0.167,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "ベジータ",
+          "VS",
+          "孫悟空"
+        ],
+        "missing": [
+          "有効期限は",
+          "11",
+          "8",
+          "日迄💨"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 孫悟空 (VS ベジータ/2023年)",
       "price": "2000",
       "update_date": "2026/10/25",
-      "model_number": "2683284"
+      "model_number": "2683284",
+      "_check": {
+        "status": "unknown",
+        "ref": "Luminasta 桜ミク 2023",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "孫悟空",
+          "VS",
+          "ベジータ"
+        ],
+        "missing": [
+          "luminasta",
+          "桜ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 魔人ベジータ (VS 孫悟空/2023年)",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2683283"
+      "model_number": "2683283",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "VS",
+          "孫悟空",
+          "2023"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人2孫悟飯 (VS SS2 孫悟空/2025年)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2763860"
+      "model_number": "2763860",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 桜ミク 2025",
+        "source": "登録済み/sheet1",
+        "score": 0.156,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人",
+          "孫悟飯",
+          "VS",
+          "SS2",
+          "孫悟空"
+        ],
+        "missing": [
+          "ぬーどるストッパー",
+          "桜ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 魔人ベジータ (VS SS2 孫悟空/2025年)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2763861"
+      "model_number": "2763861",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "VS",
+          "SS2",
+          "孫悟空",
+          "2025"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人2孫悟飯 (2022年)",
       "price": "1800",
       "update_date": "2026/10/25",
-      "model_number": "2617615"
+      "model_number": "2617615",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.042,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人",
+          "孫悟飯",
+          "2022"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 魔人ベジータ (2022年)",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2617616"
+      "model_number": "2617616",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "2022"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 孫悟空 (VS ゴクウブラック)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2794213"
+      "model_number": "2794213",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "孫悟空",
+          "ゴクウブラック"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS ゴクウブラック (VS 孫悟空)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2794214"
+      "model_number": "2794214",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "ゴクウブラック",
+          "孫悟空"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 孫悟空 身勝手の極意 (VS ジレン)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2785224"
+      "model_number": "2785224",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "孫悟空",
+          "身勝手の極意",
+          "ジレン"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS ジレン (VS 孫悟空 身勝手の極意)",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2785225"
+      "model_number": "2785225",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "ジレン",
+          "孫悟空",
+          "身勝手の極意"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人3孫悟空 (VS 魔人ブウ)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2729363"
+      "model_number": "2729363",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.038,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人",
+          "孫悟空",
+          "VS",
+          "魔人ブウ"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 魔人ブウ (VS 超サイヤ人3孫悟空)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2729364"
+      "model_number": "2729364",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.038,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "魔人ブウ",
+          "VS",
+          "超サイヤ人",
+          "孫悟空"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人3孫悟空 (VS 魔人ブウ (純粋))",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2773698"
+      "model_number": "2773698",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.036,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人",
+          "孫悟空",
+          "VS",
+          "魔人ブウ",
+          "純粋"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 魔人ブウ (純粋) (VS 超サイヤ人3孫悟空)",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2773699"
+      "model_number": "2773699",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.036,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "魔人ブウ",
+          "純粋",
+          "VS",
+          "超サイヤ人",
+          "孫悟空"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS SSGSS ゴジータ (VS ブロリー)",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2713271"
+      "model_number": "2713271",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ゴジータ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "SSGSS",
+          "VS",
+          "ブロリー"
+        ],
+        "missing": [
+          "grandista",
+          "2025"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人ブロリー (VS ゴジータ)",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2713272"
+      "model_number": "2713272",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ゴジータ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人ブロリー",
+          "VS"
+        ],
+        "missing": [
+          "grandista",
+          "2025"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人ベジット (VS 魔人ブウ)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2670316"
+      "model_number": "2670316",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人ベジット",
+          "魔人ブウ"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 魔人ブウ (孫悟飯吸収) (VS ベジット)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2670317"
+      "model_number": "2670317",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "魔人ブウ",
+          "孫悟飯吸収",
+          "ベジット"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 孫悟空 (スーパーヒーロー)",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2626700"
+      "model_number": "2626700",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS ベジータ (スーパーヒーロー)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2626701"
+      "model_number": "2626701",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.174,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "スーパーヒーロー"
+        ],
+        "missing": [
+          "grandista",
+          "魔人ベジータ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人孫悟飯 (VS セル)",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2729335"
+      "model_number": "2729335",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.348,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "VS",
+          "セル"
+        ],
+        "missing": [
+          "blood",
+          "of",
+          "saiyans",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS セル (VS 超サイヤ人孫悟飯)",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2729336"
+      "model_number": "2729336",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.348,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "セル",
+          "VS"
+        ],
+        "missing": [
+          "blood",
+          "of",
+          "saiyans",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 孫悟空 (幼少期)",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2609246"
+      "model_number": "2609246",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS ピッコロ大魔王",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2609245"
+      "model_number": "2609245",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人ゴジータ (VS ジャネンバ)",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2712889"
+      "model_number": "2712889",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人ゴジータ",
+          "ジャネンバ"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS ジャネンバ (VS 超サイヤ人ゴジータ)",
       "price": "500",
       "update_date": "2026/10/25",
-      "model_number": "2712900"
+      "model_number": "2712900",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "ジャネンバ",
+          "超サイヤ人ゴジータ"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人孫悟空 (VS クウラ)",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2712887"
+      "model_number": "2712887",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人孫悟空",
+          "クウラ"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS クウラ (VS 超サイヤ人孫悟空)",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2712888"
+      "model_number": "2712888",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "クウラ",
+          "超サイヤ人孫悟空"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 超サイヤ人孫悟空 (VS 超17号)",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2704190"
+      "model_number": "2704190",
+      "_check": {
+        "status": "unknown",
+        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "MATCH",
+          "MAKERS",
+          "超サイヤ人孫悟空",
+          "17"
+        ],
+        "missing": [
+          "タイトーくじ",
+          "烏野高校",
+          "青葉城西高校",
+          "b賞",
+          "及川徹"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }
