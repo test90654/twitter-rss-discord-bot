@@ -1,0 +1,49 @@
+{
+  "tweet_id": "2120115245477941378_1",
+  "original_tweet_id": "2120115245477941378",
+  "store": "ムーラン本店",
+  "text": "🔥買取強化🔥11/10更新\n2026年11月18日まで💫\n\nアニメ『ウマ娘 シンデレラグレイ』\nBANPRESTO EVOLVE\n\nオグリキャップ \\1,500\nタマモクロス　\\1,200\n\n買取大大大募集～‼️\nたくさんのお持ち込みお待ちしています🎵\n\n#ムーラン本店買取 #秋葉原 https://t.co/KpRjDIwiO9",
+  "image_file": "2120115245477941378_1.jpg",
+  "tweet_url": "https://x.com/MulanAkiba1Fkai/status/2120115245477941378",
+  "posted_at": "2026/11/10 20:23",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "BANPRESTO EVOLVE オグリキャップ",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "BANPRESTO EVOLVE",
+        "source": "ポスト本文",
+        "score": 0.682,
+        "unmatched": [
+          "オグリキャップ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「オグリキャップ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "BANPRESTO EVOLVE タマモクロス",
+      "price": "1200",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "BANPRESTO EVOLVE",
+        "source": "ポスト本文",
+        "score": 0.714,
+        "unmatched": [
+          "タマモクロス"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「タマモクロス」が参照名に見当たりません"
+      }
+    }
+  ],
+  "auto_checked_at": "2026/11/11 19:14"
+}
