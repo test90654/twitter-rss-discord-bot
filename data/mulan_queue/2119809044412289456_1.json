@@ -1,0 +1,1764 @@
+{
+  "tweet_id": "2119809044412289456_1",
+  "original_tweet_id": "2119809044412289456",
+  "store": "ムラ中",
+  "text": "📢11/10更新📢\n『呪術廻戦』プライズフィギュア\n一番くじフィギュア買取速報です😈✨️\n有効期限は2026年11月24日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/5IqMnuyxHw",
+  "image_file": "2119809044412289456_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2119809044412289456",
+  "posted_at": "2026/11/10 00:07",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "Grandista 五条悟",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "2775419",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 五条悟」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Grandista 虎杖悠仁",
+      "price": "800",
+      "update_date": "2026/11/10",
+      "model_number": "2775418",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 虎杖悠仁",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 虎杖悠仁」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Grandista 乙骨憂太",
+      "price": "900",
+      "update_date": "2026/11/10",
+      "model_number": "2789980",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "乙骨憂太"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「乙骨憂太」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Grandista 禪院真希",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "2789982",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 禪院真希",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 禪院真希」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 五条悟",
+      "price": "1200",
+      "update_date": "2026/11/10",
+      "model_number": "2735620",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 五条悟」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 虎杖悠仁 死滅回游",
+      "price": "900",
+      "update_date": "2026/11/10",
+      "model_number": "2793982",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 虎杖悠仁 死滅回游",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 虎杖悠仁 死滅回游」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 虎杖悠仁 (2025年)",
+      "price": "800",
+      "update_date": "2026/11/10",
+      "model_number": "2789975",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 虎杖悠仁 (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 虎杖悠仁 (2025年)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 八握剣異戒神将魔虚羅",
+      "price": "3800",
+      "update_date": "2026/11/10",
+      "model_number": "1121878",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 八握剣異戒神将魔虚羅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 八握剣異戒神将魔虚羅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα リカ (完全顕現)",
+      "price": "1100",
+      "update_date": "2026/11/10",
+      "model_number": "1123877",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.739,
+        "unmatched": [
+          "リカ",
+          "完全顕現"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「リカ」「完全顕現」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 宿儺",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "1119900",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 宿儺」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 五条悟 無量空処",
+      "price": "2500",
+      "update_date": "2026/11/10",
+      "model_number": "1107126",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 五条悟 無量空処",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 五条悟 無量空処」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 五条悟 無量空処 (再販)",
+      "price": "2500",
+      "update_date": "2026/11/10",
+      "model_number": "1123535",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 五条悟 無量空処",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 五条悟 無量空処」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 五条悟 覚醒",
+      "price": "2800",
+      "update_date": "2026/11/10",
+      "model_number": "1112016",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 五条悟 覚醒",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 五条悟 覚醒」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 五条悟 術式反転『赫』",
+      "price": "1600",
+      "update_date": "2026/11/10",
+      "model_number": "1116367",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 五条悟 術式反転「赫」",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 五条悟 術式反転「赫」」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 乙骨憂太",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1123875",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 乙骨憂太」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 伏黒恵 死滅回游",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "1123711",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα 伏黒恵 邂逅",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "死滅回游"
+        ],
+        "missing": [
+          "邂逅"
+        ],
+        "suggestion": "",
+        "reason": "「死滅回游」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "MAXIMATIC 伏黒恵 (2025年)",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "2789975",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 伏黒恵 (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 伏黒恵 (2025年)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 乙骨憂太 死滅回游",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "2789978",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 乙骨憂太 死滅回游",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 乙骨憂太 死滅回游」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 脹相 死滅回游",
+      "price": "1200",
+      "update_date": "2026/11/10",
+      "model_number": "2789976",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 脹相 死滅回游",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 脹相 死滅回游」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 宿儺 Special ver.",
+      "price": "1400",
+      "update_date": "2026/11/10",
+      "model_number": "2763170",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 宿儺 Special ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 宿儺 Special ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "KING OF ARTIST 五条悟 懐玉・玉折 SP",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "2760413",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST 五条悟 懐玉・玉折 SP",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST 五条悟 懐玉・玉折 SP」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "KING OF ARTIST 五条悟 懐玉・玉折 II",
+      "price": "1100",
+      "update_date": "2026/11/10",
+      "model_number": "2763172",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST 五条悟 懐玉・玉折 II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST 五条悟 懐玉・玉折 II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "KING OF ARTIST 夏油傑 懐玉・玉折 II",
+      "price": "700",
+      "update_date": "2026/11/10",
+      "model_number": "2763173",
+      "_check": {
+        "status": "verified",
+        "ref": "KING OF ARTIST 夏油傑 懐玉・玉折 II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「KING OF ARTIST 夏油傑 懐玉・玉折 II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "KING OF ARTIST 五条悟 懐玉・玉折 II SP",
+      "price": "1100",
+      "update_date": "2026/11/10",
+      "model_number": "2856240",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 五条悟 懐玉・玉折 SP",
+        "source": "登録済み/sheet1",
+        "score": 0.913,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "KING OF ARTIST 夏油傑 懐玉・玉折 II SP",
+      "price": "700",
+      "update_date": "2026/11/10",
+      "model_number": "2856240",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 夏油傑 懐玉・玉折 SP",
+        "source": "登録済み/sheet1",
+        "score": 0.913,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 渋谷事変 参 B賞 伏黒恵",
+      "price": "2000",
+      "update_date": "2026/11/10",
+      "model_number": "64596",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 参 B賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 渋谷事変 参 B賞 伏黒恵」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 渋谷事変 参 C賞 宿儺",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "64596",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 弐 C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 渋谷事変 弐 C賞 宿儺」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 渋谷事変 参 ラストワン賞 八握剣異戒神将魔虚羅",
+      "price": "18000",
+      "update_date": "2026/11/10",
+      "model_number": "64596",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 参 ラストワン賞 八握剣異戒神将魔虚羅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 渋谷事変 参 ラストワン賞 八握剣異戒神将魔虚羅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 渋谷事変 肆 B賞 虎杖悠仁",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "64793",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 肆 B賞 虎杖悠仁",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 渋谷事変 肆 B賞 虎杖悠仁」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 渋谷事変 肆 C賞 東堂葵",
+      "price": "4500",
+      "update_date": "2026/11/10",
+      "model_number": "64793",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 肆 C賞 東堂葵",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 渋谷事変 肆 C賞 東堂葵」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 渋谷事変 肆 ラストワン賞 真人 遍殺即霊体",
+      "price": "8500",
+      "update_date": "2026/11/10",
+      "model_number": "64793",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 肆 ラストワン賞 真人 遍殺即霊体",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 渋谷事変 肆 ラストワン賞 真人 遍殺即霊体」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 5th anniversary G賞 虎杖悠仁",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "67874",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 5th anniversary G賞 虎杖悠仁",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 5th anniversary G賞 虎杖悠仁」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 5th anniversary H賞 乙骨憂太",
+      "price": "1200",
+      "update_date": "2026/11/10",
+      "model_number": "67874",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 5th anniversary H賞 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 5th anniversary H賞 乙骨憂太」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "67874",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 5th anniversary ラストワン賞 渋谷事変 メモリアルフィギュア",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "67874",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.737,
+        "unmatched": [
+          "ラストワン賞",
+          "渋谷事変"
+        ],
+        "missing": [
+          "m賞",
+          "懐玉",
+          "玉折"
+        ],
+        "suggestion": "",
+        "reason": "「ラストワン賞」「渋谷事変」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- A賞 乙骨憂太",
+      "price": "4000",
+      "update_date": "2026/11/10",
+      "model_number": "67969",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- A賞 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- A賞 乙骨憂太」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "67969",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- B賞 五条悟」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- C賞 特級過呪怨霊 祈本里香",
+      "price": "11000",
+      "update_date": "2026/11/10",
+      "model_number": "67969",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- C賞 特級過呪怨霊 祈本里香",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- C賞 特級過呪怨霊 祈本里香」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- ラストワン賞 特級過呪怨霊 祈本里香 覚醒 ver.",
+      "price": "16000",
+      "update_date": "2026/11/10",
+      "model_number": "67969",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- ラストワン賞 特級過呪怨霊 祈本里香 覚醒 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- ラストワン賞 特級過呪怨霊 祈本里香 覚醒 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 伏黒恵 邂逅",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1111507",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 伏黒恵 邂逅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 伏黒恵 邂逅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 伏黒恵 邂逅 (再販)",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1123186",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 伏黒恵 邂逅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 伏黒恵 邂逅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 伏黒甚爾 邂逅",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1111505",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 伏黒甚爾 邂逅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 伏黒甚爾 邂逅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 伏黒甚爾 邂逅 (再販)",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1123188",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 伏黒甚爾 邂逅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 伏黒甚爾 邂逅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "FIGURIZM/FIGURIZMα 脹相 赫鱗躍動・載",
+      "price": "2000",
+      "update_date": "2026/11/10",
+      "model_number": "1117436",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 脹相 赫鱗躍動・載",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 脹相 赫鱗躍動・載」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 虚式「茈」",
+      "price": "2500",
+      "update_date": "2026/11/10",
+      "model_number": "1119902",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 虚式「茈」",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 虚式「茈」」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 虚式「茈」(懐玉・玉折)",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "1112682",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 虚式「茈」（懐玉・玉折）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 虚式「茈」（懐玉・玉折）」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 虚式「茈」(懐玉・玉折) (再販)",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "1125287",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 虚式「茈」（懐玉・玉折）",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 虚式「茈」（懐玉・玉折）」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 鏖殺",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "1117428",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 鏖殺",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 鏖殺」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 5周年",
+      "price": "1600",
+      "update_date": "2026/11/10",
+      "model_number": "1119872",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 5周年",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 5周年」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 最強の二人",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "1103727",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 最強の二人",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 最強の二人」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 最強の二人 (再販)",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "1115060",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 最強の二人",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 最強の二人」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 五条悟 めんそーれ!!!",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "1105282",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 五条悟 めんそーれ!!!",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 五条悟 めんそーれ!!!」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 虎杖悠仁 5周年",
+      "price": "800",
+      "update_date": "2026/11/10",
+      "model_number": "1119896",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 虎杖悠仁 5周年",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 虎杖悠仁 5周年」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 虎杖悠仁 黒閃",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "1117422",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 虎杖悠仁 黒閃",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 虎杖悠仁 黒閃」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 七海建人 共闘 ブラシアップ Ver.",
+      "price": "1200",
+      "update_date": "2026/11/10",
+      "model_number": "1124623",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta 七海建人 共闘",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "ブラシアップ",
+          "Ver."
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「ブラシアップ」「Ver.」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Luminasta 夏油傑 5周年",
+      "price": "700",
+      "update_date": "2026/11/10",
+      "model_number": "1119874",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 夏油傑 5周年",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 夏油傑 5周年」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 夏油傑 めんそーれ!!!",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1105283",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 夏油傑 めんそーれ!!!",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 夏油傑 めんそーれ!!!」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 脹相 死滅回游",
+      "price": "2200",
+      "update_date": "2026/11/10",
+      "model_number": "1123284",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 脹相 死滅回游",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 脹相 死滅回游」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 脹相",
+      "price": "3200",
+      "update_date": "2026/11/10",
+      "model_number": "1107721",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 脹相」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 脹相 (再販)",
+      "price": "3200",
+      "update_date": "2026/11/10",
+      "model_number": "1117239",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 脹相」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 宿儺「■」「開」",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "1112018",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 宿儺「■」「開」",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 宿儺「■」「開」」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 宿儺「■」「開」(再販)",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "1123190",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 宿儺「■」「開」",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 宿儺「■」「開」」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 伏黒甚爾 臨戦",
+      "price": "3600",
+      "update_date": "2026/11/10",
+      "model_number": "1104413",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 伏黒甚爾 臨戦",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 伏黒甚爾 臨戦」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 伏黒甚爾 臨戦 (再販)",
+      "price": "3600",
+      "update_date": "2026/11/10",
+      "model_number": "1117237",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 伏黒甚爾 臨戦",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 伏黒甚爾 臨戦」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 伏黒甚爾 天与呪縛",
+      "price": "3600",
+      "update_date": "2026/11/10",
+      "model_number": "1107128",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 伏黒甚爾 天与呪縛",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 伏黒甚爾 天与呪縛」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 伏黒甚爾 天与呪縛 (再販)",
+      "price": "3600",
+      "update_date": "2026/11/10",
+      "model_number": "1117241",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 伏黒甚爾 天与呪縛",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta 伏黒甚爾 天与呪縛」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 5th anniversary ラストワン賞 渋谷事変 メモリアルフィギュア",
+      "price": "3000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 5th anniversary M賞 懐玉・玉折 メモリアルフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.737,
+        "unmatched": [
+          "ラストワン賞",
+          "渋谷事変"
+        ],
+        "missing": [
+          "m賞",
+          "懐玉",
+          "玉折"
+        ],
+        "suggestion": "",
+        "reason": "「ラストワン賞」「渋谷事変」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- A賞 乙骨憂太",
+      "price": "4000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- A賞 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- A賞 乙骨憂太」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- B賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- B賞 五条悟」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- C賞 特級過呪怨霊 祈本里香",
+      "price": "11000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- C賞 特級過呪怨霊 祈本里香",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- C賞 特級過呪怨霊 祈本里香」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 呪術廻戦 0 -1224- ラストワン賞 特級過呪怨霊 祈本里香 覚醒ver.",
+      "price": "16000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 呪術廻戦 0 -1224- ラストワン賞 特級過呪怨霊 祈本里香 覚醒 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 呪術廻戦 0 -1224- ラストワン賞 特級過呪怨霊 祈本里香 覚醒 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 死滅回游 壱 F賞 虎杖悠仁",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 死滅回游 壱 F賞 虎杖悠仁",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 死滅回游 壱 F賞 虎杖悠仁」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 死滅回游 壱 I賞 星綺羅羅",
+      "price": "5000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 死滅回游 壱 I賞 星綺羅羅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 死滅回游 壱 I賞 星綺羅羅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 死滅回游 弐 G賞 乙骨憂太",
+      "price": "12000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "乙骨憂太"
+        ],
+        "missing": [
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "「乙骨憂太」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 死滅回游 弐 H賞 高羽史彦",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 死滅回游 壱 H賞 秤金次",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "高羽史彦"
+        ],
+        "missing": [
+          "秤金次"
+        ],
+        "suggestion": "",
+        "reason": "「高羽史彦」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 死滅回游 弐 I賞 石流龍",
+      "price": "2500",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 死滅回游 弐 I賞 石流龍",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 死滅回游 弐 I賞 石流龍」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 死滅回游 弐 J賞 羂索",
+      "price": "2200",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "J賞",
+          "羂索"
+        ],
+        "missing": [
+          "g賞",
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "「J賞」「羂索」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 死滅回游 弐 ラストワン賞 リカ",
+      "price": "13000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 死滅回游 壱 ラストワン賞 日車寛見・ジャッジマン",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "リカ"
+        ],
+        "missing": [
+          "日車寛見",
+          "ジャッジマン"
+        ],
+        "suggestion": "",
+        "reason": "「リカ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 5周年 FINAL! A賞 虎杖悠仁",
+      "price": "2200",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 渋谷事変 壱 A賞 虎杖悠仁",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "5",
+          "周年",
+          "FINAL"
+        ],
+        "missing": [
+          "渋谷事変"
+        ],
+        "suggestion": "",
+        "reason": "「5」「周年」「FINAL」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 5周年 FINAL! B賞 乙骨憂太",
+      "price": "2400",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "一番くじ",
+          "5",
+          "周年",
+          "FINAL",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 5周年 FINAL! ラストワン賞 五条悟",
+      "price": "8000",
+      "update_date": "2026/11/10",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.619,
+        "unmatched": [
+          "5",
+          "周年",
+          "FINAL"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「5」「周年」「FINAL」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Luminasta 石流龍",
+      "price": "900",
+      "update_date": "2026/11/10",
+      "model_number": "1125150",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "石流龍"
+        ],
+        "missing": [
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "「石流龍」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "獄門疆ルームライト",
+      "price": "2000",
+      "update_date": "2026/11/10",
+      "model_number": "2806608",
+      "_check": {
+        "status": "verified",
+        "ref": "獄門疆 ルームライト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「獄門疆 ルームライト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ジオラマフィギュア 夏油傑（スーツver.）",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "2670815",
+      "_check": {
+        "status": "verified",
+        "ref": "ジオラマフィギュア 夏油傑 (スーツ ver.)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ジオラマフィギュア 夏油傑 (スーツ ver.)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ジオラマフィギュア 夏油傑（スーツver.）",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "SP760414",
+      "_check": {
+        "status": "verified",
+        "ref": "ジオラマフィギュア 夏油傑 (スーツ ver.)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ジオラマフィギュア 夏油傑 (スーツ ver.)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Yumemirize 五条悟 懐玉・玉折",
+      "price": "2600",
+      "update_date": "2026/11/10",
+      "model_number": "1119856",
+      "_check": {
+        "status": "verified",
+        "ref": "Yumemirize 五条悟 懐玉・玉折",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Yumemirize 五条悟 懐玉・玉折」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Yumemirize 夏油傑 懐玉・玉折",
+      "price": "1500",
+      "update_date": "2026/11/10",
+      "model_number": "1119858",
+      "_check": {
+        "status": "verified",
+        "ref": "Yumemirize 夏油傑 懐玉・玉折",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Yumemirize 夏油傑 懐玉・玉折」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Yumemirize 乙骨憂太",
+      "price": "2400",
+      "update_date": "2026/11/10",
+      "model_number": "1119888",
+      "_check": {
+        "status": "verified",
+        "ref": "Yumemirize 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Yumemirize 乙骨憂太」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ちょこのせ 五条悟 懐玉・玉折",
+      "price": "2500",
+      "update_date": "2026/11/10",
+      "model_number": "1107720",
+      "_check": {
+        "status": "verified",
+        "ref": "ちょこのせ 五条悟 懐玉・玉折",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ちょこのせ 五条悟 懐玉・玉折」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ちょこのせ 夏油傑 懐玉・玉折",
+      "price": "1800",
+      "update_date": "2026/11/10",
+      "model_number": "1108191",
+      "_check": {
+        "status": "verified",
+        "ref": "ちょこのせ 夏油傑 懐玉・玉折",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ちょこのせ 夏油傑 懐玉・玉折」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ちょこのせ 伏黒甚爾 懐玉・玉折",
+      "price": "1600",
+      "update_date": "2026/11/10",
+      "model_number": "1110320",
+      "_check": {
+        "status": "verified",
+        "ref": "ちょこのせ 伏黒甚爾 懐玉・玉折",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ちょこのせ 伏黒甚爾 懐玉・玉折」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "XStellar 虎杖悠仁",
+      "price": "800",
+      "update_date": "2026/11/10",
+      "model_number": "1122917",
+      "_check": {
+        "status": "verified",
+        "ref": "XStellar 虎杖悠仁",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XStellar 虎杖悠仁」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "その他プライズフィギュア XStellar 禪院真希",
+      "price": "800",
+      "update_date": "2026/11/10",
+      "model_number": "1123703",
+      "_check": {
+        "status": "suspect",
+        "ref": "Xstellar 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "禪院真希"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "XStellar 禪院真希",
+        "reason": "「禪院真希」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Vivit 五条悟 呪術高専 Ver.",
+      "price": "1000",
+      "update_date": "2026/11/10",
+      "model_number": "SS15979",
+      "_check": {
+        "status": "verified",
+        "ref": "Vivit 五条悟 呪術高専 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Vivit 五条悟 呪術高専 Ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    }
+  ],
+  "auto_checked_at": "2026/11/11 13:40"
+}
