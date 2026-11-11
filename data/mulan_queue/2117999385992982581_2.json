@@ -119,17 +119,19 @@
       "update_date": "2026/11/05",
       "model_number": "2817132",
       "_check": {
-        "status": "suspect",
-        "ref": "うずまきナルト",
-        "source": "登録済み/sheet1",
-        "score": 0.538,
+        "status": "verified",
+        "ref": "忍界造形列伝 うずまきナルト",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "忍界造形列伝"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「忍界造形列伝」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2817132 で登録済みの「忍界造形列伝 うずまきナルト」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Figno A ナルト",
@@ -333,24 +335,27 @@
       "_auto_registered": true
     },
     {
-      "name": "PANEL SPECTACLE ナルト 時を超えた出陣",
+      "name": "PANEL SPECTACLE ナルト 時を超えた出逢い",
       "price": "1500",
       "update_date": "2026/11/05",
       "model_number": "2712891",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "PANEL SPECTACLE ナルト 時を超えた出逢い",
-        "source": "登録済み/sheet1",
-        "score": 0.708,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "時を超えた出陣"
         ],
         "missing": [
           "時を超えた出逢い"
         ],
-        "suggestion": "PANEL SPECTACLE ナルト 時を超えた出逢",
-        "reason": "「時を超えた出陣」が参照名に見当たりません（候補: 時を超えた出陣→時を超えた出逢）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2712891 で登録済みの「PANEL SPECTACLE ナルト 時を超えた出逢い」と一致"
+      },
+      "_ocr_name": "PANEL SPECTACLE ナルト 時を超えた出陣",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "PANEL SPECTACLE 波風ミナト",
@@ -698,22 +703,25 @@
       "_auto_registered": true
     },
     {
-      "name": "その他プライズフィギュア 忍界造形列伝 うずまきナルト",
+      "name": "忍界造形列伝 うずまきナルト",
       "price": "1000",
       "update_date": "2026/11/05",
       "model_number": "2817132",
       "_check": {
-        "status": "suspect",
-        "ref": "うずまきナルト",
-        "source": "登録済み/sheet1",
-        "score": 0.538,
+        "status": "verified",
+        "ref": "忍界造形列伝 うずまきナルト",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "忍界造形列伝"
         ],
         "missing": [],
-        "suggestion": "忍界造形列伝 うずまきナルト",
-        "reason": "「忍界造形列伝」が参照名に見当たりません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2817132 で登録済みの「忍界造形列伝 うずまきナルト」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア 忍界造形列伝 うずまきナルト",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "その他プライズフィギュア 忍界造形列伝 ナルト (72 series 19)",
@@ -775,24 +783,27 @@
       "_auto_registered": true
     },
     {
-      "name": "その他プライズフィギュア PANEL SPECTACLE ナルト 時を超えた出陣",
+      "name": "PANEL SPECTACLE ナルト 時を超えた出逢い",
       "price": "1500",
       "update_date": "2026/11/05",
       "model_number": "2712891",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "PANEL SPECTACLE ナルト 時を超えた出逢い",
-        "source": "登録済み/sheet1",
-        "score": 0.708,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "時を超えた出陣"
         ],
         "missing": [
           "時を超えた出逢い"
         ],
-        "suggestion": "PANEL SPECTACLE ナルト 時を超えた出逢",
-        "reason": "「時を超えた出陣」が参照名に見当たりません（候補: 時を超えた出陣→時を超えた出逢）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2712891 で登録済みの「PANEL SPECTACLE ナルト 時を超えた出逢い」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア PANEL SPECTACLE ナルト 時を超えた出陣",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "PANEL SPECTACLE 波風ミナト",
@@ -1000,24 +1011,27 @@
       }
     },
     {
-      "name": "その他プライズフィギュア 守鶴 ソフビフィギュア",
+      "name": "守鶴 ソフビフィギュア",
       "price": "800",
       "update_date": "2026/11/05",
       "model_number": "2749920",
       "_check": {
-        "status": "suspect",
-        "ref": "ガマブン太 ソフビフィギュア",
-        "source": "登録済み/sheet1",
-        "score": 0.8,
+        "status": "verified",
+        "ref": "守鶴 ソフビフィギュア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "守鶴"
         ],
         "missing": [
           "ガマブン太"
         ],
-        "suggestion": "守鶴 ソフビフィギュア",
-        "reason": "「守鶴」が参照名に見当たりません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2749920 で登録済みの「守鶴 ソフビフィギュア」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア 守鶴 ソフビフィギュア",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "その他プライズフィギュア ガマ吉 ソフビフィギュア",
@@ -1093,15 +1107,15 @@
       }
     },
     {
-      "name": "その他プライズフィギュア フィグライフ! 終末の谷 千手柱間",
+      "name": "フィグライフ! 終末の谷 千手柱間",
       "price": "1500",
       "update_date": "2026/11/05",
       "model_number": "2749921",
       "_check": {
-        "status": "unknown",
-        "ref": "フィグライフ! 火影岩",
-        "source": "登録済み/sheet1",
-        "score": 0.429,
+        "status": "verified",
+        "ref": "フィグライフ! 終末の谷 千手柱間",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "終末の谷",
           "千手柱間"
@@ -1109,20 +1123,23 @@
         "missing": [
           "火影岩"
         ],
-        "suggestion": "フィグライフ! 終末の谷 千手柱間",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2749921 で登録済みの「フィグライフ! 終末の谷 千手柱間」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア フィグライフ! 終末の谷 千手柱間",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "その他プライズフィギュア フィグライフ! 終末の谷 うちはマダラ",
+      "name": "フィグライフ! 終末の谷 うちはマダラ",
       "price": "1100",
       "update_date": "2026/11/05",
       "model_number": "2749922",
       "_check": {
-        "status": "unknown",
-        "ref": "フィグライフ! 火影岩",
-        "source": "登録済み/sheet1",
-        "score": 0.375,
+        "status": "verified",
+        "ref": "フィグライフ! 終末の谷 うちはマダラ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "終末の谷",
           "うちはマダラ"
@@ -1130,10 +1147,13 @@
         "missing": [
           "火影岩"
         ],
-        "suggestion": "フィグライフ! 終末の谷 うちはマダラ",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2749922 で登録済みの「フィグライフ! 終末の谷 うちはマダラ」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア フィグライフ! 終末の谷 うちはマダラ",
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

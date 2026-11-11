@@ -33,15 +33,13 @@
       "model_number": "",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.75,
         "unmatched": [
           "夜神月"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "ぬーどるストッパー 夜神月",
         "reason": "「夜神月」が参照名に見当たりません"
       }
@@ -53,15 +51,13 @@
       "model_number": "",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.692,
         "unmatched": [
           "リューク"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "ぬーどるストッパー リューク",
         "reason": "「リューク」が参照名に見当たりません"
       }
@@ -302,5 +298,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

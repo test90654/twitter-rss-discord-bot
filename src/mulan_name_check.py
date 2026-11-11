@@ -89,6 +89,86 @@ def same_item_name(a, b):
     return covered(a_words, b_flat, b_words) and covered(b_words, a_flat, a_words)
 
 
+MODEL_FUZZY_RATIO = 0.6  # 型番/JANで引いた名前と、読み間違い程度の違い（1〜2文字）とみなす似ている度合い
+
+
+def _key_tokens(name):
+    """賞・番号・A/B などの種類の印（違えば別の商品）"""
+    out = [t.lower() for t in tokens(name) if _KEY_TOKEN_RE.match(t)]
+    out += [w.rstrip(".") for w in _all_words(name) if re.fullmatch(r"[a-z]\.?", w)]
+    return sorted(out)
+
+
+def _align(name, cand, vocab=frozenset()):
+    """
+    OCRの商品名と、型番/JANで引いた登録済みの名前を単語ごとに突き合わせる。
+    戻り値: None（別の商品）/ "exact"（表記ゆれ・シリーズ名の有無だけの違い）/ "fuzzy"（読み間違い程度の違いがある）
+      ・OCRの単語は、どれも登録済みの名前にそのまま含まれるか、1〜2文字違いで含まれていること
+        （「ハチワレ」と「ちいかわ」、「宿儺」と「脹相」のようなキャラ違いは別の商品）
+      ・登録済みの名前にだけある単語は、先頭（シリーズ名）だけ許す
+        （末尾のキャラ名などが違うのは別の商品）
+    """
+    n_toks = tokens(name)
+    c_toks = tokens(cand)
+    if not n_toks or not c_toks:
+        return None
+    cand_ref = Ref(cand, "")
+    n_flat = _SEP_RE.sub("", _nfkc(name).lower())
+    kind = "exact"
+    unmatched = []  # 登録済みの名前にそのままは含まれない、OCRの単語（読み間違いの候補）
+    for t in n_toks:
+        if t.lower() in cand_ref.cmp:
+            continue
+        # 他の商品名で正しく使われている単語は読み間違いではない（シートの名前の方が間違っている可能性がある）
+        if t.lower() in vocab:
+            return None
+        ratio, _ = _best_window(t.lower(), cand_ref)
+        if ratio < MODEL_FUZZY_RATIO:
+            return None
+        unmatched.append(t)
+        kind = "fuzzy"
+    unmatched_ref = Ref(" ".join(unmatched), "") if unmatched else None
+    matched_any = False
+    for t in c_toks:
+        # 登録済みの名前の単語は、OCRの名前にそのまま含まれるか、読み間違いの候補の単語と似ていること
+        # （OCRの名前の別の単語の一部に似ているだけ、は数えない。例:「シナモン」と「シナモロール」）
+        if t.lower() in n_flat or (
+            unmatched_ref and _best_window(t.lower(), unmatched_ref)[0] >= MODEL_FUZZY_RATIO
+        ):
+            matched_any = True
+        elif matched_any:
+            return None  # 一致した単語より後ろに、OCRの名前に無い単語がある
+    return kind
+
+
+def build_vocab(refs):
+    """参照名（正しい表記）に出てくる単語の集まり"""
+    return frozenset(t for r in refs for t in r.toks if len(t) >= 2)
+
+
+def match_by_model(name, candidates, vocab=frozenset()):
+    """
+    型番/JANが同じで、シートに登録済みの商品名（手で直した名前）の中から、この商品の正しい名前を選ぶ。
+    candidates: [(登録済みの商品名, 登録された更新日の数), ...]
+    ・同じ型番でもキャラ違い・賞違い（一番くじ）があるので、単語の突き合わせ（_align）で同じ商品のものだけを選ぶ
+    ・読み間違い程度の違いを直すときは、シートの名前の方が正しいとは限らない（シートにもOCRのミスが残っている）ので、
+      別々の更新日に2回以上登録されている名前だけを使う
+    戻り値: (選んだ名前, "exact"/"fuzzy") または None（候補が無い・決めきれない）
+    """
+    keys = _key_tokens(name)
+    found = {}
+    for cand, n_dates in candidates:
+        if _key_tokens(cand) != keys:
+            continue
+        kind = _align(name, cand, vocab)
+        if kind is None or (kind == "fuzzy" and n_dates < 2):
+            continue
+        found[_SEP_RE.sub("", _nfkc(cand).lower())] = (cand, kind)
+    if len(found) != 1:
+        return None  # 当てはまる名前が無い、または複数あって決めきれない
+    return next(iter(found.values()))
+
+
 class Ref:
     __slots__ = ("name", "source", "cmp", "disp", "toks")
 

@@ -86,20 +86,23 @@
       "_auto_registered": true
     },
     {
-      "name": "セガプライズ SPM にゃんこ (再販)",
+      "name": "SPM にゃんこ (再販)",
       "price": "2500",
       "update_date": "2026/10/21",
       "model_number": "1116389",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "SPM にゃんこ (再販)",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 1116389 で登録済みの「SPM にゃんこ (再販)」と一致"
+      },
+      "_ocr_name": "セガプライズ SPM にゃんこ (再販)",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "セガプライズ SPM 堕悪天使 (再販)",
@@ -182,10 +185,10 @@
       "update_date": "2026/10/21",
       "model_number": "1120817",
       "_check": {
-        "status": "suspect",
-        "ref": "Luminasta 初音ミク Conceptual series Vol.1",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "Luminasta Conceptual series Vol.3",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "Vol.3"
         ],
@@ -193,9 +196,11 @@
           "初音ミク",
           "vol.1"
         ],
-        "suggestion": "Luminasta Conceptual series Vol.1",
-        "reason": "「Vol.3」が参照名に見当たりません（候補: Vol.3→Vol.1）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1120817 で登録済みの「Luminasta Conceptual series Vol.3」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta Project DIVA MEGA39's 15th Ver.",
@@ -419,10 +424,10 @@
       "update_date": "2026/10/21",
       "model_number": "1121368",
       "_check": {
-        "status": "unknown",
-        "ref": "初音ミク×シナモロール ぬいぐるみ 初音ミク",
-        "source": "登録済み/sheet1",
-        "score": 0.474,
+        "status": "verified",
+        "ref": "ふわぷち ぬいぐるみ LL 初音ミク にゃんこ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ふわぷち",
           "LL",
@@ -432,8 +437,10 @@
           "シナモロール"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 1121368 で登録済みの「ふわぷち ぬいぐるみ LL 初音ミク にゃんこ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ふわぷち ぬいぐるみ LL 巡音ルカ",
@@ -463,10 +470,10 @@
       "update_date": "2026/10/21",
       "model_number": "1121277",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク×シナモロール ぬいぐるみ 初音ミク",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "ふわぷち ぬいぐるみ L 初音ミク",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ふわぷち"
         ],
@@ -474,8 +481,10 @@
           "シナモロール"
         ],
         "suggestion": "",
-        "reason": "「ふわぷち」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1121277 で登録済みの「ふわぷち ぬいぐるみ L 初音ミク」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ふわぷち ぬいぐるみ L 深海少女",
@@ -483,10 +492,10 @@
       "update_date": "2026/10/21",
       "model_number": "1123976",
       "_check": {
-        "status": "unknown",
-        "ref": "パレード ぬいぐるみ / マスコット",
-        "source": "登録済み/sheet1",
-        "score": 0.385,
+        "status": "verified",
+        "ref": "ふわぷち ぬいぐるみ L 深海少女",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ふわぷち",
           "深海少女"
@@ -495,8 +504,10 @@
           "マスコット"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 1123976 で登録済みの「ふわぷち ぬいぐるみ L 深海少女」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ふわぷち ぬいぐるみ M クラシカルメイド",
@@ -504,10 +515,10 @@
       "update_date": "2026/10/21",
       "model_number": "1121627",
       "_check": {
-        "status": "unknown",
-        "ref": "Luminasta クラシカルメイド",
-        "source": "登録済み/sheet1",
-        "score": 0.471,
+        "status": "verified",
+        "ref": "ふわぷち ぬいぐるみ M クラシカルメイド",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ふわぷち",
           "ぬいぐるみ"
@@ -516,8 +527,10 @@
           "luminasta"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 1121627 で登録済みの「ふわぷち ぬいぐるみ M クラシカルメイド」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ふわぷち ぬいぐるみ M Punk!",
@@ -525,10 +538,10 @@
       "update_date": "2026/10/21",
       "model_number": "1123966",
       "_check": {
-        "status": "unknown",
-        "ref": "パレード ぬいぐるみ / マスコット",
-        "source": "登録済み/sheet1",
-        "score": 0.385,
+        "status": "verified",
+        "ref": "ふわぷち ぬいぐるみ M Punk!",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ふわぷち",
           "Punk"
@@ -537,8 +550,10 @@
           "マスコット"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 1123966 で登録済みの「ふわぷち ぬいぐるみ M Punk!」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ 初音ミク",
@@ -546,15 +561,17 @@
       "update_date": "2026/10/21",
       "model_number": "1101035",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク×シナモロール ミニぬいぐるみ",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "初音ミク × シナモロール ミニぬいぐるみ 初音ミク",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1101035 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ 初音ミク」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ シナモン (2種共通)",
@@ -580,15 +597,17 @@
       "update_date": "2026/10/21",
       "model_number": "1109349",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク×シナモロール ミニぬいぐるみ",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "初音ミク × シナモロール ミニぬいぐるみ 初音ミク (再販)",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ (再販)",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1109349 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ 初音ミク (再販)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ シナモン (2種共通 / 再販)",
@@ -614,15 +633,17 @@
       "update_date": "2026/10/21",
       "model_number": "1111878",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.2 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.2 (2種共通)",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1111878 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.2 初音ミク (2種共通)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.2 シナモン (2種共通)",
@@ -648,15 +669,17 @@
       "update_date": "2026/10/21",
       "model_number": "1111880",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.3 初音ミク",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.3",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1111880 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.3 初音ミク」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.3 シナモン",
@@ -682,15 +705,17 @@
       "update_date": "2026/10/21",
       "model_number": "1115086",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.4 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.4 (2種共通)",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1115086 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.4 初音ミク (2種共通)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.4 シナモン (2種共通)",
@@ -716,15 +741,17 @@
       "update_date": "2026/10/21",
       "model_number": "1115088",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.5 初音ミク",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.5",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1115088 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.5 初音ミク」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.5 シナモン (2種共通)",
@@ -750,15 +777,17 @@
       "update_date": "2026/10/21",
       "model_number": "1116877",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 (2種共通)",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1116877 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 シナモン (2種共通)",
@@ -784,15 +813,17 @@
       "update_date": "2026/10/21",
       "model_number": "1121194",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通 / 再販)",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 (2種共通 / 再販)",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1121194 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.6 初音ミク (2種共通 / 再販)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.6 シナモン (2種共通 / 再販)",
@@ -818,15 +849,17 @@
       "update_date": "2026/10/21",
       "model_number": "1116945",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "初音ミク × シナモロール ミニぬいぐるみ Vol.7 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
-        "suggestion": "初音ミク × シナモロール ミニぬいぐるみ Vol.7 (2種共通)",
-        "reason": "同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1116945 で登録済みの「初音ミク × シナモロール ミニぬいぐるみ Vol.7 初音ミク (2種共通)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール ミニぬいぐるみ Vol.7 シナモン (2種共通)",
@@ -852,10 +885,10 @@
       "update_date": "2026/10/21",
       "model_number": "1122291",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク × シナモロール マスコット ぴょこぴょこ シナモン",
-        "source": "登録済み/sheet1",
-        "score": 0.862,
+        "status": "verified",
+        "ref": "初音ミク × シナモロール マスコット ぴょこぴょこ 初音ミク (2種共通)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "2",
           "種共通"
@@ -863,9 +896,11 @@
         "missing": [
           "シナモン"
         ],
-        "suggestion": "初音ミク × シナモロール マスコット ぴょこぴょこ (2種共通)",
-        "reason": "「2」「種共通」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「初音ミク」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 1122291 で登録済みの「初音ミク × シナモロール マスコット ぴょこぴょこ 初音ミク (2種共通)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール マスコット ぴょこぴょこ シナモン",
@@ -925,10 +960,10 @@
       "update_date": "2026/10/21",
       "model_number": "1124376",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク × シナモロール マスコット 桜 Ver. 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
-        "score": 0.618,
+        "status": "verified",
+        "ref": "初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ ミク 2種共通",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "クリームソーダ",
           "レモンソーダ"
@@ -937,8 +972,10 @@
           "ver."
         ],
         "suggestion": "",
-        "reason": "「クリームソーダ」「レモンソーダ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1124376 で登録済みの「初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ ミク 2種共通」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ シナモン 2種共通",
@@ -946,10 +983,10 @@
       "update_date": "2026/10/21",
       "model_number": "1124376",
       "_check": {
-        "status": "suspect",
-        "ref": "初音ミク × シナモロール マスコット 桜 Ver. シナモン (2種共通)",
-        "source": "登録済み/sheet1",
-        "score": 0.639,
+        "status": "verified",
+        "ref": "初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ シナモン 2種共通",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "クリームソーダ",
           "レモンソーダ"
@@ -958,9 +995,11 @@
           "ver."
         ],
         "suggestion": "",
-        "reason": "「クリームソーダ」「レモンソーダ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1124376 で登録済みの「初音ミク × シナモロール マスコット クリームソーダ・レモンソーダ シナモン 2種共通」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

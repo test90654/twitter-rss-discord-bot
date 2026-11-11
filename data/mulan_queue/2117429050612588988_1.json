@@ -14,10 +14,10 @@
       "update_date": "2026/11/03",
       "model_number": "2844572",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ゾロ",
-        "source": "登録済み/sheet1",
-        "score": 0.143,
+        "status": "verified",
+        "ref": "THEORAMA SOUL ゾロ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "THEORAMA",
           "SOUL"
@@ -26,8 +26,10 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2844572 で登録済みの「THEORAMA SOUL ゾロ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THEORAMA SOUL シャンクス",
@@ -114,10 +116,10 @@
       "update_date": "2026/11/03",
       "model_number": "2824661",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC PLUS 宿儺",
-        "source": "登録済み/sheet1",
-        "score": 0.812,
+        "status": "verified",
+        "ref": "MAXIMATICPLUS サンジ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "サンジ"
         ],
@@ -125,8 +127,10 @@
           "宿儺"
         ],
         "suggestion": "",
-        "reason": "「サンジ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2824661 で登録済みの「MAXIMATICPLUS サンジ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ROMANCE DAWN ルフィ vol.1",
@@ -152,15 +156,15 @@
       }
     },
     {
-      "name": "Grandista ギア 5 ルフィ III",
+      "name": "Grandista ギア5 ルフィ III",
       "price": "1400",
       "update_date": "2026/11/03",
       "model_number": "2834503",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista ルフィ (2024年)",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "Grandista ギア5 ルフィ III",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5",
@@ -170,8 +174,11 @@
           "2024"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」「III」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2834503 で登録済みの「Grandista ギア5 ルフィ III」と一致"
+      },
+      "_ocr_name": "Grandista ギア 5 ルフィ III",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ルフィ (2024 年 )",
@@ -272,22 +279,25 @@
       }
     },
     {
-      "name": "Grandista シャンクス II",
+      "name": "Grandista シャンクスII",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2834505",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista シャンクス",
-        "source": "登録済み/sheet1",
-        "score": 0.875,
+        "status": "verified",
+        "ref": "Grandista シャンクスII",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "II"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2834505 で登録済みの「Grandista シャンクスII」と一致"
+      },
+      "_ocr_name": "Grandista シャンクス II",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ROMANCE DAWN ルフィ vol.2",
@@ -295,10 +305,10 @@
       "update_date": "2026/11/03",
       "model_number": "2816414",
       "_check": {
-        "status": "unknown",
-        "ref": "Vol.2 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
-        "score": 0.263,
+        "status": "verified",
+        "ref": "ROMANCE DAWN ルフィ vol.2",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ROMANCE",
           "DAWN",
@@ -309,8 +319,10 @@
           "種共通"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2816414 で登録済みの「ROMANCE DAWN ルフィ vol.2」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "CROSS POSING ルフィ",
@@ -784,10 +796,10 @@
       "update_date": "2026/11/03",
       "model_number": "2835307",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ルフィ",
-        "source": "登録済み/sheet1",
-        "score": 0.2,
+        "status": "verified",
+        "ref": "野郎ども宴だ!! ルフィ SP ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "野郎ども宴だ",
           "SP",
@@ -798,8 +810,10 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2835307 で登録済みの「野郎ども宴だ!! ルフィ SP ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Fluffy Puffy チョッパー vol.1 A",
@@ -823,22 +837,25 @@
       }
     },
     {
-      "name": "ルフィ ( 2024 年 )",
+      "name": "Grandista ルフィ (2024 年 )",
       "price": "1500",
       "update_date": "2026/11/03",
       "model_number": "2723174",
       "_check": {
-        "status": "unknown",
-        "ref": "Grandista ルフィ (2024年)",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "Grandista ルフィ (2024 年 )",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "grandista"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2723174 で登録済みの「Grandista ルフィ (2024 年 )」と一致"
+      },
+      "_ocr_name": "ルフィ ( 2024 年 )",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ゾロ ( 2024 年 )",
@@ -860,14 +877,14 @@
       }
     },
     {
-      "name": "ゾロ II ( 2026 年 )",
+      "name": "Grandista ゾロ II (2026 年 )",
       "price": "1800",
       "update_date": "2026/11/03",
       "model_number": "2814781",
       "_check": {
-        "status": "unknown",
-        "ref": "Grandista ゾロ II（2026年版）",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "Grandista ゾロ II (2026 年 )",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
@@ -875,8 +892,11 @@
           "年版"
         ],
         "suggestion": "",
-        "reason": "参照名「Grandista ゾロ II（2026年版）」と比べて商品名に足りない部分が多いので、別の商品の可能性があります"
-      }
+        "reason": "型番/JAN 2814781 で登録済みの「Grandista ゾロ II (2026 年 )」と一致"
+      },
+      "_ocr_name": "ゾロ II ( 2026 年 )",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "エース ( 2025 年 )",
@@ -922,15 +942,15 @@
       }
     },
     {
-      "name": "シャンクス II",
+      "name": "Grandista シャンクスII",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2834505",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista シャンクス",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "Grandista シャンクスII",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "II"
         ],
@@ -938,8 +958,11 @@
           "grandista"
         ],
         "suggestion": "",
-        "reason": "「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2834505 で登録済みの「Grandista シャンクスII」と一致"
+      },
+      "_ocr_name": "シャンクス II",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "エドワード・ニューゲート",
@@ -962,40 +985,46 @@
       "_auto_registered": true
     },
     {
-      "name": "ハンコック",
+      "name": "Grandista ハンコック",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2774190",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "Grandista ハンコック",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "grandista"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2774190 で登録済みの「Grandista ハンコック」と一致"
+      },
+      "_ocr_name": "ハンコック",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "ティーチ",
+      "name": "Grandista ティーチ",
       "price": "1200",
       "update_date": "2026/11/03",
       "model_number": "2834504",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "Grandista ティーチ",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "grandista"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2834504 で登録済みの「Grandista ティーチ」と一致"
+      },
+      "_ocr_name": "ティーチ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ルフィ エルバフ",
@@ -1055,15 +1084,15 @@
       "_auto_registered": true
     },
     {
-      "name": "KING OF ARTIST ルフィ ギア 5 II",
+      "name": "KING OF ARTIST ギア5 ルフィ II",
       "price": "1100",
       "update_date": "2026/11/03",
       "model_number": "2729190",
       "_check": {
-        "status": "suspect",
-        "ref": "KING OF ARTIST ロー II",
-        "source": "登録済み/sheet1",
-        "score": 0.7,
+        "status": "verified",
+        "ref": "KING OF ARTIST ギア5 ルフィ II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ルフィ",
           "ギア",
@@ -1073,8 +1102,11 @@
           "ロー"
         ],
         "suggestion": "",
-        "reason": "「ルフィ」「ギア」「5」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2729190 で登録済みの「KING OF ARTIST ギア5 ルフィ II」と一致"
+      },
+      "_ocr_name": "KING OF ARTIST ルフィ ギア 5 II",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ルフィ ギア 5 II SP",
@@ -1128,10 +1160,10 @@
       "update_date": "2026/11/03",
       "model_number": "2800814",
       "_check": {
-        "status": "suspect",
-        "ref": "KING OF ARTIST ゾロ ワノ国 II SP",
-        "source": "登録済み/sheet1",
-        "score": 0.63,
+        "status": "verified",
+        "ref": "KING OF ARTIST ルフィ ワノ国 II SPECIAL",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ルフィ",
           "SPECIAL"
@@ -1140,8 +1172,10 @@
           "ゾロ"
         ],
         "suggestion": "",
-        "reason": "「ルフィ」「SPECIAL」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2800814 で登録済みの「KING OF ARTIST ルフィ ワノ国 II SPECIAL」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ゾロ ワノ国 II SP",
@@ -1441,10 +1475,10 @@
       "update_date": "2026/11/03",
       "model_number": "2748104",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista ルフィ (2024年)",
-        "source": "登録済み/sheet1",
-        "score": 0.8,
+        "status": "verified",
+        "ref": "Grandista ギア5 ルフィ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5"
@@ -1453,8 +1487,10 @@
           "2024"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2748104 で登録済みの「Grandista ギア5 ルフィ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ギア5 ルフィ II",
@@ -1462,10 +1498,10 @@
       "update_date": "2026/11/03",
       "model_number": "2774192",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista ルフィ (2024年)",
-        "source": "登録済み/sheet1",
-        "score": 0.706,
+        "status": "verified",
+        "ref": "Grandista ギア5 ルフィ II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5",
@@ -1475,8 +1511,10 @@
           "2024"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2774192 で登録済みの「Grandista ギア5 ルフィ II」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "DXF シリーズ ワノ国 ゾロ 浴衣 ver.",
@@ -1613,5 +1651,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

@@ -12,15 +12,13 @@
       "model_number": "19584",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.562,
         "unmatched": [
           "ウラヤハボウズ"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "ぬーどるストッパー ウラヤハボウズ",
         "reason": "「ウラヤハボウズ」が参照名に見当たりません"
       }
@@ -224,18 +222,18 @@
       "update_date": "2023-09-30",
       "model_number": "17459",
       "_check": {
-        "status": "suspect",
-        "ref": "超 BIG ぬいぐるみ ちいかわ",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "超 BIG さすまた ちいかわ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "さすまた"
         ],
         "missing": [
           "ぬいぐるみ"
         ],
-        "suggestion": "超BIG さすまた ちいかわ",
-        "reason": "「さすまた」が参照名に見当たりません"
+        "suggestion": "",
+        "reason": "型番/JAN 17459 で登録済みの「超 BIG さすまた ちいかわ」と一致"
       }
     },
     {
@@ -265,16 +263,16 @@
       "update_date": "2023-09-30",
       "model_number": "15131",
       "_check": {
-        "status": "unknown",
-        "ref": "ちいかわ",
-        "source": "ポスト本文",
-        "score": 0.364,
+        "status": "verified",
+        "ref": "浴衣ぬいぐるみ ちいかわ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "浴衣ぬいぐるみ"
         ],
         "missing": [],
-        "suggestion": "浴衣ぬいぐるみ ちいかわ",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 15131 で登録済みの「浴衣ぬいぐるみ ちいかわ」と一致"
       }
     },
     {
@@ -283,18 +281,18 @@
       "update_date": "2023-09-30",
       "model_number": "15131",
       "_check": {
-        "status": "unknown",
-        "ref": "爆豪勝己 × ハチワレ",
-        "source": "登録済み/sheet1",
-        "score": 0.364,
+        "status": "verified",
+        "ref": "浴衣ぬいぐるみ ハチワレ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "浴衣ぬいぐるみ"
         ],
         "missing": [
           "爆豪勝己"
         ],
-        "suggestion": "浴衣ぬいぐるみ ハチワレ",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 15131 で登録済みの「浴衣ぬいぐるみ ハチワレ」と一致"
       }
     },
     {
@@ -341,18 +339,18 @@
       "update_date": "2023-09-30",
       "model_number": "17327",
       "_check": {
-        "status": "unknown",
-        "ref": "爆豪勝己 × ハチワレ",
-        "source": "登録済み/sheet1",
-        "score": 0.267,
+        "status": "verified",
+        "ref": "泣いちゃったぬいぐるみ ハチワレ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "泣いちゃったぬいぐるみ"
         ],
         "missing": [
           "爆豪勝己"
         ],
-        "suggestion": "泣いちゃったぬいぐるみ ハチワレ",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 17327 で登録済みの「泣いちゃったぬいぐるみ ハチワレ」と一致"
       }
     },
     {
@@ -445,10 +443,10 @@
       "update_date": "2023-09-30",
       "model_number": "15059",
       "_check": {
-        "status": "unknown",
-        "ref": "シナモン (2種共通)",
-        "source": "登録済み/sheet1",
-        "score": 0.176,
+        "status": "verified",
+        "ref": "うさぎがいっぱいマスコット (3種共通)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "うさぎがいっぱいマスコット",
           "3"
@@ -457,10 +455,10 @@
           "シナモン",
           "2"
         ],
-        "suggestion": "うさぎがいっぱいマスコット (3種共通)",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 15059 で登録済みの「うさぎがいっぱいマスコット (3種共通)」と一致"
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

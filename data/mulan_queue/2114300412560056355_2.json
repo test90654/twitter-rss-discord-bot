@@ -662,10 +662,10 @@
       "update_date": "2026/10/25",
       "model_number": "2693441",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ゾロ",
-        "source": "登録済み/sheet1",
-        "score": 0.214,
+        "status": "verified",
+        "ref": "THE 出陣 孫悟空 身勝手の極意",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "出陣",
           "孫悟空",
@@ -676,19 +676,21 @@
           "ゾロ"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2693441 で登録済みの「THE 出陣 孫悟空 身勝手の極意」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "THE 出陣 超サイヤ人4孫悟空",
+      "name": "THE 出陣 超サイヤ人4 孫悟空",
       "price": "1100",
       "update_date": "2026/10/25",
       "model_number": "2752066",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ゾロ",
-        "source": "登録済み/sheet1",
-        "score": 0.214,
+        "status": "verified",
+        "ref": "THE 出陣 超サイヤ人4 孫悟空",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "出陣",
           "超サイヤ人",
@@ -700,8 +702,11 @@
           "ゾロ"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2752066 で登録済みの「THE 出陣 超サイヤ人4 孫悟空」と一致"
+      },
+      "_ocr_name": "THE 出陣 超サイヤ人4孫悟空",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出陣 超サイヤ人4ベジータ",
@@ -757,10 +762,10 @@
       "update_date": "2026/10/25",
       "model_number": "2794204",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ゾロ",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "status": "verified",
+        "ref": "THE 出陣 ピッコロ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "出陣",
           "ピッコロ"
@@ -770,8 +775,10 @@
           "ゾロ"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2794204 で登録済みの「THE 出陣 ピッコロ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出陣 亀仙人",
@@ -1163,10 +1170,10 @@
       "update_date": "2026/10/25",
       "model_number": "2794213",
       "_check": {
-        "status": "unknown",
-        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
-        "source": "登録済み/sheet1",
-        "score": 0.087,
+        "status": "verified",
+        "ref": "MATCH MAKERS 孫悟空 (VS ゴクウブラック)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "MATCH",
           "MAKERS",
@@ -1181,8 +1188,10 @@
           "及川徹"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2794213 で登録済みの「MATCH MAKERS 孫悟空 (VS ゴクウブラック)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MATCH MAKERS ゴクウブラック (VS 孫悟空)",
@@ -1190,10 +1199,10 @@
       "update_date": "2026/10/25",
       "model_number": "2794214",
       "_check": {
-        "status": "unknown",
-        "ref": "タイトーくじ 烏野高校 VS 青葉城西高校 B賞 及川徹",
-        "source": "登録済み/sheet1",
-        "score": 0.087,
+        "status": "verified",
+        "ref": "MATCH MAKERS ゴクウブラック (VS 孫悟空)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "MATCH",
           "MAKERS",
@@ -1208,8 +1217,10 @@
           "及川徹"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2794214 で登録済みの「MATCH MAKERS ゴクウブラック (VS 孫悟空)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MATCH MAKERS 孫悟空 身勝手の極意 (VS ジレン)",
@@ -1736,5 +1747,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

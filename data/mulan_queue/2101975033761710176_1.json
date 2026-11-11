@@ -11,10 +11,10 @@
       "update_date": "2026年9月21日",
       "model_number": "2805907",
       "_check": {
-        "status": "unknown",
-        "ref": "呪祓ノ型 五条悟 3",
-        "source": "登録済み/sheet1",
-        "score": 0.053,
+        "status": "verified",
+        "ref": "History Box / 超サイヤ人３ 孫悟空",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "History",
           "Box",
@@ -26,7 +26,7 @@
           "五条悟"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
+        "reason": "型番/JAN 2805907 で登録済みの「History Box / 超サイヤ人３ 孫悟空」と一致"
       }
     },
     {
@@ -35,14 +35,14 @@
       "update_date": "2026年9月21日",
       "model_number": "2785670",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "History Box / 孫悟天 & トランクス",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
+        "reason": "型番/JAN 2785670 で登録済みの「History Box / 孫悟天 & トランクス」と一致"
       }
     },
     {
@@ -51,10 +51,10 @@
       "update_date": "2026年9月21日",
       "model_number": "2788680",
       "_check": {
-        "status": "unknown",
-        "ref": "XrossLink 煉獄 (初版)",
-        "source": "登録済み/sheet1",
-        "score": 0.111,
+        "status": "verified",
+        "ref": "スカウター型 スピーカー (初版・再販問わず)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "スカウター型",
           "スピーカー",
@@ -64,8 +64,8 @@
           "xrosslink",
           "煉獄"
         ],
-        "suggestion": "/ スカウター型 スピーカー (初版・再販問わず)",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 2788680 で登録済みの「スカウター型 スピーカー (初版・再販問わず)」と一致"
       }
     },
     {
@@ -74,10 +74,10 @@
       "update_date": "2026年9月21日",
       "model_number": "2824661",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC PLUS 宿儺",
-        "source": "登録済み/sheet1",
-        "score": 0.812,
+        "status": "verified",
+        "ref": "MAXIMATICPLUS サンジ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "サンジ"
         ],
@@ -85,7 +85,7 @@
           "宿儺"
         ],
         "suggestion": "",
-        "reason": "「サンジ」が参照名に見当たりません"
+        "reason": "型番/JAN 2824661 で登録済みの「MAXIMATICPLUS サンジ」と一致"
       }
     },
     {
@@ -94,16 +94,16 @@
       "update_date": "2026年9月21日",
       "model_number": "2819251",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista S・F",
-        "source": "登録済み/sheet1",
-        "score": 0.529,
+        "status": "verified",
+        "ref": "Grandista / うちはイタチⅡ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "うちはイタチII"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「うちはイタチII」が参照名に見当たりません"
+        "reason": "型番/JAN 2819251 で登録済みの「Grandista / うちはイタチⅡ」と一致"
       }
     },
     {
@@ -112,16 +112,16 @@
       "update_date": "2026年9月21日",
       "model_number": "2800155",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista S・F",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "Grandista 藍染惣右介",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "藍染惣介"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「藍染惣介」が参照名に見当たりません"
+        "reason": "型番/JAN 2800155 で登録済みの「Grandista 藍染惣右介」と一致"
       }
     },
     {
@@ -168,10 +168,10 @@
       "update_date": "2026年9月21日",
       "model_number": "1125397",
       "_check": {
-        "status": "unknown",
-        "ref": "Yumemirize 狗巻棘",
-        "source": "登録済み/sheet1",
-        "score": 0.417,
+        "status": "verified",
+        "ref": "Yumemirize / 綾波レイ スクール水着 Ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "綾波レイ",
           "スクール水着",
@@ -181,7 +181,7 @@
           "狗巻棘"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
+        "reason": "型番/JAN 1125397 で登録済みの「Yumemirize / 綾波レイ スクール水着 Ver.」と一致"
       }
     },
     {
@@ -190,10 +190,10 @@
       "update_date": "2026年9月21日",
       "model_number": "1125391",
       "_check": {
-        "status": "suspect",
-        "ref": "XrossLink 煉獄 (再販)",
-        "source": "登録済み/sheet1",
-        "score": 0.75,
+        "status": "verified",
+        "ref": "XrossLink / 弐号機",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "弐号機"
         ],
@@ -201,7 +201,7 @@
           "煉獄"
         ],
         "suggestion": "",
-        "reason": "「弐号機」が参照名に見当たりません"
+        "reason": "型番/JAN 1125391 で登録済みの「XrossLink / 弐号機」と一致"
       }
     },
     {
@@ -210,10 +210,10 @@
       "update_date": "2026年9月21日",
       "model_number": "1125393",
       "_check": {
-        "status": "suspect",
-        "ref": "XrossLink 煉獄 (再販)",
-        "source": "登録済み/sheet1",
-        "score": 0.6,
+        "status": "verified",
+        "ref": "XrossLink / EVA 量産機",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "EVA",
           "量産機"
@@ -222,7 +222,7 @@
           "煉獄"
         ],
         "suggestion": "",
-        "reason": "「EVA」「量産機」が参照名に見当たりません"
+        "reason": "型番/JAN 1125393 で登録済みの「XrossLink / EVA 量産機」と一致"
       }
     },
     {
@@ -251,16 +251,16 @@
       "update_date": "2026年9月21日",
       "model_number": "1125343",
       "_check": {
-        "status": "suspect",
-        "ref": "Luminasta フリーレン インミミック",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "Luminasta / フリーレン インミミック PLUS",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "PLUS"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「PLUS」が参照名に見当たりません"
+        "reason": "型番/JAN 1125343 で登録済みの「Luminasta / フリーレン インミミック PLUS」と一致"
       }
     },
     {
@@ -269,10 +269,10 @@
       "update_date": "2026年9月21日",
       "model_number": "1124907",
       "_check": {
-        "status": "suspect",
-        "ref": "Xstellar 乙骨憂太",
-        "source": "登録済み/sheet1",
-        "score": 0.615,
+        "status": "verified",
+        "ref": "Xstellar / ナギサ (水着)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ナギサ",
           "水着"
@@ -281,7 +281,7 @@
           "乙骨憂太"
         ],
         "suggestion": "",
-        "reason": "「ナギサ」「水着」が参照名に見当たりません"
+        "reason": "型番/JAN 1124907 で登録済みの「Xstellar / ナギサ (水着)」と一致"
       }
     },
     {
@@ -290,10 +290,10 @@
       "update_date": "2026年9月21日",
       "model_number": "2822574",
       "_check": {
-        "status": "suspect",
-        "ref": "おすわりフィギュア フリーレン",
-        "source": "登録済み/sheet1",
-        "score": 0.818,
+        "status": "verified",
+        "ref": "おすわりフィギュア / ヒナ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ヒナ"
         ],
@@ -301,7 +301,7 @@
           "フリーレン"
         ],
         "suggestion": "",
-        "reason": "「ヒナ」が参照名に見当たりません"
+        "reason": "型番/JAN 2822574 で登録済みの「おすわりフィギュア / ヒナ」と一致"
       }
     },
     {
@@ -310,10 +310,10 @@
       "update_date": "2026年9月21日",
       "model_number": "2773703",
       "_check": {
-        "status": "suspect",
-        "ref": "Coreful 喜多川海夢 水着 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.542,
+        "status": "verified",
+        "ref": "Coreful / めぐみん 水着 ver. Renewal",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "めぐみん",
           "Renewal"
@@ -322,7 +322,7 @@
           "喜多川海夢"
         ],
         "suggestion": "",
-        "reason": "「めぐみん」「Renewal」が参照名に見当たりません"
+        "reason": "型番/JAN 2773703 で登録済みの「Coreful / めぐみん 水着 ver. Renewal」と一致"
       }
     },
     {
@@ -331,10 +331,10 @@
       "update_date": "2026年9月21日",
       "model_number": "1123950",
       "_check": {
-        "status": "suspect",
-        "ref": "Yumemirize 狗巻棘",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "Yumemirize / ロキシー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ロキシー"
         ],
@@ -342,7 +342,7 @@
           "狗巻棘"
         ],
         "suggestion": "",
-        "reason": "「ロキシー」が参照名に見当たりません"
+        "reason": "型番/JAN 1123950 で登録済みの「Yumemirize / ロキシー」と一致"
       }
     },
     {
@@ -351,10 +351,10 @@
       "update_date": "2026年9月21日",
       "model_number": "21899",
       "_check": {
-        "status": "suspect",
-        "ref": "BiCute Bunnies Figure マキマ",
-        "source": "登録済み/sheet1",
-        "score": 0.867,
+        "status": "verified",
+        "ref": "BiCute Bunnies / 貞子",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "貞子"
         ],
@@ -363,9 +363,9 @@
           "マキマ"
         ],
         "suggestion": "",
-        "reason": "「貞子」が参照名に見当たりません"
+        "reason": "型番/JAN 21899 で登録済みの「BiCute Bunnies / 貞子」と一致"
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

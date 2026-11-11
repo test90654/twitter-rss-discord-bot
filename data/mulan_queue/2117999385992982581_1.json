@@ -323,22 +323,25 @@
       }
     },
     {
-      "name": "Grandista うちはイタチ II",
+      "name": "Grandista / うちはイタチⅡ",
       "price": "1000",
       "update_date": "2026/11/05",
       "model_number": "2819251",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista うちはイタチ",
-        "source": "登録済み/sheet1",
-        "score": 0.882,
+        "status": "verified",
+        "ref": "Grandista / うちはイタチⅡ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "II"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2819251 で登録済みの「Grandista / うちはイタチⅡ」と一致"
+      },
+      "_ocr_name": "Grandista うちはイタチ II",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista はたけカカシ (2025年)",
@@ -401,10 +404,10 @@
       "update_date": "2026/11/05",
       "model_number": "2763793",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista ゾロ II（2026年版）",
-        "source": "登録済み/sheet1",
-        "score": 0.65,
+        "status": "verified",
+        "ref": "Grandista A. 春野サクラ (2026年)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "A.",
           "春野サクラ"
@@ -415,8 +418,10 @@
           "年版"
         ],
         "suggestion": "",
-        "reason": "「A.」「春野サクラ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2763793 で登録済みの「Grandista A. 春野サクラ (2026年)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga うずまきナルト",
@@ -530,15 +535,15 @@
       "_auto_registered": true
     },
     {
-      "name": "VIBRATION STARS はたけカカシ 72 series 63 A",
+      "name": "VIBRATION STARS 72 series 63 A はたけカカシ",
       "price": "1100",
       "update_date": "2026/11/05",
       "model_number": "2827328",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS はたけカカシ",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "VIBRATION STARS 72 series 63 A はたけカカシ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "72",
           "series",
@@ -546,8 +551,11 @@
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「72」「series」「63」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2827328 で登録済みの「VIBRATION STARS 72 series 63 A はたけカカシ」と一致"
+      },
+      "_ocr_name": "VIBRATION STARS はたけカカシ 72 series 63 A",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS 波風ミナト II",
@@ -555,10 +563,10 @@
       "update_date": "2026/11/05",
       "model_number": "2635774",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS ゴン II",
-        "source": "登録済み/sheet1",
-        "score": 0.762,
+        "status": "verified",
+        "ref": "VIBRATION STARS 波風ミナト II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "波風ミナト"
         ],
@@ -566,8 +574,10 @@
           "ゴン"
         ],
         "suggestion": "",
-        "reason": "「波風ミナト」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2635774 で登録済みの「VIBRATION STARS 波風ミナト II」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS 波風ミナト III",
@@ -608,15 +618,15 @@
       "_auto_registered": true
     },
     {
-      "name": "VIBRATION STARS うちはオビト 72 series 63 B",
+      "name": "VIBRATION STARS 72 series 63 B うちはオビト",
       "price": "1100",
       "update_date": "2026/11/05",
       "model_number": "2827328",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS うちはオビト II",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "VIBRATION STARS 72 series 63 B うちはオビト",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "72",
           "series",
@@ -626,8 +636,11 @@
           "ii"
         ],
         "suggestion": "",
-        "reason": "「72」「series」「63」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2827328 で登録済みの「VIBRATION STARS 72 series 63 B うちはオビト」と一致"
+      },
+      "_ocr_name": "VIBRATION STARS うちはオビト 72 series 63 B",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS キラー・ビー",
@@ -967,5 +980,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

@@ -249,10 +249,10 @@
       "update_date": "2026/10/27",
       "model_number": "1123577",
       "_check": {
-        "status": "suspect",
-        "ref": "FIGURIZMα フリーレン 魔法の高み",
-        "source": "登録済み/sheet1",
-        "score": 0.875,
+        "status": "verified",
+        "ref": "FIGURIZMα フリーレン 花舞",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "花舞"
         ],
@@ -260,19 +260,21 @@
           "魔法の高み"
         ],
         "suggestion": "",
-        "reason": "「花舞」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1123577 で登録済みの「FIGURIZMα フリーレン 花舞」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "ハイプレミアム フリーレン 鉱山で300年",
+      "name": "ハイプレミアム フリーレン 鉱山で 300 年",
       "price": "1000",
       "update_date": "2026/10/27",
       "model_number": "1122371",
       "_check": {
-        "status": "unknown",
-        "ref": "ハイプレミアム レゼ",
-        "source": "登録済み/sheet1",
-        "score": 0.389,
+        "status": "verified",
+        "ref": "ハイプレミアム フリーレン 鉱山で 300 年",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "フリーレン",
           "鉱山で",
@@ -282,8 +284,11 @@
           "レゼ"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 1122371 で登録済みの「ハイプレミアム フリーレン 鉱山で 300 年」と一致"
+      },
+      "_ocr_name": "ハイプレミアム フリーレン 鉱山で300年",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XStellar フリーレン 雪遊び",
@@ -291,10 +296,10 @@
       "update_date": "2026/10/27",
       "model_number": "1121927",
       "_check": {
-        "status": "suspect",
-        "ref": "XStellar フリーレン とある祭りにて",
-        "source": "登録済み/sheet1",
-        "score": 0.812,
+        "status": "verified",
+        "ref": "XStellar フリーレン 雪遊び",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "雪遊び"
         ],
@@ -302,8 +307,10 @@
           "とある祭りにて"
         ],
         "suggestion": "",
-        "reason": "「雪遊び」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1121927 で登録済みの「XStellar フリーレン 雪遊び」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XStellar フェルン 雪遊び",
@@ -378,22 +385,25 @@
       "_auto_registered": true
     },
     {
-      "name": "Luminasta フリーレン インミミック PLUS",
+      "name": "Luminasta / フリーレン インミミック PLUS",
       "price": "1500",
       "update_date": "2026/10/27",
       "model_number": "1125343",
       "_check": {
-        "status": "suspect",
-        "ref": "Luminasta フリーレン インミミック",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "Luminasta / フリーレン インミミック PLUS",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "PLUS"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「PLUS」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1125343 で登録済みの「Luminasta / フリーレン インミミック PLUS」と一致"
+      },
+      "_ocr_name": "Luminasta フリーレン インミミック PLUS",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン インミミック",
@@ -473,17 +483,19 @@
       "update_date": "2026/10/27",
       "model_number": "1119425",
       "_check": {
-        "status": "suspect",
-        "ref": "Luminasta フリーレン",
-        "source": "登録済み/sheet1",
-        "score": 0.778,
+        "status": "verified",
+        "ref": "Luminasta フリーレン メイド服",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "メイド服"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「メイド服」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1119425 で登録済みの「Luminasta フリーレン メイド服」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン SUMMER DRESS",
@@ -722,17 +734,19 @@
       "update_date": "2026/10/27",
       "model_number": "1123563",
       "_check": {
-        "status": "suspect",
-        "ref": "ちょこのせ フェルン",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "ちょこのせ フェルン 拘束魔法",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "拘束魔法"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「拘束魔法」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1123563 で登録済みの「ちょこのせ フェルン 拘束魔法」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ちょこのせ シュタルク 喉が抜け歩けない･･･",
@@ -849,15 +863,15 @@
       }
     },
     {
-      "name": "フリーレン うお〜ん",
+      "name": "フリーレン / うお～ん",
       "price": "2000",
       "update_date": "2026/10/27",
       "model_number": "2823441",
       "_check": {
-        "status": "suspect",
-        "ref": "AMP+ フリーレン",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "フリーレン / うお～ん",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "うお"
         ],
@@ -865,8 +879,11 @@
           "amp"
         ],
         "suggestion": "",
-        "reason": "「うお」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2823441 で登録済みの「フリーレン / うお～ん」と一致"
+      },
+      "_ocr_name": "フリーレン うお〜ん",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリーレン むふ〜ver.",
@@ -1009,10 +1026,10 @@
       "update_date": "2026/10/27",
       "model_number": "2823004",
       "_check": {
-        "status": "suspect",
-        "ref": "おおきな SOFVIMATES ポチタは泣きながら〜",
-        "source": "登録済み/sheet1",
-        "score": 0.609,
+        "status": "verified",
+        "ref": "おおきな SOFVIMATES ぬくぬくフリーレン",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ぬくぬくフリーレン"
         ],
@@ -1020,8 +1037,10 @@
           "ポチタは泣きながら"
         ],
         "suggestion": "",
-        "reason": "「ぬくぬくフリーレン」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2823004 で登録済みの「おおきな SOFVIMATES ぬくぬくフリーレン」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ティッシュに取り付け! フリーレン",
@@ -1068,15 +1087,13 @@
       "model_number": "22167",
       "_check": {
         "status": "unknown",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.429,
         "unmatched": [
           "しょぼしょぼなフリーレン"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
         "reason": "参照リストに近い商品名がありません"
       }
@@ -1088,7 +1105,7 @@
       "model_number": "22166",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー フェルン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.5,
         "unmatched": [
@@ -1218,5 +1235,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

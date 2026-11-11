@@ -644,24 +644,27 @@
       "_auto_registered": true
     },
     {
-      "name": "PANEL SPECTACLE 千手綱間",
+      "name": "PANEL SPECTACLE 千手扉間",
       "price": "1300",
       "update_date": "2026/10/14",
       "model_number": "2720291",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "PANEL SPECTACLE 千手扉間",
-        "source": "登録済み/sheet1",
-        "score": 0.778,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "千手綱間"
         ],
         "missing": [
           "千手扉間"
         ],
-        "suggestion": "PANEL SPECTACLE 千手扉間",
-        "reason": "「千手綱間」が参照名に見当たりません（候補: 千手綱間→千手扉間）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2720291 で登録済みの「PANEL SPECTACLE 千手扉間」と一致"
+      },
+      "_ocr_name": "PANEL SPECTACLE 千手綱間",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "PANEL SPECTACLE 波風ミナト",
@@ -993,10 +996,10 @@
       "update_date": "2026/10/14",
       "model_number": "2749920",
       "_check": {
-        "status": "suspect",
-        "ref": "ガマブン太 ソフビフィギュア",
-        "source": "登録済み/sheet1",
-        "score": 0.8,
+        "status": "verified",
+        "ref": "守鶴 ソフビフィギュア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "守鶴"
         ],
@@ -1004,8 +1007,10 @@
           "ガマブン太"
         ],
         "suggestion": "",
-        "reason": "「守鶴」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2749920 で登録済みの「守鶴 ソフビフィギュア」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ガマ吉 ソフビフィギュア",
@@ -1049,16 +1054,18 @@
       "update_date": "2026/10/14",
       "model_number": "2782222",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "九喇嘛ルームライト",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2782222 で登録済みの「九喇嘛ルームライト」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

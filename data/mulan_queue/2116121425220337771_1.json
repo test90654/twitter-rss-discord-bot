@@ -32,15 +32,17 @@
       "update_date": "2026/10/30",
       "model_number": "",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "ぬーどるストッパー L",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "すべての単語が「ぬーどるストッパー L」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BiCute Dark Figure 弥海砂",
@@ -108,19 +110,17 @@
       "update_date": "2026/10/30",
       "model_number": "",
       "_check": {
-        "status": "unknown",
-        "ref": "GLITTER&GLAMOURS マキマ",
-        "source": "登録済み/sheet1",
-        "score": 0.368,
-        "unmatched": [
-          "GLAMOURSハリベル"
-        ],
-        "missing": [
-          "マキマ"
-        ],
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS ハリベル",
+        "source": "登録済み/ムーラン本店",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "すべての単語が「GLITTER&GLAMOURS ハリベル」（登録済み/ムーラン本店）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "強くなりたくば吊るせッッハンガー 範馬勇次郎",
@@ -467,5 +467,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

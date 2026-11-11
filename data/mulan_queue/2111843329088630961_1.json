@@ -876,15 +876,13 @@
       "model_number": "19584",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.562,
         "unmatched": [
           "ウラヤハボウズ"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "ぬーどるストッパー ウラヤハボウズ",
         "reason": "「ウラヤハボウズ」が参照名に見当たりません"
       }
@@ -1029,22 +1027,25 @@
       }
     },
     {
-      "name": "フリュー プライズ おしりふりふり BIG ぬいぐるみ ちいかわ",
+      "name": "おしりふりふり BIG ぬいぐるみ ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
       "model_number": "16925",
       "_check": {
-        "status": "suspect",
-        "ref": "超 BIG ぬいぐるみ ちいかわ",
-        "source": "登録済み/sheet1",
-        "score": 0.632,
+        "status": "verified",
+        "ref": "おしりふりふり BIG ぬいぐるみ ちいかわ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "おしりふりふり"
         ],
         "missing": [],
-        "suggestion": "おしりふりふり BIG ぬいぐるみ ちいかわ",
-        "reason": "「おしりふりふり」が参照名に見当たりません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 16925 で登録済みの「おしりふりふり BIG ぬいぐるみ ちいかわ」と一致"
+      },
+      "_ocr_name": "フリュー プライズ おしりふりふり BIG ぬいぐるみ ちいかわ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリュー プライズ おしりふりふり BIG ぬいぐるみ ハチワレ",
@@ -1148,24 +1149,27 @@
       }
     },
     {
-      "name": "フリュー プライズ 超 BIG さすまた ちいかわ",
+      "name": "超 BIG さすまた ちいかわ",
       "price": "2200",
       "update_date": "2026/10/19",
       "model_number": "17459",
       "_check": {
-        "status": "suspect",
-        "ref": "超 BIG ぬいぐるみ ちいかわ",
-        "source": "登録済み/sheet1",
-        "score": 0.636,
+        "status": "verified",
+        "ref": "超 BIG さすまた ちいかわ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "さすまた"
         ],
         "missing": [
           "ぬいぐるみ"
         ],
-        "suggestion": "超 BIG さすまた ちいかわ",
-        "reason": "「さすまた」が参照名に見当たりません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 17459 で登録済みの「超 BIG さすまた ちいかわ」と一致"
+      },
+      "_ocr_name": "フリュー プライズ 超 BIG さすまた ちいかわ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリュー プライズ 超 BIG さすまた ハチワレ",
@@ -1189,44 +1193,50 @@
       }
     },
     {
-      "name": "フリュー プライズ 浴衣ぬいぐるみ ちいかわ",
+      "name": "浴衣ぬいぐるみ ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
       "model_number": "15131",
       "_check": {
-        "status": "unknown",
-        "ref": "超 BIG ぬいぐるみ ちいかわ",
-        "source": "登録済み/sheet1",
-        "score": 0.364,
+        "status": "verified",
+        "ref": "浴衣ぬいぐるみ ちいかわ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "浴衣ぬいぐるみ"
         ],
         "missing": [
           "big"
         ],
-        "suggestion": "浴衣ぬいぐるみ ちいかわ",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 15131 で登録済みの「浴衣ぬいぐるみ ちいかわ」と一致"
+      },
+      "_ocr_name": "フリュー プライズ 浴衣ぬいぐるみ ちいかわ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュー プライズ 浴衣ぬいぐるみ ハチワレ",
+      "name": "浴衣ぬいぐるみ ハチワレ",
       "price": "800",
       "update_date": "2026/10/19",
       "model_number": "15131",
       "_check": {
-        "status": "unknown",
-        "ref": "爆豪勝己 × ハチワレ",
-        "source": "登録済み/sheet1",
-        "score": 0.364,
+        "status": "verified",
+        "ref": "浴衣ぬいぐるみ ハチワレ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "浴衣ぬいぐるみ"
         ],
         "missing": [
           "爆豪勝己"
         ],
-        "suggestion": "浴衣ぬいぐるみ ハチワレ",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 15131 で登録済みの「浴衣ぬいぐるみ ハチワレ」と一致"
+      },
+      "_ocr_name": "フリュー プライズ 浴衣ぬいぐるみ ハチワレ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリュー プライズ 浴衣ぬいぐるみ うさぎ",
@@ -1269,24 +1279,27 @@
       }
     },
     {
-      "name": "フリュー プライズ 泣いちゃったぬいぐるみ ハチワレ",
+      "name": "泣いちゃったぬいぐるみ ハチワレ",
       "price": "800",
       "update_date": "2026/10/19",
       "model_number": "17327",
       "_check": {
-        "status": "unknown",
-        "ref": "爆豪勝己 × ハチワレ",
-        "source": "登録済み/sheet1",
-        "score": 0.267,
+        "status": "verified",
+        "ref": "泣いちゃったぬいぐるみ ハチワレ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "泣いちゃったぬいぐるみ"
         ],
         "missing": [
           "爆豪勝己"
         ],
-        "suggestion": "泣いちゃったぬいぐるみ ハチワレ",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 17327 で登録済みの「泣いちゃったぬいぐるみ ハチワレ」と一致"
+      },
+      "_ocr_name": "フリュー プライズ 泣いちゃったぬいぐるみ ハチワレ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリュー プライズ 泣いちゃったぬいぐるみ うさぎ",
@@ -1309,24 +1322,27 @@
       }
     },
     {
-      "name": "フリュー プライズ 七夕ぬいぐるみ ハチワレ",
+      "name": "七夕ぬいぐるみ ハチワレ",
       "price": "800",
       "update_date": "2026/10/19",
       "model_number": "17676",
       "_check": {
-        "status": "unknown",
-        "ref": "爆豪勝己 × ハチワレ",
-        "source": "登録済み/sheet1",
-        "score": 0.364,
+        "status": "verified",
+        "ref": "七夕ぬいぐるみ ハチワレ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "七夕ぬいぐるみ"
         ],
         "missing": [
           "爆豪勝己"
         ],
-        "suggestion": "七夕ぬいぐるみ ハチワレ",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 17676 で登録済みの「七夕ぬいぐるみ ハチワレ」と一致"
+      },
+      "_ocr_name": "フリュー プライズ 七夕ぬいぐるみ ハチワレ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリュー プライズ 七夕ぬいぐるみ うさぎ",
@@ -1393,15 +1409,15 @@
       }
     },
     {
-      "name": "フリュー プライズ うさぎがいっぱいマスコット（3種共通）",
+      "name": "うさぎがいっぱいマスコット (3種共通)",
       "price": "1000",
       "update_date": "2026/10/19",
       "model_number": "15059",
       "_check": {
-        "status": "unknown",
-        "ref": "シナモン (2種共通)",
-        "source": "登録済み/sheet1",
-        "score": 0.176,
+        "status": "verified",
+        "ref": "うさぎがいっぱいマスコット (3種共通)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "うさぎがいっぱいマスコット",
           "3"
@@ -1410,10 +1426,13 @@
           "シナモン",
           "2"
         ],
-        "suggestion": "うさぎがいっぱいマスコット(3種共通)",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 15059 で登録済みの「うさぎがいっぱいマスコット (3種共通)」と一致"
+      },
+      "_ocr_name": "フリュー プライズ うさぎがいっぱいマスコット（3種共通）",
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }
