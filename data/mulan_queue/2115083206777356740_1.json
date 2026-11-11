@@ -31,10 +31,10 @@
       "update_date": "2026/09/26",
       "model_number": "2720295",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "MAXIMATIC 浦原喜助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "浦原喜助"
         ],
@@ -42,8 +42,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "「浦原喜助」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2720295 で登録済みの「MAXIMATIC 浦原喜助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 更木剣八",
@@ -1164,5 +1166,5 @@
       "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

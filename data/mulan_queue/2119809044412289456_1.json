@@ -279,15 +279,15 @@
       "_auto_registered": true
     },
     {
-      "name": "FIGURIZM/FIGURIZMα 伏黒恵 死滅回游",
+      "name": "FIGURIZMα 伏黒恵 死滅回游",
       "price": "1000",
       "update_date": "2026/11/10",
       "model_number": "1123711",
       "_check": {
-        "status": "suspect",
-        "ref": "FIGURIZMα 伏黒恵 邂逅",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "FIGURIZMα 伏黒恵 死滅回游",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "死滅回游"
         ],
@@ -295,8 +295,11 @@
           "邂逅"
         ],
         "suggestion": "",
-        "reason": "「死滅回游」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1123711 で登録済みの「FIGURIZMα 伏黒恵 死滅回游」と一致"
+      },
+      "_ocr_name": "FIGURIZM/FIGURIZMα 伏黒恵 死滅回游",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 伏黒恵 (2025年)",
@@ -1757,5 +1760,5 @@
       "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

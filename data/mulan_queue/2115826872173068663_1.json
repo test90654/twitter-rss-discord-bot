@@ -14,17 +14,19 @@
       "update_date": "2026/10/30",
       "model_number": "2791296",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista S・F",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "Grandista 爆豪勝己",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "爆豪勝己"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「爆豪勝己」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2791296 で登録済みの「Grandista 爆豪勝己」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Combination Battle 爆豪勝己",
@@ -68,10 +70,10 @@
       "update_date": "2026/10/30",
       "model_number": "2724161",
       "_check": {
-        "status": "suspect",
-        "ref": "FINAL SEASON FIGURE 緑谷出久",
-        "source": "登録済み/sheet1",
-        "score": 0.842,
+        "status": "verified",
+        "ref": "7TH SEASON FIGURE 緑谷出久",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "7TH"
         ],
@@ -79,8 +81,10 @@
           "final"
         ],
         "suggestion": "",
-        "reason": "「7TH」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2724161 で登録済みの「7TH SEASON FIGURE 緑谷出久」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista 緑谷出久 (2025 年)",
@@ -106,17 +110,19 @@
       "update_date": "2026/10/30",
       "model_number": "2814992",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista S・F",
-        "source": "登録済み/sheet1",
-        "score": 0.75,
+        "status": "verified",
+        "ref": "Grandista 轟焦凍",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "轟焦凍"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「轟焦凍」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2814992 で登録済みの「Grandista 轟焦凍」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista オールマイト (2020 年 10 月)",
@@ -217,10 +223,10 @@
       "update_date": "2026/10/30",
       "model_number": "2712747",
       "_check": {
-        "status": "suspect",
-        "ref": "Combination Battle 花御",
-        "source": "登録済み/sheet1",
-        "score": 0.739,
+        "status": "verified",
+        "ref": "Combination Battle 死柄木弔 終章",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "死柄木弔",
           "終章"
@@ -229,8 +235,10 @@
           "花御"
         ],
         "suggestion": "",
-        "reason": "「死柄木弔」「終章」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2712747 で登録済みの「Combination Battle 死柄木弔 終章」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Combination Battle オール・フォー・ワン (GIGO 限定)",
@@ -288,15 +296,15 @@
       "_auto_registered": true
     },
     {
-      "name": "ティアビジュアル 緑谷出久",
+      "name": "ティザービジュアル 緑谷出久",
       "price": "1300",
       "update_date": "2026/10/30",
       "model_number": "2727641",
       "_check": {
-        "status": "unknown",
-        "ref": "緑谷出久 × ちいかわ",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "status": "verified",
+        "ref": "ティザービジュアル 緑谷出久",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ティアビジュアル"
         ],
@@ -304,8 +312,11 @@
           "ちいかわ"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2727641 で登録済みの「ティザービジュアル 緑谷出久」と一致"
+      },
+      "_ocr_name": "ティアビジュアル 緑谷出久",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "7TH SEASON 緑谷出久 COLOR ver.",
@@ -313,10 +324,10 @@
       "update_date": "2026/10/30",
       "model_number": "2735980",
       "_check": {
-        "status": "suspect",
-        "ref": "7TH SEASON 緑谷出久 (モノクロ)",
-        "source": "登録済み/sheet1",
-        "score": 0.591,
+        "status": "verified",
+        "ref": "7TH SEASON 緑谷出久 COLOR ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "COLOR",
           "ver."
@@ -325,8 +336,10 @@
           "モノクロ"
         ],
         "suggestion": "",
-        "reason": "「COLOR」「ver.」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2735980 で登録済みの「7TH SEASON 緑谷出久 COLOR ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "7TH SEASON 緑谷出久 (モノクロ)",
@@ -365,24 +378,27 @@
       "_auto_registered": true
     },
     {
-      "name": "爆豪勝己 GIGO 限定 ver.3",
+      "name": "爆豪勝己 GiGO 限定 ver.3",
       "price": "1700",
       "update_date": "2026/10/30",
       "model_number": "2790354",
       "_check": {
-        "status": "suspect",
-        "ref": "爆豪勝己 GiGO 限定 ver.2",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "爆豪勝己 GiGO 限定 ver.3",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ver.3"
         ],
         "missing": [
           "ver.2"
         ],
-        "suggestion": "爆豪勝己 GIGO 限定 ver.2",
-        "reason": "「ver.3」が参照名に見当たりません（候補: ver.3→ver.2）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2790354 で登録済みの「爆豪勝己 GiGO 限定 ver.3」と一致"
+      },
+      "_ocr_name": "爆豪勝己 GIGO 限定 ver.3",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "7TH SEASON 爆豪勝己",
@@ -439,20 +455,23 @@
       "_auto_registered": true
     },
     {
-      "name": "轟焦凍 ×うさぎ",
+      "name": "轟焦凍 × うさぎ",
       "price": "2000",
       "update_date": "2026/10/30",
       "model_number": "2696212",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "轟焦凍 × うさぎ",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2696212 で登録済みの「轟焦凍 × うさぎ」と一致"
+      },
+      "_ocr_name": "轟焦凍 ×うさぎ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "めちゃもふぐっとぬいぐるみ 緑谷出久ちいかわ",
@@ -626,10 +645,10 @@
       "update_date": "2026/10/30",
       "model_number": "1122919",
       "_check": {
-        "status": "suspect",
-        "ref": "XrossLink 煉獄 (再販)",
-        "source": "登録済み/sheet1",
-        "score": 0.5,
+        "status": "verified",
+        "ref": "XrossLink 緑谷出久 Vol.2",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "緑谷出久",
           "Vol.2"
@@ -638,8 +657,10 @@
           "煉獄"
         ],
         "suggestion": "",
-        "reason": "「緑谷出久」「Vol.2」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1122919 で登録済みの「XrossLink 緑谷出久 Vol.2」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 轟焦凍",
@@ -759,44 +780,49 @@
       "update_date": "2026/10/30",
       "model_number": "2696212",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "轟焦凍 × うさぎ",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2696212 で登録済みの「轟焦凍 × うさぎ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "轟焦凍",
+      "name": "MAXIMATIC 轟焦凍",
       "price": "1800",
       "update_date": "2026/10/30",
       "model_number": "2750954",
       "_check": {
-        "status": "unknown",
-        "ref": "DX 轟焦凍",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "dx"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2750954 で登録済みの「MAXIMATIC 轟焦凍」と一致"
+      },
+      "_ocr_name": "轟焦凍",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "轟焦凍 II",
+      "name": "MAXIMATIC 轟焦凍 II",
       "price": "1200",
       "update_date": "2026/10/30",
       "model_number": "2791299",
       "_check": {
-        "status": "suspect",
-        "ref": "DX 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.6,
+        "status": "verified",
+        "ref": "MAXIMATIC 轟焦凍 II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "II"
         ],
@@ -804,8 +830,11 @@
           "dx"
         ],
         "suggestion": "",
-        "reason": "「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2791299 で登録済みの「MAXIMATIC 轟焦凍 II」と一致"
+      },
+      "_ocr_name": "轟焦凍 II",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "イレイザー・ヘッド",
@@ -1043,10 +1072,10 @@
       "update_date": "2026/10/30",
       "model_number": "2711055",
       "_check": {
-        "status": "suspect",
-        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
-        "source": "登録済み/sheet1",
-        "score": 0.769,
+        "status": "verified",
+        "ref": "THE AMAZING HEROES PLUS 爆豪勝己 II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "爆豪勝己",
           "II"
@@ -1055,8 +1084,10 @@
           "常闇踏陰"
         ],
         "suggestion": "",
-        "reason": "「爆豪勝己」「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2711055 で登録済みの「THE AMAZING HEROES PLUS 爆豪勝己 II」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES DX 轟焦凍",
@@ -1064,10 +1095,10 @@
       "update_date": "2026/10/30",
       "model_number": "2734790",
       "_check": {
-        "status": "suspect",
-        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
-        "source": "登録済み/sheet1",
-        "score": 0.762,
+        "status": "verified",
+        "ref": "THE AMAZING HEROES DX 轟焦凍",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "DX",
           "轟焦凍"
@@ -1077,8 +1108,10 @@
           "常闇踏陰"
         ],
         "suggestion": "",
-        "reason": "「DX」「轟焦凍」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2734790 で登録済みの「THE AMAZING HEROES DX 轟焦凍」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES PLUS 常闇踏陰",
@@ -1104,10 +1137,10 @@
       "update_date": "2026/10/30",
       "model_number": "2704304",
       "_check": {
-        "status": "suspect",
-        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "THE AMAZING HEROES PLUS ホークス",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ホークス"
         ],
@@ -1115,8 +1148,10 @@
           "常闇踏陰"
         ],
         "suggestion": "",
-        "reason": "「ホークス」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2704304 で登録済みの「THE AMAZING HEROES PLUS ホークス」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES PLUS ホークス II",
@@ -1124,10 +1159,10 @@
       "update_date": "2026/10/30",
       "model_number": "2751664",
       "_check": {
-        "status": "suspect",
-        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
-        "source": "登録済み/sheet1",
-        "score": 0.769,
+        "status": "verified",
+        "ref": "THE AMAZING HEROES PLUS ホークス II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ホークス",
           "II"
@@ -1136,8 +1171,10 @@
           "常闇踏陰"
         ],
         "suggestion": "",
-        "reason": "「ホークス」「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2751664 で登録済みの「THE AMAZING HEROES PLUS ホークス II」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES PLUS エンデヴァー",
@@ -1145,10 +1182,10 @@
       "update_date": "2026/10/30",
       "model_number": "2702580",
       "_check": {
-        "status": "suspect",
-        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
-        "source": "登録済み/sheet1",
-        "score": 0.769,
+        "status": "verified",
+        "ref": "THE AMAZING HEROES PLUS エンデヴァー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "エンデヴァー"
         ],
@@ -1156,8 +1193,10 @@
           "常闇踏陰"
         ],
         "suggestion": "",
-        "reason": "「エンデヴァー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2702580 で登録済みの「THE AMAZING HEROES PLUS エンデヴァー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES PLUS オールマイト TRUE FORM",
@@ -1165,10 +1204,10 @@
       "update_date": "2026/10/30",
       "model_number": "2750946",
       "_check": {
-        "status": "suspect",
-        "ref": "PLUS オールマイト TRUE FORM",
-        "source": "登録済み/sheet1",
-        "score": 0.529,
+        "status": "verified",
+        "ref": "THE AMAZING HEROES PLUS オールマイト TRUE FORM",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "THE",
           "AMAZING",
@@ -1176,8 +1215,10 @@
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「THE」「AMAZING」「HEROES」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2750946 で登録済みの「THE AMAZING HEROES PLUS オールマイト TRUE FORM」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE EVIL VILLAINS PLUS トガヒミコ",
@@ -1224,10 +1265,10 @@
       "update_date": "2026/10/30",
       "model_number": "2751585",
       "_check": {
-        "status": "suspect",
-        "ref": "THE EVIL VILLAINS DX トガヒミコ III",
-        "source": "登録済み/sheet1",
-        "score": 0.917,
+        "status": "verified",
+        "ref": "THE EVIL VILLAINS DX トガヒミコ IV",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "IV"
         ],
@@ -1235,8 +1276,10 @@
           "iii"
         ],
         "suggestion": "",
-        "reason": "「IV」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2751585 で登録済みの「THE EVIL VILLAINS DX トガヒミコ IV」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "DX 茶毘 II",
@@ -1244,10 +1287,10 @@
       "update_date": "2026/10/30",
       "model_number": "2652617",
       "_check": {
-        "status": "unknown",
-        "ref": "DX 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "status": "verified",
+        "ref": "DX 茶毘 II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "茶毘",
           "II"
@@ -1256,8 +1299,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2652617 で登録済みの「DX 茶毘 II」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "DX 茶毘 (2025 年)",
@@ -1265,10 +1310,10 @@
       "update_date": "2026/10/30",
       "model_number": "2775403",
       "_check": {
-        "status": "unknown",
-        "ref": "DX 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.25,
+        "status": "verified",
+        "ref": "DX 茶毘 (2025 年)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "茶毘",
           "2025"
@@ -1277,8 +1322,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2775403 で登録済みの「DX 茶毘 (2025 年)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER&GLAMOURS 麗日お茶子 (2025 年 / 再販含)",
@@ -1494,21 +1541,24 @@
       }
     },
     {
-      "name": "ミルコ",
+      "name": "GLITTER&GLAMOURS ミルコ",
       "price": "1000",
       "update_date": "2026/10/30",
       "model_number": "2749156",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS ミルコ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2749156 で登録済みの「GLITTER&GLAMOURS ミルコ」と一致"
+      },
+      "_ocr_name": "ミルコ",
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

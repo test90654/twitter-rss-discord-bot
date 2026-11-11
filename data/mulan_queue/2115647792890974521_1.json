@@ -8,15 +8,15 @@
   "ocr_model": "gemini-3.8-flash",
   "parsed_items": [
     {
-      "name": "HUNTER×HUNTER ゴン G.I. 編",
+      "name": "HUNTER×HUNTER ゴン G.I.編",
       "price": "1400",
       "update_date": "2026/10/29",
       "model_number": "2774364",
       "_check": {
-        "status": "suspect",
-        "ref": "HUNTER×HUNTER ハンター×ハンター",
-        "source": "ポスト本文",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "HUNTER×HUNTER ゴン G.I.編",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ゴン",
           "G.I."
@@ -25,20 +25,23 @@
           "ハンター",
           "ハンター"
         ],
-        "suggestion": "HUNTER× ゴン G.I. 編",
-        "reason": "「ゴン」「G.I.」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2774364 で登録済みの「HUNTER×HUNTER ゴン G.I.編」と一致"
+      },
+      "_ocr_name": "HUNTER×HUNTER ゴン G.I. 編",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "HUNTER×HUNTER キルア G.I. 編",
+      "name": "HUNTER×HUNTER キルア G.I.編",
       "price": "1400",
       "update_date": "2026/10/29",
       "model_number": "2774367",
       "_check": {
-        "status": "suspect",
-        "ref": "HUNTER×HUNTER ハンター×ハンター",
-        "source": "ポスト本文",
-        "score": 0.632,
+        "status": "verified",
+        "ref": "HUNTER×HUNTER キルア G.I.編",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "キルア",
           "G.I."
@@ -47,20 +50,23 @@
           "ハンター",
           "ハンター"
         ],
-        "suggestion": "HUNTER× キルア G.I. 編",
-        "reason": "「キルア」「G.I.」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2774367 で登録済みの「HUNTER×HUNTER キルア G.I.編」と一致"
+      },
+      "_ocr_name": "HUNTER×HUNTER キルア G.I. 編",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "HUNTER×HUNTER ヒソカ G.I. 編",
+      "name": "HUNTER×HUNTER ヒソカ G.I.編",
       "price": "1200",
       "update_date": "2026/10/29",
       "model_number": "2774368",
       "_check": {
-        "status": "suspect",
-        "ref": "HUNTER×HUNTER ハンター×ハンター",
-        "source": "ポスト本文",
-        "score": 0.632,
+        "status": "verified",
+        "ref": "HUNTER×HUNTER ヒソカ G.I.編",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ヒソカ",
           "G.I."
@@ -69,9 +75,12 @@
           "ハンター",
           "ハンター"
         ],
-        "suggestion": "HUNTER× ヒソカ G.I. 編",
-        "reason": "「ヒソカ」「G.I.」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「HUNTER」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2774368 で登録済みの「HUNTER×HUNTER ヒソカ G.I.編」と一致"
+      },
+      "_ocr_name": "HUNTER×HUNTER ヒソカ G.I. 編",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "HUNTER×HUNTER Grandista クラピカ",
@@ -112,23 +121,26 @@
       }
     },
     {
-      "name": "HUNTER×HUNTER HUNTING ARCHIVES クラピカ 絶対時間",
+      "name": "HUNTING ARCHIVES クラピカ 絶対時間",
       "price": "800",
       "update_date": "2026/10/29",
       "model_number": "2821310",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "HUNTING ARCHIVES クラピカ 絶対時間",
-        "source": "登録済み/sheet1",
-        "score": 0.657,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "HUNTER",
           "HUNTER"
         ],
         "missing": [],
-        "suggestion": "HUNTIN×HUNTIN HUNTING ARCHIVES クラピカ 絶対時間",
-        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: HUNTER→HUNTIN, HUNTER→HUNTIN, 重複「HUNTER」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2821310 で登録済みの「HUNTING ARCHIVES クラピカ 絶対時間」と一致"
+      },
+      "_ocr_name": "HUNTER×HUNTER HUNTING ARCHIVES クラピカ 絶対時間",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "HUNTER×HUNTER HUNTING ARCHIVES キルア 神速",
@@ -155,23 +167,26 @@
       }
     },
     {
-      "name": "HUNTER×HUNTER HUNTING ARCHIVES クロロ 盗賊の極意",
+      "name": "HUNTING ARCHIVES クロロ 盗賊の極意",
       "price": "2400",
       "update_date": "2026/10/29",
       "model_number": "2762935",
       "_check": {
-        "status": "suspect",
+        "status": "verified",
         "ref": "HUNTING ARCHIVES クロロ 盗賊の極意",
-        "source": "登録済み/sheet1",
-        "score": 0.657,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "HUNTER",
           "HUNTER"
         ],
         "missing": [],
-        "suggestion": "HUNTIN×HUNTIN HUNTING ARCHIVES クロロ 盗賊の極意",
-        "reason": "「HUNTER」「HUNTER」が参照名に見当たりません、同じ単語が重なっています（候補: HUNTER→HUNTIN, HUNTER→HUNTIN, 重複「HUNTER」を削除）"
-      }
+        "suggestion": "",
+        "reason": "型番/JAN 2762935 で登録済みの「HUNTING ARCHIVES クロロ 盗賊の極意」と一致"
+      },
+      "_ocr_name": "HUNTER×HUNTER HUNTING ARCHIVES クロロ 盗賊の極意",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "HUNTER×HUNTER フィグライフ！ ゴン ありったけのペン",
@@ -860,10 +875,10 @@
       "update_date": "2026/10/29",
       "model_number": "2763177",
       "_check": {
-        "status": "unknown",
-        "ref": "MAXIMATIC 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.474,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 MAXIMATIC 浦飯幽助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書",
           "浦飯幽助"
@@ -872,8 +887,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2763177 で登録済みの「幽☆遊☆白書 MAXIMATIC 浦飯幽助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 浦飯幽助",
@@ -881,17 +898,19 @@
       "update_date": "2026/10/29",
       "model_number": "2704639",
       "_check": {
-        "status": "suspect",
-        "ref": "暗黒武術会 浦飯幽助",
-        "source": "登録済み/sheet1",
-        "score": 0.6,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 暗黒武術会 浦飯幽助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2704639 で登録済みの「幽☆遊☆白書 暗黒武術会 浦飯幽助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 桑原和真",
@@ -899,17 +918,19 @@
       "update_date": "2026/10/29",
       "model_number": "2711289",
       "_check": {
-        "status": "suspect",
-        "ref": "暗黒武術会 桑原和真",
-        "source": "登録済み/sheet1",
-        "score": 0.6,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 暗黒武術会 桑原和真",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2711289 で登録済みの「幽☆遊☆白書 暗黒武術会 桑原和真」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 蔵馬",
@@ -917,17 +938,19 @@
       "update_date": "2026/10/29",
       "model_number": "2711288",
       "_check": {
-        "status": "suspect",
-        "ref": "暗黒武術会 蔵馬",
-        "source": "登録済み/sheet1",
-        "score": 0.538,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 暗黒武術会 蔵馬",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2711288 で登録済みの「幽☆遊☆白書 暗黒武術会 蔵馬」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 妖狐蔵馬",
@@ -935,17 +958,19 @@
       "update_date": "2026/10/29",
       "model_number": "2728489",
       "_check": {
-        "status": "suspect",
-        "ref": "暗黒武術会 妖狐蔵馬",
-        "source": "登録済み/sheet1",
-        "score": 0.6,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 暗黒武術会 妖狐蔵馬",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2728489 で登録済みの「幽☆遊☆白書 暗黒武術会 妖狐蔵馬」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 飛影",
@@ -953,17 +978,19 @@
       "update_date": "2026/10/29",
       "model_number": "2704642",
       "_check": {
-        "status": "suspect",
-        "ref": "暗黒武術会 飛影",
-        "source": "登録済み/sheet1",
-        "score": 0.538,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 暗黒武術会 飛影",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2704642 で登録済みの「幽☆遊☆白書 暗黒武術会 飛影」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 暗黒武術会 飛影 黒龍波エフェクト ver.",
@@ -971,17 +998,19 @@
       "update_date": "2026/10/29",
       "model_number": "2728505",
       "_check": {
-        "status": "suspect",
-        "ref": "暗黒武術会 飛影 黒龍波エフェクト ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.76,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 暗黒武術会 飛影 黒龍波エフェクト ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2728505 で登録済みの「幽☆遊☆白書 暗黒武術会 飛影 黒龍波エフェクト ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 DXF 浦飯幽助 30th Anniversary",
@@ -989,17 +1018,19 @@
       "update_date": "2026/10/29",
       "model_number": "2630366",
       "_check": {
-        "status": "suspect",
-        "ref": "DXF 浦飯幽助 30th Anniversary",
-        "source": "登録済み/sheet1",
-        "score": 0.786,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 DXF 浦飯幽助 30th Anniversary",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2630366 で登録済みの「幽☆遊☆白書 DXF 浦飯幽助 30th Anniversary」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "幽☆遊☆白書 DXF 桑原和真 30th Anniversary",
@@ -1007,18 +1038,20 @@
       "update_date": "2026/10/29",
       "model_number": "2630367",
       "_check": {
-        "status": "suspect",
-        "ref": "DXF 桑原和真 30th Anniversary",
-        "source": "登録済み/sheet1",
-        "score": 0.786,
+        "status": "verified",
+        "ref": "幽☆遊☆白書 DXF 桑原和真 30th Anniversary",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "幽☆遊☆白書"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「幽☆遊☆白書」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2630367 で登録済みの「幽☆遊☆白書 DXF 桑原和真 30th Anniversary」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

@@ -13,10 +13,10 @@
       "update_date": "2026/10/15",
       "model_number": "4534530739506",
       "_check": {
-        "status": "unknown",
-        "ref": "ぬーどるストッパー 喜多川海夢",
-        "source": "登録済み/sheet1",
-        "score": 0.417,
+        "status": "verified",
+        "ref": "喜多川海夢 (アニプレックス)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "アニプレックス"
         ],
@@ -24,8 +24,10 @@
           "ぬーどるストッパー"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 4534530739506 で登録済みの「喜多川海夢 (アニプレックス)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 水着Ver. (アニプレックス)",
@@ -33,10 +35,10 @@
       "update_date": "2026/10/15",
       "model_number": "4534530757067",
       "_check": {
-        "status": "suspect",
-        "ref": "喜多川海夢 水着 ver. (スピリテイル)",
-        "source": "登録済み/sheet1",
-        "score": 0.611,
+        "status": "verified",
+        "ref": "喜多川海夢 水着Ver. (アニプレックス)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "アニプレックス"
         ],
@@ -44,8 +46,10 @@
           "スピリテイル"
         ],
         "suggestion": "",
-        "reason": "「アニプレックス」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 4534530757067 で登録済みの「喜多川海夢 水着Ver. (アニプレックス)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 ナイトプールVer. (アニプレックス)",
@@ -53,10 +57,10 @@
       "update_date": "2026/10/15",
       "model_number": "4534530766137",
       "_check": {
-        "status": "unknown",
-        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.227,
+        "status": "verified",
+        "ref": "喜多川海夢 ナイトプールVer. (アニプレックス)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ナイトプールVer.",
           "アニプレックス"
@@ -66,8 +70,10 @@
           "黒江雫"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 4534530766137 で登録済みの「喜多川海夢 ナイトプールVer. (アニプレックス)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 ベビードールver. (アニプレックス)",
@@ -75,10 +81,10 @@
       "update_date": "2026/10/15",
       "model_number": "4534530794512",
       "_check": {
-        "status": "unknown",
-        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.227,
+        "status": "verified",
+        "ref": "喜多川海夢 ベビードールver. (アニプレックス)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ベビードールver.",
           "アニプレックス"
@@ -88,8 +94,10 @@
           "黒江雫"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 4534530794512 で登録済みの「喜多川海夢 ベビードールver. (アニプレックス)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 レースクイーンVer. (アニプレックス)",
@@ -97,10 +105,10 @@
       "update_date": "2026/10/15",
       "model_number": "4534530796066",
       "_check": {
-        "status": "unknown",
-        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.217,
+        "status": "verified",
+        "ref": "喜多川海夢 レースクイーンVer. (アニプレックス)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "レースクイーンVer.",
           "アニプレックス"
@@ -110,8 +118,10 @@
           "黒江雫"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 4534530796066 で登録済みの「喜多川海夢 レースクイーンVer. (アニプレックス)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "喜多川海夢 ルームウェアVer. (アニプレックス)",
@@ -505,5 +515,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

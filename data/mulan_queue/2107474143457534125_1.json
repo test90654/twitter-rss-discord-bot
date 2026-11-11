@@ -13,19 +13,19 @@
       "update_date": "2026/10/07",
       "model_number": "20400",
       "_check": {
-        "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
-        "source": "登録済み/sheet1",
-        "score": 0.75,
+        "status": "verified",
+        "ref": "ぬーどるストッパー スルト",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "スルト"
         ],
-        "missing": [
-          "ゴン"
-        ],
-        "suggestion": "ぬーどるストッパー るスト",
-        "reason": "「スルト」が参照名に見当たりません（候補: スルト→るスト）"
-      }
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 20400 で登録済みの「ぬーどるストッパー スルト」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー ニエン",
@@ -34,29 +34,27 @@
       "model_number": "18779",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.75,
         "unmatched": [
           "ニエン"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
         "reason": "「ニエン」が参照名に見当たりません"
       }
     },
     {
-      "name": "Trio-Try-IT 犬夜叉 vol.2",
+      "name": "Trio-Try-iT 犬夜叉 vol.2",
       "price": "1100",
       "update_date": "2026/10/07",
       "model_number": "21413",
       "_check": {
-        "status": "suspect",
-        "ref": "Trio-Try-iT フェルン",
-        "source": "登録済み/sheet1",
-        "score": 0.529,
+        "status": "verified",
+        "ref": "Trio-Try-iT 犬夜叉 vol.2",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "犬夜叉",
           "vol.2"
@@ -65,8 +63,11 @@
           "フェルン"
         ],
         "suggestion": "",
-        "reason": "「犬夜叉」「vol.2」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 21413 で登録済みの「Trio-Try-iT 犬夜叉 vol.2」と一致"
+      },
+      "_ocr_name": "Trio-Try-IT 犬夜叉 vol.2",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "T-most アルベルト 純白の悪魔 ver.",
@@ -75,14 +76,13 @@
       "model_number": "",
       "_check": {
         "status": "suspect",
-        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "ref": "T-most アルベド 純白の悪魔 ver.",
         "source": "登録済み/sheet1",
         "score": 0.722,
         "unmatched": [
           "アルベルト"
         ],
         "missing": [
-          "オーバーロード",
           "アルベド"
         ],
         "suggestion": "T-most アルベド 純白の悪魔 ver.",
@@ -96,7 +96,7 @@
       "model_number": "1117142",
       "_check": {
         "status": "suspect",
-        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "ref": "T-most アルベド 純白の悪魔 ver.",
         "source": "登録済み/sheet1",
         "score": 0.542,
         "unmatched": [
@@ -104,7 +104,6 @@
           "タイクレ限定"
         ],
         "missing": [
-          "オーバーロード",
           "アルベド"
         ],
         "suggestion": "T-most アルベド 純白の悪魔 ver. (タイクレ限定)",
@@ -132,15 +131,15 @@
       }
     },
     {
-      "name": "VIBRATION STARS リョウ",
+      "name": "ガチアクタ VIBRATION STARS リョウ",
       "price": "3000",
       "update_date": "2026/10/07",
       "model_number": "2722524",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS ボム",
-        "source": "登録済み/sheet1",
-        "score": 0.824,
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS リョウ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "リョウ"
         ],
@@ -148,8 +147,11 @@
           "ボム"
         ],
         "suggestion": "",
-        "reason": "「リョウ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2722524 で登録済みの「ガチアクタ VIBRATION STARS リョウ」と一致"
+      },
+      "_ocr_name": "VIBRATION STARS リョウ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Break time collection vol.2 壬氏",
@@ -178,10 +180,10 @@
       "update_date": "2026/10/07",
       "model_number": "19720",
       "_check": {
-        "status": "suspect",
-        "ref": "デート・ア・ライブ BiCute Dark 時崎狂三",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "BiCute Dark 中野二乃",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "中野二乃"
         ],
@@ -191,8 +193,10 @@
           "時崎狂三"
         ],
         "suggestion": "",
-        "reason": "「中野二乃」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 19720 で登録済みの「BiCute Dark 中野二乃」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BiCute Dark 中野三玖",
@@ -200,10 +204,10 @@
       "update_date": "2026/10/07",
       "model_number": "19738",
       "_check": {
-        "status": "suspect",
-        "ref": "デート・ア・ライブ BiCute Dark 時崎狂三",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "BiCute Dark 中野三玖",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "中野三玖"
         ],
@@ -213,8 +217,10 @@
           "時崎狂三"
         ],
         "suggestion": "",
-        "reason": "「中野三玖」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 19738 で登録済みの「BiCute Dark 中野三玖」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Coreful めぐみん 水着 ver. Renewal",
@@ -384,22 +390,25 @@
       }
     },
     {
-      "name": "Luminasta フリーレン インミミック PLUS",
+      "name": "Luminasta / フリーレン インミミック PLUS",
       "price": "1000",
       "update_date": "2026/10/07",
       "model_number": "1125343",
       "_check": {
-        "status": "suspect",
-        "ref": "Luminasta フリーレン インミミック",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "Luminasta / フリーレン インミミック PLUS",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "PLUS"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「PLUS」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1125343 で登録済みの「Luminasta / フリーレン インミミック PLUS」と一致"
+      },
+      "_ocr_name": "Luminasta フリーレン インミミック PLUS",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー しょぼしょぼなフリーレン",
@@ -408,29 +417,27 @@
       "model_number": "22167",
       "_check": {
         "status": "unknown",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.429,
         "unmatched": [
           "しょぼしょぼなフリーレン"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
         "reason": "参照リストに近い商品名がありません"
       }
     },
     {
-      "name": "GLITTER&GLAMOURS 喜多川海夢 文化祭 ver.",
+      "name": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
       "price": "1000",
       "update_date": "2026/10/07",
       "model_number": "2798673",
       "_check": {
-        "status": "suspect",
-        "ref": "GLITTER&GLAMOURS マキマ",
-        "source": "登録済み/sheet1",
-        "score": 0.556,
+        "status": "verified",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "喜多川海夢",
           "文化祭",
@@ -440,8 +447,11 @@
           "マキマ"
         ],
         "suggestion": "",
-        "reason": "「喜多川海夢」「文化祭」「ver.」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2798673 で登録済みの「GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.」と一致"
+      },
+      "_ocr_name": "GLITTER&GLAMOURS 喜多川海夢 文化祭 ver.",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フィグライフ! ターボババア (招き猫)",
@@ -449,10 +459,10 @@
       "update_date": "2026/10/07",
       "model_number": "2816203",
       "_check": {
-        "status": "unknown",
-        "ref": "フィグライフ! 火影岩",
-        "source": "登録済み/sheet1",
-        "score": 0.4,
+        "status": "verified",
+        "ref": "フィグライフ! ターボババア (招き猫)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ターボババア",
           "招き猫"
@@ -461,8 +471,10 @@
           "火影岩"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2816203 で登録済みの「フィグライフ! ターボババア (招き猫)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Fluffy Puffy ターボババア A",
@@ -567,18 +579,20 @@
       "update_date": "2026/10/07",
       "model_number": "2789973",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista S・F",
-        "source": "登録済み/sheet1",
-        "score": 0.6,
+        "status": "verified",
+        "ref": "Grandista 孫悟空 III",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "孫悟空",
           "III"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「孫悟空」「III」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2789973 で登録済みの「Grandista 孫悟空 III」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出陣 孫悟空 身勝手の極意",
@@ -586,10 +600,10 @@
       "update_date": "2026/10/07",
       "model_number": "2693441",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ゾロ",
-        "source": "登録済み/sheet1",
-        "score": 0.214,
+        "status": "verified",
+        "ref": "THE 出陣 孫悟空 身勝手の極意",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "出陣",
           "孫悟空",
@@ -600,8 +614,10 @@
           "ゾロ"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2693441 で登録済みの「THE 出陣 孫悟空 身勝手の極意」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BLOOD OF SAIYANS SPXX 孫悟空 (身勝手の極意)",
@@ -663,15 +679,15 @@
       }
     },
     {
-      "name": "Memorable Saga Special うちばイタチ",
+      "name": "Memorable Saga Special うちはイタチ",
       "price": "2200",
       "update_date": "2026/10/07",
       "model_number": "2729224",
       "_check": {
-        "status": "suspect",
-        "ref": "Memorable Saga Special ヒソカ",
-        "source": "登録済み/sheet1",
-        "score": 0.769,
+        "status": "verified",
+        "ref": "Memorable Saga Special うちはイタチ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "うちばイタチ"
         ],
@@ -679,8 +695,11 @@
           "ヒソカ"
         ],
         "suggestion": "",
-        "reason": "「うちばイタチ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2729224 で登録済みの「Memorable Saga Special うちはイタチ」と一致"
+      },
+      "_ocr_name": "Memorable Saga Special うちばイタチ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Memorable Saga Special うずまきナルト",
@@ -741,15 +760,15 @@
       }
     },
     {
-      "name": "VIBRATION STARS ベイン",
+      "name": "VIBRATION STARS ペイン",
       "price": "4800",
       "update_date": "2026/10/07",
       "model_number": "2694858",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS ボム",
-        "source": "登録済み/sheet1",
-        "score": 0.824,
+        "status": "verified",
+        "ref": "VIBRATION STARS ペイン",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ベイン"
         ],
@@ -757,8 +776,11 @@
           "ボム"
         ],
         "suggestion": "",
-        "reason": "「ベイン」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2694858 で登録済みの「VIBRATION STARS ペイン」と一致"
+      },
+      "_ocr_name": "VIBRATION STARS ベイン",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS Bベイン",
@@ -927,15 +949,15 @@
       }
     },
     {
-      "name": "ちょこのせ 廣井きくり",
+      "name": "ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり",
       "price": "3000",
       "update_date": "2026/10/07",
       "model_number": "1114889",
       "_check": {
-        "status": "suspect",
-        "ref": "ちょこのせ 猫猫",
-        "source": "登録済み/sheet1",
-        "score": 0.5,
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "廣井きくり"
         ],
@@ -943,8 +965,11 @@
           "猫猫"
         ],
         "suggestion": "",
-        "reason": "「廣井きくり」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1114889 で登録済みの「ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり」と一致"
+      },
+      "_ocr_name": "ちょこのせ 廣井きくり",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ふぃぐきゅーぷ 後藤ひとり",
@@ -970,15 +995,15 @@
       }
     },
     {
-      "name": "Yumemirize ロキシー",
+      "name": "Yumemirize / ロキシー",
       "price": "800",
       "update_date": "2026/10/07",
       "model_number": "1123950",
       "_check": {
-        "status": "suspect",
-        "ref": "Yumemirize 狗巻棘",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "Yumemirize / ロキシー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ロキシー"
         ],
@@ -986,8 +1011,11 @@
           "狗巻棘"
         ],
         "suggestion": "",
-        "reason": "「ロキシー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1123950 で登録済みの「Yumemirize / ロキシー」と一致"
+      },
+      "_ocr_name": "Yumemirize ロキシー",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Yumemirize シルフィエット",
@@ -1080,10 +1108,10 @@
       "update_date": "2026/10/07",
       "model_number": "2816414",
       "_check": {
-        "status": "unknown",
-        "ref": "Vol.2 初音ミク (2種共通)",
-        "source": "登録済み/sheet1",
-        "score": 0.263,
+        "status": "verified",
+        "ref": "ROMANCE DAWN ルフィ vol.2",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ROMANCE",
           "DAWN",
@@ -1094,8 +1122,10 @@
           "種共通"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2816414 で登録済みの「ROMANCE DAWN ルフィ vol.2」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ルフィワノ国 II SP ver.",
@@ -1194,5 +1224,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

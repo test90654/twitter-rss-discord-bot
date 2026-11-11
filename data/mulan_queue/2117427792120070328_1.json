@@ -122,10 +122,10 @@
       "update_date": "2026/11/03",
       "model_number": "2778343",
       "_check": {
-        "status": "unknown",
-        "ref": "Mometria DIO",
-        "source": "登録済み/sheet1",
-        "score": 0.444,
+        "status": "verified",
+        "ref": "Mometria ジョルノ・ジョバァーナ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ジョルノ",
           "ジョバァーナ"
@@ -134,8 +134,10 @@
           "dio"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2778343 で登録済みの「Mometria ジョルノ・ジョバァーナ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria ディオ・ブ",
@@ -525,10 +527,10 @@
       "update_date": "2026/11/03",
       "model_number": "2778344",
       "_check": {
-        "status": "suspect",
-        "ref": "Mometria DIO",
-        "source": "登録済み/sheet1",
-        "score": 0.615,
+        "status": "verified",
+        "ref": "Mometria ディアボロ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ディアボロ"
         ],
@@ -536,8 +538,10 @@
           "dio"
         ],
         "suggestion": "",
-        "reason": "「ディアボロ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2778344 で登録済みの「Mometria ディアボロ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ジョナサン・ジョースター",
@@ -726,10 +730,10 @@
       "update_date": "2026/11/03",
       "model_number": "2841134",
       "_check": {
-        "status": "unknown",
-        "ref": "めちゃもふぐっと イギー",
-        "source": "登録済み/sheet1",
-        "score": 0.214,
+        "status": "verified",
+        "ref": "CLEAR FIGURE イギー A",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "CLEAR",
           "FIGURE"
@@ -738,8 +742,10 @@
           "めちゃもふぐっと"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2841134 で登録済みの「CLEAR FIGURE イギー A」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "CLEAR FIGURE イギー B",
@@ -982,15 +988,15 @@
       }
     },
     {
-      "name": "Fluffy Puffy イギー B",
+      "name": "Fluffy Puffy イギー-B",
       "price": "1800",
       "update_date": "2026/11/03",
       "model_number": "82548",
       "_check": {
-        "status": "suspect",
-        "ref": "Fluffy Puffy ポチタ A",
-        "source": "登録済み/sheet1",
-        "score": 0.786,
+        "status": "verified",
+        "ref": "Fluffy Puffy イギー-B",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "イギー"
         ],
@@ -998,8 +1004,11 @@
           "ポチタ"
         ],
         "suggestion": "",
-        "reason": "「イギー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 82548 で登録済みの「Fluffy Puffy イギー-B」と一致"
+      },
+      "_ocr_name": "Fluffy Puffy イギー B",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フキフキライフ MI",
@@ -1926,15 +1935,15 @@
       }
     },
     {
-      "name": "Fluffy Puffy イギー A",
+      "name": "Fluffy Puffy イギー-A",
       "price": "1800",
       "update_date": "2026/11/03",
       "model_number": "82548",
       "_check": {
-        "status": "suspect",
-        "ref": "Fluffy Puffy ポチタ A",
-        "source": "登録済み/sheet1",
-        "score": 0.786,
+        "status": "verified",
+        "ref": "Fluffy Puffy イギー-A",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "イギー"
         ],
@@ -1942,8 +1951,11 @@
           "ポチタ"
         ],
         "suggestion": "",
-        "reason": "「イギー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 82548 で登録済みの「Fluffy Puffy イギー-A」と一致"
+      },
+      "_ocr_name": "Fluffy Puffy イギー A",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フィギュアライフ！ Mt",
@@ -2228,10 +2240,10 @@
       "update_date": "2026/11/03",
       "model_number": "2834940",
       "_check": {
-        "status": "suspect",
-        "ref": "Mometria ジョセフ・ジョースター",
-        "source": "登録済み/sheet1",
-        "score": 0.778,
+        "status": "verified",
+        "ref": "Mometria ジョニィ・ジョースター",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ジョニィ"
         ],
@@ -2239,8 +2251,10 @@
           "ジョセフ"
         ],
         "suggestion": "",
-        "reason": "「ジョニィ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2834940 で登録済みの「Mometria ジョニィ・ジョースター」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista 東方仗助",
@@ -2764,5 +2778,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

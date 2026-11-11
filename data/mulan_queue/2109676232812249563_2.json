@@ -809,36 +809,42 @@
       "_auto_registered": true
     },
     {
-      "name": "その他プライズフィギュア 呪祓ノ術 脹相",
+      "name": "呪祓ノ術 脹相",
       "price": "3000",
       "update_date": "2026/10/13",
       "model_number": "2637812",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "呪祓ノ術 脹相",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2637812 で登録済みの「呪祓ノ術 脹相」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア 呪祓ノ術 脹相",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "その他プライズフィギュア 呪祓ノ術 宿儺",
+      "name": "呪祓ノ術 宿儺",
       "price": "2300",
       "update_date": "2026/10/13",
       "model_number": "2566933",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "呪祓ノ術 宿儺",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2566933 で登録済みの「呪祓ノ術 宿儺」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア 呪祓ノ術 宿儺",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ジオラマフィギュア 夏油傑（スーツ ver.）",
@@ -1003,20 +1009,23 @@
       "_auto_registered": true
     },
     {
-      "name": "その他プライズフィギュア プラチナムザッカ 天逆鉾",
+      "name": "プラチナムザッカ 天逆鉾",
       "price": "3800",
       "update_date": "2026/10/13",
       "model_number": "1105830",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "プラチナムザッカ 天逆鉾",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 1105830 で登録済みの「プラチナムザッカ 天逆鉾」と一致"
+      },
+      "_ocr_name": "その他プライズフィギュア プラチナムザッカ 天逆鉾",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "全力造形 伏黒甚爾",
@@ -1055,5 +1064,5 @@
       "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

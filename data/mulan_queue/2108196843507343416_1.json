@@ -13,10 +13,10 @@
       "update_date": "2026/10/09",
       "model_number": "2839961",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.562,
+        "status": "verified",
+        "ref": "MAXIMATIC チェンソーマン",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "チェンソーマン"
         ],
@@ -24,8 +24,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "「チェンソーマン」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2839961 で登録済みの「MAXIMATIC チェンソーマン」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "FIGURIZMα 伏黒恵 冥頑回游",
@@ -53,15 +55,17 @@
       "update_date": "2026/10/09",
       "model_number": "2789144",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "MATCH MAKERS ベジット (VS合体ザマス)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2789144 で登録済みの「MATCH MAKERS ベジット (VS合体ザマス)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MATCH MAKERS 合体ザマス (VSベジット)",
@@ -69,15 +73,17 @@
       "update_date": "2026/10/09",
       "model_number": "2789145",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "MATCH MAKERS 合体ザマス (VSベジット)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2789145 で登録済みの「MATCH MAKERS 合体ザマス (VSベジット)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER &GLAMOURS 麗日お茶子",
@@ -123,10 +129,10 @@
       "update_date": "2026/10/09",
       "model_number": "2816220",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS うずまきナルト",
-        "source": "登録済み/sheet1",
-        "score": 0.677,
+        "status": "verified",
+        "ref": "VIBRATION STARS 72 series 71 うずまきナルト",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "72",
           "series",
@@ -134,8 +140,10 @@
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「72」「series」「71」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2816220 で登録済みの「VIBRATION STARS 72 series 71 うずまきナルト」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS 72 series 71 うちはサスケ",
@@ -143,10 +151,10 @@
       "update_date": "2026/10/09",
       "model_number": "2816221",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS うちはサスケ",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "VIBRATION STARS 72 series 71 うちはサスケ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "72",
           "series",
@@ -154,8 +162,10 @@
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「72」「series」「71」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2816221 で登録済みの「VIBRATION STARS 72 series 71 うちはサスケ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS 72 series 71 春野サクラ",
@@ -163,10 +173,10 @@
       "update_date": "2026/10/09",
       "model_number": "2816222",
       "_check": {
-        "status": "unknown",
-        "ref": "VIBRATION STARS ボム",
-        "source": "登録済み/sheet1",
-        "score": 0.483,
+        "status": "verified",
+        "ref": "VIBRATION STARS 72 series 71 春野サクラ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "72",
           "series",
@@ -177,8 +187,10 @@
           "ボム"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2816222 で登録済みの「VIBRATION STARS 72 series 71 春野サクラ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria ジョルノ・ジョバァーナ",
@@ -186,10 +198,10 @@
       "update_date": "2026/10/09",
       "model_number": "2778343",
       "_check": {
-        "status": "unknown",
-        "ref": "Mometria DIO",
-        "source": "登録済み/sheet1",
-        "score": 0.444,
+        "status": "verified",
+        "ref": "Mometria ジョルノ・ジョバァーナ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ジョルノ",
           "ジョバァーナ"
@@ -198,8 +210,10 @@
           "dio"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2778343 で登録済みの「Mometria ジョルノ・ジョバァーナ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Mometria ディアボロ",
@@ -207,10 +221,10 @@
       "update_date": "2026/10/09",
       "model_number": "2778344",
       "_check": {
-        "status": "suspect",
-        "ref": "Mometria DIO",
-        "source": "登録済み/sheet1",
-        "score": 0.615,
+        "status": "verified",
+        "ref": "Mometria ディアボロ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ディアボロ"
         ],
@@ -218,8 +232,10 @@
           "dio"
         ],
         "suggestion": "",
-        "reason": "「ディアボロ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2778344 で登録済みの「Mometria ディアボロ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BiCute Dark 弥海砂",
@@ -227,10 +243,10 @@
       "update_date": "2026/10/09",
       "model_number": "21597",
       "_check": {
-        "status": "suspect",
-        "ref": "デート・ア・ライブ BiCute Dark 時崎狂三",
-        "source": "登録済み/sheet1",
-        "score": 0.769,
+        "status": "verified",
+        "ref": "BiCute Dark 弥海砂",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "弥海砂"
         ],
@@ -240,8 +256,10 @@
           "時崎狂三"
         ],
         "suggestion": "",
-        "reason": "「弥海砂」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 21597 で登録済みの「BiCute Dark 弥海砂」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 浦原喜助",
@@ -249,10 +267,10 @@
       "update_date": "2026/10/09",
       "model_number": "2720295",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "MAXIMATIC 浦原喜助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "浦原喜助"
         ],
@@ -260,8 +278,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "「浦原喜助」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2720295 で登録済みの「MAXIMATIC 浦原喜助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER &GLAMOURS 四楓院夜一",
@@ -269,10 +289,10 @@
       "update_date": "2026/10/09",
       "model_number": "2798907",
       "_check": {
-        "status": "suspect",
-        "ref": "GLITTER&GLAMOURS マキマ",
-        "source": "登録済み/sheet1",
-        "score": 0.75,
+        "status": "verified",
+        "ref": "GLITTER &GLAMOURS 四楓院夜一",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "四楓院夜一"
         ],
@@ -280,8 +300,10 @@
           "マキマ"
         ],
         "suggestion": "",
-        "reason": "「四楓院夜一」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2798907 で登録済みの「GLITTER &GLAMOURS 四楓院夜一」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 鈴屋什造",
@@ -289,10 +311,10 @@
       "update_date": "2026/10/09",
       "model_number": "2883651",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "MAXIMATIC 鈴屋什造",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "鈴屋什造"
         ],
@@ -300,8 +322,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "「鈴屋什造」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2883651 で登録済みの「MAXIMATIC 鈴屋什造」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フィグライフッ!! 範馬勇次郎",
@@ -309,15 +333,17 @@
       "update_date": "2026/10/09",
       "model_number": "2841459",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "フィグライフッ!! 範馬勇次郎",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2841459 で登録済みの「フィグライフッ!! 範馬勇次郎」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute 喜多川海夢 十六夜ありさ ver.",
@@ -365,15 +391,17 @@
       "update_date": "2026/10/09",
       "model_number": "21916",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "ムチュート ルイズ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 21916 で登録済みの「ムチュート ルイズ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "リムル=テンペスト 最強のスライム",
@@ -381,15 +409,17 @@
       "update_date": "2026/10/09",
       "model_number": "2839730",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "リムル=テンペスト 最強のスライム",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2839730 で登録済みの「リムル=テンペスト 最強のスライム」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "おおき SOFVIMATES 猫猫!!",
@@ -418,19 +448,19 @@
       "update_date": "2026/10/09",
       "model_number": "22303",
       "_check": {
-        "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "ぬーどるストッパー ノワール",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ノワール"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
-        "reason": "「ノワール」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 22303 で登録済みの「ぬーどるストッパー ノワール」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー テキサス 意志 ver.",
@@ -438,10 +468,10 @@
       "update_date": "2026/10/09",
       "model_number": "22614",
       "_check": {
-        "status": "suspect",
-        "ref": "ぬーどるストッパー 猗窩座・戦闘 Ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.684,
+        "status": "verified",
+        "ref": "ぬーどるストッパー テキサス 意志 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "テキサス",
           "意志"
@@ -451,8 +481,10 @@
           "戦闘"
         ],
         "suggestion": "",
-        "reason": "「テキサス」「意志」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 22614 で登録済みの「ぬーどるストッパー テキサス 意志 ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES ミュウツー",
@@ -460,10 +492,10 @@
       "update_date": "2026/10/09",
       "model_number": "2839440",
       "_check": {
-        "status": "suspect",
-        "ref": "SOFVIMATES コン",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "SOFVIMATES ミュウツー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ミュウツー"
         ],
@@ -471,9 +503,11 @@
           "コン"
         ],
         "suggestion": "",
-        "reason": "「ミュウツー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2839440 で登録済みの「SOFVIMATES ミュウツー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

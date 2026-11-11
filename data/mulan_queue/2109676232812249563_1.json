@@ -517,10 +517,10 @@
       "update_date": "2026/10/13",
       "model_number": "62799",
       "_check": {
-        "status": "suspect",
-        "ref": "一番くじ ラストワン賞 脹相 赫鱗躍動 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.7,
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 弐 D賞 脹相 赫鱗躍動・載 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "渋谷事変",
           "D賞"
@@ -529,8 +529,10 @@
           "ラストワン賞"
         ],
         "suggestion": "",
-        "reason": "「渋谷事変」「D賞」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 62799 で登録済みの「一番くじ 渋谷事変 弐 D賞 脹相 赫鱗躍動・載 ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
@@ -551,22 +553,25 @@
       "_auto_registered": true
     },
     {
-      "name": "一番くじ 渋谷事変 弐 ラストワン賞 脹相 赫鱗躍動 ver.",
+      "name": "一番くじ 渋谷事変 弐 ラストワン賞 脹相 赫鱗躍動・載 ver.",
       "price": "3500",
       "update_date": "2026/10/13",
       "model_number": "62799",
       "_check": {
-        "status": "suspect",
-        "ref": "一番くじ ラストワン賞 脹相 赫鱗躍動 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.833,
+        "status": "verified",
+        "ref": "一番くじ 渋谷事変 弐 ラストワン賞 脹相 赫鱗躍動・載 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "渋谷事変"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「渋谷事変」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 62799 で登録済みの「一番くじ 渋谷事変 弐 ラストワン賞 脹相 赫鱗躍動・載 ver.」と一致"
+      },
+      "_ocr_name": "一番くじ 渋谷事変 弐 ラストワン賞 脹相 赫鱗躍動 ver.",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "一番くじ 渋谷事変 参 B賞 伏黒恵",
@@ -736,17 +741,19 @@
       "update_date": "2026/10/13",
       "model_number": "64541",
       "_check": {
-        "status": "suspect",
-        "ref": "一番くじ 懐玉・玉折 ⾍ 五条悟",
-        "source": "登録済み/sheet1",
-        "score": 0.846,
+        "status": "verified",
+        "ref": "一番くじ 懐玉・玉折 参 D賞 五条悟",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "D賞"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「D賞」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 64541 で登録済みの「一番くじ 懐玉・玉折 参 D賞 五条悟」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "一番くじ 懐玉・玉折 参 E賞 夏油傑",
@@ -754,17 +761,19 @@
       "update_date": "2026/10/13",
       "model_number": "64541",
       "_check": {
-        "status": "suspect",
-        "ref": "一番くじ 懐玉・玉折 ⾍ 夏油傑",
-        "source": "登録済み/sheet1",
-        "score": 0.846,
+        "status": "verified",
+        "ref": "一番くじ 懐玉・玉折 参 E賞 夏油傑",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "E賞"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「E賞」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 64541 で登録済みの「一番くじ 懐玉・玉折 参 E賞 夏油傑」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "一番くじ 懐玉・玉折 参 ラストワン賞 五条悟",
@@ -957,10 +966,10 @@
       "update_date": "2026/10/13",
       "model_number": "68047",
       "_check": {
-        "status": "suspect",
-        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "一番くじ 死滅回游 弐 G賞 乙骨憂太",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "乙骨憂太"
         ],
@@ -968,8 +977,10 @@
           "伏黒恵"
         ],
         "suggestion": "",
-        "reason": "「乙骨憂太」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 68047 で登録済みの「一番くじ 死滅回游 弐 G賞 乙骨憂太」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "一番くじ 死滅回游 弐 J賞 羂索",
@@ -999,10 +1010,10 @@
       "update_date": "2026/10/13",
       "model_number": "68047",
       "_check": {
-        "status": "suspect",
-        "ref": "一番くじ 死滅回游 壱 ラストワン賞 日車寛見・ジャッジマン",
-        "source": "登録済み/sheet1",
-        "score": 0.875,
+        "status": "verified",
+        "ref": "一番くじ 死滅回游 弐 ラストワン賞 リカ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "リカ"
         ],
@@ -1011,8 +1022,10 @@
           "ジャッジマン"
         ],
         "suggestion": "",
-        "reason": "「リカ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 68047 で登録済みの「一番くじ 死滅回游 弐 ラストワン賞 リカ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "一番くじ 5周年 FINAL! A賞 虎杖悠仁",
@@ -1079,5 +1092,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

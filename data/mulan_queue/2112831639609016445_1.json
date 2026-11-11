@@ -368,19 +368,19 @@
       "update_date": "2026/10/21",
       "model_number": "20444",
       "_check": {
-        "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
-        "source": "登録済み/sheet1",
-        "score": 0.692,
+        "status": "verified",
+        "ref": "ぬーどるストッパー カナリア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "カナリア"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
-        "reason": "「カナリア」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 20444 で登録済みの「ぬーどるストッパー カナリア」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー ロリポップ",
@@ -514,19 +514,19 @@
       "update_date": "2026/10/21",
       "model_number": "18504",
       "_check": {
-        "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
-        "source": "登録済み/sheet1",
-        "score": 0.643,
+        "status": "verified",
+        "ref": "ぬーどるストッパー MEIKO",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "MEIKO"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
-        "reason": "「MEIKO」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 18504 で登録済みの「ぬーどるストッパー MEIKO」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "タイトープライズ T-most 初音ミク",
@@ -853,5 +853,5 @@
       "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

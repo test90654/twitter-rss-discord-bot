@@ -20,7 +20,11 @@ from pathlib import Path
 import gspread
 import requests
 
-from mulan_name_check import build_refs, check_name, refs_from_text, same_item_name, strip_headings
+import unicodedata
+
+from mulan_name_check import (
+    build_refs, build_vocab, check_name, match_by_model, refs_from_text, same_item_name, strip_headings,
+)
 from mulan_sheet import (
     DEFAULT_STORE, STORE_SHEETS, get_gspread_client, get_result_sheet,
     item_key, keys_from_rows, read_rows, sheet_name_for,
@@ -95,6 +99,12 @@ def trusted_sheet_names(rows, source, before=None):
     return [(n, source) for n, ds in dates.items() if len(ds) >= 2]
 
 
+def model_key(value):
+    """型番/JANの比較用（短すぎるものは別の商品と当たりやすいので使わない）"""
+    s = re.sub(r"[\s\-‐－]", "", unicodedata.normalize("NFKC", str(value or ""))).upper()
+    return s if len(s) >= 4 else ""
+
+
 def normalize_price(value):
     return re.sub(r"[,，円¥\s]", "", str(value or ""))
 
@@ -137,6 +147,7 @@ def main():
     sheets, keys, next_rows = {}, {}, {}
     name_dates = {}  # 店舗ごとの（商品名, 更新日）。型番が空の行の二重登録防止に使う
     price_rows = {}  # 店舗ごと・更新日ごとの（商品名, 価格）。名前を手で直して登録済みの行の検出に使う
+    model_names = {}  # 型番/JAN → シートに登録済みの商品名
     shared = calendar_names()
     for store in sorted({(m.get("store") or DEFAULT_STORE) for _, m in targets} | set(STORE_SHEETS)):
         sheet = get_result_sheet(gc, store)
@@ -151,7 +162,13 @@ def main():
                 price_rows[store].setdefault(k[2], []).append((r[1], normalize_price(r[2])))
         next_rows[store] = len(sheet.col_values(2)) + 1
         shared += trusted_sheet_names(rows, f"登録済み/{sheet_name_for(store)}")
+        # 型番/JAN → 登録済みの商品名（手で直した名前を引くのに使う。店舗をまたいで共通）
+        for r in rows:
+            m = model_key(r[4])
+            if m and r[1].strip():
+                model_names.setdefault(m, {}).setdefault(r[1].strip(), set()).add(r[3].strip())
     base_refs = shared
+    vocab = build_vocab(build_refs(base_refs))
 
     summary = []
     for path, meta in targets:
@@ -163,12 +180,26 @@ def main():
             if it.get("_registered"):
                 continue
             result = check_name(it.get("name", ""), refs)
+            # 型番/JANが同じ商品がシートに登録済みなら、その名前（手で直した名前）を使う
+            model_hit = None
+            m = model_key(it.get("model_number"))
+            if m and m in model_names:
+                model_hit = match_by_model(
+                    it.get("name", ""), [(n, len(ds)) for n, ds in model_names[m].items()], vocab)
+            if model_hit:
+                result = dict(result, status="verified", ref=model_hit[0], source="型番/JAN一致",
+                              score=1.0, suggestion="",
+                              reason=f"型番/JAN {it.get('model_number')} で登録済みの「{model_hit[0]}」と一致")
             it["_check"] = result
             price = normalize_price(it.get("price"))
             date_ok = bool(_DATE_RE.match(str(it.get("update_date") or "")))
             if result["status"] == "verified" and _PRICE_RE.match(price) and date_ok:
-                # 先頭の見出し（パレード・その他プライズ など）は外してシートに書く
-                name = strip_headings(it.get("name", ""))
+                # 型番/JANで引けた名前があればそれを、無ければ先頭の見出し（パレード など）を外した名前を書く
+                name = model_hit[0] if model_hit else strip_headings(it.get("name", ""))
+                if model_hit and name != it.get("name"):
+                    it["_ocr_name"] = it.get("name")
+                    if args.dry_run:
+                        print(f"[dry-run:model] {it.get('name')}  →  {name}  ({it.get('model_number')})")
                 model, date = it.get("model_number", ""), it.get("update_date", "")
                 # 二重登録の判定:
                 #  ・見出しを外す前の名前でも調べる（ダッシュボードでOCRの名前のまま手で登録済みのことがある）

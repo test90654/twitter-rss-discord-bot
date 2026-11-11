@@ -47,15 +47,15 @@
       "_auto_registered": true
     },
     {
-      "name": "BATTLE RECORD COLLECTION ギア5 ルフィSP",
+      "name": "BATTLE RECORD COLLECTION ギア5 ルフィ SP",
       "price": "1100",
       "update_date": "2026/11/03",
       "model_number": "2800813",
       "_check": {
-        "status": "suspect",
-        "ref": "BATTLE RECORD COLLECTION ナミ",
-        "source": "登録済み/sheet1",
-        "score": 0.733,
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ギア5 ルフィ SP",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5",
@@ -65,8 +65,11 @@
           "ナミ"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」「ルフィSP」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2800813 で登録済みの「BATTLE RECORD COLLECTION ギア5 ルフィ SP」と一致"
+      },
+      "_ocr_name": "BATTLE RECORD COLLECTION ギア5 ルフィSP",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE 出航 サンジ",
@@ -105,15 +108,15 @@
       }
     },
     {
-      "name": "ログストーリーズ ルフィ & シャンクス",
+      "name": "WCF ログストーリーズ ルフィ & シャンクス",
       "price": "1500",
       "update_date": "2026/11/03",
       "model_number": "2650587",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ルフィ",
-        "source": "登録済み/sheet1",
-        "score": 0.188,
+        "status": "verified",
+        "ref": "WCF ログストーリーズ ルフィ & シャンクス",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ログストーリーズ",
           "シャンクス"
@@ -123,19 +126,22 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2650587 で登録済みの「WCF ログストーリーズ ルフィ & シャンクス」と一致"
+      },
+      "_ocr_name": "ログストーリーズ ルフィ & シャンクス",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "BATTLE RECORD COLLECTION ギア5 ルフィII",
+      "name": "BATTLE RECORD COLLECTION ギア5 ルフィ II",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2764096",
       "_check": {
-        "status": "suspect",
-        "ref": "BATTLE RECORD COLLECTION ルフィ II SP",
-        "source": "登録済み/sheet1",
-        "score": 0.9,
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ギア5 ルフィ II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5"
@@ -144,8 +150,11 @@
           "sp"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2764096 で登録済みの「BATTLE RECORD COLLECTION ギア5 ルフィ II」と一致"
+      },
+      "_ocr_name": "BATTLE RECORD COLLECTION ギア5 ルフィII",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ゾロIII",
@@ -180,22 +189,25 @@
       }
     },
     {
-      "name": "シャンクス",
+      "name": "BATTLE RECORD COLLECTION シャンクス",
       "price": "900",
       "update_date": "2026/11/03",
       "model_number": "2712789",
       "_check": {
-        "status": "unknown",
-        "ref": "Grandista シャンクス",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION シャンクス",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "grandista"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2712789 で登録済みの「BATTLE RECORD COLLECTION シャンクス」と一致"
+      },
+      "_ocr_name": "シャンクス",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "シャンクスSP",
@@ -238,22 +250,25 @@
       }
     },
     {
-      "name": "ティーチ",
+      "name": "BATTLE RECORD COLLECTION ティーチ",
       "price": "900",
       "update_date": "2026/11/03",
       "model_number": "2712788",
       "_check": {
-        "status": "unknown",
-        "ref": "Grandista ティーチ",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ティーチ",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "grandista"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2712788 で登録済みの「BATTLE RECORD COLLECTION ティーチ」と一致"
+      },
+      "_ocr_name": "ティーチ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ゴールド・D・ロジャー",
@@ -294,15 +309,15 @@
       }
     },
     {
-      "name": "カタクリSP ver.",
+      "name": "BATTLE RECORD COLLECTION カタクリ SP ver.",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2835279",
       "_check": {
-        "status": "unknown",
-        "ref": "AMP+ 桜ミク 桜提灯 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.4,
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION カタクリ SP ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "カタクリSP"
         ],
@@ -312,8 +327,11 @@
           "桜提灯"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2835279 で登録済みの「BATTLE RECORD COLLECTION カタクリ SP ver.」と一致"
+      },
+      "_ocr_name": "カタクリSP ver.",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "クザン",
@@ -895,14 +913,14 @@
       "_auto_registered": true
     },
     {
-      "name": "ロギアサボ",
+      "name": "THE 出航 ロギアサボ",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2764321",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "THE 出航 ロギアサボ",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
@@ -910,8 +928,11 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2764321 で登録済みの「THE 出航 ロギアサボ」と一致"
+      },
+      "_ocr_name": "ロギアサボ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ロギアサボ ロギア エース",
@@ -2074,15 +2095,15 @@
       }
     },
     {
-      "name": "ルフィII SP",
+      "name": "BATTLE RECORD COLLECTION ルフィII SP",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2750937",
       "_check": {
-        "status": "unknown",
-        "ref": "SPM 五条悟",
-        "source": "登録済み/sheet1",
-        "score": 0.286,
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ルフィII SP",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ルフィII"
         ],
@@ -2091,8 +2112,11 @@
           "五条悟"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2750937 で登録済みの「BATTLE RECORD COLLECTION ルフィII SP」と一致"
+      },
+      "_ocr_name": "ルフィII SP",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ギア 5 ルフィ II",
@@ -2177,14 +2201,14 @@
       }
     },
     {
-      "name": "ナミ",
+      "name": "BATTLE RECORD COLLECTION ナミ",
       "price": "1200",
       "update_date": "2026/11/03",
       "model_number": "2720095",
       "_check": {
-        "status": "unknown",
-        "ref": "DXFシリーズ エッグヘッド ナミ",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ナミ",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
@@ -2192,37 +2216,43 @@
           "エッグヘッド"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2720095 で登録済みの「BATTLE RECORD COLLECTION ナミ」と一致"
+      },
+      "_ocr_name": "ナミ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "シャンクス",
+      "name": "BATTLE RECORD COLLECTION シャンクス",
       "price": "1200",
       "update_date": "2026/11/03",
       "model_number": "2712789",
       "_check": {
-        "status": "unknown",
-        "ref": "Grandista シャンクス",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION シャンクス",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
           "grandista"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2712789 で登録済みの「BATTLE RECORD COLLECTION シャンクス」と一致"
+      },
+      "_ocr_name": "シャンクス",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "シャンクス SP",
+      "name": "BATTLE RECORD COLLECTION シャンクス SP",
       "price": "1200",
       "update_date": "2026/11/03",
       "model_number": "2791311",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista シャンクス",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION シャンクス SP",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "SP"
         ],
@@ -2230,18 +2260,21 @@
           "grandista"
         ],
         "suggestion": "",
-        "reason": "「SP」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2791311 で登録済みの「BATTLE RECORD COLLECTION シャンクス SP」と一致"
+      },
+      "_ocr_name": "シャンクス SP",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "ローII",
+      "name": "BATTLE RECORD COLLECTION ロー II",
       "price": "1000",
       "update_date": "2026/11/03",
       "model_number": "2712830",
       "_check": {
-        "status": "unknown",
-        "ref": "KING OF ARTIST ロー II",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ロー II",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
@@ -2250,18 +2283,21 @@
           "artist"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2712830 で登録済みの「BATTLE RECORD COLLECTION ロー II」と一致"
+      },
+      "_ocr_name": "ローII",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "ゴール・D・ロジャー",
+      "name": "BATTLE RECORD COLLECTION ゴール・D・ロジャー",
       "price": "900",
       "update_date": "2026/11/03",
       "model_number": "2786974",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "BATTLE RECORD COLLECTION ゴール・D・ロジャー",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
@@ -2270,18 +2306,21 @@
           "collection"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2786974 で登録済みの「BATTLE RECORD COLLECTION ゴール・D・ロジャー」と一致"
+      },
+      "_ocr_name": "ゴール・D・ロジャー",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "ガープ",
+      "name": "BATTLE RECORD COLLECTION ガープ",
       "price": "800",
       "update_date": "2026/11/03",
       "model_number": "2764094",
       "_check": {
-        "status": "unknown",
-        "ref": "DXFシリーズ SPECIAL ガープ",
-        "source": "登録済み/sheet1",
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION ガープ",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [
@@ -2289,19 +2328,22 @@
           "special"
         ],
         "suggestion": "",
-        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
-      }
+        "reason": "型番/JAN 2764094 で登録済みの「BATTLE RECORD COLLECTION ガープ」と一致"
+      },
+      "_ocr_name": "ガープ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "カタクリ SP ver.",
+      "name": "BATTLE RECORD COLLECTION カタクリ SP ver.",
       "price": "700",
       "update_date": "2026/11/03",
       "model_number": "2835279",
       "_check": {
-        "status": "unknown",
-        "ref": "AMP+ 桜ミク 桜提灯 ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.4,
+        "status": "verified",
+        "ref": "BATTLE RECORD COLLECTION カタクリ SP ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "カタクリ",
           "SP"
@@ -2312,8 +2354,11 @@
           "桜提灯"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2835279 で登録済みの「BATTLE RECORD COLLECTION カタクリ SP ver.」と一致"
+      },
+      "_ocr_name": "カタクリ SP ver.",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ワールドコレクタブルフィギュア ルフィ VS 近海の主",
@@ -2604,5 +2649,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

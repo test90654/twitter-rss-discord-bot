@@ -74,15 +74,15 @@
       "_auto_registered": true
     },
     {
-      "name": "VIBRATION STARS PLUS 我妻善逸",
+      "name": "VIBRATION STARS 我妻善逸 PLUS",
       "price": "1600",
       "update_date": "2026/10/29",
       "model_number": "2751106",
       "_check": {
-        "status": "suspect",
-        "ref": "VIBRATION STARS 我愛羅 PLUS",
-        "source": "登録済み/sheet1",
-        "score": 0.818,
+        "status": "verified",
+        "ref": "VIBRATION STARS 我妻善逸 PLUS",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "我妻善逸"
         ],
@@ -90,8 +90,11 @@
           "我愛羅"
         ],
         "suggestion": "",
-        "reason": "「我妻善逸」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2751106 で登録済みの「VIBRATION STARS 我妻善逸 PLUS」と一致"
+      },
+      "_ocr_name": "VIBRATION STARS PLUS 我妻善逸",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ソラ",
@@ -203,15 +206,15 @@
       "_auto_registered": true
     },
     {
-      "name": "ログストーリーズ ルフィ & シャンクス",
+      "name": "WCF ログストーリーズ ルフィ & シャンクス",
       "price": "1500",
       "update_date": "2026/10/29",
       "model_number": "2650587",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ルフィ",
-        "source": "登録済み/sheet1",
-        "score": 0.188,
+        "status": "verified",
+        "ref": "WCF ログストーリーズ ルフィ & シャンクス",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ログストーリーズ",
           "シャンクス"
@@ -221,19 +224,22 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2650587 で登録済みの「WCF ログストーリーズ ルフィ & シャンクス」と一致"
+      },
+      "_ocr_name": "ログストーリーズ ルフィ & シャンクス",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "ログストーリーズ チョッパー",
+      "name": "WFC ログストーリーズ チョッパー",
       "price": "1200",
       "update_date": "2026/10/29",
       "model_number": "2704762",
       "_check": {
-        "status": "unknown",
-        "ref": "DXFシリーズ エッグヘッド チョッパー",
-        "source": "登録済み/sheet1",
-        "score": 0.385,
+        "status": "verified",
+        "ref": "WFC ログストーリーズ チョッパー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ログストーリーズ"
         ],
@@ -242,8 +248,11 @@
           "エッグヘッド"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2704762 で登録済みの「WFC ログストーリーズ チョッパー」と一致"
+      },
+      "_ocr_name": "ログストーリーズ チョッパー",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "T-most アルベド 純白の悪魔 ver.",
@@ -272,15 +281,13 @@
       "model_number": "",
       "_check": {
         "status": "suspect",
-        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "ref": "T-most アルベド 純白の悪魔 ver.",
         "source": "登録済み/sheet1",
         "score": 0.739,
         "unmatched": [
           "タイクレ限定"
         ],
-        "missing": [
-          "オーバーロード"
-        ],
+        "missing": [],
         "suggestion": "",
         "reason": "「タイクレ限定」が参照名に見当たりません"
       }
@@ -331,10 +338,10 @@
       "update_date": "2026/10/29",
       "model_number": "21628",
       "_check": {
-        "status": "suspect",
-        "ref": "ぬーどるストッパー 猗窩座・戦闘 Ver.",
-        "source": "登録済み/sheet1",
-        "score": 0.684,
+        "status": "verified",
+        "ref": "ぬーどるストッパー 重音テト 王様 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "重音テト",
           "王様"
@@ -344,8 +351,10 @@
           "戦闘"
         ],
         "suggestion": "",
-        "reason": "「重音テト」「王様」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 21628 で登録済みの「ぬーどるストッパー 重音テト 王様 ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS ルド",
@@ -621,16 +630,14 @@
       "model_number": "21920",
       "_check": {
         "status": "unknown",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.45,
         "unmatched": [
           "レッドピラミッド",
           "プラン"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
         "reason": "参照リストに近い商品名がありません"
       }
@@ -661,10 +668,10 @@
       "update_date": "2026/10/29",
       "model_number": "2839961",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC 轟焦凍",
-        "source": "登録済み/sheet1",
-        "score": 0.562,
+        "status": "verified",
+        "ref": "MAXIMATIC チェンソーマン",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "チェンソーマン"
         ],
@@ -672,8 +679,10 @@
           "轟焦凍"
         ],
         "suggestion": "",
-        "reason": "「チェンソーマン」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2839961 で登録済みの「MAXIMATIC チェンソーマン」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC ポム",
@@ -757,15 +766,13 @@
       "model_number": "20924",
       "_check": {
         "status": "suspect",
-        "ref": "ぬーどるストッパー ゴン",
+        "ref": "ぬーどるストッパー L",
         "source": "登録済み/sheet1",
         "score": 0.692,
         "unmatched": [
           "リューク"
         ],
-        "missing": [
-          "ゴン"
-        ],
+        "missing": [],
         "suggestion": "",
         "reason": "「リューク」が参照名に見当たりません"
       }
@@ -776,10 +783,10 @@
       "update_date": "2026/10/29",
       "model_number": "21597",
       "_check": {
-        "status": "suspect",
-        "ref": "デート・ア・ライブ BiCute Dark 時崎狂三",
-        "source": "登録済み/sheet1",
-        "score": 0.769,
+        "status": "verified",
+        "ref": "BiCute Dark 弥海砂",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "弥海砂"
         ],
@@ -789,24 +796,29 @@
           "時崎狂三"
         ],
         "suggestion": "",
-        "reason": "「弥海砂」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 21597 で登録済みの「BiCute Dark 弥海砂」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "リムル＝テンペスト 最強のスライム",
+      "name": "リムル=テンペスト 最強のスライム",
       "price": "900",
       "update_date": "2026/10/29",
       "model_number": "2839730",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "リムル=テンペスト 最強のスライム",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2839730 で登録済みの「リムル=テンペスト 最強のスライム」と一致"
+      },
+      "_ocr_name": "リムル＝テンペスト 最強のスライム",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "RADIO DEMON",
@@ -830,10 +842,10 @@
       "update_date": "2026/10/29",
       "model_number": "2839440",
       "_check": {
-        "status": "suspect",
-        "ref": "SOFVIMATES コン",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "SOFVIMATES ミュウツー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ミュウツー"
         ],
@@ -841,8 +853,10 @@
           "コン"
         ],
         "suggestion": "",
-        "reason": "「ミュウツー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2839440 で登録済みの「SOFVIMATES ミュウツー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BANPRESTO EVOLVE 悪魔ほむら",
@@ -867,15 +881,15 @@
       }
     },
     {
-      "name": "Yumemirize ロキシー",
+      "name": "Yumemirize / ロキシー",
       "price": "800",
       "update_date": "2026/10/29",
       "model_number": "1123950",
       "_check": {
-        "status": "suspect",
-        "ref": "Yumemirize 狗巻棘",
-        "source": "登録済み/sheet1",
-        "score": 0.714,
+        "status": "verified",
+        "ref": "Yumemirize / ロキシー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ロキシー"
         ],
@@ -883,8 +897,11 @@
           "狗巻棘"
         ],
         "suggestion": "",
-        "reason": "「ロキシー」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 1123950 で登録済みの「Yumemirize / ロキシー」と一致"
+      },
+      "_ocr_name": "Yumemirize ロキシー",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フィギュアコレクション ネイキッド・スネーク",
@@ -908,15 +925,17 @@
       "update_date": "2026/10/29",
       "model_number": "22097",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "王選候補者と騎士 エミリア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 22097 で登録済みの「王選候補者と騎士 エミリア」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "王選候補者と騎士 スバル",
@@ -924,15 +943,17 @@
       "update_date": "2026/10/29",
       "model_number": "22097",
       "_check": {
-        "status": "unknown",
-        "ref": "",
-        "source": "",
-        "score": 0.0,
+        "status": "verified",
+        "ref": "王選候補者と騎士 スバル",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 22097 で登録済みの「王選候補者と騎士 スバル」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THEORAMA SOUL ゾロ",
@@ -940,10 +961,10 @@
       "update_date": "2026/10/29",
       "model_number": "2844572",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ゾロ",
-        "source": "登録済み/sheet1",
-        "score": 0.143,
+        "status": "verified",
+        "ref": "THEORAMA SOUL ゾロ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "THEORAMA",
           "SOUL"
@@ -952,8 +973,10 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2844572 で登録済みの「THEORAMA SOUL ゾロ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATICPLUS ルフィ I",
@@ -1001,10 +1024,10 @@
       "update_date": "2026/10/29",
       "model_number": "2824661",
       "_check": {
-        "status": "suspect",
-        "ref": "MAXIMATIC PLUS 宿儺",
-        "source": "登録済み/sheet1",
-        "score": 0.812,
+        "status": "verified",
+        "ref": "MAXIMATICPLUS サンジ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "サンジ"
         ],
@@ -1012,19 +1035,21 @@
           "宿儺"
         ],
         "suggestion": "",
-        "reason": "「サンジ」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2824661 で登録済みの「MAXIMATICPLUS サンジ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "Grandista ギア 5 ルフィ",
+      "name": "Grandista ギア5 ルフィ",
       "price": "1400",
       "update_date": "2026/10/29",
       "model_number": "2748104",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista ルフィ (2024年)",
-        "source": "登録済み/sheet1",
-        "score": 0.8,
+        "status": "verified",
+        "ref": "Grandista ギア5 ルフィ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5"
@@ -1033,19 +1058,22 @@
           "2024"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2748104 で登録済みの「Grandista ギア5 ルフィ」と一致"
+      },
+      "_ocr_name": "Grandista ギア 5 ルフィ",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "Grandista ルフィ ギア 5 III",
+      "name": "Grandista ギア5 ルフィ III",
       "price": "1400",
       "update_date": "2026/10/29",
       "model_number": "2834503",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista ルフィ (2024年)",
-        "source": "登録済み/sheet1",
-        "score": 0.667,
+        "status": "verified",
+        "ref": "Grandista ギア5 ルフィ III",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ギア",
           "5",
@@ -1055,8 +1083,11 @@
           "2024"
         ],
         "suggestion": "",
-        "reason": "「ギア」「5」「III」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2834503 で登録済みの「Grandista ギア5 ルフィ III」と一致"
+      },
+      "_ocr_name": "Grandista ルフィ ギア 5 III",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ソロ II",
@@ -1078,22 +1109,25 @@
       }
     },
     {
-      "name": "Grandista シャンクス II",
+      "name": "Grandista シャンクスII",
       "price": "1800",
       "update_date": "2026/10/29",
       "model_number": "2834505",
       "_check": {
-        "status": "suspect",
-        "ref": "Grandista シャンクス",
-        "source": "登録済み/sheet1",
-        "score": 0.875,
+        "status": "verified",
+        "ref": "Grandista シャンクスII",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "II"
         ],
         "missing": [],
         "suggestion": "",
-        "reason": "「II」が参照名に見当たりません"
-      }
+        "reason": "型番/JAN 2834505 で登録済みの「Grandista シャンクスII」と一致"
+      },
+      "_ocr_name": "Grandista シャンクス II",
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ティーチ",
@@ -1164,10 +1198,10 @@
       "update_date": "2026/10/29",
       "model_number": "2650587",
       "_check": {
-        "status": "unknown",
-        "ref": "THE 出航 ルフィ",
-        "source": "登録済み/sheet1",
-        "score": 0.158,
+        "status": "verified",
+        "ref": "WCF ログストーリーズ ルフィ & シャンクス",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "WCF",
           "ログストーリーズ",
@@ -1178,8 +1212,10 @@
           "出航"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
-      }
+        "reason": "型番/JAN 2650587 で登録済みの「WCF ログストーリーズ ルフィ & シャンクス」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "WCF ログストーリーズ チョッパー",
@@ -1205,5 +1241,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }

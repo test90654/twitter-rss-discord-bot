@@ -13,12 +13,12 @@
       "_check": {
         "status": "verified",
         "ref": "一本ナイッサー!! 日向翔陽",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一本ナイッサー!! 日向翔陽」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2803730 で登録済みの「一本ナイッサー!! 日向翔陽」と一致"
       }
     },
     {
@@ -29,12 +29,12 @@
       "_check": {
         "status": "verified",
         "ref": "一本ナイッサー!! 西谷夕",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一本ナイッサー!! 西谷夕」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2803730 で登録済みの「一本ナイッサー!! 西谷夕」と一致"
       }
     },
     {
@@ -45,12 +45,12 @@
       "_check": {
         "status": "verified",
         "ref": "一本ナイッサー!! 菅原孝支",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一本ナイッサー!! 菅原孝支」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2803730 で登録済みの「一本ナイッサー!! 菅原孝支」と一致"
       }
     },
     {
@@ -61,12 +61,12 @@
       "_check": {
         "status": "verified",
         "ref": "宮侑 俺のサーブの邪魔すんなや",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「宮侑 俺のサーブの邪魔すんなや」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2723903 で登録済みの「宮侑 俺のサーブの邪魔すんなや」と一致"
       }
     },
     {
@@ -77,12 +77,12 @@
       "_check": {
         "status": "verified",
         "ref": "及川徹 それじゃあお手本を見せようか",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「及川徹 それじゃあお手本を見せようか」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2723906 で登録済みの「及川徹 それじゃあお手本を見せようか」と一致"
       }
     },
     {
@@ -93,12 +93,12 @@
       "_check": {
         "status": "verified",
         "ref": "月島蛍 たかがブロック一本",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「月島蛍 たかがブロック一本」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2728488 で登録済みの「月島蛍 たかがブロック一本」と一致"
       }
     },
     {
@@ -109,12 +109,12 @@
       "_check": {
         "status": "verified",
         "ref": "木兎光太郎 エースの心得",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「木兎光太郎 エースの心得」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2729285 で登録済みの「木兎光太郎 エースの心得」と一致"
       }
     },
     {
@@ -125,12 +125,12 @@
       "_check": {
         "status": "verified",
         "ref": "孤爪研磨 & 黒尾鉄朗 この瞬間をいつまでも",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「孤爪研磨 & 黒尾鉄朗 この瞬間をいつまでも」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2761141 で登録済みの「孤爪研磨 & 黒尾鉄朗 この瞬間をいつまでも」と一致"
       }
     },
     {
@@ -139,10 +139,10 @@
       "update_date": "9月17日",
       "model_number": "1121874",
       "_check": {
-        "status": "unknown",
-        "ref": "一本ナイッサー!! 日向翔陽",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "status": "verified",
+        "ref": "ハイプレミアム 日向翔陽",
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ハイプレミィアム"
         ],
@@ -150,7 +150,7 @@
           "一本ナイッサー"
         ],
         "suggestion": "",
-        "reason": "参照リストに近い商品名がありません"
+        "reason": "型番/JAN 1121874 で登録済みの「ハイプレミアム 日向翔陽」と一致"
       }
     },
     {
@@ -159,18 +159,18 @@
       "update_date": "9月17日",
       "model_number": "1121872",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "ハイプレミアム 影山飛雄",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ハイプレミィアム"
         ],
         "missing": [
           "ハイプレミアム"
         ],
-        "suggestion": "ハイプレミアム 影山飛雄",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 1121872 で登録済みの「ハイプレミアム 影山飛雄」と一致"
       }
     },
     {
@@ -179,18 +179,18 @@
       "update_date": "9月17日",
       "model_number": "1122909",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "ハイプレミアム 黒尾鉄朗",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ハイプレミィアム"
         ],
         "missing": [
           "ハイプレミアム"
         ],
-        "suggestion": "ハイプレミアム 黒尾鉄朗",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 1122909 で登録済みの「ハイプレミアム 黒尾鉄朗」と一致"
       }
     },
     {
@@ -199,18 +199,18 @@
       "update_date": "9月17日",
       "model_number": "1122911",
       "_check": {
-        "status": "unknown",
+        "status": "verified",
         "ref": "ハイプレミアム 孤爪研磨",
-        "source": "登録済み/sheet1",
-        "score": 0.333,
+        "source": "型番/JAN一致",
+        "score": 1.0,
         "unmatched": [
           "ハイプレミィアム"
         ],
         "missing": [
           "ハイプレミアム"
         ],
-        "suggestion": "ハイプレミアム 孤爪研磨",
-        "reason": "参照リストに近い商品名がありません"
+        "suggestion": "",
+        "reason": "型番/JAN 1122911 で登録済みの「ハイプレミアム 孤爪研磨」と一致"
       }
     },
     {
@@ -221,12 +221,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 日向翔陽",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 日向翔陽」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2709954 で登録済みの「ポージングフィギュア 日向翔陽」と一致"
       }
     },
     {
@@ -237,12 +237,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 影山飛雄",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 影山飛雄」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2709955 で登録済みの「ポージングフィギュア 影山飛雄」と一致"
       }
     },
     {
@@ -253,12 +253,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 月島蛍",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 月島蛍」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2711237 で登録済みの「ポージングフィギュア 月島蛍」と一致"
       }
     },
     {
@@ -269,12 +269,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 西谷夕",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 西谷夕」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2711236 で登録済みの「ポージングフィギュア 西谷夕」と一致"
       }
     },
     {
@@ -285,12 +285,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 孤爪研磨",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 孤爪研磨」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2728481 で登録済みの「ポージングフィギュア 孤爪研磨」と一致"
       }
     },
     {
@@ -301,12 +301,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2824950 で登録済みの「ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.」と一致"
       }
     },
     {
@@ -317,12 +317,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 黒尾鉄朗",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 黒尾鉄朗」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2728482 で登録済みの「ポージングフィギュア 黒尾鉄朗」と一致"
       }
     },
     {
@@ -333,12 +333,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2824950 で登録済みの「ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.」と一致"
       }
     },
     {
@@ -349,12 +349,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 赤葦京治",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 赤葦京治」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2723902 で登録済みの「ポージングフィギュア 赤葦京治」と一致"
       }
     },
     {
@@ -365,12 +365,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 木兎光太郎",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 木兎光太郎」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2720416 で登録済みの「ポージングフィギュア 木兎光太郎」と一致"
       }
     },
     {
@@ -381,12 +381,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 宮侑",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 宮侑」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2786092 で登録済みの「ポージングフィギュア 宮侑」と一致"
       }
     },
     {
@@ -397,12 +397,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 宮治",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 宮治」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2786093 で登録済みの「ポージングフィギュア 宮治」と一致"
       }
     },
     {
@@ -413,12 +413,12 @@
       "_check": {
         "status": "verified",
         "ref": "ポージングフィギュア 北信介",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ポージングフィギュア 北信介」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 2723904 で登録済みの「ポージングフィギュア 北信介」と一致"
       }
     },
     {
@@ -429,12 +429,12 @@
       "_check": {
         "status": "verified",
         "ref": "ぬーどるストッパー 日向翔陽",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 日向翔陽」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 15033 で登録済みの「ぬーどるストッパー 日向翔陽」と一致"
       }
     },
     {
@@ -444,13 +444,13 @@
       "model_number": "18887",
       "_check": {
         "status": "verified",
-        "ref": "ぬーどるストッパー 日向翔陽",
-        "source": "登録済み/sheet1",
+        "ref": "ぬーどるストッパー 日向翔陽 (再販)",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 日向翔陽」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 18887 で登録済みの「ぬーどるストッパー 日向翔陽 (再販)」と一致"
       }
     },
     {
@@ -461,12 +461,12 @@
       "_check": {
         "status": "verified",
         "ref": "ぬーどるストッパー 影山飛雄",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 影山飛雄」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 15205 で登録済みの「ぬーどるストッパー 影山飛雄」と一致"
       }
     },
     {
@@ -476,13 +476,13 @@
       "model_number": "18888",
       "_check": {
         "status": "verified",
-        "ref": "ぬーどるストッパー 影山飛雄",
-        "source": "登録済み/sheet1",
+        "ref": "ぬーどるストッパー 影山飛雄 (再販)",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 影山飛雄」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 18888 で登録済みの「ぬーどるストッパー 影山飛雄 (再販)」と一致"
       }
     },
     {
@@ -493,12 +493,12 @@
       "_check": {
         "status": "verified",
         "ref": "ぬーどるストッパー 月島蛍",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 月島蛍」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 19705 で登録済みの「ぬーどるストッパー 月島蛍」と一致"
       }
     },
     {
@@ -509,12 +509,12 @@
       "_check": {
         "status": "verified",
         "ref": "ぬーどるストッパー 西谷夕",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 西谷夕」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 20360 で登録済みの「ぬーどるストッパー 西谷夕」と一致"
       }
     },
     {
@@ -525,12 +525,12 @@
       "_check": {
         "status": "verified",
         "ref": "ぬーどるストッパー 孤爪研磨",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 孤爪研磨」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 16237 で登録済みの「ぬーどるストッパー 孤爪研磨」と一致"
       }
     },
     {
@@ -540,13 +540,13 @@
       "model_number": "18889",
       "_check": {
         "status": "verified",
-        "ref": "ぬーどるストッパー 孤爪研磨",
-        "source": "登録済み/sheet1",
+        "ref": "ぬーどるストッパー 孤爪研磨 (再販)",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 孤爪研磨」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 18889 で登録済みの「ぬーどるストッパー 孤爪研磨 (再販)」と一致"
       }
     },
     {
@@ -557,12 +557,12 @@
       "_check": {
         "status": "verified",
         "ref": "ぬーどるストッパー 及川徹",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「ぬーどるストッパー 及川徹」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 16802 で登録済みの「ぬーどるストッパー 及川徹」と一致"
       }
     },
     {
@@ -573,12 +573,12 @@
       "_check": {
         "status": "verified",
         "ref": "一番くじ ゴミ捨て場の決戦 A賞 日向翔陽",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一番くじ ゴミ捨て場の決戦 A賞 日向翔陽」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 64293 で登録済みの「一番くじ ゴミ捨て場の決戦 A賞 日向翔陽」と一致"
       }
     },
     {
@@ -662,12 +662,12 @@
       "_check": {
         "status": "verified",
         "ref": "一番くじ 10th anniversary! A賞 日向翔陽",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一番くじ 10th anniversary! A賞 日向翔陽」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 64492 で登録済みの「一番くじ 10th anniversary! A賞 日向翔陽」と一致"
       }
     },
     {
@@ -694,12 +694,12 @@
       "_check": {
         "status": "verified",
         "ref": "一番くじ 全国への道 A賞 木兎光太郎",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一番くじ 全国への道 A賞 木兎光太郎」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 67732 で登録済みの「一番くじ 全国への道 A賞 木兎光太郎」と一致"
       }
     },
     {
@@ -797,12 +797,12 @@
       "_check": {
         "status": "verified",
         "ref": "一番くじ 最強の挑戦者 C賞 角名倫太郎",
-        "source": "登録済み/sheet1",
+        "source": "型番/JAN一致",
         "score": 1.0,
         "unmatched": [],
         "missing": [],
         "suggestion": "",
-        "reason": "すべての単語が「一番くじ 最強の挑戦者 C賞 角名倫太郎」（登録済み/sheet1）に含まれています"
+        "reason": "型番/JAN 67980 で登録済みの「一番くじ 最強の挑戦者 C賞 角名倫太郎」と一致"
       }
     },
     {
@@ -905,5 +905,5 @@
       }
     }
   ],
-  "auto_checked_at": "2026/11/11 13:59"
+  "auto_checked_at": "2026/11/11 14:08"
 }
