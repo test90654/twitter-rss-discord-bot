@@ -135,12 +135,14 @@ def main():
     gc = get_gspread_client()
     # 店舗ごとのシートを読み、登録済みの商品名を参照リストに、キーを二重登録防止に使う
     sheets, keys, next_rows = {}, {}, {}
+    name_dates = {}  # 店舗ごとの（商品名, 更新日）。型番が空の行の二重登録防止に使う
     shared = calendar_names()
     for store in sorted({(m.get("store") or DEFAULT_STORE) for _, m in targets} | set(STORE_SHEETS)):
         sheet = get_result_sheet(gc, store)
         rows = read_rows(sheet)
         sheets[store] = sheet
         keys[store] = keys_from_rows(rows)
+        name_dates[store] = {(k[0], k[2]) for k in keys[store]}
         next_rows[store] = len(sheet.col_values(2)) + 1
         shared += trusted_sheet_names(rows, f"登録済み/{sheet_name_for(store)}")
     base_refs = shared
@@ -161,10 +163,26 @@ def main():
             if result["status"] == "verified" and _PRICE_RE.match(price) and date_ok:
                 # 先頭の見出し（パレード・その他プライズ など）は外してシートに書く
                 name = strip_headings(it.get("name", ""))
-                key = item_key(name, it.get("model_number"), it.get("update_date"))
-                if key not in keys[store]:
-                    to_write.append([name, price, it.get("update_date", ""), it.get("model_number", "")])
-                    keys[store].add(key)
+                model, date = it.get("model_number", ""), it.get("update_date", "")
+                # 二重登録の判定:
+                #  ・見出しを外す前の名前でも調べる（ダッシュボードでOCRの名前のまま手で登録済みのことがある）
+                #  ・型番が片方だけ空でも同じ商品とみなす（OCRが画像の重なり部分を2回読み、片方だけ型番を拾うことがある）
+                #  ・型番が違う同名の商品は別の商品として登録する
+                dup = False
+                for n in {name, it.get("name", "")}:
+                    k = item_key(n, model, date)
+                    nd = (k[0], k[2])
+                    if k in keys[store]:
+                        dup = True  # 名前・型番・更新日が同じ
+                    elif k[1] == "" and nd in name_dates[store]:
+                        dup = True  # 型番なし ↔ 同名・同日の行がある
+                    elif item_key(n, "", date) in keys[store]:
+                        dup = True  # 型番あり ↔ 同名・同日で型番なしの行がある
+                if not dup:
+                    to_write.append([name, price, date, model])
+                k = item_key(name, model, date)
+                keys[store].add(k)
+                name_dates[store].add((k[0], k[2]))
                 it["name"] = name
                 it["price"] = price
                 it["_registered"] = True
