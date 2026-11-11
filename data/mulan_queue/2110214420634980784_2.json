@@ -11,319 +11,1054 @@
       "name": "EFFECTREME うちはサスケ II (疾風伝)",
       "price": "2800",
       "update_date": "2026/10/14",
-      "model_number": "2645234"
+      "model_number": "2645234",
+      "_check": {
+        "status": "verified",
+        "ref": "EFFECTREME うちはサスケ II (疾風伝)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「EFFECTREME うちはサスケ II (疾風伝)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Figno C・D うちはイタチ",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2809835"
+      "model_number": "2809835",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "「Figno」が参照名に見当たりません"
+      }
     },
     {
       "name": "72 series 03 カカシ",
       "price": "1500",
       "update_date": "2026/10/14",
-      "model_number": "2797893"
+      "model_number": "2797893",
+      "_check": {
+        "status": "unknown",
+        "ref": "造形忍界大戦 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "72",
+          "series",
+          "03"
+        ],
+        "missing": [
+          "造形忍界大戦",
+          "はたけカカシ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "造形忍界大戦 自来也",
       "price": "4000",
       "update_date": "2026/10/14",
-      "model_number": "2697443"
+      "model_number": "2697443",
+      "_check": {
+        "status": "verified",
+        "ref": "造形忍界大戦 自来也",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「造形忍界大戦 自来也」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "忍界造形列伝 波風ミナト",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2807803"
+      "model_number": "2807803",
+      "_check": {
+        "status": "unknown",
+        "ref": "波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "忍界造形列伝"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "72 series 16 ナルト",
       "price": "1800",
       "update_date": "2026/10/14",
-      "model_number": "2827329"
+      "model_number": "2827329",
+      "_check": {
+        "status": "unknown",
+        "ref": "NARUTO ナルト",
+        "source": "ポスト本文",
+        "score": 0.231,
+        "unmatched": [
+          "72",
+          "series",
+          "16"
+        ],
+        "missing": [
+          "naruto"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "72 series 16 イルカ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2827329"
+      "model_number": "2827329",
+      "_check": {
+        "status": "unknown",
+        "ref": "うみのイルカ 一楽でのひととき",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "72",
+          "series",
+          "16"
+        ],
+        "missing": [
+          "うみのイルカ",
+          "一楽でのひととき"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EFFECTREME うちはイタチ",
       "price": "2000",
       "update_date": "2026/10/14",
-      "model_number": "2638011"
+      "model_number": "2638011",
+      "_check": {
+        "status": "verified",
+        "ref": "EFFECTREME うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「EFFECTREME うちはイタチ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Figno A ナルト",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2809834"
+      "model_number": "2809834",
+      "_check": {
+        "status": "unknown",
+        "ref": "NARUTO ナルト",
+        "source": "ポスト本文",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "naruto"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno B ナルト",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2809834"
+      "model_number": "2809834",
+      "_check": {
+        "status": "unknown",
+        "ref": "NARUTO ナルト",
+        "source": "ポスト本文",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "naruto"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno C サスケ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2809834"
+      "model_number": "2809834",
+      "_check": {
+        "status": "unknown",
+        "ref": "EFFECTREME うちはサスケ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "effectreme",
+          "うちはサスケ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno D サスケ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2809834"
+      "model_number": "2809834",
+      "_check": {
+        "status": "unknown",
+        "ref": "EFFECTREME うちはサスケ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "effectreme",
+          "うちはサスケ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno A カカシ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2809835"
+      "model_number": "2809835",
+      "_check": {
+        "status": "unknown",
+        "ref": "造形忍界大戦 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "造形忍界大戦",
+          "はたけカカシ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno B カカシ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2809835"
+      "model_number": "2809835",
+      "_check": {
+        "status": "unknown",
+        "ref": "造形忍界大戦 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "造形忍界大戦",
+          "はたけカカシ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno C イタチ",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2809835"
+      "model_number": "2809835",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "grandista",
+          "うちはイタチ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno D イタチ",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2809835"
+      "model_number": "2809835",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "grandista",
+          "うちはイタチ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno A サソリ",
       "price": "500",
       "update_date": "2026/10/14",
-      "model_number": "2809836"
+      "model_number": "2809836",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS サソリ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "vibration",
+          "stars"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno B デイダラ",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2809836"
+      "model_number": "2809836",
+      "_check": {
+        "status": "unknown",
+        "ref": "EFFECTREME デイダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "effectreme"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno C ペイン",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2809836"
+      "model_number": "2809836",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS ペイン",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "vibration",
+          "stars"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figno D 小南",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2809836"
+      "model_number": "2809836",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS 小南",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "Figno"
+        ],
+        "missing": [
+          "vibration",
+          "stars"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "その他プライズフィギュア うちはマダラ (GIGO 限定)",
       "price": "2000",
       "update_date": "2026/10/14",
-      "model_number": "2836570"
+      "model_number": "2836570",
+      "_check": {
+        "status": "suspect",
+        "ref": "オール・フォー・ワン (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "うちはマダラ"
+        ],
+        "missing": [
+          "オール",
+          "フォー",
+          "ワン"
+        ],
+        "suggestion": "うちはマダラ (GIGO 限定)",
+        "reason": "「うちはマダラ」が参照名に見当たりません"
+      }
     },
     {
       "name": "その他プライズフィギュア 72 series 53 ミナト & クシナ & ナルト",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2791301"
+      "model_number": "2791301",
+      "_check": {
+        "status": "unknown",
+        "ref": "波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "72",
+          "series",
+          "53",
+          "クシナ",
+          "ナルト"
+        ],
+        "missing": [
+          "波風ミナト"
+        ],
+        "suggestion": "72 series 53 ミナト & クシナ & ミナト",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "その他プライズフィギュア Noir Edge Collection うずまきナルト",
       "price": "1100",
       "update_date": "2026/10/14",
-      "model_number": "2821245"
+      "model_number": "2821245",
+      "_check": {
+        "status": "suspect",
+        "ref": "Noir Edge Collection 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.72,
+        "unmatched": [
+          "うずまきナルト"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "Noir Edge Collection うずまきナルト",
+        "reason": "「うずまきナルト」が参照名に見当たりません"
+      }
     },
     {
       "name": "その他プライズフィギュア 72 series 03 カカシ",
       "price": "1500",
       "update_date": "2026/10/14",
-      "model_number": "2797893"
+      "model_number": "2797893",
+      "_check": {
+        "status": "unknown",
+        "ref": "造形忍界大戦 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "72",
+          "series",
+          "03"
+        ],
+        "missing": [
+          "造形忍界大戦",
+          "はたけカカシ"
+        ],
+        "suggestion": "72 series 03 カカシ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "その他プライズフィギュア うずまきナルト GIGO 限定",
       "price": "2200",
       "update_date": "2026/10/14",
-      "model_number": "2761791"
+      "model_number": "2761791",
+      "_check": {
+        "status": "suspect",
+        "ref": "うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "GIGO",
+          "限定"
+        ],
+        "missing": [],
+        "suggestion": "うずまきナルト GIGO 限定",
+        "reason": "「GIGO」「限定」が参照名に見当たりません"
+      }
     },
     {
       "name": "その他プライズフィギュア 波風ミナト GIGO 限定",
       "price": "1600",
       "update_date": "2026/10/14",
-      "model_number": "2761791"
+      "model_number": "2761791",
+      "_check": {
+        "status": "unknown",
+        "ref": "波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "GIGO",
+          "限定"
+        ],
+        "missing": [],
+        "suggestion": "波風ミナト GIGO 限定",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "その他プライズフィギュア うちはサスケ GIGO 限定",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2809317"
+      "model_number": "2809317",
+      "_check": {
+        "status": "suspect",
+        "ref": "オール・フォー・ワン (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "うちはサスケ"
+        ],
+        "missing": [
+          "オール",
+          "フォー",
+          "ワン"
+        ],
+        "suggestion": "うちはサスケ GIGO 限定",
+        "reason": "「うちはサスケ」が参照名に見当たりません"
+      }
     },
     {
       "name": "その他プライズフィギュア うちはイタチ GIGO 限定",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2809317"
+      "model_number": "2809317",
+      "_check": {
+        "status": "suspect",
+        "ref": "オール・フォー・ワン (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "うちはイタチ"
+        ],
+        "missing": [
+          "オール",
+          "フォー",
+          "ワン"
+        ],
+        "suggestion": "うちはイタチ GIGO 限定",
+        "reason": "「うちはイタチ」が参照名に見当たりません"
+      }
     },
     {
-      "name": "その他プライズフィギュア 螺旋丸エフェクトライト",
+      "name": "螺旋丸エフェクトライト",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2793785"
+      "model_number": "2793785",
+      "_check": {
+        "status": "verified",
+        "ref": "螺旋丸エフェクトライト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「螺旋丸エフェクトライト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "PANEL SPECTACLE ナルト 時を超えた出陣",
       "price": "1500",
       "update_date": "2026/10/14",
-      "model_number": "712891"
+      "model_number": "712891",
+      "_check": {
+        "status": "suspect",
+        "ref": "PANEL SPECTACLE ナルト 時を超えた出逢い",
+        "source": "登録済み/sheet1",
+        "score": 0.708,
+        "unmatched": [
+          "時を超えた出陣"
+        ],
+        "missing": [
+          "時を超えた出逢い"
+        ],
+        "suggestion": "PANEL SPECTACLE ナルト 時を超えた出逢",
+        "reason": "「時を超えた出陣」が参照名に見当たりません（候補: 時を超えた出陣→時を超えた出逢）"
+      }
     },
     {
       "name": "PANEL SPECTACLE 波風ミナト",
       "price": "1300",
       "update_date": "2026/10/14",
-      "model_number": "2720291"
+      "model_number": "2720291",
+      "_check": {
+        "status": "verified",
+        "ref": "PANEL SPECTACLE 波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「PANEL SPECTACLE 波風ミナト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "PANEL SPECTACLE 千手綱間",
       "price": "1300",
       "update_date": "2026/10/14",
-      "model_number": "2720291"
+      "model_number": "2720291",
+      "_check": {
+        "status": "suspect",
+        "ref": "PANEL SPECTACLE 千手扉間",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "千手綱間"
+        ],
+        "missing": [
+          "千手扉間"
+        ],
+        "suggestion": "PANEL SPECTACLE 千手扉間",
+        "reason": "「千手綱間」が参照名に見当たりません（候補: 千手綱間→千手扉間）"
+      }
     },
     {
       "name": "PANEL SPECTACLE 波風ミナト",
       "price": "1800",
       "update_date": "2026/10/14",
-      "model_number": "2715042"
+      "model_number": "2715042",
+      "_check": {
+        "status": "verified",
+        "ref": "PANEL SPECTACLE 波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「PANEL SPECTACLE 波風ミナト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "NARUTOP99 うずまきナルト",
       "price": "900",
       "update_date": "2026/10/14",
-      "model_number": "2693962"
+      "model_number": "2693962",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ NARUTOP99 豪華絢爛忍絵巻 C 賞 うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "一番くじ",
+          "豪華絢爛忍絵巻"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ NARUTOP99 豪華絢爛忍絵巻 C 賞 うずまきナルト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "NARUTOP99 波風ミナト",
       "price": "1600",
       "update_date": "2026/10/14",
-      "model_number": "2693947"
+      "model_number": "2693947",
+      "_check": {
+        "status": "verified",
+        "ref": "NARUTOP99 波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「NARUTOP99 波風ミナト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "NARUTOP99 はたけカカシ",
       "price": "700",
       "update_date": "2026/10/14",
-      "model_number": "2693961"
+      "model_number": "2693961",
+      "_check": {
+        "status": "verified",
+        "ref": "NARUTOP99 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「NARUTOP99 はたけカカシ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "NARUTOP99 うちはイタチ",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2693948"
+      "model_number": "2693948",
+      "_check": {
+        "status": "verified",
+        "ref": "NARUTOP99 うちはイタチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「NARUTOP99 うちはイタチ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "うずまきナルト一楽でのひととき",
       "price": "1800",
       "update_date": "2026/10/14",
-      "model_number": "2703274"
+      "model_number": "2703274",
+      "_check": {
+        "status": "verified",
+        "ref": "うずまきナルト 一楽でのひととき",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「うずまきナルト 一楽でのひととき」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "うずまきナルト一楽でのひととき うみのイルカ一楽でのひととき",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2703275"
+      "model_number": "2703275",
+      "_check": {
+        "status": "suspect",
+        "ref": "うずまきナルト 一楽でのひととき",
+        "source": "登録済み/sheet1",
+        "score": 0.517,
+        "unmatched": [
+          "うみのイルカ一楽でのひととき"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「うみのイルカ一楽でのひととき」が参照名に見当たりません"
+      }
     },
     {
       "name": "うみのイルカ 72 series 16",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2827329"
+      "model_number": "2827329",
+      "_check": {
+        "status": "unknown",
+        "ref": "うみのイルカ 一楽でのひととき",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "72",
+          "series",
+          "16"
+        ],
+        "missing": [
+          "一楽でのひととき"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "うみのイルカ 72 series",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2827329"
+      "model_number": "2827329",
+      "_check": {
+        "status": "unknown",
+        "ref": "うみのイルカ 一楽でのひととき",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "72",
+          "series"
+        ],
+        "missing": [
+          "一楽でのひととき"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "アニメ 20周年記念 うずまきナルト 火影",
       "price": "1700",
       "update_date": "2026/10/14",
-      "model_number": "2626320"
+      "model_number": "2626320",
+      "_check": {
+        "status": "verified",
+        "ref": "アニメ 20 周年記念 うずまきナルト 火影",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「アニメ 20 周年記念 うずまきナルト 火影」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "アニメ 20周年記念 うずまきナルト 少年",
       "price": "3500",
       "update_date": "2026/10/14",
-      "model_number": "2626321"
+      "model_number": "2626321",
+      "_check": {
+        "status": "verified",
+        "ref": "アニメ 20 周年記念 うずまきナルト 少年",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「アニメ 20 周年記念 うずまきナルト 少年」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "アニメ 20周年記念 うずまきナルト TVアニメ 20周年記念衣装",
       "price": "3200",
       "update_date": "2026/10/14",
-      "model_number": "2654022"
+      "model_number": "2654022",
+      "_check": {
+        "status": "verified",
+        "ref": "うずまきナルト TV アニメ 20 周年記念衣装",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「うずまきナルト TV アニメ 20 周年記念衣装」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "アニメ 20周年記念 うちはサスケ TVアニメ 20周年記念衣装",
       "price": "2800",
       "update_date": "2026/10/14",
-      "model_number": "2654023"
+      "model_number": "2654023",
+      "_check": {
+        "status": "verified",
+        "ref": "うちはサスケ TV アニメ 20 周年記念衣装",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「うちはサスケ TV アニメ 20 周年記念衣装」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ガマブン太 ソフビフィギュア (再販)",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2749920"
+      "model_number": "2749920",
+      "_check": {
+        "status": "verified",
+        "ref": "ガマブン太 ソフビフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ガマブン太 ソフビフィギュア」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フィグラライフ！終末の谷 千手柱間",
       "price": "1400",
       "update_date": "2026/10/14",
-      "model_number": "2749921"
+      "model_number": "2749921",
+      "_check": {
+        "status": "unknown",
+        "ref": "PANEL SPECTACLE 千手柱間",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "フィグラライフ",
+          "終末の谷"
+        ],
+        "missing": [
+          "panel",
+          "spectacle"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィグラライフ！終末の谷 うちはマダラ",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2749922"
+      "model_number": "2749922",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS うちはマダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "フィグラライフ",
+          "終末の谷"
+        ],
+        "missing": [
+          "vibration",
+          "stars"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ガマブン太 ソフビフィギュア",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2727863"
+      "model_number": "2727863",
+      "_check": {
+        "status": "verified",
+        "ref": "ガマブン太 ソフビフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ガマブン太 ソフビフィギュア」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "守鶴 ソフビフィギュア",
       "price": "800",
       "update_date": "2026/10/14",
-      "model_number": "2749920"
+      "model_number": "2749920",
+      "_check": {
+        "status": "suspect",
+        "ref": "ガマブン太 ソフビフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "守鶴"
+        ],
+        "missing": [
+          "ガマブン太"
+        ],
+        "suggestion": "",
+        "reason": "「守鶴」が参照名に見当たりません"
+      }
     },
     {
       "name": "ガマ吉 ソフビフィギュア",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2784752"
+      "model_number": "2784752",
+      "_check": {
+        "status": "suspect",
+        "ref": "ガマブン太 ソフビフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.727,
+        "unmatched": [
+          "ガマ吉"
+        ],
+        "missing": [
+          "ガマブン太"
+        ],
+        "suggestion": "ガマブ ソフビフィギュア",
+        "reason": "「ガマ吉」が参照名に見当たりません（候補: ガマ吉→ガマブ）"
+      }
     },
     {
       "name": "須佐能乎",
       "price": "1000",
       "update_date": "2026/10/14",
-      "model_number": "2791302"
+      "model_number": "2791302",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "九喇嘛ルームライト",
       "price": "1200",
       "update_date": "2026/10/14",
-      "model_number": "2782222"
+      "model_number": "2782222",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

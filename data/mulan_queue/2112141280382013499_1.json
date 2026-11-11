@@ -9,94 +9,298 @@
   "ocr_model": "gemini-3.8-flash",
   "parsed_items": [
     {
-      "name": "プライズ買取強化 FIGURIZMα 八握剣異戒神将魔虚羅",
+      "name": "FIGURIZMα 八握剣異戒神将魔虚羅",
       "price": "3300",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 八握剣異戒神将魔虚羅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 八握剣異戒神将魔虚羅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "プライズ買取強化 ぬーどるストッパー 夜神月",
       "price": "1700",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "夜神月"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "ぬーどるストッパー 夜神月",
+        "reason": "「夜神月」が参照名に見当たりません"
+      }
     },
     {
       "name": "プライズ買取強化 ぬーどるストッパー リューク",
       "price": "1700",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "リューク"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "ぬーどるストッパー リューク",
+        "reason": "「リューク」が参照名に見当たりません"
+      }
     },
     {
-      "name": "プライズ買取強化 ぬーどるストッパー L",
+      "name": "ぬーどるストッパー L",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー ゴン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "プライズ買取強化 BiCute Dark Figure 弥海砂",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.632,
+        "unmatched": [
+          "Dark",
+          "弥海砂"
+        ],
+        "missing": [
+          "bunnies",
+          "マキマ"
+        ],
+        "suggestion": "BiCute Dark Figure 弥海砂",
+        "reason": "「Dark」「弥海砂」が参照名に見当たりません"
+      }
     },
     {
-      "name": "プライズ買取強化 MAXIMATIC ウルキオラ",
+      "name": "MAXIMATIC ウルキオラ",
       "price": "1800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC ウルキオラ・シファー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "シファー"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC ウルキオラ・シファー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "プライズ買取強化 MAXIMATIC グリムジョー",
+      "name": "MAXIMATIC グリムジョー",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC グリムジョー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC グリムジョー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "プライズ買取強化 GLITTER&GLAMOURS ハリベル",
+      "name": "GLITTER&GLAMOURS ハリベル",
       "price": "1800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS ティア・ハリベル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ティア"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「GLITTER&GLAMOURS ティア・ハリベル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "プライズ買取強化 KING OF ARTIST ルフィ ギア5 Ⅲ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.571,
+        "unmatched": [
+          "ルフィ",
+          "ギア",
+          "5",
+          "III"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "KING OF ARTIST ルフィ ギア5 III",
+        "reason": "「ルフィ」「ギア」「5」「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "プライズ買取強化 GLITTER&GLAMOURS 原村和",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "原村和"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "GLITTER&GLAMOURS 原村和",
+        "reason": "「原村和」が参照名に見当たりません"
+      }
     },
     {
       "name": "プライズ買取強化 おおきなSOFVIMATES ぬくぬく",
       "price": "1300",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "おおきな SOFVIMATES ポチタは泣きながら〜",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "ぬくぬく"
+        ],
+        "missing": [
+          "ポチタは泣きながら"
+        ],
+        "suggestion": "おおきなSOFVIMATES ぬくぬく",
+        "reason": "「ぬくぬく」が参照名に見当たりません"
+      }
     },
     {
       "name": "プライズ買取強化 ティッシュに取り付け！可動フィギュア 暗いよー！怖いよー！",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "プライズ買取強化 ハイプレミアムフィギュア 鉱山で300年働くことになっちゃった",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "プライズ買取強化 Desktop Cute 喜多川海夢 十六夜ありさver.",
       "price": "1300",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "十六夜ありさver."
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "Desktop Cute 喜多川海夢 十六夜ありさver.",
+        "reason": "「十六夜ありさver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "プライズ買取強化 T-most 喜多川海夢 バニーver.",
       "price": "1300",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "バニーver."
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "T-most 喜多川海夢 バニーver.",
+        "reason": "「バニーver.」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

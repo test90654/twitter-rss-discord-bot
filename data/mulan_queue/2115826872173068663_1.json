@@ -12,475 +12,1503 @@
       "name": "Grandista 爆豪勝己",
       "price": "1100",
       "update_date": "2026/10/30",
-      "model_number": "2791296"
+      "model_number": "2791296",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "爆豪勝己"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「爆豪勝己」が参照名に見当たりません"
+      }
     },
     {
       "name": "Combination Battle 爆豪勝己",
       "price": "3500",
       "update_date": "2026/10/30",
-      "model_number": "2692055"
+      "model_number": "2692055",
+      "_check": {
+        "status": "verified",
+        "ref": "Combination Battle 爆豪勝己",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Combination Battle 爆豪勝己」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Combination Battle オールマイト",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "2692053"
+      "model_number": "2692053",
+      "_check": {
+        "status": "verified",
+        "ref": "Combination Battle オールマイト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Combination Battle オールマイト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "7TH SEASON FIGURE 緑谷出久",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2724161"
+      "model_number": "2724161",
+      "_check": {
+        "status": "suspect",
+        "ref": "FINAL SEASON FIGURE 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.842,
+        "unmatched": [
+          "7TH"
+        ],
+        "missing": [
+          "final"
+        ],
+        "suggestion": "",
+        "reason": "「7TH」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 緑谷出久 (2025 年)",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2775400"
+      "model_number": "2775400",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 緑谷出久 (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 緑谷出久 (2025年)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista 轟焦凍",
       "price": "600",
       "update_date": "2026/10/30",
-      "model_number": "2814992"
+      "model_number": "2814992",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "轟焦凍"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「轟焦凍」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista オールマイト (2020 年 10 月)",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": "82249"
+      "model_number": "82249",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista オールマイト (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "2020",
+          "10"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2020」「10」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista オールマイト (2025 年 5 月)",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": "2751057"
+      "model_number": "2751057",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista オールマイト (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "2025",
+          "5"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2025」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista オールマイト (2026 年 5 月)",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2836500"
+      "model_number": "2836500",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista オールマイト (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "2026",
+          "5"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2026」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "Combination Battle 緑谷出久",
       "price": "3200",
       "update_date": "2026/10/30",
-      "model_number": "2692054"
+      "model_number": "2692054",
+      "_check": {
+        "status": "verified",
+        "ref": "Combination Battle 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Combination Battle 緑谷出久」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Combination Battle オール・フォー・ワン",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2692052"
+      "model_number": "2692052",
+      "_check": {
+        "status": "verified",
+        "ref": "Combination Battle オール・フォー・ワン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Combination Battle オール・フォー・ワン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Combination Battle 死柄木弔 終章",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "2712747"
+      "model_number": "2712747",
+      "_check": {
+        "status": "suspect",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.739,
+        "unmatched": [
+          "死柄木弔",
+          "終章"
+        ],
+        "missing": [
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "「死柄木弔」「終章」が参照名に見当たりません"
+      }
     },
     {
       "name": "Combination Battle オール・フォー・ワン (GIGO 限定)",
       "price": "2200",
       "update_date": "2026/10/30",
-      "model_number": "2790355"
+      "model_number": "2790355",
+      "_check": {
+        "status": "suspect",
+        "ref": "Combination Battle オール・フォー・ワン",
+        "source": "登録済み/sheet1",
+        "score": 0.806,
+        "unmatched": [
+          "GIGO",
+          "限定"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「GIGO」「限定」が参照名に見当たりません"
+      }
     },
     {
       "name": "SOFVIMATES オールマイト",
       "price": "2800",
       "update_date": "2026/10/30",
-      "model_number": "2670077"
+      "model_number": "2670077",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES オールマイト",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES オールマイト」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "SOFVIMATES エンデヴァー",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2670076"
+      "model_number": "2670076",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES エンデヴァー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「SOFVIMATES エンデヴァー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ティアビジュアル 緑谷出久",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": "2727641"
+      "model_number": "2727641",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ティアビジュアル"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "7TH SEASON 緑谷出久 COLOR ver.",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2735980"
+      "model_number": "2735980",
+      "_check": {
+        "status": "suspect",
+        "ref": "7TH SEASON 緑谷出久 (モノクロ)",
+        "source": "登録済み/sheet1",
+        "score": 0.591,
+        "unmatched": [
+          "COLOR",
+          "ver."
+        ],
+        "missing": [
+          "モノクロ"
+        ],
+        "suggestion": "",
+        "reason": "「COLOR」「ver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "7TH SEASON 緑谷出久 (モノクロ)",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2724161"
+      "model_number": "2724161",
+      "_check": {
+        "status": "verified",
+        "ref": "7TH SEASON 緑谷出久 (モノクロ)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「7TH SEASON 緑谷出久 (モノクロ)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "爆豪勝己 GIGO 限定 ver.2",
       "price": "1600",
       "update_date": "2026/10/30",
-      "model_number": "2729791"
+      "model_number": "2729791",
+      "_check": {
+        "status": "verified",
+        "ref": "爆豪勝己 GiGO 限定 ver.2",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「爆豪勝己 GiGO 限定 ver.2」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "爆豪勝己 GIGO 限定 ver.3",
       "price": "1700",
       "update_date": "2026/10/30",
-      "model_number": "2790354"
+      "model_number": "2790354",
+      "_check": {
+        "status": "suspect",
+        "ref": "爆豪勝己 GiGO 限定 ver.2",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ver.3"
+        ],
+        "missing": [
+          "ver.2"
+        ],
+        "suggestion": "爆豪勝己 GIGO 限定 ver.2",
+        "reason": "「ver.3」が参照名に見当たりません（候補: ver.3→ver.2）"
+      }
     },
     {
       "name": "7TH SEASON 爆豪勝己",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2734791"
+      "model_number": "2734791",
+      "_check": {
+        "status": "verified",
+        "ref": "7TH SEASON 爆豪勝己",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「7TH SEASON 爆豪勝己」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "緑谷出久 ×ちいかわ",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "2696210"
+      "model_number": "2696210",
+      "_check": {
+        "status": "verified",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「緑谷出久 × ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "爆豪勝己 ×ハチワレ",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "2696211"
+      "model_number": "2696211",
+      "_check": {
+        "status": "verified",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「爆豪勝己 × ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "轟焦凍 ×うさぎ",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "2696212"
+      "model_number": "2696212",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "めちゃもふぐっとぬいぐるみ 緑谷出久ちいかわ",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2651297"
+      "model_number": "2651297",
+      "_check": {
+        "status": "verified",
+        "ref": "めちゃもふぐっとぬいぐるみ 緑谷出久ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「めちゃもふぐっとぬいぐるみ 緑谷出久ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "めちゃもふぐっとぬいぐるみ 爆豪勝己ハチワレ",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2651298"
+      "model_number": "2651298",
+      "_check": {
+        "status": "verified",
+        "ref": "めちゃもふぐっとぬいぐるみ 爆豪勝己ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「めちゃもふぐっとぬいぐるみ 爆豪勝己ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "めちゃもふぐっとぬいぐるみ 轟焦凍うさぎ",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "2651299"
+      "model_number": "2651299",
+      "_check": {
+        "status": "verified",
+        "ref": "めちゃもふぐっとぬいぐるみ 轟焦凍うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「めちゃもふぐっとぬいぐるみ 轟焦凍うさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Fluffy Puffy オールマイト",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2839561"
+      "model_number": "2839561",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "オールマイト"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「オールマイト」が参照名に見当たりません"
+      }
     },
     {
       "name": "Fluffy Puffy バックドッグ",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2802492"
+      "model_number": "2802492",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "バックドッグ"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「バックドッグ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Trio-Try-iT 緑谷出久",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "18476"
+      "model_number": "18476",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT 緑谷出久」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Trio-Try-iT 緑谷出久 (再販)",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "21501"
+      "model_number": "21501",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT 緑谷出久」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Trio-Try-iT 爆豪勝己",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "18496"
+      "model_number": "18496",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 爆豪勝己",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT 爆豪勝己」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Trio-Try-iT 爆豪勝己 (再販)",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "21502"
+      "model_number": "21502",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 爆豪勝己",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT 爆豪勝己」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 緑谷出久 Vol.2",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "1122919"
+      "model_number": "1122919",
+      "_check": {
+        "status": "suspect",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "緑谷出久",
+          "Vol.2"
+        ],
+        "missing": [
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "「緑谷出久」「Vol.2」が参照名に見当たりません"
+      }
     },
     {
       "name": "XrossLink 轟焦凍",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "1122913"
+      "model_number": "1122913",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 轟焦凍」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 緑谷出久 II",
       "price": "1600",
       "update_date": "2026/10/30",
-      "model_number": "2791298"
+      "model_number": "2791298",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 緑谷出久 II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 緑谷出久 II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 緑谷出久 III",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "2750953"
+      "model_number": "2750953",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 緑谷出久 III",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC 緑谷出久 III」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 緑谷出久 IIII",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2814859"
+      "model_number": "2814859",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 緑谷出久 II",
+        "source": "登録済み/sheet1",
+        "score": 0.765,
+        "unmatched": [
+          "IIII"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「IIII」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC 緑谷出久 THE BEGINNING",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2831690"
+      "model_number": "2831690",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 緑谷出久 II",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "THE",
+          "BEGINNING"
+        ],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "「THE」「BEGINNING」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC 爆豪勝己 THE BEGINNING",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2831691"
+      "model_number": "2831691",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 爆豪勝己",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "THE",
+          "BEGINNING"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「THE」「BEGINNING」が参照名に見当たりません"
+      }
     },
     {
       "name": "轟焦凍 × うさぎ",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "2696212"
+      "model_number": "2696212",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "轟焦凍",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "2750954"
+      "model_number": "2750954",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "dx"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "轟焦凍 II",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": "2791299"
+      "model_number": "2791299",
+      "_check": {
+        "status": "suspect",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [
+          "dx"
+        ],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "イレイザー・ヘッド",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2814990"
+      "model_number": "2814990",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "イレイザー"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Figuno",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Figuno 伏黒恵 C",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "A 緑谷出久",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2809838"
+      "model_number": "2809838",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "B 緑谷出久",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2809838"
+      "model_number": "2809838",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "C 爆豪勝己",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2809838"
+      "model_number": "2809838",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "D 爆豪勝己",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2809838"
+      "model_number": "2809838",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "A 轟焦凍",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2809839"
+      "model_number": "2809839",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "dx"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "D オールマイト",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2809839"
+      "model_number": "2809839",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista オールマイト (再販)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS 緑谷出久",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2699200"
+      "model_number": "2699200",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 緑谷出久 (2024 年 11 月)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "2024",
+          "11"
+        ],
+        "suggestion": "",
+        "reason": "参照名「THE AMAZING HEROES PLUS 緑谷出久 (2024 年 11 月)」にある「2024」「11」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS 緑谷出久 III",
       "price": "1100",
       "update_date": "2026/10/30",
-      "model_number": "2785730"
+      "model_number": "2785730",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 緑谷出久 (2024 年 11 月)",
+        "source": "登録済み/sheet1",
+        "score": 0.889,
+        "unmatched": [
+          "III"
+        ],
+        "missing": [
+          "2024",
+          "11"
+        ],
+        "suggestion": "",
+        "reason": "「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS 緑谷出久 SPECIAL",
       "price": "3000",
       "update_date": "2026/10/30",
-      "model_number": "2750945"
+      "model_number": "2750945",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 緑谷出久 (2024 年 11 月)",
+        "source": "登録済み/sheet1",
+        "score": 0.774,
+        "unmatched": [
+          "SPECIAL"
+        ],
+        "missing": [
+          "2024",
+          "11"
+        ],
+        "suggestion": "",
+        "reason": "「SPECIAL」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS 緑谷出久 オーバーレイ",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": "2773228"
+      "model_number": "2773228",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 緑谷出久 (2024 年 11 月)",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "オーバーレイ"
+        ],
+        "missing": [
+          "2024",
+          "11"
+        ],
+        "suggestion": "",
+        "reason": "「オーバーレイ」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS 爆豪勝己 II",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2711055"
+      "model_number": "2711055",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "爆豪勝己",
+          "II"
+        ],
+        "missing": [
+          "常闇踏陰"
+        ],
+        "suggestion": "",
+        "reason": "「爆豪勝己」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES DX 轟焦凍",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": "2734790"
+      "model_number": "2734790",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 0.762,
+        "unmatched": [
+          "DX",
+          "轟焦凍"
+        ],
+        "missing": [
+          "plus",
+          "常闇踏陰"
+        ],
+        "suggestion": "",
+        "reason": "「DX」「轟焦凍」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS 常闇踏陰",
       "price": "2200",
       "update_date": "2026/10/30",
-      "model_number": "2704305"
+      "model_number": "2704305",
+      "_check": {
+        "status": "verified",
+        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE AMAZING HEROES PLUS 常闇踏陰」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES PLUS ホークス",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "2704304"
+      "model_number": "2704304",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "ホークス"
+        ],
+        "missing": [
+          "常闇踏陰"
+        ],
+        "suggestion": "",
+        "reason": "「ホークス」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS ホークス II",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "2751664"
+      "model_number": "2751664",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "ホークス",
+          "II"
+        ],
+        "missing": [
+          "常闇踏陰"
+        ],
+        "suggestion": "",
+        "reason": "「ホークス」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS エンデヴァー",
       "price": "1100",
       "update_date": "2026/10/30",
-      "model_number": "2702580"
+      "model_number": "2702580",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "エンデヴァー"
+        ],
+        "missing": [
+          "常闇踏陰"
+        ],
+        "suggestion": "",
+        "reason": "「エンデヴァー」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE AMAZING HEROES PLUS オールマイト TRUE FORM",
       "price": "3000",
       "update_date": "2026/10/30",
-      "model_number": "2750946"
+      "model_number": "2750946",
+      "_check": {
+        "status": "suspect",
+        "ref": "PLUS オールマイト TRUE FORM",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "THE",
+          "AMAZING",
+          "HEROES"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「THE」「AMAZING」「HEROES」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE EVIL VILLAINS PLUS トガヒミコ",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": "2720240"
+      "model_number": "2720240",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE EVIL VILLAINS DX トガヒミコ III",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "PLUS"
+        ],
+        "missing": [
+          "dx",
+          "iii"
+        ],
+        "suggestion": "",
+        "reason": "「PLUS」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE EVIL VILLAINS DX トガヒミコ III",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "2704321"
+      "model_number": "2704321",
+      "_check": {
+        "status": "verified",
+        "ref": "THE EVIL VILLAINS DX トガヒミコ III",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「THE EVIL VILLAINS DX トガヒミコ III」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE EVIL VILLAINS DX トガヒミコ IV",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2751585"
+      "model_number": "2751585",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE EVIL VILLAINS DX トガヒミコ III",
+        "source": "登録済み/sheet1",
+        "score": 0.917,
+        "unmatched": [
+          "IV"
+        ],
+        "missing": [
+          "iii"
+        ],
+        "suggestion": "",
+        "reason": "「IV」が参照名に見当たりません"
+      }
     },
     {
       "name": "DX 茶毘 II",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "2652617"
+      "model_number": "2652617",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "茶毘",
+          "II"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DX 茶毘 (2025 年)",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "2775403"
+      "model_number": "2775403",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "茶毘",
+          "2025"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GLITTER&GLAMOURS 麗日お茶子 (2025 年 / 再販含)",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2735981"
+      "model_number": "2735981",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS 麗日お茶子",
+        "source": "登録済み/sheet1",
+        "score": 0.741,
+        "unmatched": [
+          "2025",
+          "再販含"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2025」「再販含」が参照名に見当たりません"
+      }
     },
     {
       "name": "GLITTER&GLAMOURS 麗日お茶子 (2026 年 5 月)",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2802492"
+      "model_number": "2802492",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS 麗日お茶子",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "2026",
+          "5"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「2026」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "GLITTER&GLAMOURS A.麗日お茶子",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "2775406"
+      "model_number": "2775406",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS 麗日お茶子",
+        "source": "登録済み/sheet1",
+        "score": 0.682,
+        "unmatched": [
+          "A.麗日お茶子"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「A.麗日お茶子」が参照名に見当たりません"
+      }
     },
     {
       "name": "GLITTER&GLAMOURS 麗日お茶子",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "2785110"
+      "model_number": "2785110",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS 麗日お茶子",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「GLITTER&GLAMOURS 麗日お茶子」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER&GLAMOURS 蛙吹梅雨 (再販)",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": "2831687"
+      "model_number": "2831687",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.789,
+        "unmatched": [
+          "蛙吹梅雨"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「蛙吹梅雨」が参照名に見当たりません"
+      }
     },
     {
       "name": "トガヒミコ (2025 年 1 月 / 再販含)",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": "2735981"
+      "model_number": "2735981",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "2025",
+          "1",
+          "再販含"
+        ],
+        "missing": [
+          "dx",
+          "iv"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "トガヒミコ II",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2775407"
+      "model_number": "2775407",
+      "_check": {
+        "status": "suspect",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [
+          "dx",
+          "iv"
+        ],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "トガヒミコ duffel coat ver.",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": "2730050"
+      "model_number": "2730050",
+      "_check": {
+        "status": "verified",
+        "ref": "トガヒミコ duffel coat ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「トガヒミコ duffel coat ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THE AMAZING HEROES PLUS 緑谷出久 II",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": "2769992"
+      "model_number": "2769992",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE AMAZING HEROES PLUS 緑谷出久 (2024 年 11 月)",
+        "source": "登録済み/sheet1",
+        "score": 0.923,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [
+          "2024",
+          "11"
+        ],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "THE EVIL VILLAINS DX トガヒミコ II",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": "2704320"
+      "model_number": "2704320",
+      "_check": {
+        "status": "verified",
+        "ref": "THE EVIL VILLAINS DX トガヒミコ III",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "iii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「THE EVIL VILLAINS DX トガヒミコ III」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "発目明",
       "price": "1100",
       "update_date": "2026/10/30",
-      "model_number": "2749155"
+      "model_number": "2749155",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ミルコ",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "2749156"
+      "model_number": "2749156",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

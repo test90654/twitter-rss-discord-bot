@@ -20,7 +20,7 @@ from pathlib import Path
 import gspread
 import requests
 
-from mulan_name_check import build_refs, check_name, refs_from_text, strip_headings
+from mulan_name_check import build_refs, check_name, refs_from_text, same_item_name, strip_headings
 from mulan_sheet import (
     DEFAULT_STORE, STORE_SHEETS, get_gspread_client, get_result_sheet,
     item_key, keys_from_rows, read_rows, sheet_name_for,
@@ -136,6 +136,7 @@ def main():
     # 店舗ごとのシートを読み、登録済みの商品名を参照リストに、キーを二重登録防止に使う
     sheets, keys, next_rows = {}, {}, {}
     name_dates = {}  # 店舗ごとの（商品名, 更新日）。型番が空の行の二重登録防止に使う
+    price_rows = {}  # 店舗ごと・更新日ごとの（商品名, 価格）。名前を手で直して登録済みの行の検出に使う
     shared = calendar_names()
     for store in sorted({(m.get("store") or DEFAULT_STORE) for _, m in targets} | set(STORE_SHEETS)):
         sheet = get_result_sheet(gc, store)
@@ -143,6 +144,11 @@ def main():
         sheets[store] = sheet
         keys[store] = keys_from_rows(rows)
         name_dates[store] = {(k[0], k[2]) for k in keys[store]}
+        price_rows[store] = {}
+        for r in rows:
+            if r[1].strip():
+                k = item_key(r[1], "", r[3])
+                price_rows[store].setdefault(k[2], []).append((r[1], normalize_price(r[2])))
         next_rows[store] = len(sheet.col_values(2)) + 1
         shared += trusted_sheet_names(rows, f"登録済み/{sheet_name_for(store)}")
     base_refs = shared
@@ -178,11 +184,22 @@ def main():
                         dup = True  # 型番なし ↔ 同名・同日の行がある
                     elif item_key(n, "", date) in keys[store]:
                         dup = True  # 型番あり ↔ 同名・同日で型番なしの行がある
+                if args.all and (item_key(name, "", date)[0], item_key("", "", date)[2]) in name_dates[store]:
+                    dup = True  # 過去分の一括登録では、同名・同日の行があれば型番が違っても登録しない
+                if not dup:
+                    # 同じ日・同じ価格で、表記ゆれだけが違う名前の行がある（手で直した名前で登録済み）なら登録しない
+                    for other_name, other_price in price_rows[store].get(item_key("", "", date)[2], []):
+                        if other_price == price and same_item_name(name, other_name):
+                            dup = True
+                            if args.dry_run:
+                                print(f"[dry-run:skip-similar] {name} / {price}  ≒ {other_name}")
+                            break
                 if not dup:
                     to_write.append([name, price, date, model])
                 k = item_key(name, model, date)
                 keys[store].add(k)
                 name_dates[store].add((k[0], k[2]))
+                price_rows[store].setdefault(k[2], []).append((name, price))
                 it["name"] = name
                 it["price"] = price
                 it["_registered"] = True
@@ -197,7 +214,9 @@ def main():
                   + (f"  → 候補: {result['suggestion']}" if result["suggestion"] else ""))
 
         if args.dry_run:
-            print(f"[dry-run] {path.name}: 自動登録 {auto_n} / 疑い {suspect_n} / 不明 {unknown_n}")
+            print(f"[dry-run] {path.name}: 自動登録 {auto_n}（シートに追加 {len(to_write)} 行） / 疑い {suspect_n} / 不明 {unknown_n}")
+            for row in to_write:
+                print(f"[dry-run:write] {store}\t" + "\t".join(str(v) for v in row))
             continue
 
         if to_write:

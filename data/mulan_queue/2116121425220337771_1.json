@@ -12,151 +12,460 @@
       "name": "FIGURIZMα八握剣異戒神将魔虚羅",
       "price": "3800",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα 八握剣異戒神将魔虚羅",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα 八握剣異戒神将魔虚羅」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパーL",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BiCute Dark Figure 弥海砂",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.632,
+        "unmatched": [
+          "Dark",
+          "弥海砂"
+        ],
+        "missing": [
+          "bunnies",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「Dark」「弥海砂」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATICウルキオラ",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC ウルキオラ・シファー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "シファー"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC ウルキオラ・シファー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATICグリムジョー",
       "price": "1400",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC グリムジョー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC グリムジョー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER&GLAMOURSハリベル",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.368,
+        "unmatched": [
+          "GLAMOURSハリベル"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "強くなりたくば吊るせッッハンガー 範馬勇次郎",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista超サイヤ人孫悟空",
       "price": "1400",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista超サイヤ人ベジット",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista魔人ベジータ",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 魔人ベジータ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "THEORAMA SOULシャンクス",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THEORAMA SOULゾロ",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandistaティーチ",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ティーチ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandistaルフィ",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "2024"
+        ],
+        "suggestion": "",
+        "reason": "参照名「Grandista ルフィ (2024年)」にある「2024」が商品名にありません（番号・賞の読み落とし？）"
+      }
     },
     {
       "name": "MAXIMATICPLUSルフィII",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC PLUS ルフィ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC PLUS ルフィ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandistaイタチ",
       "price": "3000",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GrandistaイタチII",
       "price": "1100",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "NARUTO 72 series Grandistaナルト",
       "price": "1300",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "NARUTOP99 波風ミナト",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "72",
+          "series",
+          "Grandistaナルト"
+        ],
+        "missing": [
+          "narutop99",
+          "波風ミナト"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GrandistaカカシII",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "NARUTO 72 series 03ナルト&カカシ2種セット",
       "price": "3300",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "NARUTOP99 はたけカカシ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "72",
+          "series",
+          "03",
+          "ナルト",
+          "2",
+          "種セット"
+        ],
+        "missing": [
+          "narutop99",
+          "はたけカカシ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAXIMATIC緑谷出久 THE BEGINNING",
       "price": "900",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 緑谷出久 II",
+        "source": "登録済み/sheet1",
+        "score": 0.52,
+        "unmatched": [
+          "THE",
+          "BEGINNING"
+        ],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "「THE」「BEGINNING」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC緑谷出久III 黒デクver.",
       "price": "1400",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 緑谷出久 III",
+        "source": "登録済み/sheet1",
+        "score": 0.696,
+        "unmatched": [
+          "黒デクver."
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「黒デクver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC爆豪勝己III",
       "price": "700",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GLITTER&GLAMOURSトガヒミコ",
       "price": "800",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.35,
+        "unmatched": [
+          "GLAMOURSトガヒミコ"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Noir Edge Collectionトガヒミコ",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Noir Edge Collection 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.348,
+        "unmatched": [
+          "Collectionトガヒミコ"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

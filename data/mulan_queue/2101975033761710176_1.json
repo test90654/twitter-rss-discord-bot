@@ -9,109 +9,363 @@
       "name": "History Box / 超サイヤ人３ 孫悟空",
       "price": "1000",
       "update_date": "2026年9月21日",
-      "model_number": "2805907"
+      "model_number": "2805907",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.053,
+        "unmatched": [
+          "History",
+          "Box",
+          "超サイヤ人",
+          "孫悟空"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box / 孫悟天 & トランクス",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "2785670"
+      "model_number": "2785670",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "その他 / スカウター型 スピーカー (初版・再販問わず)",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "2788680"
+      "model_number": "2788680",
+      "_check": {
+        "status": "unknown",
+        "ref": "XrossLink 煉獄 (初版)",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "スカウター型",
+          "スピーカー",
+          "再販問わず"
+        ],
+        "missing": [
+          "xrosslink",
+          "煉獄"
+        ],
+        "suggestion": "/ スカウター型 スピーカー (初版・再販問わず)",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAXIMATIC PLUS / サンジ",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "2824661"
+      "model_number": "2824661",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC PLUS 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "サンジ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「サンジ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista / うちはイタチⅡ",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "2819251"
+      "model_number": "2819251",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "うちはイタチII"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「うちはイタチII」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista / 藍染惣介",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "2800155"
+      "model_number": "2800155",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "藍染惣介"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「藍染惣介」が参照名に見当たりません"
+      }
     },
     {
       "name": "Fluffy Puffy / ターボパパ ２種共",
       "price": "800",
       "update_date": "2026年9月21日",
-      "model_number": "2816204"
+      "model_number": "2816204",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fluffy Puffy ポチタ A",
+        "source": "登録済み/sheet1",
+        "score": 0.579,
+        "unmatched": [
+          "ターボパパ",
+          "2",
+          "種共"
+        ],
+        "missing": [
+          "ポチタ"
+        ],
+        "suggestion": "",
+        "reason": "「ターボパパ」「2」「種共」が参照名に見当たりません"
+      }
     },
     {
       "name": "その他 / 感知して動く シアーハートアタック",
       "price": "1500",
       "update_date": "2026年9月21日",
-      "model_number": "2825396"
+      "model_number": "2825396",
+      "_check": {
+        "status": "verified",
+        "ref": "感知して動く シアーハートアタック",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「感知して動く シアーハートアタック」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "Yumemirize / 綾波レイ スクール水着 Ver.",
       "price": "800",
       "update_date": "2026年9月21日",
-      "model_number": "1125397"
+      "model_number": "1125397",
+      "_check": {
+        "status": "unknown",
+        "ref": "Yumemirize 狗巻棘",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "綾波レイ",
+          "スクール水着",
+          "Ver."
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "XrossLink / 弐号機",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "1125391"
+      "model_number": "1125391",
+      "_check": {
+        "status": "suspect",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "弐号機"
+        ],
+        "missing": [
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "「弐号機」が参照名に見当たりません"
+      }
     },
     {
       "name": "XrossLink / EVA 量産機",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "1125393"
+      "model_number": "1125393",
+      "_check": {
+        "status": "suspect",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "EVA",
+          "量産機"
+        ],
+        "missing": [
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "「EVA」「量産機」が参照名に見当たりません"
+      }
     },
     {
       "name": "フリーレン / うぉ〜ん",
       "price": "1700",
       "update_date": "2026年9月21日",
-      "model_number": "2823441"
+      "model_number": "2823441",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "うぉ"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "「うぉ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Luminasta / フリーレン インミミック PLUS",
       "price": "1200",
       "update_date": "2026年9月21日",
-      "model_number": "1125343"
+      "model_number": "1125343",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta フリーレン インミミック",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "PLUS"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「PLUS」が参照名に見当たりません"
+      }
     },
     {
       "name": "Xstellar / ナギサ (水着)",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "1124907"
+      "model_number": "1124907",
+      "_check": {
+        "status": "suspect",
+        "ref": "Xstellar 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "ナギサ",
+          "水着"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "「ナギサ」「水着」が参照名に見当たりません"
+      }
     },
     {
       "name": "おすわりフィギュア / ヒナ",
       "price": "800",
       "update_date": "2026年9月21日",
-      "model_number": "2822574"
+      "model_number": "2822574",
+      "_check": {
+        "status": "suspect",
+        "ref": "おすわりフィギュア フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "ヒナ"
+        ],
+        "missing": [
+          "フリーレン"
+        ],
+        "suggestion": "",
+        "reason": "「ヒナ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Coreful / めぐみん 水着 ver. Renewal",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "2773703"
+      "model_number": "2773703",
+      "_check": {
+        "status": "suspect",
+        "ref": "Coreful 喜多川海夢 水着 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.542,
+        "unmatched": [
+          "めぐみん",
+          "Renewal"
+        ],
+        "missing": [
+          "喜多川海夢"
+        ],
+        "suggestion": "",
+        "reason": "「めぐみん」「Renewal」が参照名に見当たりません"
+      }
     },
     {
       "name": "Yumemirize / ロキシー",
       "price": "900",
       "update_date": "2026年9月21日",
-      "model_number": "1123950"
+      "model_number": "1123950",
+      "_check": {
+        "status": "suspect",
+        "ref": "Yumemirize 狗巻棘",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "ロキシー"
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "「ロキシー」が参照名に見当たりません"
+      }
     },
     {
       "name": "BiCute Bunnies / 貞子",
       "price": "800",
       "update_date": "2026年9月21日",
-      "model_number": "21899"
+      "model_number": "21899",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.867,
+        "unmatched": [
+          "貞子"
+        ],
+        "missing": [
+          "figure",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「貞子」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

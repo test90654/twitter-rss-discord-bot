@@ -11,367 +11,1199 @@
       "name": "バンプレスト アインズ",
       "price": "2400",
       "update_date": "2026/10/29",
-      "model_number": "2752500"
+      "model_number": "2752500",
+      "_check": {
+        "status": "unknown",
+        "ref": "オーバーロード アインズ (パンプレスト)",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "バンプレスト"
+        ],
+        "missing": [
+          "オーバーロード",
+          "パンプレスト"
+        ],
+        "suggestion": "パンプレスト アインズ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ESPRESTO Excite Motions vol.1 水嶋旬",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "2702436"
+      "model_number": "2702436",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX フィギュア vol.1 ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.172,
+        "unmatched": [
+          "ESPRESTO",
+          "Excite",
+          "Motions",
+          "水嶋旬"
+        ],
+        "missing": [
+          "dx",
+          "フィギュア",
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VIBRATION STARS リヨウ",
       "price": "3200",
       "update_date": "2026/10/29",
-      "model_number": "2722524"
+      "model_number": "2722524",
+      "_check": {
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS リヨウ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ガチアクタ"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「ガチアクタ VIBRATION STARS リヨウ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "VIBRATION STARS PLUS 我妻善逸",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "2751106"
+      "model_number": "2751106",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS 我愛羅 PLUS",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "我妻善逸"
+        ],
+        "missing": [
+          "我愛羅"
+        ],
+        "suggestion": "",
+        "reason": "「我妻善逸」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ソラ",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2774420"
+      "model_number": "2774420",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "ソラ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「ソラ」が参照名に見当たりません"
+      }
     },
     {
       "name": "ムチュート 鈴木",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "21602"
+      "model_number": "21602",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬーどるストッパー L",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "21099"
+      "model_number": "21099",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー ゴン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フィグライフッツ!! 範馬勇次郎",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": "2841459"
+      "model_number": "2841459",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THEORAMA SOUL シャンクス",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "2828454"
+      "model_number": "2828454",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.294,
+        "unmatched": [
+          "THEORAMA",
+          "SOUL"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAXIMATIC PLUS ルフィ II",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "2809579"
+      "model_number": "2809579",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC PLUS ルフィ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC PLUS ルフィ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ログストーリーズ ルフィ & シャンクス",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "2650587"
+      "model_number": "2650587",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ログストーリーズ",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ログストーリーズ チョッパー",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2704762"
+      "model_number": "2704762",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ エッグヘッド チョッパー",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "ログストーリーズ"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "エッグヘッド"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "T-most アルベド 純白の悪魔 ver.",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "オーバーロード"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「オーバーロード T-most アルベド 純白の悪魔 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "T-most アルベド 純白の悪魔 ver. (タイクレ限定)",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.739,
+        "unmatched": [
+          "タイクレ限定"
+        ],
+        "missing": [
+          "オーバーロード"
+        ],
+        "suggestion": "",
+        "reason": "「タイクレ限定」が参照名に見当たりません"
+      }
     },
     {
       "name": "XrossLink 水嶋旬",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "1117142"
+      "model_number": "1117142",
+      "_check": {
+        "status": "suspect",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "水嶋旬"
+        ],
+        "missing": [
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "「水嶋旬」が参照名に見当たりません"
+      }
     },
     {
       "name": "XrossLink 向坂環",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": "1117144"
+      "model_number": "1117144",
+      "_check": {
+        "status": "suspect",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "向坂環"
+        ],
+        "missing": [
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "「向坂環」が参照名に見当たりません"
+      }
     },
     {
       "name": "ぬーどるストッパー 重音テト 王様 ver.",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "21628"
+      "model_number": "21628",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー 猗窩座・戦闘 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.684,
+        "unmatched": [
+          "重音テト",
+          "王様"
+        ],
+        "missing": [
+          "猗窩座",
+          "戦闘"
+        ],
+        "suggestion": "",
+        "reason": "「重音テト」「王様」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS ルド",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "2722521"
+      "model_number": "2722521",
+      "_check": {
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS ルド",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ガチアクタ"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「ガチアクタ VIBRATION STARS ルド」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC 我妻善逸",
       "price": "900",
       "update_date": "2026/10/29",
-      "model_number": "2823551"
+      "model_number": "2823551",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "我妻善逸"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「我妻善逸」が参照名に見当たりません"
+      }
     },
     {
       "name": "XrossLink 竈門炭治郎",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "1105899"
+      "model_number": "1105899",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 竈門炭治郎 無限城編",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "無限城編"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 竈門炭治郎 無限城編」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 竈門炭治郎 (再販)",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "1125609"
+      "model_number": "1125609",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 竈門炭治郎 無限城編",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "無限城編"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 竈門炭治郎 無限城編」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 冨岡義勇 無限城編",
       "price": "1700",
       "update_date": "2026/10/29",
-      "model_number": "1120772"
+      "model_number": "1120772",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 冨岡義勇 無限城編",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 冨岡義勇 無限城編」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 竈門禰豆子 (再販)",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "1125611"
+      "model_number": "1125611",
+      "_check": {
+        "status": "suspect",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "竈門禰豆子"
+        ],
+        "missing": [
+          "煉獄"
+        ],
+        "suggestion": "",
+        "reason": "「竈門禰豆子」が参照名に見当たりません"
+      }
     },
     {
       "name": "XrossLink 煉獄 (初版)",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "1107116"
+      "model_number": "1107116",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 煉獄 (初版)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 煉獄 (初版)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 煉獄 (再販)",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "1123669"
+      "model_number": "1123669",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 煉獄 (再販)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 煉獄 (再販)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 時透無一郎 柱稽古編",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "113084"
+      "model_number": "113084",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 時透無一郎 柱稽古編",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 時透無一郎 柱稽古編」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 時透無一郎 柱稽古編 (再販)",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "1123657"
+      "model_number": "1123657",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 時透無一郎 柱稽古編",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 時透無一郎 柱稽古編」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XrossLink 猗窩座 無限城編",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "1120776"
+      "model_number": "1120776",
+      "_check": {
+        "status": "verified",
+        "ref": "XrossLink 猗窩座 無限城編",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XrossLink 猗窩座 無限城編」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta 胡蝶しのぶ",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "1119998"
+      "model_number": "1119998",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "胡蝶しのぶ"
+        ],
+        "missing": [
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "「胡蝶しのぶ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Luminasta 胡蝶しのぶ (再販)",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "1124822"
+      "model_number": "1124822",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "胡蝶しのぶ"
+        ],
+        "missing": [
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "「胡蝶しのぶ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ソラ (KH)",
       "price": "2200",
       "update_date": "2026/10/29",
-      "model_number": "2774420"
+      "model_number": "2774420",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ソラ",
+          "KH"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「ソラ」「KH」が参照名に見当たりません"
+      }
     },
     {
       "name": "レッドピラミッド ぬーどるストッパー プラン",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "21920"
+      "model_number": "21920",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "レッドピラミッド",
+          "プラン"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "FIGURIZMα リンク",
       "price": "2800",
       "update_date": "2026/10/29",
-      "model_number": "1104023"
+      "model_number": "1104023",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "リンク"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「リンク」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC チェンソーマン",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2839961"
+      "model_number": "2839961",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "チェンソーマン"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「チェンソーマン」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC ポム",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2839960"
+      "model_number": "2839960",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "ポム"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「ポム」が参照名に見当たりません"
+      }
     },
     {
       "name": "おおきな SOFVIMATES てくてくポチタ",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2824632"
+      "model_number": "2824632",
+      "_check": {
+        "status": "unknown",
+        "ref": "SOFVIMATES ポチタ",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "おおきな",
+          "てくてくポチタ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ハイプレミアム レゼ",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "1122094"
+      "model_number": "1122094",
+      "_check": {
+        "status": "verified",
+        "ref": "ハイプレミアム レゼ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ハイプレミアム レゼ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ハイプレミアム レゼ (再販)",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "1126185"
+      "model_number": "1126185",
+      "_check": {
+        "status": "verified",
+        "ref": "ハイプレミアム レゼ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ハイプレミアム レゼ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー リューク",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "20924"
+      "model_number": "20924",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "リューク"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "「リューク」が参照名に見当たりません"
+      }
     },
     {
       "name": "BiCute Dark 弥海砂",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "21597"
+      "model_number": "21597",
+      "_check": {
+        "status": "suspect",
+        "ref": "デート・ア・ライブ BiCute Dark 時崎狂三",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "弥海砂"
+        ],
+        "missing": [
+          "デート",
+          "ライブ",
+          "時崎狂三"
+        ],
+        "suggestion": "",
+        "reason": "「弥海砂」が参照名に見当たりません"
+      }
     },
     {
       "name": "リムル＝テンペスト 最強のスライム",
       "price": "900",
       "update_date": "2026/10/29",
-      "model_number": "2839730"
+      "model_number": "2839730",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "RADIO DEMON",
       "price": "1000",
       "update_date": "2026/10/29",
-      "model_number": "2801476"
+      "model_number": "2801476",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SOFVIMATES ミュウツー",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "2839440"
+      "model_number": "2839440",
+      "_check": {
+        "status": "suspect",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ミュウツー"
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "「ミュウツー」が参照名に見当たりません"
+      }
     },
     {
       "name": "BANPRESTO EVOLVE 悪魔ほむら",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": "2725388"
+      "model_number": "2725388",
+      "_check": {
+        "status": "unknown",
+        "ref": "EVOLVE Clearluxe クリオネ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "BANPRESTO",
+          "悪魔ほむら"
+        ],
+        "missing": [
+          "clearluxe",
+          "クリオネ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Yumemirize ロキシー",
       "price": "800",
       "update_date": "2026/10/29",
-      "model_number": "1123950"
+      "model_number": "1123950",
+      "_check": {
+        "status": "suspect",
+        "ref": "Yumemirize 狗巻棘",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "ロキシー"
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "「ロキシー」が参照名に見当たりません"
+      }
     },
     {
       "name": "フィギュアコレクション ネイキッド・スネーク",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "22097"
+      "model_number": "22097",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "王選候補者と騎士 エミリア",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "22097"
+      "model_number": "22097",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "王選候補者と騎士 スバル",
       "price": "1100",
       "update_date": "2026/10/29",
-      "model_number": "22097"
+      "model_number": "22097",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THEORAMA SOUL ゾロ",
       "price": "1600",
       "update_date": "2026/10/29",
-      "model_number": "2844572"
+      "model_number": "2844572",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "THEORAMA",
+          "SOUL"
+        ],
+        "missing": [
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MAXIMATICPLUS ルフィ I",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2800213"
+      "model_number": "2800213",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC PLUS ルフィ II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC PLUS ルフィ II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATICPLUS ゾロ",
       "price": "1300",
       "update_date": "2026/10/29",
-      "model_number": "2816483"
+      "model_number": "2816483",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC PLUS 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.867,
+        "unmatched": [
+          "ゾロ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ゾロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATICPLUS サンジ",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2824661"
+      "model_number": "2824661",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC PLUS 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "サンジ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「サンジ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ギア 5 ルフィ",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": "2748104"
+      "model_number": "2748104",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "2024"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ルフィ ギア 5 III",
       "price": "1400",
       "update_date": "2026/10/29",
-      "model_number": "2834503"
+      "model_number": "2834503",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ルフィ (2024年)",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ギア",
+          "5",
+          "III"
+        ],
+        "missing": [
+          "2024"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ソロ II",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": "2814781"
+      "model_number": "2814781",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ソロ",
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「ソロ」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista シャンクス II",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": "2834505"
+      "model_number": "2834505",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ティーチ",
       "price": "1900",
       "update_date": "2026/10/29",
-      "model_number": "2834504"
+      "model_number": "2834504",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ティーチ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ティーチ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "KING OF ARTIST ギア 5 ルフィ",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2729190"
+      "model_number": "2729190",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「ルフィ」が参照名に見当たりません"
+      }
     },
     {
       "name": "KING OF ARTIST ギア 5 ルフィ II SP",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2836086"
+      "model_number": "2836086",
+      "_check": {
+        "status": "suspect",
+        "ref": "KING OF ARTIST ゾロ ワノ国 II SP",
+        "source": "登録済み/sheet1",
+        "score": 0.727,
+        "unmatched": [
+          "ギア",
+          "5",
+          "ルフィ"
+        ],
+        "missing": [
+          "ゾロ",
+          "ワノ国"
+        ],
+        "suggestion": "",
+        "reason": "「ギア」「5」「ルフィ」が参照名に見当たりません"
+      }
     },
     {
       "name": "WCF ログストーリーズ ルフィ & シャンクス",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "2650587"
+      "model_number": "2650587",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "WCF",
+          "ログストーリーズ",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "WCF ログストーリーズ チョッパー",
       "price": "1200",
       "update_date": "2026/10/29",
-      "model_number": "2704762"
+      "model_number": "2704762",
+      "_check": {
+        "status": "unknown",
+        "ref": "WCF 幻影旅団 5 種セット",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ログストーリーズ",
+          "チョッパー"
+        ],
+        "missing": [
+          "幻影旅団",
+          "5",
+          "種セット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

@@ -12,1015 +12,3961 @@
       "name": "パンプレいち PREMIUM ルフィ ブラシカラー",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": "2818228"
+      "model_number": "2818228",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "ブラシカラー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM ルフィ アニメカラー",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "アニメカラー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM ルフィ メタリックカラー",
       "price": "15000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "メタリックカラー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM シャンクス メタリックカラー",
       "price": "15000",
       "update_date": "2026/11/03",
-      "model_number": "2715271"
+      "model_number": "2715271",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "メタリックカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM ゾロ ブラシカラー",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "2786991"
+      "model_number": "2786991",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "ブラシカラー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM ゾロ アニメカラー",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "アニメカラー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM ゾロ メタリックカラー",
       "price": "14000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "メタリックカラー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.1 C賞 ロキ",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX フィギュア vol.1 ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.217,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "C賞",
+          "ロキ"
+        ],
+        "missing": [
+          "dx",
+          "フィギュア",
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.1 D賞 ドギー",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX フィギュア vol.1 ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "D賞",
+          "ドギー"
+        ],
+        "missing": [
+          "dx",
+          "フィギュア",
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.2 C賞 ロキ",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": "68195"
+      "model_number": "68195",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.217,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "C賞",
+          "ロキ"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.2 D賞 ギルダ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "D賞",
+          "ギルダ"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.2 ラストワン賞 銅の巨兵 エルバフの未来への献銘",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "68193"
+      "model_number": "68193",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "Vol.2",
+          "銅の巨兵",
+          "エルバフの未来への献銘"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.1 ラストワン賞 ロキ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "68090"
+      "model_number": "68090",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "Vol.1",
+          "ロキ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "D賞 ブルノ A賞 ルフィ (超激レア)",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "D賞",
+          "ブルノ",
+          "A賞",
+          "超激レア"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "D賞 ブルノ ラストワン賞 ルフィ (超激レア)",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "D賞",
+          "ブルノ",
+          "ルフィ",
+          "超激レア"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "C賞 ルフィ A賞 ルフィ",
       "price": "2200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "C賞",
+          "A賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「C賞」「A賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "C賞 ルフィ D賞 ルフィ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "C賞",
+          "D賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「C賞」「D賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "C賞 ルフィ ラストワン賞 ルフィ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "C賞",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "思い出の旅 B賞 ルフィ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "68057"
+      "model_number": "68057",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "思い出の旅",
+          "B賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "思い出の旅 ラストワン賞 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "思い出の旅",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EX悪魔を宿す者達 vol.3 B賞 カタクリ",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "67937"
+      "model_number": "67937",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "EX悪魔を宿す者達",
+          "B賞",
+          "カタクリ"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EX悪魔を宿す者達 vol.3 C賞 ハンコック",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "EX悪魔を宿す者達",
+          "C賞",
+          "ハンコック"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EX悪魔を宿す者達 vol.3 ラストワン賞 センゴク",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "EX悪魔を宿す者達",
+          "ラストワン賞",
+          "センゴク"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドラゴンボールメモリーズ A賞 フリーザ＆ヤムチャ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "67951"
+      "model_number": "67951",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "ドラゴンボールメモリーズ",
+          "フリーザ",
+          "ヤムチャ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドラゴンボールメモリーズ ラストワン賞 ベジータ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "ドラゴンボールメモリーズ",
+          "ベジータ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ Devil's night A賞 ハンコック",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "67829"
+      "model_number": "67829",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.179,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "Devil",
+          "night",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "メモリーオブヒロインズ Devil's ndist A賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ Devil's night B賞 ロビン",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロビン",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "Devil",
+          "night",
+          "B賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ Devil's night ラストワン賞 S・スネーク",
       "price": "7000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.194,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "Devil",
+          "night",
+          "スネーク"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law A賞 ゾロ",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": "67752"
+      "model_number": "67752",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "A賞"
+        ],
+        "missing": [
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law C賞 ドンキホーテ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.12,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "C賞",
+          "ドンキホーテ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law ラストワン賞 ロー＆コラソン",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "The",
+          "Unbreakable",
+          "Law",
+          "ロー",
+          "コラソン"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Dragon on Power A賞 ロー",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": "67775"
+      "model_number": "67775",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "Dragon",
+          "on",
+          "Power",
+          "A賞",
+          "ロー"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Dragon on Power C賞 カイドウ 玉座",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "Dragon",
+          "on",
+          "Power",
+          "C賞",
+          "カイドウ",
+          "玉座"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Dragon on Power D賞 マーキング玉座",
       "price": "0",
       "update_date": "2026/11/03",
-      "model_number": "67773"
+      "model_number": "67773",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.12,
+        "unmatched": [
+          "Dragon",
+          "on",
+          "Power",
+          "D賞",
+          "マーキング玉座"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "麦わらの一味 B賞 シャンクス",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "麦わらの一味",
+          "B賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "麦わらの一味 C賞 ゾロ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "麦わらの一味",
+          "C賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "麦わらの一味 D賞 キッド",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "麦わらの一味",
+          "キッド"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロジャー海賊団 伝説の海賊 C賞 シャンクス (海賊見習い)",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "64741"
+      "model_number": "64741",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "ロジャー海賊団",
+          "伝説の海賊",
+          "C賞",
+          "海賊見習い"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ロジャー海賊団 伝説の海賊 ラストワン賞 ゴールド・ロジャー",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "ロジャー海賊団",
+          "伝説の海賊",
+          "ゴールド",
+          "ロジャー"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Greatest Battle 偉大なる航路へ A賞 ハンコック",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "64727"
+      "model_number": "64727",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.355,
+        "unmatched": [
+          "The",
+          "Greatest",
+          "偉大なる航路へ",
+          "A賞"
+        ],
+        "missing": [
+          "record",
+          "collection"
+        ],
+        "suggestion": "TLE Greatest Battle 偉大なる航路へ A賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Greatest Battle 偉大なる航路へ B賞 ハンコック",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.355,
+        "unmatched": [
+          "The",
+          "Greatest",
+          "偉大なる航路へ",
+          "B賞"
+        ],
+        "missing": [
+          "record",
+          "collection"
+        ],
+        "suggestion": "TLE Greatest Battle 偉大なる航路へ B賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Greatest Battle 偉大なる航路へ C賞 ハンコック",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.355,
+        "unmatched": [
+          "The",
+          "Greatest",
+          "偉大なる航路へ",
+          "C賞"
+        ],
+        "missing": [
+          "record",
+          "collection"
+        ],
+        "suggestion": "TLE Greatest Battle 偉大なる航路へ C賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Greatest Battle 偉大なる航路へ ラストワン賞 ハンコック",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "BATTLE RECORD COLLECTION ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.314,
+        "unmatched": [
+          "The",
+          "Greatest",
+          "偉大なる航路へ",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "record",
+          "collection"
+        ],
+        "suggestion": "TLE Greatest Battle 偉大なる航路へ ラストワン賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "龍と人へ の道 B賞 モンキー・D・ルフィ 2",
       "price": "9000",
       "update_date": "2026/11/03",
-      "model_number": "64665"
+      "model_number": "64665",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "龍と人へ",
+          "の道",
+          "B賞",
+          "モンキー",
+          "2"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "龍と人へ の道 C賞 モンキー・D・ルフィ 3",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "龍と人へ",
+          "の道",
+          "C賞",
+          "モンキー",
+          "3"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "龍と人へ の道 D賞 モンキー・D・ルフィ 4",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "龍と人へ",
+          "の道",
+          "D賞",
+          "モンキー",
+          "4"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "龍と人へ の道 ラストワン賞 モンキー・D・ルフィ 5",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "龍と人へ",
+          "の道",
+          "モンキー",
+          "ルフィ",
+          "5"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "B賞 モンキー・D・ルフィ~激突する子供達~ A賞 エース",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "64475"
+      "model_number": "64475",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "B賞",
+          "モンキー",
+          "激突する子供達",
+          "A賞",
+          "エース"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "B賞 モンキー・D・ルフィ~激突する子供達~ ラストワン賞 エドワード・ニューゲート",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista エドワード・ニューゲート",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "B賞",
+          "モンキー",
+          "ルフィ",
+          "激突する子供達",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "自由への道 A賞 クロコダイル・ゾロ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64379"
+      "model_number": "64379",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ EXTRA クロコダイル",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "自由への道",
+          "A賞",
+          "ゾロ"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "extra"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "自由への道 B賞 リューマ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "自由への道",
+          "リューマ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "自由への道 C賞 シャンクス",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "自由への道",
+          "C賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "自由への道 ラストワン賞 ゾロ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.462,
+        "unmatched": [
+          "自由への道",
+          "ゾロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "超激戦 B賞 カタクリ",
       "price": "16000",
       "update_date": "2026/11/03",
-      "model_number": "64283"
+      "model_number": "64283",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "超激戦",
+          "カタクリ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "超激戦 C賞 ボルサリーノ",
       "price": "5200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "超激戦",
+          "C賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「超激戦」「C賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "超激戦 D賞 イッショウ",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "超激戦",
+          "イッショウ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "覇王四皇 A賞 カイドウ",
       "price": "2600",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "覇王四皇",
+          "カイドウ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "覇王四皇 D賞 黒ひげ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "覇王四皇",
+          "黒ひげ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "覇王四皇 ラストワン賞 四皇 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "覇王四皇",
+          "四皇",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "RESTROOM THE BATTLE A賞 ルフィ 5",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "62672"
+      "model_number": "62672",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "RESTROOM",
+          "BATTLE",
+          "A賞",
+          "5"
+        ],
+        "missing": [
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "RESTROOM THE BATTLE ラストワン賞 ルフィ 5",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "RESTROOM",
+          "BATTLE",
+          "ラストワン賞",
+          "5"
+        ],
+        "missing": [
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "大海賊百景 A賞 ゾロ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "62627"
+      "model_number": "62627",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "大海賊百景",
+          "A賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "大海賊百景 B賞 ロー",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "大海賊百景",
+          "ロー"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ROMANCE DAWN ONE PIECE TREASURE A賞 カイドウ 人獣型",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "62414"
+      "model_number": "62414",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.056,
+        "unmatched": [
+          "ROMANCE",
+          "DAWN",
+          "ONE",
+          "PIECE",
+          "TREASURE",
+          "カイドウ",
+          "人獣型"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ROMANCE DAWN ONE PIECE TREASURE ラストワン賞 ヤマト 人獣型",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "ROMANCE",
+          "DAWN",
+          "ONE",
+          "PIECE",
+          "TREASURE",
+          "ヤマト",
+          "人獣型"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エースと白ひげフィギュアシリーズ A賞 エース",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": "C2333"
+      "model_number": "C2333",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギア エース",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "エースと白ひげフィギュアシリーズ",
+          "A賞"
+        ],
+        "missing": [
+          "the",
+          "出航",
+          "ロギア"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エースと白ひげフィギュアシリーズ B賞 ルフィ シャンクス",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "エースと白ひげフィギュアシリーズ",
+          "B賞",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エースと白ひげフィギュアシリーズ C賞 ミホーク",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ミホーク",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "エースと白ひげフィギュアシリーズ",
+          "C賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エースと白ひげフィギュアシリーズ D賞 ロビン＆ナミ",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロビン",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "エースと白ひげフィギュアシリーズ",
+          "D賞",
+          "ナミ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エースと白ひげフィギュアシリーズ ラストワン賞 ロー＆コラソン",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "エースと白ひげフィギュアシリーズ",
+          "ロー",
+          "コラソン"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM ソロ ルフィ",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "ソロ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM ソロ フランキーカラー",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ EXTRA バーソロミュー・くま",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "フランキーカラー"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "extra",
+          "バーソロミュー",
+          "くま"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM ソロ アニメカラー",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ EXTRA バーソロミュー・くま",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "アニメカラー"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "extra",
+          "バーソロミュー",
+          "くま"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM ソロ メタリックカラー",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXFシリーズ EXTRA バーソロミュー・くま",
+        "source": "登録済み/sheet1",
+        "score": 0.087,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "メタリックカラー"
+        ],
+        "missing": [
+          "dxfシリーズ",
+          "extra",
+          "バーソロミュー",
+          "くま"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM シャンクス ルフィ",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM シャンクス フランキーカラー",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "フランキーカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM シャンクス アニメカラー",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "アニメカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "バンプレスト PREMIUM シャンクス メタリックカラー",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "バンプレスト",
+          "PREMIUM",
+          "メタリックカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバァ編 GIANT BASH!! Vol.2 D賞 プロキー",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "エルバァ編",
+          "GIANT",
+          "BASH",
+          "D賞",
+          "プロキー"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバァ編 GIANT BASH!! Vol.2 ラストワン賞 菓子子",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "エルバァ編",
+          "GIANT",
+          "BASH",
+          "Vol.2",
+          "菓子子"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバァ編 GIANT BASH!! Vol.1 ラストワン賞 ロキ",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "68193"
+      "model_number": "68193",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "エルバァ編",
+          "GIANT",
+          "BASH",
+          "Vol.1",
+          "ロキ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "記憶の記穫と未来への航路 A賞 ルフィ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "記憶の記穫と未来への航路",
+          "A賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "記憶の記穫と未来への航路 B賞 ルフィ (湯ぼり)",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "記憶の記穫と未来への航路",
+          "B賞",
+          "湯ぼり"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "記憶の記穫と未来への航路 B賞 ルフィ (通常)",
       "price": "1200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "記憶の記穫と未来への航路",
+          "B賞",
+          "通常"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "思い描く未来 C賞 ミホーク",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "68057"
+      "model_number": "68057",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ミホーク",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "思い描く未来",
+          "C賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドラマティックメモリーズ A賞 エース & サボ&ルフィ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "67951"
+      "model_number": "67951",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "ドラマティックメモリーズ",
+          "A賞",
+          "エース",
+          "サボ"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドラマティックメモリーズ ラストワン賞 エース&ルフィ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ドラマティックメモリーズ",
+          "エース",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ Devil's night A賞 ハンコック",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": "67829"
+      "model_number": "67829",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.179,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "Devil",
+          "night",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "メモリーオブヒロインズ Devil's ndist A賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law C賞 ベボ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "67752"
+      "model_number": "67752",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "C賞",
+          "ベボ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law D賞 ボナンシア",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "D賞",
+          "ボナンシア"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Top of the Power C賞 ロー & キッド",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "64773"
+      "model_number": "64773",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "Top",
+          "of",
+          "Power",
+          "C賞",
+          "ロー",
+          "キッド"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Top of the Power ラストワン賞 カイドウ",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "Top",
+          "of",
+          "Power",
+          "ラストワン賞",
+          "カイドウ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ エクストラレコード B賞 シャンクス",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "エクストラレコード",
+          "シャンクス"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ エクストラレコード C賞 キッド",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "エクストラレコード",
+          "キッド"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ エクストラレコード D賞 キッド",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "エクストラレコード",
+          "D賞",
+          "キッド"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Greatest Battle 偉大なる航路へ C賞 エネル",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "64727"
+      "model_number": "64727",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.103,
+        "unmatched": [
+          "Greatest",
+          "Battle",
+          "偉大なる航路へ",
+          "C賞",
+          "エネル"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Greatest Battle 偉大なる航路へ ラストワン賞 2億 V 雹神",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "The",
+          "Greatest",
+          "Battle",
+          "偉大なる航路へ",
+          "2",
+          "雹神"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ A賞 ハンコック",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": "64702"
+      "model_number": "64702",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ C賞 ペローナ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.118,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "ペローナ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒロインズ ラストワン賞 ハンコック",
       "price": "7800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "メモリーオブヒロインズ",
+          "ハンコック"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "海賊王への道 A賞 モンキー・D・ルフィ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "64665"
+      "model_number": "64665",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "海賊王への道",
+          "A賞",
+          "モンキー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "海賊王への道 B賞 モンキー・D・ルフィ ギア2",
       "price": "9000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "海賊王への道",
+          "B賞",
+          "モンキー",
+          "ギア",
+          "2"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "海賊王への道 C賞 モンキー・D・ルフィ ギア3",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "海賊王への道",
+          "C賞",
+          "モンキー",
+          "ギア",
+          "3"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "海賊王への道 D賞 モンキー・D・ルフィ ギア4",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "海賊王への道",
+          "D賞",
+          "モンキー",
+          "ギア",
+          "4"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "海賊王への道 ラストワン賞 モンキー・D・ルフィ ギア5",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "海賊王への道",
+          "モンキー",
+          "ルフィ",
+          "ギア",
+          "5"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "白ひげ海賊団 〜オヤジと息子たち〜 A賞 エドワード・ニューゲート",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "64475"
+      "model_number": "64475",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista エドワード・ニューゲート",
+        "source": "登録済み/sheet1",
+        "score": 0.407,
+        "unmatched": [
+          "白ひげ海賊団",
+          "オヤジと息子たち",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "白ひげ海賊団 〜オヤジと息子たち〜 C賞 エドワード・ニューゲート",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista エドワード・ニューゲート",
+        "source": "登録済み/sheet1",
+        "score": 0.407,
+        "unmatched": [
+          "白ひげ海賊団",
+          "オヤジと息子たち",
+          "C賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "白ひげ海賊団 〜オヤジと息子たち〜 ラストワン賞 エドワード・ニューゲート",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista エドワード・ニューゲート",
+        "source": "登録済み/sheet1",
+        "score": 0.355,
+        "unmatched": [
+          "白ひげ海賊団",
+          "オヤジと息子たち",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "刀剣 / 系譜 A賞 ロロノア・ゾロ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64379"
+      "model_number": "64379",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "刀剣",
+          "系譜",
+          "A賞",
+          "ロロノア"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "刀剣 / 系譜 B賞 リューマ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "刀剣",
+          "系譜",
+          "リューマ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "刀剣 / 系譜 ラストワン賞 ゾロ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "刀剣",
+          "系譜",
+          "ゾロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「刀剣」「系譜」「ゾロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "絶対的正義 B賞 サカズキ",
       "price": "16000",
       "update_date": "2026/11/03",
-      "model_number": "64283"
+      "model_number": "64283",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "絶対的正義",
+          "サカズキ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "絶対的正義 B賞 ボルサリーノ",
       "price": "5200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 0.462,
+        "unmatched": [
+          "絶対的正義",
+          "B賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "絶対的正義 C賞 イッショウ",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "絶対的正義",
+          "イッショウ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 B賞 四皇 ルフィ",
       "price": "2600",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "新四皇",
+          "B賞",
+          "四皇"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 D賞 四皇 バギー",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "新四皇",
+          "四皇",
+          "バギー"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 ラストワン賞 四皇 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "新四皇",
+          "四皇",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドラマティックメモリーズ ラストワン賞 エース＆ルフィ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "67951"
+      "model_number": "67951",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ドラマティックメモリーズ",
+          "エース",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒーロイズ Devil’s night A賞 ハンコック",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": "67829"
+      "model_number": "67829",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.179,
+        "unmatched": [
+          "メモリーオブヒーロイズ",
+          "Devil",
+          "night",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "メモリーオブヒーロイズ Devil’s ndist A賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒーロイズ Devil’s night B賞 ロビン",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "67829"
+      "model_number": "67829",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロビン",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "メモリーオブヒーロイズ",
+          "Devil",
+          "night",
+          "B賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "メモリーオブヒーロイズ Devil’s night ラストワン賞 S・スネーク",
       "price": "7000",
       "update_date": "2026/11/03",
-      "model_number": "67829"
+      "model_number": "67829",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.194,
+        "unmatched": [
+          "メモリーオブヒーロイズ",
+          "Devil",
+          "night",
+          "スネーク"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law B賞 ペポ",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "67752"
+      "model_number": "67752",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "B賞",
+          "ペポ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law C賞 ロシナンテ",
       "price": "4800",
       "update_date": "2026/11/03",
-      "model_number": "67752"
+      "model_number": "67752",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "C賞",
+          "ロシナンテ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law D賞 ドフラミンゴ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "67752"
+      "model_number": "67752",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.12,
+        "unmatched": [
+          "Unbreakable",
+          "Law",
+          "D賞",
+          "ドフラミンゴ"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Unbreakable Law ラストワン賞 ロー＆コラソン",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "67752"
+      "model_number": "67752",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "The",
+          "Unbreakable",
+          "Law",
+          "ロー",
+          "コラソン"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Throne of Power A賞 ピーター聖",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": "64779"
+      "model_number": "64779",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "Throne",
+          "of",
+          "Power",
+          "A賞",
+          "ピーター聖"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Throne of Power C賞 ウォーキュリー聖",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "64779"
+      "model_number": "64779",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "Throne",
+          "of",
+          "Power",
+          "C賞",
+          "ウォーキュリー聖"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Throne of Power D賞 マーズ聖",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "64779"
+      "model_number": "64779",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "Throne",
+          "of",
+          "Power",
+          "D賞",
+          "マーズ聖"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Throne of Power ラストワン賞 虚の玉座",
       "price": "7000",
       "update_date": "2026/11/03",
-      "model_number": "64779"
+      "model_number": "64779",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "The",
+          "Throne",
+          "of",
+          "Power",
+          "虚の玉座"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "匠ノ系譜 覇種 C賞 ロビン＆オリビア",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "64773"
+      "model_number": "64773",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロビン",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "匠ノ系譜",
+          "覇種",
+          "C賞",
+          "オリビア"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "匠ノ系譜 覇種 ラストワン賞 ロー＆コラソン",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "64773"
+      "model_number": "64773",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "匠ノ系譜",
+          "覇種",
+          "ロー",
+          "コラソン"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 A賞 サカズキ",
       "price": "16000",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "新四皇",
+          "サカズキ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 B賞 ボルサリーノ",
       "price": "5200",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "suspect",
+        "ref": "THE 出航 ボルサリーノ",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "新四皇",
+          "B賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "「新四皇」「B賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "新四皇 C賞 イッショウ",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "新四皇",
+          "イッショウ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 D賞 四皇 ルフィ",
       "price": "2600",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "新四皇",
+          "D賞",
+          "四皇"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 D賞 四皇 バギー",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "新四皇",
+          "四皇",
+          "バギー"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 ラストワン賞 四皇 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "新四皇",
+          "四皇",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BEYOND THE LEVEL A賞 ルフィギア 5",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "62672"
+      "model_number": "62672",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "BEYOND",
+          "LEVEL",
+          "A賞",
+          "ルフィギア",
+          "5"
+        ],
+        "missing": [
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BEYOND THE LEVEL ラストワン賞 ルフィギア 5",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "62672"
+      "model_number": "62672",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "BEYOND",
+          "THE",
+          "LEVEL",
+          "ルフィギア",
+          "5"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "両翼決戦 A賞 ゾロ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "62627"
+      "model_number": "62627",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "両翼決戦",
+          "A賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "両翼決戦 ラストワン賞 ゾロ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "62627"
+      "model_number": "62627",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "両翼決戦",
+          "ゾロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「両翼決戦」「ゾロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "覇王ノ兆 with ONE PIECE TREASURE A賞 カイドウ 人獣型",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "62414"
+      "model_number": "62414",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.061,
+        "unmatched": [
+          "覇王ノ兆",
+          "with",
+          "ONE",
+          "PIECE",
+          "TREASURE",
+          "カイドウ",
+          "人獣型"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "覇王ノ兆 with ONE PIECE TREASURE ラストワン賞 カイドウ 人獣型",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "62414"
+      "model_number": "62414",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.162,
+        "unmatched": [
+          "覇王ノ兆",
+          "with",
+          "ONE",
+          "PIECE",
+          "TREASURE",
+          "カイドウ",
+          "人獣型"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エモーショナルストーリーズ A賞 ルフィ＆シャンクス",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "62333"
+      "model_number": "62333",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "エモーショナルストーリーズ",
+          "A賞",
+          "シャンクス"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エモーショナルストーリーズ B賞 ロー＆コラソン",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "62333"
+      "model_number": "62333",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "エモーショナルストーリーズ",
+          "ロー",
+          "コラソン"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エモーショナルストーリーズ C賞 ロビン＆オリビア",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "62333"
+      "model_number": "62333",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロビン",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "エモーショナルストーリーズ",
+          "C賞",
+          "オリビア"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エモーショナルストーリーズ ラストワン賞 ロー＆コラソン",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "62333"
+      "model_number": "62333",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.24,
+        "unmatched": [
+          "エモーショナルストーリーズ",
+          "ロー",
+          "コラソン"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM シャンクス ブラシカラー",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": "2715271"
+      "model_number": "2715271",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "ブラシカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM シャンクス アニメカラー",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "アニメカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パンプレいち PREMIUM シャンクス メタリックカラー",
       "price": "15000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista シャンクス",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "パンプレいち",
+          "PREMIUM",
+          "メタリックカラー"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.2 A賞 ハンコック",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": "68195"
+      "model_number": "68195",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "A賞",
+          "ハンコック"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.2 B賞 ハンコック",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "B賞",
+          "ハンコック"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.2 C賞 チョッパー",
       "price": "1500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.2 初音ミク (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "C賞",
+          "チョッパー"
+        ],
+        "missing": [
+          "初音ミク",
+          "種共通"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.1 A賞 ハンコック",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "68193"
+      "model_number": "68193",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "Vol.1",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "エルバフ編 Grand BASH!! Vol.1 A賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "エルバフ編 GIANT BASH!! Vol.1 B賞 ハンコック",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ハンコック",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "エルバフ編",
+          "GIANT",
+          "BASH",
+          "Vol.1",
+          "B賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "エルバフ編 Grand BASH!! Vol.1 B賞 ハンコック",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ルフィ冒険の記憶と未来への航路 C賞 ルフィ",
       "price": "2200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "ルフィ冒険の記憶と未来への航路",
+          "C賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ルフィ冒険の記憶と未来への航路 D賞 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "ルフィ冒険の記憶と未来への航路",
+          "D賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ルフィ冒険の記憶と未来への航路 ラストワン賞 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ルフィ冒険の記憶と未来への航路",
+          "ルフィ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "思い描く未来 A賞 ロー",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "68057"
+      "model_number": "68057",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "思い描く未来",
+          "ロー"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "思い描く未来 B賞 エース",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ロギア エース",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "思い描く未来",
+          "B賞"
+        ],
+        "missing": [
+          "the",
+          "出航",
+          "ロギア"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EX悪魔を宿す者達 vol.3 B賞 チョッパー",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "EX悪魔を宿す者達",
+          "B賞",
+          "チョッパー"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ エクストラレコード A賞 ルフィ",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "エクストラレコード",
+          "ルフィ"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ エクストラレコード C賞 ゾロ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "エクストラレコード",
+          "ゾロ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "龍と人への道 A賞 モンキー・D・ルフィ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "64665"
+      "model_number": "64665",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "龍と人への道",
+          "A賞",
+          "モンキー"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "龍と人への道 D賞 モンキー・D・ルフィ 4",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "龍と人への道",
+          "D賞",
+          "モンキー",
+          "4"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "白ひげ海賊団 〜オヤジと息子たち〜 B賞 エドワード・ニューゲート",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista エドワード・ニューゲート",
+        "source": "登録済み/sheet1",
+        "score": 0.407,
+        "unmatched": [
+          "白ひげ海賊団",
+          "オヤジと息子たち",
+          "B賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "土俵 / 系譜 C賞 ミホーク",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ミホーク",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "土俵",
+          "系譜",
+          "C賞"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 A賞 四皇 ルフィ",
       "price": "2600",
       "update_date": "2026/11/03",
-      "model_number": "64331"
+      "model_number": "64331",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "新四皇",
+          "A賞",
+          "四皇"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "新四皇 B賞 四皇 ルフィ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "新四皇",
+          "B賞",
+          "四皇"
+        ],
+        "missing": [
+          "the",
+          "出航"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

@@ -12,7 +12,22 @@
       "name": "T-most 喜多川海夢 バニーver.",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most　喜多川海夢 フィギュア　バニーver.",
+        "source": "ポスト本文",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "フィギュア"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most　喜多川海夢 フィギュア　バニーver.」（ポスト本文）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

@@ -11,271 +11,847 @@
       "name": "レーシングミク SPA 2025Ver. (GiGO 限定)",
       "price": "1600",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "オール・フォー・ワン (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "レーシングミク",
+          "SPA",
+          "2025Ver."
+        ],
+        "missing": [
+          "オール",
+          "フォー",
+          "ワン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
-      "name": "バンプレストプライズ Holiday Memories ゲーム",
+      "name": "Holiday Memories ゲーム",
       "price": "2400",
       "update_date": "2026/10/21",
-      "model_number": "2772122"
+      "model_number": "2772122",
+      "_check": {
+        "status": "verified",
+        "ref": "Holiday Memories ゲーム",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Holiday Memories ゲーム」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "バンプレストプライズ ザクぐるみ 初音ミク Ver.",
+      "name": "ザクぐるみ 初音ミク Ver.",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": "2788812"
+      "model_number": "2788812",
+      "_check": {
+        "status": "verified",
+        "ref": "ザクぐるみ 初音ミク Ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ザクぐるみ 初音ミク Ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ Trio-Try-iT ラスカル 悪魔",
+      "name": "Trio-Try-iT ラスカル 悪魔",
       "price": "3000",
       "update_date": "2026/10/21",
-      "model_number": "17665"
+      "model_number": "17665",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 初音ミク × ラスカル 悪魔",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT 初音ミク × ラスカル 悪魔」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ Trio-Try-iT ペイントガール",
+      "name": "Trio-Try-iT ペイントガール",
       "price": "1000",
       "update_date": "2026/10/21",
-      "model_number": "19198"
+      "model_number": "19198",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 初音ミク ペイントガール",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT 初音ミク ペイントガール」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ Trio-Try-iT クラシカルレトロ",
+      "name": "Trio-Try-iT クラシカルレトロ",
       "price": "700",
       "update_date": "2026/10/21",
-      "model_number": "19718"
+      "model_number": "19718",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT クラシカルレトロ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT クラシカルレトロ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ Trio-Try-iT おでかけドレス",
+      "name": "Trio-Try-iT おでかけドレス",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": "17296"
+      "model_number": "17296",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT おでかけドレス",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT おでかけドレス」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ Exc∞d Creative 抹茶パフェ さくら",
+      "name": "Exc∞d Creative 抹茶パフェ さくら",
       "price": "1200",
       "update_date": "2026/10/21",
-      "model_number": "16239"
+      "model_number": "16239",
+      "_check": {
+        "status": "verified",
+        "ref": "Exc∞d Creative 抹茶パフェ さくら",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Exc∞d Creative 抹茶パフェ さくら」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ Exc∞d Creative 抹茶パフェ はっか",
+      "name": "Exc∞d Creative 抹茶パフェ はっか",
       "price": "1200",
       "update_date": "2026/10/21",
-      "model_number": "17284"
+      "model_number": "17284",
+      "_check": {
+        "status": "verified",
+        "ref": "Exc∞d Creative 抹茶パフェ はっか",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Exc∞d Creative 抹茶パフェ はっか」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "フリュープライズ BiCute Bunnies rurudo ver.",
+      "name": "BiCute Bunnies rurudo ver.",
       "price": "2600",
       "update_date": "2026/10/21",
-      "model_number": "16119"
+      "model_number": "16119",
+      "_check": {
+        "status": "verified",
+        "ref": "BiCute Bunnies Figure 初音ミク rurudo ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "figure",
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「BiCute Bunnies Figure 初音ミク rurudo ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー 初音ミク",
       "price": "2500",
       "update_date": "2026/10/21",
-      "model_number": "10309"
+      "model_number": "10309",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 初音ミク」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー 初音ミク (再販)",
       "price": "2500",
       "update_date": "2026/10/21",
-      "model_number": "13584"
+      "model_number": "13584",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 初音ミク」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー 初音ミク (二次再販)",
       "price": "2500",
       "update_date": "2026/10/21",
-      "model_number": "18157"
+      "model_number": "18157",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 初音ミク (二次再販)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 初音ミク (二次再販)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー Flower Fairy ほおずき",
       "price": "1400",
       "update_date": "2026/10/21",
-      "model_number": "19193"
+      "model_number": "19193",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー Flower Fairy ほおずき",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー Flower Fairy ほおずき」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー Flower Fairy ネモフィラ ペールブルー",
       "price": "700",
       "update_date": "2026/10/21",
-      "model_number": "18160"
+      "model_number": "18160",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー Flower Fairy ネモフィラ ペールブルー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー Flower Fairy ネモフィラ ペールブルー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー Flower Fairy クローバー",
       "price": "1800",
       "update_date": "2026/10/21",
-      "model_number": "18174"
+      "model_number": "18174",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー Flower Fairy クローバー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー Flower Fairy クローバー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー Flower Fairy 青薔薇",
       "price": "1100",
       "update_date": "2026/10/21",
-      "model_number": "17283"
+      "model_number": "17283",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー Flower Fairy 青薔薇",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー Flower Fairy 青薔薇」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー Flower Fairy 白薔薇",
       "price": "1000",
       "update_date": "2026/10/21",
-      "model_number": "20410"
+      "model_number": "20410",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー Flower Fairy 白薔薇",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー Flower Fairy 白薔薇」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー ヴィンテージドール",
       "price": "2800",
       "update_date": "2026/10/21",
-      "model_number": "19737"
+      "model_number": "19737",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー ヴィンテージドール",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー ヴィンテージドール」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー カナリア",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": "20444"
+      "model_number": "20444",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "カナリア"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "「カナリア」が参照名に見当たりません"
+      }
     },
     {
       "name": "ぬーどるストッパー ロリポップ",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": "18807"
+      "model_number": "18807",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー ロリポップ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー ロリポップ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー うさ耳パジャマ",
       "price": "1200",
       "update_date": "2026/10/21",
-      "model_number": "17756"
+      "model_number": "17756",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー うさ耳パジャマ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー うさ耳パジャマ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー うさ耳パジャマ ブルー ver.",
       "price": "900",
       "update_date": "2026/10/21",
-      "model_number": "19188"
+      "model_number": "19188",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー うさ耳パジャマ ブルー ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー うさ耳パジャマ ブルー ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー ネオンサイバー",
       "price": "1300",
       "update_date": "2026/10/21",
-      "model_number": "17664"
+      "model_number": "17664",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー ネオンサイバー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー ネオンサイバー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー 恋するセーラー服 グレー ver.",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": "16739"
+      "model_number": "16739",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 恋するセーラー服 グレー ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 恋するセーラー服 グレー ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー 巡音ルカ",
       "price": "2800",
       "update_date": "2026/10/21",
-      "model_number": "18483"
+      "model_number": "18483",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 巡音ルカ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 巡音ルカ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー KAITO",
       "price": "2800",
       "update_date": "2026/10/21",
-      "model_number": "18533"
+      "model_number": "18533",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー KAITO",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー KAITO」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー MEIKO",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": "18504"
+      "model_number": "18504",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "MEIKO"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "「MEIKO」が参照名に見当たりません"
+      }
     },
     {
       "name": "タイトープライズ T-most 初音ミク",
       "price": "1500",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "初音ミク",
+        "source": "ポスト本文",
+        "score": 0.5,
+        "unmatched": [
+          "most"
+        ],
+        "missing": [],
+        "suggestion": "T-most 初音ミク",
+        "reason": "「most」が参照名に見当たりません"
+      }
     },
     {
       "name": "タイトープライズ T-most 初音ミク NTver.",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "初音ミク",
+        "source": "ポスト本文",
+        "score": 0.286,
+        "unmatched": [
+          "most",
+          "NTver."
+        ],
+        "missing": [],
+        "suggestion": "T-most 初音ミク NTver.",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "タイトープライズ AMP+ 初音ミク Birthday2026 Star Dreamy ver.",
       "price": "800",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 初音ミク × RODY メルヘン ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "Birthday2026",
+          "Star",
+          "Dreamy"
+        ],
+        "missing": [
+          "rody",
+          "メルヘン"
+        ],
+        "suggestion": "AMP+ 初音ミク Birthday2026 Star Dreamy ver.",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "タイトープライズ AMP+ 雪ミク ALL STARS 2013ver.",
       "price": "1000",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "雪ミク",
+          "ALL",
+          "STARS",
+          "2013ver."
+        ],
+        "missing": [
+          "フリーレン"
+        ],
+        "suggestion": "AMP+ 雪ミク ALL STARS 2013ver.",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
-      "name": "タイトープライズ AMP+ 桜ミク 桜ドレス ver.",
+      "name": "AMP+ 桜ミク 桜ドレス ver.",
       "price": "1200",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ 桜ミク 桜ドレス ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ 桜ミク 桜ドレス ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ AMP+ Birthday2023 ver.",
+      "name": "AMP+ Birthday2023 ver.",
       "price": "2800",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ HATSUNE MIKU Birthday 2023 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "hatsune",
+          "miku"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ HATSUNE MIKU Birthday 2023 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ AMP+ 桜ミク 桜提灯 ver.",
+      "name": "AMP+ 桜ミク 桜提灯 ver.",
       "price": "1800",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ 桜ミク 桜提灯 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ AMP Latidos 2022 ver.",
+      "name": "AMP Latidos 2022 ver.",
       "price": "3500",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ Latidos 2022 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ Latidos 2022 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ AMP マーメイド",
+      "name": "AMP マーメイド",
       "price": "1200",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ マーメイド",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ マーメイド」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ Desktop Cute 桜ミク さくらんぼクッション ver.",
+      "name": "Desktop Cute 桜ミク さくらんぼクッション ver.",
       "price": "1000",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute 桜ミク さくらんぼクッション ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute 桜ミク さくらんぼクッション ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ Fashion Country",
+      "name": "Fashion Country",
       "price": "1500",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Fashion Country",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Fashion Country」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "タイトープライズ Fashion Fancy",
       "price": "700",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Fashion Punk",
+        "source": "登録済み/sheet1",
+        "score": 0.583,
+        "unmatched": [
+          "Fancy"
+        ],
+        "missing": [
+          "punk"
+        ],
+        "suggestion": "Fashion Fancy",
+        "reason": "「Fancy」が参照名に見当たりません"
+      }
     },
     {
-      "name": "タイトープライズ Fashion Lolita",
+      "name": "Fashion Lolita",
       "price": "1300",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Fashion Lolita",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Fashion Lolita」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ Fashion Outdoor",
+      "name": "Fashion Outdoor",
       "price": "1000",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Fashion Outdoor",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Fashion Outdoor」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ Fashion Preppy",
+      "name": "Fashion Preppy",
       "price": "1700",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Fashion Preppy",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Fashion Preppy」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ Fashion Punk",
+      "name": "Fashion Punk",
       "price": "2200",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Fashion Punk",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Fashion Punk」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "タイトープライズ Fashion Subculture",
+      "name": "Fashion Subculture",
       "price": "2400",
       "update_date": "2026/10/21",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "初音ミク Fashion Subculture",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「初音ミク Fashion Subculture」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

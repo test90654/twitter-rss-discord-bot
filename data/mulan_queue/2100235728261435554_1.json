@@ -9,319 +9,901 @@
       "name": "一本ナイッサー!! 日向翔陽",
       "price": "800",
       "update_date": "9月17日",
-      "model_number": "2803730"
+      "model_number": "2803730",
+      "_check": {
+        "status": "verified",
+        "ref": "一本ナイッサー!! 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一本ナイッサー!! 日向翔陽」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一本ナイッサー!! 西谷夕",
       "price": "900",
       "update_date": "9月17日",
-      "model_number": "2803730"
+      "model_number": "2803730",
+      "_check": {
+        "status": "verified",
+        "ref": "一本ナイッサー!! 西谷夕",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一本ナイッサー!! 西谷夕」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一本ナイッサー!! 菅原孝支",
       "price": "1000",
       "update_date": "9月17日",
-      "model_number": "2803730"
+      "model_number": "2803730",
+      "_check": {
+        "status": "verified",
+        "ref": "一本ナイッサー!! 菅原孝支",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一本ナイッサー!! 菅原孝支」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "宮侑 俺のサーブの邪魔すんなや",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "2723903"
+      "model_number": "2723903",
+      "_check": {
+        "status": "verified",
+        "ref": "宮侑 俺のサーブの邪魔すんなや",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「宮侑 俺のサーブの邪魔すんなや」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "及川徹 それじゃあお手本を見せようか",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "2723906"
+      "model_number": "2723906",
+      "_check": {
+        "status": "verified",
+        "ref": "及川徹 それじゃあお手本を見せようか",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「及川徹 それじゃあお手本を見せようか」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "月島蛍 たかがブロック一本",
       "price": "2000",
       "update_date": "9月17日",
-      "model_number": "2728488"
+      "model_number": "2728488",
+      "_check": {
+        "status": "verified",
+        "ref": "月島蛍 たかがブロック一本",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「月島蛍 たかがブロック一本」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "木兎光太郎 エースの心得",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "2729285"
+      "model_number": "2729285",
+      "_check": {
+        "status": "verified",
+        "ref": "木兎光太郎 エースの心得",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「木兎光太郎 エースの心得」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "孤爪研磨＆黒尾鉄朗 この瞬間をいつまでも",
       "price": "1500",
       "update_date": "9月17日",
-      "model_number": "2761141"
+      "model_number": "2761141",
+      "_check": {
+        "status": "verified",
+        "ref": "孤爪研磨 & 黒尾鉄朗 この瞬間をいつまでも",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「孤爪研磨 & 黒尾鉄朗 この瞬間をいつまでも」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ハイプレミィアム 日向翔陽",
       "price": "1000",
       "update_date": "9月17日",
-      "model_number": "1121874"
+      "model_number": "1121874",
+      "_check": {
+        "status": "unknown",
+        "ref": "一本ナイッサー!! 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ハイプレミィアム"
+        ],
+        "missing": [
+          "一本ナイッサー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ハイプレミィアム 影山飛雄",
       "price": "1000",
       "update_date": "9月17日",
-      "model_number": "1121872"
+      "model_number": "1121872",
+      "_check": {
+        "status": "unknown",
+        "ref": "ハイプレミアム 影山飛雄",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ハイプレミィアム"
+        ],
+        "missing": [
+          "ハイプレミアム"
+        ],
+        "suggestion": "ハイプレミアム 影山飛雄",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ハイプレミィアム 黒尾鉄朗",
       "price": "800",
       "update_date": "9月17日",
-      "model_number": "1122909"
+      "model_number": "1122909",
+      "_check": {
+        "status": "unknown",
+        "ref": "ハイプレミアム 黒尾鉄朗",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ハイプレミィアム"
+        ],
+        "missing": [
+          "ハイプレミアム"
+        ],
+        "suggestion": "ハイプレミアム 黒尾鉄朗",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ハイプレミィアム 孤爪研磨",
       "price": "800",
       "update_date": "9月17日",
-      "model_number": "1122911"
+      "model_number": "1122911",
+      "_check": {
+        "status": "unknown",
+        "ref": "ハイプレミアム 孤爪研磨",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ハイプレミィアム"
+        ],
+        "missing": [
+          "ハイプレミアム"
+        ],
+        "suggestion": "ハイプレミアム 孤爪研磨",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ポージングフィギュア 日向翔陽",
       "price": "2000",
       "update_date": "9月17日",
-      "model_number": "2709954"
+      "model_number": "2709954",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 日向翔陽」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 影山飛雄",
       "price": "1800",
       "update_date": "9月17日",
-      "model_number": "2709955"
+      "model_number": "2709955",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 影山飛雄",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 影山飛雄」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 月島蛍",
       "price": "1500",
       "update_date": "9月17日",
-      "model_number": "2711237"
+      "model_number": "2711237",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 月島蛍",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 月島蛍」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 西谷夕",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "2711236"
+      "model_number": "2711236",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 西谷夕",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 西谷夕」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 孤爪研磨",
       "price": "1300",
       "update_date": "9月17日",
-      "model_number": "2728481"
+      "model_number": "2728481",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 孤爪研磨",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 孤爪研磨」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.",
       "price": "1000",
       "update_date": "9月17日",
-      "model_number": "2824950"
+      "model_number": "2824950",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 黒尾鉄朗",
       "price": "900",
       "update_date": "9月17日",
-      "model_number": "2728482"
+      "model_number": "2728482",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 黒尾鉄朗",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 黒尾鉄朗」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.",
       "price": "800",
       "update_date": "9月17日",
-      "model_number": "2824950"
+      "model_number": "2824950",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 黒尾鉄朗 セカンドユニフォーム ver.」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 赤葦京治",
       "price": "2200",
       "update_date": "9月17日",
-      "model_number": "2723902"
+      "model_number": "2723902",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 赤葦京治",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 赤葦京治」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 木兎光太郎",
       "price": "2000",
       "update_date": "9月17日",
-      "model_number": "2720416"
+      "model_number": "2720416",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 木兎光太郎",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 木兎光太郎」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 宮侑",
       "price": "1200",
       "update_date": "9月17日",
-      "model_number": "2786092"
+      "model_number": "2786092",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 宮侑",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 宮侑」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 宮治",
       "price": "900",
       "update_date": "9月17日",
-      "model_number": "2786093"
+      "model_number": "2786093",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 宮治",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 宮治」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ポージングフィギュア 北信介",
       "price": "2800",
       "update_date": "9月17日",
-      "model_number": "2723904"
+      "model_number": "2723904",
+      "_check": {
+        "status": "verified",
+        "ref": "ポージングフィギュア 北信介",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ポージングフィギュア 北信介」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 日向翔陽",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "15033"
+      "model_number": "15033",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 日向翔陽」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 日向翔陽 (再販)",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "18887"
+      "model_number": "18887",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 日向翔陽」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 影山飛雄",
       "price": "1100",
       "update_date": "9月17日",
-      "model_number": "15205"
+      "model_number": "15205",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 影山飛雄",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 影山飛雄」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 影山飛雄 (再販)",
       "price": "1100",
       "update_date": "9月17日",
-      "model_number": "18888"
+      "model_number": "18888",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 影山飛雄",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 影山飛雄」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 月島蛍",
       "price": "900",
       "update_date": "9月17日",
-      "model_number": "19705"
+      "model_number": "19705",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 月島蛍",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 月島蛍」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 西谷夕",
       "price": "1200",
       "update_date": "9月17日",
-      "model_number": "20360"
+      "model_number": "20360",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 西谷夕",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 西谷夕」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 孤爪研磨",
       "price": "1000",
       "update_date": "9月17日",
-      "model_number": "16237"
+      "model_number": "16237",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 孤爪研磨",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 孤爪研磨」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 孤爪研磨 (再販)",
       "price": "1000",
       "update_date": "9月17日",
-      "model_number": "18889"
+      "model_number": "18889",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 孤爪研磨",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 孤爪研磨」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "ぬーどるストッパー 及川徹",
       "price": "900",
       "update_date": "9月17日",
-      "model_number": "16802"
+      "model_number": "16802",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 及川徹」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ ゴミ捨て場の決戦 A賞 日向翔陽",
       "price": "2000",
       "update_date": "9月17日",
-      "model_number": "64293"
+      "model_number": "64293",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ ゴミ捨て場の決戦 A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ ゴミ捨て場の決戦 A賞 日向翔陽」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ ゴミ捨て場の決戦 B賞 孤爪研磨",
       "price": "1500",
       "update_date": "9月17日",
-      "model_number": "64293"
+      "model_number": "64293",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ ゴミ捨て場の決戦 B賞 孤爪研磨",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ ゴミ捨て場の決戦 B賞 孤爪研磨」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ ゴミ捨て場の決戦 ラストワン賞 孤爪研磨",
       "price": "2200",
       "update_date": "9月17日",
-      "model_number": "64293"
+      "model_number": "64293",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ ゴミ捨て場の決戦 ラストワン賞 孤爪研磨",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ ゴミ捨て場の決戦 ラストワン賞 孤爪研磨」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ ゴミ捨て場の決戦 2 A賞 月島蛍",
       "price": "2400",
       "update_date": "9月17日",
-      "model_number": "64733"
+      "model_number": "64733",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ゴミ捨て場の決戦 A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "2",
+          "月島蛍"
+        ],
+        "missing": [
+          "日向翔陽"
+        ],
+        "suggestion": "",
+        "reason": "「2」「月島蛍」が参照名に見当たりません"
+      }
     },
     {
       "name": "一番くじ ゴミ捨て場の決戦 2 B賞 黒尾鉄朗",
       "price": "2500",
       "update_date": "9月17日",
-      "model_number": "64733"
+      "model_number": "64733",
+      "_check": {
+        "status": "suspect",
+        "ref": "黒尾鉄朗 ゴミ捨て場の決戦",
+        "source": "登録済み/sheet1",
+        "score": 0.632,
+        "unmatched": [
+          "一番くじ",
+          "2",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「一番くじ」「2」「B賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "一番くじ 10th anniversary! A賞 日向翔陽",
       "price": "5000",
       "update_date": "9月17日",
-      "model_number": "64492"
+      "model_number": "64492",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 10th anniversary! A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 10th anniversary! A賞 日向翔陽」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 10th anniversary! B賞 影山飛雄",
       "price": "5000",
       "update_date": "9月17日",
-      "model_number": "64492"
+      "model_number": "64492",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 10th anniversary! B賞 影山飛雄",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 10th anniversary! B賞 影山飛雄」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 全国への道 A賞 木兎光太郎",
       "price": "2800",
       "update_date": "9月17日",
-      "model_number": "67732"
+      "model_number": "67732",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 全国への道 A賞 木兎光太郎",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 全国への道 A賞 木兎光太郎」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 全国への道 B賞 赤葦京治",
       "price": "6000",
       "update_date": "9月17日",
-      "model_number": "67732"
+      "model_number": "67732",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 全国への道 B賞 赤葦京治",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 全国への道 B賞 赤葦京治」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 全国への道 C賞 ヒナガラス クッション",
       "price": "1400",
       "update_date": "9月17日",
-      "model_number": "67732"
+      "model_number": "67732",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 全国への道 B賞 赤葦京治",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "C賞",
+          "ヒナガラス",
+          "クッション"
+        ],
+        "missing": [
+          "b賞",
+          "赤葦京治"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 全国への道 ラストワン賞 及川徹",
       "price": "3500",
       "update_date": "9月17日",
-      "model_number": "67732"
+      "model_number": "67732",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 全国への道 ラストワン賞 及川徹",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 全国への道 ラストワン賞 及川徹」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 最強の挑戦者 A賞 宮侑",
       "price": "1800",
       "update_date": "9月17日",
-      "model_number": "67980"
+      "model_number": "67980",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 最強の挑戦者 A賞 宮侑",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 最強の挑戦者 A賞 宮侑」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 最強の挑戦者 B賞 宮治",
       "price": "3500",
       "update_date": "9月17日",
-      "model_number": "67980"
+      "model_number": "67980",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 最強の挑戦者 B賞 宮治",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 最強の挑戦者 B賞 宮治」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 最強の挑戦者 C賞 角名倫太郎",
       "price": "6500",
       "update_date": "9月17日",
-      "model_number": "67980"
+      "model_number": "67980",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 最強の挑戦者 C賞 角名倫太郎",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 最強の挑戦者 C賞 角名倫太郎」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 最強の挑戦者 ラストワン賞 北信介",
       "price": "7000",
       "update_date": "9月17日",
-      "model_number": "67980"
+      "model_number": "67980",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 最強の挑戦者 ラストワン賞 北信介",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 最強の挑戦者 ラストワン賞 北信介」（登録済み/sheet1）に含まれています"
+      }
     },
     {
       "name": "一番くじ 烏野の未来 A賞 日向翔陽",
       "price": "2400",
       "update_date": "9月17日",
-      "model_number": "68185"
+      "model_number": "68185",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ゴミ捨て場の決戦 A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "烏野の未来"
+        ],
+        "missing": [
+          "ゴミ捨て場の決戦"
+        ],
+        "suggestion": "",
+        "reason": "「烏野の未来」が参照名に見当たりません"
+      }
     },
     {
       "name": "一番くじ 烏野の未来 B賞 影山飛雄",
       "price": "3000",
       "update_date": "9月17日",
-      "model_number": "68185"
+      "model_number": "68185",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "烏野の未来",
+          "影山飛雄"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 烏野の未来 C賞 山口忠",
       "price": "3300",
       "update_date": "9月17日",
-      "model_number": "68185"
+      "model_number": "68185",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "烏野の未来",
+          "山口忠"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 烏野の未来 ラストワン賞 月島蛍",
       "price": "6500",
       "update_date": "9月17日",
-      "model_number": "68185"
+      "model_number": "68185",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "烏野の未来",
+          "月島蛍"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「烏野の未来」「月島蛍」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

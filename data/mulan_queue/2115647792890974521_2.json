@@ -11,403 +11,1557 @@
       "name": "一番くじ ZAOLDYECK FAMILY A賞 キルア＆アルカ ぬいぐるみ",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "キルア",
+          "アルカ",
+          "ぬいぐるみ"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ZAOLDYECK FAMILY B賞 ゼノ",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "ゼノ"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ZAOLDYECK FAMILY C賞 シルバ",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "シルバ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ZAOLDYECK FAMILY E賞 アルカ ※要開封確認",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "E賞",
+          "アルカ",
+          "※要開封確認"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ZAOLDYECK FAMILY E賞 ナニカ ※要開封確認",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "E賞",
+          "ナニカ",
+          "※要開封確認"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ZAOLDYECK FAMILY F賞 キルアのヨーヨー",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.138,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "F賞",
+          "キルアのヨーヨー"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ZAOLDYECK FAMILY ラストワン賞 ミケ",
       "price": "10000",
       "update_date": "2026/10/29",
-      "model_number": "68127"
+      "model_number": "68127",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.37,
+        "unmatched": [
+          "ZAOLDYECK",
+          "FAMILY",
+          "ミケ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ DAY OF DEPARTURE A賞 ゴン",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "62690"
+      "model_number": "62690",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "DAY",
+          "OF",
+          "DEPARTURE",
+          "ゴン"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ DAY OF DEPARTURE B賞 キルア",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "62690"
+      "model_number": "62690",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "DAY",
+          "OF",
+          "DEPARTURE",
+          "キルア"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ DAY OF DEPARTURE C賞 クラピカ",
       "price": "5000",
       "update_date": "2026/10/29",
-      "model_number": "62690"
+      "model_number": "62690",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "DAY",
+          "OF",
+          "DEPARTURE",
+          "クラピカ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ DAY OF DEPARTURE D賞 レオリオ",
       "price": "4500",
       "update_date": "2026/10/29",
-      "model_number": "62690"
+      "model_number": "62690",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "DAY",
+          "OF",
+          "DEPARTURE",
+          "D賞",
+          "レオリオ"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ DAY OF DEPARTURE ラストワン賞 ヒソカ",
       "price": "9000",
       "update_date": "2026/10/29",
-      "model_number": "62690"
+      "model_number": "62690",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.37,
+        "unmatched": [
+          "DAY",
+          "OF",
+          "DEPARTURE",
+          "ヒソカ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ REVENGE OF SCARLET A賞 クラピカ",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "64323"
+      "model_number": "64323",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "REVENGE",
+          "OF",
+          "SCARLET",
+          "クラピカ"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ REVENGE OF SCARLET B賞 クロロ＝ルシルフル",
       "price": "5000",
       "update_date": "2026/10/29",
-      "model_number": "64323"
+      "model_number": "64323",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.194,
+        "unmatched": [
+          "REVENGE",
+          "OF",
+          "SCARLET",
+          "クロロ=ルシルフル"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ REVENGE OF SCARLET C賞 ヒソカ",
       "price": "5500",
       "update_date": "2026/10/29",
-      "model_number": "64323"
+      "model_number": "64323",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.24,
+        "unmatched": [
+          "REVENGE",
+          "OF",
+          "SCARLET",
+          "ヒソカ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ REVENGE OF SCARLET D賞 ウボォーギン",
       "price": "8000",
       "update_date": "2026/10/29",
-      "model_number": "64323"
+      "model_number": "64323",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "REVENGE",
+          "OF",
+          "SCARLET",
+          "D賞",
+          "ウボォーギン"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ REVENGE OF SCARLET ラストワン賞 クラピカ",
       "price": "10500",
       "update_date": "2026/10/29",
-      "model_number": "64323"
+      "model_number": "64323",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "REVENGE",
+          "OF",
+          "SCARLET",
+          "クラピカ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND A賞 ゴン",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "ゴン"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND B賞 キルア",
       "price": "10500",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "キルア"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND C賞 ジン",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "ジン"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND D賞 ビスケ",
       "price": "13000",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "D賞",
+          "ビスケ"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND E賞 ゲンスルー",
       "price": "3200",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "E賞",
+          "ゲンスルー"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND G賞 リスキーダイス",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "リスキーダイス"
+        ],
+        "missing": [
+          "死滅回游",
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND ラストワン賞 ゴン×キルア×ヒソカ",
       "price": "18500",
       "update_date": "2026/10/29",
-      "model_number": "64601"
+      "model_number": "64601",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "ゴン",
+          "キルア",
+          "ヒソカ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 B賞 ゴン ドッジボール戦（両目開）※要開封確認",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "ゴン",
+          "ドッジボール戦",
+          "両目開",
+          "※要開封確認"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 B賞 ゴン ゲンスルー戦（片目閉）※要開封確認",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.171,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "ゴン",
+          "ゲンスルー戦",
+          "片目閉",
+          "※要開封確認"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 C賞 キルア",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "キルア"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 D賞 ヒソカ 通常 ※要開封確認",
       "price": "5000",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.138,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "D賞",
+          "ヒソカ",
+          "通常",
+          "※要開封確認"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 D賞 ヒソカ 髪おろし ※要開封確認",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.129,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "D賞",
+          "ヒソカ",
+          "髪おろし",
+          "※要開封確認"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 E賞 レイザー",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "E賞",
+          "レイザー"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ GREED ISLAND 2 ラストワン賞 ビスケット＝クルーガー",
       "price": "7500",
       "update_date": "2026/10/29",
-      "model_number": "68221"
+      "model_number": "68221",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.303,
+        "unmatched": [
+          "GREED",
+          "ISLAND",
+          "2",
+          "ビスケット=クルーガー"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ CHIMERA ANT A賞 ゴン",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "64809"
+      "model_number": "64809",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "CHIMERA",
+          "ANT",
+          "ゴン"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ CHIMERA ANT B賞 キルア",
       "price": "10500",
       "update_date": "2026/10/29",
-      "model_number": "64809"
+      "model_number": "64809",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "CHIMERA",
+          "ANT",
+          "キルア"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ CHIMERA ANT C賞 カイト",
       "price": "4800",
       "update_date": "2026/10/29",
-      "model_number": "64809"
+      "model_number": "64809",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "CHIMERA",
+          "ANT",
+          "カイト"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ CHIMERA ANT D賞 ナックル",
       "price": "8000",
       "update_date": "2026/10/29",
-      "model_number": "64809"
+      "model_number": "64809",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "CHIMERA",
+          "ANT",
+          "D賞",
+          "ナックル"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ CHIMERA ANT E賞 シュート",
       "price": "3600",
       "update_date": "2026/10/29",
-      "model_number": "64809"
+      "model_number": "64809",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "CHIMERA",
+          "ANT",
+          "E賞",
+          "シュート"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ CHIMERA ANT ラストワン賞 ネフェルピトー",
       "price": "7500",
       "update_date": "2026/10/29",
-      "model_number": "64809"
+      "model_number": "64809",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.37,
+        "unmatched": [
+          "CHIMERA",
+          "ANT",
+          "ネフェルピトー"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" A賞 キルア＆アルカ ※要開封確認",
       "price": "9500",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "キルア",
+          "アルカ",
+          "※要開封確認"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" A賞 キルア＆ナニカ ※要開封確認",
       "price": "7500",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "キルア",
+          "ナニカ",
+          "※要開封確認"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" B賞 イルミ",
       "price": "5000",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "イルミ"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" C賞 ヒソカ",
       "price": "8500",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "ヒソカ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" D賞 レオリオ",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "D賞",
+          "レオリオ"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" E賞 ジン",
       "price": "2800",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.211,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "E賞",
+          "ジン"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" F賞 パリストン",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "F賞",
+          "パリストン"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" I賞 ダブルハンターライセンス",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 死滅回游 弐 I賞 石流龍",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "ダブルハンターライセンス"
+        ],
+        "missing": [
+          "死滅回游",
+          "石流龍"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ Cross the \"X-Day\" ラストワン賞 キルア＆アルカ",
       "price": "18500",
       "update_date": "2026/10/29",
-      "model_number": "67921"
+      "model_number": "67921",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.37,
+        "unmatched": [
+          "Cross",
+          "the",
+          "Day",
+          "キルア",
+          "アルカ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 A賞 戸愚呂（弟）",
       "price": "6500",
       "update_date": "2026/10/29",
-      "model_number": "64745"
+      "model_number": "64745",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "暗黒武術会編",
+          "戸愚呂"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 B賞 浦飯幽助",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "64745"
+      "model_number": "64745",
+      "_check": {
+        "status": "unknown",
+        "ref": "暗黒武術会 浦飯幽助",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "一番くじ",
+          "暗黒武術会編",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "一番くじ 暗黒武術会 B賞 浦飯幽助",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 C賞 飛影",
       "price": "1800",
       "update_date": "2026/10/29",
-      "model_number": "64745"
+      "model_number": "64745",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "暗黒武術会編",
+          "飛影"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 D賞 蔵馬",
       "price": "2000",
       "update_date": "2026/10/29",
-      "model_number": "64745"
+      "model_number": "64745",
+      "_check": {
+        "status": "unknown",
+        "ref": "暗黒武術会 蔵馬",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "一番くじ",
+          "暗黒武術会編",
+          "D賞"
+        ],
+        "missing": [],
+        "suggestion": "一番くじ 暗黒武術会 D賞 蔵馬",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 ラストワン賞 戸愚呂（弟）",
       "price": "6500",
       "update_date": "2026/10/29",
-      "model_number": "64745"
+      "model_number": "64745",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.526,
+        "unmatched": [
+          "暗黒武術会編",
+          "戸愚呂"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「暗黒武術会編」「戸愚呂」が参照名に見当たりません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.2 A賞 蔵馬",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "67854"
+      "model_number": "67854",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.2",
+          "蔵馬"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.2 B賞 鴉",
       "price": "4000",
       "update_date": "2026/10/29",
-      "model_number": "67854"
+      "model_number": "67854",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.2"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.2 C賞 飛影",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "67854"
+      "model_number": "67854",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.2",
+          "飛影"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.2 D賞 武威",
       "price": "4500",
       "update_date": "2026/10/29",
-      "model_number": "67854"
+      "model_number": "67854",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.211,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.2",
+          "D賞",
+          "武威"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.2 ラストワン賞 戸愚呂兄弟",
       "price": "9000",
       "update_date": "2026/10/29",
-      "model_number": "67854"
+      "model_number": "67854",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.2",
+          "戸愚呂兄弟"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.3 A賞 浦飯幽助",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "68005"
+      "model_number": "68005",
+      "_check": {
+        "status": "unknown",
+        "ref": "暗黒武術会 浦飯幽助",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "一番くじ",
+          "暗黒武術会編",
+          "vol.3",
+          "A賞"
+        ],
+        "missing": [],
+        "suggestion": "一番くじ 暗黒武術会 vol.3 A賞 浦飯幽助",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.3 B賞 桑原和真",
       "price": "6000",
       "update_date": "2026/10/29",
-      "model_number": "68005"
+      "model_number": "68005",
+      "_check": {
+        "status": "unknown",
+        "ref": "暗黒武術会 桑原和真",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "一番くじ",
+          "暗黒武術会編",
+          "vol.3",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "一番くじ 暗黒武術会 vol.3 B賞 桑原和真",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.3 C賞 飛影",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "68005"
+      "model_number": "68005",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.316,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.3",
+          "飛影"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.3 D賞 コエンマ",
       "price": "2400",
       "update_date": "2026/10/29",
-      "model_number": "68005"
+      "model_number": "68005",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "一番くじ",
+          "暗黒武術会編",
+          "D賞",
+          "コエンマ"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.3 E賞 幻海",
       "price": "3000",
       "update_date": "2026/10/29",
-      "model_number": "68005"
+      "model_number": "68005",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vol.3 初音ミク",
+        "source": "登録済み/sheet1",
+        "score": 0.263,
+        "unmatched": [
+          "一番くじ",
+          "暗黒武術会編",
+          "E賞",
+          "幻海"
+        ],
+        "missing": [
+          "初音ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 暗黒武術会編 vol.3 ラストワン賞 妖狐蔵馬",
       "price": "3500",
       "update_date": "2026/10/29",
-      "model_number": "68005"
+      "model_number": "68005",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "暗黒武術会編",
+          "vol.3",
+          "妖狐蔵馬"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 魔界の扉編 A賞 浦飯幽助",
       "price": "7000",
       "update_date": "2026/10/29",
-      "model_number": "68258"
+      "model_number": "68258",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "魔界の扉編",
+          "浦飯幽助"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 魔界の扉編 B賞 桑原和真",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "68258"
+      "model_number": "68258",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "魔界の扉編",
+          "桑原和真"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 魔界の扉編 D賞 仙水忍",
       "price": "2500",
       "update_date": "2026/10/29",
-      "model_number": "68258"
+      "model_number": "68258",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "魔界の扉編",
+          "D賞",
+          "仙水忍"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 魔界の扉編 E賞 樹",
       "price": "1500",
       "update_date": "2026/10/29",
-      "model_number": "68258"
+      "model_number": "68258",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.364,
+        "unmatched": [
+          "魔界の扉編",
+          "E賞"
+        ],
+        "missing": [
+          "c賞",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ 魔界の扉編 ラストワン賞 浦飯幽助",
       "price": "9500",
       "update_date": "2026/10/29",
-      "model_number": "68258"
+      "model_number": "68258",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.526,
+        "unmatched": [
+          "魔界の扉編",
+          "浦飯幽助"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「魔界の扉編」「浦飯幽助」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

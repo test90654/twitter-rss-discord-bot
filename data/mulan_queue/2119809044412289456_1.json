@@ -158,20 +158,17 @@
       "update_date": "2026/11/10",
       "model_number": "1123877",
       "_check": {
-        "status": "suspect",
-        "ref": "FIGURIZMα 宿儺",
+        "status": "verified",
+        "ref": "FIGURIZMα リカ (完全顕現)",
         "source": "登録済み/sheet1",
-        "score": 0.739,
-        "unmatched": [
-          "リカ",
-          "完全顕現"
-        ],
-        "missing": [
-          "宿儺"
-        ],
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
         "suggestion": "",
-        "reason": "「リカ」「完全顕現」が参照名に見当たりません"
-      }
+        "reason": "すべての単語が「FIGURIZMα リカ (完全顕現)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "FIGURIZM/FIGURIZMα 宿儺",
@@ -1760,5 +1757,5 @@
       "_auto_registered": true
     }
   ],
-  "auto_checked_at": "2026/11/11 13:40"
+  "auto_checked_at": "2026/11/11 13:59"
 }

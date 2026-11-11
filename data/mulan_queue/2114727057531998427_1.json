@@ -11,385 +11,1212 @@
       "name": "AMP+ フリーレン",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ フリーレン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "AMP+ フリーレン（再販）",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ フリーレン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute フリーレン ルームウェア ver.",
       "price": "2000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute フリーレン ルームウェア ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute フリーレン ルームウェア ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute フリーレン ルームウェア ver.（再販）",
       "price": "2000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute フリーレン ルームウェア ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute フリーレン ルームウェア ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute フリーレン トランク ver.",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute フリーレン トランク ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute フリーレン トランク ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute フリーレン トランク ver.（再販）",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute フリーレン トランク ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute フリーレン トランク ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute フリーレン サマーワンピース ver.",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute フリーレン トランク ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "サマーワンピース"
+        ],
+        "missing": [
+          "トランク"
+        ],
+        "suggestion": "",
+        "reason": "「サマーワンピース」が参照名に見当たりません"
+      }
     },
     {
       "name": "Desktop Cute フェルン",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute フェルン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute フェルン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute 断頭台のアウラ",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute 断頭台のアウラ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute 断頭台のアウラ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Coreful フリーレン ドレス ver.",
       "price": "700",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Coreful フリーレン ドレス ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Coreful フリーレン ドレス ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Coreful フェルン",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Coreful フェルン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Coreful フェルン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Coreful ユーベル",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Coreful ユーベル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Coreful ユーベル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "FIGURIZMα フリーレン 魔法の高み",
       "price": "1300",
       "update_date": "2026/10/27",
-      "model_number": "1121536"
+      "model_number": "1121536",
+      "_check": {
+        "status": "verified",
+        "ref": "FIGURIZMα フリーレン 魔法の高み",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「FIGURIZMα フリーレン 魔法の高み」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "FIGURIZMα フリーレン 花舞",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "1123577"
+      "model_number": "1123577",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα フリーレン 魔法の高み",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "花舞"
+        ],
+        "missing": [
+          "魔法の高み"
+        ],
+        "suggestion": "",
+        "reason": "「花舞」が参照名に見当たりません"
+      }
     },
     {
       "name": "ハイプレミアム フリーレン 鉱山で300年",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "1122371"
+      "model_number": "1122371",
+      "_check": {
+        "status": "unknown",
+        "ref": "ハイプレミアム レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.389,
+        "unmatched": [
+          "フリーレン",
+          "鉱山で",
+          "300"
+        ],
+        "missing": [
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "XStellar フリーレン 雪遊び",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": "1121927"
+      "model_number": "1121927",
+      "_check": {
+        "status": "suspect",
+        "ref": "XStellar フリーレン とある祭りにて",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "雪遊び"
+        ],
+        "missing": [
+          "とある祭りにて"
+        ],
+        "suggestion": "",
+        "reason": "「雪遊び」が参照名に見当たりません"
+      }
     },
     {
       "name": "XStellar フェルン 雪遊び",
       "price": "1100",
       "update_date": "2026/10/27",
-      "model_number": "1121929"
+      "model_number": "1121929",
+      "_check": {
+        "status": "verified",
+        "ref": "XStellar フェルン 雪遊び",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XStellar フェルン 雪遊び」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "XStellar シュタルク 雪遊び",
       "price": "1200",
       "update_date": "2026/10/27",
-      "model_number": "1121931"
+      "model_number": "1121931",
+      "_check": {
+        "status": "verified",
+        "ref": "XStellar シュタルク 雪遊び",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「XStellar シュタルク 雪遊び」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン〜葬送のフリーレン〜",
       "price": "600",
       "update_date": "2026/10/27",
-      "model_number": "1109107"
+      "model_number": "1109107",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フリーレン～葬送のフリーレン～",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フリーレン～葬送のフリーレン～」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン〜葬送のフリーレン〜(再販)",
       "price": "600",
       "update_date": "2026/10/27",
-      "model_number": "1125190"
+      "model_number": "1125190",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フリーレン～葬送のフリーレン～",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フリーレン～葬送のフリーレン～」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン インミミック PLUS",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": "1125343"
+      "model_number": "1125343",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta フリーレン インミミック",
+        "source": "登録済み/sheet1",
+        "score": 0.833,
+        "unmatched": [
+          "PLUS"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「PLUS」が参照名に見当たりません"
+      }
     },
     {
       "name": "Luminasta フリーレン インミミック",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": "1113628"
+      "model_number": "1113628",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フリーレン インミミック",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フリーレン インミミック」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン インミミック（再販）",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": "1120780"
+      "model_number": "1120780",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フリーレン インミミック",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フリーレン インミミック」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン",
       "price": "1200",
       "update_date": "2026/10/27",
-      "model_number": "1107464"
+      "model_number": "1107464",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フリーレン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フリーレン 日常",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "1108933"
+      "model_number": "1108933",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.875,
+        "unmatched": [
+          "日常"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「日常」が参照名に見当たりません"
+      }
     },
     {
       "name": "Luminasta フリーレン メイド服",
       "price": "1200",
       "update_date": "2026/10/27",
-      "model_number": "1119425"
+      "model_number": "1119425",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "メイド服"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「メイド服」が参照名に見当たりません"
+      }
     },
     {
       "name": "Luminasta フリーレン SUMMER DRESS",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": "1122369"
+      "model_number": "1122369",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フリーレン SUMMER DRESS",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フリーレン SUMMER DRESS」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta ヒンメル フォーリヒにて",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": "1114871"
+      "model_number": "1114871",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta ヒンメル フォーリヒにて",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta ヒンメル フォーリヒにて」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フェルン",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": "1109108"
+      "model_number": "1109108",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フェルン 花畑",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "花畑"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フェルン 花畑」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フェルン 一般攻撃魔法",
       "price": "700",
       "update_date": "2026/10/27",
-      "model_number": "1115222"
+      "model_number": "1115222",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フェルン 一般攻撃魔法",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フェルン 一般攻撃魔法」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta フェルン メイド服",
       "price": "1300",
       "update_date": "2026/10/27",
-      "model_number": "1119427"
+      "model_number": "1119427",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta フェルン メイド服",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta フェルン メイド服」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Luminasta ユーベル 大体なんでも切る魔法",
       "price": "1200",
       "update_date": "2026/10/27",
-      "model_number": "1121428"
+      "model_number": "1121428",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta ユーベル 大体なんでも切る魔法",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Luminasta ユーベル 大体なんでも切る魔法」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Yumerimize フリーレン ルームウェア",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "1123579"
+      "model_number": "1123579",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "Yumerimize",
+          "ルームウェア"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Yumerimize フェルン",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "1115802"
+      "model_number": "1115802",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちょこのせ フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "Yumerimize"
+        ],
+        "missing": [
+          "ちょこのせ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Yumerimize フェルン あの頃",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "1115804"
+      "model_number": "1115804",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちょこのせ フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "Yumerimize",
+          "あの頃"
+        ],
+        "missing": [
+          "ちょこのせ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Yumerimize フェルン 一眠り",
       "price": "2000",
       "update_date": "2026/10/27",
-      "model_number": "1115220"
+      "model_number": "1115220",
+      "_check": {
+        "status": "unknown",
+        "ref": "Yumemirize フェルン 一眠り",
+        "source": "登録済み/sheet1",
+        "score": 0.412,
+        "unmatched": [
+          "Yumerimize"
+        ],
+        "missing": [
+          "yumemirize"
+        ],
+        "suggestion": "Yumemirize フェルン 一眠り",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Yumerimize フリーレン 一眠り",
       "price": "500",
       "update_date": "2026/10/27",
-      "model_number": "1115221"
+      "model_number": "1115221",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "Yumerimize",
+          "一眠り"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちょこのせ ツンツンフリーレン",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": "1123561"
+      "model_number": "1123561",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちょこのせ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.357,
+        "unmatched": [
+          "ツンツンフリーレン"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ちょこのせ フェルン 拘束魔法",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "1123563"
+      "model_number": "1123563",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちょこのせ フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "拘束魔法"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「拘束魔法」が参照名に見当たりません"
+      }
     },
     {
       "name": "ちょこのせ シュタルク 喉が抜け歩けない･･･",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "1123565"
+      "model_number": "1123565",
+      "_check": {
+        "status": "suspect",
+        "ref": "ちょこのせ シュタルク",
+        "source": "登録済み/sheet1",
+        "score": 0.556,
+        "unmatched": [
+          "喉が抜け歩けない"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「喉が抜け歩けない」が参照名に見当たりません"
+      }
     },
     {
       "name": "ちょこのせ ヒンメル",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "1112772"
+      "model_number": "1112772",
+      "_check": {
+        "status": "verified",
+        "ref": "ちょこのせ ヒンメル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ちょこのせ ヒンメル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ちょこのせ ヒンメル",
       "price": "1400",
       "update_date": "2026/10/27",
-      "model_number": "1112340"
+      "model_number": "1112340",
+      "_check": {
+        "status": "verified",
+        "ref": "ちょこのせ ヒンメル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ちょこのせ ヒンメル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop×Decorate Collections ヒンメル",
       "price": "1800",
       "update_date": "2026/10/27",
-      "model_number": "1107451"
+      "model_number": "1107451",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop×Decorate Collections ヒンメル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop×Decorate Collections ヒンメル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "くれ〜んぼっぷ フリーレン",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "2838443"
+      "model_number": "2838443",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "くれ",
+          "んぼっぷ"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "くれ〜んぼっぷ フェルン",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "2838443"
+      "model_number": "2838443",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちょこのせ フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "くれ",
+          "んぼっぷ"
+        ],
+        "missing": [
+          "ちょこのせ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フリーレン うお〜ん",
       "price": "2000",
       "update_date": "2026/10/27",
-      "model_number": "2823441"
+      "model_number": "2823441",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "うお"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "「うお」が参照名に見当たりません"
+      }
     },
     {
       "name": "フリーレン むふ〜ver.",
       "price": "700",
       "update_date": "2026/10/27",
-      "model_number": "2758945"
+      "model_number": "2758945",
+      "_check": {
+        "status": "suspect",
+        "ref": "ねんどろいど フリーレン 冬服 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "むふ"
+        ],
+        "missing": [
+          "ねんどろいど",
+          "冬服"
+        ],
+        "suggestion": "",
+        "reason": "「むふ」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC フリーレン",
       "price": "700",
       "update_date": "2026/10/27",
-      "model_number": "2803496"
+      "model_number": "2803496",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC フリーレン II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC フリーレン II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC フェルン",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": "2803497"
+      "model_number": "2803497",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC フェルン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC フェルン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC シュタルク",
       "price": "2200",
       "update_date": "2026/10/27",
-      "model_number": "2803499"
+      "model_number": "2803499",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC シュタルク",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC シュタルク」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "EFFECTREME フリーレン",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": "2758947"
+      "model_number": "2758947",
+      "_check": {
+        "status": "suspect",
+        "ref": "EFFECTREME デイダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "フリーレン"
+        ],
+        "missing": [
+          "デイダラ"
+        ],
+        "suggestion": "",
+        "reason": "「フリーレン」が参照名に見当たりません"
+      }
     },
     {
       "name": "EFFECTREME フェルン",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": "2758946"
+      "model_number": "2758946",
+      "_check": {
+        "status": "suspect",
+        "ref": "EFFECTREME デイダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "フェルン"
+        ],
+        "missing": [
+          "デイダラ"
+        ],
+        "suggestion": "",
+        "reason": "「フェルン」が参照名に見当たりません"
+      }
     },
     {
       "name": "Relax time フリーレン",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "2758944"
+      "model_number": "2758944",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Relax time フリーレン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "おおきな SOFVIMATES ぬくぬくフリーレン",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "2823004"
+      "model_number": "2823004",
+      "_check": {
+        "status": "suspect",
+        "ref": "おおきな SOFVIMATES ポチタは泣きながら〜",
+        "source": "登録済み/sheet1",
+        "score": 0.609,
+        "unmatched": [
+          "ぬくぬくフリーレン"
+        ],
+        "missing": [
+          "ポチタは泣きながら"
+        ],
+        "suggestion": "",
+        "reason": "「ぬくぬくフリーレン」が参照名に見当たりません"
+      }
     },
     {
       "name": "ティッシュに取り付け! フリーレン",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "2834810"
+      "model_number": "2834810",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ティッシュに取り付け"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "フィギュアライト フリーレン ゾルトラーク",
       "price": "700",
       "update_date": "2026/10/27",
-      "model_number": "2812709"
+      "model_number": "2812709",
+      "_check": {
+        "status": "verified",
+        "ref": "フィギュアライト フリーレン ゾルトラーク",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「フィギュアライト フリーレン ゾルトラーク」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "ぬーどるストッパー しょぼしょぼなフリーレン",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": "22167"
+      "model_number": "22167",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "しょぼしょぼなフリーレン"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ぬーどるストッパー むっすーなフェルン",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": "22166"
+      "model_number": "22166",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "むっすーなフェルン"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「むっすーなフェルン」が参照名に見当たりません"
+      }
     },
     {
       "name": "Trio-Try-iT フェルン",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": "19726"
+      "model_number": "19726",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT フェルン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Trio-Try-iT フェルン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "フリーレン スケールフィギュア（エルココ）",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "LH賞 スケールフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "フリーレン",
+          "エルココ"
+        ],
+        "missing": [
+          "lh賞"
+        ],
+        "suggestion": "",
+        "reason": "「フリーレン」「エルココ」が参照名に見当たりません"
+      }
     },
     {
       "name": "フェルン スケールフィギュア（エルココ）",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "LH賞 スケールフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "フェルン",
+          "エルココ"
+        ],
+        "missing": [
+          "lh賞"
+        ],
+        "suggestion": "",
+        "reason": "「フェルン」「エルココ」が参照名に見当たりません"
+      }
     },
     {
       "name": "一番くじ 葬送のフリーレン",
       "price": "4800",
       "update_date": "2026/10/27",
-      "model_number": "68003"
+      "model_number": "68003",
+      "_check": {
+        "status": "suspect",
+        "ref": "葬送のフリーレン",
+        "source": "ポスト本文",
+        "score": 0.667,
+        "unmatched": [
+          "一番くじ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「一番くじ」が参照名に見当たりません"
+      }
     },
     {
       "name": "A賞 フリーレン",
       "price": "4800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "A賞"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "「A賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "ラストワン賞 フリーレン",
       "price": "9500",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "ラストワン賞"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

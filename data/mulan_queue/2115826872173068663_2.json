@@ -12,469 +12,1718 @@
       "name": "最高のヒーローになるまでの物語 A賞 緑谷出久＆オールマイト",
       "price": "7800",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.148,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "A賞",
+          "オールマイト"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 B賞 爆豪勝己",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "B賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 C賞 相澤消太",
       "price": "1800",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "相澤消太"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 D賞 根津校長",
       "price": "1200",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "根津校長"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 E賞 ぐずく：オリジン",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "ぐずく",
+          "オリジン"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 F賞 オールマイト人形",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "オールマイト人形"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 ラストワン賞 緑谷出久",
       "price": "5500",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.24,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "緑谷出久"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "いつまでも手を差し伸べ続ける物語 C賞 爆豪勝己",
       "price": "7500",
       "update_date": "2026/10/30",
-      "model_number": "68092"
+      "model_number": "68092",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "いつまでも手を差し伸べ続ける物語",
+          "C賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "いつまでも手を差し伸べ続ける物語 D賞 ステイン",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "68092"
+      "model_number": "68092",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "いつまでも手を差し伸べ続ける物語",
+          "ステイン"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "いつまでも手を差し伸べ続ける物語 E賞 峰田実",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "68092"
+      "model_number": "68092",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "いつまでも手を差し伸べ続ける物語",
+          "峰田実"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "いつまでも手を差し伸べ続ける物語 ラストワン賞 アーマード・オールマイト",
       "price": "7000",
       "update_date": "2026/10/30",
-      "model_number": "68092"
+      "model_number": "68092",
+      "_check": {
+        "status": "unknown",
+        "ref": "アーマード オールマイト (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "いつまでも手を差し伸べ続ける物語",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "gigo",
+          "限定"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い（再販） A賞 緑谷出久",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "72703"
+      "model_number": "72703",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い（再販） B賞 爆豪勝己",
       "price": "3500",
       "update_date": "2026/10/30",
-      "model_number": "72703"
+      "model_number": "72703",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "B賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い（再販） C賞 緑谷出久",
       "price": "9500",
       "update_date": "2026/10/30",
-      "model_number": "72703"
+      "model_number": "72703",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "C賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い（再販） D賞 爆豪勝己",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "72703"
+      "model_number": "72703",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "D賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い（再販） E賞 オールマイトぬいぐるみ",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "72703"
+      "model_number": "72703",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.105,
+        "unmatched": [
+          "紡がれる想い",
+          "オールマイトぬいぐるみ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い（再販） ラストワン賞 オールマイト",
       "price": "4000",
       "update_date": "2026/10/30",
-      "model_number": "72703"
+      "model_number": "72703",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "オールマイト"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い A賞 緑谷出久",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "67917"
+      "model_number": "67917",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い B賞 爆豪勝己",
       "price": "3500",
       "update_date": "2026/10/30",
-      "model_number": "67917"
+      "model_number": "67917",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "B賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い C賞 緑谷出久",
       "price": "9500",
       "update_date": "2026/10/30",
-      "model_number": "67917"
+      "model_number": "67917",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "C賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い D賞 爆豪勝己",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "67917"
+      "model_number": "67917",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "D賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い E賞 オールマイトぬいぐるみ",
       "price": "1000",
       "update_date": "2026/10/30",
-      "model_number": "67917"
+      "model_number": "67917",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.105,
+        "unmatched": [
+          "紡がれる想い",
+          "オールマイトぬいぐるみ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡がれる想い ラストワン賞 オールマイト",
       "price": "4000",
       "update_date": "2026/10/30",
-      "model_number": "67917"
+      "model_number": "67917",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "紡がれる想い",
+          "オールマイト"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ヴィジランテ ILLEGALS ラストワン賞 オールマイト",
       "price": "8000",
       "update_date": "2026/10/30",
-      "model_number": "68110"
+      "model_number": "68110",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "ヴィジランテ",
+          "ILLEGALS",
+          "オールマイト"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "更に向こうへ（2025年） A賞 緑谷出久",
       "price": "11000",
       "update_date": "2026/10/30",
-      "model_number": "67935"
+      "model_number": "67935",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista 緑谷出久 (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "更に向こうへ",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "「更に向こうへ」「A賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "更に向こうへ（2025年） B賞 死柄木弔",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "67935"
+      "model_number": "67935",
+      "_check": {
+        "status": "unknown",
+        "ref": "死柄木弔",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "更に向こうへ",
+          "2025",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "更に向こうへ（2025年） C賞 オール・フォー・ワン",
       "price": "2600",
       "update_date": "2026/10/30",
-      "model_number": "67935"
+      "model_number": "67935",
+      "_check": {
+        "status": "unknown",
+        "ref": "オール・フォー・ワン (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "更に向こうへ",
+          "2025",
+          "C賞"
+        ],
+        "missing": [
+          "gigo",
+          "限定"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "更に向こうへ（2025年） F賞 としのり",
       "price": "2800",
       "update_date": "2026/10/30",
-      "model_number": "67935"
+      "model_number": "67935",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "更に向こうへ",
+          "2025",
+          "としのり"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "更に向こうへ（2025年） G賞 エリ",
       "price": "6500",
       "update_date": "2026/10/30",
-      "model_number": "67935"
+      "model_number": "67935",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー 桜ミク 2025",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "更に向こうへ",
+          "G賞",
+          "エリ"
+        ],
+        "missing": [
+          "ぬーどるストッパー",
+          "桜ミク"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に A賞 緑谷出久",
       "price": "2800",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.364,
+        "unmatched": [
+          "幸せの上に",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に B賞 トガヒミコ",
       "price": "4500",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "幸せの上に",
+          "B賞"
+        ],
+        "missing": [
+          "dx",
+          "iv"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に C賞 轟焦凍",
       "price": "4000",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "幸せの上に",
+          "C賞"
+        ],
+        "missing": [
+          "dx"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に D賞 茶毘",
       "price": "5500",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "幸せの上に",
+          "茶毘"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に E賞 お茶子＆トガ（幼少期）",
       "price": "8000",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "幸せの上に",
+          "E賞",
+          "お茶子",
+          "幼少期"
+        ],
+        "missing": [
+          "dx",
+          "トガヒミコ",
+          "iv"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に F賞 短矢＆焦凍（幼少期）",
       "price": "6500",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "幸せの上に",
+          "短矢",
+          "焦凍",
+          "幼少期"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "幸せの上に ラストワン賞 麗日お茶子 VS 渡我被身子",
       "price": "10000",
       "update_date": "2026/10/30",
-      "model_number": "67911"
+      "model_number": "67911",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "幸せの上に",
+          "麗日お茶子",
+          "VS",
+          "渡我被身子"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "相反する思い A賞 緑谷出久",
       "price": "4000",
       "update_date": "2026/10/30",
-      "model_number": "67811"
+      "model_number": "67811",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "相反する思い",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "相反する思い B賞 死柄木弔",
       "price": "11000",
       "update_date": "2026/10/30",
-      "model_number": "67811"
+      "model_number": "67811",
+      "_check": {
+        "status": "unknown",
+        "ref": "死柄木弔",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "相反する思い",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "相反する思い C賞 いずく＆てんこ",
       "price": "4000",
       "update_date": "2026/10/30",
-      "model_number": "67811"
+      "model_number": "67811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "相反する思い",
+          "いずく",
+          "てんこ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 E賞 オール・フォー・ワン",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "オール・フォー・ワン (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.32,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "E賞"
+        ],
+        "missing": [
+          "gigo",
+          "限定"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 F賞 爺像オールマイト",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "爺像オールマイト"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "最高のヒーローになるまでの物語 ラストワン賞 オールマイト",
       "price": "12000",
       "update_date": "2026/10/30",
-      "model_number": "68247"
+      "model_number": "68247",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "最高のヒーローになるまでの物語",
+          "オールマイト"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "stand up again",
       "price": "12000",
       "update_date": "2026/10/30",
-      "model_number": "64710"
+      "model_number": "64710",
+      "_check": {
+        "status": "unknown",
+        "ref": "POP UP PARADE フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "stand",
+          "again"
+        ],
+        "missing": [
+          "pop",
+          "parade",
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ラストワン賞 相澤消太",
       "price": "12000",
       "update_date": "2026/10/30",
-      "model_number": "64710"
+      "model_number": "64710",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "相澤消太"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「相澤消太」が参照名に見当たりません"
+      }
     },
     {
       "name": "開催文化祭!!",
       "price": "5800",
       "update_date": "2026/10/30",
-      "model_number": "64636"
+      "model_number": "64636",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "A賞 緑谷出久",
       "price": "5800",
       "update_date": "2026/10/30",
-      "model_number": "64636"
+      "model_number": "64636",
+      "_check": {
+        "status": "suspect",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "「A賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "ラストワン賞 通形ミリオ＆環環",
       "price": "20000",
       "update_date": "2026/10/30",
-      "model_number": "64636"
+      "model_number": "64636",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.462,
+        "unmatched": [
+          "通形ミリオ",
+          "環環"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ A賞 耳郎響香",
       "price": "5500",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "耳郎響香"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ B賞 爆豪勝己",
       "price": "16000",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "B賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ C賞 八百万百",
       "price": "3200",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "八百万百"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ D賞 常闇踏陰",
       "price": "7000",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "PLUS 常闇踏陰",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "D賞"
+        ],
+        "missing": [
+          "plus"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ E賞 上鳴電気",
       "price": "11000",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "PLUS vol.7 上鳴電気",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "E賞"
+        ],
+        "missing": [
+          "plus",
+          "vol.7"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ F賞 緑谷出久",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "F賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "垂れ流せ！文化祭！ ラストワン賞 爆豪勝己",
       "price": "14000",
       "update_date": "2026/10/30",
-      "model_number": "64373"
+      "model_number": "64373",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "垂れ流せ",
+          "文化祭",
+          "爆豪勝己"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "連なる星霜 A賞 緑谷出久",
       "price": "3000",
       "update_date": "2026/10/30",
-      "model_number": "64569"
+      "model_number": "64569",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.364,
+        "unmatched": [
+          "連なる星霜",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "連なる星霜 B賞 爆豪勝己",
       "price": "3500",
       "update_date": "2026/10/30",
-      "model_number": "64569"
+      "model_number": "64569",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.364,
+        "unmatched": [
+          "連なる星霜",
+          "B賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "連なる星霜 C賞 轟焦凍",
       "price": "3200",
       "update_date": "2026/10/30",
-      "model_number": "64569"
+      "model_number": "64569",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "連なる星霜",
+          "C賞"
+        ],
+        "missing": [
+          "dx"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "連なる星霜 ラストワン賞 爆豪勝己",
       "price": "5500",
       "update_date": "2026/10/30",
-      "model_number": "64569"
+      "model_number": "64569",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "連なる星霜",
+          "爆豪勝己"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Let you down A賞 緑谷出久",
       "price": "2000",
       "update_date": "2026/10/30",
-      "model_number": "64545"
+      "model_number": "64545",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "Let",
+          "you",
+          "down",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Let you down B賞 死柄木弔",
       "price": "3500",
       "update_date": "2026/10/30",
-      "model_number": "64545"
+      "model_number": "64545",
+      "_check": {
+        "status": "unknown",
+        "ref": "死柄木弔",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "Let",
+          "you",
+          "down",
+          "B賞"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Let you down C賞 荼毘",
       "price": "3500",
       "update_date": "2026/10/30",
-      "model_number": "64545"
+      "model_number": "64545",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "Let",
+          "you",
+          "down",
+          "荼毘"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Let you down D賞 トガヒミコ",
       "price": "4000",
       "update_date": "2026/10/30",
-      "model_number": "64545"
+      "model_number": "64545",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.294,
+        "unmatched": [
+          "Let",
+          "you",
+          "down",
+          "D賞"
+        ],
+        "missing": [
+          "dx",
+          "iv"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Let you down ラストワン賞 トガヒミコ",
       "price": "13000",
       "update_date": "2026/10/30",
-      "model_number": "64545"
+      "model_number": "64545",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "Let",
+          "you",
+          "down",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "dx",
+          "iv"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡ぐ力 A賞 緑谷出久",
       "price": "6200",
       "update_date": "2026/10/30",
-      "model_number": "64845"
+      "model_number": "64845",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "紡ぐ力",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡ぐ力 B賞 爆豪勝己",
       "price": "20000",
       "update_date": "2026/10/30",
-      "model_number": "64845"
+      "model_number": "64845",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "紡ぐ力",
+          "B賞"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡ぐ力 C賞 エンデヴァー",
       "price": "7000",
       "update_date": "2026/10/30",
-      "model_number": "64845"
+      "model_number": "64845",
+      "_check": {
+        "status": "suspect",
+        "ref": "PLUS エンデヴァー",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "紡ぐ力",
+          "C賞"
+        ],
+        "missing": [
+          "plus"
+        ],
+        "suggestion": "",
+        "reason": "「紡ぐ力」「C賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "紡ぐ力 D賞 ホークス",
       "price": "14000",
       "update_date": "2026/10/30",
-      "model_number": "64845"
+      "model_number": "64845",
+      "_check": {
+        "status": "unknown",
+        "ref": "PLUS ホークス",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "紡ぐ力",
+          "D賞"
+        ],
+        "missing": [
+          "plus"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "紡ぐ力 ラストワン賞 アーマード・オールマイト",
       "price": "32000",
       "update_date": "2026/10/30",
-      "model_number": "64845"
+      "model_number": "64845",
+      "_check": {
+        "status": "suspect",
+        "ref": "アーマード オールマイト (GiGO 限定)",
+        "source": "登録済み/sheet1",
+        "score": 0.55,
+        "unmatched": [
+          "紡ぐ力",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "gigo",
+          "限定"
+        ],
+        "suggestion": "",
+        "reason": "「紡ぐ力」「ラストワン賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "二人のあこがれ A賞 オールマイト",
       "price": "2500",
       "update_date": "2026/10/30",
-      "model_number": "62811"
+      "model_number": "62811",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista オールマイト (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "二人のあこがれ",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "二人のあこがれ B賞 緑谷出久",
       "price": "1500",
       "update_date": "2026/10/30",
-      "model_number": "62811"
+      "model_number": "62811",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "二人のあこがれ",
+          "B賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "二人のあこがれ C賞 緑谷出久（幼少期）",
       "price": "5800",
       "update_date": "2026/10/30",
-      "model_number": "62811"
+      "model_number": "62811",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "二人のあこがれ",
+          "C賞",
+          "幼少期"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "二人のあこがれ E賞 爆豪勝己（幼少期）",
       "price": "6000",
       "update_date": "2026/10/30",
-      "model_number": "62811"
+      "model_number": "62811",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "二人のあこがれ",
+          "E賞",
+          "幼少期"
+        ],
+        "missing": [
+          "ハチワレ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "二人のあこがれ D賞 オールマイト",
       "price": "3800",
       "update_date": "2026/10/30",
-      "model_number": "62811"
+      "model_number": "62811",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista オールマイト (再販)",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "二人のあこがれ",
+          "D賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "bright future A賞 緑谷出久＆壊理",
       "price": "6000",
       "update_date": "2026/10/30",
-      "model_number": "62779"
+      "model_number": "62779",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "bright",
+          "future",
+          "A賞",
+          "壊理"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "bright future ラストワン賞 緑谷出久＆壊理",
       "price": "7500",
       "update_date": "2026/10/30",
-      "model_number": "62779"
+      "model_number": "62779",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "bright",
+          "future",
+          "緑谷出久",
+          "壊理"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "VS ラストワン賞 オールマイト ゴールドver.",
       "price": "9000",
       "update_date": "2026/10/30",
-      "model_number": "62713"
+      "model_number": "62713",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "VS",
+          "オールマイト",
+          "ゴールドver."
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "仲間 A賞 緑谷出久",
       "price": "6000",
       "update_date": "2026/10/30",
-      "model_number": "62607"
+      "model_number": "62607",
+      "_check": {
+        "status": "suspect",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "仲間",
+          "A賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "「仲間」「A賞」が参照名に見当たりません"
+      }
     },
     {
       "name": "仲間 C賞 緑谷出久",
       "price": "6000",
       "update_date": "2026/10/30",
-      "model_number": "62607"
+      "model_number": "62607",
+      "_check": {
+        "status": "suspect",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "仲間",
+          "C賞"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "「仲間」「C賞」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

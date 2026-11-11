@@ -12,91 +12,290 @@
       "name": "ちょこのせ フリーレン＆フェルン＆シュタルク 3種セット",
       "price": "2600",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ちょこのせ シュタルク",
+        "source": "登録済み/sheet1",
+        "score": 0.417,
+        "unmatched": [
+          "フリーレン",
+          "フェルン",
+          "3",
+          "種セット"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Yumemirize -眠り- フリーレン＆フェルン 2種セット",
       "price": "2500",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Yumemirize フリーレン 一眠り",
+        "source": "登録済み/sheet1",
+        "score": 0.654,
+        "unmatched": [
+          "フェルン",
+          "2",
+          "種セット"
+        ],
+        "missing": [
+          "一眠り"
+        ],
+        "suggestion": "",
+        "reason": "「フェルン」「2」「種セット」が参照名に見当たりません"
+      }
     },
     {
       "name": "ぬーどるストッパー フリーレン＆フェルン＆シュタルク 3種セット",
       "price": "2200",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぬーどるストッパー フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.464,
+        "unmatched": [
+          "フリーレン",
+          "シュタルク",
+          "3",
+          "種セット"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "AMP+ フリーレン",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ フリーレン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Desktop Cute フリーレン ルームウェアver.",
       "price": "1800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute フリーレン ルームウェア ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute フリーレン ルームウェア ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "EFFECTREME フリーレン",
       "price": "900",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "EFFECTREME デイダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "フリーレン"
+        ],
+        "missing": [
+          "デイダラ"
+        ],
+        "suggestion": "",
+        "reason": "「フリーレン」が参照名に見当たりません"
+      }
     },
     {
       "name": "EFFECTREME フェルン",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "EFFECTREME デイダラ",
+        "source": "登録済み/sheet1",
+        "score": 0.714,
+        "unmatched": [
+          "フェルン"
+        ],
+        "missing": [
+          "デイダラ"
+        ],
+        "suggestion": "",
+        "reason": "「フェルン」が参照名に見当たりません"
+      }
     },
     {
       "name": "ティッシュに寄り付け! 可動フィギュア 喰らいよー!怖いよー!",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "FIGURIZMα 花舞",
       "price": "800",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.818,
+        "unmatched": [
+          "花舞"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「花舞」が参照名に見当たりません"
+      }
     },
     {
       "name": "FIGURIZMα 魔法の極み",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "魔法の極み"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "「魔法の極み」が参照名に見当たりません"
+      }
     },
     {
       "name": "おおきなSOFVIMATES 紙ロールになっちゃった",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "おおきな SOFVIMATES ポチタは泣きながら〜",
+        "source": "登録済み/sheet1",
+        "score": 0.56,
+        "unmatched": [
+          "紙ロールになっちゃった"
+        ],
+        "missing": [
+          "ポチタは泣きながら"
+        ],
+        "suggestion": "",
+        "reason": "「紙ロールになっちゃった」が参照名に見当たりません"
+      }
     },
     {
       "name": "おおきなSOFVIMATES ぬくぬく",
       "price": "1300",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "おおきな SOFVIMATES ポチタは泣きながら〜",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "ぬくぬく"
+        ],
+        "missing": [
+          "ポチタは泣きながら"
+        ],
+        "suggestion": "",
+        "reason": "「ぬくぬく」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC フェルン",
       "price": "1500",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC フェルン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC フェルン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "MAXIMATIC シュタルク",
       "price": "2100",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC シュタルク",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「MAXIMATIC シュタルク」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "旅立ち300年 働くことになっちゃった",
       "price": "1000",
       "update_date": "2026/10/27",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

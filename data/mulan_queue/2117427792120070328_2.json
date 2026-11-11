@@ -12,847 +12,3294 @@
       "name": "STEEL BALL RUN C賞 スローダンサー",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": "68106"
+      "model_number": "68106",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "スローダンサー"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STEEL BALL RUN ラストワン賞 ディエゴ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "68106"
+      "model_number": "68106",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "STEEL",
+          "BALL",
+          "RUN",
+          "ディエゴ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "The Gathering of STARS ラストワン賞 ジョニィ&ジャイロ",
       "price": "9800",
       "update_date": "2026/11/03",
-      "model_number": "67974"
+      "model_number": "67974",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "The",
+          "Gathering",
+          "of",
+          "STARS",
+          "ジョニィ",
+          "ジャイロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE★JOJO WORLD E賞 ジョルノ",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": "67794"
+      "model_number": "67794",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.211,
+        "unmatched": [
+          "THE★JOJO",
+          "WORLD",
+          "E賞"
+        ],
+        "missing": [
+          "grandista",
+          "ジョバァーナ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダーズ STAND RUSH! A賞 空条承太郎",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.172,
+        "unmatched": [
+          "スターダストクルセイダーズ",
+          "STAND",
+          "RUSH",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダーズ STAND RUSH! B賞 スタープラチナ",
       "price": "9800",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.065,
+        "unmatched": [
+          "スターダストクルセイダーズ",
+          "STAND",
+          "RUSH",
+          "スタープラチナ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダーズ STAND RUSH! C賞 DIO",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "スターダストクルセイダーズ",
+          "STAND",
+          "RUSH",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダーズ STAND RUSH! D賞 ザ・ワールド",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "スターダストクルセイダーズ",
+          "STAND",
+          "RUSH",
+          "ワールド"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダーズ STAND RUSH! E賞 ホル・ホース",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.069,
+        "unmatched": [
+          "スターダストクルセイダーズ",
+          "STAND",
+          "RUSH",
+          "ホル",
+          "ホース"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダーズ STAND RUSH! F賞 ポルナレフ&シルバーチャリオッツ",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.051,
+        "unmatched": [
+          "スターダストクルセイダーズ",
+          "STAND",
+          "RUSH",
+          "ポルナレフ",
+          "シルバーチャリオッツ"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! A賞 空条承太郎",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! B賞 花京院典明",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "花京院典明"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! C賞 ジョセフ・ジョースター",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "C賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! D賞 モハメド・アヴドゥル",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "モハメド",
+          "アヴドゥル"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! E賞 ジン・ピエール・ポルナレフ",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "ポージングフィギュア 宮侑",
+        "source": "登録済み/sheet1",
+        "score": 0.067,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "E賞",
+          "ピエール",
+          "ポルナレフ"
+        ],
+        "missing": [
+          "ポージングフィギュア",
+          "宮侑"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! F賞 イギー",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "イギー"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! ラストワン賞 DIO",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS A賞 空条承太郎",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS B賞 花京院典明",
       "price": "5800",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "花京院典明"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS C賞 ジョセフ・ジョースター",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "C賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS D賞 モハメド・アヴドゥル",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "モハメド",
+          "アヴドゥル"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS E賞 ジャン・ピエール・ポルナレフ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジャンボミミック クッション",
+        "source": "登録済み/sheet1",
+        "score": 0.097,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "E賞",
+          "ピエール",
+          "ポルナレフ"
+        ],
+        "missing": [
+          "ジャンボミミック",
+          "クッション"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS F賞 イギー",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "イギー"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS ラストワン賞 DIO",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM A賞 リゾット・ネエロ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.069,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "リゾット",
+          "ネエロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM B賞 プロシュート",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "プロシュート"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM C賞 ペッシ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.08,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ペッシ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM E賞 メローネ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "メローネ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM F賞 ギアッチョ",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ギアッチョ"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM ラストワン賞 暗殺者チーム",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "暗殺者チーム"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM ラストワン賞 ヴィネガー・ドッピオ",
       "price": "2400",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.171,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ヴィネガー",
+          "ドッピオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND A賞 ジョルノ・ジョバァーナ",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": "64634"
+      "model_number": "64634",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND B賞 ブローノ・ブチャラティ",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": "64634"
+      "model_number": "64634",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "ブローノ",
+          "ブチャラティ"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND C賞 グイード・ミスタ",
       "price": "7000",
       "update_date": "2026/11/03",
-      "model_number": "64634"
+      "model_number": "64634",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.368,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "C賞"
+        ],
+        "missing": [
+          "mafiarte6",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! D賞 キラークイーン",
       "price": "11000",
       "update_date": "2026/11/03",
-      "model_number": "68055"
+      "model_number": "68055",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.069,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "キラークイーン"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! E賞 レオーネ・アバッキオ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.065,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "レオーネ",
+          "アバッキオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! F賞 パンナコッタ・フーゴ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte5 パンナコッタ・フーゴ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.29,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "F賞"
+        ],
+        "missing": [
+          "mafiarte5",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! G賞 トリッシュ・ウナ",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte7 トリッシュ・ウナ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.241,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "G賞"
+        ],
+        "missing": [
+          "mafiarte7",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! ラストワン賞 ココ・ジャンボ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "ココ",
+          "ジャンボ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE A賞 東方仗助",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "DIAMOND",
+          "UNBREAKABLE",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE B賞 東方仗助",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "DIAMOND",
+          "UNBREAKABLE",
+          "B賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE C賞 広瀬康一",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "広瀬康一"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE D賞 空条承太郎",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.185,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "D賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE E賞 岸辺露伴",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 岸辺露伴",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "DIAMOND",
+          "UNBREAKABLE",
+          "E賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE F賞 ラストワン賞 吉良吉影",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "F賞",
+          "吉良吉影"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY A賞 ディオ・ブランドー",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ディオ・ブランドー",
+        "source": "登録済み/sheet1",
+        "score": 0.421,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY B賞 DIO",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "B賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY C賞 DIO",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY D賞 吉良吉影",
       "price": "7500",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 吉良吉影",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "D賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY E賞 ディアボロ",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE EVIL VILLAINS DX トガヒミコ III",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "PARTY",
+          "E賞",
+          "ディアボロ"
+        ],
+        "missing": [
+          "the",
+          "villains",
+          "dx",
+          "トガヒミコ",
+          "iii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY F賞 エンリコ・プッチ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "エンリコ",
+          "プッチ"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY ラストワン賞 吉良吉影 (川尻浩作ver.)",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "吉良吉影",
+          "川尻浩作ver."
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY A賞 ジョナサン・ジョースター",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョナサン・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.282,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY B賞 ディオ・ブランドー",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ディオ・ブランドー",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "B賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY C賞 ジョセフ・ジョースター",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.263,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "C賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY D賞 シーザー・アントニオ・ツェペリ",
       "price": "13000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.146,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "TENDENCY",
+          "D賞",
+          "シーザー",
+          "アントニオ",
+          "ツェペリ"
+        ],
+        "missing": [
+          "combination",
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY E賞 リサリサ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "TENDENCY",
+          "E賞",
+          "リサリサ"
+        ],
+        "missing": [
+          "combination",
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY F賞 石仮面",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.065,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "石仮面"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY ラストワン賞 ジョセフ・ジョースター",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ジョジョの奇妙な冒険 やれやれだぜ ラストワン賞 空条承太郎 ～やれやれだぜ～",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "2532152"
+      "model_number": "2532152",
+      "_check": {
+        "status": "suspect",
+        "ref": "ジョジョの奇妙な冒険",
+        "source": "ポスト本文",
+        "score": 0.27,
+        "unmatched": [
+          "一番くじ",
+          "やれやれだぜ",
+          "ラストワン賞",
+          "空条承太郎",
+          "やれやれだぜ"
+        ],
+        "missing": [],
+        "suggestion": "一番くじ ジョジョの奇妙な冒険 やれやれだぜ ラストワン賞 空条承太郎 ~~",
+        "reason": "「一番くじ」「やれやれだぜ」「ラストワン賞」「空条承太郎」「やれやれだぜ」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「やれやれだぜ」を削除）"
+      }
     },
     {
       "name": "THE BRUSH THE ORIGINAL賞",
       "price": "9000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "BRUSH",
+          "ORIGINAL賞"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE BRUSH THE TONES賞",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "アミューズメント一番くじ うちはイタチ THE BRUSH TONES 賞",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "アミューズメント一番くじ",
+          "うちはイタチ"
+        ],
+        "suggestion": "",
+        "reason": "参照名「アミューズメント一番くじ うちはイタチ THE BRUSH TONES 賞」と比べて商品名に足りない部分が多いので、別の商品の可能性があります"
+      }
     },
     {
       "name": "THE BRUSH2賞",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "BRUSH2"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE BRUSH3賞",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "BRUSH3"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP A賞 THE BRUSH",
       "price": "24000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "SMSP",
+          "A賞",
+          "BRUSH"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP B賞 THE ORIGINAL",
       "price": "13000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "SMSP",
+          "B賞",
+          "ORIGINAL"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP C賞 THE TONES",
       "price": "7000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "SMSP",
+          "C賞",
+          "TONES"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP D賞 TWO DIMENSIONS",
       "price": "20000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.105,
+        "unmatched": [
+          "SMSP",
+          "TWO",
+          "DIMENSIONS"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! A賞 空条承太郎",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.172,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "A賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! B賞 花京院典明",
       "price": "3800",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.069,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "花京院典明"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! C賞 DIO",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! D賞 ザ・ワールド",
       "price": "9500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "ワールド"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! E賞 ホル・ホース",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.069,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "ホル",
+          "ホース"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! F賞 ポルナレフ＆シルバーチャリオッツ",
       "price": "2800",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.051,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "ポルナレフ",
+          "シルバーチャリオッツ"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "スターダストクルセイダース STAND RUSH! ラストワン賞 審判犬オラオラオオイver.",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "67790"
+      "model_number": "67790",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "スターダストクルセイダース",
+          "STAND",
+          "RUSH",
+          "審判犬オラオラオオイver."
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! B賞 花京院典明",
       "price": "5800",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.083,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "花京院典明"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! C賞 ジョセフ・ジョースター",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.345,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "C賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! E賞 ジャン・ピエール・ポルナレフ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジャンボミミック クッション",
+        "source": "登録済み/sheet1",
+        "score": 0.097,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "E賞",
+          "ピエール",
+          "ポルナレフ"
+        ],
+        "missing": [
+          "ジャンボミミック",
+          "クッション"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! ラストワン賞 DIO",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS F賞 イギー",
       "price": "1800",
       "update_date": "2026/11/03",
-      "model_number": "64375"
+      "model_number": "64375",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.091,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "イギー"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM A賞 リゾット・ネロ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.071,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "リゾット",
+          "ネロ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM D賞 メローネ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "メローネ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM E賞 イルーゾォ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "イルーゾォ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM F賞 ホルマジオ",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ホルマジオ"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM G賞 ギアッチョ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 死滅回游 壱 G賞 伏黒恵",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ギアッチョ"
+        ],
+        "missing": [
+          "一番くじ",
+          "死滅回游",
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM ラストワン賞 いなくるみver. ドッピオ",
       "price": "2400",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "いなくるみver.",
+          "ドッピオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND A賞 ジョルノ・ジョバーナ",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": "64634"
+      "model_number": "64634",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.095,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "ジョルノ",
+          "ジョバーナ"
+        ],
+        "missing": [
+          "一番くじ",
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE C賞 レオーネ・アバッキオ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.065,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "レオーネ",
+          "アバッキオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE D賞 東方仗助",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 東方仗助",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "DIAMOND",
+          "UNBREAKABLE",
+          "D賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE E賞 虹村億泰",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "DIAMOND",
+          "UNBREAKABLE",
+          "E賞",
+          "虹村億泰"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE F賞 広瀬康一",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "広瀬康一"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE G賞 山岸由花子",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.074,
+        "unmatched": [
+          "DIAMOND",
+          "UNBREAKABLE",
+          "G賞",
+          "山岸由花子"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE ラストワン賞 ココ・ジャンボ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "ココ",
+          "ジャンボ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY B賞 カーズ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria カーズ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "B賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY C賞 DIO",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "DIO"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "EVIL PARTY F賞 エンリコ・P",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": "62567"
+      "model_number": "62567",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "EVIL",
+          "PARTY",
+          "エンリコ"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY B賞 DIO",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.194,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "TENDENCY",
+          "B賞",
+          "DIO"
+        ],
+        "missing": [
+          "combination",
+          "花御"
+        ],
+        "suggestion": "PHANTOM BLOOD & BATTLE TENDENCY B賞 tio",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY E賞 リサリサ",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "TENDENCY",
+          "E賞",
+          "リサリサ"
+        ],
+        "missing": [
+          "combination",
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY F賞 石仮面",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": "64301"
+      "model_number": "64301",
+      "_check": {
+        "status": "unknown",
+        "ref": "F賞 空条徐倫",
+        "source": "登録済み/sheet1",
+        "score": 0.065,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "石仮面"
+        ],
+        "missing": [
+          "空条徐倫"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 〜やれやれだぜ〜 THE BRUSH賞",
       "price": "9000",
       "update_date": "2026/11/03",
-      "model_number": "2532152"
+      "model_number": "2532152",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "BRUSH賞"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 〜やれやれだぜ〜 THE ORIGINAL賞",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": "2532152"
+      "model_number": "2532152",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.111,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "ORIGINAL賞"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 〜やれやれだぜ〜 THE TONES賞",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": "2532152"
+      "model_number": "2532152",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "TONES賞"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 〜やれやれだぜ〜 THE BRUSH2賞",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "2532152"
+      "model_number": "2532152",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.125,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "BRUSH2"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 A賞 THE BRUSH",
       "price": "24000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "A賞",
+          "BRUSH"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 B賞 THE ORIGINAL",
       "price": "20000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.136,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "B賞",
+          "ORIGINAL"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 C賞 THE TONES",
       "price": "13000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "C賞",
+          "TONES"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 D賞 TWO DIMENSIONS",
       "price": "90000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "SMSP",
+          "D賞",
+          "TWO",
+          "DIMENSIONS"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM A リゾット・ネエロ",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM B プロシュート",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM C ペッシ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM D メローネ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM E イルーゾォ",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM F ホルマジオ",
       "price": "1600",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM G ギアッチョ",
       "price": "3000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM H タクシーのぬいぐるみ",
       "price": "2400",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM ラストワン賞 ヴィネガー・ドッピオ",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.171,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ヴィネガー",
+          "ドッピオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND A ジョルノ・ジョバァーナ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "GOLDEN",
+          "WIND"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "「GOLDEN」「WIND」が参照名に見当たりません"
+      }
     },
     {
       "name": "GOLDEN WIND B ブローノ・ブチャラティ",
       "price": "8000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND C グイード・ミスタ",
       "price": "7000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "MAFIArte6 グイード・ミスタ フルカラー",
+        "source": "登録済み/sheet1",
+        "score": 0.412,
+        "unmatched": [
+          "GOLDEN",
+          "WIND"
+        ],
+        "missing": [
+          "mafiarte6",
+          "フルカラー"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY E リサリサ",
       "price": "4200",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "TENDENCY",
+          "リサリサ"
+        ],
+        "missing": [
+          "combination",
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY F 石仮面",
       "price": "4000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Combination Battle 花御",
+        "source": "登録済み/sheet1",
+        "score": 0.207,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "TENDENCY",
+          "石仮面"
+        ],
+        "missing": [
+          "combination",
+          "花御"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "PHANTOM BLOOD & BATTLE TENDENCY ラストワン賞 ジョセフ・ジョースター",
       "price": "5500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria ジョセフ・ジョースター",
+        "source": "登録済み/sheet1",
+        "score": 0.238,
+        "unmatched": [
+          "PHANTOM",
+          "BLOOD",
+          "BATTLE",
+          "TENDENCY",
+          "ラストワン賞"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 ～やれやれだぜ～ THE BRUSH 賞",
       "price": "9000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "BRUSH"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 ～やれやれだぜ～ THE ORIGINAL 賞",
       "price": "8500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.115,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "ORIGINAL"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 ～やれやれだぜ～ THE TONES 賞",
       "price": "6000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.13,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "やれやれだぜ",
+          "TONES"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "THE BRUSH2 賞",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "BRUSH2"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 A THE BRUSH",
       "price": "24000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "BRUSH"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 B THE ORIGINAL",
       "price": "20000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "ORIGINAL"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 C THE TONES",
       "price": "14000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.176,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "TONES"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 D TWO DIMENSIONS",
       "price": "30000",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "SMSP",
+          "TWO",
+          "DIMENSIONS"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "STARDUST CRUSADERS! E賞 ジン・ピエール・ポルナレフ",
       "price": "5000",
       "update_date": "2026/11/03",
-      "model_number": "67786"
+      "model_number": "67786",
+      "_check": {
+        "status": "unknown",
+        "ref": "ポージングフィギュア 宮侑",
+        "source": "登録済み/sheet1",
+        "score": 0.067,
+        "unmatched": [
+          "STARDUST",
+          "CRUSADERS",
+          "E賞",
+          "ピエール",
+          "ポルナレフ"
+        ],
+        "missing": [
+          "ポージングフィギュア",
+          "宮侑"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM H賞 タクシーのぬいぐるみ",
       "price": "2400",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "LH賞胸像フィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.062,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "タクシーのぬいぐるみ"
+        ],
+        "missing": [
+          "lh賞胸像フィギュア"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND HITMAN TEAM ラストワン賞 ヴィネガー・ドッピオ",
       "price": "6500",
       "update_date": "2026/11/03",
-      "model_number": "64811"
+      "model_number": "64811",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.171,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "HITMAN",
+          "TEAM",
+          "ヴィネガー",
+          "ドッピオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GOLDEN WIND A賞 ジョルノ・ジョバァーナ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": "64634"
+      "model_number": "64634",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ジョルノ・ジョバァーナ",
+        "source": "登録済み/sheet1",
+        "score": 0.455,
+        "unmatched": [
+          "GOLDEN",
+          "WIND",
+          "A賞"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! D賞 ナランチャ・ギルガ",
       "price": "3500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Happyくじ ハイキュー!! D賞 岩泉一",
+        "source": "登録済み/sheet1",
+        "score": 0.067,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "ナランチャ",
+          "ギルガ"
+        ],
+        "missing": [
+          "happyくじ",
+          "ハイキュー",
+          "岩泉一"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ダイヤモンドは砕けない STAND RUSH! E賞 レオーネ・アバッキオ",
       "price": "4500",
       "update_date": "2026/11/03",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 渋谷事変 弐 E賞 伏黒甚爾 降霊 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.065,
+        "unmatched": [
+          "ダイヤモンドは砕けない",
+          "STAND",
+          "RUSH",
+          "レオーネ",
+          "アバッキオ"
+        ],
+        "missing": [
+          "一番くじ",
+          "渋谷事変",
+          "伏黒甚爾",
+          "降霊",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE B賞 虹村億泰",
       "price": "2500",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "虹村億泰"
+        ],
+        "missing": [
+          "一番くじ",
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "DIAMOND IS UNBREAKABLE C賞 広瀬康一",
       "price": "2000",
       "update_date": "2026/11/03",
-      "model_number": "64579"
+      "model_number": "64579",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.077,
+        "unmatched": [
+          "DIAMOND",
+          "IS",
+          "UNBREAKABLE",
+          "広瀬康一"
+        ],
+        "missing": [
+          "一番くじ",
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "一番くじ ジョジョの奇妙な冒険 やれやれだぜ THE BRUSH2賞",
       "price": "10000",
       "update_date": "2026/11/03",
-      "model_number": "2532152"
+      "model_number": "2532152",
+      "_check": {
+        "status": "unknown",
+        "ref": "ジョジョの奇妙な冒険",
+        "source": "ポスト本文",
+        "score": 0.345,
+        "unmatched": [
+          "一番くじ",
+          "やれやれだぜ",
+          "THE",
+          "BRUSH2"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 C賞 THE TONES",
       "price": "14000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "THE 出航 ゾロ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "SMSP",
+          "空条承太郎",
+          "C賞",
+          "TONES"
+        ],
+        "missing": [
+          "出航",
+          "ゾロ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SMSP 空条承太郎 D賞 TWO DIMENSIONS",
       "price": "30000",
       "update_date": "2026/11/03",
-      "model_number": "37566"
+      "model_number": "37566",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria 空条承太郎",
+        "source": "登録済み/sheet1",
+        "score": 0.208,
+        "unmatched": [
+          "SMSP",
+          "D賞",
+          "TWO",
+          "DIMENSIONS"
+        ],
+        "missing": [
+          "mometria"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

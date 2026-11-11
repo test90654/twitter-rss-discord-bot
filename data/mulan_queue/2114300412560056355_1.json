@@ -11,409 +11,1364 @@
       "name": "10TH ANNIVERSARY FIGURE 超ベジット",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2752921"
+      "model_number": "2752921",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 10th anniversary! A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 0.577,
+        "unmatched": [
+          "FIGURE",
+          "超ベジット"
+        ],
+        "missing": [
+          "一番くじ",
+          "a賞",
+          "日向翔陽"
+        ],
+        "suggestion": "",
+        "reason": "「FIGURE」「超ベジット」が参照名に見当たりません"
+      }
     },
     {
       "name": "10TH ANNIVERSARY FIGURE 超ゴジータ",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2752920"
+      "model_number": "2752920",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 10th anniversary! A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 0.577,
+        "unmatched": [
+          "FIGURE",
+          "超ゴジータ"
+        ],
+        "missing": [
+          "一番くじ",
+          "a賞",
+          "日向翔陽"
+        ],
+        "suggestion": "",
+        "reason": "「FIGURE」「超ゴジータ」が参照名に見当たりません"
+      }
     },
     {
       "name": "究極のフュージョン ビッグバンかめはめ波",
       "price": "2400",
       "update_date": "2026/10/25",
-      "model_number": "39120"
+      "model_number": "39120",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "ドラゴンレーダー型スピーカー",
       "price": "1300",
       "update_date": "2026/10/25",
-      "model_number": "2816017"
+      "model_number": "2816017",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista 孫悟空 (2017年)",
       "price": "12000",
       "update_date": "2026/10/25",
-      "model_number": "37542"
+      "model_number": "37542",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "孫悟空",
+          "2017"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟空」「2017」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 孫悟空 #2",
       "price": "11000",
       "update_date": "2026/10/25",
-      "model_number": "38220"
+      "model_number": "38220",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "孫悟空",
+          "2"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟空」「2」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 孫悟空 #3 (フルカラー)",
       "price": "6200",
       "update_date": "2026/10/25",
-      "model_number": "38513"
+      "model_number": "38513",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "孫悟空",
+          "3",
+          "フルカラー"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟空」「3」「フルカラー」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 孫悟飯",
       "price": "6200",
       "update_date": "2026/10/25",
-      "model_number": "38746"
+      "model_number": "38746",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "孫悟飯"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟飯」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 孫悟飯 #2",
       "price": "4500",
       "update_date": "2026/10/25",
-      "model_number": "2549273"
+      "model_number": "2549273",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "孫悟飯",
+          "2"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟飯」「2」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ベジータ (2017年)",
       "price": "15000",
       "update_date": "2026/10/25",
-      "model_number": "37941"
+      "model_number": "37941",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.765,
+        "unmatched": [
+          "2017"
+        ],
+        "missing": [
+          "魔人ベジータ"
+        ],
+        "suggestion": "",
+        "reason": "「2017」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ゴジータ (2019年)",
       "price": "6000",
       "update_date": "2026/10/25",
-      "model_number": "39258"
+      "model_number": "39258",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ゴジータ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.765,
+        "unmatched": [
+          "2019"
+        ],
+        "missing": [
+          "2025"
+        ],
+        "suggestion": "",
+        "reason": "「2019」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista バーダック",
       "price": "6000",
       "update_date": "2026/10/25",
-      "model_number": "38259"
+      "model_number": "38259",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "バーダック"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「バーダック」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 超サイヤ人ロゼ ゴクウブラック",
       "price": "5200",
       "update_date": "2026/10/25",
-      "model_number": "38075"
+      "model_number": "38075",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.391,
+        "unmatched": [
+          "超サイヤ人ロゼ",
+          "ゴクウブラック"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Grandista 孫悟空 (2025年)",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2739494"
+      "model_number": "2739494",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista カカシ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "孫悟空"
+        ],
+        "missing": [
+          "カカシ"
+        ],
+        "suggestion": "",
+        "reason": "「孫悟空」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 孫悟空 II",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2756010"
+      "model_number": "2756010",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "孫悟空",
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟空」「II」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 孫悟空 III",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2789973"
+      "model_number": "2789973",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "孫悟空",
+          "III"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「孫悟空」「III」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ゴジータ (2025年)",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2762938"
+      "model_number": "2762938",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista ゴジータ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista ゴジータ (2025年)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ゴジータ II (2026年)",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2762956"
+      "model_number": "2762956",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista ゾロ II（2026年版）",
+        "source": "登録済み/sheet1",
+        "score": 0.789,
+        "unmatched": [
+          "ゴジータ"
+        ],
+        "missing": [
+          "ゾロ",
+          "年版"
+        ],
+        "suggestion": "",
+        "reason": "「ゴジータ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ベジット",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2789969"
+      "model_number": "2789969",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ベジット"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「ベジット」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista ベジータ (2025年)",
       "price": "600",
       "update_date": "2026/10/25",
-      "model_number": "2739496"
+      "model_number": "2739496",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista カカシ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.765,
+        "unmatched": [
+          "ベジータ"
+        ],
+        "missing": [
+          "カカシ"
+        ],
+        "suggestion": "",
+        "reason": "「ベジータ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Grandista 魔人ベジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2756011"
+      "model_number": "2756011",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Grandista 魔人ベジータ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "Grandista ブロリー",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2789971"
+      "model_number": "2789971",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ブロリー"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「ブロリー」が参照名に見当たりません"
+      }
     },
     {
       "name": "History Box vol.8 孫悟飯ビースト",
       "price": "2500",
       "update_date": "2026/10/25",
-      "model_number": "2662598"
+      "model_number": "2662598",
+      "_check": {
+        "status": "unknown",
+        "ref": "PLUS vol.8 天喰環",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "History",
+          "Box",
+          "孫悟飯ビースト"
+        ],
+        "missing": [
+          "plus",
+          "天喰環"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box vol.9 孫悟空",
       "price": "2200",
       "update_date": "2026/10/25",
-      "model_number": "2670318"
+      "model_number": "2670318",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXF THE GRANDLINE MEN ワノ国 vol.9 白ひげ",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "History",
+          "Box",
+          "孫悟空"
+        ],
+        "missing": [
+          "dxf",
+          "the",
+          "grandline",
+          "men",
+          "ワノ国",
+          "白ひげ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box vol.10 超サイヤ人孫悟飯",
       "price": "3400",
       "update_date": "2026/10/25",
-      "model_number": "2693315"
+      "model_number": "2693315",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "History",
+          "Box",
+          "vol.10"
+        ],
+        "missing": [
+          "blood",
+          "of",
+          "saiyans",
+          "ii"
+        ],
+        "suggestion": "History BLO vol.10 超サイヤ人孫悟飯",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box vol.11 アルティメット孫悟飯",
       "price": "2400",
       "update_date": "2026/10/25",
-      "model_number": "2693434"
+      "model_number": "2693434",
+      "_check": {
+        "status": "unknown",
+        "ref": "DXF THE GRANDLINE MEN ワノ国 vol.11 ルフィ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "History",
+          "Box",
+          "アルティメット孫悟飯"
+        ],
+        "missing": [
+          "dxf",
+          "the",
+          "grandline",
+          "men",
+          "ワノ国",
+          "ルフィ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box vol.12 魔人ベジータ",
       "price": "2400",
       "update_date": "2026/10/25",
-      "model_number": "2704165"
+      "model_number": "2704165",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "History",
+          "Box",
+          "vol.12"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box 孫悟空 (2026年10月)",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2775415"
+      "model_number": "2775415",
+      "_check": {
+        "status": "unknown",
+        "ref": "有効期限は2026年11月8日迄💨",
+        "source": "ポスト本文",
+        "score": 0.211,
+        "unmatched": [
+          "History",
+          "Box",
+          "孫悟空",
+          "10"
+        ],
+        "missing": [
+          "有効期限は",
+          "11",
+          "8",
+          "日迄💨"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box 超サイヤ人3 孫悟空",
       "price": "1300",
       "update_date": "2026/10/25",
-      "model_number": "2805907"
+      "model_number": "2805907",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 五条悟 3",
+        "source": "登録済み/sheet1",
+        "score": 0.053,
+        "unmatched": [
+          "History",
+          "Box",
+          "超サイヤ人",
+          "孫悟空"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box 魔人ベジータ",
       "price": "1300",
       "update_date": "2026/10/25",
-      "model_number": "2752067"
+      "model_number": "2752067",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista 魔人ベジータ",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "History",
+          "Box"
+        ],
+        "missing": [
+          "grandista"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box ベジット",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2762953"
+      "model_number": "2762953",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box 孫悟天 & トランクス",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2785670"
+      "model_number": "2785670",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box クリリン",
       "price": "700",
       "update_date": "2026/10/25",
-      "model_number": "2762952"
+      "model_number": "2762952",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box 亀仙人",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2762937"
+      "model_number": "2762937",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "History Box 神龍",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2785672"
+      "model_number": "2785672",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "魔人ブウ",
       "price": "600",
       "update_date": "2026/10/25",
-      "model_number": "2785669"
+      "model_number": "2785669",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 孫悟空 IV",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2713266"
+      "model_number": "2713266",
+      "_check": {
+        "status": "unknown",
+        "ref": "DX トガヒミコ IV",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "GXmateria",
+          "孫悟空"
+        ],
+        "missing": [
+          "dx",
+          "トガヒミコ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 孫悟飯 III",
       "price": "700",
       "update_date": "2026/10/25",
-      "model_number": "2752072"
+      "model_number": "2752072",
+      "_check": {
+        "status": "unknown",
+        "ref": "PLUS 爆豪勝己 III",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "GXmateria",
+          "孫悟飯"
+        ],
+        "missing": [
+          "plus",
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 孫悟飯",
       "price": "700",
       "update_date": "2026/10/25",
-      "model_number": "2752068"
+      "model_number": "2752068",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "GXmateria"
+        ],
+        "missing": [
+          "blood",
+          "of",
+          "saiyans",
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria ゴジータ",
       "price": "700",
       "update_date": "2026/10/25",
-      "model_number": "2787532"
+      "model_number": "2787532",
+      "_check": {
+        "status": "unknown",
+        "ref": "Grandista ゴジータ (2025年)",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "GXmateria"
+        ],
+        "missing": [
+          "grandista",
+          "2025"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria トランクス",
       "price": "1400",
       "update_date": "2026/10/25",
-      "model_number": "2632863"
+      "model_number": "2632863",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria ピッコロ",
       "price": "1200",
       "update_date": "2026/10/25",
-      "model_number": "2662599"
+      "model_number": "2662599",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 天津飯",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2713263"
+      "model_number": "2713263",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria バーダック",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2653592"
+      "model_number": "2653592",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 亀仙人",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2641972"
+      "model_number": "2641972",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria フリーザ II",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2616882"
+      "model_number": "2616882",
+      "_check": {
+        "status": "unknown",
+        "ref": "PLUS 爆豪勝己 II",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "GXmateria",
+          "フリーザ"
+        ],
+        "missing": [
+          "plus",
+          "爆豪勝己"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 魔人ブウ",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2727648"
+      "model_number": "2727648",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 魔人ブウ (再販)",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2794822"
+      "model_number": "2794822",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS プロリー",
       "price": "1600",
       "update_date": "2026/10/25",
-      "model_number": "2704167"
+      "model_number": "2704167",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "プロリー"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "「プロリー」が参照名に見当たりません"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人3 孫悟空",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2762951"
+      "model_number": "2762951",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.826,
+        "unmatched": [
+          "3",
+          "孫悟空"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "BLOOD OF SAIYANS 超サイヤ人3 人孫悟",
+        "reason": "「3」「孫悟空」が参照名に見当たりません（候補: 孫悟空→人孫悟）"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人ブルー孫悟空 (2026年)",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2785232"
+      "model_number": "2785232",
+      "_check": {
+        "status": "unknown",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.483,
+        "unmatched": [
+          "超サイヤ人ブルー孫悟空",
+          "2026"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人孫悟空 II",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2794208"
+      "model_number": "2794208",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "超サイヤ人孫悟空"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯"
+        ],
+        "suggestion": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "reason": "「超サイヤ人孫悟空」が参照名に見当たりません（候補: 超サイヤ人孫悟空→超サイヤ人孫悟飯）"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人孫悟空 (2026年)",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2785233"
+      "model_number": "2785233",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "超サイヤ人孫悟空",
+          "2026"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 (2026年)",
+        "reason": "「超サイヤ人孫悟空」「2026」が参照名に見当たりません（候補: 超サイヤ人孫悟空→超サイヤ人孫悟飯）"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
       "price": "1100",
       "update_date": "2026/10/25",
-      "model_number": "2794207"
+      "model_number": "2794207",
+      "_check": {
+        "status": "verified",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「BLOOD OF SAIYANS 超サイヤ人孫悟飯 II」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人孫悟天",
       "price": "600",
       "update_date": "2026/10/25",
-      "model_number": "2785234"
+      "model_number": "2785234",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.636,
+        "unmatched": [
+          "超サイヤ人孫悟天"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "BLOOD OF SAIYANS 超サイヤ人孫悟飯",
+        "reason": "「超サイヤ人孫悟天」が参照名に見当たりません（候補: 超サイヤ人孫悟天→超サイヤ人孫悟飯）"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人4 ゴジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2729197"
+      "model_number": "2729197",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.792,
+        "unmatched": [
+          "4",
+          "ゴジータ"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "「4」「ゴジータ」が参照名に見当たりません"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人ブルー ベジータ",
       "price": "1000",
       "update_date": "2026/10/25",
-      "model_number": "2762939"
+      "model_number": "2762939",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.538,
+        "unmatched": [
+          "超サイヤ人ブルー",
+          "ベジータ"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 ベジータ",
+        "reason": "「超サイヤ人ブルー」「ベジータ」が参照名に見当たりません（候補: 超サイヤ人ブルー→超サイヤ人孫悟飯）"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人ベジータ",
       "price": "800",
       "update_date": "2026/10/25",
-      "model_number": "2794209"
+      "model_number": "2794209",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.609,
+        "unmatched": [
+          "超サイヤ人ベジータ"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯",
+          "ii"
+        ],
+        "suggestion": "",
+        "reason": "「超サイヤ人ベジータ」が参照名に見当たりません"
+      }
     },
     {
       "name": "BLOOD OF SAIYANS 超サイヤ人トランクス II",
       "price": "600",
       "update_date": "2026/10/25",
-      "model_number": "2794210"
+      "model_number": "2794210",
+      "_check": {
+        "status": "suspect",
+        "ref": "BLOOD OF SAIYANS 超サイヤ人孫悟飯 II",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "超サイヤ人トランクス"
+        ],
+        "missing": [
+          "超サイヤ人孫悟飯"
+        ],
+        "suggestion": "",
+        "reason": "「超サイヤ人トランクス」が参照名に見当たりません"
+      }
     },
     {
       "name": "SP X 孫悟空",
       "price": "2200",
       "update_date": "2026/10/25",
-      "model_number": "2553348"
+      "model_number": "2553348",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "孫悟空"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XI 超サイヤ人2 孫悟飯",
       "price": "1500",
       "update_date": "2026/10/25",
-      "model_number": "2600221"
+      "model_number": "2600221",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "XI",
+          "超サイヤ人",
+          "2",
+          "孫悟飯"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XIV 孫悟飯ビースト",
       "price": "1300",
       "update_date": "2026/10/25",
-      "model_number": "2653504"
+      "model_number": "2653504",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "XIV",
+          "孫悟飯ビースト"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XVI 超サイヤ人ゴテンクス",
       "price": "1300",
       "update_date": "2026/10/25",
-      "model_number": "2675531"
+      "model_number": "2675531",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "XVI",
+          "超サイヤ人ゴテンクス"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XVII 超サイヤ人ブロリー",
       "price": "1800",
       "update_date": "2026/10/25",
-      "model_number": "2670319"
+      "model_number": "2670319",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "XVII",
+          "超サイヤ人ブロリー"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XVIII SSSGSS ゴジータ",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2693318"
+      "model_number": "2693318",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.118,
+        "unmatched": [
+          "XVIII",
+          "SSSGSS",
+          "ゴジータ"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XIX SSSGSS ベジータ",
       "price": "900",
       "update_date": "2026/10/25",
-      "model_number": "2693433"
+      "model_number": "2693433",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.133,
+        "unmatched": [
+          "XIX",
+          "SSSGSS",
+          "ベジータ"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "SP XX 孫悟空 (身勝手の極意)",
       "price": "1700",
       "update_date": "2026/10/25",
-      "model_number": "2693438"
+      "model_number": "2693438",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.154,
+        "unmatched": [
+          "XX",
+          "孫悟空",
+          "身勝手の極意"
+        ],
+        "missing": [
+          "spm",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GXmateria 魔人ブウ",
       "price": "600",
       "update_date": "2026/10/25",
-      "model_number": "2785669"
+      "model_number": "2785669",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

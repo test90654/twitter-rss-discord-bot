@@ -11,409 +11,1367 @@
       "name": "パレード マスコット 討伐マスコット 映画 ver. ちいかわ",
       "price": "1300",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "討伐マスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "映画",
+          "ver."
+        ],
+        "missing": [],
+        "suggestion": "討伐マスコット 映画 ver. ちいかわ",
+        "reason": "「映画」「ver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード マスコット 討伐マスコット 映画 ver. ハチワレ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "討伐マスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "映画",
+          "ver."
+        ],
+        "missing": [],
+        "suggestion": "討伐マスコット 映画 ver. ハチワレ",
+        "reason": "「映画」「ver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード マスコット 討伐マスコット 映画 ver. うさぎ",
       "price": "1800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "討伐マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.625,
+        "unmatched": [
+          "映画",
+          "ver."
+        ],
+        "missing": [],
+        "suggestion": "討伐マスコット 映画 ver. うさぎ",
+        "reason": "「映画」「ver.」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード マスコット 討伐マスコット 映画 ver. モモンガ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.412,
+        "unmatched": [
+          "映画",
+          "ver.",
+          "モモンガ"
+        ],
+        "missing": [
+          "うさぎ"
+        ],
+        "suggestion": "討伐マスコット 映画 ver. モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット 討伐マスコット 映画 ver. 古本屋",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.438,
+        "unmatched": [
+          "映画",
+          "ver.",
+          "古本屋"
+        ],
+        "missing": [
+          "うさぎ"
+        ],
+        "suggestion": "討伐マスコット 映画 ver. 古本屋",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
-      "name": "パレード マスコット 討伐マスコット ちいかわ",
+      "name": "討伐マスコット ちいかわ",
       "price": "1300",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "討伐マスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「討伐マスコット ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット 討伐マスコット ハチワレ",
+      "name": "討伐マスコット ハチワレ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "討伐マスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「討伐マスコット ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット 討伐マスコット うさぎ",
+      "name": "討伐マスコット うさぎ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "討伐マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「討伐マスコット うさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット 討伐マスコット② ちいかわ",
+      "name": "討伐マスコット② ちいかわ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "討伐マスコット ② ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「討伐マスコット ② ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット 討伐マスコット② ハチワレ",
+      "name": "討伐マスコット② ハチワレ",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "討伐マスコット ② ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「討伐マスコット ② ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード マスコット 討伐マスコット② うさぎ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "討伐マスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.909,
+        "unmatched": [
+          "2"
+        ],
+        "missing": [],
+        "suggestion": "討伐マスコット2 うさぎ",
+        "reason": "「2」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード マスコット 討伐マスコット② ラッコ",
+      "name": "討伐マスコット② ラッコ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「討伐マスコット ② ラッコ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "Baby",
+          "りんりんおかおマスコット"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "Baby りんりんおかおマスコット ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "Baby",
+          "りんりんおかおマスコット"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "Baby りんりんおかおマスコット ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット うさぎ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "Baby",
+          "りんりんおかおマスコット"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "Baby りんりんおかおマスコット うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット モモンガ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "Baby",
+          "りんりんおかおマスコット"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "Baby りんりんおかおマスコット モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット シーサー",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット 古本屋",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット くりまんじゅう",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.304,
+        "unmatched": [
+          "Baby",
+          "りんりんおかおマスコット"
+        ],
+        "missing": [
+          "big",
+          "ぬいぐるみ"
+        ],
+        "suggestion": "Baby りんりんおかおマスコット くりまんじゅう",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード マスコット Baby りんりんおかおマスコット ラッコ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "Baby",
+          "りんりんおかおマスコット"
+        ],
+        "missing": [
+          "討伐マスコット",
+          "2"
+        ],
+        "suggestion": "Baby りんりんおかおマスコット ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
-      "name": "パレード マスコット 穴に落ちちゃったマスコット ちいかわ",
+      "name": "穴に落ちちゃったマスコット ちいかわ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "穴に落ちちゃったマスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「穴に落ちちゃったマスコット ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット 穴に落ちちゃったマスコット ハチワレ",
+      "name": "穴に落ちちゃったマスコット ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "穴に落ちちゃったマスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「穴に落ちちゃったマスコット ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット てんしな大きめマスコット ちいかわ",
+      "name": "てんしな大きめマスコット ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "てんしな大きめマスコット ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「てんしな大きめマスコット ちいかわ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット てんしな大きめマスコット ハチワレ",
+      "name": "てんしな大きめマスコット ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "てんしな大きめマスコット ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「てんしな大きめマスコット ハチワレ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード マスコット あくまな大きめマスコット うさぎ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "あくまな大きめマスコット モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "うさぎ"
+        ],
+        "missing": [
+          "モモンガ"
+        ],
+        "suggestion": "あくまな大きめマスコット うさぎ",
+        "reason": "「うさぎ」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード マスコット あくまな大きめマスコット モモンガ",
+      "name": "あくまな大きめマスコット モモンガ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "あくまな大きめマスコット モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「あくまな大きめマスコット モモンガ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード マスコット あくまな大きめマスコット くりまんじゅう",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "あくまな大きめマスコット モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.632,
+        "unmatched": [
+          "くりまんじゅう"
+        ],
+        "missing": [
+          "モモンガ"
+        ],
+        "suggestion": "あくまな大きめマスコット くりまんじゅう",
+        "reason": "「くりまんじゅう」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード マスコット 秋だもんマスコット ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "秋だもんマスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ちいかわ"
+        ],
+        "missing": [
+          "うさぎ"
+        ],
+        "suggestion": "秋だもんマスコット ちいかわ",
+        "reason": "「ちいかわ」が参照名に見当たりません"
+      }
     },
     {
       "name": "パレード マスコット 秋だもんマスコット ハチワレ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "秋だもんマスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ハチワレ"
+        ],
+        "missing": [
+          "うさぎ"
+        ],
+        "suggestion": "秋だもんマスコット ハチワレ",
+        "reason": "「ハチワレ」が参照名に見当たりません"
+      }
     },
     {
-      "name": "パレード マスコット 秋だもんマスコット うさぎ",
+      "name": "秋だもんマスコット うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "秋だもんマスコット うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「秋だもんマスコット うさぎ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
-      "name": "パレード マスコット ハチワレだらけマスコット（3種共通）",
+      "name": "ハチワレだらけマスコット（3種共通）",
       "price": "700",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "ハチワレだらけマスコット (3種共通)",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ハチワレだらけマスコット (3種共通)」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "パレード その他プライズ 昆布締めぬいぐるみショルダーバッグ ハチワレ",
       "price": "3800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "昆布締めぬいぐるみショルダーバッグ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "昆布締めぬいぐるみショルダーバッグ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 昆布締めぬいぐるみショルダーバッグ うさぎ",
       "price": "3800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "昆布締めぬいぐるみショルダーバッグ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "昆布締めぬいぐるみショルダーバッグ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 昆布締めぬいぐるみショルダーバッグ モモンガ",
       "price": "3200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "昆布締めぬいぐるみショルダーバッグ"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "昆布締めぬいぐるみショルダーバッグ モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 昆布締めぬいぐるみショルダーバッグ ラッコ",
       "price": "3800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.15,
+        "unmatched": [
+          "昆布締めぬいぐるみショルダーバッグ"
+        ],
+        "missing": [
+          "討伐マスコット",
+          "2"
+        ],
+        "suggestion": "昆布締めぬいぐるみショルダーバッグ ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 昆布締めぬいぐるみショルダーバッグ 古本屋",
       "price": "3800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ① ちいかわ",
       "price": "1100",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ",
+          "1"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ1 ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ① ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.182,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ",
+          "1"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ1 ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ① くりまんじゅう",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.28,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ",
+          "1"
+        ],
+        "missing": [
+          "big"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ1 くりまんじゅう",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ① シーサー",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "📢10/19更新📢",
+        "source": "ポスト本文",
+        "score": 0.045,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ",
+          "シーサー"
+        ],
+        "missing": [
+          "📢10",
+          "19",
+          "更新📢"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ1 シーサー",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ② うさぎ",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.143,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ",
+          "2"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ2 うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ② モモンガ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "パジャマ BIG ぬいぐるみ 2 モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "パジャマ",
+          "big"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ2 モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ② ラッコ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.19,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ2 ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Baby ぬいぐるみパスケースポーチ② 古本屋",
       "price": "1500",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.048,
+        "unmatched": [
+          "Baby",
+          "ぬいぐるみパスケースポーチ",
+          "古本屋"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "Baby ぬいぐるみパスケースポーチ2 古本屋",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ① ちいかわ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "1"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ1 ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ① ハチワレ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "1"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ1 ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ① うさぎ",
       "price": "1400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.188,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "1"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ1 うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ② モモンガ",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.235,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "2"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ2 モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ② 古本屋",
       "price": "1100",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.062,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "古本屋"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ2 古本屋",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ② シーサー",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "呪祓ノ型 宿儺 2",
+        "source": "登録済み/sheet1",
+        "score": 0.059,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "シーサー"
+        ],
+        "missing": [
+          "呪祓ノ型",
+          "宿儺"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ2 シーサー",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ② くりまんじゅう",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ くりまんじゅう",
+        "source": "登録済み/sheet1",
+        "score": 0.35,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ",
+          "2"
+        ],
+        "missing": [
+          "big",
+          "ぬいぐるみ"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ2 くりまんじゅう",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ハロウィンがまぐちポーチ② ラッコ",
       "price": "1800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "討伐マスコット ② ラッコ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ハロウィンがまぐちポーチ"
+        ],
+        "missing": [
+          "討伐マスコット"
+        ],
+        "suggestion": "ハロウィンがまぐちポーチ2 ラッコ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ふたつきおかおマグカップ ちいかわ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ふたつきおかおマグカップ"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "ふたつきおかおマグカップ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ふたつきおかおマグカップ ハチワレ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ふたつきおかおマグカップ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "ふたつきおかおマグカップ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ふたつきおかおマグカップ うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "ふたつきおかおマグカップ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "ふたつきおかおマグカップ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 2WAY ミニトートバッグ ちいかわ",
       "price": "2200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "2WAY",
+          "ミニトートバッグ"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "2WAY ミニトートバッグ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 2WAY ミニトートバッグ ハチワレ",
       "price": "2400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "2WAY",
+          "ミニトートバッグ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "2WAY ミニトートバッグ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 2WAY ミニトートバッグ うさぎ",
       "price": "2400",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "2WAY",
+          "ミニトートバッグ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "2WAY ミニトートバッグ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 2WAY ミニトートバッグ モモンガ",
       "price": "2000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "2WAY",
+          "ミニトートバッグ"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "2WAY ミニトートバッグ モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ Chiikawa Baby ポケットいっぱいバッグ（2種共通）",
       "price": "1200",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "シナモン (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.148,
+        "unmatched": [
+          "Chiikawa",
+          "Baby",
+          "ポケットいっぱいバッグ"
+        ],
+        "missing": [
+          "シナモン"
+        ],
+        "suggestion": "Chiikawa Baby ポケットいっぱいバッグ(2種共通)",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ BIG 収納バスケット（2種共通）",
       "price": "1100",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "シナモン (2種共通)",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "BIG",
+          "収納バスケット"
+        ],
+        "missing": [
+          "シナモン"
+        ],
+        "suggestion": "BIG 収納バスケット(2種共通)",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ランドリーネット ちいかわ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ランドリーネット"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "ランドリーネット ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ランドリーネット ハチワレ",
       "price": "900",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ランドリーネット"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "ランドリーネット ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ ランドリーネット うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.273,
+        "unmatched": [
+          "ランドリーネット"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "ランドリーネット うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 窓付きおかおミニポーチ ちいかわ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "緑谷出久 × ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "窓付きおかおミニポーチ"
+        ],
+        "missing": [
+          "緑谷出久"
+        ],
+        "suggestion": "窓付きおかおミニポーチ ちいかわ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 窓付きおかおミニポーチ ハチワレ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "爆豪勝己 × ハチワレ",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "窓付きおかおミニポーチ"
+        ],
+        "missing": [
+          "爆豪勝己"
+        ],
+        "suggestion": "窓付きおかおミニポーチ ハチワレ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 窓付きおかおミニポーチ うさぎ",
       "price": "1000",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "轟焦凍 × うさぎ",
+        "source": "登録済み/sheet1",
+        "score": 0.214,
+        "unmatched": [
+          "窓付きおかおミニポーチ"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "窓付きおかおミニポーチ うさぎ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "パレード その他プライズ 窓付きおかおミニポーチ モモンガ",
       "price": "800",
       "update_date": "2026/10/19",
-      "model_number": ""
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "がま口ポーチ モモンガ",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "窓付きおかおミニポーチ"
+        ],
+        "missing": [
+          "がま口ポーチ"
+        ],
+        "suggestion": "窓付きおかおミニポーチ モモンガ",
+        "reason": "参照リストに近い商品名がありません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }

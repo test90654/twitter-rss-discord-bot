@@ -11,145 +11,469 @@
       "name": "MAXIMATIC チェンソーマン",
       "price": "1000",
       "update_date": "2026/10/09",
-      "model_number": "2839961"
+      "model_number": "2839961",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "チェンソーマン"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「チェンソーマン」が参照名に見当たりません"
+      }
     },
     {
       "name": "FIGURIZMα 伏黒恵 冥頑回游",
       "price": "900",
       "update_date": "2026/10/09",
-      "model_number": "1123711"
+      "model_number": "1123711",
+      "_check": {
+        "status": "suspect",
+        "ref": "FIGURIZMα 伏黒恵 邂逅",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "冥頑回游"
+        ],
+        "missing": [
+          "邂逅"
+        ],
+        "suggestion": "",
+        "reason": "「冥頑回游」が参照名に見当たりません"
+      }
     },
     {
       "name": "MATCH MAKERS ベジット (VS合体ザマス)",
       "price": "900",
       "update_date": "2026/10/09",
-      "model_number": "2789144"
+      "model_number": "2789144",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "MATCH MAKERS 合体ザマス (VSベジット)",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "2789145"
+      "model_number": "2789145",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "GLITTER &GLAMOURS 麗日お茶子",
       "price": "700",
       "update_date": "2026/10/09",
-      "model_number": "2802496"
+      "model_number": "2802496",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS 麗日お茶子",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「GLITTER&GLAMOURS 麗日お茶子」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
     },
     {
       "name": "GLITTER &GLAMOURS 八百万百",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "2776406"
+      "model_number": "2776406",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.789,
+        "unmatched": [
+          "八百万百"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「八百万百」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS 72 series 71 うずまきナルト",
       "price": "1100",
       "update_date": "2026/10/09",
-      "model_number": "2816220"
+      "model_number": "2816220",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS うずまきナルト",
+        "source": "登録済み/sheet1",
+        "score": 0.677,
+        "unmatched": [
+          "72",
+          "series",
+          "71"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「72」「series」「71」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS 72 series 71 うちはサスケ",
       "price": "1100",
       "update_date": "2026/10/09",
-      "model_number": "2816221"
+      "model_number": "2816221",
+      "_check": {
+        "status": "suspect",
+        "ref": "VIBRATION STARS うちはサスケ",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "72",
+          "series",
+          "71"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「72」「series」「71」が参照名に見当たりません"
+      }
     },
     {
       "name": "VIBRATION STARS 72 series 71 春野サクラ",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "2816222"
+      "model_number": "2816222",
+      "_check": {
+        "status": "unknown",
+        "ref": "VIBRATION STARS ボム",
+        "source": "登録済み/sheet1",
+        "score": 0.483,
+        "unmatched": [
+          "72",
+          "series",
+          "71",
+          "春野サクラ"
+        ],
+        "missing": [
+          "ボム"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Mometria ジョルノ・ジョバァーナ",
       "price": "1000",
       "update_date": "2026/10/09",
-      "model_number": "2778343"
+      "model_number": "2778343",
+      "_check": {
+        "status": "unknown",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.444,
+        "unmatched": [
+          "ジョルノ",
+          "ジョバァーナ"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Mometria ディアボロ",
       "price": "900",
       "update_date": "2026/10/09",
-      "model_number": "2778344"
+      "model_number": "2778344",
+      "_check": {
+        "status": "suspect",
+        "ref": "Mometria DIO",
+        "source": "登録済み/sheet1",
+        "score": 0.615,
+        "unmatched": [
+          "ディアボロ"
+        ],
+        "missing": [
+          "dio"
+        ],
+        "suggestion": "",
+        "reason": "「ディアボロ」が参照名に見当たりません"
+      }
     },
     {
       "name": "BiCute Dark 弥海砂",
       "price": "1200",
       "update_date": "2026/10/09",
-      "model_number": "21597"
+      "model_number": "21597",
+      "_check": {
+        "status": "suspect",
+        "ref": "デート・ア・ライブ BiCute Dark 時崎狂三",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "弥海砂"
+        ],
+        "missing": [
+          "デート",
+          "ライブ",
+          "時崎狂三"
+        ],
+        "suggestion": "",
+        "reason": "「弥海砂」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC 浦原喜助",
       "price": "900",
       "update_date": "2026/10/09",
-      "model_number": "2720295"
+      "model_number": "2720295",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "浦原喜助"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「浦原喜助」が参照名に見当たりません"
+      }
     },
     {
       "name": "GLITTER &GLAMOURS 四楓院夜一",
       "price": "900",
       "update_date": "2026/10/09",
-      "model_number": "2798907"
+      "model_number": "2798907",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "四楓院夜一"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「四楓院夜一」が参照名に見当たりません"
+      }
     },
     {
       "name": "MAXIMATIC 鈴屋什造",
       "price": "700",
       "update_date": "2026/10/09",
-      "model_number": "2883651"
+      "model_number": "2883651",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "鈴屋什造"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「鈴屋什造」が参照名に見当たりません"
+      }
     },
     {
       "name": "フィグライフッ!! 範馬勇次郎",
       "price": "1000",
       "update_date": "2026/10/09",
-      "model_number": "2841459"
+      "model_number": "2841459",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "Desktop Cute 喜多川海夢 十六夜ありさ ver.",
       "price": "1300",
       "update_date": "2026/10/09",
-      "model_number": "22004"
+      "model_number": "22004",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "十六夜ありさ"
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「十六夜ありさ」が参照名に見当たりません"
+      }
     },
     {
       "name": "Desktop Cute 喜多川海夢 十六夜タイクレ限定 ver.",
       "price": "1500",
       "update_date": "2026/10/09",
-      "model_number": "22004"
+      "model_number": "22004",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.69,
+        "unmatched": [
+          "十六夜タイクレ限定"
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「十六夜タイクレ限定」が参照名に見当たりません"
+      }
     },
     {
       "name": "ムチュート ルイズ",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "21916"
+      "model_number": "21916",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "リムル=テンペスト 最強のスライム",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "2839730"
+      "model_number": "2839730",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
     },
     {
       "name": "おおき SOFVIMATES 猫猫!!",
       "price": "1000",
       "update_date": "2026/10/09",
-      "model_number": "2823776"
+      "model_number": "2823776",
+      "_check": {
+        "status": "suspect",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "おおき",
+          "猫猫"
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "「おおき」「猫猫」が参照名に見当たりません"
+      }
     },
     {
       "name": "ぬーどるストッパー ノワール",
       "price": "1000",
       "update_date": "2026/10/09",
-      "model_number": "22303"
+      "model_number": "22303",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー ゴン",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "ノワール"
+        ],
+        "missing": [
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "「ノワール」が参照名に見当たりません"
+      }
     },
     {
       "name": "ぬーどるストッパー テキサス 意志 ver.",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "22614"
+      "model_number": "22614",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー 猗窩座・戦闘 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.684,
+        "unmatched": [
+          "テキサス",
+          "意志"
+        ],
+        "missing": [
+          "猗窩座",
+          "戦闘"
+        ],
+        "suggestion": "",
+        "reason": "「テキサス」「意志」が参照名に見当たりません"
+      }
     },
     {
       "name": "SOFVIMATES ミュウツー",
       "price": "800",
       "update_date": "2026/10/09",
-      "model_number": "2839440"
+      "model_number": "2839440",
+      "_check": {
+        "status": "suspect",
+        "ref": "SOFVIMATES コン",
+        "source": "登録済み/sheet1",
+        "score": 0.667,
+        "unmatched": [
+          "ミュウツー"
+        ],
+        "missing": [
+          "コン"
+        ],
+        "suggestion": "",
+        "reason": "「ミュウツー」が参照名に見当たりません"
+      }
     }
-  ]
+  ],
+  "auto_checked_at": "2026/11/11 13:59"
 }
