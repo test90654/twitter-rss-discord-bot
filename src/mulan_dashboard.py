@@ -78,6 +78,29 @@ from mulan_sheet import (  # noqa: E402
 )
 from mulan_sheet import append_to_result_sheet as _append_row  # noqa: E402
 
+def queue_label(path):
+    """
+    データファイル名（ポストID_画像番号.json）の代わりに、選択欄に出す日本語の名前。
+    例: 「🏪 ムーラン本店｜11/02 15:43 投稿｜画像1枚目｜未登録 3 / 12件」
+    ファイル名そのものは変えない（ボットや二重登録の判定がポストIDを使うため）
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            m = json.load(f)
+    except Exception:
+        return path.name
+    store = m.get("store") or DEFAULT_STORE
+    posted = str(m.get("posted_at") or "")
+    posted = posted[5:] if re.match(r"^\d{4}/", posted) else posted  # 年は省く
+    num = path.stem.rsplit("_", 1)[-1]
+    items = m.get("parsed_items", [])
+    pending = sum(1 for it in items if not it.get("_registered"))
+    parts = [f"🏪 {store}", f"{posted} 投稿" if posted else "投稿日不明"]
+    if num.isdigit():
+        parts.append(f"画像{num}枚目")
+    parts.append(f"未登録 {pending} / {len(items)}件")
+    return "｜".join(parts)
+
 def append_to_result_sheet(client_gspread, row_data, store):
     try:
         _append_row(get_result_sheet(client_gspread, store), row_data)
@@ -91,7 +114,7 @@ done_files = sorted(list(DONE_DIR.glob("*.json")), key=lambda x: x.stat().st_mti
 if done_files:
     st.sidebar.markdown("---")
     st.sidebar.subheader("↩️ 直近の完了データを復元 (アンドゥ)")
-    restore_target = st.sidebar.selectbox("復元するデータを選択", done_files, format_func=lambda x: x.name)
+    restore_target = st.sidebar.selectbox("復元するデータを選択", done_files, format_func=queue_label)
     if st.sidebar.button("♻️ 選択したデータを未処理に戻す"):
         restored = False
         try:
@@ -117,7 +140,7 @@ if done_files:
             for k in [k for k in st.session_state.keys() if isinstance(k, str) and k.endswith(f"_{rid}") or (isinstance(k, str) and f"_{rid}_" in k)]:
                 del st.session_state[k]
 
-            st.session_state["flash_msg"] = (f"🎉 '{restore_target.name}' をキューに復元しました！", "♻️")
+            st.session_state["flash_msg"] = (f"🎉 「{queue_label(QUEUE_DIR / restore_target.name)}」をキューに復元しました！", "♻️")
             restored = True
         except Exception as e:
             st.sidebar.error(f"復元エラー: {e}")
@@ -138,7 +161,7 @@ if not json_files:
     st.stop()
 
 st.sidebar.markdown(f"残り件数: **{len(json_files)}件**")
-selected_json = st.sidebar.selectbox("確認するデータを選択", json_files, format_func=lambda x: x.name)
+selected_json = st.sidebar.selectbox("確認するデータを選択", json_files, format_func=queue_label)
 
 if selected_json:
     with open(selected_json, "r", encoding="utf-8") as f:
