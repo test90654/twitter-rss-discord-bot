@@ -71,99 +71,16 @@ if "flash_msg" in st.session_state:
     msg, icon = st.session_state.pop("flash_msg")
     st.toast(msg, icon=icon)
 
-# --- 設定値（環境変数から取得） ---
-TARGET_SPREADSHEET_ID = os.environ.get("TARGET_SPREADSHEET_ID", "1EQooFe5QbdCDe1wJj_lI8rxKoQFpre4E-1WbiPyJPx4")
-RESULT_SHEET_NAME = os.environ.get("RESULT_SHEET_NAME", "sheet1")
-# 店舗ごとの書き込み先シート（タブ名）。店舗名の無い古いデータは DEFAULT_STORE として扱う
-DEFAULT_STORE = "ムラ中"
-STORE_SHEETS = {
-    "ムラ中": RESULT_SHEET_NAME,
-    "ムーラン本店": os.environ.get("HONTEN_SHEET_NAME", "ムーラン本店"),
-}
-SHEET_HEADER = ["作品名", "商品名（シリーズ / キャラクター）", "買取価格", "更新日時", "型番"]
-
-def sheet_name_for(store):
-    return STORE_SHEETS.get(store, store)
-
-# --- 2. スプレッドシート書き込み関数 ---
-def get_gspread_client():
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    
-    creds_json_str = os.environ.get("GCP_CREDENTIALS_JSON", "")
-    if creds_json_str:
-        try:
-            with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False, encoding="utf-8") as temp:
-                temp.write(creds_json_str)
-                temp_path = temp.name
-            creds = Credentials.from_service_account_file(temp_path, scopes=scope)
-            return gspread.authorize(creds)
-        except Exception as e:
-            st.error(f"環境変数のJSON解析エラー: {e}")
-
-    creds_path = BASE_DIR / "credentials.json"
-    if not creds_path.exists():
-        alt_path = Path(r"C:\Users\chukyotokukai\Documents\rashinban\credentials.json")
-        if alt_path.exists():
-            creds_path = alt_path
-        else:
-            raise FileNotFoundError(f"認証ファイルが見つかりません。Renderの場合は環境変数 `GCP_CREDENTIALS_JSON` を設定してください。")
-            
-    creds = Credentials.from_service_account_file(creds_path, scopes=scope)
-    return gspread.authorize(creds)
-
-def get_result_sheet(client_gspread, store):
-    """店舗に対応するシートを開く（無ければ見出し付きで作る）"""
-    name = sheet_name_for(store)
-    spreadsheet = client_gspread.open_by_key(TARGET_SPREADSHEET_ID)
-    try:
-        return spreadsheet.worksheet(name)
-    except gspread.exceptions.WorksheetNotFound:
-        sheet = spreadsheet.add_worksheet(title=name, rows=1000, cols=10)
-        sheet.update(range_name="A1:E1", values=[SHEET_HEADER])
-        return sheet
-
-def _norm(value):
-    """比較用に表記ゆれを吸収する（全角/半角・空白・大文字小文字・日付の区切り）"""
-    s = unicodedata.normalize("NFKC", str(value or ""))
-    s = re.sub(r"\s+", "", s).lower()
-    return s.replace("-", "/")
-
-def item_key(name, model_number, update_date):
-    """
-    登録済み判定に使うキー。商品名＋型番/JAN＋更新日 が一致したら同じ商品とみなす。
-    （価格は手で直すことがあるので判定に含めない）
-    """
-    return (_norm(name), _norm(model_number), _norm(update_date))
-
-def fetch_registered_keys(client_gspread, store):
-    """その店舗のシートに既に登録されている商品のキー一覧を取得（B:商品名 C:価格 D:更新日 E:型番/JAN）"""
-    sheet = get_result_sheet(client_gspread, store)
-    keys = set()
-    for row in sheet.get_all_values()[1:]:  # 1行目は見出し
-        row = row + [""] * (5 - len(row))
-        name, _price, date, model = row[1], row[2], row[3], row[4]
-        if name.strip():
-            keys.add(item_key(name, model, date))
-    return keys
+# --- 2. スプレッドシートまわり（自動登録 mulan_auto_register.py と共通） ---
+from mulan_sheet import (  # noqa: E402
+    DEFAULT_STORE, sheet_name_for, get_gspread_client, get_result_sheet,
+    item_key, fetch_registered_keys,
+)
+from mulan_sheet import append_to_result_sheet as _append_row  # noqa: E402
 
 def append_to_result_sheet(client_gspread, row_data, store):
     try:
-        sheet = get_result_sheet(client_gspread, store)
-
-        # A列はジャンル列なので触らず、B列（商品名）の最終行の次の行の B〜E 列に書き込む
-        next_row = len(sheet.col_values(2)) + 1
-        if next_row > sheet.row_count:
-            sheet.add_rows(100)
-
-        sheet.update(
-            range_name=f"B{next_row}:E{next_row}",
-            values=[[
-                row_data["name"],
-                row_data["price"],
-                row_data["update_date"],
-                row_data["model_number"]
-            ]]
-        )
+        _append_row(get_result_sheet(client_gspread, store), row_data)
     except Exception as e:
         raise Exception(f"結果シートへの書き込みエラー: {e}")
 
@@ -481,7 +398,8 @@ if selected_json:
 
             # 登録済みアイテムはコンパクトに表示
             if is_done(item):
-                st.success(f"[{idx+1}] ✅ 登録済み： {item.get('name', '')} / {item.get('price', '')}")
+                label = "🤖 自動登録済み" if item.get("_auto_registered") else "✅ 登録済み"
+                st.success(f"[{idx+1}] {label}： {item.get('name', '')} / {item.get('price', '')}")
                 continue
 
             with st.container(border=True):
@@ -490,6 +408,20 @@ if selected_json:
                     st.checkbox("選択", value=True, key=f"chk_{tweet_id}_{idx}")
                 with c_status:
                     st.markdown(f"**[{idx+1}] 未登録アイテム**")
+
+                # 自動登録（mulan_auto_register.py）で商品名を照合した結果
+                check = item.get("_check") or {}
+                if check.get("status") == "suspect":
+                    st.warning(f"⚠️ 読み間違いの疑い：{check.get('reason', '')}")
+                    if check.get("ref"):
+                        st.caption(f"参照した商品名：{check['ref']}（{check.get('source', '')}）")
+                    if check.get("suggestion"):
+                        def apply_suggestion(k=f"name_{tweet_id}_{idx}", v=check["suggestion"]):
+                            st.session_state[k] = v
+                        st.button(f"✏️ 候補「{check['suggestion']}」に置き換える",
+                                  key=f"suggest_{tweet_id}_{idx}", on_click=apply_suggestion)
+                elif check.get("status") == "unknown":
+                    st.caption("❔ 入荷リスト・登録済みの商品名に近いものが無いため、自動登録しませんでした")
 
                 c1, c2 = st.columns([2, 1])
                 c3, c4 = st.columns([1, 1])

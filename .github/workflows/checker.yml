@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests twitter-cli agent-client agent-reach google-genai pillow
+          pip install requests twitter-cli agent-client agent-reach google-genai pillow gspread
 
       - name: Run Bookoff Monitor
         env:
@@ -54,6 +54,17 @@ jobs:
           REQUIRED_HASHTAG: "#ムーラン本店買取"
         run: |
           python src/xpost_mulan.py
+
+      # 商品名を入荷カレンダー・登録済みの商品名と照合し、間違いが無いものだけスプレッドシートに自動登録する
+      - name: Auto-register verified Mulan items
+        continue-on-error: true
+        env:
+          GCP_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS_JSON }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          SPREADSHEET_ID_CALENDAR: ${{ secrets.SPREADSHEET_ID_CALENDAR || secrets.SPREADSHEET_ID_CALENDER }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_MULAN }}
+        run: |
+          python src/mulan_auto_register.py
 
       - name: Run Jump Calendar Prize Monitor
         continue-on-error: true
