@@ -161,7 +161,22 @@ if not json_files:
     st.stop()
 
 st.sidebar.markdown(f"残り件数: **{len(json_files)}件**")
-selected_json = st.sidebar.selectbox("確認するデータを選択", json_files, format_func=queue_label)
+# 選択欄の表示名には「未登録 ○件」が入っていて登録のたびに変わる。表示名が変わると Streamlit は
+# 選択欄を作り直して先頭のデータに戻してしまうので、開いているデータを覚えておき、作り直されても同じデータを選ぶ。
+# 開いていたデータが完了・スキップでキューから無くなったときは、同じ位置（＝次のデータ）を選ぶ。
+queue_names = [p.name for p in json_files]
+prev_name = st.session_state.get("current_queue_file")
+if prev_name in queue_names:
+    start_index = queue_names.index(prev_name)
+else:
+    start_index = min(st.session_state.get("current_queue_pos", 0), len(queue_names) - 1)
+selected_name = st.sidebar.selectbox(
+    "確認するデータを選択", queue_names, index=start_index,
+    format_func=lambda n: queue_label(QUEUE_DIR / n),
+)
+st.session_state["current_queue_file"] = selected_name
+st.session_state["current_queue_pos"] = queue_names.index(selected_name)
+selected_json = QUEUE_DIR / selected_name
 
 if selected_json:
     with open(selected_json, "r", encoding="utf-8") as f:
