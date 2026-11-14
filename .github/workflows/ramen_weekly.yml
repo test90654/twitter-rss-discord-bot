@@ -1,0 +1,77 @@
+name: Ramen Weekly Menu (jyosho_yuki)
+
+# @jyosho_yuki の「今週の予定」画像を読み取り、限定メニューの登場率を data/ramen_stats.md に記録する。
+# 狙いのメニュー（data/ramen_watch.txt）が出た週・見送りでよい週を Discord に通知する。
+on:
+  schedule:
+    - cron: '40 23 * * *'  # 日本時間 8:40
+    - cron: '40 10 * * *'  # 日本時間 19:40
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: '過去の投稿を何件さかのぼって読むか（初回は 400 など。空なら通常の実行）'
+        required: false
+        default: ''
+      tweet:
+        description: '特定のポストだけ読み直す（URLまたはID）'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ramen-weekly
+  cancel-in-progress: false
+
+jobs:
+  ramen-weekly:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests twitter-cli google-genai pydantic gspread
+
+      - name: Read weekly schedule
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL_RAMEN: ${{ secrets.DISCORD_WEBHOOK_URL_RAMEN || secrets.DISCORD_WEBHOOK_URL }}
+          BACKFILL: ${{ inputs.backfill }}
+          TWEET: ${{ inputs.tweet }}
+        run: |
+          if [ -n "$TWEET" ]; then
+            python src/ramen_weekly.py --tweet "$TWEET"
+          elif [ -n "$BACKFILL" ]; then
+            python src/ramen_weekly.py --backfill "$BACKFILL"
+          else
+            python src/ramen_weekly.py
+          fi
+
+      - name: Commit history and stats
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ramen_weekly.json data/ramen_stats.md
+          if git diff --cached --quiet; then
+            echo "No changes"; exit 0
+          fi
+          git commit -m "Update ramen weekly menu history [skip ci]"
+          # 毎時の監視ジョブも同じブランチにコミットするので、取り込んでから push する
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          exit 1
