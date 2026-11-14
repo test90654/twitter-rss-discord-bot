@@ -1,0 +1,3613 @@
+{
+ "seen_ids": [
+  "1896758545053573150",
+  "1899383363972354089",
+  "1904021393127399659",
+  "1906551828730245190",
+  "1911604553159741530",
+  "1921750049190498442",
+  "1926848619631542511",
+  "1931873433329274988",
+  "1934434130810565046",
+  "1964871271067566230",
+  "1977560298665226244",
+  "1985169039124271249",
+  "2000365142341718355",
+  "2013454017888936170",
+  "2020675345427698137",
+  "2030842412936073409",
+  "2035903865200181305",
+  "2038436238622159302",
+  "2046067293835436046",
+  "2048689134135566518",
+  "2053761612268679486",
+  "2056302376928346338",
+  "2058762566227382543",
+  "2063885033824526355",
+  "2069240174941483267",
+  "2071412523010752737",
+  "2109841028131999886",
+  "2119653447784178078"
+ ],
+ "weeks": {
+  "2025-03-03": {
+   "post_url": "https://x.com/jyosho_yuki/status/1896758545053573150",
+   "posted_at": "2025-03-04T12:04:11+09:00",
+   "days": [
+    {
+     "day": 3,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-03"
+    },
+    {
+     "day": 4,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-04"
+    },
+    {
+     "day": 5,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "G系まぜそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-05"
+    },
+    {
+     "day": 6,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチ角ふじ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-06"
+    },
+    {
+     "day": 7,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "茜鶏の塩ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-07"
+    },
+    {
+     "day": 8,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "茜鶏の白湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-08"
+    },
+    {
+     "day": 9,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-09"
+    }
+   ]
+  },
+  "2025-03-10": {
+   "post_url": "https://x.com/jyosho_yuki/status/1899383363972354089",
+   "posted_at": "2025-03-11T17:54:17+09:00",
+   "days": [
+    {
+     "day": 10,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-03-10"
+    },
+    {
+     "day": 11,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-03-11"
+    },
+    {
+     "day": 12,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "カレーつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-12"
+    },
+    {
+     "day": 13,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチーズまぜそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-13"
+    },
+    {
+     "day": 14,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "アブラブタつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-14"
+    },
+    {
+     "day": 15,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "坦々麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-15"
+    },
+    {
+     "day": 16,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-16"
+    }
+   ]
+  },
+  "2025-03-24": {
+   "post_url": "https://x.com/jyosho_yuki/status/1904021393127399659",
+   "posted_at": "2025-03-24T13:04:09+09:00",
+   "days": [
+    {
+     "day": 24,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-03-24"
+    },
+    {
+     "day": 25,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-03-25"
+    },
+    {
+     "day": 26,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "味噌角ふじ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-26"
+    },
+    {
+     "day": 27,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "台湾らーめん",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-27"
+    },
+    {
+     "day": 28,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "豚玉そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-28"
+    },
+    {
+     "day": 29,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "みぞれらーめん",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-03-29"
+    },
+    {
+     "day": 30,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-03-30"
+    }
+   ]
+  },
+  "2025-03-31": {
+   "post_url": "https://x.com/jyosho_yuki/status/1906551828730245190",
+   "posted_at": "2025-03-31T12:39:12+09:00",
+   "days": [
+    {
+     "day": 31,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-03-31"
+    },
+    {
+     "day": 1,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-04-01"
+    },
+    {
+     "day": 2,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "あおり野菜つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-02"
+    },
+    {
+     "day": 3,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トリプル塩ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-03"
+    },
+    {
+     "day": 4,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ゆず塩白湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-04"
+    },
+    {
+     "day": 5,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎まぜそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-05"
+    },
+    {
+     "day": 6,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2025-04-06"
+    }
+   ]
+  },
+  "2025-04-14": {
+   "post_url": "https://x.com/jyosho_yuki/status/1911604553159741530",
+   "posted_at": "2025-04-14T11:16:56+09:00",
+   "days": [
+    {
+     "day": 14,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-04-14"
+    },
+    {
+     "day": 15,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-15"
+    },
+    {
+     "day": 16,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤ブタブタつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-16"
+    },
+    {
+     "day": 17,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "油そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-17"
+    },
+    {
+     "day": 18,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "濃厚豚骨魚介つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-18"
+    },
+    {
+     "day": 19,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2025-04-19"
+    },
+    {
+     "day": 20,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "常勝家",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-04-20"
+    }
+   ]
+  },
+  "2025-05-12": {
+   "post_url": "https://x.com/jyosho_yuki/status/1921750049190498442",
+   "posted_at": "2025-05-12T11:11:30+09:00",
+   "days": [
+    {
+     "day": 12,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-12"
+    },
+    {
+     "day": 13,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-13"
+    },
+    {
+     "day": 14,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "味噌角ふじ麺",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-14"
+    },
+    {
+     "day": 15,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "あおり野菜つけ麺",
+       "same_as": "あおり野菜つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-15"
+    },
+    {
+     "day": 16,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "豚骨らーめん",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-05-16"
+    },
+    {
+     "day": 17,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-05-17"
+    },
+    {
+     "day": 18,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "常勝家",
+       "same_as": "常勝家"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-18"
+    }
+   ]
+  },
+  "2025-05-26": {
+   "post_url": "https://x.com/jyosho_yuki/status/1926848619631542511",
+   "posted_at": "2025-05-26T12:51:24+09:00",
+   "days": [
+    {
+     "day": 26,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-26"
+    },
+    {
+     "day": 27,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-27"
+    },
+    {
+     "day": 28,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "あおり野菜つけ麺",
+       "same_as": "あおり野菜つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-05-28"
+    },
+    {
+     "day": 29,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "旨辛肉味噌つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-05-29"
+    },
+    {
+     "day": 30,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "タンメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-05-30"
+    },
+    {
+     "day": 31,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-05-31"
+    },
+    {
+     "day": 1,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "G系まぜそば",
+       "same_as": "G系まぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-01"
+    }
+   ]
+  },
+  "2025-06-09": {
+   "post_url": "https://x.com/jyosho_yuki/status/1931873433329274988",
+   "posted_at": "2025-06-09T09:38:13+09:00",
+   "days": [
+    {
+     "day": 9,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-09"
+    },
+    {
+     "day": 10,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "きゃべふじ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-06-10"
+    },
+    {
+     "day": 11,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "あおり野菜つけ麺",
+       "same_as": "あおり野菜つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-11"
+    },
+    {
+     "day": 12,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "カニ清湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-06-12"
+    },
+    {
+     "day": 13,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "みぞれラーメン",
+       "same_as": "みぞれらーめん"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-13"
+    },
+    {
+     "day": 14,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "豚玉肉そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-06-14"
+    },
+    {
+     "day": 15,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-15"
+    }
+   ]
+  },
+  "2025-06-16": {
+   "post_url": "https://x.com/jyosho_yuki/status/1934434130810565046",
+   "posted_at": "2025-06-16T11:13:31+09:00",
+   "days": [
+    {
+     "day": 16,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-16"
+    },
+    {
+     "day": 17,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-17"
+    },
+    {
+     "day": 18,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-18"
+    },
+    {
+     "day": 19,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "台湾まぜそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-06-19"
+    },
+    {
+     "day": 20,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "坦々麺",
+       "same_as": "坦々麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-20"
+    },
+    {
+     "day": 21,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "常勝家",
+       "same_as": "常勝家"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-21"
+    },
+    {
+     "day": 22,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "G系まぜそば",
+       "same_as": "G系まぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2025-06-22"
+    }
+   ]
+  },
+  "2025-09-08": {
+   "post_url": "https://x.com/jyosho_yuki/status/1964871271067566230",
+   "posted_at": "2025-09-08T10:59:51+09:00",
+   "days": [
+    {
+     "day": 8,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-09-08"
+    },
+    {
+     "day": 9,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-09-09"
+    },
+    {
+     "day": 10,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ガーリック油そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-09-10"
+    },
+    {
+     "day": 11,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "味噌角ふじ麺",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2025-09-11"
+    },
+    {
+     "day": 12,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トリボナーラ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-09-12"
+    },
+    {
+     "day": 13,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎",
+       "same_as": "佑二郎"
+      }
+     ],
+     "note": "",
+     "date": "2025-09-13"
+    },
+    {
+     "day": 14,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-09-14"
+    }
+   ]
+  },
+  "2025-10-13": {
+   "post_url": "https://x.com/jyosho_yuki/status/1977560298665226244",
+   "posted_at": "2025-10-13T11:21:31+09:00",
+   "days": [
+    {
+     "day": 13,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "金目鯛ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-10-13"
+    },
+    {
+     "day": 14,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-10-14"
+    },
+    {
+     "day": 15,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "アラビアータ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-10-15"
+    },
+    {
+     "day": 16,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "あおり野菜つけ麺",
+       "same_as": "あおり野菜つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-10-16"
+    },
+    {
+     "day": 17,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "みそ角ふじ麺",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2025-10-17"
+    },
+    {
+     "day": 18,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "こってりラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-10-18"
+    },
+    {
+     "day": 19,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-10-19"
+    }
+   ]
+  },
+  "2025-11-03": {
+   "post_url": "https://x.com/jyosho_yuki/status/1985169039124271249",
+   "posted_at": "2025-11-03T11:15:56+09:00",
+   "days": [
+    {
+     "day": 3,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-11-03"
+    },
+    {
+     "day": 4,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2025-11-04"
+    },
+    {
+     "day": 5,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯ふじ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-11-05"
+    },
+    {
+     "day": 6,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "煮干しまぜそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-11-06"
+    },
+    {
+     "day": 7,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "甘辛肉そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-11-07"
+    },
+    {
+     "day": 8,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2025-11-08"
+    },
+    {
+     "day": 9,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2025-11-09"
+    }
+   ]
+  },
+  "2025-12-15": {
+   "post_url": "https://x.com/jyosho_yuki/status/2000365142341718355",
+   "posted_at": "2025-12-15T09:39:49+09:00",
+   "days": [
+    {
+     "day": 15,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2025-12-15"
+    },
+    {
+     "day": 16,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "濃厚つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-12-16"
+    },
+    {
+     "day": 17,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "味噌角ふじ麺",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2025-12-17"
+    },
+    {
+     "day": 18,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "濃厚つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-12-18"
+    },
+    {
+     "day": 19,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "濃厚つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2025-12-19"
+    },
+    {
+     "day": 20,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎",
+       "same_as": "佑二郎"
+      }
+     ],
+     "note": "",
+     "date": "2025-12-20"
+    },
+    {
+     "day": 21,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎",
+       "same_as": "佑二郎"
+      }
+     ],
+     "note": "",
+     "date": "2025-12-21"
+    }
+   ]
+  },
+  "2026-01-19": {
+   "post_url": "https://x.com/jyosho_yuki/status/2013454017888936170",
+   "posted_at": "2026-01-20T12:30:20+09:00",
+   "days": [
+    {
+     "day": 20,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-01-19"
+    },
+    {
+     "day": 21,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鯛清湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-01-20"
+    },
+    {
+     "day": 22,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鯛清湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-01-21"
+    },
+    {
+     "day": 23,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鯛清湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-01-22"
+    },
+    {
+     "day": 24,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鯛清湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-01-23"
+    },
+    {
+     "day": 25,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "背脂煮干しらぁめん",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-01-24"
+    },
+    {
+     "day": 26,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "台湾まぜそば",
+       "same_as": "台湾まぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-01-25"
+    }
+   ]
+  },
+  "2026-02-09": {
+   "post_url": "https://x.com/jyosho_yuki/status/2020675345427698137",
+   "posted_at": "2026-02-09T10:45:19+09:00",
+   "days": [
+    {
+     "day": 9,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-02-09"
+    },
+    {
+     "day": 10,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "通常",
+       "same_as": "通常"
+      }
+     ],
+     "note": "",
+     "date": "2026-02-10"
+    },
+    {
+     "day": 11,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-02-11"
+    },
+    {
+     "day": 12,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチゲラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-02-12"
+    },
+    {
+     "day": 13,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-02-13"
+    },
+    {
+     "day": 14,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "煮干しまぜそば",
+       "same_as": "煮干しまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-02-14"
+    },
+    {
+     "day": 15,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-02-15"
+    }
+   ]
+  },
+  "2026-03-09": {
+   "post_url": "https://x.com/jyosho_yuki/status/2030842412936073409",
+   "posted_at": "2026-03-09T12:05:37+09:00",
+   "days": [
+    {
+     "day": 9,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-09"
+    },
+    {
+     "day": 10,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤ブタブタ",
+       "same_as": "赤ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-10"
+    },
+    {
+     "day": 11,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "みぞれらーめん",
+       "same_as": "みぞれらーめん"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-11"
+    },
+    {
+     "day": 12,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯ラーメン",
+       "same_as": "鶏白湯ラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-12"
+    },
+    {
+     "day": 13,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯ラーメン",
+       "same_as": "鶏白湯ラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-13"
+    },
+    {
+     "day": 14,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ホワイトン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-03-14"
+    },
+    {
+     "day": 15,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "油そば",
+       "same_as": "油そば"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-15"
+    }
+   ]
+  },
+  "2026-03-23": {
+   "post_url": "https://x.com/jyosho_yuki/status/2035903865200181305",
+   "posted_at": "2026-03-23T11:18:01+09:00",
+   "days": [
+    {
+     "day": 23,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-23"
+    },
+    {
+     "day": 24,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤ブタブタつけ麺",
+       "same_as": "赤ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-24"
+    },
+    {
+     "day": 25,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "辛みそらーめん",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-03-25"
+    },
+    {
+     "day": 26,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "角煮そば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-03-26"
+    },
+    {
+     "day": 27,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "豚玉肉そば",
+       "same_as": "豚玉肉そば"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-27"
+    },
+    {
+     "day": 28,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-28"
+    },
+    {
+     "day": 29,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "油そば",
+       "same_as": "油そば"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-29"
+    }
+   ]
+  },
+  "2026-03-30": {
+   "post_url": "https://x.com/jyosho_yuki/status/2038436238622159302",
+   "posted_at": "2026-03-30T11:00:46+09:00",
+   "days": [
+    {
+     "day": 30,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-30"
+    },
+    {
+     "day": 31,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-03-31"
+    },
+    {
+     "day": 1,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "辛角ふじ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-04-01"
+    },
+    {
+     "day": 2,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "坦々つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-04-02"
+    },
+    {
+     "day": 3,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯ラーメン",
+       "same_as": "鶏白湯ラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-03"
+    },
+    {
+     "day": 4,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "カレーつけ麺めん",
+       "same_as": "カレーつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-04"
+    },
+    {
+     "day": 5,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "脂そば",
+       "same_as": "油そば"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-05"
+    }
+   ]
+  },
+  "2026-04-20": {
+   "post_url": "https://x.com/jyosho_yuki/status/2046067293835436046",
+   "posted_at": "2026-04-20T12:23:51+09:00",
+   "days": [
+    {
+     "day": 20,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-20"
+    },
+    {
+     "day": 21,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤ブタブタつけ麺",
+       "same_as": "赤ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-21"
+    },
+    {
+     "day": 22,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチ角ふじ",
+       "same_as": "キムチ角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-22"
+    },
+    {
+     "day": 23,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "煮干し角ふじ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-04-23"
+    },
+    {
+     "day": 24,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "背脂煮干しラーメン",
+       "same_as": "背脂煮干しらぁめん"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-24"
+    },
+    {
+     "day": 25,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-25"
+    },
+    {
+     "day": 26,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-26"
+    }
+   ]
+  },
+  "2026-04-27": {
+   "post_url": "https://x.com/jyosho_yuki/status/2048689134135566518",
+   "posted_at": "2026-04-27T18:02:07+09:00",
+   "days": [
+    {
+     "day": 27,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-27"
+    },
+    {
+     "day": 28,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-04-28"
+    },
+    {
+     "day": 29,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "とろ玉もりそば",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-04-29"
+    },
+    {
+     "day": 30,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "汁なし坦々麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-04-30"
+    },
+    {
+     "day": 1,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "アラビアータ",
+       "same_as": "アラビアータ"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-01"
+    },
+    {
+     "day": 2,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "アラビアータ",
+       "same_as": "アラビアータ"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-02"
+    },
+    {
+     "day": 3,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "アラビアータ",
+       "same_as": "アラビアータ"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-03"
+    }
+   ]
+  },
+  "2026-05-11": {
+   "post_url": "https://x.com/jyosho_yuki/status/2053761612268679486",
+   "posted_at": "2026-05-11T17:58:20+09:00",
+   "days": [
+    {
+     "day": 11,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-11"
+    },
+    {
+     "day": 12,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-12"
+    },
+    {
+     "day": 13,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "味噌角ふじ麺",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-13"
+    },
+    {
+     "day": 14,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチーズつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-05-14"
+    },
+    {
+     "day": 15,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "台湾まぜそば",
+       "same_as": "台湾まぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-15"
+    },
+    {
+     "day": 16,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯ラーメン",
+       "same_as": "鶏白湯ラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-16"
+    },
+    {
+     "day": 17,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "カレーつけ麺",
+       "same_as": "カレーつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-17"
+    }
+   ]
+  },
+  "2026-05-18": {
+   "post_url": "https://x.com/jyosho_yuki/status/2056302376928346338",
+   "posted_at": "2026-05-18T18:14:25+09:00",
+   "days": [
+    {
+     "day": 18,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-18"
+    },
+    {
+     "day": 19,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤ブタブタつけ麺",
+       "same_as": "赤ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-19"
+    },
+    {
+     "day": 20,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチ角ふじ麺",
+       "same_as": "キムチ角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-20"
+    },
+    {
+     "day": 21,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "G系まぜそば",
+       "same_as": "G系まぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-21"
+    },
+    {
+     "day": 22,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "坦々麺",
+       "same_as": "坦々麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-22"
+    },
+    {
+     "day": 23,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "背脂煮干しらーめん",
+       "same_as": "背脂煮干しらぁめん"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-23"
+    },
+    {
+     "day": 24,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-24"
+    }
+   ]
+  },
+  "2026-05-25": {
+   "post_url": "https://x.com/jyosho_yuki/status/2058762566227382543",
+   "posted_at": "2026-05-25T13:10:20+09:00",
+   "days": [
+    {
+     "day": 25,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-25"
+    },
+    {
+     "day": 26,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-26"
+    },
+    {
+     "day": 27,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "HOTOMATOラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-05-27"
+    },
+    {
+     "day": 28,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ゆず塩白湯ラーメン",
+       "same_as": "ゆず塩白湯ラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-28"
+    },
+    {
+     "day": 29,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎",
+       "same_as": "佑二郎"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-29"
+    },
+    {
+     "day": 30,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "佑二郎",
+       "same_as": "佑二郎"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-30"
+    },
+    {
+     "day": 31,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-05-31"
+    }
+   ]
+  },
+  "2026-06-08": {
+   "post_url": "https://x.com/jyosho_yuki/status/2063885033824526355",
+   "posted_at": "2026-06-08T16:25:11+09:00",
+   "days": [
+    {
+     "day": 8,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-08"
+    },
+    {
+     "day": 9,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-09"
+    },
+    {
+     "day": 10,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "坦々麺",
+       "same_as": "坦々麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-10"
+    },
+    {
+     "day": 11,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチ角ふじ",
+       "same_as": "キムチ角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-11"
+    },
+    {
+     "day": 12,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "豚骨魚介つけ麺 ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-06-12"
+    },
+    {
+     "day": 13,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-13"
+    },
+    {
+     "day": 14,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "煮干しまぜそば",
+       "same_as": "煮干しまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-14"
+    }
+   ]
+  },
+  "2026-06-22": {
+   "post_url": "https://x.com/jyosho_yuki/status/2069240174941483267",
+   "posted_at": "2026-06-23T11:04:36+09:00",
+   "days": [
+    {
+     "day": 22,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-22"
+    },
+    {
+     "day": 23,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-23"
+    },
+    {
+     "day": 24,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "あおり野菜つけ麺",
+       "same_as": "あおり野菜つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-24"
+    },
+    {
+     "day": 25,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチーズつけ麺",
+       "same_as": "キムチーズつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-25"
+    },
+    {
+     "day": 26,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "鶏白湯らーめん",
+       "same_as": "鶏白湯ラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-26"
+    },
+    {
+     "day": 27,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-27"
+    },
+    {
+     "day": 28,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-28"
+    }
+   ]
+  },
+  "2026-06-29": {
+   "post_url": "https://x.com/jyosho_yuki/status/2071412523010752737",
+   "posted_at": "2026-06-29T10:56:45+09:00",
+   "days": [
+    {
+     "day": 29,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-06-29"
+    },
+    {
+     "day": 30,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "豚骨魚介つけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-06-30"
+    },
+    {
+     "day": 1,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-07-01"
+    },
+    {
+     "day": 2,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-07-02"
+    },
+    {
+     "day": 3,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-07-03"
+    },
+    {
+     "day": 4,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-07-04"
+    },
+    {
+     "day": 5,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "トマトつけ麺",
+       "same_as": "トマトつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-07-05"
+    }
+   ]
+  },
+  "2026-10-12": {
+   "post_url": "https://x.com/jyosho_yuki/status/2109841028131999886",
+   "posted_at": "2026-10-13T11:57:54+09:00",
+   "days": [
+    {
+     "day": 12,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-10-12"
+    },
+    {
+     "day": 13,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-10-13"
+    },
+    {
+     "day": 14,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "キムチゲラーメン",
+       "same_as": "キムチゲラーメン"
+      }
+     ],
+     "note": "",
+     "date": "2026-10-14"
+    },
+    {
+     "day": 15,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "みそ角ふじ麺",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2026-10-15"
+    },
+    {
+     "day": 16,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "家系ラーメン",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-10-16"
+    },
+    {
+     "day": 17,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "JKまぜそば",
+       "same_as": "JKまぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-10-17"
+    },
+    {
+     "day": 18,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "みそとんづけ",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-10-18"
+    }
+   ]
+  },
+  "2026-11-09": {
+   "post_url": "https://x.com/jyosho_yuki/status/2119653447784178078",
+   "posted_at": "2026-11-09T13:48:57+09:00",
+   "days": [
+    {
+     "day": 9,
+     "weekday": "月",
+     "closed": false,
+     "menus": [
+      {
+       "name": "赤とん",
+       "same_as": "赤とん"
+      }
+     ],
+     "note": "",
+     "date": "2026-11-09"
+    },
+    {
+     "day": 10,
+     "weekday": "火",
+     "closed": false,
+     "menus": [
+      {
+       "name": "ブタブタつけ麺",
+       "same_as": "ブタブタつけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-11-10"
+    },
+    {
+     "day": 11,
+     "weekday": "水",
+     "closed": false,
+     "menus": [
+      {
+       "name": "味噌角ふじ",
+       "same_as": "味噌角ふじ"
+      }
+     ],
+     "note": "",
+     "date": "2026-11-11"
+    },
+    {
+     "day": 12,
+     "weekday": "木",
+     "closed": false,
+     "menus": [
+      {
+       "name": "グリーンカレーつけ麺",
+       "same_as": ""
+      }
+     ],
+     "note": "",
+     "date": "2026-11-12"
+    },
+    {
+     "day": 13,
+     "weekday": "金",
+     "closed": false,
+     "menus": [
+      {
+       "name": "台湾まぜそば",
+       "same_as": "台湾まぜそば"
+      }
+     ],
+     "note": "",
+     "date": "2026-11-13"
+    },
+    {
+     "day": 14,
+     "weekday": "土",
+     "closed": false,
+     "menus": [
+      {
+       "name": "常勝家",
+       "same_as": "常勝家"
+      }
+     ],
+     "note": "",
+     "date": "2026-11-14"
+    },
+    {
+     "day": 15,
+     "weekday": "日",
+     "closed": false,
+     "menus": [
+      {
+       "name": "大人つけ麺",
+       "same_as": "大人つけ麺"
+      }
+     ],
+     "note": "",
+     "date": "2026-11-15"
+    }
+   ]
+  }
+ },
+ "daily": {
+  "2026-11-12": {
+   "menus": [
+    "グリーンカレーつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2120700384914329833"
+  },
+  "2026-10-21": {
+   "menus": [
+    "グリーンカレーつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2112736950105042971"
+  },
+  "2026-10-14": {
+   "menus": [
+    "キムチゲラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2110188764308058271"
+  },
+  "2026-10-01": {
+   "menus": [
+    "煽り野菜つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2105471449763115050"
+  },
+  "2026-09-30": {
+   "menus": [
+    "キムチ角ふじ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2105112125438128465"
+  },
+  "2026-09-15": {
+   "menus": [
+    "ブタブタつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2099679292376645649"
+  },
+  "2026-09-08": {
+   "menus": [
+    "赤ブタブタつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2097185353744728466"
+  },
+  "2026-09-04": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2095690692584726704"
+  },
+  "2026-09-03": {
+   "menus": [
+    "担々麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2095318722093416684"
+  },
+  "2026-08-23": {
+   "menus": [
+    "元祖とんづけ塩"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2091315710471663978"
+  },
+  "2026-08-02": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2083733403061624877"
+  },
+  "2026-07-29": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2082283407258894776"
+  },
+  "2026-07-01": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2072138399532876214"
+  },
+  "2026-06-19": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2067787484923347449"
+  },
+  "2026-06-16": {
+   "menus": [
+    "赤ブタブタつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2066677657736253629"
+  },
+  "2026-06-12": {
+   "menus": [
+    "濃厚豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2065252160053600720"
+  },
+  "2026-06-06": {
+   "menus": [
+    "家系ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2063085622546575782"
+  },
+  "2026-06-05": {
+   "menus": [
+    "台湾まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2062714202616422579"
+  },
+  "2026-06-04": {
+   "menus": [
+    "とろ玉もりそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2062351863551594589"
+  },
+  "2026-06-03": {
+   "menus": [
+    "みぞれらーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2061976201695228214"
+  },
+  "2026-05-30": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2060541527554994661"
+  },
+  "2026-05-29": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2060329881544851691"
+  },
+  "2026-05-28": {
+   "menus": [
+    "ゆず塩白湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2059819424195162355"
+  },
+  "2026-05-27": {
+   "menus": [
+    "HOTOMATOラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2059466333583253603"
+  },
+  "2026-05-06": {
+   "menus": [
+    "アラビアータまぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2051858430013616338"
+  },
+  "2026-05-01": {
+   "menus": [
+    "トマトアラビアータまぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2050032400185663932"
+  },
+  "2026-04-30": {
+   "menus": [
+    "汁なし担々麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2049668646780428592"
+  },
+  "2026-04-26": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2048219310154453064"
+  },
+  "2026-04-25": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2047857776798613597"
+  },
+  "2026-04-17": {
+   "menus": [
+    "濃厚豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2044956503560605799"
+  },
+  "2026-04-16": {
+   "menus": [
+    "台湾まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2044596215766212958"
+  },
+  "2026-04-14": {
+   "menus": [
+    "ぶたぶたつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2043871726866743633"
+  },
+  "2026-04-02": {
+   "menus": [
+    "濃厚坦々つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2039519940475322425"
+  },
+  "2026-02-17": {
+   "menus": [
+    "ブタブタつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2023575638918250903"
+  },
+  "2026-02-12": {
+   "menus": [
+    "キムチゲラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2021764215934189682"
+  },
+  "2026-01-30": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2017056554638594557"
+  },
+  "2026-01-28": {
+   "menus": [
+    "鯛清湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2016331702067724510"
+  },
+  "2026-01-25": {
+   "menus": [
+    "台湾まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2015240615571960071"
+  },
+  "2026-01-24": {
+   "menus": [
+    "背脂煮干しらーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2014878060865294448"
+  },
+  "2026-01-21": {
+   "menus": [
+    "鯛清湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2013793534961205489"
+  },
+  "2026-01-18": {
+   "menus": [
+    "辛味噌角ふじ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2012705370251354354"
+  },
+  "2026-01-17": {
+   "menus": [
+    "JKまぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2012344163979686333"
+  },
+  "2026-01-09": {
+   "menus": [
+    "鯛白湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2009444877478842836"
+  },
+  "2026-01-07": {
+   "menus": [
+    "鯛白湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2008722355460493367"
+  },
+  "2025-12-28": {
+   "menus": [
+    "ブッタン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2005097287023034490"
+  },
+  "2025-12-27": {
+   "menus": [
+    "佑希式 家系らーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2004732166736060680"
+  },
+  "2025-12-24": {
+   "menus": [
+    "豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2003644815712616553"
+  },
+  "2025-12-21": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2002669206190653825"
+  },
+  "2025-12-20": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/2002193603540455555"
+  },
+  "2025-12-05": {
+   "menus": [
+    "濃厚豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1996764669441360230"
+  },
+  "2025-12-04": {
+   "menus": [
+    "煮干しまぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1996396812987720092"
+  },
+  "2025-11-30": {
+   "menus": [
+    "にぼトンラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1994948649416315106"
+  },
+  "2025-11-13": {
+   "menus": [
+    "背脂煮干しらーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1988788879449813281"
+  },
+  "2025-11-12": {
+   "menus": [
+    "生姜醤油らーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1988420624465973610"
+  },
+  "2025-10-31": {
+   "menus": [
+    "パンプキンつけ麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1984077332806816166"
+  },
+  "2025-10-30": {
+   "menus": [
+    "香味油〜麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1983727266489364901"
+  },
+  "2025-10-28": {
+   "menus": [
+    "野菜つけ麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1982990513755304201"
+  },
+  "2025-10-22": {
+   "menus": [
+    "鯛ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1980808776635814282"
+  },
+  "2025-10-02": {
+   "menus": [
+    "煮干しまぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1973567218802893085"
+  },
+  "2025-09-20": {
+   "menus": [
+    "濃厚鶏白湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1969218819726967093"
+  },
+  "2025-09-17": {
+   "menus": [
+    "台湾まぜそば",
+    "トリボナーラ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1968131656063259098"
+  },
+  "2025-09-16": {
+   "menus": [
+    "トリボナーラ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1967768233810989444"
+  },
+  "2025-09-15": {
+   "menus": [
+    "赤とんづけ",
+    "トリボナーラ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1967415549220282445"
+  },
+  "2025-09-13": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1966736177790321031"
+  },
+  "2025-09-12": {
+   "menus": [
+    "トリボナーラ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1966329367258345841"
+  },
+  "2025-09-05": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1963795639181132059"
+  },
+  "2025-09-04": {
+   "menus": [
+    "煮干しまぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1963421567276519750"
+  },
+  "2025-09-03": {
+   "menus": [
+    "冷やし胡麻らーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1963058474872660030"
+  },
+  "2025-09-01": {
+   "menus": [
+    "赤とんづけ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1962319657567953124"
+  },
+  "2025-07-28": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1949634076044087692"
+  },
+  "2025-07-06": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1941678990995096015"
+  },
+  "2025-07-02": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1940227162755498302"
+  },
+  "2025-07-01": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1939908110904435040"
+  },
+  "2025-06-30": {
+   "menus": [
+    "赤とんづけ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1939504977720094780"
+  },
+  "2025-06-29": {
+   "menus": [
+    "冷やし旨辛胡麻つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1939137540436697155"
+  },
+  "2025-06-27": {
+   "menus": [
+    "冷やし胡麻つけ麺",
+    "背脂煮干しつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1938415505528029241"
+  },
+  "2025-06-26": {
+   "menus": [
+    "麻婆味噌らーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1938054317799616967"
+  },
+  "2025-06-19": {
+   "menus": [
+    "台湾まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1935514938560463160"
+  },
+  "2025-06-14": {
+   "menus": [
+    "豚玉肉そば",
+    "豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1933696511608852729"
+  },
+  "2025-06-12": {
+   "menus": [
+    "蟹清湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1932987004012347895"
+  },
+  "2025-06-06": {
+   "menus": [
+    "濃厚豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1930803720465568246"
+  },
+  "2025-06-05": {
+   "menus": [
+    "鬼辛まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1930442340734513344"
+  },
+  "2025-06-04": {
+   "menus": [
+    "鶏白湯つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1930081953358938574"
+  },
+  "2025-05-31": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1928632116260303316"
+  },
+  "2025-05-28": {
+   "menus": [
+    "煽り野菜つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1927546424809382250"
+  },
+  "2025-05-22": {
+   "menus": [
+    "冷やし担々まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1925379135385608244"
+  },
+  "2025-05-17": {
+   "menus": [
+    "トマトつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1923562859101028636"
+  },
+  "2025-05-16": {
+   "menus": [
+    "豚骨ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1923193653851287809"
+  },
+  "2025-05-15": {
+   "menus": [
+    "煽り野菜つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1922833518230450198"
+  },
+  "2025-04-25": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1915729815178756598"
+  },
+  "2025-04-24": {
+   "menus": [
+    "担々麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1915224693461942547"
+  },
+  "2025-04-22": {
+   "menus": [
+    "ブタブタつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1914497936282804470"
+  },
+  "2025-04-18": {
+   "menus": [
+    "豚骨魚介つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1913046913307578569"
+  },
+  "2025-04-17": {
+   "menus": [
+    "油そば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1912692838762152390"
+  },
+  "2025-04-12": {
+   "menus": [
+    "家系ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1910873487427985775"
+  },
+  "2025-04-11": {
+   "menus": [
+    "鶏白湯つけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1910513252574068927"
+  },
+  "2025-04-05": {
+   "menus": [
+    "佑二郎まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1908333595409998214"
+  },
+  "2025-03-31": {
+   "menus": [
+    "赤とんづけ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1906551828730245190"
+  },
+  "2025-03-29": {
+   "menus": [
+    "みぞれらーめん"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1905809790414070213"
+  },
+  "2025-03-27": {
+   "menus": [
+    "台湾ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1905078035688370303"
+  },
+  "2025-03-22": {
+   "menus": [
+    "佑二郎"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1903262695308361897"
+  },
+  "2025-03-15": {
+   "menus": [
+    "担々麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1900727266700939719"
+  },
+  "2025-03-12": {
+   "menus": [
+    "復刻カレーつけ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1899647208129274011"
+  },
+  "2025-03-08": {
+   "menus": [
+    "つくば茜鷄の濃厚鶏白湯"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1898192233243066673"
+  },
+  "2025-03-07": {
+   "menus": [
+    "つくば茜鷄の塩ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1897820967227080989"
+  },
+  "2025-03-02": {
+   "menus": [
+    "背脂煮干しそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1896014892442009923"
+  },
+  "2025-03-01": {
+   "menus": [
+    "佑二郎 非乳化ver"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1895651609054765262"
+  },
+  "2025-02-28": {
+   "menus": [
+    "台湾まぜそば"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1895292615102472325"
+  },
+  "2025-02-27": {
+   "menus": [
+    "にぼふじ麺"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1894930163089227930"
+  },
+  "2025-02-24": {
+   "menus": [
+    "赤とんづけ"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1893859677638643831"
+  },
+  "2025-02-21": {
+   "menus": [
+    "佑希式家系ラーメン"
+   ],
+   "post_url": "https://x.com/jyosho_yuki/status/1892750809940582894"
+  },
+  "2026-03-26": {
+   "menus": [
+    "角煮そば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2036989083474682065"
+  },
+  "2026-03-23": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2035911629477744891"
+  },
+  "2026-03-21": {
+   "menus": [
+    "香味油〜麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2035168939970613669"
+  },
+  "2026-03-07": {
+   "menus": [
+    "G系まぜそば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2030098898346463494"
+  },
+  "2026-03-06": {
+   "menus": [
+    "ネギ塩つけ麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2029748630522053091"
+  },
+  "2026-03-02": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2028311050312134713"
+  },
+  "2026-02-20": {
+   "menus": [
+    "背脂煮干しラーメン"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2024685526239105159"
+  },
+  "2026-02-16": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2023215012517716322"
+  },
+  "2026-02-15": {
+   "menus": [
+    "大人つけ麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2022851085459943737"
+  },
+  "2026-02-13": {
+   "menus": [
+    "鶏白湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2022153671346466950"
+  },
+  "2026-02-09": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2020685035234623840"
+  },
+  "2026-01-19": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/2013098949465583969"
+  },
+  "2025-11-28": {
+   "menus": [
+    "もやしあんかけそは"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1994235228127138009"
+  },
+  "2025-11-21": {
+   "menus": [
+    "ガーリック油そば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1991686378279911562"
+  },
+  "2025-11-10": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1987729880113672694"
+  },
+  "2025-11-08": {
+   "menus": [
+    "JKまぜそば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1986992930457067688"
+  },
+  "2025-11-07": {
+   "menus": [
+    "甘辛肉そば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1986629557265571965"
+  },
+  "2025-11-01": {
+   "menus": [
+    "汁無したんたんめ"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1984442065510678550"
+  },
+  "2025-10-24": {
+   "menus": [
+    "鶏白湯ラーメン"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1981536972926849203"
+  },
+  "2025-10-21": {
+   "menus": [
+    "鯛ラーメン"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1980521458435789139"
+  },
+  "2025-10-20": {
+   "menus": [
+    "赤とん"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1980103772157431843"
+  },
+  "2025-10-19": {
+   "menus": [
+    "鶏そば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1979741895514636712"
+  },
+  "2025-10-18": {
+   "menus": [
+    "こってりラーメン"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1979368559152369849"
+  },
+  "2025-10-16": {
+   "menus": [
+    "あおり野菜つけ麺"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1978648625426428140"
+  },
+  "2025-10-13": {
+   "menus": [
+    "金目鯛ラーメン"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1977556934296477932"
+  },
+  "2025-10-09": {
+   "menus": [
+    "角煮そば"
+   ],
+   "post_url": "https://x.com/jyoshoken_ryuji/status/1976094628874158384"
+  }
+ },
+ "notified_ids": [
+  "1894930163089227930",
+  "1895651609054765262",
+  "1901803355774820815",
+  "1903262695308361897",
+  "1903407784420606416",
+  "1908333595409998214",
+  "1908398714273554842",
+  "1915224693461942547",
+  "1915583737481359695",
+  "1915729815178756598",
+  "1928632116260303316",
+  "1964871271067566230",
+  "1966329367258345841",
+  "1966681425593184716",
+  "1966736177790321031",
+  "2000365142341718355",
+  "2002193603540455555",
+  "2002335185929711704",
+  "2002558065913319935",
+  "2002669206190653825",
+  "2016331702067724510",
+  "2017056554638594557",
+  "2059819424195162355",
+  "2060169106389864590",
+  "2060329881544851691",
+  "2060541527554994661",
+  "2067787484923347449",
+  "2086546978884960369",
+  "2090899760534450422",
+  "2090946090984239548",
+  "2090978040545497120",
+  "2095318722093416684",
+  "2095690692584726704"
+ ]
+}
