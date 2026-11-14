@@ -4,8 +4,9 @@ name: Ramen Weekly Menu (jyosho_yuki)
 # 狙いのメニュー（data/ramen_watch.txt）が出た週・見送りでよい週を Discord に通知する。
 on:
   schedule:
-    - cron: '40 23 * * *'  # 日本時間 8:40
-    - cron: '40 10 * * *'  # 日本時間 19:40
+    # 「今週の予定」は11時台に投稿されるので、その後に確認する（GitHub の定期実行は数分〜数十分遅れることがある）
+    - cron: '5 3 * * *'   # 日本時間 12:05
+    - cron: '5 4 * * *'   # 日本時間 13:05（投稿が遅れた日の取りこぼし対策。読み取り済みなら何もしない）
   workflow_dispatch:
     inputs:
       backfill:
