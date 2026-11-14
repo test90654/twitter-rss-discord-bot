@@ -12,7 +12,7 @@ from pydantic import BaseModel
 
 # ラーメン屋（@jyosho_yuki）の「今週の予定」画像を Gemini で読み取り、限定メニューの登場履歴を貯める。
 #
-# ・「今週の予定」と書かれた画像が付いたポストだけを読む（本文に無くても画像の中身で判定する）
+# ・本文に「今週の予定」とある画像付きポストだけを読む（画像は黒板の「今週のプレミアム常勝軒」）
 # ・週ごとの限定メニューを data/ramen_weekly.json に記録し、メニューごとの登場率を data/ramen_stats.md に出す
 # ・data/ramen_watch.txt に書いたメニューが出た週は Discord に通知する
 #   出ない週は「見送りOK」か「レア枠あり」かを判定して通知する
@@ -30,7 +30,7 @@ os.environ.setdefault("CALENDAR_TARGET_USER", os.environ.get("RAMEN_TARGET_USER"
 import prize_calendar as pc  # noqa: E402
 
 TARGET_USER = os.environ.get("RAMEN_TARGET_USER", "jyosho_yuki")
-STORE_NAME = os.environ.get("RAMEN_STORE_NAME", "ラーメン屋")
+STORE_NAME = os.environ.get("RAMEN_STORE_NAME", "本庄常勝軒")
 KEYWORD = "今週の予定"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -56,7 +56,8 @@ def normalize_menu(name):
     s = unicodedata.normalize("NFKC", str(name)).lower()
     s = re.sub(r"[\s・･\-ー〜~!！?？★☆◎○●◆◇■□※【】\[\]（）()「」『』]", "", s)
     s = re.sub(r"(限定|数量限定|新作|new)$", "", s)
-    return s
+    # カタカナはひらがなにそろえる（「ミソ」と「みそ」を同じに扱う）
+    return "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in s)
 
 
 def week_monday(d):
@@ -66,37 +67,45 @@ def week_monday(d):
 # ============================================================
 # 「今週の予定」画像を読み取る
 # ============================================================
+class MenuItem(BaseModel):
+    name: str      # 黒板の表記のまま
+    same_as: str   # 過去に出たメニューと同じものなら、その過去の名前（無ければ空）
+
+
 class DayMenu(BaseModel):
-    date: str          # "11/17" のように画像の表記のまま（無ければ空）
-    weekday: str       # "月" など（無ければ空）
-    closed: bool       # 休業日
-    menus: list[str]   # その日に出す限定メニュー
-    note: str          # 営業時間の変更などの補足（無ければ空）
+    day: int              # 日にち（「9日」なら 9。読めなければ 0）
+    weekday: str          # "月" など（無ければ空）
+    closed: bool          # 休業日
+    menus: list[MenuItem]  # その日に出す限定メニュー
+    note: str             # 補足（無ければ空）
 
 
 class WeeklySchedule(BaseModel):
-    is_weekly_schedule: bool  # 「今週の予定」の画像か
-    start_date: str           # 週の初日 "YYYY-MM-DD"（年が読めなければ "MM-DD"、不明なら空）
+    is_weekly_schedule: bool  # 週の予定表の画像か
     days: list[DayMenu]
 
 
-OCR_PROMPT = f"""この画像がラーメン屋の「{KEYWORD}」（1週間の営業予定・限定メニューの予定表）かどうかを判定し、
-そうであれば中身を読み取ってください。
+OCR_PROMPT = """これはラーメン屋「本庄常勝軒」の、1週間の限定メニューの予定表の写真です。
+黒板に「今週のプレミアム常勝軒」という見出しがあり、その下に「9日(月)」のような日付・曜日と、
+「・赤とん」のようにその日の限定メニューが手書きで縦書きされています（ふつうは1日1品）。
 
-- is_weekly_schedule: 画像に「{KEYWORD}」（または同じ意味の週間予定の見出し）があり、日ごとの予定が書かれていれば true。
-  ラーメンの写真だけ・告知文だけの画像なら false にして、days は空にする
-- start_date: 予定表の最初の日付。年が書かれていれば "YYYY-MM-DD"、無ければ "MM-DD"。分からなければ空文字
-- days: 予定表の日ごとに1件
-  - date: その日の日付を "M/D" の形で（書かれていなければ空文字）
-  - weekday: 曜日1文字（月・火・水・木・金・土・日。書かれていなければ空文字）
+- is_weekly_schedule: このような週の予定表なら true。ラーメンの写真や告知だけの画像なら false にして days は空にする
+- days: 予定表の日ごとに1件（左から順に）
+  - day: 日にちの数字（「9日」なら 9。読めなければ 0）
+  - weekday: 曜日1文字（月・火・水・木・金・土・日）
   - closed: 休み・定休日・臨時休業なら true
-  - menus: その日に出す限定メニュー・日替わりメニューの名前。複数あればすべて。
-    通常メニュー（毎日ある定番）が「通常営業」などとしか書かれていなければ空にする
-  - note: 営業時間の変更・夜営業なし・売り切れ次第終了などの補足（無ければ空文字）
+  - menus: その日の限定メニュー
+    - name: 黒板の表記のまま（先頭の「・」は除く。縦書きの改行はつなげる）
+    - same_as: 下の「過去に出たメニュー」に同じメニュー（ひらがな・漢字の違い、「麺」の有無などの書き方の違いだけのもの）があれば、
+      その名前をそのまま書く。無ければ空文字。似ているだけの別メニュー（味が違うなど）は空文字にする
+  - note: 「売切」「夜のみ」などの補足（無ければ空文字）
 
 注意:
-- 見えている文字だけを書く。読めない部分を推測で補わない
-- メニュー名は画像の表記のまま（値段・「限定」「〇食」などの数量は含めない）
+- 黒板には前の週の消し跡がうっすら残っていることがある。はっきり書かれた白い文字だけを読み、薄い消し跡は無視する
+- 読めない部分を推測で補わない
+
+過去に出たメニュー:
+{known}
 """
 
 
@@ -108,9 +117,10 @@ def ocr_config():
         return types.GenerateContentConfig(**kwargs)
 
 
-def ocr_schedule(client, image_bytes, mime="image/jpeg"):
+def ocr_schedule(client, image_bytes, mime="image/jpeg", known=()):
     part = types.Part.from_bytes(data=image_bytes, mime_type=mime)
-    resp = pc._call_gemini(client, [part, OCR_PROMPT], ocr_config())
+    prompt = OCR_PROMPT.format(known="\n".join(f"- {k}" for k in known) or "（まだ無し）")
+    resp = pc._call_gemini(client, [part, prompt], ocr_config())
     parsed = getattr(resp, "parsed", None)
     if isinstance(parsed, WeeklySchedule):
         return parsed
@@ -119,23 +129,34 @@ def ocr_schedule(client, image_bytes, mime="image/jpeg"):
 
 
 def resolve_week(sched, posted):
-    """予定表の日付から週（月曜日の日付）を決める。読めなければ投稿日の週（日曜投稿は翌週分とみなす）"""
+    """黒板の日にち・曜日と投稿日から、その週の月曜日を決める。
+    黒板は日にちしか書かれていないので、投稿日の前後10日で日にちと曜日が合う日を探す"""
     posted_d = (posted or datetime.now(pc.JST)).date()
-    m = re.match(r"(?:(\d{4})-)?(\d{1,2})-(\d{1,2})$", sched.start_date.strip())
-    if not m:
-        first = next((d.date for d in sched.days if re.match(r"\d{1,2}/\d{1,2}$", d.date.strip())), "")
-        m2 = re.match(r"(\d{1,2})/(\d{1,2})$", first.strip())
-        m = m2 and re.match(r"(?:(\d{4})-)?(\d{1,2})-(\d{1,2})$", f"{m2.group(1)}-{m2.group(2)}")
-    if m:
-        year = int(m.group(1)) if m.group(1) else posted_d.year
-        try:
-            d = date(year, int(m.group(2)), int(m.group(3)))
-            if not m.group(1) and (d - posted_d).days < -200:   # 12月末に翌年1月分を投稿した場合
-                d = date(year + 1, d.month, d.day)
-            return week_monday(d)
-        except ValueError:
-            pass
+    best = None
+    for d in sched.days:
+        if not (1 <= d.day <= 31):
+            continue
+        for off in range(-10, 11):
+            c = posted_d + timedelta(days=off)
+            if c.day != d.day:
+                continue
+            if d.weekday and d.weekday in WEEKDAYS and WEEKDAYS[c.weekday()] != d.weekday:
+                continue
+            if best is None or abs(off) < abs(best[0]):
+                best = (off, c)
+        if best:
+            return week_monday(best[1])
+    # 日付が読めなければ投稿日の週（日曜の投稿は翌週分とみなす）
     return week_monday(posted_d + timedelta(days=1) if posted_d.weekday() == 6 else posted_d)
+
+
+def day_dates(sched, monday):
+    """各日の実際の日付（曜日から。曜日が無ければ並び順）"""
+    out = []
+    for i, d in enumerate(sched.days):
+        idx = WEEKDAYS.index(d.weekday) if d.weekday and d.weekday in WEEKDAYS else i
+        out.append((monday + timedelta(days=idx)).isoformat())
+    return out
 
 
 # ============================================================
@@ -161,16 +182,23 @@ def load_watch():
     return [l for l in lines if l]
 
 
+# 比較用キー → 黒板に書かれたことのある表記（「みそ角ふじ麺」と「味噌角ふじ」など）。監視ワードの照合に使う
+ALIASES = {}
+
+
 def week_menus(week):
     """その週に出た限定メニュー（比較用キー → 表示名, 曜日のリスト）"""
     out = {}
     for d in week["days"]:
         if d.get("closed"):
             continue
-        for name in d.get("menus", []):
+        for m in d.get("menus", []):
+            name = m.get("same_as") or m.get("name", "") if isinstance(m, dict) else m
             key = normalize_menu(name)
             if not key:
                 continue
+            raw = m.get("name", "") if isinstance(m, dict) else m
+            ALIASES.setdefault(key, set()).update({key, normalize_menu(raw)})
             disp, days = out.setdefault(key, (name, []))
             if d.get("weekday") and d["weekday"] not in days:
                 days.append(d["weekday"])
@@ -207,12 +235,13 @@ def compute_stats(weeks, upto=None):
 
 
 def find_watched(stats_or_menus, watch):
-    """監視ワードに部分一致するメニューのキー"""
+    """監視ワードに部分一致するメニューのキー。監視ワードは「味噌|みそ」のように | で別の書き方を並べられる"""
     hits = {}
     for w in watch:
-        wk = normalize_menu(w)
+        alts = [normalize_menu(a) for a in w.split("|") if normalize_menu(a)]
         for key in stats_or_menus:
-            if wk and wk in key:
+            names = ALIASES.get(key, {key})
+            if any(a in n for a in alts for n in names):
                 hits.setdefault(w, []).append(key)
     return hits
 
@@ -245,7 +274,7 @@ def judge_week(week_key, weeks, watch):
     hits = find_watched(menus, watch)
     rare = [k for k in menus if k not in stats or (enough and stats[k]["rate"] <= RARE_RATE)]
     if hits:
-        names = "、".join(menus[k][0] + f"（{'・'.join(menus[k][1]) or '曜日不明'}）" for ks in hits.values() for k in ks)
+        names = "、".join(menus[k][0] + f"（{'・'.join(menus[k][1]) or '曜日不明'}）" for k in dict.fromkeys(k for ks in hits.values() for k in ks))
         verdict = f"🔔 **狙いのメニューが出ます！** {names}"
     elif rare:
         verdict = f"👀 **レア枠あり**：{'、'.join(menus[k][0] for k in rare)}（狙い以外ですが、次はいつ出るか分かりません）"
@@ -302,37 +331,46 @@ def write_stats_md(weeks, watch):
 # ============================================================
 # ポストの処理
 # ============================================================
+def is_schedule_post(post):
+    return KEYWORD in unicodedata.normalize("NFKC", pc.post_text(post)) and bool(pc.image_urls(post))
+
+
+def known_menu_names(data):
+    names = {}
+    for wk in data["weeks"].values():
+        for key, (disp, _) in week_menus(wk).items():
+            names[key] = disp
+    return sorted(names.values())
+
+
 def process_post(client, post, data, force=False):
-    """「今週の予定」の画像なら週の予定として記録し、週のキーを返す"""
+    """本文に「今週の予定」があり画像付きのポストを読み取り、週の予定として記録して週のキーを返す"""
     pid = str(post.get("id"))
-    if pid in data["seen_ids"] and not force:
+    if (pid in data["seen_ids"] and not force) or not is_schedule_post(post):
         return None
-    imgs = pc.image_urls(post)
-    if not imgs:
-        return None
-    text = pc.post_text(post)
     posted = pc.post_time(post)
     found = None
-    for n, url in enumerate(imgs, start=1):
+    for n, url in enumerate(pc.image_urls(post), start=1):
         img, mime = pc.download_image(url)
-        sched = ocr_schedule(client, img, mime if mime.startswith("image/") else "image/jpeg")
+        sched = ocr_schedule(client, img, mime if mime.startswith("image/") else "image/jpeg", known_menu_names(data))
         if sched.is_weekly_schedule and sched.days:
             found = sched
             print(f"[今週の予定] {post_url(post)} 画像{n}（モデル: {pc._working_model}）")
             break
-    data["seen_ids"].append(pid)  # 予定表でなかったポストも覚えておき、二度と読まない
+    data["seen_ids"].append(pid)
     if not found:
-        print(f"  予定表ではない画像: {post_url(post)} / {text[:40]!r}")
+        print(f"::warning::「今週の予定」のポストですが予定表を読み取れませんでした: {post_url(post)}")
         return None
-    wk = resolve_week(found, posted).isoformat()
-    data["weeks"][wk] = {
-        "post_url": post_url(post),
-        "posted_at": posted.isoformat() if posted else "",
-        "start_date": found.start_date,
-        "days": [d.model_dump() for d in found.days],
-    }
-    for d in found.days:
-        print(f"  {d.weekday or '?'} {d.date or ''} {'休み' if d.closed else '、'.join(d.menus) or '-'}")
+    monday = resolve_week(found, posted)
+    wk = monday.isoformat()
+    days = []
+    for d, iso in zip(found.days, day_dates(found, monday)):
+        row = d.model_dump()
+        row["date"] = iso
+        days.append(row)
+        names = "、".join(m.name + (f"（= {m.same_as}）" if m.same_as and m.same_as != m.name else "") for m in d.menus)
+        print(f"  {iso} {d.weekday or '?'} {'休み' if d.closed else names or '-'}")
+    data["weeks"][wk] = {"post_url": post_url(post), "posted_at": posted.isoformat() if posted else "", "days": days}
     return wk
 
 
@@ -360,11 +398,21 @@ def main():
     else:
         n = int(sys.argv[sys.argv.index("--backfill") + 1]) if "--backfill" in sys.argv else 40
         posts = pc.run_twitter_cli(["user-posts", TARGET_USER, "--max", str(n)])
-        force = False
         print(f"[X取得] @{TARGET_USER} の投稿 {len(posts)}件")
+        if "--backfill" in sys.argv:
+            # 投稿一覧で届かない古い週は検索で拾う（「今週の予定」は週1回なので件数は少ない）
+            try:
+                found = pc.run_twitter_cli(["search", KEYWORD, "--from", TARGET_USER, "--type", "Latest", "--max", str(n)])
+                ids = {str(p.get("id")) for p in posts}
+                posts += [p for p in found if str(p.get("id")) not in ids]
+                print(f"[X検索] 「{KEYWORD}」 {len(found)}件")
+            except Exception as e:
+                print(f"::warning::検索に失敗したので投稿一覧の範囲だけ読みます: {e}")
+        force = False
+        print(f"  うち「{KEYWORD}」の画像付きポスト {sum(1 for p in posts if is_schedule_post(p))}件")
     backfill = "--backfill" in sys.argv
 
-    # 画像の中だけに「今週の予定」と書かれている場合もあるので、本文では絞らず画像付きポストをすべて判定する（古い順）
+    # 古い順に読む（過去に出たメニューの名前を、後の週の表記ゆれの照合に使うため）
     posts = sorted(posts, key=lambda p: pc.post_time(p) or datetime.min.replace(tzinfo=pc.JST))
     new_weeks = []
     try:
