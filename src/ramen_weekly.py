@@ -30,6 +30,23 @@ os.environ.setdefault("CALENDAR_TARGET_USER", os.environ.get("RAMEN_TARGET_USER"
 import prize_calendar as pc  # noqa: E402
 
 TARGET_USER = os.environ.get("RAMEN_TARGET_USER", "jyosho_yuki")
+# 「本日限定【○○】」はお店のもう1つのアカウント（竜二さん）も投稿しているので、両方読む
+TARGET_USERS = [u.strip() for u in os.environ.get("RAMEN_TARGET_USERS", f"{TARGET_USER},jyoshoken_ryuji").split(",") if u.strip()]
+# 「本日限定【○○】」「限定【○○】」「水木限定【○○】」「本日も限定は【○○】」「7月限定は毎年恒例の【○○】」など
+DAILY_RE = re.compile(r"限定(?!丼)[^【\n]{0,12}\n?\s*【([^】]+)】")
+
+
+def extract_daily(text):
+    """その日の限定メニュー名。「明日28日の限定は【○○】」のような予告は今日の分に数えない"""
+    names = []
+    for m in DAILY_RE.finditer(text):
+        line_start = text.rfind("\n", 0, m.start()) + 1
+        if re.search(r"明日|明後日|来週|\d+日(?:から|の)", text[line_start:m.start()]):
+            continue
+        name = re.sub(r"\s+", " ", m.group(1)).strip()
+        if name and name not in names:
+            names.append(name)
+    return names
 STORE_NAME = os.environ.get("RAMEN_STORE_NAME", "本庄常勝軒")
 KEYWORD = "今週の予定"
 
@@ -48,7 +65,8 @@ WEEKDAYS = "月火水木金土日"
 
 
 def post_url(post):
-    return f"https://x.com/{TARGET_USER}/status/{post.get('id', '')}"
+    user = ((post.get("author") or {}).get("screenName")) or TARGET_USER
+    return f"https://x.com/{user}/status/{post.get('id', '')}"
 
 
 def normalize_menu(name):
@@ -170,6 +188,7 @@ def load_data():
 
 def save_data(data):
     data["seen_ids"] = sorted(set(data["seen_ids"]), key=int)
+    data["notified_ids"] = sorted(set(data.get("notified_ids", [])), key=int)
     data["weeks"] = dict(sorted(data["weeks"].items()))
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -203,6 +222,39 @@ def week_menus(week):
             if d.get("weekday") and d["weekday"] not in days:
                 days.append(d["weekday"])
     return out
+
+
+def record_daily(posts, data):
+    """「本日限定【○○】」のポストを日ごとに記録する（画像は読まないので Gemini は使わない）"""
+    daily = data.setdefault("daily", {})
+    added = 0
+    for post in posts:
+        text = unicodedata.normalize("NFKC", pc.post_text(post))
+        when = pc.post_time(post)
+        if not when:
+            continue
+        names = extract_daily(text)
+        if not names:
+            continue
+        day = when.date().isoformat()
+        entry = daily.setdefault(day, {"menus": [], "post_url": post_url(post)})
+        for n in names:
+            if normalize_menu(n) not in {normalize_menu(m) for m in entry["menus"]}:
+                entry["menus"].append(n)
+                added += 1
+    return added
+
+
+def merged_weeks(data):
+    """黒板（今週の予定）と「本日限定」ポストを週ごとにまとめる。登場率はこれで計算する"""
+    weeks = {wk: {**w, "days": list(w["days"]), "board": True} for wk, w in data["weeks"].items()}
+    for day, entry in data.get("daily", {}).items():
+        d = date.fromisoformat(day)
+        wk = week_monday(d).isoformat()
+        w = weeks.setdefault(wk, {"post_url": entry["post_url"], "days": [], "board": False})
+        w["days"].append({"date": day, "weekday": WEEKDAYS[d.weekday()], "closed": False,
+                          "menus": [{"name": m, "same_as": ""} for m in entry["menus"]], "daily": True})
+    return dict(sorted(weeks.items()))
 
 
 # ============================================================
@@ -312,11 +364,15 @@ def judge_week(week_key, weeks, watch):
 
 def write_stats_md(weeks, watch):
     stats, n = compute_stats(weeks)
+    boards = sum(1 for w in weeks.values() if w.get("board"))
+    daily_days = sum(1 for w in weeks.values() for d in w["days"] if d.get("daily"))
     watched = {k for ks in find_watched(stats, watch).values() for k in ks}
     rows = sorted(stats.values(), key=lambda s: (-s["count"], s["name"]))
     first = min(weeks) if weeks else "-"
     out = [f"# {STORE_NAME} 限定メニュー登場率", "",
-           f"{first} の週から {n}週分（自動更新: {datetime.now(pc.JST):%Y-%m-%d %H:%M}）", "",
+           f"{first} の週から、情報のある {n}週分（黒板「今週の予定」{boards}週 ＋「本日限定」ポスト {daily_days}日）",
+           f"自動更新: {datetime.now(pc.JST):%Y-%m-%d %H:%M}", "",
+           "※黒板の無い週は「本日限定」ポストのある日だけで数えているので、実際より少なめに出ることがあります", "",
            "| メニュー | 登場 | 登場率 | 来週の見込み | 平均間隔 | 最後に出た週 | よく出る曜日 |",
            "|---|---|---|---|---|---|---|"]
     for s in rows:
@@ -374,6 +430,49 @@ def process_post(client, post, data, force=False):
     return wk
 
 
+def notify_mentions(posts, data, watch, send=True):
+    """狙いのメニューの名前が出てきたポスト（「29、30日は佑二郎です」のような予告や当日の告知）を通知する"""
+    done = set(data.setdefault("notified_ids", []))
+    recent = datetime.now(pc.JST) - timedelta(days=3)
+    for post in sorted(posts, key=lambda p: pc.post_time(p) or datetime.min.replace(tzinfo=pc.JST)):
+        pid = str(post.get("id"))
+        if pid in done:
+            continue
+        text = unicodedata.normalize("NFKC", pc.post_text(post))
+        when = pc.post_time(post)
+        key = normalize_menu(text)
+        hits = [w.split("|")[0] for w in watch if any(normalize_menu(a) and normalize_menu(a) in key for a in w.split("|"))]
+        if not hits:
+            continue
+        data["notified_ids"].append(pid)
+        done.add(pid)
+        if not send or not when or when < recent:
+            continue
+        today = [n for n in extract_daily(text) if any(normalize_menu(h) in normalize_menu(n) for h in hits)]
+        head = f"🍜 **本日限定 {today[0]}！**" if today else f"📣 **{'・'.join(hits)} の予告があります**"
+        body = "\n".join(l for l in text.splitlines() if l.strip())[:300]
+        pc.send_discord_notification(DISCORD_WEBHOOK_URL, f"{head}（{when:%m/%d %H:%M}）\n>>> {body}\n{post_url(post)}")
+
+
+def fetch_user_posts(user, n):
+    """twitter-cli で投稿一覧を取る。さかのぼり読み込みは件数が多いので、prize_calendar の取得より長く待つ"""
+    pc.check_twitter_secrets()
+    import subprocess
+    runner = os.path.join(os.path.dirname(os.path.abspath(__file__)), "twitter_cli_runner.py")
+    res = subprocess.run([sys.executable, runner, "user-posts", user, "--max", str(n), "--json"],
+                         capture_output=True, text=True, encoding="utf-8", errors="ignore",
+                         env=os.environ.copy(), timeout=max(180, n * 2))
+    try:
+        data = json.loads(res.stdout)
+    except ValueError as e:
+        raise RuntimeError(f"投稿を取得できませんでした（終了コード {res.returncode}）: {res.stderr.strip()[-300:]}") from e
+    if isinstance(data, dict):
+        if data.get("ok") is False:
+            raise RuntimeError(str(data.get("error"))[:300])
+        data = data.get("data", data.get("tweets", []))
+    return [p for p in data if isinstance(p, dict) and p.get("id")]
+
+
 def main():
     if "--ocr-only" in sys.argv:
         path = sys.argv[sys.argv.index("--ocr-only") + 1]
@@ -385,7 +484,7 @@ def main():
     data = load_data()
     watch = load_watch()
     if "--stats" in sys.argv:
-        write_stats_md(data["weeks"], watch)
+        write_stats_md(merged_weeks(data), watch)
         return
     if not GEMINI_API_KEY:
         raise ValueError("GEMINI_API_KEY が設定されていません。")
@@ -397,19 +496,24 @@ def main():
         force = True
     else:
         n = int(sys.argv[sys.argv.index("--backfill") + 1]) if "--backfill" in sys.argv else 40
-        posts = pc.run_twitter_cli(["user-posts", TARGET_USER, "--max", str(n)])
-        print(f"[X取得] @{TARGET_USER} の投稿 {len(posts)}件")
-        if "--backfill" in sys.argv:
-            # 投稿一覧で届かない古い週は検索で拾う（「今週の予定」は週1回なので件数は少ない）
+        posts, ids = [], set()
+        for user in TARGET_USERS:
             try:
-                found = pc.run_twitter_cli(["search", KEYWORD, "--from", TARGET_USER, "--type", "Latest", "--max", str(n)])
-                ids = {str(p.get("id")) for p in posts}
-                posts += [p for p in found if str(p.get("id")) not in ids]
-                print(f"[X検索] 「{KEYWORD}」 {len(found)}件")
+                got = fetch_user_posts(user, n)
             except Exception as e:
-                print(f"::warning::検索に失敗したので投稿一覧の範囲だけ読みます: {e}")
+                if user == TARGET_USER:
+                    raise
+                print(f"::warning::@{user} の投稿を取得できませんでした: {e}")
+                continue
+            times = [t for t in (pc.post_time(p) for p in got) if t]
+            print(f"[X取得] @{user} の投稿 {len(got)}件（{min(times):%Y-%m-%d} 以降）" if times else f"[X取得] @{user} 0件")
+            posts += [p for p in got if str(p.get("id")) not in ids]
+            ids |= {str(p.get("id")) for p in got}
         force = False
         print(f"  うち「{KEYWORD}」の画像付きポスト {sum(1 for p in posts if is_schedule_post(p))}件")
+    print(f"「本日限定」を {record_daily(posts, data)}件 追加しました")
+    # さかのぼり読み込みのときは過去の予告を通知しない（通知済みとして覚えるだけ）
+    notify_mentions(posts, data, watch, send="--backfill" not in sys.argv and "--no-notify" not in sys.argv)
     backfill = "--backfill" in sys.argv
 
     # 古い順に読む（過去に出たメニューの名前を、後の週の表記ゆれの照合に使うため）
@@ -425,17 +529,17 @@ def main():
         print(f"::warning::Gemini の今日の上限に達しました。続きは次回の実行で読みます: {e}")
     finally:
         save_data(data)
-        write_stats_md(data["weeks"], watch)
+        write_stats_md(merged_weeks(data), watch)
 
     # 通知は最新の週だけ（さかのぼり読み込みのときは古い週の通知を送らない）
-    if new_weeks:
+    if new_weeks and "--no-notify" not in sys.argv:
         latest = max(new_weeks)
-        msg, hit = judge_week(latest, data["weeks"], watch)
+        msg, hit = judge_week(latest, merged_weeks(data), watch)
         print(msg)
         if backfill:
             msg = f"📚 過去の「今週の予定」を {len(set(new_weeks))}週分 読み込みました\n\n" + msg
         pc.send_discord_notification(DISCORD_WEBHOOK_URL, msg[:1990])
-    else:
+    elif not new_weeks:
         print("新しい「今週の予定」はありませんでした")
 
 
