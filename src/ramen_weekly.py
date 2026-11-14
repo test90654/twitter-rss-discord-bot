@@ -59,7 +59,7 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL_RAMEN") or os.environ.
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # 判定のしきい値
-RARE_RATE = 0.25        # 登場率がこれ以下のメニューは「レア」
+RARE_RATE = 0.08        # 登場率がこれ以下（だいたい3か月に1回以下）のメニューは「レア」
 MIN_WEEKS_FOR_RATE = 4  # 履歴がこの週数未満なら確率は参考値扱い
 WEEKDAYS = "月火水木金土日"
 
@@ -75,7 +75,17 @@ def normalize_menu(name):
     s = re.sub(r"[\s・･\-ー〜~!！?？★☆◎○●◆◇■□※【】\[\]（）()「」『』]", "", s)
     s = re.sub(r"(限定|数量限定|新作|new)$", "", s)
     # カタカナはひらがなにそろえる（「ミソ」と「みそ」を同じに扱う）
-    return "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in s)
+    s = "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in s)
+    # よくある書き分け（ラーメン/らぁめん、坦々/担々、煽り/あおり、角ふじ麺/角ふじ）
+    s = re.sub(r"らぁ?めん|らぁ?麺|拉麺", "らめん", s)
+    s = s.replace("坦", "担").replace("煽り", "あおり").replace("鷄", "鶏")
+    s = re.sub(r"ふじ麺$", "ふじ", s)
+    s = re.sub(r"そは$", "そば", s)
+    return s
+
+
+# 限定メニューではない書き込み（黒板の「通常」など）
+NOT_MENU = {"通常", "通常営業", "休み", "定休日", "臨時休業", "お休み"}
 
 
 def week_monday(d):
@@ -214,7 +224,7 @@ def week_menus(week):
         for m in d.get("menus", []):
             name = m.get("same_as") or m.get("name", "") if isinstance(m, dict) else m
             key = normalize_menu(name)
-            if not key:
+            if not key or key in {normalize_menu(x) for x in NOT_MENU}:
                 continue
             raw = m.get("name", "") if isinstance(m, dict) else m
             ALIASES.setdefault(key, set()).update({key, normalize_menu(raw)})
@@ -260,60 +270,81 @@ def merged_weeks(data):
 # ============================================================
 # 登場率
 # ============================================================
-def compute_stats(weeks, upto=None):
-    """メニューごとの登場週数・登場率・最後に出た週・平均間隔。upto を渡すとその週より前だけで計算する"""
+def watch_alts(w):
+    return [normalize_menu(a) for a in w.split("|") if normalize_menu(a)]
+
+
+def group_of(key, watch):
+    """狙いのメニューに当たるものは1つにまとめる（「佑二郎」「佑二郎まぜそば」「佑二郎 非乳化ver」→ 佑二郎）"""
+    for w in watch:
+        if any(a in n for a in watch_alts(w) for n in ALIASES.get(key, {key})):
+            return "watch:" + w
+    return key
+
+
+def grouped_menus(week, watch):
+    """week_menus をグループ単位に（キー → 表示名, 曜日, 元の表示名のリスト）"""
+    out = {}
+    for key, (disp, days) in week_menus(week).items():
+        g = group_of(key, watch)
+        name = g[6:].split("|")[0] if g.startswith("watch:") else disp
+        _, ds, raws = out.setdefault(g, (name, [], []))
+        ds.extend(d for d in days if d not in ds)
+        raws.append(disp)
+    return out
+
+
+def compute_stats(weeks, watch=(), upto=None):
+    """メニューごとの集計。
+    登場率は黒板（今週の予定）のある週で数える（その週の7日分が全部分かるので偏りが少ない）。
+    最後に出た週・出た日数・曜日は「本日限定」ポストも含めて数える"""
     keys = sorted(k for k in weeks if upto is None or k < upto)
-    n = len(keys)
+    board_keys = [k for k in keys if weeks[k].get("board", True)]
+    use_keys = board_keys if len(board_keys) >= MIN_WEEKS_FOR_RATE else keys
+    n = len(use_keys)
+    use_set = set(use_keys)
+    now_week = date.fromisoformat(upto) if upto else week_monday(datetime.now(pc.JST).date())
     stats = {}
-    for i, wk in enumerate(keys):
-        for key, (disp, days) in week_menus(weeks[wk]).items():
-            s = stats.setdefault(key, {"name": disp, "weeks": [], "idx": [], "weekdays": {}})
-            s["name"] = disp  # 最新の表記にする
+    for wk in keys:
+        for g, (name, days, raws) in grouped_menus(weeks[wk], watch).items():
+            s = stats.setdefault(g, {"name": name, "count": 0, "weeks": [], "days": 0, "weekdays": {}, "variants": set()})
+            if not g.startswith("watch:"):
+                s["name"] = name  # 最新の表記にする
+            s["variants"].update(raws)
             s["weeks"].append(wk)
-            s["idx"].append(i)
+            s["days"] += len(days) or 1
+            if wk in use_set:
+                s["count"] += 1
             for wd in days:
                 s["weekdays"][wd] = s["weekdays"].get(wd, 0) + 1
     for s in stats.values():
-        k = len(s["weeks"])
-        s["count"] = k
+        k = s["count"]
         s["rate"] = k / n if n else 0.0
         # 来週出る確率の推定（ラプラス補正：履歴が少ないうちに 0% / 100% と言い切らない）
         s["p_next"] = (k + 1) / (n + 2)
-        gaps = [b - a for a, b in zip(s["idx"], s["idx"][1:])]
-        s["avg_gap"] = sum(gaps) / len(gaps) if gaps else None
-        s["since"] = n - 1 - s["idx"][-1]  # 最後に出てから何週空いているか
         s["last"] = s["weeks"][-1]
+        s["since"] = (now_week - date.fromisoformat(s["last"])).days // 7  # 最後に出てから何週空いているか
+        s["interval"] = (1 / s["rate"]) if s["rate"] else None             # 平均すると何週に1回か
     return stats, n
-
-
-def find_watched(stats_or_menus, watch):
-    """監視ワードに部分一致するメニューのキー。監視ワードは「味噌|みそ」のように | で別の書き方を並べられる"""
-    hits = {}
-    for w in watch:
-        alts = [normalize_menu(a) for a in w.split("|") if normalize_menu(a)]
-        for key in stats_or_menus:
-            names = ALIASES.get(key, {key})
-            if any(a in n for a in alts for n in names):
-                hits.setdefault(w, []).append(key)
-    return hits
 
 
 def judge_week(week_key, weeks, watch):
     """その週の判定と通知メッセージを作る"""
     week = weeks[week_key]
-    menus = week_menus(week)
-    stats, n = compute_stats(weeks, upto=week_key)  # この週より前の履歴で評価する
+    menus = grouped_menus(week, watch)
+    stats, n = compute_stats(weeks, watch, upto=week_key)  # この週より前の履歴で評価する
     enough = n >= MIN_WEEKS_FOR_RATE
     monday = date.fromisoformat(week_key)
     title = f"🍜 **{STORE_NAME} 今週の予定（{monday:%m/%d}〜{monday + timedelta(days=6):%m/%d}）**"
 
     lines = []
-    for key, (disp, days) in menus.items():
-        s = stats.get(key)
+    for g, (name, days, raws) in menus.items():
+        s = stats.get(g)
+        disp = raws[0] if len(raws) == 1 else name
         if s is None:
             tag = "🆕初登場"
         elif enough:
-            tag = f"登場率 {s['rate']:.0%}（{s['count']}/{n}週）"
+            tag = f"登場率 {s['rate']:.0%}"
             if s["rate"] <= RARE_RATE:
                 tag += " ⭐レア"
         else:
@@ -323,13 +354,13 @@ def judge_week(week_key, weeks, watch):
     if closed:
         lines.append(f"・休み: {'・'.join(c for c in closed if c)}")
 
-    hits = find_watched(menus, watch)
-    rare = [k for k in menus if k not in stats or (enough and stats[k]["rate"] <= RARE_RATE)]
+    hits = [g for g in menus if g.startswith("watch:")]
+    rare = [g for g in menus if g not in stats or (enough and stats[g]["rate"] <= RARE_RATE)]
     if hits:
-        names = "、".join(menus[k][0] + f"（{'・'.join(menus[k][1]) or '曜日不明'}）" for k in dict.fromkeys(k for ks in hits.values() for k in ks))
+        names = "、".join(f"{'・'.join(menus[g][2])}（{'・'.join(menus[g][1]) or '曜日不明'}）" for g in hits)
         verdict = f"🔔 **狙いのメニューが出ます！** {names}"
     elif rare:
-        verdict = f"👀 **レア枠あり**：{'、'.join(menus[k][0] for k in rare)}（狙い以外ですが、次はいつ出るか分かりません）"
+        verdict = f"👀 **レア枠あり**：{'、'.join(menus[g][2][0] for g in rare)}（狙い以外ですが、次はいつ出るか分かりません）"
     elif menus:
         verdict = "😴 **今週は見送りでOK**：よく出るメニューだけなので、また近いうちに出そうです"
     else:
@@ -337,19 +368,19 @@ def judge_week(week_key, weeks, watch):
 
     # 狙いのメニューで今週出ないものは、来週の見込みを添える
     outlook = []
-    watched_keys = find_watched(stats, watch)
     for w in watch:
-        if w in hits:
+        g = "watch:" + w
+        label = w.split("|")[0]
+        if g in hits:
             continue
-        ks = watched_keys.get(w)
-        if not ks:
-            outlook.append(f"・{w}: まだ一度も出ていません")
+        s = stats.get(g)
+        if not s:
+            outlook.append(f"・{label}: まだ一度も出ていません")
             continue
-        s = max((stats[k] for k in ks), key=lambda x: x["count"])
-        txt = f"・{w}: 来週出る確率 約{s['p_next']:.0%}（{s['count']}/{n}週、最後は{s['last'][5:].replace('-', '/')}の週"
-        if s["avg_gap"]:
-            txt += f"、平均{s['avg_gap']:.1f}週おき"
-            if s["since"] >= s["avg_gap"]:
+        txt = f"・{label}: 来週出る確率 約{s['p_next']:.0%}（最後は{s['last'][5:].replace('-', '/')}の週＝{s['since']}週前"
+        if s["interval"]:
+            txt += f"、だいたい{s['interval']:.0f}週に1回"
+            if s["since"] >= s["interval"]:
                 txt += "→そろそろ来そう"
         outlook.append(txt + "）")
 
@@ -363,25 +394,29 @@ def judge_week(week_key, weeks, watch):
 
 
 def write_stats_md(weeks, watch):
-    stats, n = compute_stats(weeks)
+    stats, n = compute_stats(weeks, watch)
     boards = sum(1 for w in weeks.values() if w.get("board"))
     daily_days = sum(1 for w in weeks.values() for d in w["days"] if d.get("daily"))
-    watched = {k for ks in find_watched(stats, watch).values() for k in ks}
-    rows = sorted(stats.values(), key=lambda s: (-s["count"], s["name"]))
+    rows = sorted(stats.values(), key=lambda s: (not s["name"] in {w.split("|")[0] for w in watch}, -s["count"], -s["days"], s["name"]))
     first = min(weeks) if weeks else "-"
     out = [f"# {STORE_NAME} 限定メニュー登場率", "",
-           f"{first} の週から、情報のある {n}週分（黒板「今週の予定」{boards}週 ＋「本日限定」ポスト {daily_days}日）",
+           f"{first} の週から（黒板「今週の予定」{boards}週分 ＋「本日限定」ポスト {daily_days}日分）",
            f"自動更新: {datetime.now(pc.JST):%Y-%m-%d %H:%M}", "",
-           "※黒板の無い週は「本日限定」ポストのある日だけで数えているので、実際より少なめに出ることがあります", "",
-           "| メニュー | 登場 | 登場率 | 来週の見込み | 平均間隔 | 最後に出た週 | よく出る曜日 |",
+           f"- **登場率**: 黒板のある {n}週のうち、そのメニューが出た週の割合",
+           "- **来週の見込み**: 登場率をもとにした来週出る確率（データが少ないメニューは少し高めに出ます）",
+           "- **出た日数・最後に出た週**: 「本日限定」ポストも含めて数えています", "",
+           "| メニュー | 登場率 | 来週の見込み | 何週に1回 | 最後に出た週 | 出た日数 | よく出る曜日 |",
            "|---|---|---|---|---|---|---|"]
     for s in rows:
-        star = "🔔 " if normalize_menu(s["name"]) in watched else ""
+        is_watch = s["name"] in {w.split("|")[0] for w in watch}
+        name = f"🔔 **{s['name']}**" if is_watch else s["name"]
+        if is_watch and len(s["variants"]) > 1:
+            name += f"（{'・'.join(sorted(s['variants']))}）"
         wd = "・".join(sorted(s["weekdays"], key=lambda x: -s["weekdays"][x])[:3]) or "-"
-        gap = f"{s['avg_gap']:.1f}週" if s["avg_gap"] else "-"
-        out.append(f"| {star}{s['name']} | {s['count']}/{n} | {s['rate']:.0%} | {s['p_next']:.0%} | {gap} | {s['last']} | {wd} |")
+        iv = f"{s['interval']:.0f}週" if s["interval"] else "-"
+        out.append(f"| {name} | {s['rate']:.0%}（{s['count']}/{n}） | {s['p_next']:.0%} | {iv} | {s['last']} | {s['days']} | {wd} |")
     STATS_FILE.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"登場率を data/{STATS_FILE.name} に書きました（{len(rows)}メニュー / {n}週）")
+    print(f"登場率を data/{STATS_FILE.name} に書きました（{len(rows)}メニュー / 黒板 {n}週）")
 
 
 # ============================================================
