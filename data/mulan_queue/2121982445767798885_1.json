@@ -1,0 +1,1548 @@
+{
+  "tweet_id": "2121982445767798885_1",
+  "original_tweet_id": "2121982445767798885",
+  "store": "ムラ中",
+  "text": "📢11/16更新📢\n作品別プライズフィギュア買取速報です✨️\n有効期限は2026年11月30日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/KGdb5UeCma",
+  "image_file": "2121982445767798885_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2121982445767798885",
+  "posted_at": "2026/11/16 00:03",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "Trio-Try-iT 犬夜叉 vol.2",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "21413",
+      "_check": {
+        "status": "verified",
+        "ref": "Trio-Try-iT 犬夜叉 vol.2",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 21413 で登録済みの「Trio-Try-iT 犬夜叉 vol.2」と一致"
+      },
+      "_ocr_name": "犬夜叉 Trio-Try-iT 犬夜叉 vol.2",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "犬夜叉 Trio-Try-iT 殺生丸",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "16749",
+      "_check": {
+        "status": "suspect",
+        "ref": "Trio-Try-iT 犬夜叉 vol.2",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "殺生丸"
+        ],
+        "missing": [
+          "vol.2"
+        ],
+        "suggestion": "",
+        "reason": "「殺生丸」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "犬夜叉 Trio-Try-iT 殺生丸 (再販)",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "21749",
+      "_check": {
+        "status": "suspect",
+        "ref": "Trio-Try-iT 犬夜叉 vol.2",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "殺生丸"
+        ],
+        "missing": [
+          "vol.2"
+        ],
+        "suggestion": "",
+        "reason": "「殺生丸」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+      "price": "1600",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「オーバーロード T-most アルベド 純白の悪魔 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "オーバーロード T-most アルベド 純白の悪魔 ver. (タイクレ限定)",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "オーバーロード T-most アルベド 純白の悪魔 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.8,
+        "unmatched": [
+          "タイクレ限定"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「タイクレ限定」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "オーバーロード Desktop Cute アルベド バニー ver.",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード Desktop Cute アルベド バニー ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「オーバーロード Desktop Cute アルベド バニー ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata ぬーどるストッパー 2B",
+      "price": "1600",
+      "update_date": "2026/11/16",
+      "model_number": "17060",
+      "_check": {
+        "status": "verified",
+        "ref": "NieR:Automata ぬーどるストッパー 2B",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "2B"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 17060 で登録済みの「NieR:Automata ぬーどるストッパー 2B」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata ぬーどるストッパー 2B (再販)",
+      "price": "1600",
+      "update_date": "2026/11/16",
+      "model_number": "21362",
+      "_check": {
+        "status": "verified",
+        "ref": "NieR:Automata ぬーどるストッパー 2B (再販)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "2B"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 21362 で登録済みの「NieR:Automata ぬーどるストッパー 2B (再販)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata ちょこのせ 2B",
+      "price": "1800",
+      "update_date": "2026/11/16",
+      "model_number": "1108170",
+      "_check": {
+        "status": "verified",
+        "ref": "NieR:Automata ちょこのせ 2B",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "2B"
+        ],
+        "missing": [
+          "猫猫"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1108170 で登録済みの「NieR:Automata ちょこのせ 2B」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata ちょこのせ 2B (再販)",
+      "price": "1800",
+      "update_date": "2026/11/16",
+      "model_number": "1123282",
+      "_check": {
+        "status": "verified",
+        "ref": "NieR:Automata ちょこのせ 2B (再販)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "2B"
+        ],
+        "missing": [
+          "猫猫"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1123282 で登録済みの「NieR:Automata ちょこのせ 2B (再販)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata ちょこのせ A2",
+      "price": "2300",
+      "update_date": "2026/11/16",
+      "model_number": "1108172",
+      "_check": {
+        "status": "verified",
+        "ref": "NieR:Automata ちょこのせ A2",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "A2"
+        ],
+        "missing": [
+          "猫猫"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1108172 で登録済みの「NieR:Automata ちょこのせ A2」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata ちょこのせ 9S",
+      "price": "2300",
+      "update_date": "2026/11/16",
+      "model_number": "1108171",
+      "_check": {
+        "status": "verified",
+        "ref": "NieR:Automata ちょこのせ 9S",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "9S"
+        ],
+        "missing": [
+          "猫猫"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1108171 で登録済みの「NieR:Automata ちょこのせ 9S」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "NieR:Automata NieR15 周年 エミール ルームライト",
+      "price": "1300",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "獄門疆 ルームライト",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "NieR",
+          "Automata",
+          "NieR15",
+          "周年",
+          "エミール"
+        ],
+        "missing": [
+          "獄門疆"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "オーバーロード Desktop Cute アルベド バニー ver. Renewal",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード Desktop Cute アルベド バニー ver. Renewal",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「オーバーロード Desktop Cute アルベド バニー ver. Renewal」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "オーバーロード アインズ (パンプレスト)",
+      "price": "2500",
+      "update_date": "2026/11/16",
+      "model_number": "2752500",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード アインズ (パンプレスト)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "バンプレスト"
+        ],
+        "missing": [
+          "パンプレスト"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 2752500 で登録済みの「オーバーロード アインズ (パンプレスト)」と一致"
+      },
+      "_ocr_name": "オーバーロード アインズ (バンプレスト)",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "オーバーロード EVOLVE Empress of Darkness アルベド",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2799750",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード EVOLVE Empress of Darkness アルベド",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2799750 で登録済みの「オーバーロード EVOLVE Empress of Darkness アルベド」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "オーバーロード BiCute Bunnies ナーベラル",
+      "price": "1400",
+      "update_date": "2026/11/16",
+      "model_number": "20407",
+      "_check": {
+        "status": "verified",
+        "ref": "オーバーロード BiCute Bunnies ナーベラル",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 20407 で登録済みの「オーバーロード BiCute Bunnies ナーベラル」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "オーバーロード 武 モモン",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "オーバーロード アインズ (パンプレスト)",
+        "source": "登録済み/sheet1",
+        "score": 0.7,
+        "unmatched": [
+          "モモン"
+        ],
+        "missing": [
+          "アインズ",
+          "パンプレスト"
+        ],
+        "suggestion": "",
+        "reason": "「モモン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "ガチアクタ VIBRATION STARS ルド",
+      "price": "3000",
+      "update_date": "2026/11/16",
+      "model_number": "2722521",
+      "_check": {
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS ルド",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2722521 で登録済みの「ガチアクタ VIBRATION STARS ルド」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ガチアクタ VIBRATION STARS ザンカ",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "2722523",
+      "_check": {
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS ザンカ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2722523 で登録済みの「ガチアクタ VIBRATION STARS ザンカ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ガチアクタ VIBRATION STARS エンジン",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "2722522",
+      "_check": {
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS エンジン",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2722522 で登録済みの「ガチアクタ VIBRATION STARS エンジン」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ガチアクタ VIBRATION STARS リヨウ",
+      "price": "3200",
+      "update_date": "2026/11/16",
+      "model_number": "2722524",
+      "_check": {
+        "status": "verified",
+        "ref": "ガチアクタ VIBRATION STARS リヨウ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2722524 で登録済みの「ガチアクタ VIBRATION STARS リヨウ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "五等分の花嫁 BiCute Dark 中野一花",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "19199",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Dark 弥海砂",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "五等分の花嫁",
+          "中野一花"
+        ],
+        "missing": [
+          "弥海砂"
+        ],
+        "suggestion": "",
+        "reason": "「五等分の花嫁」「中野一花」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "五等分の花嫁 BiCute Dark 中野二乃",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "19720",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Dark 中野二乃",
+        "source": "登録済み/sheet1",
+        "score": 0.7,
+        "unmatched": [
+          "五等分の花嫁"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「五等分の花嫁」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "五等分の花嫁 BiCute Dark 中野三玖",
+      "price": "1600",
+      "update_date": "2026/11/16",
+      "model_number": "19738",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Dark 中野三玖",
+        "source": "登録済み/sheet1",
+        "score": 0.7,
+        "unmatched": [
+          "五等分の花嫁"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「五等分の花嫁」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "五等分の花嫁 BiCute Dark 中野四葉",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "20406",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Dark 弥海砂",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "五等分の花嫁",
+          "中野四葉"
+        ],
+        "missing": [
+          "弥海砂"
+        ],
+        "suggestion": "",
+        "reason": "「五等分の花嫁」「中野四葉」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "五等分の花嫁 BiCute Dark 中野五月",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "20428",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Dark 弥海砂",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "五等分の花嫁",
+          "中野五月"
+        ],
+        "missing": [
+          "弥海砂"
+        ],
+        "suggestion": "",
+        "reason": "「五等分の花嫁」「中野五月」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "デート・ア・ライブ AMP+ 時崎狂三 刻々帝<ザフキエル>",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "デート・ア・ライブ Relax time 時崎狂三",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "AMP",
+          "刻々帝",
+          "ザフキエル"
+        ],
+        "missing": [
+          "relax",
+          "time"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "デート・ア・ライブ AMP+ 時崎狂三 刻々帝<ザフキエル> (再販)",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "デート・ア・ライブ Relax time 時崎狂三",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "AMP",
+          "刻々帝",
+          "ザフキエル"
+        ],
+        "missing": [
+          "relax",
+          "time"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "デート・ア・ライブ AMP+ 夜刀神十香 鏖殺公<サンダルフォン>",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "デート・ア・ライブ AMP+ 夜刀神十香 鏖殺公<サンダルフォン>",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「デート・ア・ライブ AMP+ 夜刀神十香 鏖殺公<サンダルフォン>」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "デート・ア・ライブ AMP+ 夜刀神十香 鏖殺公<サンダルフォン> (再販)",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "デート・ア・ライブ AMP+ 夜刀神十香 鏖殺公<サンダルフォン>",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「デート・ア・ライブ AMP+ 夜刀神十香 鏖殺公<サンダルフォン>」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "デート・ア・ライブ Coreful 時崎狂三 猫耳メイド ver.",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "デート・ア・ライブ Coreful 時崎狂三 猫耳メイド ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「デート・ア・ライブ Coreful 時崎狂三 猫耳メイド ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "デート・ア・ライブ Desktop Cute 時崎狂三 ナイトウェア ver. Renewal",
+      "price": "700",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "デート・ア・ライブ Desktop Cute 時崎狂三 ナイトウェア ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.816,
+        "unmatched": [
+          "Renewal"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「Renewal」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "刃牙 Grandista ッッ!! 範馬刃牙",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2831692",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "刃牙",
+          "ッッ",
+          "範馬刃牙"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「刃牙」「ッッ」「範馬刃牙」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "刃牙 Grandista ッッ!! 範馬勇次郎",
+      "price": "1300",
+      "update_date": "2026/11/16",
+      "model_number": "2771386",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "刃牙",
+          "ッッ",
+          "範馬勇次郎"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「刃牙」「ッッ」「範馬勇次郎」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "刃牙 フィグライフッッ!! 範馬勇次郎",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "2841459",
+      "_check": {
+        "status": "unknown",
+        "ref": "刃牙道 Luminasta -宮本武蔵-",
+        "source": "入荷カレンダー/入荷予定",
+        "score": 0.133,
+        "unmatched": [
+          "フィグライフッッ",
+          "範馬勇次郎"
+        ],
+        "missing": [
+          "刃牙道",
+          "luminasta",
+          "宮本武蔵"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "刃牙 Luminasta 範馬勇次郎",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "1123276",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "刃牙",
+          "範馬勇次郎"
+        ],
+        "missing": [
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "「刃牙」「範馬勇次郎」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "PANTY & STOCKING with GARTERBELT BRILLIANT パンティ",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "SS16692",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "PANTY & STOCKING with GARTERBELT BRILLIANT ストッキング",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "SS16693",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "PANTY & STOCKING with GARTERBELT モニタートップ パンティ",
+      "price": "1100",
+      "update_date": "2026/11/16",
+      "model_number": "2824955",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "PANTY & STOCKING with GARTERBELT モニタートップ ストッキング",
+      "price": "1400",
+      "update_date": "2026/11/16",
+      "model_number": "2824955",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "PANTY & STOCKING with GARTERBELT モニタートップ パンティ Angel ver.",
+      "price": "700",
+      "update_date": "2026/11/16",
+      "model_number": "2828524",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.085,
+        "unmatched": [
+          "PANTY",
+          "STOCKING",
+          "with",
+          "GARTERBELT",
+          "モニタートップ",
+          "パンティ",
+          "Angel"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "PANTY & STOCKING with GARTERBELT モニタートップ ストッキング Angel ver.",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2828524",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.082,
+        "unmatched": [
+          "PANTY",
+          "STOCKING",
+          "with",
+          "GARTERBELT",
+          "モニタートップ",
+          "ストッキング",
+          "Angel"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ブルーアーカイブ モニタートップフィギュア アロナ",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "2822572",
+      "_check": {
+        "status": "verified",
+        "ref": "ブルーアーカイブ モニタートップフィギュア アロナ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2822572 で登録済みの「ブルーアーカイブ モニタートップフィギュア アロナ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ブルーアーカイブ モニタートップフィギュア プラナ",
+      "price": "1400",
+      "update_date": "2026/11/16",
+      "model_number": "2822573",
+      "_check": {
+        "status": "verified",
+        "ref": "ブルーアーカイブ モニタートップフィギュア プラナ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2822573 で登録済みの「ブルーアーカイブ モニタートップフィギュア プラナ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ブルーアーカイブ おすわり ヒナ",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2822574",
+      "_check": {
+        "status": "unknown",
+        "ref": "おすわりフィギュア フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "ブルーアーカイブ",
+          "ヒナ"
+        ],
+        "missing": [
+          "おすわりフィギュア",
+          "フリーレン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ブルーアーカイブ おすわり アコ",
+      "price": "700",
+      "update_date": "2026/11/16",
+      "model_number": "2822576",
+      "_check": {
+        "status": "unknown",
+        "ref": "おすわりフィギュア フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "ブルーアーカイブ",
+          "アコ"
+        ],
+        "missing": [
+          "おすわりフィギュア",
+          "フリーレン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ブルーアーカイブ おすわり イオリ",
+      "price": "700",
+      "update_date": "2026/11/16",
+      "model_number": "2822577",
+      "_check": {
+        "status": "unknown",
+        "ref": "おすわりフィギュア フリーレン",
+        "source": "登録済み/sheet1",
+        "score": 0.267,
+        "unmatched": [
+          "ブルーアーカイブ",
+          "イオリ"
+        ],
+        "missing": [
+          "おすわりフィギュア",
+          "フリーレン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ブルーアーカイブ XStellar ミカ (水着)",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "1124681",
+      "_check": {
+        "status": "unknown",
+        "ref": "Xstellar 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "ブルーアーカイブ",
+          "ミカ",
+          "水着"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ブルーアーカイブ XStellar セイア (水着)",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "1124683",
+      "_check": {
+        "status": "unknown",
+        "ref": "Xstellar 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.381,
+        "unmatched": [
+          "ブルーアーカイブ",
+          "セイア",
+          "水着"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ブルーアーカイブ XStellar ナギサ (水着)",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "1124907",
+      "_check": {
+        "status": "unknown",
+        "ref": "Xstellar 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.381,
+        "unmatched": [
+          "ブルーアーカイブ",
+          "ナギサ",
+          "水着"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 鎮座獣 承認欲求モンスター",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "2771444",
+      "_check": {
+        "status": "unknown",
+        "ref": "ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "鎮座獣",
+          "承認欲求モンスター"
+        ],
+        "missing": [
+          "ちょこのせ",
+          "廣井きくり"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく！ ちょこのせ 後藤ひとり",
+      "price": "1800",
+      "update_date": "2026/11/16",
+      "model_number": "1068075",
+      "_check": {
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ ちょこのせ 後藤ひとり",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "後藤ひとり"
+        ],
+        "missing": [
+          "廣井きくり"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1068075 で登録済みの「ぼっち・ざ・ろっく！ ちょこのせ 後藤ひとり」と一致"
+      },
+      "_ocr_name": "ぼっち・ざ・ろっく! ちょこのせ 後藤ひとり",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぼっち・ざ・ろっく！ ちょこのせ 後藤ひとり (再販)",
+      "price": "1800",
+      "update_date": "2026/11/16",
+      "model_number": "1103571",
+      "_check": {
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ ちょこのせ 後藤ひとり (再販)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "後藤ひとり"
+        ],
+        "missing": [
+          "廣井きくり"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1103571 で登録済みの「ぼっち・ざ・ろっく！ ちょこのせ 後藤ひとり (再販)」と一致"
+      },
+      "_ocr_name": "ぼっち・ざ・ろっく! ちょこのせ 後藤ひとり (再販)",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 リムル=テンペスト 最強のスライム",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2839730",
+      "_check": {
+        "status": "suspect",
+        "ref": "リムル=テンペスト 最強のスライム",
+        "source": "登録済み/sheet1",
+        "score": 0.552,
+        "unmatched": [
+          "転生したらスライムだった件"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「転生したらスライムだった件」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "転生したらスライムだった件 Otherworlder Plus 魔王リムル SP ver.",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2835902",
+      "_check": {
+        "status": "unknown",
+        "ref": "転生したらスライムだった件 魔王リムル (蒼海の涙編)",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "Otherworlder",
+          "Plus",
+          "SP",
+          "ver."
+        ],
+        "missing": [
+          "蒼海の涙編"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "転生したらスライムだった件 ESPRESTO Threefold union リムル",
+      "price": "600",
+      "update_date": "2026/11/16",
+      "model_number": "2818178",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 ESPRESTO Threefold union リムル",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2818178 で登録済みの「転生したらスライムだった件 ESPRESTO Threefold union リムル」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 ESPRESTO Tempest effect and motions リムル SP",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2743844",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 ESPRESTO Tempest effect and motions リムル SP",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「転生したらスライムだった件 ESPRESTO Tempest effect and motions リムル SP」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 ESPRESTO Threefold union ミリム",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2818179",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 ESPRESTO Threefold union ミリム",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2818179 で登録済みの「転生したらスライムだった件 ESPRESTO Threefold union ミリム」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 EXQ リムル metallic color version",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2834949",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 EXQ リムル metallic color version",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "EXQ",
+          "metallic",
+          "color",
+          "version"
+        ],
+        "missing": [
+          "クマラ"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 2834949 で登録済みの「転生したらスライムだった件 EXQ リムル metallic color version」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 EFFECTREME リムル 蒼海の涙編 SPカラー",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2824454",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 EFFECTREME リムル 蒼海の涙編 SPカラー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2824454 で登録済みの「転生したらスライムだった件 EFFECTREME リムル 蒼海の涙編 SPカラー」と一致"
+      },
+      "_ocr_name": "転生したらスライムだった件 EFFECTREME リムル 蒼海の涙編 SP カラー",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 魔王リムル (蒼海の涙編)",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2810646",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 魔王リムル (蒼海の涙編)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2810646 で登録済みの「転生したらスライムだった件 魔王リムル (蒼海の涙編)」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 リムル様 大きなソフビフィギュア",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2810335",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 リムル様 大きなソフビフィギュア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2810335 で登録済みの「転生したらスライムだった件 リムル様 大きなソフビフィギュア」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "転生したらスライムだった件 リムル & ランガ",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "2797356",
+      "_check": {
+        "status": "verified",
+        "ref": "転生したらスライムだった件 リムル & ランガ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2797356 で登録済みの「転生したらスライムだった件 リムル & ランガ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり",
+      "price": "3200",
+      "update_date": "2026/11/16",
+      "model_number": "1114889",
+      "_check": {
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 1114889 で登録済みの「ぼっち・ざ・ろっく！ ちょこのせ 廣井きくり」と一致"
+      },
+      "_ocr_name": "ぼっち・ざ・ろっく! ちょこのせ 廣井きくり",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぼっち・ざ・ろっく！ Desktop×Decorate 後藤ひとり",
+      "price": "1800",
+      "update_date": "2026/11/16",
+      "model_number": "1103714",
+      "_check": {
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ Desktop×Decorate 後藤ひとり",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "後藤ひとり"
+        ],
+        "missing": [
+          "姫野"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1103714 で登録済みの「ぼっち・ざ・ろっく！ Desktop×Decorate 後藤ひとり」と一致"
+      },
+      "_ocr_name": "ぼっち・ざ・ろっく! Desktop×Decorate 後藤ひとり",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぼっち・ざ・ろっく！ Desktop×Decorate 廣井きくり",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "1112794",
+      "_check": {
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ Desktop×Decorate 廣井きくり",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "廣井きくり"
+        ],
+        "missing": [
+          "姫野"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1112794 で登録済みの「ぼっち・ざ・ろっく！ Desktop×Decorate 廣井きくり」と一致"
+      },
+      "_ocr_name": "ぼっち・ざ・ろっく! Desktop×Decorate 廣井きくり",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぼっち・ざ・ろっく！ 全力造形 廣井きくり",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "SS15158",
+      "_check": {
+        "status": "verified",
+        "ref": "ぼっち・ざ・ろっく！ 全力造形 廣井きくり",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "全力造形"
+        ],
+        "missing": [
+          "ちょこのせ"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN SS15158 で登録済みの「ぼっち・ざ・ろっく！ 全力造形 廣井きくり」と一致"
+      },
+      "_ocr_name": "ぼっち・ざ・ろっく! 全力造形 廣井きくり",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 承認欲求モンスター ひとりBIG ぬいぐるみ",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "超 BIG ぬいぐるみ ちいかわ",
+        "source": "登録済み/sheet1",
+        "score": 0.192,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "承認欲求モンスター",
+          "ひとりBIG"
+        ],
+        "missing": [
+          "ちいかわ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 一番くじ VOLUME 3 A賞 後藤ひとり",
+      "price": "5500",
+      "update_date": "2026/11/16",
+      "model_number": "64550",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "VOLUME",
+          "3",
+          "後藤ひとり"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 一番くじ VOLUME 3 B賞 伊地知虹夏",
+      "price": "3500",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "VOLUME",
+          "3",
+          "伊地知虹夏"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 一番くじ VOLUME 3 C賞 山田リョウ",
+      "price": "7500",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.25,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "VOLUME",
+          "3",
+          "山田リョウ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 一番くじ VOLUME 3 D賞 喜多郁代",
+      "price": "10000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 懐玉・玉折 参 D賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "VOLUME",
+          "3",
+          "喜多郁代"
+        ],
+        "missing": [
+          "懐玉",
+          "玉折",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ぼっち・ざ・ろっく! 一番くじ VOLUME 3 ラストワン賞 後藤ひとり",
+      "price": "6000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.357,
+        "unmatched": [
+          "ぼっち",
+          "ろっく",
+          "VOLUME",
+          "3",
+          "後藤ひとり"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    }
+  ],
+  "auto_checked_at": "2026/11/16 01:13"
+}
