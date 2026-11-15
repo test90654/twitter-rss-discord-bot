@@ -50,6 +50,25 @@ DEFAULT_SETTINGS = [
 ]
 KCAL_PER_KG_FAT = 7200
 
+# よく行くお店のメニュー（「お店メニュー」タブ。初期値は data/lunch_shops.json）
+MENU_SHEET = "お店メニュー"
+MENU_HEADER = ["店名", "メニュー", "kcal", "たんぱく質g", "メモ", "出典"]
+SHOPS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "lunch_shops.json")
+
+
+def load_shops():
+    try:
+        with open(SHOPS_FILE, encoding="utf-8") as f:
+            return json.load(f)["shops"]
+    except (OSError, ValueError, KeyError):
+        return []
+
+
+def norm(text):
+    t = unicodedata.normalize("NFKC", str(text)).lower()
+    t = "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in t)  # カタカナ→ひらがな
+    return re.sub(r"[\s・()（）「」【】\-ー〜~]", "", t)
+
 
 # ============================================================
 # スプレッドシート
@@ -62,6 +81,10 @@ class Store:
         self.rows = [r + [""] * (len(LOG_HEADER) - len(r)) for r in self.log.get_all_values()[1:]]
         self.settings = {r[0]: (r[1] if len(r) > 1 else "") for r in self.settings_ws.get_all_values()[1:] if r and r[0]}
         self.dirty_settings = False
+        self.shops = load_shops()
+        seed = [[sh["name"], m[0], m[1], m[2], m[3], "目安"] for sh in self.shops for m in sh["menus"]]
+        self.menu_ws = self._ws(MENU_SHEET, MENU_HEADER, seed)
+        self.menus = [r + [""] * (len(MENU_HEADER) - len(r)) for r in self.menu_ws.get_all_values()[1:] if r and r[0] and r[1]]
 
     def _ws(self, title, header, initial=()):
         try:
@@ -126,6 +149,62 @@ class Store:
                 cells.append(gspread.Cell(i + 2, 12, str(reply_id)))
         if cells:
             self.log.update_cells(cells)
+
+    # ---- お店メニュー ----
+    def shop_names(self):
+        names = [sh["name"] for sh in self.shops]
+        names += [r[0] for r in self.menus if r[0] not in names]
+        return names
+
+    def find_shop(self, text):
+        """文章に出てくるお店（別名でも）。長い名前を優先"""
+        t = norm(text)
+        cands = []
+        for name in self.shop_names():
+            aliases = next((sh["aliases"] for sh in self.shops if sh["name"] == name), [])
+            for a in [name, *aliases]:
+                if norm(a) and norm(a) in t:
+                    cands.append((len(norm(a)), name))
+        return max(cands)[1] if cands else None
+
+    def shop_menus(self, shop):
+        return [r for r in self.menus if r[0] == shop]
+
+    def find_menu(self, shop, name):
+        """登録メニューから名前で探す（完全一致→部分一致）"""
+        n = norm(name)
+        rows = self.shop_menus(shop) if shop else self.menus
+        exact = [r for r in rows if norm(r[1]) == n or norm(f"{r[0]}{r[1]}") == n]
+        if exact:
+            return exact[0]
+        part = [r for r in rows if n and (n in norm(r[1]) or norm(r[1]) in n)]
+        return min(part, key=lambda r: abs(len(norm(r[1])) - len(n))) if part else None
+
+    def drop_estimates(self, shop):
+        keep = [r for r in self.menus if not (r[0] == shop and r[5] == "目安")]
+        if len(keep) != len(self.menus):
+            self.menu_ws.batch_clear([f"A2:F{len(self.menus) + 1}"])
+            if keep:
+                self.menu_ws.update(keep, "A2", value_input_option="USER_ENTERED")
+            self.menus = keep
+
+    def add_menus(self, rows):
+        """同じ店・同じメニュー名があれば上書き、無ければ追加"""
+        existing = {(r[0], norm(r[1])): i for i, r in enumerate(self.menus)}
+        new = []
+        for row in rows:
+            key = (row[0], norm(row[1]))
+            if key in existing:
+                i = existing[key]
+                self.menus[i] = [str(x) for x in row]
+                self.menu_ws.update([row], f"A{i + 2}", value_input_option="USER_ENTERED")
+            else:
+                new.append(row)
+                existing[key] = len(self.menus)
+                self.menus.append([str(x) for x in row])
+        if new:
+            self.menu_ws.append_rows(new, value_input_option="USER_ENTERED")
+        return len(rows)
 
     def save(self):
         if self.dirty_settings:
@@ -270,6 +349,8 @@ class Entry(BaseModel):
     weight_kg: float
     days_ago: int      # 0=今日、1=昨日
     confidence: str    # 高 / 中 / 低
+    shop: str          # お店の名前（分かれば。登録店なら登録名）
+    menu_match: str    # 登録メニューに当たるならそのメニュー名（無ければ空）
 
 
 class Parsed(BaseModel):
@@ -292,6 +373,12 @@ PROMPT = """あなたは減量中の人の食事・運動記録アシスタン�
 - 体重: 体重計の写真や「体重72.4」なら weight_kg に。
 - その他: 記録するものが無い雑談など（entries は空でもよい）
 
+よく行くお店の登録メニュー（kcal は登録値）:
+{shops}
+- メモや写真が上のお店の料理なら、shop にお店の名前、menu_match に一番近い登録メニュー名をそのまま書く
+  （「中盛」「大盛」などの量も合わせる。ライスなど別の品は別の entry にする）。登録に無い料理なら menu_match は空
+- 登録メニューに当たったときの kcal_in・protein_g は登録値と同じにする
+
 ルール:
 - days_ago: 「昨日」「昨夜」などとあれば 1。画面に日付があり今日でなければその日数。それ以外は 0
 - 使わない数値の項目は 0
@@ -300,10 +387,21 @@ PROMPT = """あなたは減量中の人の食事・運動記録アシスタン�
 """
 
 
+def shops_context(store, text):
+    """プロンプトに入れるお店のメニュー。お店の名前が出てきたらそのお店だけ詳しく"""
+    shop = store.find_shop(text or "")
+    shops = [shop] if shop else store.shop_names()
+    lines = []
+    for name in shops:
+        items = "、".join(f"{r[1]}({num(r[2]):.0f})" for r in store.shop_menus(name))
+        lines.append(f"・{name}: {items}")
+    return "\n".join(lines) or "（なし）"
+
+
 def parse_message(client, text, images, store, now):
     ramen = ramen_today_context(now.date())
     prompt = PROMPT.format(now=f"{now:%Y-%m-%d %H:%M}", text=text or "（なし）", weight=current_weight(store) or 65,
-                           ramen=ramen)
+                           ramen=ramen, shops=shops_context(store, text))
     parts = [types.Part.from_bytes(data=b, mime_type=m) for b, m in images] + [prompt]
     cfg = types.GenerateContentConfig(response_mime_type="application/json", response_schema=Parsed, max_output_tokens=4096)
     resp = pc._call_gemini(client, parts, cfg)
@@ -394,6 +492,29 @@ def handle_command(store, m, text, now):
         store.add([[day, f"{now:%H:%M}", "歩数", "歩数", "", "", "", steps, "", "高", m["id"], ""]])
         return f"👟 歩数 {steps:,}歩 を記録しました\n{today_line(store, day)}"
 
+    mu = re.fullmatch(r"(.+?)\s*(?:の)?\s*いつもの", t)
+    if mu:
+        shop = store.find_shop(mu.group(1))
+        if not shop:
+            return f"「{mu.group(1)}」というお店が見つかりませんでした（「お店」で一覧）"
+        usual = usual_meal(store, shop)
+        if not usual:
+            return f"{shop} の記録がまだありません。一度「{shop} ○○」で記録すると、次から「いつもの」が使えます"
+        store.add([[day, f"{now:%H:%M}", "食事", d, k, "", p or "", "", "", "登録", m["id"], ""] for d, k, p in usual])
+        lines = [f"🍽 {d} 約{k:,}kcal" for d, k, p in usual]
+        return "\n".join(lines) + f"（いつもの）\n{today_line(store, day)}\n-# 違っていたら、このメッセージに返信で「取消」"
+
+    mm = re.fullmatch(r"メニュー\s*(.+)", t)
+    if mm and not t.startswith("メニュー登録"):
+        shop = store.find_shop(mm.group(1))
+        if not shop:
+            return f"「{mm.group(1)}」というお店が見つかりませんでした（「お店」で一覧）"
+        rows = store.shop_menus(shop)
+        body = "\n".join(f"・{r[1]} {num(r[2]):,.0f}kcal" + (f"（{r[4]}）" if r[4] else "") for r in rows)
+        return f"📖 **{shop}** の登録メニュー（{len(rows)}品）\n{body}\n-# メニュー表の写真に「メニュー登録 {shop}」と付けて送ると追加・更新できます"
+    if t in ("お店", "店", "お店一覧"):
+        return "🏠 **登録しているお店**\n" + "\n".join(f"・{n}（{len(store.shop_menus(n))}品）" for n in store.shop_names())
+
     if t in ("今日", "きょう", "今日は?", "残り", "あと何kcal"):
         return today_detail(store, day)
     if t in ("週", "今週", "レポート", "週間レポート"):
@@ -409,7 +530,11 @@ HELP = """**使い方**
 ・「体重 72.4」→ 体重を記録
 ・記録への返信で「取消」→ 取り消し／「800kcal」→ カロリーを直す
 ・「今日」→ 今日の内訳　「週」→ 今週のまとめ
-・「設定 身長170 体重80 40歳 男 目標72」→ 目標カロリーの計算に使います"""
+・「設定 身長170 体重80 40歳 男 目標72」→ 目標カロリーの計算に使います
+**よく行くお店**
+・「楊喜家 ラーメン中盛 ライス」→ 登録メニューの値で記録　「常勝軒 いつもの」→ いつものメニュー
+・メニュー表の写真＋「メニュー登録 花田」→ メニューを読み取って登録
+・「お店」→ 登録店の一覧　「メニュー 楊喜家」→ そのお店の登録メニュー"""
 
 
 def today_detail(store, day):
@@ -441,6 +566,8 @@ def reply_text(entries, comment, store, now):
         when = "" if day == now.date().isoformat() else f"（{day[5:].replace('-', '/')}の分）"
         if e.kind == "食事":
             low = "（推定・ざっくり）" if e.confidence == "低" else ""
+            if e.confidence == "登録":
+                low = "（登録メニュー）"
             lines.append(f"{icons[e.kind]} {e.description} 約{e.kcal_in:,}kcal{low}{when}")
         elif e.kind == "運動":
             lines.append(f"{icons[e.kind]} {e.description} −{e.kcal_out:,}kcal{when}")
@@ -483,6 +610,86 @@ def download_images(m):
     return out
 
 
+def apply_registered(store, entries, text):
+    """登録メニューに当たった食事は、Gemini の推定ではなく登録値を使う"""
+    shop_in_text = store.find_shop(text or "")
+    for e in entries:
+        if e.kind != "食事":
+            continue
+        shop = shop_in_text or (store.find_shop(e.shop) if e.shop else None)
+        row = store.find_menu(shop, e.menu_match) if e.menu_match else None
+        if row is None and shop:
+            row = store.find_menu(shop, e.description.replace(shop, ""))
+        if row:
+            e.kcal_in = int(num(row[2]))
+            e.protein_g = num(row[3])
+            e.description = f"{row[0]} {row[1]}"
+            e.confidence = "登録"
+        elif shop and not e.description.startswith(shop):
+            e.description = f"{shop} {e.description}"
+
+
+class MenuItem(BaseModel):
+    name: str
+    kcal: int
+    protein_g: float
+    note: str
+
+
+class MenuBoard(BaseModel):
+    shop: str
+    items: list[MenuItem]
+
+
+MENU_PROMPT = """これは飲食店のメニュー表・券売機・お品書きの写真です。載っている料理をすべて読み取ってください。
+お店: {shop}
+- name: メニューに書かれた名前のまま（サイズ違いが別の値段なら「（並）」「（大盛）」のように別の行にする）
+- kcal: 一般的な量と作り方で1人前を推定（ラーメンはスープも半分程度飲む前提）。値段は使わない
+- protein_g: たんぱく質の推定
+- note: 「辛い」「野菜多め」など kcal に関わる特徴があれば短く（無ければ空）
+- ドリンク・お酒・トッピングの小物（100kcal 未満）は省いてよい。ライス・餃子などのサイドは入れる
+- shop: 写真から店名が読めればその名前、読めなければ「{shop}」
+"""
+
+
+def register_menu(store, client, text, images):
+    name = re.sub(r"^\s*メニュー(?:表)?登録\s*", "", unicodedata.normalize("NFKC", text)).strip()
+    shop = store.find_shop(name) or name or "（店名なし）"
+    cfg = types.GenerateContentConfig(response_mime_type="application/json", response_schema=MenuBoard, max_output_tokens=8192)
+    parts = [types.Part.from_bytes(data=b, mime_type=mt) for b, mt in images] + [MENU_PROMPT.format(shop=shop)]
+    resp = pc._call_gemini(client, parts, cfg)
+    board = resp.parsed if isinstance(getattr(resp, "parsed", None), MenuBoard) else MenuBoard.model_validate(json.loads(resp.text))
+    if shop == "（店名なし）" and board.shop:
+        shop = store.find_shop(board.shop) or board.shop
+    rows = [[shop, it.name, it.kcal, round(it.protein_g, 1), it.note, "写真から読み取り"] for it in board.items if it.name and it.kcal > 0]
+    if not rows:
+        return "メニューを読み取れませんでした。メニュー表全体が写るように撮り直してみてください。"
+    store.drop_estimates(shop)  # 最初に入れておいた目安のメニューは、本物のメニューで置き換える
+    store.add_menus(rows)
+    sample = "\n".join(f"・{r[1]} 約{r[2]:,}kcal" for r in rows[:8])
+    more = f"\n…ほか {len(rows) - 8}品" if len(rows) > 8 else ""
+    return (f"📖 **{shop}** のメニューを {len(rows)}品 登録しました（kcalは推定）\n{sample}{more}\n"
+            f"-# 値はスプレッドシートの「お店メニュー」タブで直せます。次からは「{shop} ○○」で登録値を使います")
+
+
+def usual_meal(store, shop):
+    """そのお店でいちばんよく頼む組み合わせ（1回の記録＝1メッセージ単位。ラーメン＋ライスなど）"""
+    from collections import Counter
+    visits = {}
+    for r in store.rows:
+        if r[2] == "食事" and r[3].startswith(shop):
+            visits.setdefault(r[10], []).append(r)
+    if not visits:
+        return None
+    combo, _ = Counter(tuple(sorted(r[3] for r in v)) for v in visits.values()).most_common(1)[0]
+    items = []
+    for desc in combo:
+        same = [r for r in store.rows if r[2] == "食事" and r[3] == desc]
+        mid = lambda col: sorted(num(r[col]) for r in same)[len(same) // 2]
+        items.append((desc, int(mid(4)), round(mid(6), 1)))
+    return items
+
+
 def process_messages(store, client):
     msgs = fetch_messages(store.get("最後に読んだメッセージID"))
     done = 0
@@ -498,8 +705,11 @@ def process_messages(store, client):
                     send("⚠️ メッセージの文字が読めません。Discord Developer Portal でボットの **MESSAGE CONTENT INTENT** をオンにしてください。")
                 continue
             reply = None if images else handle_command(store, m, text, now)
+            if reply is None and images and re.match(r"\s*メニュー(?:表)?登録", text or ""):
+                reply = register_menu(store, client, text, images)
             if reply is None:
                 parsed = parse_message(client, text, images, store, now)
+                apply_registered(store, parsed.entries, text)
                 rows = entries_to_rows(parsed.entries, m, now)
                 store.add(rows)
                 reply = reply_text([e for e in parsed.entries if e.kind in ("食事", "運動", "歩数", "体重")],
