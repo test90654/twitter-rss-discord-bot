@@ -1,0 +1,49 @@
+name: Health Log (食事・運動の記録)
+
+# Discord の専用チャンネルに送った食事の写真・Google Fit の画面・体重を読み取り、スプレッドシートに記録する。
+# 毎週月曜 13:30（日本時間）に先週のまとめと今週の常勝軒の予定を送る。
+# 記録はスプレッドシート（非公開）にだけ置き、このリポジトリやログには残さない。
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'  # 15分ごと（GitHub の定期実行は混雑時に遅れることがある）
+    - cron: '30 4 * * 1'          # 月曜 13:30（日本時間）週間レポート
+  workflow_dispatch:
+    inputs:
+      report:
+        description: '週間レポートを今すぐ送る'
+        type: boolean
+        default: false
+
+concurrency:
+  group: health-log
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests google-genai pydantic gspread
+
+      - name: Run
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_HEALTH_CHANNEL_ID: ${{ secrets.DISCORD_HEALTH_CHANNEL_ID }}
+          SPREADSHEET_ID_HEALTH: ${{ secrets.SPREADSHEET_ID_HEALTH }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REPORT: ${{ github.event.schedule == '30 4 * * 1' || inputs.report }}
+        run: |
+          if [ "$REPORT" = "true" ]; then
+            python src/health_bot.py --report
+          else
+            python src/health_bot.py
+          fi
