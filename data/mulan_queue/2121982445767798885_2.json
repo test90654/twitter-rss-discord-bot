@@ -1,0 +1,1504 @@
+{
+  "tweet_id": "2121982445767798885_2",
+  "original_tweet_id": "2121982445767798885",
+  "store": "ムラ中",
+  "text": "📢11/16更新📢\n作品別プライズフィギュア買取速報です✨️\n有効期限は2026年11月30日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/KGdb5UeCma",
+  "image_file": "2121982445767798885_2.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2121982445767798885",
+  "posted_at": "2026/11/16 00:03",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "魔法少女まどか☆マギカ BANPRESTO EVOLVE アルティメットまどか",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "2725387",
+      "_check": {
+        "status": "unknown",
+        "ref": "EVOLVE Clearluxe クリオネ",
+        "source": "登録済み/sheet1",
+        "score": 0.167,
+        "unmatched": [
+          "魔法少女まどか☆マギカ",
+          "BANPRESTO",
+          "アルティメットまどか"
+        ],
+        "missing": [
+          "clearluxe",
+          "クリオネ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "魔法少女まどか☆マギカ BANPRESTO EVOLVE 悪魔ほむら",
+      "price": "1700",
+      "update_date": "2026/11/16",
+      "model_number": "2725388",
+      "_check": {
+        "status": "unknown",
+        "ref": "EVOLVE Clearluxe クリオネ",
+        "source": "登録済み/sheet1",
+        "score": 0.194,
+        "unmatched": [
+          "魔法少女まどか☆マギカ",
+          "BANPRESTO",
+          "悪魔ほむら"
+        ],
+        "missing": [
+          "clearluxe",
+          "クリオネ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "魔法少女まどか☆マギカ SPM 鹿目まどか（再販）",
+      "price": "1100",
+      "update_date": "2026/11/16",
+      "model_number": "1121664",
+      "_check": {
+        "status": "unknown",
+        "ref": "SPM 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.158,
+        "unmatched": [
+          "魔法少女まどか☆マギカ",
+          "鹿目まどか"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "無職転生 One-Seventh Carat ロキシー バニー Ver.",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "SS16696",
+      "_check": {
+        "status": "suspect",
+        "ref": "薬屋のひとりごと One-Seventh Caratフィギュア 猫猫",
+        "source": "入荷カレンダー/入荷予定",
+        "score": 0.5,
+        "unmatched": [
+          "無職転生",
+          "ロキシー",
+          "バニー",
+          "Ver."
+        ],
+        "missing": [
+          "薬屋のひとりごと",
+          "caratフィギュア",
+          "猫猫"
+        ],
+        "suggestion": "",
+        "reason": "「無職転生」「ロキシー」「バニー」「Ver.」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "無職転生 Vivit ロキシー バニー Ver.",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "SS15701",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vivit 五条悟 呪術高専 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.45,
+        "unmatched": [
+          "無職転生",
+          "ロキシー",
+          "バニー"
+        ],
+        "missing": [
+          "五条悟",
+          "呪術高専"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "無職転生 Vivit ロキシー バニー偏光カラー Ver.",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "SS16691",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vivit 五条悟 呪術高専 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.36,
+        "unmatched": [
+          "無職転生",
+          "ロキシー",
+          "バニー偏光カラー"
+        ],
+        "missing": [
+          "五条悟",
+          "呪術高専"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "T-most アイ",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "T-most アイ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
+    },
+    {
+      "name": "T-most アイ（再販）",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "T-most アイ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "一致はしましたが、商品名が短すぎて確実とは言えません"
+      }
+    },
+    {
+      "name": "椎名真昼 ワンピース ver.",
+      "price": "700",
+      "update_date": "2026/11/16",
+      "model_number": "2765968",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "椎名真昼",
+          "ワンピース"
+        ],
+        "missing": [
+          "amp",
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "椎名真昼（バンプレスト）",
+      "price": "700",
+      "update_date": "2026/11/16",
+      "model_number": "2758475",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Trio-Try-iT Figure 水篠旬",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "17754",
+      "_check": {
+        "status": "suspect",
+        "ref": "アニメ「鬼滅の刃」 Trio-Try-iT Figure -冨岡義勇-",
+        "source": "入荷カレンダー/入荷報告",
+        "score": 0.833,
+        "unmatched": [
+          "水篠旬"
+        ],
+        "missing": [
+          "アニメ",
+          "鬼滅の刃",
+          "冨岡義勇"
+        ],
+        "suggestion": "",
+        "reason": "「水篠旬」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Trio-Try-iT Figure 水篠旬（再販）",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "20009",
+      "_check": {
+        "status": "suspect",
+        "ref": "アニメ「鬼滅の刃」 Trio-Try-iT Figure -冨岡義勇-",
+        "source": "入荷カレンダー/入荷報告",
+        "score": 0.833,
+        "unmatched": [
+          "水篠旬"
+        ],
+        "missing": [
+          "アニメ",
+          "鬼滅の刃",
+          "冨岡義勇"
+        ],
+        "suggestion": "",
+        "reason": "「水篠旬」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "ESPRESTO Excite Motions vol.1 水篠旬",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "2702436",
+      "_check": {
+        "status": "verified",
+        "ref": "ESPRESTO Excite Motions vol.1 水篠旬",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ESPRESTO",
+          "Excite",
+          "Motions",
+          "水篠旬"
+        ],
+        "missing": [
+          "dx",
+          "フィギュア",
+          "ゴン"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 2702436 で登録済みの「ESPRESTO Excite Motions vol.1 水篠旬」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぬーどるストッパー 和栗薫子",
+      "price": "2600",
+      "update_date": "2026/11/16",
+      "model_number": "20435",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー L",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "和栗薫子"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「和栗薫子」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "無職転生 ハイプレミアム エリス",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "1123948",
+      "_check": {
+        "status": "suspect",
+        "ref": "ハイプレミアム レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "無職転生",
+          "エリス"
+        ],
+        "missing": [
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "「無職転生」「エリス」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "無職転生 Yumemirize ロキシー",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "1123950",
+      "_check": {
+        "status": "suspect",
+        "ref": "Yumemirize / ロキシー",
+        "source": "登録済み/sheet1",
+        "score": 0.778,
+        "unmatched": [
+          "無職転生"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「無職転生」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 王選候補者と騎士 プリシラ",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "22026",
+      "_check": {
+        "status": "unknown",
+        "ref": "王選候補者と騎士 スバル",
+        "source": "登録済み/sheet1",
+        "score": 0.308,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活",
+          "プリシラ"
+        ],
+        "missing": [
+          "スバル"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 王選候補者と騎士 アル",
+      "price": "2200",
+      "update_date": "2026/11/16",
+      "model_number": "22026",
+      "_check": {
+        "status": "unknown",
+        "ref": "王選候補者と騎士 スバル",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活",
+          "アル"
+        ],
+        "missing": [
+          "スバル"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 王選候補者と騎士 ラインハルト",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "22028",
+      "_check": {
+        "status": "unknown",
+        "ref": "王選候補者と騎士 スバル",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活",
+          "ラインハルト"
+        ],
+        "missing": [
+          "スバル"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 王選候補者と騎士 エミリア",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "22097",
+      "_check": {
+        "status": "unknown",
+        "ref": "王選候補者と騎士 エミリア",
+        "source": "登録済み/sheet1",
+        "score": 0.462,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 王選候補者と騎士 スバル",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "22097",
+      "_check": {
+        "status": "unknown",
+        "ref": "王選候補者と騎士 スバル",
+        "source": "登録済み/sheet1",
+        "score": 0.44,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 GLITTER&GLAMOURS レム maid ver.",
+      "price": "1100",
+      "update_date": "2026/11/16",
+      "model_number": "2751956",
+      "_check": {
+        "status": "unknown",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.487,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活",
+          "レム",
+          "maid"
+        ],
+        "missing": [
+          "喜多川海夢",
+          "文化祭"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 Relax time レム Sweet Angel ver.",
+      "price": "2500",
+      "update_date": "2026/11/16",
+      "model_number": "2798284",
+      "_check": {
+        "status": "unknown",
+        "ref": "Relax time 綱手",
+        "source": "登録済み/sheet1",
+        "score": 0.282,
+        "unmatched": [
+          "ゼロから始める異世界生活",
+          "レム",
+          "Sweet",
+          "Angel",
+          "ver."
+        ],
+        "missing": [
+          "綱手"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 Yumemirize レム もふもふパック",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "1120046",
+      "_check": {
+        "status": "unknown",
+        "ref": "Yumemirize 狗巻棘",
+        "source": "登録済み/sheet1",
+        "score": 0.303,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活",
+          "レム",
+          "もふもふパック"
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Re:ゼロから始める異世界生活 XStellar レム もふもふパック",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "1124473",
+      "_check": {
+        "status": "unknown",
+        "ref": "Xstellar 乙骨憂太",
+        "source": "登録済み/sheet1",
+        "score": 0.258,
+        "unmatched": [
+          "Re",
+          "ゼロから始める異世界生活",
+          "レム",
+          "もふもふパック"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ワンパンマン Grandista サイタマ",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2768892",
+      "_check": {
+        "status": "verified",
+        "ref": "ワンパンマン Grandista サイタマ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ワンパンマン",
+          "サイタマ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2768892 で登録済みの「ワンパンマン Grandista サイタマ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ワンパンマン Grandista サイタマ METALLIC ver.",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2823772",
+      "_check": {
+        "status": "verified",
+        "ref": "ワンパンマン Grandista サイタマ METALLIC ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ワンパンマン",
+          "サイタマ",
+          "METALLIC",
+          "ver."
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2823772 で登録済みの「ワンパンマン Grandista サイタマ METALLIC ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ワンパンマン One Punch Life サイタマ 買い物",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "2768914",
+      "_check": {
+        "status": "verified",
+        "ref": "ワンパンマン One Punch Life サイタマ 買い物",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ワンパンマン",
+          "Punch",
+          "Life",
+          "サイタマ",
+          "買い物"
+        ],
+        "missing": [
+          "dr.stone",
+          "スイカ",
+          "フィギュア"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 2768914 で登録済みの「ワンパンマン One Punch Life サイタマ 買い物」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ワンパンマン ジオラマフィギュア サイタマ",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "2768893",
+      "_check": {
+        "status": "verified",
+        "ref": "ワンパンマン ジオラマフィギュア サイタマ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "ワンパンマン",
+          "サイタマ"
+        ],
+        "missing": [
+          "五条悟",
+          "スーツ",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 2768893 で登録済みの「ワンパンマン ジオラマフィギュア サイタマ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "その他作品 ぬーどるストッパー ニェン",
+      "price": "1300",
+      "update_date": "2026/11/16",
+      "model_number": "18779",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー L",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "その他作品",
+          "ニェン"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「その他作品」「ニェン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 ぬーどるストッパー W",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "19189",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー L",
+        "source": "登録済み/sheet1",
+        "score": 0.643,
+        "unmatched": [
+          "その他作品"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「その他作品」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 GLITTER&GLAMOURS 宇崎月 牛水着 ver.",
+      "price": "1300",
+      "update_date": "2026/11/16",
+      "model_number": "2761270",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.633,
+        "unmatched": [
+          "その他作品",
+          "宇崎月",
+          "牛水着"
+        ],
+        "missing": [
+          "喜多川海夢",
+          "文化祭"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「宇崎月」「牛水着」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 GLITTER&GLAMOURS 宇崎月 メイド ver.",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2761269",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.633,
+        "unmatched": [
+          "その他作品",
+          "宇崎月",
+          "メイド"
+        ],
+        "missing": [
+          "喜多川海夢",
+          "文化祭"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「宇崎月」「メイド」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 BANPRESTO EVOLVE オグリキャップ",
+      "price": "1400",
+      "update_date": "2026/11/16",
+      "model_number": "2761641",
+      "_check": {
+        "status": "unknown",
+        "ref": "EVOLVE Clearluxe クリオネ",
+        "source": "登録済み/sheet1",
+        "score": 0.222,
+        "unmatched": [
+          "その他作品",
+          "BANPRESTO",
+          "オグリキャップ"
+        ],
+        "missing": [
+          "clearluxe",
+          "クリオネ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "その他作品 BANPRESTO EVOLVE タマモクロス",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "2761642",
+      "_check": {
+        "status": "unknown",
+        "ref": "EVOLVE Clearluxe クリオネ",
+        "source": "登録済み/sheet1",
+        "score": 0.231,
+        "unmatched": [
+          "その他作品",
+          "BANPRESTO",
+          "タマモクロス"
+        ],
+        "missing": [
+          "clearluxe",
+          "クリオネ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Grandista 沢田綱吉",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2802766",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "沢田綱吉"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「沢田綱吉」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "めぐみん スケールフィギュア（エルココ）",
+      "price": "1800",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "LH賞 スケールフィギュア",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "めぐみん",
+          "エルココ"
+        ],
+        "missing": [
+          "lh賞"
+        ],
+        "suggestion": "",
+        "reason": "「めぐみん」「エルココ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "レッドピラミッドシング",
+      "price": "2800",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "バブルヘッドナース",
+      "price": "2000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ESPRESTO Sleepy Bunny シュガー",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "2754043",
+      "_check": {
+        "status": "suspect",
+        "ref": "rurudo ESPRESTO -Sleepy Bunny- シュガー Another color ver.",
+        "source": "入荷カレンダー/入荷予定",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "rurudo",
+          "another",
+          "color",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照名「rurudo ESPRESTO -Sleepy Bunny- シュガー Another color ver.」にある「ver.」が商品名にありません（番号・賞の読み落とし？）"
+      }
+    },
+    {
+      "name": "ESPRESTO Sleepy Bunny シュガー Another",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2840638",
+      "_check": {
+        "status": "suspect",
+        "ref": "rurudo ESPRESTO -Sleepy Bunny- シュガー Another color ver.",
+        "source": "入荷カレンダー/入荷予定",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [
+          "rurudo",
+          "color",
+          "ver."
+        ],
+        "suggestion": "",
+        "reason": "参照名「rurudo ESPRESTO -Sleepy Bunny- シュガー Another color ver.」にある「ver.」が商品名にありません（番号・賞の読み落とし？）"
+      }
+    },
+    {
+      "name": "ぬーどるストッパー 牧瀬紅莉栖",
+      "price": "1600",
+      "update_date": "2026/11/16",
+      "model_number": "21610",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 牧瀬紅莉栖",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "牧瀬紅莉栖"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 21610 で登録済みの「ぬーどるストッパー 牧瀬紅莉栖」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "BiCute Bunnies すーぱーそに子 逆バニー",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "21102",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.542,
+        "unmatched": [
+          "すーぱーそに子",
+          "逆バニー"
+        ],
+        "missing": [
+          "figure",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「すーぱーそに子」「逆バニー」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "AMP+ 桜島麻衣 バニー ver.",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "桜島麻衣",
+          "バニー"
+        ],
+        "missing": [
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "「桜島麻衣」「バニー」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "ムチュート 鈴木",
+      "price": "1200",
+      "update_date": "2026/11/16",
+      "model_number": "21602",
+      "_check": {
+        "status": "suspect",
+        "ref": "初音ミク ムチュートフィギュア -パークデート-",
+        "source": "入荷カレンダー/入荷予定",
+        "score": 0.714,
+        "unmatched": [
+          "鈴木"
+        ],
+        "missing": [
+          "初音ミク",
+          "ムチュートフィギュア",
+          "パークデート"
+        ],
+        "suggestion": "",
+        "reason": "「鈴木」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Grandista 金木研II",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2775422",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 金木研II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "金木研",
+          "II"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2775422 で登録済みの「Grandista 金木研II」と一致"
+      },
+      "_ocr_name": "Grandista 金木研 II",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "アラスター RADIO DEMON",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "2801476",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Yumemirize エルザ",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "1123846",
+      "_check": {
+        "status": "suspect",
+        "ref": "Yumemirize 狗巻棘",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "エルザ"
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "「エルザ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "SOFVIMATES ミュウツー",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2839440",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES ミュウツー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2839440 で登録済みの「SOFVIMATES ミュウツー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "AMP+ イレイナ 魔女服 ver.",
+      "price": "1100",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 桜ミク 桜提灯 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "イレイナ",
+          "魔女服"
+        ],
+        "missing": [
+          "桜ミク",
+          "桜提灯"
+        ],
+        "suggestion": "",
+        "reason": "「イレイナ」「魔女服」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Vivit マジアベーゼ Ver.1.5",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "SS16562",
+      "_check": {
+        "status": "unknown",
+        "ref": "Vivit 五条悟 呪術高専 Ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.278,
+        "unmatched": [
+          "マジアベーゼ",
+          "Ver.1.5"
+        ],
+        "missing": [
+          "五条悟",
+          "呪術高専"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "One-Seventh Carat マジアベーゼ 悪のバニ",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "SS15877",
+      "_check": {
+        "status": "suspect",
+        "ref": "薬屋のひとりごと One-Seventh Caratフィギュア 猫猫",
+        "source": "入荷カレンダー/入荷予定",
+        "score": 0.6,
+        "unmatched": [
+          "マジアベーゼ",
+          "悪のバニ"
+        ],
+        "missing": [
+          "薬屋のひとりごと",
+          "caratフィギュア",
+          "猫猫"
+        ],
+        "suggestion": "",
+        "reason": "「マジアベーゼ」「悪のバニ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Desktop Cute ナナチ 食事の時間 ver.",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 東城綾 制服 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.652,
+        "unmatched": [
+          "ナナチ",
+          "食事の時間"
+        ],
+        "missing": [
+          "東城綾",
+          "制服"
+        ],
+        "suggestion": "",
+        "reason": "「ナナチ」「食事の時間」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "フィギュアコレクション ネイキッド・スネーク",
+      "price": "1400",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "Desktop Cute 戦場ヶ原ひたぎ",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.611,
+        "unmatched": [
+          "戦場ヶ原ひたぎ"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "「戦場ヶ原ひたぎ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Desktop Cute 戦場ヶ原ひたぎ（再販）",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.611,
+        "unmatched": [
+          "戦場ヶ原ひたぎ"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "「戦場ヶ原ひたぎ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "GLITTER&GLAMOURS 七草ナズナ",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "2762257",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "七草ナズナ"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「七草ナズナ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "BiCute Bunnies ライザ",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "21596",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "ライザ"
+        ],
+        "missing": [
+          "figure",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「ライザ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "BiCute Bunnies / 貞子",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "21899",
+      "_check": {
+        "status": "verified",
+        "ref": "BiCute Bunnies / 貞子",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "貞子"
+        ],
+        "missing": [
+          "figure",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 21899 で登録済みの「BiCute Bunnies / 貞子」と一致"
+      },
+      "_ocr_name": "BiCute Bunnies 貞子",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "その他作品 ぬーどるストッパー ニエン",
+      "price": "1300",
+      "update_date": "2026/11/16",
+      "model_number": "18779",
+      "_check": {
+        "status": "suspect",
+        "ref": "ぬーどるストッパー L",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "その他作品",
+          "ニエン"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「その他作品」「ニエン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 Luminasta ホロ",
+      "price": "2500",
+      "update_date": "2026/11/16",
+      "model_number": "1110713",
+      "_check": {
+        "status": "suspect",
+        "ref": "Luminasta 脹相",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "その他作品",
+          "ホロ"
+        ],
+        "missing": [
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「ホロ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 Trio-Try-iT ホロ 赤ずきん ver.",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "18285",
+      "_check": {
+        "status": "unknown",
+        "ref": "Trio-Try-iT フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "その他作品",
+          "ホロ",
+          "赤ずきん",
+          "ver."
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "その他作品 Desktop Cute ナナチ 食事の時間 ver.",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 東城綾 制服 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.536,
+        "unmatched": [
+          "その他作品",
+          "ナナチ",
+          "食事の時間"
+        ],
+        "missing": [
+          "東城綾",
+          "制服"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「ナナチ」「食事の時間」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 フィギュアコレクション ネイキッド・スネーク",
+      "price": "1400",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "その他作品 Desktop Cute 戦場ヶ原ひたぎ",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Desktop Cute フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.478,
+        "unmatched": [
+          "その他作品",
+          "戦場ヶ原ひたぎ"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "その他作品 Desktop Cute 戦場ヶ原ひたぎ (再販)",
+      "price": "900",
+      "update_date": "2026/11/16",
+      "model_number": "",
+      "_check": {
+        "status": "unknown",
+        "ref": "Desktop Cute フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.478,
+        "unmatched": [
+          "その他作品",
+          "戦場ヶ原ひたぎ"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "その他作品 GLITTER&GLAMOURS 七草ナズナ",
+      "price": "1500",
+      "update_date": "2026/11/16",
+      "model_number": "2762257",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER&GLAMOURS マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "その他作品",
+          "七草ナズナ"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「七草ナズナ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 BiCute Bunnies ライザ",
+      "price": "1000",
+      "update_date": "2026/11/16",
+      "model_number": "21596",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.619,
+        "unmatched": [
+          "その他作品",
+          "ライザ"
+        ],
+        "missing": [
+          "figure",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「ライザ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 BiCute Bunnies 貞子",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "21899",
+      "_check": {
+        "status": "suspect",
+        "ref": "BiCute Bunnies Figure マキマ",
+        "source": "登録済み/sheet1",
+        "score": 0.65,
+        "unmatched": [
+          "その他作品",
+          "貞子"
+        ],
+        "missing": [
+          "figure",
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "「その他作品」「貞子」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "その他作品 のろいの胸像 貞子",
+      "price": "800",
+      "update_date": "2026/11/16",
+      "model_number": "2838551",
+      "_check": {
+        "status": "unknown",
+        "ref": "",
+        "source": "",
+        "score": 0.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "その他作品 Trio-Try-iT 甘織れな子",
+      "price": "2500",
+      "update_date": "2026/11/16",
+      "model_number": "20373",
+      "_check": {
+        "status": "unknown",
+        "ref": "Trio-Try-iT フェルン",
+        "source": "登録済み/sheet1",
+        "score": 0.474,
+        "unmatched": [
+          "その他作品",
+          "甘織れな子"
+        ],
+        "missing": [
+          "フェルン"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    }
+  ],
+  "auto_checked_at": "2026/11/16 09:44"
+}
