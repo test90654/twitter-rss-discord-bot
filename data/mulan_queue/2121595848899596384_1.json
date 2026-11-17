@@ -1,0 +1,1323 @@
+{
+  "tweet_id": "2121595848899596384_1",
+  "original_tweet_id": "2121595848899596384",
+  "store": "ムラ中",
+  "text": "📢11/15更新📢\n『BLEACH ブリーチ』プライズフィギュア\n一番くじフィギュア買取速報です✨️\n有効期限は2026年11月29日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/yyoh3mNBJA",
+  "image_file": "2121595848899596384_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2121595848899596384",
+  "posted_at": "2026/11/14 22:27",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "Grandista 黒崎一護",
+      "price": "2600",
+      "update_date": "2026/11/15",
+      "model_number": "2771550",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2771550 で登録済みの「Grandista 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Grandista / 藍染惣右介",
+      "price": "1000",
+      "update_date": "2026/11/15",
+      "model_number": "2800155",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista / 藍染惣右介",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2800155 で登録済みの「Grandista / 藍染惣右介」と一致"
+      },
+      "_ocr_name": "Grandista 藍染惣右介",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 黒崎一護",
+      "price": "4200",
+      "update_date": "2026/11/15",
+      "model_number": "2746720",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2746720 で登録済みの「MAXIMATIC 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 浦原喜助",
+      "price": "1000",
+      "update_date": "2026/11/15",
+      "model_number": "2720295",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 浦原喜助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2720295 で登録済みの「MAXIMATIC 浦原喜助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 更木剣八",
+      "price": "1000",
+      "update_date": "2026/11/15",
+      "model_number": "2760529",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "更木剣八"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「更木剣八」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "MAXIMATIC グリムジョー",
+      "price": "1800",
+      "update_date": "2026/11/15",
+      "model_number": "2802188",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC グリムジョー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2802188 で登録済みの「MAXIMATIC グリムジョー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC ウルキオラ・シファー",
+      "price": "2200",
+      "update_date": "2026/11/15",
+      "model_number": "2798904",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC ウルキオラ・シファー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2798904 で登録済みの「MAXIMATIC ウルキオラ・シファー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.1 B賞 石田雨竜",
+      "price": "2000",
+      "update_date": "2026/11/15",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.1 B賞 石田雨竜",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.1 B賞 石田雨竜」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.1 C賞 朽木白哉",
+      "price": "7200",
+      "update_date": "2026/11/15",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.1 C賞 朽木白哉",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.1 C賞 朽木白哉」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.1 ラストワン賞 更木剣八",
+      "price": "14000",
+      "update_date": "2026/11/15",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.1 ラストワン賞 更木剣八",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.1 ラストワン賞 更木剣八」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.2 A賞 黒崎一護",
+      "price": "9000",
+      "update_date": "2026/11/15",
+      "model_number": "62680",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.2 A賞 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 62680 で登録済みの「一番くじ 千年血戦篇 OP.2 A賞 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.2 B賞 阿散井恋次",
+      "price": "13000",
+      "update_date": "2026/11/15",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.2 B賞 阿散井恋次",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.2 B賞 阿散井恋次」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.2 C賞 朽木ルキア",
+      "price": "20000",
+      "update_date": "2026/11/15",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.2 C賞 朽木ルキア",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.2 C賞 朽木ルキア」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Grandista / 藍染惣右介",
+      "price": "1000",
+      "update_date": "2026/11/15",
+      "model_number": "2800155",
+      "_check": {
+        "status": "verified",
+        "ref": "Grandista / 藍染惣右介",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2800155 で登録済みの「Grandista / 藍染惣右介」と一致"
+      },
+      "_ocr_name": "Grandista 藍染惣右介",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 黒崎一護",
+      "price": "4200",
+      "update_date": "2026/11/15",
+      "model_number": "2746720",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2746720 で登録済みの「MAXIMATIC 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 浦原喜助",
+      "price": "1000",
+      "update_date": "2026/11/15",
+      "model_number": "2720295",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC 浦原喜助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2720295 で登録済みの「MAXIMATIC 浦原喜助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC 更木剣八",
+      "price": "1000",
+      "update_date": "2026/11/15",
+      "model_number": "2760529",
+      "_check": {
+        "status": "suspect",
+        "ref": "MAXIMATIC 轟焦凍",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "更木剣八"
+        ],
+        "missing": [
+          "轟焦凍"
+        ],
+        "suggestion": "",
+        "reason": "「更木剣八」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "MAXIMATIC グリムジョー",
+      "price": "1800",
+      "update_date": "2026/11/15",
+      "model_number": "2802188",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC グリムジョー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2802188 で登録済みの「MAXIMATIC グリムジョー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "MAXIMATIC ウルキオラ・シファー",
+      "price": "2200",
+      "update_date": "2026/11/15",
+      "model_number": "2798904",
+      "_check": {
+        "status": "verified",
+        "ref": "MAXIMATIC ウルキオラ・シファー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2798904 で登録済みの「MAXIMATIC ウルキオラ・シファー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "VIBRATION STARS 黒崎一護",
+      "price": "2500",
+      "update_date": "2026/11/15",
+      "model_number": "2681864",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2681864 で登録済みの「VIBRATION STARS 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "VIBRATION STARS 日番谷冬獅郎",
+      "price": "1800",
+      "update_date": "2026/11/15",
+      "model_number": "2681867",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS 日番谷冬獅郎",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2681867 で登録済みの「VIBRATION STARS 日番谷冬獅郎」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "VIBRATION STARS グリムジョー",
+      "price": "1200",
+      "update_date": "2026/11/15",
+      "model_number": "2720294",
+      "_check": {
+        "status": "verified",
+        "ref": "VIBRATION STARS グリムジョー",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2720294 で登録済みの「VIBRATION STARS グリムジョー」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 黒崎一護",
+      "price": "2300",
+      "update_date": "2026/11/15",
+      "model_number": "2601305",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2601305 で登録済みの「SOLID AND SOULS 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 黒崎一護 II",
+      "price": "3800",
+      "update_date": "2026/11/15",
+      "model_number": "2632812",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 黒崎一護 II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2632812 で登録済みの「SOLID AND SOULS 黒崎一護 II」と一致"
+      },
+      "_ocr_name": "SOLID AND SOULS 黒崎一護Ⅱ",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS A 黒崎一護",
+      "price": "3000",
+      "update_date": "2026/11/15",
+      "model_number": "2662636",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS A 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2662636 で登録済みの「SOLID AND SOULS A 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 朽木ルキア",
+      "price": "3200",
+      "update_date": "2026/11/15",
+      "model_number": "2626521",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 朽木ルキア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2626521 で登録済みの「SOLID AND SOULS 朽木ルキア」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 朽木白哉",
+      "price": "2200",
+      "update_date": "2026/11/15",
+      "model_number": "2601309",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 朽木白哉",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2601309 で登録済みの「SOLID AND SOULS 朽木白哉」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 阿散井恋次",
+      "price": "1500",
+      "update_date": "2026/11/15",
+      "model_number": "2626522",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 阿散井恋次",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2626522 で登録済みの「SOLID AND SOULS 阿散井恋次」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 更木剣八",
+      "price": "4200",
+      "update_date": "2026/11/15",
+      "model_number": "2601311",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 更木剣八",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2601311 で登録済みの「SOLID AND SOULS 更木剣八」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 涅マユリ",
+      "price": "2500",
+      "update_date": "2026/11/15",
+      "model_number": "2662638",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 涅マユリ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2662638 で登録済みの「SOLID AND SOULS 涅マユリ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 日番谷冬獅郎",
+      "price": "2000",
+      "update_date": "2026/11/15",
+      "model_number": "2601308",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 日番谷冬獅郎",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2601308 で登録済みの「SOLID AND SOULS 日番谷冬獅郎」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 砕蜂",
+      "price": "1600",
+      "update_date": "2026/11/15",
+      "model_number": "2626520",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 砕蜂",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2626520 で登録済みの「SOLID AND SOULS 砕蜂」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 卯ノ花烈",
+      "price": "2800",
+      "update_date": "2026/11/15",
+      "model_number": "2601307",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 卯ノ花烈",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2601307 で登録済みの「SOLID AND SOULS 卯ノ花烈」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOLID AND SOULS 山本元柳斎重國",
+      "price": "2200",
+      "update_date": "2026/11/15",
+      "model_number": "2601306",
+      "_check": {
+        "status": "verified",
+        "ref": "SOLID AND SOULS 山本元柳斎重國",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2601306 で登録済みの「SOLID AND SOULS 山本元柳斎重國」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Soul Entered Model 黒崎一護",
+      "price": "2200",
+      "update_date": "2026/11/15",
+      "model_number": "2541879",
+      "_check": {
+        "status": "verified",
+        "ref": "Soul Entered Model 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2541879 で登録済みの「Soul Entered Model 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Soul Entered Model 黒崎一護 II",
+      "price": "3200",
+      "update_date": "2026/11/15",
+      "model_number": "2598573",
+      "_check": {
+        "status": "verified",
+        "ref": "Soul Entered Model 黒崎一護 II",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2598573 で登録済みの「Soul Entered Model 黒崎一護 II」と一致"
+      },
+      "_ocr_name": "Soul Entered Model 黒崎一護Ⅱ",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Relax time 四楓院夜一",
+      "price": "4600",
+      "update_date": "2026/11/15",
+      "model_number": "2611565",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time 四楓院夜一",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2611565 で登録済みの「Relax time 四楓院夜一」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Relax time 朽木ルキア",
+      "price": "2400",
+      "update_date": "2026/11/15",
+      "model_number": "2611563",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time 朽木ルキア",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2611563 で登録済みの「Relax time 朽木ルキア」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Relax time 井上織姫",
+      "price": "2400",
+      "update_date": "2026/11/15",
+      "model_number": "2611564",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time 井上織姫",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2611564 で登録済みの「Relax time 井上織姫」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Relax time 松本乱菊",
+      "price": "1800",
+      "update_date": "2026/11/15",
+      "model_number": "2643510",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time 松本乱菊",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2643510 で登録済みの「Relax time 松本乱菊」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Relax time バンビエッタ",
+      "price": "1500",
+      "update_date": "2026/11/15",
+      "model_number": "2656104",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time バンビエッタ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2656104 で登録済みの「Relax time バンビエッタ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Relax time ジゼル・ジュエル",
+      "price": "900",
+      "update_date": "2026/11/15",
+      "model_number": "2656100",
+      "_check": {
+        "status": "verified",
+        "ref": "Relax time ジゼル・ジュエル",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2656100 で登録済みの「Relax time ジゼル・ジュエル」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "GLITTER&GLAMOURS ティア・ハリベル",
+      "price": "2600",
+      "update_date": "2026/11/15",
+      "model_number": "2802189",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS ティア・ハリベル",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2802189 で登録済みの「GLITTER&GLAMOURS ティア・ハリベル」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.2 B賞 阿散井恋次",
+      "price": "13000",
+      "update_date": "2026/11/15",
+      "model_number": "62680",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.2 B賞 阿散井恋次",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.2 B賞 阿散井恋次」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.2 C賞 朽木ルキア",
+      "price": "20000",
+      "update_date": "2026/11/15",
+      "model_number": "62680",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.2 C賞 朽木ルキア",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.2 C賞 朽木ルキア」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.2 ラストワン賞 日番谷冬獅郎 ゾンビ ver.",
+      "price": "7000",
+      "update_date": "2026/11/15",
+      "model_number": "62680",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.2 ラストワン賞 日番谷冬獅郎 ゾンビ ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ 千年血戦篇 OP.2 ラストワン賞 日番谷冬獅郎 ゾンビ ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.1 A賞 死神代行 黒崎一護",
+      "price": "6000",
+      "update_date": "2026/11/15",
+      "model_number": "64706",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.1 A賞 死神代行 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 64706 で登録済みの「一番くじ Stirring Souls vol.1 A賞 死神代行 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.1 B賞 藍染惣右介",
+      "price": "28000",
+      "update_date": "2026/11/15",
+      "model_number": "64706",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.1 B賞 藍染惣右介",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.1 B賞 藍染惣右介」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.1 C賞 グリムジョー・ジャガージャック",
+      "price": "8500",
+      "update_date": "2026/11/15",
+      "model_number": "64706",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.1 C賞 グリムジョー・ジャガージャック",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.1 C賞 グリムジョー・ジャガージャック」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.1 ラストワン賞 黒崎一護 虚",
+      "price": "8000",
+      "update_date": "2026/11/15",
+      "model_number": "64706",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.1 ラストワン賞 黒崎一護",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.1 ラストワン賞 黒崎一護」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.2 A賞 黒崎一護 内なる虚",
+      "price": "10000",
+      "update_date": "2026/11/15",
+      "model_number": "64763",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.2 A賞 黒崎一護 内なる虚",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 64763 で登録済みの「一番くじ Stirring Souls vol.2 A賞 黒崎一護 内なる虚」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.2 B賞 市丸ギン",
+      "price": "32000",
+      "update_date": "2026/11/15",
+      "model_number": "64763",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.2 B賞 市丸ギン",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.2 B賞 市丸ギン」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.2 C賞 更木剣八",
+      "price": "15000",
+      "update_date": "2026/11/15",
+      "model_number": "64763",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.2 C賞 更木剣八",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.2 C賞 更木剣八」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.2 ラストワン賞 朽木白哉",
+      "price": "30000",
+      "update_date": "2026/11/15",
+      "model_number": "64763",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.2 ラストワン賞 朽木白哉",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.2 ラストワン賞 朽木白哉」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.3 A賞 ウルキオラ",
+      "price": "16000",
+      "update_date": "2026/11/15",
+      "model_number": "67762",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.3 A賞 ウルキオラ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 67762 で登録済みの「一番くじ Stirring Souls vol.3 A賞 ウルキオラ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.3 B賞 グリムジョー",
+      "price": "16000",
+      "update_date": "2026/11/15",
+      "model_number": "67762",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.3 B賞 グリムジョー",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.3 B賞 グリムジョー」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.3 C賞 ザエルアポロ",
+      "price": "20000",
+      "update_date": "2026/11/15",
+      "model_number": "67762",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.3 C賞 ザエルアポロ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.3 C賞 ザエルアポロ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.3 D賞 涅マユリ 小物入れ",
+      "price": "2000",
+      "update_date": "2026/11/15",
+      "model_number": "67762",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.3 D賞 涅マユリ 小物入れ",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.3 D賞 涅マユリ 小物入れ」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.3 ラストワン賞 ネリエル",
+      "price": "27000",
+      "update_date": "2026/11/15",
+      "model_number": "67762",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.3 ラストワン賞 ネリエル",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.3 ラストワン賞 ネリエル」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.4 A賞 日番谷冬獅郎",
+      "price": "4500",
+      "update_date": "2026/11/15",
+      "model_number": "68135",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.4 A賞 日番谷冬獅郎",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 68135 で登録済みの「一番くじ Stirring Souls vol.4 A賞 日番谷冬獅郎」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.4 B賞 平子真子",
+      "price": "10000",
+      "update_date": "2026/11/15",
+      "model_number": "68135",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.4 B賞 平子真子",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.4 B賞 平子真子」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.4 C賞 藍染惣右介",
+      "price": "9000",
+      "update_date": "2026/11/15",
+      "model_number": "68135",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.4 C賞 藍染惣右介",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「一番くじ Stirring Souls vol.4 C賞 藍染惣右介」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.4 ラストワン賞 浦原喜助",
+      "price": "25000",
+      "update_date": "2026/11/15",
+      "model_number": "68135",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Stirring Souls vol.4 ラストワン賞 浦原喜助",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 68135 で登録済みの「一番くじ Stirring Souls vol.4 ラストワン賞 浦原喜助」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.5 A賞 黒崎一護 ※開封確認必須",
+      "price": "10000",
+      "update_date": "2026/11/15",
+      "model_number": "68207",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ Stirring Souls vol.1 A賞 死神代行 黒崎一護",
+        "source": "登録済み/sheet1",
+        "score": 0.657,
+        "unmatched": [
+          "vol.5",
+          "※開封確認必須"
+        ],
+        "missing": [
+          "vol.1",
+          "死神代行"
+        ],
+        "suggestion": "一番くじ Stirring Souls vol.1 A賞 黒崎一護 ※開封確認必須",
+        "reason": "「vol.5」「※開封確認必須」が参照名に見当たりません（候補: vol.5→vol.1）"
+      }
+    },
+    {
+      "name": "GLITTER&GLAMOURS 涅ネム",
+      "price": "800",
+      "update_date": "2026/11/15",
+      "model_number": "2798906",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER&GLAMOURS 涅ネム",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "涅ネム"
+        ],
+        "missing": [
+          "マキマ"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 2798906 で登録済みの「GLITTER&GLAMOURS 涅ネム」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "SOFVIMATES コン",
+      "price": "3200",
+      "update_date": "2026/11/15",
+      "model_number": "2727959",
+      "_check": {
+        "status": "verified",
+        "ref": "SOFVIMATES コン",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2727959 で登録済みの「SOFVIMATES コン」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ 千年血戦篇 OP.1 A賞 黒崎一護",
+      "price": "5200",
+      "update_date": "2026/11/15",
+      "model_number": "62547",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ 千年血戦篇 OP.1 A賞 黒崎一護",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 62547 で登録済みの「一番くじ 千年血戦篇 OP.1 A賞 黒崎一護」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.5 B賞 日番谷冬獅郎",
+      "price": "3000",
+      "update_date": "2026/11/15",
+      "model_number": "68207",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ Stirring Souls vol.4 A賞 日番谷冬獅郎",
+        "source": "登録済み/sheet1",
+        "score": 0.767,
+        "unmatched": [
+          "vol.5",
+          "B賞"
+        ],
+        "missing": [
+          "vol.4",
+          "a賞"
+        ],
+        "suggestion": "一番くじ Stirring Souls vol.4 B賞 日番谷冬獅郎",
+        "reason": "「vol.5」「B賞」が参照名に見当たりません（候補: vol.5→vol.4）"
+      }
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.5 C賞 四楓院夜一",
+      "price": "21000",
+      "update_date": "2026/11/15",
+      "model_number": "68207",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ Stirring Souls vol.2 C賞 更木剣八",
+        "source": "登録済み/sheet1",
+        "score": 0.655,
+        "unmatched": [
+          "vol.5",
+          "四楓院夜一"
+        ],
+        "missing": [
+          "vol.2",
+          "更木剣八"
+        ],
+        "suggestion": "一番くじ Stirring Souls vol.2 C賞 四楓院夜一",
+        "reason": "「vol.5」「四楓院夜一」が参照名に見当たりません（候補: vol.5→vol.2）"
+      }
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.5 D賞 死神代行証小物入れ",
+      "price": "900",
+      "update_date": "2026/11/15",
+      "model_number": "68207",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ Stirring Souls vol.3 D賞 涅マユリ 小物入れ",
+        "source": "登録済み/sheet1",
+        "score": 0.576,
+        "unmatched": [
+          "vol.5",
+          "死神代行証小物入れ"
+        ],
+        "missing": [
+          "vol.3",
+          "涅マユリ"
+        ],
+        "suggestion": "一番くじ Stirring Souls vol.3 D賞 死神代行証小物入れ",
+        "reason": "「vol.5」「死神代行証小物入れ」が参照名に見当たりません（候補: vol.5→vol.3）"
+      }
+    },
+    {
+      "name": "一番くじ Stirring Souls vol.5 ラストワン賞 更木剣八",
+      "price": "8500",
+      "update_date": "2026/11/15",
+      "model_number": "68207",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ Stirring Souls vol.2 ラストワン賞 朽木白哉",
+        "source": "登録済み/sheet1",
+        "score": 0.719,
+        "unmatched": [
+          "vol.5",
+          "更木剣八"
+        ],
+        "missing": [
+          "vol.2",
+          "朽木白哉"
+        ],
+        "suggestion": "一番くじ Stirring Souls vol.2 ラストワン賞 更木剣八",
+        "reason": "「vol.5」「更木剣八」が参照名に見当たりません（候補: vol.5→vol.2）"
+      }
+    }
+  ],
+  "auto_checked_at": "2026/11/17 10:52"
+}
