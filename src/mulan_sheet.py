@@ -113,3 +113,20 @@ def append_to_result_sheet(sheet, row_data):
             row_data["model_number"],
         ]],
     )
+
+
+def append_many_to_result_sheet(sheet, rows_data):
+    """
+    複数行をまとめて書き込む（API呼び出しは数回で済むので、件数が多くても回数制限に掛かりにくい）。
+    書き込み先は append_to_result_sheet と同じく、B列の最終行の次の行から B〜E 列。
+    """
+    if not rows_data:
+        return
+    start = len(sheet.col_values(2)) + 1
+    end = start + len(rows_data) - 1
+    if end > sheet.row_count:
+        sheet.add_rows(end - sheet.row_count + 100)
+    sheet.update(
+        range_name=f"B{start}:E{end}",
+        values=[[r["name"], r["price"], r["update_date"], r["model_number"]] for r in rows_data],
+    )

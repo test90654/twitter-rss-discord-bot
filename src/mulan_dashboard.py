@@ -77,6 +77,7 @@ from mulan_sheet import (  # noqa: E402
     item_key, fetch_registered_keys,
 )
 from mulan_sheet import append_to_result_sheet as _append_row  # noqa: E402
+from mulan_sheet import append_many_to_result_sheet  # noqa: E402
 
 def queue_label(path):
     """
@@ -334,6 +335,72 @@ if selected_json:
             st.session_state["flash_msg"] = (f"✅ {len(indices)} 件を登録しました！{skip_note}", "🎉")
         return True
 
+    def all_target_indices():
+        """
+        画像1枚ぶん（全ページ）の未登録アイテム。
+        チェックを外したもの（表示中のページで外したもの）は除く。
+        """
+        return [
+            i for i in range(total_items)
+            if not is_done(parsed_items[i]) and st.session_state.get(f"chk_{tweet_id}_{i}", True)
+        ]
+
+    def register_all_in_image():
+        """
+        画像1枚ぶんの未登録アイテムをまとめてスプレッドシートに登録する。
+        書き込みは1回にまとめる（1件ずつだと件数が多いとき Google の回数制限に掛かるため）。
+        成功したら True を返す（st.rerun は try の外で呼ぶ）
+        """
+        indices = all_target_indices()
+        if not indices:
+            st.warning("⚠️ 登録する項目がありません。")
+            return False
+        try:
+            gc = get_gspread_client()
+            sheet = get_result_sheet(gc, store)
+            # 書き込む直前にシートの最新状態を確認（他の端末・タブで登録済みのものは書かない）
+            sheet_keys = fetch_registered_keys(gc, store)
+            to_write, skipped = [], 0
+            for idx in indices:
+                vals = current_values(idx)
+                key = item_key(vals["name"], vals["model_number"], vals["update_date"])
+                if key in sheet_keys:
+                    skipped += 1
+                else:
+                    to_write.append(vals)
+                    sheet_keys.add(key)  # 同じ画像内の重複も1回だけ書く
+                parsed_items[idx].update(vals)
+            append_many_to_result_sheet(sheet, to_write)
+            for idx in indices:
+                parsed_items[idx]["_registered"] = True
+            save_meta_json()
+        except Exception as e:
+            st.error(f"❌ 一括登録エラー（シートには書き込んでいません）: {e}")
+            return False
+
+        st.session_state[items_session_key] = parsed_items
+        skip_note = f"（うち {skipped} 件はシートに登録済みだったので省略）" if skipped else ""
+        if pending_count() == 0:
+            complete_and_move()
+            st.session_state["flash_msg"] = (f"🎉 この1枚の {len(indices)} 件をまとめて登録しました！{skip_note} 次のデータへ進みます。", "🚀")
+        else:
+            st.session_state[page_key] = first_pending_page()
+            st.session_state["flash_msg"] = (f"✅ {len(indices)} 件をまとめて登録しました！{skip_note} チェックを外した項目が残っています。", "🎉")
+        return True
+
+    def register_all_popover(container, key_suffix):
+        """押し間違いを防ぐため、確認を1回はさむ"""
+        targets = all_target_indices()
+        suspects = sum(1 for i in targets if (parsed_items[i].get("_check") or {}).get("status") == "suspect")
+        with container.popover(f"📥 この1枚を一括登録（全ページ {len(targets)} 件）"):
+            st.markdown(f"この画像の未登録 **{len(targets)} 件** を、全ページまとめてシート「{sheet_name_for(store)}」に登録します。")
+            if suspects:
+                st.warning(f"⚠️ うち {suspects} 件に読み間違いの疑いがあります。先に確認してください。")
+            st.caption("表示中のページでチェックを外した項目は登録しません。")
+            if st.button("✅ まとめて登録する", type="primary", key=f"all_confirm_{key_suffix}_{tweet_id}"):
+                if register_all_in_image():
+                    st.rerun()
+
     def checked_pending_indices_on_page(p):
         return [
             i for i in page_range(p)
@@ -386,6 +453,7 @@ if selected_json:
     if st.sidebar.button("🚀 チェックした項目を一括登録", type="primary", key="sb_batch_btn"):
         if register_items(checked_pending_indices_on_page(st.session_state[page_key]), move_page_always=True):
             st.rerun()
+    register_all_popover(st.sidebar, "sb")
     if st.sidebar.button("🗑️ このデータを丸ごとスキップ", key="sb_skip_btn"):
         execute_skip()
 
@@ -493,6 +561,7 @@ if selected_json:
             if st.button("🚀 チェックした項目を一括登録 (下部)", type="primary", key=f"bottom_batch_{tweet_id}"):
                 if register_items(checked_pending_indices_on_page(cur_page), move_page_always=True):
                     st.rerun()
+            register_all_popover(st, "bottom")
         with col_b2:
             if st.button("🗑️ このデータを丸ごとスキップ (下部)", key=f"bottom_skip_{tweet_id}"):
                 execute_skip()
