@@ -1,0 +1,468 @@
+{
+  "tweet_id": "2121407767105995056_2",
+  "original_tweet_id": "2121407767105995056",
+  "store": "ムラ中",
+  "text": "📢11/14更新📢\n『鬼滅の刃』プライズフィギュア買取速報です🔥👹\n有効期限は2026年11月28日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/4s2LaYynKE",
+  "image_file": "2121407767105995056_2.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2121407767105995056",
+  "posted_at": "2026/11/14 10:00",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "ぬーどるストッパー 竈門禰豆子 × クラフトホリック",
+      "price": "1000",
+      "update_date": "2026/11/14",
+      "model_number": "20150"
+    },
+    {
+      "name": "ぬーどるストッパー 甘露寺蜜璃 × クラフトホリック",
+      "price": "1300",
+      "update_date": "2026/11/14",
+      "model_number": "20152"
+    },
+    {
+      "name": "ぬーどるストッパー 竈門炭治郎",
+      "price": "800",
+      "update_date": "2026/11/14",
+      "model_number": "14202"
+    },
+    {
+      "name": "ぬーどるストッパー 竈門炭治郎（再販）",
+      "price": "800",
+      "update_date": "2026/11/14",
+      "model_number": "15022"
+    },
+    {
+      "name": "ぬーどるストッパー 竈門炭治郎（二次再販）",
+      "price": "800",
+      "update_date": "2026/11/14",
+      "model_number": "21532"
+    },
+    {
+      "name": "ぬーどるストッパー 竈門禰豆子",
+      "price": "1400",
+      "update_date": "2026/11/14",
+      "model_number": "14528"
+    },
+    {
+      "name": "一番くじ 上弦の参 B賞 冨岡義勇",
+      "price": "5500",
+      "update_date": "2026/11/14",
+      "model_number": "67738"
+    },
+    {
+      "name": "一番くじ 上弦の参 C賞 猗窩座",
+      "price": "5500",
+      "update_date": "2026/11/14",
+      "model_number": "67738"
+    },
+    {
+      "name": "一番くじ 上弦の参 ラストワン賞 猗窩座",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": "67738"
+    },
+    {
+      "name": "一番くじ 心を燃やせ A賞 煉獄杏寿郎 アートスケール",
+      "price": "5000",
+      "update_date": "2026/11/14",
+      "model_number": "64797"
+    },
+    {
+      "name": "一番くじ 心を燃やせ ラストワン賞 煉獄杏寿郎 アートスケール",
+      "price": "5500",
+      "update_date": "2026/11/14",
+      "model_number": "64797"
+    },
+    {
+      "name": "一番くじ 受け継ぐ者 A賞 悲鳴嶼行冥",
+      "price": "50000",
+      "update_date": "2026/11/14",
+      "model_number": "64752"
+    },
+    {
+      "name": "ぬーどるストッパー 竈門禰豆子（再販）",
+      "price": "1400",
+      "update_date": "2026/11/14",
+      "model_number": "16747"
+    },
+    {
+      "name": "ぬーどるストッパー 冨岡義勇",
+      "price": "800",
+      "update_date": "2026/11/14",
+      "model_number": "16878"
+    },
+    {
+      "name": "ぬーどるストッパー 冨岡義勇（再販）",
+      "price": "800",
+      "update_date": "2026/11/14",
+      "model_number": "21530"
+    },
+    {
+      "name": "ぬーどるストッパー 煉獄杏寿郎・戦闘 Ver.",
+      "price": "1200",
+      "update_date": "2026/11/14",
+      "model_number": "20132"
+    },
+    {
+      "name": "ぬーどるストッパー 猗窩座・戦闘 Ver.",
+      "price": "1500",
+      "update_date": "2026/11/14",
+      "model_number": "20131"
+    },
+    {
+      "name": "ぬーどるストッパー 悲鳴嶼行冥",
+      "price": "2200",
+      "update_date": "2026/11/14",
+      "model_number": "17287"
+    },
+    {
+      "name": "ぬーどるストッパー 宇髄天元",
+      "price": "3000",
+      "update_date": "2026/11/14",
+      "model_number": "15237"
+    },
+    {
+      "name": "ぬーどるストッパー 不死川実弥",
+      "price": "3200",
+      "update_date": "2026/11/14",
+      "model_number": "16742"
+    },
+    {
+      "name": "ぬーどるストッパー 伊黒小芭内",
+      "price": "3800",
+      "update_date": "2026/11/14",
+      "model_number": "16605"
+    },
+    {
+      "name": "ぬーどるストッパー 時透無一郎",
+      "price": "3600",
+      "update_date": "2026/11/14",
+      "model_number": "14860"
+    },
+    {
+      "name": "ぬーどるストッパー 時透無一郎（再販）",
+      "price": "3600",
+      "update_date": "2026/11/14",
+      "model_number": "16880"
+    },
+    {
+      "name": "ぬーどるストッパー 甘露寺蜜璃",
+      "price": "2000",
+      "update_date": "2026/11/14",
+      "model_number": "14945"
+    },
+    {
+      "name": "ぬーどるストッパー 甘露寺蜜璃（再販）",
+      "price": "2000",
+      "update_date": "2026/11/14",
+      "model_number": "16611"
+    },
+    {
+      "name": "ぬーどるストッパー 栗花落カナヲ",
+      "price": "2500",
+      "update_date": "2026/11/14",
+      "model_number": "17298"
+    },
+    {
+      "name": "ぬーどるストッパー 童磨",
+      "price": "2000",
+      "update_date": "2026/11/14",
+      "model_number": "20147"
+    },
+    {
+      "name": "一番くじ 上弦の弐 A賞 胡蝶しのぶ",
+      "price": "4800",
+      "update_date": "2026/11/14",
+      "model_number": "68163"
+    },
+    {
+      "name": "一番くじ 上弦の弐 B賞 栗花落カナヲ",
+      "price": "2500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 上弦の弐 C賞 童磨",
+      "price": "4000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 上弦の弐 D賞 炭治郎と義勇のてちてち",
+      "price": "6000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 上弦の弐 ラストワン賞 童磨",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 姉の仇 A賞 胡蝶しのぶ",
+      "price": "9500",
+      "update_date": "2026/11/14",
+      "model_number": "67888"
+    },
+    {
+      "name": "一番くじ 姉の仇 B賞 童磨",
+      "price": "3500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 姉の仇 C賞 童磨 幼少期 ver.",
+      "price": "1400",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 上弦の参 C賞 猗窩座",
+      "price": "5500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 上弦の参 ラストワン賞 猗窩座",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 心を燃やせ ラストワン賞 煉獄杏寿郎 アートスケール",
+      "price": "5500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 受け継ぐ者 B賞 鬼舞辻無惨",
+      "price": "8000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 受け継ぐ者 C賞 義勇の想像再現フィギュア",
+      "price": "20000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 受け継ぐ者 ラストワン賞 宇髄天元",
+      "price": "8000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 繋いだ軌跡 A賞 竈門炭治郎 ＆ 竈門禰豆子",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": "64573"
+    },
+    {
+      "name": "一番くじ 繋いだ軌跡 B賞 竈門炭治郎 ＆ 煉獄杏寿郎",
+      "price": "9000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 繋いだ軌跡 ラストワン賞 竈門炭治郎 ＆ 煉獄杏寿郎",
+      "price": "9500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ ふめつのきずな 弐 A賞 冨岡義勇 ＆ 錆兎",
+      "price": "7000",
+      "update_date": "2026/11/14",
+      "model_number": "64449"
+    },
+    {
+      "name": "一番くじ ふめつのきずな 弐 B賞 不死川実弥 ＆ 玄弥",
+      "price": "15000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ ふめつのきずな 弐 C賞 妓夫太郎 ＆ 梅",
+      "price": "10000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ ふめつのきずな 弐 ラストワン賞 冨岡義勇 ＆ 錆兎",
+      "price": "7500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 柱稽古 A賞 不死川実弥",
+      "price": "8000",
+      "update_date": "2026/11/14",
+      "model_number": "64383"
+    },
+    {
+      "name": "一番くじ 柱稽古 B賞 伊黒小芭内",
+      "price": "8000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 柱稽古 C賞 冨岡義勇",
+      "price": "5500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 柱稽古 ラストワン賞 錆兎",
+      "price": "8500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 A賞 胡蝶しのぶ ＆ 栗花落カナヲ",
+      "price": "6000",
+      "update_date": "2026/11/14",
+      "model_number": "64309"
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 B賞 胡蝶カナエ",
+      "price": "5000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 C賞 すみ ＆ きよ ＆ なほ ちょこのっこセット",
+      "price": "2500",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 ラストワン賞 胡蝶しのぶ ＆ 栗花落カナヲ",
+      "price": "7000",
+      "update_date": "2026/11/14",
+      "model_number": ""
+    },
+    {
+      "name": "一番くじ ふめつのきずな A賞 竈門炭治郎 ＆ 禰豆子",
+      "price": "5000",
+      "update_date": "2026/11/14",
+      "model_number": "62720"
+    },
+    {
+      "name": "一番くじ 上弦の弐 C賞 童磨",
+      "price": "4000",
+      "update_date": "2026/11/14",
+      "model_number": "68163"
+    },
+    {
+      "name": "一番くじ 上弦の弐 D賞 炭治郎と義勇のてちてち",
+      "price": "6000",
+      "update_date": "2026/11/14",
+      "model_number": "68163"
+    },
+    {
+      "name": "一番くじ 上弦の弐 ラストワン賞 童磨",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": "68163"
+    },
+    {
+      "name": "一番くじ 姉の仇 B賞 童磨",
+      "price": "3500",
+      "update_date": "2026/11/14",
+      "model_number": "67888"
+    },
+    {
+      "name": "一番くじ 姉の仇 C賞 童磨 幼少期 ver.",
+      "price": "1400",
+      "update_date": "2026/11/14",
+      "model_number": "67888"
+    },
+    {
+      "name": "一番くじ 姉の仇 ラストワン賞 童磨",
+      "price": "4000",
+      "update_date": "2026/11/14",
+      "model_number": "67888"
+    },
+    {
+      "name": "一番くじ 雷の兄弟 A賞 我妻善逸",
+      "price": "2500",
+      "update_date": "2026/11/14",
+      "model_number": "67837"
+    },
+    {
+      "name": "一番くじ 雷の兄弟 B賞 獪岳",
+      "price": "3500",
+      "update_date": "2026/11/14",
+      "model_number": "67837"
+    },
+    {
+      "name": "一番くじ 雷の兄弟 ラストワン賞 狛治",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": "67837"
+    },
+    {
+      "name": "一番くじ 上弦の参 A賞 竈門炭治郎",
+      "price": "3800",
+      "update_date": "2026/11/14",
+      "model_number": "67738"
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 B賞 胡蝶カナエ",
+      "price": "5000",
+      "update_date": "2026/11/14",
+      "model_number": "64309"
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 C賞 すみ & きよ & なほ ちょこのっこセット",
+      "price": "2500",
+      "update_date": "2026/11/14",
+      "model_number": "64309"
+    },
+    {
+      "name": "一番くじ 思い出の蝶屋敷 ラストワン賞 胡蝶しのぶ & 栗花落カナヲ",
+      "price": "7000",
+      "update_date": "2026/11/14",
+      "model_number": "64309"
+    },
+    {
+      "name": "一番くじ ふめつのきずな B賞 煉獄杏寿郎 & 千寿郎",
+      "price": "3000",
+      "update_date": "2026/11/14",
+      "model_number": "62720"
+    },
+    {
+      "name": "一番くじ ふめつのきずな C賞 時透有一郎 & 無一郎",
+      "price": "7000",
+      "update_date": "2026/11/14",
+      "model_number": "62720"
+    },
+    {
+      "name": "一番くじ ふめつのきずな ラストワン賞 竈門炭治郎 & 禰豆子",
+      "price": "4000",
+      "update_date": "2026/11/14",
+      "model_number": "62720"
+    },
+    {
+      "name": "一番くじ 襲撃 A賞 甘露寺蜜璃",
+      "price": "6000",
+      "update_date": "2026/11/14",
+      "model_number": "62696"
+    },
+    {
+      "name": "一番くじ 襲撃 B賞 憎珀天",
+      "price": "4500",
+      "update_date": "2026/11/14",
+      "model_number": "62696"
+    },
+    {
+      "name": "一番くじ 襲撃 ラストワン賞 甘露寺蜜璃",
+      "price": "7000",
+      "update_date": "2026/11/14",
+      "model_number": "62696"
+    }
+  ]
+}
