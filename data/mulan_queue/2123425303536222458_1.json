@@ -1,0 +1,849 @@
+{
+  "tweet_id": "2123425303536222458_1",
+  "original_tweet_id": "2123425303536222458",
+  "store": "ムラ中",
+  "text": "📢11/20更新📢\n『進撃の巨人』プライズフィギュア\n一番くじフィギュア買取速報です✨️\n有効期限は2026年12月4日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/lI2ezqpASv",
+  "image_file": "2123425303536222458_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2123425303536222458",
+  "posted_at": "2026/11/19 23:36",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "Grandista エレン・イェーガー",
+      "price": "1600",
+      "update_date": "2026/11/20",
+      "model_number": "2773703",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.529,
+        "unmatched": [
+          "エレン",
+          "イェーガー"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「エレン」「イェーガー」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Grandista リヴァイ",
+      "price": "2700",
+      "update_date": "2026/11/20",
+      "model_number": "2773481",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.692,
+        "unmatched": [
+          "リヴァイ"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「リヴァイ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Figuno A. エレン",
+      "price": "800",
+      "update_date": "2026/11/20",
+      "model_number": "2838672",
+      "_check": {
+        "status": "suspect",
+        "ref": "Figuno 伏黒恵 C",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "A.",
+          "エレン"
+        ],
+        "missing": [
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "「A.」「エレン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Figuno B. エレン",
+      "price": "800",
+      "update_date": "2026/11/20",
+      "model_number": "2838672",
+      "_check": {
+        "status": "suspect",
+        "ref": "Figuno 伏黒恵 C",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "B.",
+          "エレン"
+        ],
+        "missing": [
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "「B.」「エレン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Figuno C. リヴァイ",
+      "price": "1000",
+      "update_date": "2026/11/20",
+      "model_number": "2838672",
+      "_check": {
+        "status": "suspect",
+        "ref": "Figuno 伏黒恵 C",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "C.",
+          "リヴァイ"
+        ],
+        "missing": [
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "「C.」「リヴァイ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Figuno D. リヴァイ",
+      "price": "1000",
+      "update_date": "2026/11/20",
+      "model_number": "2838672",
+      "_check": {
+        "status": "suspect",
+        "ref": "Figuno 伏黒恵 C",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "D.",
+          "リヴァイ"
+        ],
+        "missing": [
+          "伏黒恵"
+        ],
+        "suggestion": "",
+        "reason": "「D.」「リヴァイ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "エレン・イェーガー The Final Season",
+      "price": "4500",
+      "update_date": "2026/11/20",
+      "model_number": "2606951",
+      "_check": {
+        "status": "suspect",
+        "ref": "FINAL SEASON FIGURE 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "エレン",
+          "イェーガー",
+          "The"
+        ],
+        "missing": [
+          "figure",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "「エレン」「イェーガー」「The」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 心臓を捧げよ B賞 ミカサ",
+      "price": "9500",
+      "update_date": "2026/11/20",
+      "model_number": "68261",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "心臓を捧げよ",
+          "ミカサ"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 心臓を捧げよ ラストワン賞 リヴァイ",
+      "price": "20000",
+      "update_date": "2026/11/20",
+      "model_number": "68261",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "心臓を捧げよ",
+          "リヴァイ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「心臓を捧げよ」「リヴァイ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ それぞれの決意 A賞 鎧の巨人",
+      "price": "32000",
+      "update_date": "2026/11/20",
+      "model_number": "68066",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "それぞれの決意",
+          "鎧の巨人"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 獣の巨人は俺が仕留める ラストワン賞",
+      "price": "24000",
+      "update_date": "2026/11/20",
+      "model_number": "67857",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "獣の巨人は俺が仕留める"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 壁の外の世界 ラストワン賞 エレン",
+      "price": "62000",
+      "update_date": "2026/11/20",
+      "model_number": "67821",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.526,
+        "unmatched": [
+          "壁の外の世界",
+          "エレン"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「壁の外の世界」「エレン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Grandista エレン",
+      "price": "1600",
+      "update_date": "2026/11/20",
+      "model_number": "2773480",
+      "_check": {
+        "status": "suspect",
+        "ref": "Grandista S・F",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "エレン"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「エレン」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "エレン The Final Season",
+      "price": "4500",
+      "update_date": "2026/11/20",
+      "model_number": "2606951",
+      "_check": {
+        "status": "suspect",
+        "ref": "FINAL SEASON FIGURE 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.647,
+        "unmatched": [
+          "エレン",
+          "The"
+        ],
+        "missing": [
+          "figure",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "「エレン」「The」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "リヴァイ The Final Season",
+      "price": "3800",
+      "update_date": "2026/11/20",
+      "model_number": "2606951",
+      "_check": {
+        "status": "suspect",
+        "ref": "FINAL SEASON FIGURE 緑谷出久",
+        "source": "登録済み/sheet1",
+        "score": 0.611,
+        "unmatched": [
+          "リヴァイ",
+          "The"
+        ],
+        "missing": [
+          "figure",
+          "緑谷出久"
+        ],
+        "suggestion": "",
+        "reason": "「リヴァイ」「The」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "リヴァイ Special 10th ANNIVERSARY ver.",
+      "price": "4500",
+      "update_date": "2026/11/20",
+      "model_number": "2704303",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 10th anniversary! A賞 日向翔陽",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "リヴァイ",
+          "Special",
+          "ver."
+        ],
+        "missing": [
+          "一番くじ",
+          "a賞",
+          "日向翔陽"
+        ],
+        "suggestion": "リヴァイ Special 10th ANNIVERSARY iver",
+        "reason": "「リヴァイ」「Special」「ver.」が参照名に見当たりません（候補: ver.→iver）"
+      }
+    },
+    {
+      "name": "一番くじ 心臓を捧げよ A賞 エレン",
+      "price": "3000",
+      "update_date": "2026/11/20",
+      "model_number": "68261",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "心臓を捧げよ",
+          "エレン"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 心臓を捧げよ C賞 アルミン",
+      "price": "7000",
+      "update_date": "2026/11/20",
+      "model_number": "68261",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "心臓を捧げよ",
+          "アルミン"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 心臓を捧げよ D賞 エルヴィン",
+      "price": "5500",
+      "update_date": "2026/11/20",
+      "model_number": "68261",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 懐玉・玉折 参 D賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "心臓を捧げよ",
+          "エルヴィン"
+        ],
+        "missing": [
+          "懐玉",
+          "玉折",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 心臓を捧げよ E賞 ハンジ",
+      "price": "5500",
+      "update_date": "2026/11/20",
+      "model_number": "68261",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 懐玉・玉折 参 E賞 夏油傑",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "心臓を捧げよ",
+          "ハンジ"
+        ],
+        "missing": [
+          "懐玉",
+          "玉折",
+          "夏油傑"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ラストワン賞 獣の巨人",
+      "price": "8500",
+      "update_date": "2026/11/20",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.6,
+        "unmatched": [
+          "獣の巨人"
+        ],
+        "missing": [
+          "一番くじ",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「獣の巨人」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 獣の巨人は俺が仕留める A賞 獣の巨人",
+      "price": "14000",
+      "update_date": "2026/11/20",
+      "model_number": "67857",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "獣の巨人は俺が仕留める",
+          "獣の巨人"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 獣の巨人は俺が仕留める B賞 リヴァイ",
+      "price": "6000",
+      "update_date": "2026/11/20",
+      "model_number": "67857",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "獣の巨人は俺が仕留める",
+          "リヴァイ"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 獣の巨人は俺が仕留める ラストワン賞 超大型巨人",
+      "price": "24000",
+      "update_date": "2026/11/20",
+      "model_number": "67857",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "獣の巨人は俺が仕留める",
+          "超大型巨人"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 壁の外の世界 A賞 女型の巨人",
+      "price": "48000",
+      "update_date": "2026/11/20",
+      "model_number": "67821",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "壁の外の世界",
+          "女型の巨人"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 壁の外の世界 B賞 アニ",
+      "price": "12000",
+      "update_date": "2026/11/20",
+      "model_number": "67821",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "壁の外の世界",
+          "アニ"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 壁の外の世界 ラストワン賞 エレン（巨人）",
+      "price": "62000",
+      "update_date": "2026/11/20",
+      "model_number": "67821",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.476,
+        "unmatched": [
+          "壁の外の世界",
+          "エレン",
+          "巨人"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 地鳴らし A賞 エレン＆ミカサ＆アルミン",
+      "price": "22000",
+      "update_date": "2026/11/20",
+      "model_number": "64490",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.3,
+        "unmatched": [
+          "地鳴らし",
+          "エレン",
+          "ミカサ",
+          "アルミン"
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 地鳴らし B賞 リヴァイ",
+      "price": "9500",
+      "update_date": "2026/11/20",
+      "model_number": "64490",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.429,
+        "unmatched": [
+          "地鳴らし",
+          "リヴァイ"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 地鳴らし C賞 ハンジ",
+      "price": "11000",
+      "update_date": "2026/11/20",
+      "model_number": "64490",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.462,
+        "unmatched": [
+          "地鳴らし",
+          "ハンジ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 地鳴らし I賞 地鳴らし（全種共通）",
+      "price": "700",
+      "update_date": "2026/11/20",
+      "model_number": "64490",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ 死滅回游 弐 I賞 石流龍",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "地鳴らし",
+          "地鳴らし",
+          "全種共通"
+        ],
+        "missing": [
+          "死滅回游",
+          "石流龍"
+        ],
+        "suggestion": "一番くじ 地鳴らし I賞 (全種共通)",
+        "reason": "「地鳴らし」「地鳴らし」「全種共通」が参照名に見当たりません、同じ単語が重なっています（候補: 重複「地鳴らし」を削除）"
+      }
+    },
+    {
+      "name": "一番くじ 地鳴らし ラストワン賞 終尾の巨人",
+      "price": "48000",
+      "update_date": "2026/11/20",
+      "model_number": "64490",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.526,
+        "unmatched": [
+          "地鳴らし",
+          "終尾の巨人"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「地鳴らし」「終尾の巨人」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ 自由を求めて A賞 エレン 巨人 Ver.",
+      "price": "32000",
+      "update_date": "2026/11/20",
+      "model_number": "62631",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ レゼ篇 A賞 レゼ",
+        "source": "登録済み/sheet1",
+        "score": 0.286,
+        "unmatched": [
+          "自由を求めて",
+          "エレン",
+          "巨人",
+          "Ver."
+        ],
+        "missing": [
+          "レゼ篇",
+          "レゼ"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 自由を求めて B賞 エレン",
+      "price": "16000",
+      "update_date": "2026/11/20",
+      "model_number": "62631",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.4,
+        "unmatched": [
+          "自由を求めて",
+          "エレン"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ それぞれの決意 B賞 顎の巨人",
+      "price": "18000",
+      "update_date": "2026/11/20",
+      "model_number": "68066",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ B賞 七海建人",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "それぞれの決意",
+          "顎の巨人"
+        ],
+        "missing": [
+          "七海建人"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ それぞれの決意 C賞 リヴァイ",
+      "price": "11000",
+      "update_date": "2026/11/20",
+      "model_number": "68066",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.353,
+        "unmatched": [
+          "それぞれの決意",
+          "リヴァイ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ それぞれの決意 D賞 巨人ヘッドマグネット",
+      "price": "3000",
+      "update_date": "2026/11/20",
+      "model_number": "68066",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ 懐玉・玉折 参 D賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.261,
+        "unmatched": [
+          "それぞれの決意",
+          "巨人ヘッドマグネット"
+        ],
+        "missing": [
+          "懐玉",
+          "玉折",
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 自由を求めて C賞 リヴァイ",
+      "price": "9000",
+      "update_date": "2026/11/20",
+      "model_number": "62631",
+      "_check": {
+        "status": "unknown",
+        "ref": "一番くじ C賞 宿儺",
+        "source": "登録済み/sheet1",
+        "score": 0.375,
+        "unmatched": [
+          "自由を求めて",
+          "リヴァイ"
+        ],
+        "missing": [
+          "宿儺"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ 自由を求めて ラストワン賞 リヴァイ",
+      "price": "11000",
+      "update_date": "2026/11/20",
+      "model_number": "62631",
+      "_check": {
+        "status": "suspect",
+        "ref": "一番くじ ラストワン賞 五条悟",
+        "source": "登録済み/sheet1",
+        "score": 0.5,
+        "unmatched": [
+          "自由を求めて",
+          "リヴァイ"
+        ],
+        "missing": [
+          "五条悟"
+        ],
+        "suggestion": "",
+        "reason": "「自由を求めて」「リヴァイ」が参照名に見当たりません"
+      }
+    }
+  ],
+  "auto_checked_at": "2026/11/20 09:38"
+}
