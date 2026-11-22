@@ -1,0 +1,1025 @@
+{
+  "tweet_id": "2124000518104297794_1",
+  "original_tweet_id": "2124000518104297794",
+  "store": "ムラ中",
+  "text": "📢11/21更新📢\n『その着せ替え人形は恋をする 着せ恋』\nプライズフィギュア・市販フィギュア買取速報です✨\n有効期限は2026年12月5日迄💨\n\n※査定日に応じて店頭優先になります\n※予告なく終了している場合がございます\n\n皆様のお持込みをお待ちしております🙇\n\n#ムラ中買取 https://t.co/JP6XbeVAND",
+  "image_file": "2124000518104297794_1.jpg",
+  "tweet_url": "https://x.com/mulanakiba_chuo/status/2124000518104297794",
+  "posted_at": "2026/11/21 13:42",
+  "ocr_model": "gemini-3.8-flash",
+  "parsed_items": [
+    {
+      "name": "T-most 喜多川海夢 黒江雫 ver.",
+      "price": "1600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most 喜多川海夢 黒江雫 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 リズ ver.",
+      "price": "2200",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most 喜多川海夢 リズ ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 バニー ver.",
+      "price": "1600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "バニー"
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「バニー」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "AMP+ 喜多川海夢 ブラックロベリア ver.",
+      "price": "900",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ 喜多川海夢 ブラックロベリア ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ 喜多川海夢 ブラックロベリア ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Desktop Cute 喜多川海夢 十六夜ありさ ver.",
+      "price": "1300",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "十六夜ありさ"
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「十六夜ありさ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Desktop Cute 喜多川海夢 リズ ver.",
+      "price": "2600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute 喜多川海夢 リズ ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Yumemirize 喜多川海夢",
+      "price": "1400",
+      "update_date": "2026/11/21",
+      "model_number": "1121876",
+      "_check": {
+        "status": "verified",
+        "ref": "Yumemirize 喜多川海夢",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "喜多川海夢"
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1121876 で登録済みの「Yumemirize 喜多川海夢」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Xstellar 喜多川海夢",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1123168",
+      "_check": {
+        "status": "verified",
+        "ref": "Xstellar 喜多川海夢",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "喜多川海夢"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1123168 で登録済みの「Xstellar 喜多川海夢」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Vivit 喜多川海夢 巫女 Ver.",
+      "price": "3000",
+      "update_date": "2026/11/21",
+      "model_number": "SS15978",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "Vivit",
+          "巫女"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "「Vivit」「巫女」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "2798673",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2798673 で登録済みの「GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.」と一致"
+      },
+      "_ocr_name": "GLITTER&GLAMOURS 喜多川海夢 文化祭 ver.",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "GLITTER&GLAMOURS 喜多川海夢 冬制服 ver.",
+      "price": "1500",
+      "update_date": "2026/11/21",
+      "model_number": "2798676",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.889,
+        "unmatched": [
+          "冬制服"
+        ],
+        "missing": [
+          "文化祭"
+        ],
+        "suggestion": "",
+        "reason": "「冬制服」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "一番くじ Season2 ラストワン賞 喜多川海夢",
+      "price": "30000",
+      "update_date": "2026/11/21",
+      "model_number": "67931",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Season2 ラストワン賞 喜多川海夢",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 67931 で登録済みの「一番くじ Season2 ラストワン賞 喜多川海夢」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 黒江雫 ver.",
+      "price": "1600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most 喜多川海夢 黒江雫 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 黒江雫 ver.(再販)",
+      "price": "1600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most 喜多川海夢 黒江雫 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 リズ ver.",
+      "price": "2200",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most 喜多川海夢 リズ ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 リズ ver.(再販)",
+      "price": "2200",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「T-most 喜多川海夢 リズ ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "T-most 喜多川海夢 バニー Ver.",
+      "price": "1600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.812,
+        "unmatched": [
+          "バニー"
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「バニー」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "AMP+ 喜多川海夢 黒江雫衣装 ver.",
+      "price": "2400",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.706,
+        "unmatched": [
+          "黒江雫衣装"
+        ],
+        "missing": [],
+        "suggestion": "",
+        "reason": "「黒江雫衣装」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "AMP+ 喜多川海夢 黒江雫 ver.",
+      "price": "2800",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ 喜多川海夢 黒江雫 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "AMP+ 喜多川海夢 黒江雫 ver.(再販)",
+      "price": "2800",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ 喜多川海夢 黒江雫 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "AMP+ 喜多川海夢 ブラックロベリア ver.",
+      "price": "900",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "AMP+ 喜多川海夢 ブラックロベリア ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「AMP+ 喜多川海夢 ブラックロベリア ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Coreful 喜多川海夢 水着 ver.",
+      "price": "1500",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Coreful 喜多川海夢 水着 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Coreful 喜多川海夢 水着 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Coreful 喜多川海夢 制服 ver.",
+      "price": "2400",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Coreful 喜多川海夢 制服 ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Coreful 喜多川海夢 制服 ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Coreful 喜多川海夢 パーカー ver.",
+      "price": "1500",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Coreful 喜多川海夢 パーカー ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Coreful 喜多川海夢 パーカー ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Desktop Cute 喜多川海夢 リズ ver.",
+      "price": "2600",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Desktop Cute 喜多川海夢 リズ ver.」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Desktop Cute 喜多川海夢 十六夜ありさ Ver.",
+      "price": "1300",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "Desktop Cute 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.769,
+        "unmatched": [
+          "十六夜ありさ"
+        ],
+        "missing": [
+          "リズ"
+        ],
+        "suggestion": "",
+        "reason": "「十六夜ありさ」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Aqua Float Girls 喜多川海夢",
+      "price": "900",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Aqua Float Girls 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Aqua Float Girls 喜多川海夢」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Aqua Float Girls 喜多川海夢(再販)",
+      "price": "900",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "Aqua Float Girls 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「Aqua Float Girls 喜多川海夢」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "BiCute Pure 喜多川海夢",
+      "price": "1300",
+      "update_date": "2026/11/21",
+      "model_number": "19706",
+      "_check": {
+        "status": "verified",
+        "ref": "BiCute Pure 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「BiCute Pure 喜多川海夢」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "BiCute Dark 喜多川海夢 黒江雫 ver.",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "20760",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.545,
+        "unmatched": [
+          "BiCute",
+          "Dark"
+        ],
+        "missing": [
+          "amp"
+        ],
+        "suggestion": "",
+        "reason": "「BiCute」「Dark」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "ぬーどるストッパー 喜多川海夢",
+      "price": "1800",
+      "update_date": "2026/11/21",
+      "model_number": "16025",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 喜多川海夢",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「ぬーどるストッパー 喜多川海夢」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "ぬーどるストッパー 喜多川海夢 (再販)",
+      "price": "1800",
+      "update_date": "2026/11/21",
+      "model_number": "18489",
+      "_check": {
+        "status": "verified",
+        "ref": "ぬーどるストッパー 喜多川海夢 (再販)",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 18489 で登録済みの「ぬーどるストッパー 喜多川海夢 (再販)」と一致"
+      },
+      "_ocr_name": "ぬーどるストッパー 喜多川海夢(再販)",
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Yumemirize 喜多川海夢",
+      "price": "1400",
+      "update_date": "2026/11/21",
+      "model_number": "1121876",
+      "_check": {
+        "status": "verified",
+        "ref": "Yumemirize 喜多川海夢",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "喜多川海夢"
+        ],
+        "missing": [
+          "狗巻棘"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1121876 で登録済みの「Yumemirize 喜多川海夢」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Xstellar 喜多川海夢",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1123168",
+      "_check": {
+        "status": "verified",
+        "ref": "Xstellar 喜多川海夢",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "喜多川海夢"
+        ],
+        "missing": [
+          "乙骨憂太"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1123168 で登録済みの「Xstellar 喜多川海夢」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Luminasta 喜多川海夢 リズ",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1114827",
+      "_check": {
+        "status": "verified",
+        "ref": "Luminasta 喜多川海夢 リズ",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "喜多川海夢",
+          "リズ"
+        ],
+        "missing": [
+          "脹相"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN 1114827 で登録済みの「Luminasta 喜多川海夢 リズ」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Vivit 喜多川海夢 巫女 Ver.",
+      "price": "3000",
+      "update_date": "2026/11/21",
+      "model_number": "SS15978",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "Vivit",
+          "巫女"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "「Vivit」「巫女」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "Vivit 喜多川海夢 ジャージメイド Ver.",
+      "price": "800",
+      "update_date": "2026/11/21",
+      "model_number": "SS16695",
+      "_check": {
+        "status": "verified",
+        "ref": "Vivit 喜多川海夢 ジャージメイド Ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [
+          "Vivit",
+          "ジャージメイド"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "型番/JAN SS16695 で登録済みの「Vivit 喜多川海夢 ジャージメイド Ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "Vivit 喜多川海夢 探偵 Ver.",
+      "price": "800",
+      "update_date": "2026/11/21",
+      "model_number": "SS15723",
+      "_check": {
+        "status": "suspect",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.562,
+        "unmatched": [
+          "Vivit",
+          "探偵"
+        ],
+        "missing": [
+          "amp",
+          "黒江雫"
+        ],
+        "suggestion": "",
+        "reason": "「Vivit」「探偵」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "2798673",
+      "_check": {
+        "status": "verified",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 2798673 で登録済みの「GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "GLITTER&GLAMOURS 喜多川海夢 冬制服 Ver.",
+      "price": "1500",
+      "update_date": "2026/11/21",
+      "model_number": "2798676",
+      "_check": {
+        "status": "suspect",
+        "ref": "GLITTER & GLAMOURS 喜多川海夢 文化祭 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.889,
+        "unmatched": [
+          "冬制服"
+        ],
+        "missing": [
+          "文化祭"
+        ],
+        "suggestion": "",
+        "reason": "「冬制服」が参照名に見当たりません"
+      }
+    },
+    {
+      "name": "ESPRESTO Detailed Elegance リズ Ver.",
+      "price": "1200",
+      "update_date": "2026/11/21",
+      "model_number": "2753682",
+      "_check": {
+        "status": "unknown",
+        "ref": "T-most 喜多川海夢 リズ ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.2,
+        "unmatched": [
+          "ESPRESTO",
+          "Detailed",
+          "Elegance"
+        ],
+        "missing": [
+          "most",
+          "喜多川海夢"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ESPRESTO Detailed Elegance 黒江雫 ver.",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "2775885",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 黒江雫 ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.226,
+        "unmatched": [
+          "ESPRESTO",
+          "Detailed",
+          "Elegance"
+        ],
+        "missing": [
+          "amp",
+          "喜多川海夢"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ESPRESTO Detailed Elegance ブラックロベリア Ver.",
+      "price": "800",
+      "update_date": "2026/11/21",
+      "model_number": "2753681",
+      "_check": {
+        "status": "unknown",
+        "ref": "AMP+ 喜多川海夢 ブラックロベリア ver.",
+        "source": "登録済み/sheet1",
+        "score": 0.333,
+        "unmatched": [
+          "ESPRESTO",
+          "Detailed",
+          "Elegance"
+        ],
+        "missing": [
+          "amp",
+          "喜多川海夢"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "ESPRESTO Detailed Elegance チャイナメイド Ver.",
+      "price": "800",
+      "update_date": "2026/11/21",
+      "model_number": "2744332",
+      "_check": {
+        "status": "unknown",
+        "ref": "ESPRESTO Flower Crown ヒンメル",
+        "source": "登録済み/sheet1",
+        "score": 0.229,
+        "unmatched": [
+          "Detailed",
+          "Elegance",
+          "チャイナメイド",
+          "Ver."
+        ],
+        "missing": [
+          "flower",
+          "crown",
+          "ヒンメル"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "寝そべりLL ぬいぐるみ 喜多川海夢 初めての採寸",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1066910",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "寝そべりLL",
+          "喜多川海夢",
+          "初めての採寸"
+        ],
+        "missing": [
+          "マスコット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "寝そべりLL ぬいぐるみ 喜多川海夢 初めての採寸(再販)",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1109910",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.227,
+        "unmatched": [
+          "寝そべりLL",
+          "喜多川海夢",
+          "初めての採寸"
+        ],
+        "missing": [
+          "マスコット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "寝そべりLL ぬいぐるみ 海夢(雫)",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1067291",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "寝そべりLL",
+          "海夢"
+        ],
+        "missing": [
+          "マスコット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "寝そべりLL ぬいぐるみ 海夢(雫)(再販)",
+      "price": "1000",
+      "update_date": "2026/11/21",
+      "model_number": "1109909",
+      "_check": {
+        "status": "unknown",
+        "ref": "パレード ぬいぐるみ / マスコット",
+        "source": "登録済み/sheet1",
+        "score": 0.385,
+        "unmatched": [
+          "寝そべりLL",
+          "海夢"
+        ],
+        "missing": [
+          "マスコット"
+        ],
+        "suggestion": "",
+        "reason": "参照リストに近い商品名がありません"
+      }
+    },
+    {
+      "name": "一番くじ Season2 ラストワン賞 喜多川海夢",
+      "price": "30000",
+      "update_date": "2026/11/21",
+      "model_number": "67931",
+      "_check": {
+        "status": "verified",
+        "ref": "一番くじ Season2 ラストワン賞 喜多川海夢",
+        "source": "型番/JAN一致",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "型番/JAN 67931 で登録済みの「一番くじ Season2 ラストワン賞 喜多川海夢」と一致"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "アニプレックスくじ A賞 黒江雫",
+      "price": "5000",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "verified",
+        "ref": "アニプレックスくじ A賞 黒江雫",
+        "source": "登録済み/sheet1",
+        "score": 1.0,
+        "unmatched": [],
+        "missing": [],
+        "suggestion": "",
+        "reason": "すべての単語が「アニプレックスくじ A賞 黒江雫」（登録済み/sheet1）に含まれています"
+      },
+      "_registered": true,
+      "_auto_registered": true
+    },
+    {
+      "name": "アニプレックスくじ ラスト賞 黒江雫",
+      "price": "5000",
+      "update_date": "2026/11/21",
+      "model_number": "",
+      "_check": {
+        "status": "suspect",
+        "ref": "アニプレックスくじ A賞 黒江雫",
+        "source": "登録済み/sheet1",
+        "score": 0.75,
+        "unmatched": [
+          "ラスト賞"
+        ],
+        "missing": [
+          "a賞"
+        ],
+        "suggestion": "",
+        "reason": "「ラスト賞」が参照名に見当たりません"
+      }
+    }
+  ],
+  "auto_checked_at": "2026/11/22 09:38"
+}
